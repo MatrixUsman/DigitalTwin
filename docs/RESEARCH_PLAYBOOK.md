@@ -1,0 +1,66 @@
+# Repeatable research playbook
+
+Version 1 — 2026-10-16. This is the living procedure for water, manufacturing, and smart grids. Update it as we learn from actual work. The [roadmap](RESEARCH_ROADMAP.md) explains the lifecycle; this file explains how to repeat each step. Each project's `docs/WORK_LOG.md` records what actually happened; its `STATUS.md` is the current handoff.
+
+Reuse the process while independently checking each sector's papers, data, assumptions, and contribution. The existence of this checklist does not authorize downloads, installations, experiments, external messages, or publication beyond the user's current instructions.
+
+## Start and finish every session
+
+1. Select the active project and bounded task from the user's instruction or its recorded next step. Read root and project `AGENTS.md`, its brief, status, and latest work-log entries.
+2. Check prerequisites in the relevant step below. Continue authorized independent work if an external dependency is pending; record the blocker without declaring the whole step finished.
+3. Execute only the scoped work. Save source evidence and artifacts in the active project. For commands needed to reproduce a result, record the exact working directory, command, configuration, versions, and output location. Mark proposed commands as **not run**.
+4. Append a dated entry using the template below. Record unsuccessful attempts and protocol changes as well as successes. Keep access credentials, signed download links, restricted data, and private identifiers out of shared documentation.
+5. Update the project's `STATUS.md`, then update this playbook only when there is a generalizable procedure or lesson. A change to shared workflow belongs in the [root work log](WORK_LOG.md).
+
+## Procedure register
+
+Statuses describe our evidence about the procedure, not the progress of all three projects. **Proposed** means not yet executed here; **audited** means inspected but not demonstrated by an experiment; **executed/validated** requires linked records of actual work and checks.
+
+| Step | Repeatable instructions and prerequisites | Required record and completion check | Current evidence |
+|---|---|---|---|
+| 0. Set up project | Confirm owner and sector; create independent brief, rules, status, and storage; retain root shared skill; protect data and outputs with ignore rules | Check local links, owner mapping, empty storage versus real files, and ignore behavior; preserve existing evidence | Executed/validated for the three-folder setup; [migration record](WORKSPACE_DECISIONS.md) |
+| 1. Audit literature | Treat candidates as leads. Verify publisher/proceedings metadata, full manuscript and author repository. Record publication date/version, identifier, review status, dataset/release, preprocessing, splits, threshold selection, metrics, code revision/license, and limitations | Project `docs/LITERATURE_EVIDENCE.md` plus detailed notes. Distinguish verified, inaccessible, and unresolved fields; separate background from eligible comparisons | Water has a documented audit with remaining unknowns; manufacturing/grid have initial screening only. No reproduction established |
+| 2. Establish data feasibility | Verify provider terms and authorized users; identify original releases, labels, chronology, eligible observations, and storage needs. Check whether several candidate methods can use the same data within this sector | Project `docs/DATASET_ACCESS_CHECKLIST.md`; explicit compatibility/access decision. A mirror listing is not permission or byte identity | Source/access audits only; no acquired benchmark files |
+| 3. Acquire and identify files | After access and task authorization are established, obtain official or otherwise authorized files; preserve originals. Record source, acquisition date, exact filenames, sizes, checksums, terms, schema, label/event definitions, gaps and release differences | Manifest in project `datasets/manifests/`; raw files in ignored `datasets/raw/`; private access records in `local/`. Verify archive integrity and reconcile against provider documentation | Proposed; no acquisition/loader validation completed |
+| 4. Freeze the comparison | Define twin role, threat model, trusted inputs, common release/features, chronological or scenario-group partitions, preprocessing, score alignment, calibration, metrics and baseline variants before test scoring | Project `docs/REPRODUCTION_PLAN.md` and versioned configs. Review for leakage; explain every upstream deviation. Select all tunable choices without held-out test attacks | Water proposal/code audit exists; no frozen executable protocol |
+| 5. Prepare software | Inspect upstream code before execution; pin revision/license; create project-local environment when authorized; record dependency versions. Implement loaders, splits, metrics and provenance incrementally | Check meaningful synthetic fixtures for schema/label alignment, gaps, chronological isolation, no crossing windows, train-only transforms, metric edge cases and score-before-update. Save commands/results; never call fixtures benchmark data | Proposed; environments, executable tests and loaders not created |
+| 6. Pilot and reproduce | Prepare exact baseline config and scoped pilot budget. Once authorized, run a bounded pilot to validate pipeline and estimate resources. Obtain approval for lengthy/paid runs before execution | Per-run manifest, resolved config, seeds, hardware, code/data/split hashes, commands, logs, runtime and failures. Classify faithful reproduction versus modified-protocol run versus reimplementation | Proposed; no pilot or benchmark runs |
+| 7. Evaluate the hypothesis | Use a separate, evidence-supported question for each sector; specify the change, controls, ablations, repeats, stress tests and success/failure criteria before accessing final test outcomes | Comparable runs, negative findings, limitations and traceable tables/figures. Keep original benchmarks and synthetic stress tests separate | Proposed; novelty/mechanisms not finalized |
+| 8. Write and review | Build source notes throughout; draft methods from implemented procedures and results only from recorded runs. Check references, figures, contribution/authorship and overlap between projects | Claim-to-evidence links, limitations, venue requirements and reviewed manuscript. Publishing requires explicit approval | Proposed; no manuscript/results produced |
+
+## Lessons already established
+
+- Dataset names alone do not establish comparability. Resolve the exact release, preprocessing, time ordering, labels, and accessible inputs before selecting the final comparison.
+- Audit checkpoint selection, threshold search, and final metric reporting separately. Water's CAROTS audit found different test-based best-F1 paths; changing one does not establish a leak-free evaluation. See [water evidence](../water/docs/literature/CAROTS_AND_INFORMATION_THEORETIC.md).
+- A public listing or repository is a lead until authorization, contents, provenance, and usability are checked. A simulator, bus case, architecture framework, or fault record is not automatically an attack dataset or runnable detector.
+- Keep setup checks, synthetic tests, measured benchmark results, and published paper scores explicitly distinct. Never mark a sibling project's stage complete because water completed a similar step.
+- Select per-sector decisions explicitly: water requires both SWaT and WADI; manufacturing needs production/run semantics; grids need electrical/topology and scenario semantics. These are different inputs to the same audit process.
+
+## Work-log entry template
+
+Copy this into the active project's `docs/WORK_LOG.md` after substantive work. Use sequential project-specific entry IDs. Use the root log for shared changes. Do not add placeholders as if they were completed entries.
+
+```text
+### YYYY-MM-DD — PROJECT-NNN — Bounded task
+Record type: contemporaneous / retrospective summary (identify source)
+Scope and authorization:
+Prerequisites and starting state:
+Actions actually completed:
+Evidence/artifacts (paths, source URLs and exact versions as applicable):
+Commands and working directories (or not applicable / unavailable):
+Checks and observed outcomes:
+Failures, unresolved facts and decisions:
+Reusable lesson / playbook change (or none):
+Run state: none / synthetic software check / pilot / benchmark (run-record path)
+Next bounded action and prerequisites:
+```
+
+For experiments, link the detailed run record required by `AGENTS.md`; this short session entry does not replace it. Preserve failed runs. Append a correction if an earlier entry proves wrong.
+
+## Starting the next project
+
+Use a request such as:
+
+> Work in `manufacturing/`. Read the shared research playbook, project instructions, status and work log. Apply the literature and dataset-feasibility procedure to manufacturing sources, using water's lessons where relevant. Record actual work and unresolved facts, update the handoff, and stop before installation or training.
+
+Use `smart_grids/` when that audit begins. Carry over the checklist and verified engineering lessons; independently select that project's sources, datasets, configuration and scientific assumptions.

@@ -1,0 +1,60 @@
+# Shared research workspace instructions
+
+This workspace contains **three independent academic digital-twin cybersecurity projects**, not a production application:
+
+- `water/` — Muhammad Usman — water treatment and distribution.
+- `manufacturing/` — Haiqa Mushtaq — smart manufacturing.
+- `smart_grids/` — Muhammad Usman Sanghla — electrical grids.
+
+Read `README.md` and `PROJECT_BRIEF.md`, then the active project's `AGENTS.md`, `PROJECT_BRIEF.md`, and `STATUS.md`. Resolve project-local paths from that project's directory. Root instructions apply to every project; child instructions add sector-specific requirements. Do not let a water-only rule silently constrain manufacturing or grids.
+
+## Scope and task routing
+
+- The user authorized restructuring and scoping these independent projects, followed by staged dataset/baseline work. Current work is setup and evidence audit; no models or benchmark results exist. Do not treat a folder, plan, or installed skill as proof of experimental readiness.
+- Default work order is water → manufacturing → smart grids, one bounded milestone at a time. Continue useful independent planning while external access is pending. A user instruction can explicitly select another project.
+- For an ambiguous request that could change multiple projects, establish the intended project before project-specific mutations; use session context when clear. Do not automatically replicate changes into sibling projects.
+- Never overwrite another project's context. Shared notes are limited to workspace facts, common rules, scheduling, and explicit cross-project decisions.
+- Keep each project's environment, configuration, raw data, derived data, fitted transforms, checkpoints, logs, and manuscript separate. Do not create cross-project dataset symlinks or reusable fitted-model state by default.
+- Ownership is not final authorship. Record actual contributions and author-order decisions separately. Different sectors/titles alone do not establish distinct publishable contributions.
+
+## Evidence and research integrity
+
+- Never fabricate citations, access, measurements, results, or uncertainty intervals. Prior chats, snippets, and candidate lists are leads, not verified evidence.
+- Default baseline publication window: **2023-10-16 through 2026-10-16**, inclusive; prefer 2024–2026. Dataset age is a different question. Document any justified eligibility changes before comparison. Keep background and preprints separate.
+- Verify primary publisher/proceedings/manuscript and author-code evidence. Record dates, identifiers, review status, exact source versions, datasets/releases, preprocessing, evaluation, code revision/license, and limitations. Mark unknown or inaccessible facts explicitly.
+- Distinguish paper existence, claim support, code availability, and reproducibility. Absence from search is not proof of nonexistence. Do not claim novelty, superiority, causality, physical fidelity, safety, or live deployment without evidence.
+- Within a project's main comparison, freeze consistent releases, eligible inputs, labels, splits, score alignment, and metric rules. Different sectors may need different datasets/protocols; do not pool their scores into one ranking.
+- Establish what the twin actually estimates/predicts and how it is coupled to observations. A generic classifier, static network trace, or simulator name does not establish a digital twin. A fault dataset does not automatically contain cyberattacks.
+- Preserve negative results. Distinguish faithful reproduction, author-code execution under a modified protocol, and our independent reimplementation. Record every deviation.
+
+## Data and evaluation
+
+- Confirm access, authorized users, terms, exact releases, original filenames, hashes, schema, labels, and provider documentation before loading benchmark data. A shared folder or university email does not establish another person's access permission.
+- Keep raw data unchanged under the active project's ignored `datasets/raw/` or an authorized external location. Derive outputs in `datasets/processed/`. Put private paths and approval records in that project's ignored `local/` directory.
+- Do not upload dataset contents, submit access requests, contact authors/providers, or publish files without explicit authorization. Provider terms still govern redistribution. Ignore rules are a precaution, not publication approval.
+- Split before window construction; respect chronology, episode boundaries and gaps. Fit transforms only on designated training/development partitions. Avoid future-looking interpolation and cross-split overlap.
+- **Never use held-out test attacks to select thresholds, hyperparameters, checkpoints, preprocessing, architectures, or preferred variants.** Test labels belong only to final scoring. Do not execute upstream oracle-best-F1 selection as our evaluation protocol.
+- Use unadjusted main metrics and explicit denominators; report event/delay and false-alarm behavior where meaningful. Never silently substitute point-adjusted scores, published scores, or optimal test thresholds.
+- For online replay, score before updating. Gates/adaptation cannot use true test labels or future observations. Distinguish state estimation, parameter learning, residual calibration, and alarm threshold updates.
+- Label artificial fixtures and perturbations **synthetic**. Smoke tests are software checks, not benchmark results. Measurement manipulation is not proof of physically valid operational change.
+
+## Experiments and workspace discipline
+
+- Maintain durable session records as part of every substantive task. At the start, read `docs/RESEARCH_PLAYBOOK.md`, the active project's `docs/WORK_LOG.md`, and its `STATUS.md`. At the end (and before a long task handoff), append what was actually done, evidence/artifact paths, checks and outcomes, failures, decisions, and the next bounded action to the project work log; refresh `STATUS.md`. Record shared setup changes in root `docs/WORK_LOG.md` instead of duplicating their details across projects.
+- When a completed step teaches a reusable procedure, update `docs/RESEARCH_PLAYBOOK.md` with its prerequisites, instructions, expected artifacts, checks, and limitations. Label it proposed, audited, or executed/validated as supported by evidence. Reuse the procedure in another sector only after checking that sector's data, permissions, and scientific assumptions. Never copy completion status or results between projects.
+- Keep logs chronological. Add corrections referencing earlier entries rather than silently rewriting history. Backfilled entries must say they summarize existing records, and must not invent commands, dates, or outcomes. Record exact reproducible commands and working directories when commands matter; keep secrets, personal access details, and restricted output in ignored `local/` or run storage and link only safe metadata.
+
+- Every reported run records project ID, owner/operator, seeds, resolved configuration, dataset/split hashes, preprocessing, dependency versions, interpreter, hardware, exact command and working directory, our revision/dirty state, upstream revision/patches, timestamps, logs, and metric definitions.
+- Validate loaders, chronology, feature/label/score alignment, calibration independence, metrics, and provenance before benchmark claims. Synthetic tests must work without private data or network access.
+- Use isolated environments inside the active project; record platform-specific locks after validation. Never modify system packages, unrelated projects, or shared base environments. Keep upstream checkouts under that project's ignored `baselines/vendor/`.
+- Get approval before paid compute, lengthy training, or publishing. Prepare a concrete run configuration and estimate from an authorized bounded pilot first. Schedule substantial runs sequentially on the shared machine unless resource capacity and user instructions support concurrency.
+- Prefer small explicit Python research modules; no app, cloud service, database, deployment, or automatic monitoring is implied.
+- At session end, update that project's `STATUS.md` with completed work, evidence paths, unresolved questions, next task, and actual run status. Never convert a proposed task into a completed result.
+
+## Research skill
+
+- Start from root `.agents/skills/academic-research-suite/SKILL.md`; provenance is in `docs/RESEARCH_SKILL_SETUP.md`. Keep the pinned package shared and unmodified. Select only the workflow relevant to the authorized task.
+- Skill-generated notes, caches, passports, and run state belong to the active project, never sibling projects. This folder setup is not an executed research-to-paper pipeline.
+- Project rules govern skill use: fuzzy title/year matches do not verify a source or its claims; failed searches mean unverified/inaccessible, not fabricated. Do not impose medical evidence rankings or arbitrary source quotas on engineering benchmarks.
+- Preserve current model/runtime choices. Optional hooks, cross-provider calls, API verification scripts, scheduled monitoring, and fixed full-team automation remain disabled unless separately authorized.
+- Skills are workflow guidance, not enforcement or accuracy guarantees. Bundled skill fixtures are not our datasets or results. Do not mark a paper as human-read on behalf of a researcher.

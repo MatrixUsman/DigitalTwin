@@ -1,0 +1,7 @@
+# Original architecture-paper lead
+
+Audit date: 2026-10-16. The actual user attachment `ijcatr15081004 (1).pdf` is absent, so equivalence to that file cannot be confirmed.
+
+The [author-uploaded full-text record](https://www.researchgate.net/publication/410949081_Digital_Twin-Enabled_Cybersecurity_Architecture_for_Predicting_Simulating_and_Mitigating_Advanced_Persistent_Threats_Across_Smart_Manufacturing_Systems/download) identifies Joshua Enoch Maxwellson's *Digital Twin-Enabled Cybersecurity Architecture for Predicting, Simulating, and Mitigating Advanced Persistent Threats Across Smart Manufacturing Systems*. Its manuscript header gives IJCATR volume 15, issue 08, pages 44–58 (2026), DOI `10.7753/IJCATR1508.1004`; the record says July 2026 and author upload 3 August 2026. Exact publication date and peer-review status remain unverified. [DOI resolution](https://doi.org/10.7753/IJCATR1508.1004) and a publisher PDF retrieval attempt failed in this audit.
+
+The accessible author text presents a manufacturing/APT architecture and mathematical evaluation framework. No usable SWaT/WADI release, preprocessing/split protocol, or matched executable author repository was verified. It is background motivation, not an admitted shared-dataset baseline. The notes' specific allegation about reference 21 has not been independently checked against the missing attachment and is not adopted here. No experimental claim or source reference from this paper should be reused without separate verification.
