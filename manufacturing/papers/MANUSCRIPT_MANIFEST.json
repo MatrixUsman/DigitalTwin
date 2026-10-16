@@ -1,0 +1,208 @@
+{
+  "audit_date": "2026-10-16",
+  "project": "manufacturing",
+  "scope": "public manuscripts and selected static source evidence; no upstream code executed",
+  "records": [
+    {
+      "paper": "casper",
+      "kind": "corrected_version_of_record",
+      "url": "https://ngcharithperera.gitlab.io/publications/pdfs/Kayan2024a.pdf",
+      "revision": null,
+      "retrieved_at_utc": "2026-10-16T17:06:32.443300+00:00",
+      "local_path": "baselines/casper/artifacts/casper_corrected_vor_v1.1.pdf",
+      "bytes": 7160458,
+      "sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "collected"
+    },
+    {
+      "paper": "twine",
+      "kind": "accepted_manuscript",
+      "url": "https://pure.qub.ac.uk/files/689658736/TWINE.pdf",
+      "revision": null,
+      "retrieved_at_utc": "2026-10-16T17:06:36.261075+00:00",
+      "local_path": null,
+      "bytes": null,
+      "sha256": null,
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "paper": "twine",
+      "kind": "accepted_manuscript_alternate_public_link",
+      "url": "https://pureadmin.qub.ac.uk/ws/files/689658736/TWINE.pdf",
+      "revision": null,
+      "retrieved_at_utc": "2026-10-16T17:06:36.398309+00:00",
+      "local_path": null,
+      "bytes": null,
+      "sha256": null,
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "paper": "casper",
+      "kind": "author_notebook",
+      "url": "https://raw.githubusercontent.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/bff03c91d155bf3134f6d801d3a4f4af7ea78adb/notebooks/casper.ipynb",
+      "revision": "bff03c91d155bf3134f6d801d3a4f4af7ea78adb",
+      "retrieved_at_utc": "2026-10-16T17:06:36.543730+00:00",
+      "local_path": "baselines/casper/artifacts/casper.ipynb",
+      "bytes": 2171524,
+      "sha256": "3f1beff113c904473cb554aa79edde7af31d777c4731eb93ba900e3aa4a5fea0",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "collected"
+    },
+    {
+      "paper": "twine",
+      "kind": "author_notebook",
+      "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/scripts/training.ipynb",
+      "revision": "841e1195acf90835c4c427e0fb48d10c08ed30d5",
+      "retrieved_at_utc": "2026-10-16T17:06:36.956884+00:00",
+      "local_path": "baselines/twine/artifacts/training.ipynb",
+      "bytes": 25560,
+      "sha256": "3bcaa5264946a6448a129ed952836b7db236cc67a206bdacc7f0db24219379ad",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "collected"
+    },
+    {
+      "paper": "twine",
+      "kind": "author_twin_code",
+      "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/scripts/digital_twin_azure.py",
+      "revision": "841e1195acf90835c4c427e0fb48d10c08ed30d5",
+      "retrieved_at_utc": "2026-10-16T17:06:37.399994+00:00",
+      "local_path": "baselines/twine/artifacts/digital_twin_azure.py",
+      "bytes": 6144,
+      "sha256": "c140135c220cdc34b52ba651c383558a36cd8dda937cc8736f26901054980773",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "collected"
+    },
+    {
+      "paper": "catboost",
+      "kind": "author_code",
+      "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/final_multi_run.py",
+      "revision": "7f2a691f94f548e6b7c744ee0eeee287489a8639",
+      "retrieved_at_utc": "2026-10-16T17:06:37.819248+00:00",
+      "local_path": "baselines/catboost/artifacts/final_multi_run.py",
+      "bytes": 34692,
+      "sha256": "c38ca2c84a1dbd73f822d4d713bbca7dbecdee54f80c7b88f2b76375e61385ca",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "collected"
+    },
+    {
+      "paper": "catboost",
+      "kind": "author_reported_table_not_our_result",
+      "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/comprehensive_metrics_fixed.tex",
+      "revision": "7f2a691f94f548e6b7c744ee0eeee287489a8639",
+      "retrieved_at_utc": "2026-10-16T17:06:38.257299+00:00",
+      "local_path": "baselines/catboost/artifacts/comprehensive_metrics_fixed.tex",
+      "bytes": 917,
+      "sha256": "25e3b5ee99d08fc8ae30d733974de2dc656196d20b9c03f680ef57c6815a034c",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "collected"
+    },
+    {
+      "paper": "catboost",
+      "kind": "author_readme",
+      "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/README.md",
+      "revision": "7f2a691f94f548e6b7c744ee0eeee287489a8639",
+      "retrieved_at_utc": "2026-10-16T17:06:38.935566+00:00",
+      "local_path": "baselines/catboost/artifacts/author_README.md",
+      "bytes": 9447,
+      "sha256": "d307531f467c5ca3e529a5d8848db52307e2aba4ebf43325c373f949915e8905",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "collected"
+    },
+    {
+      "paper": "casper",
+      "kind": "publisher_deposited_metadata",
+      "url": "https://api.crossref.org/works/10.1145/3670414",
+      "revision": null,
+      "retrieved_at_utc": "2026-10-16T17:06:39.411404+00:00",
+      "local_path": "baselines/casper/artifacts/crossref.json",
+      "bytes": 29832,
+      "sha256": "a45a34f49d43726e690d7d443e5313df7fd11803894881806bbcf67112d88907",
+      "http_status": 200,
+      "content_type": "application/json",
+      "status": "collected"
+    },
+    {
+      "paper": "twine",
+      "kind": "publisher_deposited_metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.iot.2026.101976",
+      "revision": null,
+      "retrieved_at_utc": "2026-10-16T17:06:40.574715+00:00",
+      "local_path": "baselines/twine/artifacts/crossref.json",
+      "bytes": 29415,
+      "sha256": "c4e127234d65d958568cf904b9f0aa9033bbbf4b863613eea0a305efc87b0c11",
+      "http_status": 200,
+      "content_type": "application/json",
+      "status": "collected"
+    },
+    {
+      "paper": "catboost",
+      "kind": "publisher_deposited_metadata",
+      "url": "https://api.crossref.org/works/10.1109/LSENS.2026.3656499",
+      "revision": null,
+      "retrieved_at_utc": "2026-10-16T17:06:41.551785+00:00",
+      "local_path": "baselines/catboost/artifacts/crossref.json",
+      "bytes": 4601,
+      "sha256": "3b252325a95a956e6952d6cd5b35b25edb26daa0ae1f76e25ec2bb8f0daeea01",
+      "http_status": 200,
+      "content_type": "application/json",
+      "status": "collected"
+    }
+  ],
+  "not_collected": [
+    {
+      "paper": "catboost",
+      "kind": "full_manuscript",
+      "status": "unavailable",
+      "reason": "Publisher robot-verification response; no lawful public full-text location found in bounded author/institution/repository search."
+    }
+  ],
+  "derived_artifacts": [
+    {
+      "kind": "text_extraction",
+      "local_path": "baselines/casper/artifacts/casper_corrected_vor_v1.1.txt",
+      "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "bytes": 145307,
+      "sha256": "05bd5dc1554decb46fffde2e936c011902574815e0ffb471b1c06b8dcd4b3275"
+    },
+    {
+      "kind": "rendered_page",
+      "local_path": "baselines/casper/artifacts/frontmatter_page1.png",
+      "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "bytes": 377470,
+      "sha256": "b39096e09a8859ffe27a2701a3e95b41c0e1c73f05fe563bfc31c418004015c0"
+    },
+    {
+      "kind": "rendered_page",
+      "local_path": "baselines/casper/artifacts/methods_page21.png",
+      "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "bytes": 412597,
+      "sha256": "1cf39c00810c8ef620daf7c184d920039773b0a5294b6aa0139e4bd3c083aa87"
+    },
+    {
+      "kind": "rendered_page",
+      "local_path": "baselines/casper/artifacts/algorithm1_page24.png",
+      "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "bytes": 421236,
+      "sha256": "4cac185d644675d32e5a2dacddddd078a75462a408d79955b02ae9b21277c9d5"
+    }
+  ],
+  "reading_scope": {
+    "casper": "Assistant targeted reading: title/version page; Sections 6.3\u20136.4, 6.6 and 7; Tables 10,11,14; Algorithm 1; rendered pages1,21,24. Human reading unconfirmed.",
+    "twine": "Publisher abstract/introduction, institutional metadata, selected author source; full text unavailable.",
+    "catboost": "Official abstract, metadata, selected author source/table; full text unavailable."
+  },
+  "tool_versions": {
+    "pdftotext": "pdftotext version 26.10.0",
+    "pdfinfo": "pdfinfo version 26.10.0"
+  }
+}

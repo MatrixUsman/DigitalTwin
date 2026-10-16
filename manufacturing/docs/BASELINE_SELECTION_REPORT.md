@@ -1,5 +1,7 @@
 # Manufacturing: dataset and baseline selection
 
+**Later-stage update:** the user subsequently authorized acquisition and teaching. Original CASPER is now received and identified in [the identity audit](CASPER_DATASET_IDENTITY.md); current manuscript collection is in [the collection audit](MANUSCRIPT_COLLECTION_AUDIT.md), and the [comparison protocol](COMPARISON_PROTOCOL.md) preserves unresolved admission gates. The screening scope and no-download statements below describe the earlier selection session, not current storage.
+
 Audit date: **16 October 2026**. Owner: **Haiqa Mushtaq**. Scope: bounded primary-source search and selected static manuscript/code checks using the installed academic-research-suite skill. No model, simulator, notebook or cloud service was run. No benchmark corpus was downloaded. This is not an exhaustive systematic review or a claim that the researcher has read the papers.
 
 ## Recommendation and its limits

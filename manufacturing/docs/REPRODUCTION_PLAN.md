@@ -1,10 +1,10 @@
 # Proposed manufacturing reproduction plan
 
-Planning updated 16 October 2026 after the user activated manufacturing while water awaits access. Public-source and static-code audit completed with limitations; no environment, dependency installation, benchmark dataset acquisition, simulator execution or training has occurred. This plan does not start those operations.
+Planning updated 16 October 2026 after the user authorized original-CASPER acquisition, manuscript follow-up, Step 0 teaching and a fair comparison protocol. Receipt/structural inspection and targeted manuscript/code collection are complete within their documented coverage; no environment, dependency installation, simulator execution or training has occurred. Read the newer [comparison protocol](COMPARISON_PROTOCOL.md) for explicit separate information-access groups, split/calibration proposals and unresolved gates.
 
 ## 1. Resolve the setting and evidence
 
-Prioritize original CASPER industrial robotic-arm pick-and-place observations. Public data access is verified; scientific suitability and exact file identity still require receipt/profile checks. Define malicious interventions separately from faults and authorized speed/task changes. Specify the evaluation target: anomaly detection, attack classification, or command/sequence consistency. Do not promise attack attribution from anomaly scores alone.
+Prioritize original CASPER industrial robotic-arm pick-and-place observations. Receipt hashes and a structural profile are recorded in the [identity audit](CASPER_DATASET_IDENTITY.md); cross-clock annotation and scientific suitability remain separate issues. Define malicious interventions separately from faults and authorized speed/task changes. Specify the evaluation target: anomaly detection, attack classification, or command/sequence consistency. Do not promise attack attribution from anomaly scores alone.
 
 The [selection report](BASELINE_SELECTION_REPORT.md) recommends **CASPER 2024 → TWINE 2026 → CatBoost 2026** for critical study. CASPER is the conditional first reproduction candidate; no numerical baseline is admitted yet. Complete missing full manuscripts, release reconciliation, code-use permissions and paper-to-run mapping first. Keep the 2025 edge paper as related-data reserve. FactoryIO/LOTL/MIT/TEP are independent alternatives, not interchangeable data.
 

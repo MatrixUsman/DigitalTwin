@@ -7,6 +7,11 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | Location | Purpose |
 |---|---|
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
+| [docs/RESEARCH_BASICS_LESSON.md](docs/RESEARCH_BASICS_LESSON.md) | Step 0: twins, baselines, scores, thresholds, evaluation and leakage |
+| [docs/YOUR_STEP_0_NOTES.md](docs/YOUR_STEP_0_NOTES.md) | Researcher's unanswered comprehension exercise |
+| [docs/CASPER_DATASET_IDENTITY.md](docs/CASPER_DATASET_IDENTITY.md) | Actual received files, hashes, schemas and timing/label limits |
+| [docs/MANUSCRIPT_COLLECTION_AUDIT.md](docs/MANUSCRIPT_COLLECTION_AUDIT.md) | Collected paper/code artifacts and remaining full-text gaps |
+| [docs/COMPARISON_PROTOCOL.md](docs/COMPARISON_PROTOCOL.md) | Proposed separate evaluation groups and pre-training gates |
 | [docs/BASELINE_SELECTION_REPORT.md](docs/BASELINE_SELECTION_REPORT.md) | Current robotics recommendation, three-paper study set and unresolved admission criteria |
 | [docs/BASELINE_SELECTION_CRITERIA.md](docs/BASELINE_SELECTION_CRITERIA.md) | Manufacturing-specific recency, shared-data, access and evaluation rules |
 | [docs/LITERATURE_EVIDENCE.md](docs/LITERATURE_EVIDENCE.md) | Primary-source evidence and baseline eligibility |
@@ -21,7 +26,7 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [experiments/](experiments/README.md) | Future run records and results |
 | [manuscript/](manuscript/README.md) | Future paper and contribution records |
 
-Current recommendation: **industrial robotic arms using original CASPER pick-and-place data**. Its public download route was verified without institutional approval. **CASPER (2024), TWINE (2026) and CatBoost on CASPER (2026)** are the critical-learning shortlist, with matched author code and explicit limitations. None is execution-ready; exact shared release, input/label comparability, missing manuscript access and code/protocol issues remain. No raw data was downloaded. Start with the selection report above.
+Current recommendation: **industrial robotic arms using original CASPER pick-and-place data**. Original v3 archive and five files are now local, with integrity checks and hashes. **CASPER (2024), TWINE (2026) and CatBoost on CASPER (2026)** remain the critical-learning shortlist. CASPER's corrected full paper is collected; TWINE/CatBoost full-text gaps persist. No method is execution-ready: clock/annotation mapping, comparable information access, splits and code/protocol issues remain. Start with the lesson for concepts and the identity/protocol documents for current technical status.
 
 Run future commands from `manufacturing/`; its local `.venv/`, fitted preprocessing, data, and results must not depend on sibling-project state. Dataset authorization is checked per user, not inferred from folder ownership. The [shared research skill](../.agents/skills/academic-research-suite/SKILL.md) remains at the workspace root; its generated state belongs here.
 

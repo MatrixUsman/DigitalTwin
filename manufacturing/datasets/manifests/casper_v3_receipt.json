@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "operator": "Codex acquisition audit; no experiment",
+  "started_at_utc": "2026-10-16T17:04:49.287674+00:00",
+  "dataset": {
+    "provider": "Hakan Kayan / Kaggle",
+    "slug": "hkayan/industrial-robotic-arm-anomaly-detection",
+    "title": "Industrial Robotic Arm - Pick and Place Dataset",
+    "version": 3,
+    "version_timestamp": "2023-02-11T13:03:14.397Z",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "landing_url": "https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-anomaly-detection",
+    "archive_url": "https://www.kaggle.com/api/v1/datasets/download/hkayan/industrial-robotic-arm-anomaly-detection",
+    "archive_route": "latest, bracketed by version 3 metadata checks",
+    "provider_total_uncompressed_bytes": 7899312074
+  },
+  "environment": {
+    "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O"
+  },
+  "command": "python3 manufacturing/scripts/acquire_casper_v3.py",
+  "working_directory": ". (repository root)",
+  "metadata": [
+    {
+      "url": "https://www.kaggle.com/api/v1/datasets/view/hkayan/industrial-robotic-arm-anomaly-detection",
+      "retrieved_at_utc": "2026-10-16T17:04:48.684178+00:00",
+      "local_path": "local/casper_v3_receipt/view_before.json",
+      "sha256": "369736365c85824381d539ff847cf32e083850917d68b64cdabdc7c60dfd026c",
+      "bytes": 7195
+    },
+    {
+      "url": "https://www.kaggle.com/api/v1/datasets/list/hkayan/industrial-robotic-arm-anomaly-detection",
+      "retrieved_at_utc": "2026-10-16T17:04:49.287485+00:00",
+      "local_path": "local/casper_v3_receipt/list_before.json",
+      "sha256": "cb73324ccc9b8c86c6e803eeeee7f08384cb96361bec6b808a4ed1d6c459c09c",
+      "bytes": 1797
+    },
+    {
+      "url": "https://www.kaggle.com/api/v1/datasets/view/hkayan/industrial-robotic-arm-anomaly-detection",
+      "retrieved_at_utc": "2026-10-16T17:08:32.984911+00:00",
+      "local_path": "local/casper_v3_receipt/view_after.json",
+      "sha256": "369736365c85824381d539ff847cf32e083850917d68b64cdabdc7c60dfd026c",
+      "bytes": 7195
+    }
+  ],
+  "status": "received_integrity_verified",
+  "files": [
+    {
+      "archive_member": "dataset/arms.pcap",
+      "local_path": "datasets/raw/casper/v3/original/dataset/arms.pcap",
+      "bytes": 3703911932,
+      "sha256": "e58032aa4058375f865f3b19348fd56042b8a4f29dff92178ab54f11b07d1bb9",
+      "zip_crc32": "d51d98fe",
+      "zip_crc_validation": "passed by complete decompression",
+      "archive_stored_datetime_no_timezone": [
+        2023,
+        2,
+        11,
+        13,
+        9,
+        10
+      ],
+      "profile_status": "not_yet_profiled"
+    },
+    {
+      "archive_member": "dataset/left_arm.csv",
+      "local_path": "datasets/raw/casper/v3/original/dataset/left_arm.csv",
+      "bytes": 1965113819,
+      "sha256": "35552b683edcdd15be403f050c391979d1bc6f652908bbe5066323b79f9af777",
+      "zip_crc32": "b6ba5ff5",
+      "zip_crc_validation": "passed by complete decompression",
+      "archive_stored_datetime_no_timezone": [
+        2023,
+        2,
+        11,
+        13,
+        17,
+        6
+      ],
+      "profile_status": "not_yet_profiled"
+    },
+    {
+      "archive_member": "dataset/nicla.csv",
+      "local_path": "datasets/raw/casper/v3/original/dataset/nicla.csv",
+      "bytes": 138908648,
+      "sha256": "02653ba6d81cbfd1f47a1a71522f2c10a48fc9d8dee41e59d7df8d66608b5cd1",
+      "zip_crc32": "ee3e4173",
+      "zip_crc_validation": "passed by complete decompression",
+      "archive_stored_datetime_no_timezone": [
+        2023,
+        2,
+        11,
+        13,
+        26,
+        48
+      ],
+      "profile_status": "not_yet_profiled"
+    },
+    {
+      "archive_member": "dataset/right_arm.csv",
+      "local_path": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+      "bytes": 1978193094,
+      "sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+      "zip_crc32": "10e9e754",
+      "zip_crc_validation": "passed by complete decompression",
+      "archive_stored_datetime_no_timezone": [
+        2023,
+        2,
+        11,
+        13,
+        27,
+        14
+      ],
+      "profile_status": "not_yet_profiled"
+    },
+    {
+      "archive_member": "nicla_fixed.csv",
+      "local_path": "datasets/raw/casper/v3/original/nicla_fixed.csv",
+      "bytes": 113184581,
+      "sha256": "601fccb447f5c661ac5fe2885d5c38741aed979c58f6e9ce193768ad50ed4fe7",
+      "zip_crc32": "f490c7c2",
+      "zip_crc_validation": "passed by complete decompression",
+      "archive_stored_datetime_no_timezone": [
+        2023,
+        2,
+        11,
+        13,
+        36,
+        30
+      ],
+      "profile_status": "not_yet_profiled"
+    }
+  ],
+  "limitations": [
+    "Provider supplies no authoritative SHA-256 checksums in the inspected metadata.",
+    "CRC and local hashes verify consistency of received bytes, not scientific label validity.",
+    "Public access and license do not grant publication approval for this workspace."
+  ],
+  "archive_http": {
+    "status": 200,
+    "content_type": "application/zip",
+    "expected_bytes": 2824019108,
+    "resume_offset": 0,
+    "response_received_at_utc": "2026-10-16T17:04:50.788320+00:00"
+  },
+  "archive": {
+    "local_path": "datasets/raw/casper/v3/original_casper_v3.zip",
+    "bytes": 2824019108,
+    "sha256": "07f2daf948c8244c396c7b4d2fe4c475880a3a6577f982fc1738b5379b0e5409",
+    "received_at_utc": "2026-10-16T17:08:32.090901+00:00"
+  },
+  "completed_at_utc": "2026-10-16T17:08:42.469743+00:00"
+}

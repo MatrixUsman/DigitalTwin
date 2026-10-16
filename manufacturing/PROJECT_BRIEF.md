@@ -1,8 +1,8 @@
-# Manufacturing research project — initial scope
+# Manufacturing research project
 
 Last updated: 16 October 2026. Project owner: **Haiqa Mushtaq**. Ownership is an organizational assignment, not a decision about academic authorship.
 
-This is an independent academic research project on cybersecurity of manufacturing cyber–physical systems. Its current stage is literature, code and open-data feasibility audit, explicitly activated by the user while water awaits access. No baseline has been reproduced, no benchmark dataset has been acquired for this project, and no experimental results exist.
+This is an independent academic research project on cybersecurity of manufacturing cyber–physical systems. Its current stage is beginner teaching, original CASPER receipt/identity audit, targeted manuscript study and comparison planning. The original CASPER archive and five members have been acquired with integrity checks and hashes; a corrected CASPER manuscript and selected code snapshots are stored locally. No baseline has been reproduced and no experimental performance results exist.
 
 ## Provisional direction
 
@@ -24,9 +24,9 @@ The distinction between an attack, a fault, and an authorized transition must co
 
 ## Setup deliverables and next stage
 
-The [literature register](docs/LITERATURE_EVIDENCE.md) links a bounded primary-source, manuscript and static-code audit. The [access checklist](docs/DATASET_ACCESS_CHECKLIST.md) and [reproduction plan](docs/REPRODUCTION_PLAN.md) identify prerequisites. CASPER is the conditional first method to study/reproduce, with a corrected and disclosed calibration protocol; there is no execution-ready baseline or frozen release.
+The [literature register](docs/LITERATURE_EVIDENCE.md) links a bounded primary-source, manuscript and static-code audit. The [identity audit](docs/CASPER_DATASET_IDENTITY.md) records received files; the [manuscript audit](docs/MANUSCRIPT_COLLECTION_AUDIT.md) records one collected full paper and two access gaps. The [comparison protocol](docs/COMPARISON_PROTOCOL.md) separates normal-only IMU detection from supervised controller-telemetry classification. CASPER is the conditional first method to study/reproduce, with a corrected and disclosed calibration protocol; annotation/split manifests and execution readiness remain unresolved.
 
-The user selected manufacturing next while water waits for external access. This audit does not initiate manufacturing implementation, bulk data acquisition, simulator execution, paid services, training, or publication. The smart-grid project remains independently scoped.
+The user selected manufacturing next while water waits for external access, then authorized original-CASPER collection/identification and protocol preparation. Read-only data-audit utilities are not model implementations. Simulator execution, paid services, training and publication remain outside this stage. The smart-grid project remains independently scoped.
 
 ## Shared publication and writing preferences
 
