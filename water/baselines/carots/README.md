@@ -2,6 +2,8 @@
 
 Acquired **16 October 2026** for the water project. This is a collection of author/publisher materials and our audit notes. **No model has been run and no results have been reproduced.**
 
+The [verification report](VERIFICATION_REPORT.md) confirms paper/repository identity and records concrete execution and reporting issues. The [reference inventory](REFERENCE_CHECKS.json) covers all 54 rendered references plus 27 unused source records; lookup coverage does not establish that every cited claim is supported. Read these before treating the pack as ready to run.
+
 **Paper:** Causality-Aware Contrastive Learning for Robust Multivariate Time-Series Anomaly Detection. HyunGi Kim, Jisoo Mok, Dongjun Lee, Jaihyun Lew, Sungjae Kim and Sungroh Yoon. ICML 2025, PMLR 267:30591–30608, 13–19 July 2025. [Publisher record](https://proceedings.mlr.press/v267/kim25aa.html); [citation](CITATION.bib). The separate arXiv v1 was submitted 4 June 2025, identifier `2506.03964v1`.
 
 ## Start here

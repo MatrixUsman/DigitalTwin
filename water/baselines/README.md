@@ -2,6 +2,8 @@
 
 Collected **16 October 2026** for structured study. The three papers have separate folders. Their published claims and upstream files are **not our experimental results**. These remain learning papers, not three execution-ready baselines.
 
+**Read the [verification report](../docs/BASELINE_VERIFICATION_REPORT.md) first.** The collection passed file-integrity checks, but the audit found material scientific, citation and code issues. CAROTS remains conditional; IT-DT and the ensemble are on numerical-reproduction hold. Per-paper reports and reference inventories distinguish identity verification from support for a claim.
+
 | Folder | Available locally | Still missing or unresolved |
 |---|---|---|
 | [CAROTS](carots/README.md) | ICML paper, arXiv v1 PDF/HTML/TeX, bibliography, source figures/tables; 57 pinned author-code files; 16 SWaT/WADI CUTS+ graph/checkpoint/log artifacts | Authorized raw data, final detector checkpoints/aligned scores/full run logs, validated environment and corrected evaluation |
@@ -20,6 +22,7 @@ Store future authorized originals once under `water/datasets/raw/`; each baselin
 
 - [RESOURCE_MANIFEST.json](RESOURCE_MANIFEST.json): source URLs, retrieval attempts, byte counts and SHA-256 hashes for **110 downloaded objects** (24,796,785 bytes, approximately 23.6 MiB). These include metadata and multiple manuscript versions, not 110 papers.
 - [DERIVED_ARTIFACTS.json](DERIVED_ARTIFACTS.json): **79 local reading derivatives** (7,369,776 bytes), each tied to its source hash and extraction method. These include safely extracted source files, PDF text, previews and XML table/reference excerpts.
+- [INTEGRITY_AUDIT.json](INTEGRITY_AUDIT.json): subsequent hash, format, all-page PDF rendering, syntax and container checks of those 189 objects. Further bibliography-audit sources are recorded separately by the per-paper verification reports; the acquisition counts above describe the original collection.
 - [acquisition_sources.json](acquisition_sources.json): explicit public download specification. CAROTS code and water artifacts are pinned to commit `63a41f45a2ae680d5cdbb2d5739e7a11264867cb` and checked against Git blob identities.
 - Downloaded originals live in ignored `artifacts/`; the CAROTS snapshot is in ignored `carots/vendor/author_code/`. The snapshot is selective, not a Git clone: unrelated repository datasets and results were deliberately excluded. Its `datasets/` directory contains loader code, not benchmark recordings.
 - Paper, code and third-party figure/class-file licenses differ. Preserve notices and credit lines. Local availability does not grant permission to republish everything. Files were not pushed to GitHub.

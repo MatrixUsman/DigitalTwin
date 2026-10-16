@@ -8,6 +8,8 @@ Read Table 1 in the [published PDF](artifacts/papers/CAROTS_ICML2025.pdf) for th
 
 The arXiv v1 source archive supplies the following editable source assets. They belong to that manuscript version; do not assume every source byte is identical to the proceedings edition.
 
+The [verification report](VERIFICATION_REPORT.md) confirms WADI best-F1 **0.143** for full CAROTS versus **0.391** for CAROTS-dagger in Table 1. It also records the small SWaT full-model difference between Table 1 (**0.791**) and Table 4 (**0.792**). Preserve these table-specific values pending per-run evidence; do not silently merge them. Broad superiority language in Section 5.2 should not replace examining the numerical comparisons and failure cases.
+
 | Source path beneath `artifacts/source/arxiv_v1/` | Use |
 |---|---|
 | `table/main.tex`, `table/std.tex` | Main reported results and standard deviations. |
@@ -15,7 +17,7 @@ The arXiv v1 source archive supplies the following editable source assets. They 
 | `figure/overview_jm_ver2.pdf`, `figure/components_jm_ver3.pdf` | Pipeline and components. |
 | `figure/causalit_mtx_all.pdf` | Causal matrix illustration. |
 | `figure/synthetic_all.pdf`, `figure/tsne_all_ver1.pdf` | Synthetic-series and embedding illustrations. |
-| `references.bib`, `main.bbl` | Author bibliography and formatted references; individual references still require independent verification before reuse. |
+| `references.bib`, `main.bbl` | Author bibliography and formatted references. The [reference audit](REFERENCE_CHECKS.json) inventories 81 records, 54 rendered and 27 unused; all rendered identities received lookup attempts. Intended claim support still needs checking before reuse. |
 
 All 13 table files and five figure PDFs are retained in the source bundle. Their existence does not supply underlying per-seed predictions or permit recomputing the reported statistics. The two repository overview images are separately available in [figure/](vendor/author_code/figure/).
 

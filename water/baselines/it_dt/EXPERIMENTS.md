@@ -2,6 +2,8 @@
 
 **No experiments have been run.** This file separates the authors' description from the work needed for a future, independently implemented comparison. See [resource provenance](../RESOURCE_MANIFEST.json), [data gaps](DATASETS.md) and the [common reproduction proposal](../../docs/REPRODUCTION_PLAN.md).
 
+**Execution hold after verification:** [VERIFICATION_REPORT.md](VERIFICATION_REPORT.md) records a figure/threshold inconsistency, an F1 arithmetic/aggregation question, conflicting descriptions of the statistical endpoint and missing validation-label provenance. The mathematical method can be studied, but its published numerical claims are not validated. The quadratic runtime claim also needs an explicit method for updating the changing covariance log determinant; no such implementation is supplied.
+
 ## Authors' described method
 
 | Component | Published specification | Reproduction gap |

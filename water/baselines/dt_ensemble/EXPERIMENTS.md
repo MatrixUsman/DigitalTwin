@@ -1,5 +1,6 @@
 # Ensemble experimental specification audit
 
+**Verification update — 16 October 2026:** [The source audit](VERIFICATION_REPORT.md) confirms the publication identity but finds material mathematical, metric, citation and protocol issues. Keep this paper on experimental hold; published claims remain unvalidated.
 **No baseline experiment has been run.** Paper assets, extracted tables and graphics are collected for study. They are not executable evidence, checkpoints or our measurements. Refer to [resource provenance](../RESOURCE_MANIFEST.json), [dataset gaps](DATASETS.md), and the [reproduction proposal](../../docs/REPRODUCTION_PLAN.md).
 
 ## Authors' described pipeline

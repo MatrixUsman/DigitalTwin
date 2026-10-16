@@ -1,0 +1,3485 @@
+{
+  "checked_at_utc": "2026-10-16T15:47:00.402156+00:00",
+  "scope": "All 28 supplied bibliography entries identity-audited; 27 unique works. 25 Crossref entry lookups (24 unique DOIs), one arXiv record, two publisher books. Metadata matching does not certify claim support, peer review or retraction status.",
+  "entries": [
+    {
+      "key": "Homaei2024",
+      "entry_type": "article",
+      "supplied_title": "A review of digital twins and their application in cybersecurity based on artificial intelligence",
+      "supplied_author": "Homaei, Mohammadhossein and Mogoll\\'on-Guti\\'errez, \\'Oscar and Sancho, Jos\\'e Carlos and \\'Avila, Mar and Caro, Andr\\'es",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1007/s10462-024-10805-3",
+      "source_bib_line": 1,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10462-024-10805-3",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1007/s10462-024-10805-3",
+        "title": [
+          "A review of digital twins and their application in cybersecurity based on artificial intelligence"
+        ],
+        "author": [
+          {
+            "given": "Mohammadhossein",
+            "family": "Homaei",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Óscar",
+            "family": "Mogollón-Gutiérrez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "José Carlos",
+            "family": "Sancho",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mar",
+            "family": "Ávila",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrés",
+            "family": "Caro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Artificial Intelligence Review"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              10
+            ]
+          ]
+        },
+        "volume": "57",
+        "issue": "8",
+        "article-number": "201",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "10 July 2024",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "The authors declare no competing interests.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Competing interests"
+            }
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10462-024-10805-3"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Aghazadeh2025",
+      "entry_type": "article",
+      "supplied_title": "IoT-Driven Resilience Monitoring: Case Study of a Cyber-Physical System",
+      "supplied_author": "Aghazadeh Ardebili, A. and Martella, C. and Longo, A. and Rucco, C. and Izzi, F. and Ficarella, A.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.3390/app15042092",
+      "source_bib_line": 14,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.3390%2Fapp15042092",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.3390/app15042092",
+        "title": [
+          "IoT-Driven Resilience Monitoring: Case Study of a Cyber-Physical System"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3557-9986",
+            "authenticated-orcid": false,
+            "given": "Ali",
+            "family": "Aghazadeh Ardebili",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Engineering for Innovation, University of Salento, 73100 Lecce, Italy"
+              },
+              {
+                "name": "Department of Research and Development, HSPI SpA, 00185 Rome, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9751-9367",
+            "authenticated-orcid": false,
+            "given": "Cristian",
+            "family": "Martella",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Engineering for Innovation, University of Salento, 73100 Lecce, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6902-0160",
+            "authenticated-orcid": false,
+            "given": "Antonella",
+            "family": "Longo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Engineering for Innovation, University of Salento, 73100 Lecce, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-4067-0955",
+            "authenticated-orcid": false,
+            "given": "Chiara",
+            "family": "Rucco",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Engineering for Innovation, University of Salento, 73100 Lecce, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-2459-7118",
+            "authenticated-orcid": false,
+            "given": "Federico",
+            "family": "Izzi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Engineering for Innovation, University of Salento, 73100 Lecce, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3206-4212",
+            "authenticated-orcid": false,
+            "given": "Antonio",
+            "family": "Ficarella",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Engineering for Innovation, University of Salento, 73100 Lecce, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Applied Sciences"
+        ],
+        "publisher": "MDPI AG",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              17
+            ]
+          ]
+        },
+        "volume": "15",
+        "issue": "4",
+        "page": "2092",
+        "relation": {},
+        "URL": "https://doi.org/10.3390/app15042092"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Khazraei2025",
+      "entry_type": "article",
+      "supplied_title": "Risk auditing for Digital Twins in cyber physical systems: A systematic review",
+      "supplied_author": "Otoom, S.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.63180/jcsra.thestap.2025.1.3",
+      "source_bib_line": 22,
+      "claim_support": "checked_specific_claim_not_substantiated",
+      "metadata_url": "https://api.crossref.org/works/10.63180%2Fjcsra.thestap.2025.1.3",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.63180/jcsra.thestap.2025.1.3",
+        "title": [
+          "Risk auditing for Digital Twins in cyber physical systems: A systematic review"
+        ],
+        "author": [
+          {
+            "name": "University of Jordan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shahed",
+            "family": "Otoom",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Cyber Security and Risk Auditing"
+        ],
+        "publisher": "Smart Technologies Academic Press",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              29
+            ]
+          ]
+        },
+        "volume": "2025",
+        "issue": "1",
+        "page": "22-35",
+        "relation": {},
+        "URL": "https://doi.org/10.63180/jcsra.thestap.2025.1.3"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "Publisher PDF (14 pages) inspected for KDE/threshold derivation; no supporting derivation found. It supports general digital-twin risk/data-integrity discussion.",
+      "notes": [
+        "Duplicate source encoded under two BibTeX keys and printed as references 7 and 27. Crossref includes one organizational-looking author record plus Shahed Otoom; publisher PDF confirms Shahed Otoom."
+      ],
+      "claim_sources": [
+        "https://jcsra.thestap.com/articles/paper-three.pdf"
+      ],
+      "claim_locators": [
+        "IT-DT Section II-C, Manuscript.tex line 111; source review risk tables and discussion."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Aghazadeh2024",
+      "entry_type": "article",
+      "supplied_title": "Digital Twins of smart energy systems: a systematic literature review on enablers, design, management and computational challenges",
+      "supplied_author": "Aghazadeh Ardebili, A. and Zappatore, M. and Ramadan, A.I.H.A. and Longo, A. and Ficarella, A.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1186/s42162-024-00385-5",
+      "source_bib_line": 30,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1186%2Fs42162-024-00385-5",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1186/s42162-024-00385-5",
+        "title": [
+          "Digital Twins of smart energy systems: a systematic literature review on enablers, design, management and computational challenges"
+        ],
+        "author": [
+          {
+            "given": "Ali",
+            "family": "Aghazadeh Ardebili",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marco",
+            "family": "Zappatore",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Amro Issam Hamed Attia",
+            "family": "Ramadan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Antonella",
+            "family": "Longo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Antonio",
+            "family": "Ficarella",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Energy Informatics"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ]
+        },
+        "volume": "7",
+        "issue": "1",
+        "article-number": "94",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "14 June 2024",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "7 September 2024",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "1 October 2024",
+            "order": 3,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "Not applicable.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Ethics approval and consent to participate"
+            }
+          },
+          {
+            "value": "Not applicable.",
+            "order": 3,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Consent for publication"
+            }
+          },
+          {
+            "value": "We have no competing interest related to this research. The authors declare that they have no competing interest.",
+            "order": 4,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Competing interests"
+            }
+          }
+        ],
+        "URL": "https://doi.org/10.1186/s42162-024-00385-5"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Krishnaveni2024",
+      "entry_type": "article",
+      "supplied_title": "CyberDefender: an integrated intelligent defense framework for digital-twin-based industrial cyber-physical systems",
+      "supplied_author": "Krishnaveni, S. and Chen, T.M. and Sathiyanarayanan, M. and Amutha, B.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1007/s10586-024-04320-x",
+      "source_bib_line": 38,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10586-024-04320-x",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1007/s10586-024-04320-x",
+        "title": [
+          "CyberDefender: an integrated intelligent defense framework for digital-twin-based industrial cyber-physical systems"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Krishnaveni",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas M.",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mithileysh",
+            "family": "Sathiyanarayanan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "B.",
+            "family": "Amutha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Cluster Computing"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "volume": "27",
+        "issue": "6",
+        "page": "7273-7306",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "22 September 2023",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "11 January 2024",
+            "order": 2,
+            "name": "revised",
+            "label": "Revised",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "15 January 2024",
+            "order": 3,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "20 March 2024",
+            "order": 4,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "In terms of competing financial and non-financial interests, the authors declare no conflicts of interest.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Conflict of interest"
+            }
+          },
+          {
+            "value": "Not Applicable.",
+            "order": 3,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Ethical approval"
+            }
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10586-024-04320-x"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Fitzgerald2024",
+      "entry_type": "book",
+      "supplied_title": "The Engineering of Digital Twins",
+      "supplied_author": "Fitzgerald, J. and Gomes, C. and Larsen, P.G.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1007/978-3-031-66719-0",
+      "source_bib_line": 46,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1007%2F978-3-031-66719-0",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1007/978-3-031-66719-0",
+        "title": [
+          "The Engineering of Digital Twins"
+        ],
+        "editor": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7041-1807",
+            "authenticated-orcid": false,
+            "given": "John",
+            "family": "Fitzgerald",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "editor"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2692-9742",
+            "authenticated-orcid": false,
+            "given": "Cláudio",
+            "family": "Gomes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "editor"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4589-1500",
+            "authenticated-orcid": false,
+            "given": "Peter Gorm",
+            "family": "Larsen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "editor"
+              }
+            ]
+          }
+        ],
+        "container-title": [],
+        "publisher": "Springer International Publishing",
+        "type": "book",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "relation": {},
+        "URL": "https://doi.org/10.1007/978-3-031-66719-0"
+      },
+      "identity_review": "matched_with_editor_role_correction",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "Fitzgerald, Gomes and Larsen are editors in the Springer record, not authors of the entire book."
+      ],
+      "primary_page": "https://link.springer.com/book/10.1007/978-3-031-66719-0",
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Khazraei2022",
+      "entry_type": "inproceedings",
+      "supplied_title": "Learning-Based Vulnerability Analysis of Cyber-Physical Systems",
+      "supplied_author": "Khazraei, A. and Hallyburton, S. and Gao, Q. and Wang, Y. and Paji{\\'c}, M.",
+      "supplied_year": "2022",
+      "supplied_doi": "10.1109/ICCPS54341.2022.00030",
+      "source_bib_line": 56,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1109%2FICCPS54341.2022.00030",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1109/iccps54341.2022.00030",
+        "title": [
+          "Learning-Based Vulnerability Analysis of Cyber-Physical Systems"
+        ],
+        "author": [
+          {
+            "given": "Amir",
+            "family": "Khazraei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Duke University,Durham,NC"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Spencer",
+            "family": "Hallyburton",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Duke University,Durham,NC"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qitong",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Duke University,Durham,NC"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Florida,Gainesville,FL"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Miroslav",
+            "family": "Pajic",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Duke University,Durham,NC"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2022 ACM/IEEE 13th International Conference on Cyber-Physical Systems (ICCPS)"
+        ],
+        "publisher": "IEEE",
+        "type": "proceedings-article",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "page": "259-269",
+        "relation": {},
+        "URL": "https://doi.org/10.1109/iccps54341.2022.00030"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Mohammed2025",
+      "entry_type": "article",
+      "supplied_title": "Dual-hybrid intrusion detection system to detect False Data Injection in smart grids",
+      "supplied_author": "Mohammed, S.H. and Jit Singh, M.S. and Al-Jumaily, A. and Islam, M.T. and Islam, M.S. and Alenezi, A.M. and Soliman, M.S.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.1371/journal.pone.0316536",
+      "source_bib_line": 64,
+      "claim_support": "identity_and_publisher_record_only_broad_generalization_unverified",
+      "metadata_url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0316536",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1371/journal.pone.0316536",
+        "title": [
+          "Dual-hybrid intrusion detection system to detect False Data Injection in smart grids"
+        ],
+        "author": [
+          {
+            "given": "Saad Hammood",
+            "family": "Mohammed",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mandeep S. Jit",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Abdulmajeed",
+            "family": "Al-Jumaily",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohammad Tariqul",
+            "family": "Islam",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Md. Shabiul",
+            "family": "Islam",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Abdulmajeed M.",
+            "family": "Alenezi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9431-4195",
+            "authenticated-orcid": true,
+            "given": "Mohamed S.",
+            "family": "Soliman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "editor": [
+          {
+            "given": "Mazyar",
+            "family": "Ghadiri Nejad",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "editor"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "PLOS ONE"
+        ],
+        "publisher": "Public Library of Science (PLoS)",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              27
+            ]
+          ]
+        },
+        "volume": "20",
+        "issue": "1",
+        "page": "e0316536",
+        "relation": {},
+        "URL": "https://doi.org/10.1371/journal.pone.0316536"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "Check compound surname Jit Singh and author-preferred initial rendering before reuse."
+      ],
+      "claim_sources": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0316536"
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Ahmad2025",
+      "entry_type": "article",
+      "supplied_title": "Ai-enabled framework for anomaly detection in power distribution networks under false data injection attacks",
+      "supplied_author": "Ahmad, H. and Mustafa, G. and Gulzar, M.M. and Ahmed, I. and Khalid, M.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.1007/s10462-025-11318-3",
+      "source_bib_line": 72,
+      "claim_support": "checked_abstract_method_do_not_establish_broad_claim",
+      "metadata_url": "https://api.crossref.org/works/10.1007%2Fs10462-025-11318-3",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1007/s10462-025-11318-3",
+        "title": [
+          "Ai-enabled framework for anomaly detection in power distribution networks under false data injection attacks"
+        ],
+        "author": [
+          {
+            "given": "Hasnain",
+            "family": "Ahmad",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ghulam",
+            "family": "Mustafa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Muhammad Majid",
+            "family": "Gulzar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ijaz",
+            "family": "Ahmed",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Muhammad",
+            "family": "Khalid",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Artificial Intelligence Review"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              27
+            ]
+          ]
+        },
+        "volume": "58",
+        "issue": "11",
+        "article-number": "355",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "2 July 2025",
+            "order": 1,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "27 August 2025",
+            "order": 2,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "All authors confirms that they do not possess any identifiable conflicting financial interests or personal affiliations that might have influenced the research presented in this manuscript.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Competing interests"
+            }
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s10462-025-11318-3"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "Publisher abstract, introduction and method description checked; autoencoder feature transformation plus MLP classification is not direct proof of general reconstruction-detector failure.",
+      "notes": [],
+      "claim_sources": [
+        "https://link.springer.com/article/10.1007/s10462-025-11318-3"
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Sweeten2023",
+      "entry_type": "inproceedings",
+      "supplied_title": "Cyber-Physical GNN-Based Intrusion Detection in Smart Power Grids",
+      "supplied_author": "Sweeten, J. and Takiddin, A. and Ismail, M. and Refaat, S.S. and Atat, R.",
+      "supplied_year": "2023",
+      "supplied_doi": "10.1109/SmartGridComm57358.2023.10333949",
+      "source_bib_line": 80,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1109%2FSmartGridComm57358.2023.10333949",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1109/smartgridcomm57358.2023.10333949",
+        "title": [
+          "Cyber-Physical GNN-Based Intrusion Detection in Smart Power Grids"
+        ],
+        "author": [
+          {
+            "given": "Jacob",
+            "family": "Sweeten",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tennessee Technological University,Department of Computer Science,Cookeville,TN,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Abdulrahman",
+            "family": "Takiddin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Florida State University,Department of Electrical and Computer Engineering,Tallahassee,FL,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Muhammad",
+            "family": "Ismail",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tennessee Technological University,Department of Computer Science,Cookeville,TN,USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shady S.",
+            "family": "Refaat",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Hertfordshire,Department of Engineering and Technology,Hertfordshire,UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rachad",
+            "family": "Atat",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&#x0026;M University at Qatar,Department of Electrical and Computer Engineering,Doha,Qatar"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2023 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)"
+        ],
+        "publisher": "IEEE",
+        "type": "proceedings-article",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              31
+            ]
+          ]
+        },
+        "page": "1-6",
+        "relation": {},
+        "URL": "https://doi.org/10.1109/smartgridcomm57358.2023.10333949"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Skogestad2005",
+      "entry_type": "book",
+      "supplied_title": "Multivariable Feedback Control: Analysis and Design",
+      "supplied_author": "Skogestad, Sigurd and Postlethwaite, Ian",
+      "supplied_year": "2005",
+      "supplied_doi": null,
+      "source_bib_line": 89,
+      "claim_support": "not_assessed_beyond_identity",
+      "lookup_status": "verified_primary_record_manually",
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "Wiley publisher record: exact title, both authors, second edition September 2005; ISBN 9780470011683."
+      ],
+      "metadata_url": "https://www.wiley-vch.de/en/areas-interest/engineering/electrical-electronics-engineering-10ee/control-systems-technology-10ee3/multivariable-feedback-control-978-0-470-01168-3",
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Ding2008",
+      "entry_type": "book",
+      "supplied_title": "Model-based Fault Diagnosis Techniques: Design Schemes, Algorithms and Tools",
+      "supplied_author": "Ding, Steven X.",
+      "supplied_year": "2008",
+      "supplied_doi": null,
+      "source_bib_line": 97,
+      "claim_support": "not_assessed_beyond_identity",
+      "lookup_status": "verified_primary_record_manually",
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "Springer publisher record: exact title, Steven X. Ding, 2008 first edition; DOI 10.1007/978-3-540-76304-8."
+      ],
+      "metadata_url": "https://link.springer.com/book/10.1007/978-3-540-76304-8",
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Hao2023",
+      "entry_type": "article",
+      "supplied_title": "Hybrid Statistical-Machine Learning for Real-Time Anomaly Detection in Industrial Cyber-Physical Systems",
+      "supplied_author": "Hao, W. and Yang, T. and Yang, Q.",
+      "supplied_year": "2023",
+      "supplied_doi": "10.1109/TASE.2021.3073396",
+      "source_bib_line": 106,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1109%2FTASE.2021.3073396",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1109/tase.2021.3073396",
+        "title": [
+          "Hybrid Statistical-Machine Learning for Real-Time Anomaly Detection in Industrial Cyber–Physical Systems"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1344-2719",
+            "authenticated-orcid": false,
+            "given": "Weijie",
+            "family": "Hao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tao",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0761-4692",
+            "authenticated-orcid": false,
+            "given": "Qiang",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Electrical Engineering, Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Automation Science and Engineering"
+        ],
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        },
+        "volume": "20",
+        "issue": "1",
+        "page": "32-46",
+        "relation": {},
+        "URL": "https://doi.org/10.1109/tase.2021.3073396"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Ghosh2023",
+      "entry_type": "article",
+      "supplied_title": "Anomaly Detection for Modbus over TCP in Control Systems Using Entropy and Classification-Based Analysis",
+      "supplied_author": "Ghosh, T. and Bagui, S. and Bagui, S. and Kadzis, M. and Bare, J.",
+      "supplied_year": "2023",
+      "supplied_doi": "10.3390/jcp3040041",
+      "source_bib_line": 114,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.3390%2Fjcp3040041",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.3390/jcp3040041",
+        "title": [
+          "Anomaly Detection for Modbus over TCP in Control Systems Using Entropy and Classification-Based Analysis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1914-711X",
+            "authenticated-orcid": false,
+            "given": "Tirthankar",
+            "family": "Ghosh",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electrical & Computer Engineering and Computer Science, University of New Haven, West Haven, CT 06516, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1886-4582",
+            "authenticated-orcid": false,
+            "given": "Sikha",
+            "family": "Bagui",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of West Florida, Pensacola, FL 32514, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6140-5384",
+            "authenticated-orcid": false,
+            "given": "Subhash",
+            "family": "Bagui",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics and Statistics, University of West Florida, Pensacola, FL 32514, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Kadzis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of West Florida, Pensacola, FL 32514, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jackson",
+            "family": "Bare",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of West Florida, Pensacola, FL 32514, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Cybersecurity and Privacy"
+        ],
+        "publisher": "MDPI AG",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ]
+        },
+        "volume": "3",
+        "issue": "4",
+        "page": "895-913",
+        "relation": {},
+        "URL": "https://doi.org/10.3390/jcp3040041"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Liu2024",
+      "entry_type": "article",
+      "supplied_title": "Semi-supervised attack detection in industrial control systems with deviation networks and feature selection",
+      "supplied_author": "Liu, Y. and Deng, W. and Liu, Z. and Zeng, F.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1007/s11227-024-06018-8",
+      "source_bib_line": 122,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1007%2Fs11227-024-06018-8",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1007/s11227-024-06018-8",
+        "title": [
+          "Semi-supervised attack detection in industrial control systems with deviation networks and feature selection"
+        ],
+        "author": [
+          {
+            "given": "Yanhua",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wentao",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhihuang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fanhao",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The Journal of Supercomputing"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              21
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              21
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              7
+            ]
+          ]
+        },
+        "volume": "80",
+        "issue": "10",
+        "page": "14600-14621",
+        "relation": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.21203/rs.3.rs-3101948/v1",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "assertion": [
+          {
+            "value": "20 February 2024",
+            "order": 1,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "21 March 2024",
+            "order": 2,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "order": 1,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "order": 2,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Conflict of interest"
+            }
+          },
+          {
+            "value": "Written informed consent for publication of this paper was obtained from Fuzhou University and all authors. The authors declare that the research in this paper is oriented toward intrusion detection in industrial control systems and does not involve any research related to ethics.",
+            "order": 3,
+            "name": "Ethics",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Ethical approval"
+            }
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s11227-024-06018-8"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Yao2024",
+      "entry_type": "article",
+      "supplied_title": "Statistical knowledge and game-theoretic integrated model for cross-layer impact assessment in industrial cyber-physical systems",
+      "supplied_author": "Yao, P. and Wang, X. and Zhang, Z. and Yan, B. and Yang, Q. and Wang, W.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1016/j.aei.2023.102338",
+      "source_bib_line": 130,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.aei.2023.102338",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1016/j.aei.2023.102338",
+        "title": [
+          "Statistical knowledge and game-theoretic integrated model for cross-layer impact assessment in industrial cyber-physical systems"
+        ],
+        "author": [
+          {
+            "given": "Pengchao",
+            "family": "Yao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xuan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zebang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bingjing",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qiang",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenhai",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Advanced Engineering Informatics"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "volume": "59",
+        "page": "102338",
+        "article-number": "102338",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Statistical knowledge and game-theoretic integrated model for cross-layer impact assessment in industrial cyber-physical systems",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Advanced Engineering Informatics",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.aei.2023.102338",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2023 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.aei.2023.102338"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Homaei2026",
+      "entry_type": "article",
+      "supplied_title": "Causal Digital Twins for cyber-physical security in water systems: A framework for robust anomaly detection",
+      "supplied_author": "Homaei, M. and Tarif, M. and Rodriguez, P.G. and Caro Lindo, A. and Ávila, M.",
+      "supplied_year": "2026",
+      "supplied_doi": "10.1016/j.mlwa.2025.100824",
+      "source_bib_line": 138,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.mlwa.2025.100824",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1016/j.mlwa.2025.100824",
+        "title": [
+          "Causal Digital Twins for cyber–physical security in water systems: A framework for robust anomaly detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6108-6632",
+            "authenticated-orcid": false,
+            "given": "Mohammadhossein",
+            "family": "Homaei",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-0951-1800",
+            "authenticated-orcid": false,
+            "given": "Mehran",
+            "family": "Tarif",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8168-7892",
+            "authenticated-orcid": false,
+            "given": "Pablo García",
+            "family": "Rodríguez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6367-2694",
+            "authenticated-orcid": false,
+            "given": "Andrés",
+            "family": "Caro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8717-442X",
+            "authenticated-orcid": false,
+            "given": "Mar",
+            "family": "Ávila",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Machine Learning with Applications"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "volume": "23",
+        "page": "100824",
+        "article-number": "100824",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Causal Digital Twins for cyber–physical security in water systems: A framework for robust anomaly detection",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Machine Learning with Applications",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.mlwa.2025.100824",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2025 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.mlwa.2025.100824"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "Paper identity matches; supplied Caro Lindo and abbreviated Garcia Rodriguez differ from registry rendering. Verify author-preferred compound names before reuse. A 2026 issue and 2025 DOI suffix are not contradictory."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Tabassum2024",
+      "entry_type": "article",
+      "supplied_title": "Cyber-physical anomaly detection for inverter-based microgrid using autoencoder neural network",
+      "supplied_author": "Tabassum, T. and Toker, O. and Khalghani, M.R.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1016/j.apenergy.2023.122283",
+      "source_bib_line": 147,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.apenergy.2023.122283",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1016/j.apenergy.2023.122283",
+        "title": [
+          "Cyber–physical anomaly detection for inverter-based microgrid using autoencoder neural network"
+        ],
+        "author": [
+          {
+            "given": "Tambiara",
+            "family": "Tabassum",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2580-5449",
+            "authenticated-orcid": false,
+            "given": "Onur",
+            "family": "Toker",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6082-9350",
+            "authenticated-orcid": false,
+            "given": "Mohammad Reza",
+            "family": "Khalghani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Applied Energy"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "volume": "355",
+        "page": "122283",
+        "article-number": "122283",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Cyber–physical anomaly detection for inverter-based microgrid using autoencoder neural network",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Applied Energy",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.apenergy.2023.122283",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2023 Elsevier Ltd. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.apenergy.2023.122283"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Sun2025",
+      "entry_type": "inproceedings",
+      "supplied_title": "Anomaly Detection in Cyber-Physical Systems Using Long-Short Term Memory Autoencoders: A Case Study with Man-in-the-Middle (MiTM) Attack",
+      "supplied_author": "Sun, S. and Haque, K.A. and Huo, X. and Sahu, A. and Goulart, A. and Davis, K.R.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.1109/TPEC63981.2025.10906975",
+      "source_bib_line": 155,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1109%2FTPEC63981.2025.10906975",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1109/tpec63981.2025.10906975",
+        "title": [
+          "Anomaly Detection in Cyber-Physical Systems Using Long-Short Term Memory Autoencoders: A Case Study with Man-in-the-Middle (MiTM) Attack"
+        ],
+        "author": [
+          {
+            "given": "Shining",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Khandaker Akramul",
+            "family": "Haque",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiang",
+            "family": "Huo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Abhijeet",
+            "family": "Sahu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ana",
+            "family": "Goulart",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Katherine",
+            "family": "Davis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2025 IEEE Texas Power and Energy Conference (TPEC)"
+        ],
+        "publisher": "IEEE",
+        "type": "proceedings-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              10
+            ]
+          ]
+        },
+        "page": "1-6",
+        "relation": {},
+        "URL": "https://doi.org/10.1109/tpec63981.2025.10906975"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Zhukabayeva2025",
+      "entry_type": "article",
+      "supplied_title": "Cybersecurity Solutions for Industrial Internet of Things-Edge Computing Integration: Challenges, Threats, and Future Directions",
+      "supplied_author": "Zhukabayeva, T. and Zholshiyeva, L. and Karabayev, N. and Khan, S. and Alnazzawi, N.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.3390/s25010213",
+      "source_bib_line": 164,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.3390%2Fs25010213",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.3390/s25010213",
+        "title": [
+          "Cybersecurity Solutions for Industrial Internet of Things–Edge Computing Integration: Challenges, Threats, and Future Directions"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6345-5211",
+            "authenticated-orcid": false,
+            "given": "Tamara",
+            "family": "Zhukabayeva",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Information Systems, L.N. Gumilyov Eurasian National University, Astana 010000, Kazakhstan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2526-8471",
+            "authenticated-orcid": false,
+            "given": "Lazzat",
+            "family": "Zholshiyeva",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information Systems, L.N. Gumilyov Eurasian National University, Astana 010000, Kazakhstan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nurdaulet",
+            "family": "Karabayev",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information Systems, L.N. Gumilyov Eurasian National University, Astana 010000, Kazakhstan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8363-2051",
+            "authenticated-orcid": false,
+            "given": "Shafiullah",
+            "family": "Khan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computing and Systems, Abdullah Al Salem University, Kuwait City 72303, Kuwait"
+              },
+              {
+                "name": "Institute of Computing, Kohat University of Science and Technology, Kohat City 24000, Pakistan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3265-0297",
+            "authenticated-orcid": false,
+            "given": "Noha",
+            "family": "Alnazzawi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Yanbu Industrial College, Royal Commission for Jubail and Yanbu, Yanbu Industrial City 41912, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Sensors"
+        ],
+        "publisher": "MDPI AG",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        },
+        "volume": "25",
+        "issue": "1",
+        "page": "213",
+        "relation": {},
+        "URL": "https://doi.org/10.3390/s25010213"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Otoom2025",
+      "entry_type": "article",
+      "supplied_title": "Risk auditing for Digital Twins in cyber physical systems: A systematic review",
+      "supplied_author": "Otoom, S.",
+      "supplied_year": "2025",
+      "supplied_doi": "10.63180/jcsra.thestap.2025.1.3",
+      "source_bib_line": 172,
+      "claim_support": "checked_specific_claim_not_substantiated",
+      "metadata_url": "https://api.crossref.org/works/10.63180%2Fjcsra.thestap.2025.1.3",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.63180/jcsra.thestap.2025.1.3",
+        "title": [
+          "Risk auditing for Digital Twins in cyber physical systems: A systematic review"
+        ],
+        "author": [
+          {
+            "name": "University of Jordan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shahed",
+            "family": "Otoom",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Cyber Security and Risk Auditing"
+        ],
+        "publisher": "Smart Technologies Academic Press",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              29
+            ]
+          ]
+        },
+        "volume": "2025",
+        "issue": "1",
+        "page": "22-35",
+        "relation": {},
+        "URL": "https://doi.org/10.63180/jcsra.thestap.2025.1.3"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "Publisher PDF (14 pages) inspected for KDE/threshold derivation; no supporting derivation found. It supports general digital-twin risk/data-integrity discussion.",
+      "notes": [
+        "Duplicate source encoded under two BibTeX keys and printed as references 7 and 27. Crossref includes one organizational-looking author record plus Shahed Otoom; publisher PDF confirms Shahed Otoom."
+      ],
+      "claim_sources": [
+        "https://jcsra.thestap.com/articles/paper-three.pdf"
+      ],
+      "claim_locators": [
+        "IT-DT Section II-C, Manuscript.tex line 111; source review risk tables and discussion."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Gupta2024",
+      "entry_type": "article",
+      "supplied_title": "TWIN-ADAPT: Continuous Learning for Digital Twin-Enabled Online Anomaly Classification in IoT-Driven Smart Labs",
+      "supplied_author": "Gupta, R. and Tian, B. and Wang, Y. and Nahrstedt, K.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.3390/fi16070239",
+      "source_bib_line": 181,
+      "claim_support": "specific_KDE_complexity_claim_unverified",
+      "metadata_url": "https://api.crossref.org/works/10.3390%2Ffi16070239",
+      "lookup_status": "resolved_on_retry",
+      "prior_error": "HTTP Error 429: Too Many Requests",
+      "retrieved_metadata": {
+        "DOI": "10.3390/fi16070239",
+        "title": [
+          "TWIN-ADAPT: Continuous Learning for Digital Twin-Enabled Online Anomaly Classification in IoT-Driven Smart Labs"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8474-2348",
+            "authenticated-orcid": false,
+            "given": "Ragini",
+            "family": "Gupta",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Illinois at Urbana-Champaign, Champaign, IL 61820, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8969-914X",
+            "authenticated-orcid": false,
+            "given": "Beitong",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Illinois at Urbana-Champaign, Champaign, IL 61820, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yaohui",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Illinois at Urbana-Champaign, Champaign, IL 61820, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6813-3043",
+            "authenticated-orcid": false,
+            "given": "Klara",
+            "family": "Nahrstedt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Illinois at Urbana-Champaign, Champaign, IL 61820, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Future Internet"
+        ],
+        "publisher": "MDPI AG",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              4
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              4
+            ]
+          ]
+        },
+        "volume": "16",
+        "issue": "7",
+        "page": "239",
+        "relation": {},
+        "URL": "https://doi.org/10.3390/fi16070239"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "Publisher-indexed abstract and sections of article text read; direct HTML/PDF intermittently unavailable. Full technical attribution not confirmed.",
+      "notes": [],
+      "claim_sources": [
+        "https://www.mdpi.com/1999-5903/16/7/239"
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Huang2024",
+      "entry_type": "article",
+      "supplied_title": "Security Analysis of Distributed Consensus Filtering under Replay Attacks",
+      "supplied_author": "Huang, J. and Yang, W. and Ho, D.W.C. and Li, F. and Tang, Y.",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1109/TCYB.2022.3209820",
+      "source_bib_line": 189,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1109%2FTCYB.2022.3209820",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1109/tcyb.2022.3209820",
+        "title": [
+          "Security Analysis of Distributed Consensus Filtering Under Replay Attacks"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4594-1758",
+            "authenticated-orcid": false,
+            "given": "Jiahao",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4943-7919",
+            "authenticated-orcid": false,
+            "given": "Wen",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9799-3712",
+            "authenticated-orcid": false,
+            "given": "Daniel W. C.",
+            "family": "Ho",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, City University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7978-8125",
+            "authenticated-orcid": false,
+            "given": "Fangfei",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mathematics, East China University of Science and Technology, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2750-8029",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education, East China University of Science and Technology, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Cybernetics"
+        ],
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "volume": "54",
+        "issue": "6",
+        "page": "3526-3539",
+        "relation": {},
+        "URL": "https://doi.org/10.1109/tcyb.2022.3209820"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Shlens2014",
+      "entry_type": "misc",
+      "supplied_title": "A Tutorial on Principal Component Analysis",
+      "supplied_author": "Shlens,  Jonathon",
+      "supplied_year": "2014",
+      "supplied_doi": "10.48550/ARXIV.1404.1100",
+      "source_bib_line": 198,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://arxiv.org/abs/1404.1100",
+      "lookup_status": "verified_primary_record_manually",
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "arXiv record: Jonathon Shlens, exact title, submitted 3 April 2014."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Audibert2020",
+      "entry_type": "inproceedings",
+      "supplied_title": "USAD: UnSupervised Anomaly Detection on Multivariate Time Series",
+      "supplied_author": "Audibert,  Julien and Michiardi,  Pietro and Guyard,  Frédéric and Marti,  Sébastien and Zuluaga,  Maria A.",
+      "supplied_year": "2020",
+      "supplied_doi": "10.1145/3394486.3403392",
+      "source_bib_line": 206,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1145%2F3394486.3403392",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1145/3394486.3403392",
+        "title": [
+          "USAD"
+        ],
+        "author": [
+          {
+            "given": "Julien",
+            "family": "Audibert",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "EURECOM &amp; Orange, Sophia Antipolis, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pietro",
+            "family": "Michiardi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "EURECOM, Biot, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Frédéric",
+            "family": "Guyard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Orange Labs, Sophia Antipolis, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sébastien",
+            "family": "Marti",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Orange, Sophia Antipolis, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Maria A.",
+            "family": "Zuluaga",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "EURECOM, Biot, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining"
+        ],
+        "publisher": "ACM",
+        "type": "proceedings-article",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              23
+            ]
+          ]
+        },
+        "page": "3395-3404",
+        "relation": {},
+        "assertion": [
+          {
+            "value": "2020-08-20",
+            "order": 2,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3394486.3403392",
+        "subtitle": [
+          "UnSupervised Anomaly Detection on Multivariate Time Series"
+        ]
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [
+        "Crossref title field is USAD; subtitle confirms the full supplied title. Primary ACM page returned 403. Specific two-standard-deviation claim not checked."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Deng2021",
+      "entry_type": "article",
+      "supplied_title": "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series",
+      "supplied_author": "Deng,  Ailin and Hooi,  Bryan",
+      "supplied_year": "2021",
+      "supplied_doi": "10.1609/aaai.v35i5.16523",
+      "source_bib_line": 219,
+      "claim_support": "graph_relationship_claim_supported_attack41_claim_not_substantiated",
+      "metadata_url": "https://api.crossref.org/works/10.1609%2Faaai.v35i5.16523",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1609/aaai.v35i5.16523",
+        "title": [
+          "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series"
+        ],
+        "author": [
+          {
+            "given": "Ailin",
+            "family": "Deng",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bryan",
+            "family": "Hooi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              18
+            ]
+          ]
+        },
+        "volume": "35",
+        "issue": "5",
+        "page": "4027-4035",
+        "relation": {},
+        "URL": "https://doi.org/10.1609/aaai.v35i5.16523"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "Original AAAI paper Section 4 and Figure 3 inspected; case study is WADI, not canonical SWaT Attack #41. No general GPU necessity proven.",
+      "notes": [],
+      "claim_sources": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/16523/16330"
+      ],
+      "claim_locators": [
+        "Source Section 4.8, PDF pp. 6-7; IT-DT Section V-B, Manuscript.tex line 305."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Tuli2022",
+      "entry_type": "article",
+      "supplied_title": "TranAD: deep transformer networks for anomaly detection in multivariate time series data",
+      "supplied_author": "Tuli,  Shreshth and Casale,  Giuliano and Jennings,  Nicholas R.",
+      "supplied_year": "2022",
+      "supplied_doi": "10.14778/3514061.3514067",
+      "source_bib_line": 234,
+      "claim_support": "small_deviation_motivation_supported_attack41_claim_not_substantiated",
+      "metadata_url": "https://api.crossref.org/works/10.14778%2F3514061.3514067",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.14778/3514061.3514067",
+        "title": [
+          "TranAD"
+        ],
+        "author": [
+          {
+            "given": "Shreshth",
+            "family": "Tuli",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Imperial College London, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Giuliano",
+            "family": "Casale",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Imperial College London, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nicholas R.",
+            "family": "Jennings",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Loughborough University, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the VLDB Endowment"
+        ],
+        "publisher": "Association for Computing Machinery (ACM)",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              2
+            ]
+          ]
+        },
+        "volume": "15",
+        "issue": "6",
+        "page": "1201-1214",
+        "relation": {},
+        "URL": "https://doi.org/10.14778/3514061.3514067"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "VLDB PDF introduction and experimental Sections 4-5 inspected; no canonical Attack #41 example found. Introduction presents adversarial training as a remedy for small anomalies in simple transformers.",
+      "notes": [
+        "Crossref title field is TranAD; full title checked on the publisher PDF."
+      ],
+      "claim_sources": [
+        "https://www.vldb.org/pvldb/vol15/p1201-tuli.pdf"
+      ],
+      "claim_locators": [
+        "Source introduction, pp. 1-2; experiments and analysis, pp. 8-12; IT-DT Section V-B, Manuscript.tex line 305."
+      ],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    },
+    {
+      "key": "Shang2024",
+      "entry_type": "article",
+      "supplied_title": "An Efficient Anomaly Detection Method for Industrial Control Systems: Deep Convolutional Autoencoding Transformer Network",
+      "supplied_author": "Shang,  Wenli and Qiu,  Jiawei and Shi,  Haotian and Wang,  Shuang and Ding,  Lei and Xiao,  Yanjun",
+      "supplied_year": "2024",
+      "supplied_doi": "10.1155/2024/5459452",
+      "source_bib_line": 249,
+      "claim_support": "not_assessed_beyond_identity",
+      "metadata_url": "https://api.crossref.org/works/10.1155%2F2024%2F5459452",
+      "lookup_status": "resolved",
+      "retrieved_metadata": {
+        "DOI": "10.1155/2024/5459452",
+        "title": [
+          "An Efficient Anomaly Detection Method for Industrial Control Systems: Deep Convolutional Autoencoding Transformer Network"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6022-5381",
+            "authenticated-orcid": true,
+            "given": "Wenli",
+            "family": "Shang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The School of Electronics and Communication Engineering, Guangzhou University, Guangzhou 510006, China"
+              },
+              {
+                "name": "The Key Laboratory of On-Chip Communication and Sensor Chip of Guangdong Higher Education Institutes, Guangzhou University, Guangzhou 510006, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-2215-4062",
+            "authenticated-orcid": true,
+            "given": "Jiawei",
+            "family": "Qiu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The School of Electronics and Communication Engineering, Guangzhou University, Guangzhou 510006, China"
+              },
+              {
+                "name": "The Key Laboratory of On-Chip Communication and Sensor Chip of Guangdong Higher Education Institutes, Guangzhou University, Guangzhou 510006, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5010-1000",
+            "authenticated-orcid": true,
+            "given": "Haotian",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The School of Electronics and Communication Engineering, Guangzhou University, Guangzhou 510006, China"
+              },
+              {
+                "name": "The Key Laboratory of On-Chip Communication and Sensor Chip of Guangdong Higher Education Institutes, Guangzhou University, Guangzhou 510006, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6437-021X",
+            "authenticated-orcid": true,
+            "given": "Shuang",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Information Security Evaluation Center of Civil Aviation, Civil Aviation University of China, Tianjin 300300, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8480-4628",
+            "authenticated-orcid": true,
+            "given": "Lei",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Key Laboratory of On-Chip Communication and Sensor Chip of Guangdong Higher Education Institutes, Guangzhou University, Guangzhou 510006, China"
+              },
+              {
+                "name": "The School of Cyber Security, Guangzhou University, Guangzhou 510006, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-2380-9317",
+            "authenticated-orcid": true,
+            "given": "Yanjun",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Parallel Laboratory, NSFOCUS Technologies Group Co., Ltd., Beijing 100089, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "editor": [
+          {
+            "given": "Yu-an",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "editor"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Journal of Intelligent Systems"
+        ],
+        "publisher": "Wiley",
+        "type": "journal-article",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              29
+            ]
+          ]
+        },
+        "volume": "2024",
+        "page": "1-18",
+        "relation": {},
+        "URL": "https://doi.org/10.1155/2024/5459452"
+      },
+      "identity_review": "matched_primary_metadata",
+      "full_text_claim_audit": "not_completed",
+      "notes": [],
+      "retraction_status": "not_systematically_checked; no clean-status certification"
+    }
+  ],
+  "completed_at_utc": "2026-10-16T15:52:03.818295+00:00",
+  "audit_note": "AI-assisted primary-source fact-check under project rules. Original bibliography unmodified. No source labelled fabricated based on search failure.",
+  "primary_paper_record": {
+    "url": "https://arxiv.org/abs/2603.01621",
+    "verified_title_authors_date": true,
+    "versions_observed": [
+      "v1"
+    ],
+    "submitted": "2026-03-02T08:56:11Z",
+    "license": "CC BY-SA 4.0",
+    "peer_review": "not_verified_preprint_only",
+    "withdrawal_or_correction_notice": "none_observed_on_record_not_exhaustive_registry_audit"
+  },
+  "coverage_counts": {
+    "bibliography_entries": 28,
+    "distinct_works": 27,
+    "identity_matched_entries": 28,
+    "crossref_resolved_entries": 25,
+    "arxiv_record_entries": 1,
+    "publisher_book_entries": 2,
+    "full_bibliography_claim_verification_complete": false
+  }
+}

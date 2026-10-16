@@ -1,5 +1,6 @@
 # Digital-twin/deep-learning ensemble study collection
 
+**Verification update — 16 October 2026:** [The source audit](VERIFICATION_REPORT.md) confirms the publication identity but finds material mathematical, metric, citation and protocol issues. Keep this paper on experimental hold; published claims remain unvalidated.
 Collected for the water project on **16 October 2026**. This folder holds public paper materials and our audit notes. **No implementation, model execution or reproduced result exists here.**
 
 **Paper:** Ali Sayghe, Mohammad D. Alahmadi and Abdulrahman A. Gharawi, *A digital twin and deep-learning ensemble for cyber attack detection in industrial control systems at the IoT edge*. *Scientific Reports* **16**, 23318 (2026). [Publisher / DOI](https://www.nature.com/articles/s41598-026-53863-z): `10.1038/s41598-026-53863-z`. Peer-reviewed journal article; individual review reports were not verified.

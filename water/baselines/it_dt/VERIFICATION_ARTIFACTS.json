@@ -1,0 +1,53 @@
+{
+  "schema": "water-baseline-verification-artifacts-v1",
+  "baseline": "it_dt",
+  "audit_date": "2026-10-16",
+  "inventory_created_at_utc": "2026-10-16T15:54:03.937042+00:00",
+  "scope": "New ignored rendering artifacts used for this verification audit. All original acquisition artifacts remain in the shared source/derivative manifests.",
+  "artifacts": [
+    {
+      "path": "artifacts/verification/fig_kl_timeline.png",
+      "bytes": 104426,
+      "sha256": "5ffd454f1249a0e58aaffb475a96011a5451a7c77f39b377895045d9e8ea2887",
+      "kind": "audit_rendering_of_original_author_figure",
+      "source_url": "https://arxiv.org/src/2603.01621v1",
+      "source_url_scope": "Original source archive containing the PDF figure; preview PNG generated locally, not downloaded.",
+      "source_member": "fig_kl_timeline.pdf",
+      "source_local_path": "artifacts/source/arxiv_v1/fig_kl_timeline.pdf",
+      "source_sha256": "7f11ae17a841b036acc2c9cd9b74b9537d4f49f072135ede565da54cd91d8e7e",
+      "creation_command": "pdftoppm -png -scale-to 1400 -singlefile water/baselines/it_dt/artifacts/source/arxiv_v1/fig_kl_timeline.pdf /tmp/it_dt_timeline",
+      "creation_working_directory": "/Users/matrixusman/CUI/DigitalTwin",
+      "preservation_operation": "Copied identical temporary preview bytes into this ignored audit folder after visual inspection.",
+      "limitations": "Rendering only; not a new scientific figure, numerical digitization, or validation of author results."
+    },
+    {
+      "path": "artifacts/verification/fig_sensitivity.png",
+      "bytes": 57221,
+      "sha256": "ddb3eee297dcf6c0b5ce99bb0828fbd9aa2c1022b97c8ce9e152428348cdfc59",
+      "kind": "audit_rendering_of_original_author_figure",
+      "source_url": "https://arxiv.org/src/2603.01621v1",
+      "source_url_scope": "Original source archive containing the PDF figure; preview PNG generated locally, not downloaded.",
+      "source_member": "fig_sensitivity.pdf",
+      "source_local_path": "artifacts/source/arxiv_v1/fig_sensitivity.pdf",
+      "source_sha256": "6dec116ce62329b176ad27af5c2faad69aedda7bb8fe20bed6c1544d965268b9",
+      "creation_command": "pdftoppm -png -scale-to 1200 -singlefile water/baselines/it_dt/artifacts/source/arxiv_v1/fig_sensitivity.pdf /tmp/it_dt_sensitivity",
+      "creation_working_directory": "/Users/matrixusman/CUI/DigitalTwin",
+      "preservation_operation": "Copied identical temporary preview bytes into this ignored audit folder after visual inspection.",
+      "limitations": "Rendering only; not a new scientific figure, numerical digitization, or validation of author results."
+    }
+  ],
+  "other_audit_records": [
+    {
+      "path": "REFERENCE_CHECKS.json",
+      "storage": "tracked research audit metadata",
+      "note": "Public metadata responses and manual identity/claim annotations; not an ignored acquisition artifact."
+    },
+    {
+      "path": "VERIFICATION_REPORT.md",
+      "storage": "tracked research audit report"
+    }
+  ],
+  "not_collected": [
+    "No new dataset contents, detector code, checkpoints, score arrays or experiment outputs."
+  ]
+}

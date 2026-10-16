@@ -20,6 +20,8 @@ Use this file for the order of work. Use [REPRODUCTION_PLAN.md](REPRODUCTION_PLA
 
 **Acquisition update, 2026-10-16:** the [three baseline packs](../baselines/README.md) now contain local full texts, figures/tables/references and available pinned CAROTS author artifacts. The user confirms no iTrust approval; [mirror provenance and release matching](../baselines/DATASET_ACQUISITION_STATUS.md) remain unresolved. The immediate next action is learning from these packs, not training.
 
+**Verification update:** read the [audit verdict](BASELINE_VERIFICATION_REPORT.md) before using those packs. Files passed integrity checks, while source code, figures, formulas and references contain material issues. The twin papers remain critical-reading material, not trusted numerical comparators. Researcher reading and runtime verification are still incomplete.
+
 Checkboxes are task status, not promises. Tick an item only after its output exists and its check passes; cite the evidence in the work log. **U** = researcher action/decision; **A** = assistant work within the authorized task; **B** = both. The next session should address a small set of IDs, not run this entire document automatically. All proposed file paths below resolve from `water/`; a path in backticks may not exist yet.
 
 ### Current position
@@ -63,6 +65,8 @@ No calendar deadline is promised. Access, paper availability, learning time and 
 
 **Output:** a short researcher-owned note in `papers/notes/research_basics.md`. **Done when:** you can explain the data flow and distinguish the roles below in your own words.
 
+**Learning session, 16 October 2026:** the assistant prepared [the Step 0 lesson](RESEARCH_BASICS_LESSON.md), with a synthetic tank calculation, detection flow, comparison roles, split example, leakage cases and comprehension prompts. [Your note scaffold](../papers/notes/research_basics.md) awaits your own explanation. Teaching material is available; the checkboxes below remain open because preparation does not establish researcher understanding or provider-specific channel verification.
+
 - [ ] **W0.01 · U:** Read [the brief](../PROJECT_BRIEF.md) and state the candidate question in one sentence. Mark any wording you do not understand.
 - [ ] **W0.02 · B:** Draw a simple offline flow: recorded measurements → expected behavior → anomaly score → threshold → alarm → evaluation.
 - [ ] **W0.03 · B:** Identify sensors, actuators, controller commands and process state using provider documentation; do not assume a recorded command is trustworthy.
@@ -78,6 +82,8 @@ Quick vocabulary: a **score** measures suspiciousness; a **threshold** converts 
 ## 1. Establish the legitimate dataset-access route
 
 **Output:** updated access checklist plus private request/access record in `local/`. **Done when:** the requester and each data user are covered by the relevant permission and an authorized acquisition source is identified. Local receipt and release verification belong to Stage 3. Submission alone does not complete this stage.
+
+**Current task, 16 October 2026:** [application preparation](DATASET_REQUEST_PREPARATION.md) is complete for the available identity fields and SWaT/WADI selections. The exact university email, prior-request status and agreement/consent remain pending; no form submission or dataset receipt is claimed. The user explicitly authorized working on Stage 1; unfinished learning tasks do not block this independent access work.
 
 - [ ] **W1.01 · U:** Confirm privately that your own COMSATS Sahiwal student email works and you can receive messages. Do not put the address or login credentials in the repository.
 - [ ] **W1.02 · B:** Open the [official request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) and read the current [terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/).

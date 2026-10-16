@@ -2,6 +2,8 @@
 
 Status checked **16 October 2026**: **no local SWaT/WADI raw files or provider approval verified**. [Acquisition status](../DATASET_ACQUISITION_STATUS.md) and the [provider access checklist](../../docs/DATASET_ACCESS_CHECKLIST.md) govern receipt. Materials downloaded for this baseline are papers and source assets, not benchmark data.
 
+The [verification report](VERIFICATION_REPORT.md) adds unresolved attack-identity and validation-label questions. In particular, the cited GDN/TranAD experimental sections do not establish the stated canonical SWaT Attack #41 example, and the provider webpage alone does not establish its duration or classification. Do not freeze event mappings from this paper's figure.
+
 ## What the manuscript specifies
 
 | Dataset | Manuscript evidence | Still needed |

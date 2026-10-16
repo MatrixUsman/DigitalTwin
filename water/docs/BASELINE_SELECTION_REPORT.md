@@ -2,6 +2,8 @@
 
 Decision date: **16 October 2026 (Asia/Karachi)**. Project: water / Muhammad Usman. This decision applies the [predefined criteria](BASELINE_SELECTION_CRITERIA.md), [shared publication standards](../../docs/PUBLICATION_STANDARDS.md) and the [expanded search record](literature/EXPANDED_SEARCH_2026-10-16.md). It recommends a learning set; it does not finalize the research mechanism or admit three numerical baselines.
 
+**Post-acquisition verification update:** [the deeper audit](BASELINE_VERIFICATION_REPORT.md) found additional CAROTS code defects, an IT-DT alarm-figure inconsistency, and material mathematical/reference problems in the ensemble. The order below is retained for learning, with the twin papers treated critically. It is not an endorsement of their claims or a fixed experimental set; seek stronger verifiable twin comparators before that decision. The detector's normal-validation checkpoint logic does not establish correct fresh-versus-cached causal-discoverer selection.
+
 ## Recommendation
 
 **Study CAROTS → Information-Theoretic Digital Twins → the digital-twin/deep-learning ensemble.** The expanded search supports retaining these three for their complementary roles. It did not establish three recent, peer-reviewed, reproducible twin comparators satisfying all our requirements. Do not describe the set as three globally best models, three ready implementations, or three peer-reviewed papers: IT-DT is a verified preprint only.

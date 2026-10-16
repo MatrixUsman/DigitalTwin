@@ -13,10 +13,13 @@ The paper evaluates both datasets, but provides no provider file checksums. Its 
 
 - The loader reserves the later normal portion as validation and fits scaling on training. `TRAIN_RATIO >= 1` instead reuses test data as validation; forbid that branch.
 - The SWaT code extracts test labels before removing a feature row. Confirm actual timestamp/row alignment against received files; the suspected defect has not been runtime-tested.
-- WADI drops wholly missing columns and rows containing missing values, drops three metadata columns and maps `-1` labels to attacks. Deleted rows may create temporal gaps; windows must not silently bridge them.
+- WADI independently drops wholly missing columns and rows containing missing values in normal/test data, drops three metadata columns and maps `-1` labels to attacks. Check the ordered feature sets explicitly. Deleted rows may create temporal gaps; windows must not silently bridge them.
 - SWaT/WADI scripts request factor-five downsampling. The utility applies block medians to labels as well as features and drops incomplete trailing blocks. This can remove short attacks; later any-anomaly window labels do not restore them.
 - Upstream conversion and caching write into the data directory. Preserve original data unchanged under `water/datasets/raw/`; redirect derived data to `water/datasets/processed/` in the eventual adapter.
+- Cached filenames encode downsampling rate but omit original hashes, split ratio and preprocessing revision. Existing caches can therefore survive changes to those inputs. Bind future processed caches to an explicit provenance manifest.
 
 Do not place separate raw copies in each baseline folder. Each baseline should reference the same approved water-project manifest and frozen files. We cannot yet assert exact release compatibility with IT-DT or the ensemble paper. Document method-specific preprocessing explicitly and use common score/label coverage rules for our eventual comparison.
 
 The downloaded author repository includes dataset-loading code, not SWaT/WADI observations. Its retained `Graph.npy` files are author-derived causal graph artifacts, not raw dataset substitutes.
+
+See [findings C-03–C-05](VERIFICATION_REPORT.md) for exact code locations and limits of this static audit. None of these observations substitutes for testing the authorized original release.

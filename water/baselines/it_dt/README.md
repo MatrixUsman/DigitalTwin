@@ -2,6 +2,8 @@
 
 Collected for the water project on **16 October 2026**. This is a collection of the authors' published materials and our audit notes. **No IT-DT implementation, reproduction or experiment has been performed here.**
 
+**Verification update:** the arXiv paper and source identity are confirmed, but the [independent collection audit](VERIFICATION_REPORT.md) found a material mismatch between Figure 3's plotted score and alarm marker, an unresolved F1 arithmetic/aggregation question, and protocol/citation gaps. Keep IT-DT for critical study; it is **on hold as a numerical baseline**. Authentic files do not validate the reported experiments.
+
 **Paper:** Inda Kreso, Mehran Tarif, Fatemeh Moradi, Iman Khazrak, Mostafa M Rezaee and Mohammadhossein Homaei, *Information-Theoretic Digital Twins for Stealthy Attack Detection in Industrial Control Systems: A Closed-Form KL Divergence Approach*. [arXiv:2603.01621v1](https://arxiv.org/abs/2603.01621v1), submitted **2 March 2026**. DOI: `10.48550/arXiv.2603.01621`. Only the preprint is verified; its arXiv DOI does not establish peer review.
 
 ## Start reading
@@ -25,7 +27,7 @@ Collected for the water project on **16 October 2026**. This is a collection of 
 | Sources, byte counts, hashes and actual retrieval outcomes | [Resource manifest](../RESOURCE_MANIFEST.json) |
 | Benchmark receipt and permission | [Shared acquisition status](../DATASET_ACQUISITION_STATUS.md) |
 
-The source archive contains seven files. Its three tables are part of the manuscript, not independent experiment-output files. The bibliography is preserved as supplied; its entries and their support for claims require separate verification.
+The source archive contains seven files. Its three tables are part of the manuscript, not independent experiment-output files. The bibliography is preserved as supplied. The [reference audit](REFERENCE_CHECKS.json) matches all 28 entries to primary metadata (27 distinct works, including one duplicated reference); most adjoining claims still require full-text verification. See the [verification report](VERIFICATION_REPORT.md) for checked claims, metadata corrections and limitations.
 
 The article is **CC BY-SA 4.0** ([license](https://creativecommons.org/licenses/by-sa/4.0/)). Retain author attribution, source/version and license when using its text or figures; mark adaptations. Preserve the separate license/copyright notices in `IEEEtran.cls`. Article licensing does not grant SWaT/WADI rights or establish a detector-code license. Downloaded artifacts remain ignored local material; publication permission is a separate decision.
 

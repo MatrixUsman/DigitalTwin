@@ -3,10 +3,12 @@
 Project ID: `water`\
 Owner: **Muhammad Usman**\
 Updated: **2026-10-16 (Asia/Karachi)**\
-Stage: **three-paper resource collection and data-access audit; model implementation not started**
+Stage: **Stage 1 access application prepared; email and agreement/consent pending; model implementation not started**
 
 ## Completed
 
+- Rechecked local dataset inventory and official access terms; prepared the [SWaT/WADI request](docs/DATASET_REQUEST_PREPARATION.md) in Safari using known identity fields. No submission, approval or download occurred; email/prior-request status and action-time agreement/consent are pending.
+- Prepared the [Step 0 research-basics lesson](docs/RESEARCH_BASICS_LESSON.md): a synthetic water-tank example, score/threshold/alarm flow, baselines versus ablations, data roles, leakage and adaptation. The [researcher note scaffold](papers/notes/research_basics.md) is unanswered; no mastery or human reading is inferred.
 - Existing water brief, candidate register, detailed paper/code audit, reproduction plan, and dataset-source search migrated into this project.
 - CAROTS and its no-ensemble variant selected as conditional first comparisons. [Evidence](docs/LITERATURE_EVIDENCE.md)
 - Official access requirements and alternative source listings checked. Owner reports a COMSATS Sahiwal student university email; exact account/access not verified. [Access checklist](docs/DATASET_ACCESS_CHECKLIST.md)
@@ -17,6 +19,7 @@ Stage: **three-paper resource collection and data-access audit; model implementa
 - The earlier in-memory paper audit is now followed by a [local three-paper collection](baselines/README.md): 110 public source objects and 79 reading derivatives, with hashes. Separate CAROTS, IT-DT and ensemble folders contain PDFs, original figures/tables/bibliographies, citations, protocol notes and missing-resource records.
 - CAROTS has a selective 57-file author-code snapshot pinned to `63a41f45a2ae680d5cdbb2d5739e7a11264867cb`, plus 16 upstream SWaT/WADI CUTS+ graph/checkpoint/log artifacts. These checkpoints are not final CAROTS detector weights. No author code or checkpoint was executed/deserialized.
 - Dataset mirrors were rechecked and their metadata saved. SWaT/WADI filenames matching CAROTS were found; provider permission and exact-release equivalence remain unverified. [Acquisition status](baselines/DATASET_ACQUISITION_STATUS.md)
+- [Baseline verification](docs/BASELINE_VERIFICATION_REPORT.md) checked all 189 original collection files, complete PDF parsing/rendering, extracted tables, guide transcriptions, reference inventories and static CAROTS code. Authentic source records were established; material source problems were found. Per-paper reports retain exact evidence and unresolved checks. No blanket scientific validation is claimed.
 
 ## Not completed / blockers
 
@@ -25,11 +28,13 @@ Stage: **three-paper resource collection and data-access audit; model implementa
 - No scientific project environment, dependency lock, benchmark loader/evaluator, research tests, model execution or reproduced score exists. Resource-download/extraction utilities exist; the CAROTS source snapshot is not an installed or validated implementation.
 - CAROTS test-based threshold and separate max-F1 reporting need a declared protocol change. Label alignment, raw-folder writes, preprocessing, and CPU/MPS portability need validation.
 - CAROTS published gradient clipping is 1.0 versus code default 0.5; resolve the intended configuration before a pilot. The repository's 51/49-channel issue is a user report requiring schema checks, not a reproduced failure here.
+- CAROTS's ratio-calibration path has a missing validation-score input and attribute-name error; inference loader configuration and fresh-versus-cached causal checkpoint selection require repair/validation. Syntax checks passed, but no runtime compatibility is established.
+- IT-DT's alarm plot disagrees with its displayed threshold, and its window-selection label provenance is unclear. The ensemble has incorrect reference identifiers, chi-square scaling and robustness-radius/norm problems, plus unresolved FPR and dataset protocol questions. Keep both numerical baselines on hold; do not import their performance or guarantee claims as established facts.
 - Trust-gating novelty is unestablished; alarm gating in prior work must be distinguished from protecting model updates. Legitimate process-change evidence is unresolved.
 
 ## Next bounded task
 
-Begin the [local CAROTS reading pack](baselines/carots/README.md) and [structured reading sequence](docs/BASELINE_SELECTION_REPORT.md): researcher-owned explanation of the model and both variants, followed by a proposed reproduction/deviation specification. Then study IT-DT and the ensemble. Resolve authorized dataset receipt independently; do not treat mirrors as matched releases. Three experimental baselines are **not** admitted. Keep final attack outcomes closed throughout baseline and proposed-method development.
+Complete the [prepared access application](docs/DATASET_REQUEST_PREPARATION.md) after receiving the exact active university email, clarifying whether a request already exists, and obtaining the required agreement/consent. Verify submission separately from provider approval; download and hash the original recordings only through an established authorized route. While awaiting access, the [Step 0 comprehension prompts](docs/RESEARCH_BASICS_LESSON.md) and researcher-owned CAROTS explanation remain available. The [verification verdict](docs/BASELINE_VERIFICATION_REPORT.md) remains in force; three experimental baselines are **not** admitted. Keep final attack outcomes closed throughout development.
 
 ## Run and manuscript state
 

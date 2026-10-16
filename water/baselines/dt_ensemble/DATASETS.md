@@ -1,5 +1,6 @@
 # Ensemble dataset requirements and gaps
 
+**Verification update — 16 October 2026:** [The source audit](VERIFICATION_REPORT.md) confirms the publication identity but finds material mathematical, metric, citation and protocol issues. Keep this paper on experimental hold; published claims remain unvalidated.
 Checked **16 October 2026**: **SWaT/WADI access approval and raw files have not been received or verified**. Downloading this open-access article does not grant dataset permission. See [acquisition status](../DATASET_ACQUISITION_STATUS.md) and the [provider checklist](../../docs/DATASET_ACCESS_CHECKLIST.md).
 
 ## Published description

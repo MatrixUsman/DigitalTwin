@@ -13,15 +13,20 @@ The pinned scripts configure SWaT with learning rate `0.0003`, weight decay `0.0
 | Area | Finding and required action |
 |---|---|
 | Thresholds and reported F1 | `threshold.py` optimizes against test labels. `predictor.py` independently reports the maximum F1 from the test PR curve. Replace both paths with frozen development-only calibration and reporting. Changing one setting is insufficient. |
+| Alternative threshold branch | Switching to `ratio` is not a working fix: validation scores are not passed, and the branch reads `val_score` where the constructor stores `val_scores`. This is a static finding, not an executed failure. |
 | Validation | Default checkpoint selection uses normal validation loss. Preserve that separation and prohibit the test-as-validation loader branch. Determine and record all hyperparameter-selection data. |
 | Metrics | Main metrics must be unadjusted. The code can also output point-adjusted metrics, despite the paper's exclusion; keep metric names explicit. Its trapezoidal PR-AUC is not interchangeable with average precision. |
 | Data | Resolve [release, label, resampling and alignment questions](DATASETS.md), then test chronology and score coverage on synthetic fixtures before private data. |
 | Configurations | Paper gradient clipping is `1.0`; code default is `0.5`. Resolve and record paper/code differences rather than silently assuming equivalence. Audit full resolved configurations before execution. |
 | Device and dependencies | CUDA calls are hard-coded in training paths. No validated environment lock or CPU/MPS port is available. Local compatibility and runtime remain unmeasured. |
 | Reused artifacts | The downloaded CUTS+ graph/checkpoint provenance lacks complete training/split metadata. Preserve for study; decide whether reuse is valid only after checking it against our common protocol. No checkpoint was loaded. |
+| Fresh versus cached discovery | Cached execution loads the best CUTS+ checkpoint; fresh training hands over its final model without restoring the best epoch. The paths can differ when the best epoch is not last. Resolve checkpoint selection explicitly. |
+| Score ordering and shapes | The predictor edits cloned inference flags but builds loaders with the original config; training-score passes can remain shuffled and drop tails. Unrestricted scorer `.squeeze()` can also yield a scalar for a one-item batch that the predictor rejects. Validate alignment, coverage and singleton batches using synthetic fixtures. |
 | Variants | Predeclare both CAROTS and CAROTS-dagger. The inspected predictor combines scores; a contrastive-only evaluation path needs explicit validation. Do not select a preferred variant using final attack outcomes. |
 
 Our intended classification is **author-code execution with declared protocol changes**, if implementation proceeds. That does not promise numerical replication of the authors' best-F1 scores. Preserve the current source snapshot, record future patches, and keep our runs under `water/experiments/runs/`, apart from author artifacts.
+
+The [verification report](VERIFICATION_REPORT.md) records exact source lines, conditional implications and audit limits. Static source findings are not measured runtime or benchmark outcomes.
 
 ## Next bounded steps
 

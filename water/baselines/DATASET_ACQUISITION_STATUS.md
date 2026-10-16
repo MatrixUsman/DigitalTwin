@@ -2,6 +2,8 @@
 
 Checked **16 October 2026**. The user explicitly reports **no iTrust approval received**. No raw SWaT or WADI files were downloaded, and no model was run. The search did find public mirrors; the unresolved issue is whether they provide the permitted, identical releases needed for a defensible comparison.
 
+**Latest access task:** the [official request draft](../docs/DATASET_REQUEST_PREPARATION.md) is prepared in Safari with SWaT and WADI selected. It remains unsubmitted pending the exact university email, prior-request status and required agreement/consent confirmation. Fresh inventory confirms no local data. A renewed bounded search, including the implementation repository linked by iTrust, found no stronger authorized public download route. Earlier size/hash entries below remain remote metadata.
+
 ## Best matching public listings found
 
 The following are **remote host metadata**, not measured local dataset properties or verified official checksums.

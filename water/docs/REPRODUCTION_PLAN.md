@@ -18,12 +18,15 @@ This is conditional, not a claim that the repository runs on this machine. Resol
 4. Test-label threshold optimization **and** the separate oracle-best-F1 reporting path. Disable both; calibration and report generation must use the frozen project protocol.
 5. Potential SWaT first-row alignment issue, writes into input directories, downsampling/label aggregation, and gap handling. Static concerns are not yet confirmed runtime defects.
 6. Published Appendix B specifies gradient clipping 1.0, while pinned code defaults to 0.5. Resolve and predeclare the intended setting without test-based selection. The 51/49-feature repository issue remains an unconfirmed user report. See the [expanded pinned-code audit](literature/EXPANDED_SEARCH_2026-10-16.md).
+7. The [deeper CAROTS audit](../baselines/carots/VERIFICATION_REPORT.md) identifies broken ratio-threshold wiring, config-clone misuse for inference loaders, fresh/cached causal-checkpoint differences and a conditional singleton-batch shape issue. Simply changing the threshold setting is insufficient. Resolve each in a declared adapter with meaningful synthetic tests before real-data runs.
 
 Call the resulting work **author-code CAROTS under a modified evaluation protocol**, with an explicit deviation ledger. Published best-F1 values are reference claims, not targets we may reach by tuning on the test set. If faithful reported-score reproduction requires violating the held-out-label rule, do not perform that part.
 
 IT-DT is a later compact twin-method candidate, currently a preprint without verified author code or complete protocol. A manuscript-based implementation would be **our reimplementation**. CDT and the ensemble need matched code and clarification; DPDGAD needs accessible full text and code evidence. Do not make the first milestone depend on these unresolved artifacts.
 
 The [current learning selection](BASELINE_SELECTION_REPORT.md) retains CAROTS, IT-DT and the ensemble. New contamination/context/shift references inform question refinement, but do not expand this proposed implementation scope or authorize additional runs.
+
+The later [verification report](BASELINE_VERIFICATION_REPORT.md) adds material IT-DT/ensemble figure, mathematical, protocol and bibliography concerns. Preserve them as critical-reading sources; do not treat their displayed scores or formal guarantees as validated targets for a reimplementation.
 
 ## 2. Minimal structure to create in the next phase
 

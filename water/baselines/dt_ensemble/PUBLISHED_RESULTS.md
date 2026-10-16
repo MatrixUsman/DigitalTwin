@@ -1,5 +1,6 @@
 # Ensemble published results and asset index
 
+**Verification update — 16 October 2026:** [The source audit](VERIFICATION_REPORT.md) confirms the publication identity but finds material mathematical, metric, citation and protocol issues. Keep this paper on experimental hold; published claims remain unvalidated.
 **These are Sayghe, Alahmadi and Gharawi's published claims and assets, not measurements from our project.** No result has been reproduced. Preserve attribution to the [Scientific Reports article](https://www.nature.com/articles/s41598-026-53863-z), DOI `10.1038/s41598-026-53863-z`, version of record **27 July 2026**, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to third-party exclusions.
 
 Use the [local VOR PDF](artifacts/papers/Ensemble_ScientificReports_VOR.pdf) for the complete presentation. The official PMC XML, plain text and media are in `artifacts/pmc/`; the [extraction index](artifacts/extracted/INDEX.json) maps local tables, captions and references to source IDs. The [resource manifest](../RESOURCE_MANIFEST.json) records actual files, sources and hashes. Extracted copies are derivatives of the article, not released experimental output. Plain-text extraction flattens table structure; consult the PDF or XML for cell/column boundaries.

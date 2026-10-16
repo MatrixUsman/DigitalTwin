@@ -2,13 +2,15 @@
 
 Owner: **Muhammad Usman**. Project ID: `water`. Academic digital-twin cybersecurity research for water treatment and distribution; titles and contributions remain provisional.
 
-Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. No trained models or benchmark results exist.
+Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. We have not trained models or measured benchmark results; downloaded author artifacts are labelled separately.
 
 For the beginner-friendly sequence, follow the **[detailed water research roadmap](docs/RESEARCH_ROADMAP.md)**. It includes numbered small tasks, responsibilities, dependencies, artifacts, completion checks and the first five work sessions.
 
-Current priority: **[study the three selected learning papers](docs/BASELINE_SELECTION_REPORT.md)**: CAROTS → IT-DT → the ensemble. The expanded search applied the [selection criteria](docs/BASELINE_SELECTION_CRITERIA.md); learning priorities and experimental admission remain separate, and no three-method numerical comparison is finalized.
+Current priority: **[complete the authorized dataset-access request](docs/DATASET_REQUEST_PREPARATION.md)**. The form is prepared but unsubmitted, with the exact university email and agreement/consent still pending. In parallel, [Step 0: learn the research basics](docs/RESEARCH_BASICS_LESSON.md) and explain them in [your own note](papers/notes/research_basics.md), then [study the selected papers](docs/BASELINE_SELECTION_REPORT.md): CAROTS → IT-DT → the ensemble. Learning priorities and experimental admission remain separate, and no three-method numerical comparison is finalized.
 
 The **[local baseline resource collection](baselines/README.md)** now contains their PDFs, available code, original figures/tables, bibliographies and study guides. [Dataset acquisition remains unresolved](baselines/DATASET_ACQUISITION_STATUS.md): public mirrors were found, but SWaT/WADI approval and release equivalence are not established.
+
+The subsequent **[verification audit](docs/BASELINE_VERIFICATION_REPORT.md)** found intact files and genuine paper records, alongside substantive code, citation and scientific inconsistencies. Read that verdict before treating any published result or guarantee as reliable. CAROTS remains the conditional first reproduction; the two twin methods remain on hold.
 
 | Location | Purpose |
 |---|---|

@@ -1,0 +1,1978 @@
+{
+  "audited_date": "2026-10-16",
+  "scope": "Every rendered reference received a primary identity lookup attempt. This is identity/metadata coverage, not full citation-claim support, experimental validation, or retraction clearance. Original author files unchanged. Unused source-library records are inventory-only.",
+  "source_bib": "artifacts/source/arxiv_v1/references.bib",
+  "source_rendered": "artifacts/source/arxiv_v1/main.bbl",
+  "counts": {
+    "bib_records": 81,
+    "rendered_references": 54,
+    "unused_bib_records": 27,
+    "rendered_identity_lookup_attempted": 54,
+    "verification_status_all_records": {
+      "existence_verified_metadata_scoped": 51,
+      "unverified": 27,
+      "primary_title_located_metadata_incomplete": 2,
+      "primary_access_unavailable": 1
+    },
+    "verification_status_rendered_records": {
+      "existence_verified_metadata_scoped": 51,
+      "primary_title_located_metadata_incomplete": 2,
+      "primary_access_unavailable": 1
+    },
+    "rendered_existence_verified": 51,
+    "rendered_primary_metadata_not_sufficiently_verified": 3
+  },
+  "rendered_keys": [
+    "PSM",
+    "absar2021discovering",
+    "absar2023neural",
+    "wadi",
+    "assaad2022survey",
+    "USAD",
+    "healthcare2",
+    "SimCLR",
+    "yuxiao2023cuts",
+    "cheng2024cuts+",
+    "cheng2024causaltime",
+    "gru",
+    "choi2021deep",
+    "choi2024self",
+    "healthcare1",
+    "SARAD",
+    "darban2025carla",
+    "ADFtest",
+    "febrinanto2023entropy",
+    "SWaT",
+    "granger1969investigating",
+    "moco",
+    "lstm",
+    "MSL",
+    "kang2024transformer",
+    "Lorenz96",
+    "kim2023contrastive",
+    "kim2022towards",
+    "kingma2014adam",
+    "kong2024causalformer",
+    "ky2024cats",
+    "NeurIPS-TS",
+    "lee2024soft",
+    "li2023deep",
+    "liu2024itransformer",
+    "liu2025gcad",
+    "cosineschedule",
+    "cps1",
+    "ngu2023cl",
+    "gradientclip",
+    "qiu2012granger",
+    "runge2019detecting",
+    "ssd",
+    "SMD",
+    "csi",
+    "tank2021neural",
+    "t-SNE",
+    "wang2025survey",
+    "TimesNet",
+    "xing2023gcformer",
+    "pointadjust",
+    "xu2024calibrated",
+    "AnomalyTransformer",
+    "yang2023dcdetector"
+  ],
+  "entries": [
+    {
+      "key": "lee2024soft",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Soft Contrastive Learning for Time Series",
+        "author": "Seunghan Lee and Taeyoung Park and Kibok Lee",
+        "booktitle": "The Twelfth International Conference on Learning Representations",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=pAsQSWlDUf",
+        "id": "pAsQSWlDUf}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://openreview.net/forum?id=pAsQSWlDUf",
+          "https://arxiv.org/abs/2312.16424"
+        ],
+        "observations": "Exact title and three authors match author preprint, submitted 27 December 2023. OpenReview browser challenge prevented conference-record inspection; ICLR 2024 venue not independently reverified in this lookup.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "cheng2024cuts+",
+      "type": "article",
+      "fields": {
+        "title": "CUTS+: High-Dimensional Causal Discovery from Irregular Time-Series",
+        "volume": "38",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29034",
+        "doi": "10.1609/aaai.v38i10.29034",
+        "abstractnote": "Causal discovery in time-series is a fundamental problem in the machine learning community, enabling causal reasoning and decision-making in complex scenarios. Recently, researchers successfully discover causality by combining neural networks with Granger causality, but their performances degrade largely when encountering high-dimensional data because of the highly redundant network design and huge causal graphs. Moreover, the missing entries in the observations further hamper the causal structural learning. To overcome these limitations, We propose CUTS+, which is built on the Granger-causality-based causal discovery method CUTS and raises the scalability by introducing a technique called Coarse-to-fine-discovery (C2FD) and leveraging a message-passing-based graph neural network (MPGNN). Compared to previous methods on simulated, quasi-real, and real datasets, we show that CUTS+ largely improves the causal discovery performance on high-dimensional data with different types of irregular sampling.",
+        "number": "10",
+        "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "author": "Cheng, Yuxiao and Li, Lianglong and Xiao, Tingxiong and Li, Zongren and Suo, Jinli and He, Kunlun and Dai, Qionghai",
+        "year": "2024",
+        "month": "Mar.",
+        "pages": "11525-11533"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/29034"
+        ],
+        "observations": "Publisher title, all authors, 2024-03-24, 38(10):11525–11533 and DOI match.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "yang2023dcdetector",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Dcdetector: Dual attention contrastive representation learning for time series anomaly detection",
+        "author": "Yang, Yiyuan and Zhang, Chaoli and Zhou, Tian and Wen, Qingsong and Sun, Liang",
+        "booktitle": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "pages": "3033--3045",
+        "year": "2023"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2306.10347"
+        ],
+        "observations": "Exact title and five authors match author preprint, submitted 17 June 2023. KDD 2023 proceedings pagination not independently checked.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "li2023deep",
+      "type": "article",
+      "fields": {
+        "title": "Deep learning for anomaly detection in multivariate time series: Approaches, applications, and challenges",
+        "author": "Li, Gen and Jung, Jason J",
+        "journal": "Information Fusion",
+        "volume": "91",
+        "pages": "93--102",
+        "year": "2023",
+        "publisher": "Elsevier"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.sciencedirect.com/science/article/pii/S1566253522001774"
+        ],
+        "observations": "Publisher title and Gen Li/Jason J. Jung match; DOI 10.1016/j.inffus.2022.10.008. The cited issue year is 2023; not a conflict with the DOI registration year.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "chen2023imdiffusion",
+      "type": "article",
+      "fields": {
+        "title": "ImDiffusion: Imputed Diffusion Models for Multivariate Time Series Anomaly Detection",
+        "author": "Chen, Yuhang and Zhang, Chaoyun and Ma, Minghua and Liu, Yudong and Ding, Ruomeng and Li, Bowen and He, Shilin and Rajmohan, Saravan and Lin, Qingwei and Zhang, Dongmei",
+        "journal": "Proceedings of the VLDB Endowment",
+        "volume": "17",
+        "number": "3",
+        "pages": "359--372",
+        "year": "2023",
+        "publisher": "VLDB Endowment"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "xiao2023imputation",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Imputation-based time-series anomaly detection with conditional weight-incremental diffusion models",
+        "author": "Xiao, Chunjing and Gou, Zehua and Tai, Wenxin and Zhang, Kunpeng and Zhou, Fan",
+        "booktitle": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "pages": "2742--2751",
+        "year": "2023"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "kim2023time",
+      "type": "article",
+      "fields": {
+        "title": "Time-series anomaly detection with stacked Transformer representations and 1D convolutional network",
+        "author": "Kim, Jina and Kang, Hyeongwon and Kang, Pilsung",
+        "journal": "Engineering Applications of Artificial Intelligence",
+        "volume": "120",
+        "pages": "105964",
+        "year": "2023",
+        "publisher": "Elsevier"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "xu2024calibrated",
+      "type": "article",
+      "fields": {
+        "title": "Calibrated one-class classification for unsupervised time series anomaly detection",
+        "author": "Xu, Hongzuo and Wang, Yijie and Jian, Songlei and Liao, Qing and Wang, Yongjun and Pang, Guansong",
+        "journal": "IEEE Transactions on Knowledge and Data Engineering",
+        "year": "2024",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2207.12201"
+        ],
+        "observations": "Exact title and six authors match. Author preprint v1 is 25 July 2022, v2 24 April 2024; manuscript notes TKDE acceptance. Published journal metadata was not independently retrieved.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "lai2024nominality",
+      "type": "article",
+      "fields": {
+        "title": "Nominality score conditioned time series anomaly detection by point/sequential reconstruction",
+        "author": "Lai, Chih-Yu Andrew and Sun, Fan-Keng and Gao, Zhengqi and Lang, Jeffrey H and Boning, Duane",
+        "journal": "Advances in Neural Information Processing Systems",
+        "volume": "36",
+        "year": "2024"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "tang2024perturbation",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Perturbation guiding contrastive representation learning for time series anomaly detection",
+        "author": "Tang, Liaoyuan and Wang, Zheng and He, Guanxiong and Wang, Rong and Nie, Feiping",
+        "booktitle": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence",
+        "pages": "4955--4963",
+        "year": "2024"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "han2023anomaly",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Anomaly Detection in the Open World: Normality Shift Detection, Explanation, and Adaptation.",
+        "author": "Han, Dongqi and Wang, Zhiliang and Chen, Wenqi and Wang, Kai and Yu, Rui and Wang, Su and Zhang, Han and Wang, Zhihua and Jin, Minghui and Yang, Jiahai and others",
+        "booktitle": "NDSS",
+        "year": "2023"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "wang2023deep",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Deep contrastive one-class time series anomaly detection",
+        "author": "Wang, Rui and Liu, Chongwei and Mou, Xudong and Gao, Kai and Guo, Xiaohui and Liu, Pin and Wo, Tianyu and Liu, Xudong",
+        "booktitle": "Proceedings of the 2023 SIAM International Conference on Data Mining (SDM)",
+        "pages": "694--702",
+        "year": "2023",
+        "organization": "SIAM"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "kim2023contrastive",
+      "type": "article",
+      "fields": {
+        "title": "Contrastive Time-Series Anomaly Detection",
+        "author": "Kim, HyunGi and Kim, Siwon and Min, Seonwoo and Lee, Byunghan",
+        "journal": "IEEE Transactions on Knowledge and Data Engineering",
+        "year": "2023",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ieeexplore.ieee.org/abstract/document/10325644/keywords"
+        ],
+        "observations": "Publisher exact title, online 2023-11-22, DOI 10.1109/TKDE.2023.3335317. Issue is 36(10):5053–5065 October 2024. The 2023 citation corresponds to online year, not fabrication. Full author field not exposed in inspected page.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "cheng2024causaltime",
+      "type": "inproceedings",
+      "fields": {
+        "title": "CausalTime: Realistically Generated Time-series for Benchmarking of Causal Discovery",
+        "author": "Yuxiao Cheng and Ziqian Wang and Tingxiong Xiao and Qin Zhong and Jinli Suo and Kunlun He",
+        "booktitle": "The Twelfth International Conference on Learning Representations",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=iad1yyyGme",
+        "id": "iad1yyyGme}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2310.01753",
+          "https://openreview.net/attachment?id=iad1yyyGme&name=pdf"
+        ],
+        "observations": "Title and six authors match arXiv submitted 3 October 2023. Indexed author/proceedings PDF explicitly identifies ICLR 2024; forum itself challenged browser.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "veličković2018deep",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Deep Graph Infomax",
+        "author": "Petar Veličković and William Fedus and William L. Hamilton and Pietro Liò and Yoshua Bengio and R Devon Hjelm",
+        "booktitle": "International Conference on Learning Representations",
+        "year": "2019",
+        "url": "https://openreview.net/forum?id=rklz9iAcKQ",
+        "id": "rklz9iAcKQ}"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "he2024exploitation",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Exploitation of a Latent Mechanism in Graph Contrastive Learning: Representation Scattering",
+        "author": "Dongxiao He and Lianze Shan and Jitao Zhao and Hengrui Zhang and Zhen Wang and Weixiong Zhang",
+        "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=R8SolCx62K",
+        "id": "R8SolCx62K}"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "ehrhart2022conditional",
+      "type": "article",
+      "fields": {
+        "title": "A conditional gan for generating time series data for stress detection in wearable physiological sensor data",
+        "author": "Ehrhart, Maximilian and Resch, Bernd and Havas, Clemens and Niederseer, David",
+        "journal": "Sensors",
+        "volume": "22",
+        "number": "16",
+        "pages": "5969",
+        "year": "2022",
+        "publisher": "MDPI"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "song2023memto",
+      "type": "article",
+      "fields": {
+        "title": "Memto: Memory-guided transformer for multivariate time series anomaly detection",
+        "author": "Song, Junho and Kim, Keonwoo and Oh, Jeonglyul and Cho, Sungzoon",
+        "journal": "Advances in Neural Information Processing Systems",
+        "volume": "36",
+        "pages": "57947--57963",
+        "year": "2023"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "eskandarinasab2024seriesgan",
+      "type": "inproceedings",
+      "fields": {
+        "title": "SeriesGAN: Time Series Generation via Adversarial and Autoregressive Learning",
+        "author": "EskandariNasab, MohammadReza and Hamdi, Shah Muhammad and Boubrahimi, Soukaina Filali",
+        "booktitle": "2024 IEEE International Conference on Big Data (BigData)",
+        "pages": "860--869",
+        "year": "2024",
+        "organization": "IEEE"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "naiman2024generative",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Generative Modeling of Regular and Irregular Time Series Data via Koopman {VAE}s",
+        "author": "Ilan Naiman and N. Benjamin Erichson and Pu Ren and Michael W. Mahoney and Omri Azencot",
+        "booktitle": "The Twelfth International Conference on Learning Representations",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=eY7sLb0dVF",
+        "id": "eY7sLb0dVF}"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "jeon2022gt",
+      "type": "article",
+      "fields": {
+        "title": "GT-GAN: General purpose time series synthesis with generative adversarial networks",
+        "author": "Jeon, Jinsung and Kim, Jeonghak and Song, Haryong and Cho, Seunghyeon and Park, Noseong",
+        "journal": "Advances in Neural Information Processing Systems",
+        "volume": "35",
+        "pages": "36999--37010",
+        "year": "2022"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "yoon2019time",
+      "type": "article",
+      "fields": {
+        "title": "Time-series generative adversarial networks",
+        "author": "Yoon, Jinsung and Jarrett, Daniel and Van der Schaar, Mihaela",
+        "journal": "Advances in neural information processing systems",
+        "volume": "32",
+        "year": "2019"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "zhicheng2024sdformer",
+      "type": "inproceedings",
+      "fields": {
+        "title": "SDformer: Similarity-driven Discrete Transformer For Time Series Generation",
+        "author": "Zhicheng, Chen and SHIBO, FENG and Zhang, Zhong and Xiao, Xi and Gao, Xingyu and Zhao, Peilin",
+        "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+        "year": "2024"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "yuan2024diffusionts",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Diffusion-{TS}: Interpretable Diffusion for General Time Series Generation",
+        "author": "Xinyu Yuan and Yan Qiao",
+        "booktitle": "The Twelfth International Conference on Learning Representations",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=4h1apFjO99",
+        "id": "4h1apFjO99}"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "anonymous2025root",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Root Cause Analysis of Anomalies in Multivariate Time Series through Granger Causal Discovery",
+        "author": "Anonymous",
+        "booktitle": "The Thirteenth International Conference on Learning Representations",
+        "year": "2025",
+        "url": "https://openreview.net/forum?id=k38Th3x4d9",
+        "id": "k38Th3x4d9}"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "assaad2022survey",
+      "type": "article",
+      "fields": {
+        "title": "Survey and evaluation of causal discovery methods for time series",
+        "author": "Assaad, Charles K and Devijver, Emilie and Gaussier, Eric",
+        "journal": "Journal of Artificial Intelligence Research",
+        "volume": "73",
+        "pages": "767--819",
+        "year": "2022"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.jair.org/index.php/jair/article/view/13428",
+          "https://www.jair.org/index.php/jair/article/download/13428/26913"
+        ],
+        "observations": "Publisher exact title, three authors, volume 73, 28 February 2022 and DOI 10.1613/jair.1.13428 verified. Errata dated 23 April 2023 correct Figure 3/minimality-faithfulness and Definition 12/Possible-Dsep, and clarify Table 3. Use corrected version for causal-method claims. Related IJCAI 2023 extended abstract is a different publication, not a substitute for this journal version.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "gunther2023causal",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Causal discovery for time series from multiple datasets with latent contexts",
+        "author": "G{\\\"u}nther, Wiebke and Ninad, Urmi and Runge, Jakob",
+        "booktitle": "Uncertainty in Artificial Intelligence",
+        "pages": "766--776",
+        "year": "2023",
+        "organization": "PMLR"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "zan2024causal",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Causal Discovery from Heterogenous Multivariate Time Series",
+        "author": "Zan, Lei",
+        "booktitle": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+        "pages": "5499--5502",
+        "year": "2024"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "kong2024causalformer",
+      "type": "article",
+      "fields": {
+        "title": "CausalFormer: An Interpretable Transformer for Temporal Causal Discovery",
+        "author": "Kong, Lingbai and Li, Wengen and Yang, Hanchen and Zhang, Yichao and Guan, Jihong and Zhou, Shuigeng",
+        "journal": "IEEE Transactions on Knowledge and Data Engineering",
+        "year": "2024",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2406.16708"
+        ],
+        "observations": "Exact title and six authors match author preprint submitted 24 June 2024. IEEE journal issue/publication details remain unverified here.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "febrinanto2023entropy",
+      "type": "article",
+      "fields": {
+        "title": "Entropy Causal Graphs for Multivariate Time Series Anomaly Detection",
+        "author": "Febrinanto, Falih Gozi and Moore, Kristen and Thapa, Chandra and Liu, Mujie and Saikrishna, Vidya and Ma, Jiangang and Xia, Feng",
+        "journal": "arXiv preprint arXiv:2312.09478",
+        "year": "2023"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2312.09478"
+        ],
+        "observations": "Exact cited title and arXiv identifier match; preprint record checked, not experimental replication.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "xing2023gcformer",
+      "type": "inproceedings",
+      "fields": {
+        "title": "GCFormer: Granger Causality based Attention Mechanism for Multivariate Time Series Anomaly Detection",
+        "author": "Xing, Shiwang and Niu, Jianwei and Ren, Tao",
+        "booktitle": "2023 IEEE International Conference on Data Mining (ICDM)",
+        "pages": "1433--1438",
+        "year": "2023",
+        "organization": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "primary_title_located_metadata_incomplete",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10415739"
+        ],
+        "observations": "Exact-title lookup located IEEE document 10415739. Direct retrieval returned no usable author/date/page metadata. Title identity located only; complete bibliographic match remains unverified.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "apte2021detection",
+      "type": "article",
+      "fields": {
+        "title": "Detection of causally anomalous time-series",
+        "author": "Apte, Manoj and Vaishampayan, Sushodhan and Palshikar, Girish Keshav",
+        "journal": "International Journal of Data Science and Analytics",
+        "volume": "11",
+        "pages": "141--153",
+        "year": "2021",
+        "publisher": "Springer"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "pang2024asymptotic",
+      "type": "article",
+      "fields": {
+        "title": "Asymptotic Consistent Graph Structure Learning for Multivariate Time Series Anomaly Detection",
+        "author": "Pang, Huaxin and Wei, Shikui and Li, Youru and Liu, Ting and Zhang, Huaqi and Qin, Ying and Zhao, Yao",
+        "journal": "IEEE Transactions on Instrumentation and Measurement",
+        "year": "2024",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "yang2022causality",
+      "type": "article",
+      "fields": {
+        "title": "Causality-Based Multivariate Time Series Anomaly Detection. arXiv 2022",
+        "author": "Yang, Wenzhuo and Zhang, Kun and Hoi, SC",
+        "journal": "arXiv preprint arXiv:2206.15033",
+        "year": "2022"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "darban2025carla",
+      "type": "article",
+      "fields": {
+        "title": "CARLA: Self-supervised contrastive representation learning for time series anomaly detection",
+        "author": "Darban, Zahra Zamanzadeh and Webb, Geoffrey I and Pan, Shirui and Aggarwal, Charu C and Salehi, Mahsa",
+        "journal": "Pattern Recognition",
+        "volume": "157",
+        "pages": "110874",
+        "year": "2025",
+        "publisher": "Elsevier"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.sciencedirect.com/science/article/pii/S0031320324006253"
+        ],
+        "observations": "Publisher title, all authors, Pattern Recognition 157:110874 January 2025 and DOI 10.1016/j.patcog.2024.110874 match.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "ngu2023cl",
+      "type": "article",
+      "fields": {
+        "title": "CL-TAD: A Contrastive-Learning-Based Method for Time Series Anomaly Detection",
+        "author": "Ngu, Huynh Cong Viet and Lee, Keon Myung",
+        "journal": "Applied Sciences",
+        "volume": "13",
+        "number": "21",
+        "pages": "11938",
+        "year": "2023",
+        "publisher": "MDPI"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.mdpi.com/2076-3417/13/21/11938"
+        ],
+        "observations": "Publisher exact title, Huynh Cong Viet Ngu/Keon Myung Lee, 31 October 2023, 13(21):11938 and DOI 10.3390/app132111938 match.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "nauta2019causal",
+      "type": "article",
+      "fields": {
+        "title": "Causal discovery with attention-based convolutional neural networks",
+        "author": "Nauta, Meike and Bucur, Doina and Seifert, Christin",
+        "journal": "Machine Learning and Knowledge Extraction",
+        "volume": "1",
+        "number": "1",
+        "pages": "19",
+        "year": "2019",
+        "publisher": "MDPI"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "ky2024cats",
+      "type": "inproceedings",
+      "fields": {
+        "title": "CATS: Contrastive learning for Anomaly detection in Time Series",
+        "author": "Ky, Jo{\\\"e}l Roman and Mathieu, Bertrand and Lahmadi, Abdelkader and Boutaba, Raouf",
+        "booktitle": "2024 IEEE International Conference on Big Data (BigData)",
+        "pages": "1352--1359",
+        "year": "2024",
+        "organization": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ieeexplore.ieee.org/abstract/document/10825476",
+          "https://rboutaba.cs.uwaterloo.ca/Papers/Conferences/2023/ky-bigdata24.pdf"
+        ],
+        "observations": "IEEE record and author-hosted manuscript match title and four authors. Conference 15–18 December 2024; IEEE added date 16 January 2025; DOI 10.1109/BigData62323.2024.10825476. Conference year and digital-library added date differ legitimately.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "choi2024self",
+      "type": "article",
+      "fields": {
+        "title": "Self-Supervised Time-Series Anomaly Detection Using Learnable Data Augmentation",
+        "author": "Choi, Kukjin and Yi, Jihun and Mok, Jisoo and Yoon, Sungroh",
+        "journal": "arXiv preprint arXiv:2406.12260",
+        "year": "2024"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2406.12260"
+        ],
+        "observations": "Exact cited title and arXiv identifier match; preprint record checked, not experimental replication.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "choi2021deep",
+      "type": "article",
+      "fields": {
+        "title": "Deep learning for anomaly detection in time-series data: Review, analysis, and guidelines",
+        "author": "Choi, Kukjin and Yi, Jihun and Park, Changhwa and Yoon, Sungroh",
+        "journal": "IEEE access",
+        "volume": "9",
+        "pages": "120043--120065",
+        "year": "2021",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ieeexplore.ieee.org/abstract/document/9523565/authors"
+        ],
+        "observations": "Publisher title and first author match; IEEE Access 9:120043–120065, 26 August 2021, DOI 10.1109/ACCESS.2021.3107975. Complete author list not independently exposed in retrieved publisher text.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "AnomalyTransformer",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Anomaly Transformer: Time Series Anomaly Detection with Association Discrepancy",
+        "author": "Jiehui Xu and Haixu Wu and Jianmin Wang and Mingsheng Long",
+        "booktitle": "International Conference on Learning Representations",
+        "year": "2022",
+        "url": "https://openreview.net/forum?id=LzQQ89U1qm_",
+        "id": "LzQQ89U1qm_}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2110.02642"
+        ],
+        "observations": "Matching title/authors at arXiv; 2021 preprint distinct from cited ICLR 2022 edition. Original OpenReview forum inaccessible; conference status not independently verified here.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "TimesNet",
+      "type": "inproceedings",
+      "fields": {
+        "title": "TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis",
+        "author": "Haixu Wu and Tengge Hu and Yong Liu and Hang Zhou and Jianmin Wang and Mingsheng Long",
+        "booktitle": "The Eleventh International Conference on Learning Representations",
+        "year": "2023",
+        "url": "https://openreview.net/forum?id=ju_Uqw384Oq",
+        "id": "ju_Uqw384Oq}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2210.02186"
+        ],
+        "observations": "Matching title/authors at arXiv; 2022 preprint distinct from cited ICLR 2023 edition. Original OpenReview forum inaccessible; conference status not independently verified here.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "USAD",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Usad: Unsupervised anomaly detection on multivariate time series",
+        "author": "Audibert, Julien and Michiardi, Pietro and Guyard, Fr{\\'e}d{\\'e}ric and Marti, S{\\'e}bastien and Zuluaga, Maria A",
+        "booktitle": "Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+        "pages": "3395--3404",
+        "year": "2020"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.eurecom.fr/fr/publication/6271"
+        ],
+        "observations": "Author institution record confirms title/all authors, KDD 2020 and DOI 10.1145/3394486.3403392; linked author manuscript present.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "SARAD",
+      "type": "inproceedings",
+      "fields": {
+        "title": "{SARAD}: Spatial Association-Aware Anomaly Detection and Diagnosis for Multivariate Time Series",
+        "author": "Zhihao Dai and Ligang He and Shuanghua Yang and Matthew Leeke",
+        "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=gmf5Aj01Hz",
+        "id": "gmf5Aj01Hz}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://papers.nips.cc/paper_files/paper/2024/hash/56ad264ac7448239145606cf4106042f-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/56ad264ac7448239145606cf4106042f-Paper-Conference.pdf"
+        ],
+        "observations": "Official NeurIPS record/PDF match title, four authors and NeurIPS 2024, volume 37; DOI 10.52202/079017-1533. Shuanghua/Shuang-Hua is a spelling-format distinction, not a different author.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "wang2025survey",
+      "type": "article",
+      "fields": {
+        "title": "A Survey of Deep Anomaly Detection in Multivariate Time Series: Taxonomy, Applications, and Directions",
+        "author": "Wang, Fengling and Jiang, Yiyue and Zhang, Rongjie and Wei, Aimin and Xie, Jingming and Pang, Xiongwen",
+        "journal": "Sensors (Basel, Switzerland)",
+        "volume": "25",
+        "number": "1",
+        "pages": "190",
+        "year": "2025"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.mdpi.com/1424-8220/25/1/190",
+          "https://www.mdpi.com/1424-8220/25/1/190/notes"
+        ],
+        "observations": "Publisher indexed full record matches exact title, all six authors, Sensors 25(1):190, published 1 January 2025, DOI 10.3390/s25010190. Direct open sometimes returned access error; exact-title publisher search exposed metadata. Notes record HTML updates in June/July 2025; update contents not audited.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "SimCLR",
+      "type": "inproceedings",
+      "fields": {
+        "title": "A simple framework for contrastive learning of visual representations",
+        "author": "Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey",
+        "booktitle": "International conference on machine learning",
+        "pages": "1597--1607",
+        "year": "2020",
+        "organization": "PMLR"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://proceedings.mlr.press/v119/chen20j.html"
+        ],
+        "observations": "Publisher title/authors, ICML 2020 and pages 1597–1607 match.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "moco",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Momentum contrast for unsupervised visual representation learning",
+        "author": "He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross",
+        "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+        "pages": "9729--9738",
+        "year": "2020"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://openaccess.thecvf.com/content_CVPR_2020/html/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.html"
+        ],
+        "observations": "Official CVF title, five authors, CVPR 2020 and pages 9729–9738 match.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "csi",
+      "type": "article",
+      "fields": {
+        "title": "Csi: Novelty detection via contrastive learning on distributionally shifted instances",
+        "author": "Tack, Jihoon and Mo, Sangwoo and Jeong, Jongheon and Shin, Jinwoo",
+        "journal": "Advances in neural information processing systems",
+        "volume": "33",
+        "pages": "11839--11852",
+        "year": "2020"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://proceedings.neurips.cc/paper/2020/hash/8965f76632d7672e7d3cf29c87ecaa0c-Abstract.html"
+        ],
+        "observations": "Publisher title/authors, NeurIPS 2020 volume 33 match.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "ssd",
+      "type": "inproceedings",
+      "fields": {
+        "title": "{\\{}SSD{\\}}: A Unified Framework for Self-Supervised Outlier Detection",
+        "author": "Vikash Sehwag and Mung Chiang and Prateek Mittal",
+        "booktitle": "International Conference on Learning Representations",
+        "year": "2021",
+        "url": "https://openreview.net/forum?id=v5gjXpmR8J",
+        "id": "v5gjXpmR8J}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2103.12051"
+        ],
+        "observations": "Matching title/authors, 2021 arXiv record. OpenReview forum inaccessible; ICLR 2021 metadata not independently verified here.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "granger1969investigating",
+      "type": "article",
+      "fields": {
+        "title": "Investigating causal relations by econometric models and cross-spectral methods",
+        "author": "Granger, Clive WJ",
+        "journal": "Econometrica: journal of the Econometric Society",
+        "pages": "424--438",
+        "year": "1969",
+        "publisher": "JSTOR"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "primary_title_located_metadata_incomplete",
+        "sources": [
+          "https://www.jstor.org/stable/1912791",
+          "https://www.jstor.org/stable/i332739"
+        ],
+        "observations": "Primary JSTOR record resolves exact title and original issue listing. Full author/page metadata inaccessible in retrieval; original 1969 record only partly inspected. Search also found a later reprint, which was not substituted.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "yuxiao2023cuts",
+      "type": "inproceedings",
+      "fields": {
+        "title": "{CUTS}: Neural Causal Discovery from Irregular Time-Series Data",
+        "author": "Yuxiao Cheng and Runzhao Yang and Tingxiong Xiao and Zongren Li and Jinli Suo and Kunlun He and Qionghai Dai",
+        "booktitle": "The Eleventh International Conference on Learning Representations",
+        "year": "2023",
+        "url": "https://openreview.net/forum?id=UG8bQcD3Emv",
+        "id": "UG8bQcD3Emv}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2302.07458"
+        ],
+        "observations": "Title and complete author list match, submitted 2023-02-15; ICLR 2023 downloads page independently lists title. OpenReview browser challenge blocked original forum.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "liu2025gcad",
+      "type": "article",
+      "fields": {
+        "title": "GCAD: Anomaly Detection in Multivariate Time Series from the Perspective of Granger Causality",
+        "volume": "39",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34096",
+        "doi": "10.1609/aaai.v39i18.34096",
+        "abstractnote": "Multivariate time series anomaly detection has numerous real-world applications and is being extensively studied. Modeling pairwise correlations between variables is crucial. Existing methods employ learnable graph structures and graph neural networks to explicitly model the spatial dependencies between variables. However, these methods are primarily based on prediction or reconstruction tasks, which can only learn similarity relationships between sequence embeddings and lack interpretability in how graph structures affect time series evolution. In this paper, we designed a framework that models spatial dependencies using interpretable causal relationships and detects anomalies through changes in causal patterns. Specifically, we propose a method to dynamically discover Granger causality using gradients in nonlinear deep predictors and employ a simple sparsification strategy to obtain a Granger causality graph, detecting anomalies from a causal perspective. Experiments on real-world datasets demonstrate that the proposed model achieves more accurate anomaly detection compared to baseline methods.",
+        "number": "18",
+        "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "author": "Liu, Zehao and Gao, Mengzhou and Jiao, Pengfei",
+        "year": "2025",
+        "month": "Apr.",
+        "pages": "19041-19049"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/34096"
+        ],
+        "observations": "Publisher title, authors, 2025-04-11, pages and DOI match.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "tank2021neural",
+      "type": "article",
+      "fields": {
+        "title": "Neural granger causality",
+        "author": "Tank, Alex and Covert, Ian and Foti, Nicholas and Shojaie, Ali and Fox, Emily B",
+        "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "volume": "44",
+        "number": "8",
+        "pages": "4267--4279",
+        "year": "2021",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9739174/"
+        ],
+        "observations": "Author manuscript confirms title/authors/DOI 10.1109/TPAMI.2021.3065601 and 44(8):4267–4279. Date nuance: 2021 online versus 2022 journal issue; CAROTS mixes issue data with online year. No fabrication inference.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "kim2022towards",
+      "type": "article",
+      "fields": {
+        "title": "Towards a Rigorous Evaluation of Time-Series Anomaly Detection",
+        "volume": "36",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20680",
+        "doi": "10.1609/aaai.v36i7.20680",
+        "abstractnote": "In recent years, proposed studies on time-series anomaly detection (TAD) report high F1 scores on benchmark TAD datasets, giving the impression of clear improvements in TAD. However, most studies apply a peculiar evaluation protocol called point adjustment (PA) before scoring. In this paper, we theoretically and experimentally reveal that the PA protocol has a great possibility of overestimating the detection performance; even a random anomaly score can easily turn into a state-of-the-art TAD method. Therefore, the comparison of TAD methods after applying the PA protocol can lead to misguided rankings. Furthermore, we question the potential of existing TAD methods by showing that an untrained model obtains comparable detection performance to the existing methods even when PA is forbidden. Based on our findings, we propose a new baseline and an evaluation protocol. We expect that our study will help a rigorous evaluation of TAD and lead to further improvement in future researches.",
+        "number": "7",
+        "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "author": "Kim, Siwon and Choi, Kukjin and Choi, Hyun-Soo and Lee, Byunghan and Yoon, Sungroh",
+        "year": "2022",
+        "month": "Jun.",
+        "pages": "7194-7201"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/20680"
+        ],
+        "observations": "Publisher title, authors, 2022-06-28, pages and DOI match. Abstract directly supports concern that point adjustment can overestimate TAD performance; not blanket verification of every citation use.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "SWaT",
+      "type": "inproceedings",
+      "fields": {
+        "title": "A dataset to support research in the design of secure water treatment systems",
+        "author": "Goh, Jonathan and Adepu, Sridhar and Junejo, Khurum Nazir and Mathur, Aditya",
+        "booktitle": "International conference on critical information infrastructures security",
+        "pages": "88--99",
+        "year": "2016",
+        "organization": "Springer"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://link.springer.com/chapter/10.1007/978-3-319-71368-7_8"
+        ],
+        "observations": "Title/authors/pages match. Date nuance: CAROTS cites 2016 conference year; publisher first online 2017-11-22. DOI 10.1007/978-3-319-71368-7_8. Abstract confirms seven normal days then attack days, but not exact file release.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "wadi",
+      "type": "inproceedings",
+      "fields": {
+        "author": "Ahmed, Chuadhry Mujeeb and Palleti, Venkata Reddy and Mathur, Aditya P.",
+        "title": "WADI: A Water Distribution Testbed for Research in the Design of Secure Cyber Physical Systems",
+        "year": "2017",
+        "isbn": "9781450349758",
+        "publisher": "Association for Computing Machinery",
+        "address": "New York, NY, USA",
+        "url": "https://doi.org/10.1145/3055366.3055375",
+        "doi": "10.1145/3055366.3055375",
+        "abstract": "The architecture of a water distribution testbed (WADI), and on-going research in the design of secure water distribution system is presented. WADI consists of three stages controlled by Programmable Logic Controllers (PLCs) and two stages controlled via Remote Terminal Units (RTUs). Each PLC and RTU uses sensors to estimate the system state and the actuators to effect control. WADI is currently used to (a) conduct security analysis for water distribution networks, (b) experimentally assess detection mechanisms for potential cyber and physical attacks, and (c) understand how the impact of an attack on one CPS could cascade to other connected CPSs. The cascading effects of attacks can be studied in WADI through its connection to two other testbeds, namely for water treatment and power generation and distribution.",
+        "booktitle": "Proceedings of the 3rd International Workshop on Cyber-Physical Systems for Smart Water Networks",
+        "pages": "25–28",
+        "numpages": "4",
+        "keywords": "cyber physical systems, industrial control systems, cyber security, attack detection, water distribution testbed",
+        "location": "Pittsburgh, Pennsylvania",
+        "series": "CySWATER '17"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "primary_access_unavailable",
+        "sources": [
+          "https://doi.org/10.1145/3055366.3055375",
+          "https://dl.acm.org/doi/10.1145/3055366.3055375",
+          "https://api.crossref.org/works/10.1145/3055366.3055375"
+        ],
+        "observations": "DOI/publisher/registry URLs inaccessible through browser tool. Secondary metadata and SUTD coauthor reference lists corroborate identity, but not promoted to full primary verification. Provider release documentation is separately collected.",
+        "claim_support": "Not independently checked.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "SMD",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Robust anomaly detection for multivariate time series through stochastic recurrent neural network",
+        "author": "Su, Ya and Zhao, Youjian and Niu, Chenhao and Liu, Rong and Sun, Wei and Pei, Dan",
+        "booktitle": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining",
+        "pages": "2828--2837",
+        "year": "2019"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://netman.aiops.org/wp-content/uploads/2019/08/OmniAnomaly_camera-ready.pdf"
+        ],
+        "observations": "Author camera-ready confirms title/all authors, KDD 2019, DOI 10.1145/3292500.3330672.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "pointadjust",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Unsupervised anomaly detection via variational auto-encoder for seasonal kpis in web applications",
+        "author": "Xu, Haowen and Chen, Wenxiao and Zhao, Nengwen and Li, Zeyan and Bu, Jiahao and Li, Zhihan and Liu, Ying and Zhao, Youjian and Pei, Dan and Feng, Yang and others",
+        "booktitle": "Proceedings of the 2018 World Wide Web Conference",
+        "pages": "187--196",
+        "year": "2018"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/1802.03903",
+          "https://doi.org/10.1145/3178876.3185996"
+        ],
+        "observations": "Title and supplied author sequence match preprint submitted 12 February 2018; DOI result identifies WWW 2018 and 23 April 2018. Its exact role in the history of point adjustment is not established by identity alone.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "lstm",
+      "type": "article",
+      "fields": {
+        "title": "Long short-term memory",
+        "author": "Hochreiter, Sepp and Schmidhuber, J{\\\"u}rgen",
+        "journal": "Neural computation",
+        "volume": "9",
+        "number": "8",
+        "pages": "1735--1780",
+        "year": "1997",
+        "publisher": "MIT Press"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory"
+        ],
+        "observations": "Publisher title, Sepp Hochreiter/Jürgen Schmidhuber, Neural Computation 9(8):1735–1780, 15 November 1997 and DOI 10.1162/neco.1997.9.8.1735 match.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "kingma2014adam",
+      "type": "inproceedings",
+      "fields": {
+        "author": "Diederik P. Kingma and Jimmy Ba",
+        "editor": "Yoshua Bengio and Yann LeCun",
+        "title": "Adam: {A} Method for Stochastic Optimization",
+        "booktitle": "3rd International Conference on Learning Representations, {ICLR} 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings",
+        "year": "2015",
+        "url": "http://arxiv.org/abs/1412.6980",
+        "timestamp": "Thu, 25 Jul 2019 14:25:37 +0200",
+        "biburl": "https://dblp.org/rec/journals/corr/KingmaB14.bib",
+        "bibsource": "dblp computer science bibliography, https://dblp.org"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/1412.6980"
+        ],
+        "observations": "Exact title/identifier exist at cited arXiv record. 2014 preprint is distinct from cited 2015 ICLR publication; conference proceedings not separately rechecked.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "PSM",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Practical approach to asynchronous multivariate time series anomaly detection and localization",
+        "author": "Abdulaal, Ahmed and Liu, Zhuanghua and Lancewicki, Tomer",
+        "booktitle": "Proceedings of the 27th ACM SIGKDD conference on knowledge discovery \\& data mining",
+        "pages": "2485--2494",
+        "year": "2021"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://cris.bgu.ac.il/en/publications/practical-approach-to-asynchronous-multivariate-time-series-anoma/"
+        ],
+        "observations": "Author-institution record matches title, three authors, KDD 2021 pp.2485–2494, published 14 August 2021, DOI 10.1145/3447548.3467174; record labels peer review. ACM full manuscript not independently inspected.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "MSL",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding",
+        "author": "Hundman, Kyle and Constantinou, Valentino and Laporte, Christopher and Colwell, Ian and Soderstrom, Tom",
+        "booktitle": "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+        "pages": "387--395",
+        "year": "2018"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/1802.04431"
+        ],
+        "observations": "Matching title/all authors, arXiv 2018; KDD issue metadata not separately verified here.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "Lorenz96",
+      "type": "article",
+      "fields": {
+        "title": "Extensive chaos in the Lorenz-96 model",
+        "author": "Karimi, Alireza and Paul, Mark R",
+        "journal": "Chaos: An interdisciplinary journal of nonlinear science",
+        "volume": "20",
+        "number": "4",
+        "year": "2010",
+        "publisher": "AIP Publishing"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://vtechworks.lib.vt.edu/bitstream/handle/10919/47045/1.3496397.pdf"
+        ],
+        "observations": "Institutional publisher-form manuscript matches title and A. Karimi/M. R. Paul, Chaos 20,043105 (2010), DOI 10.1063/1.3496397. Older arXiv version is not the journal date.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "NeurIPS-TS",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Revisiting Time Series Outlier Detection: Definitions and Benchmarks",
+        "author": "Kwei-Herng Lai and Daochen Zha and Junjie Xu and Yue Zhao and Guanchu Wang and Xia Hu",
+        "booktitle": "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1)",
+        "year": "2021",
+        "url": "https://openreview.net/forum?id=r8IvOsnHchr",
+        "id": "r8IvOsnHchr}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/ec5decca5ed3d6b8079e2e7e7bacc9f2-Abstract-round1.html"
+        ],
+        "observations": "Official proceedings exact title, all six authors and NeurIPS Datasets and Benchmarks 2021 round1 match; OpenReview forum browser challenge bypassed by public proceedings lookup, without accessing restricted content.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "t-SNE",
+      "type": "article",
+      "fields": {
+        "title": "Visualizing data using t-SNE.",
+        "author": "Van der Maaten, Laurens and Hinton, Geoffrey",
+        "journal": "Journal of machine learning research",
+        "volume": "9",
+        "number": "11",
+        "year": "2008"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.jmlr.org/papers/v9/vandermaaten08a.html"
+        ],
+        "observations": "Publisher title/authors/year match. Official JMLR record gives 9(86):2579–2605; author bib uses 9(11) and omits pages, possibly issue/month versus article-number convention. Use publisher citation export in future; preserve original.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "ADFtest",
+      "type": "article",
+      "fields": {
+        "title": "Distribution of the estimators for autoregressive time series with a unit root",
+        "author": "Dickey, David A and Fuller, Wayne A",
+        "journal": "Journal of the American statistical association",
+        "volume": "74",
+        "number": "366a",
+        "pages": "427--431",
+        "year": "1979",
+        "publisher": "Taylor \\& Francis"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.tandfonline.com/doi/abs/10.1080/01621459.1979.10482531"
+        ],
+        "observations": "Publisher title, David A. Dickey/Wayne A. Fuller, 74(366a):427–431 and 1979 match. Later online digitization date is not the original publication date.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "gradientclip",
+      "type": "InProceedings",
+      "fields": {
+        "title": "On the difficulty of training recurrent neural networks",
+        "author": "Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua",
+        "booktitle": "Proceedings of the 30th International Conference on Machine Learning",
+        "pages": "1310--1318",
+        "year": "2013",
+        "editor": "Dasgupta, Sanjoy and McAllester, David",
+        "volume": "28",
+        "number": "3",
+        "series": "Proceedings of Machine Learning Research",
+        "address": "Atlanta, Georgia, USA",
+        "month": "17--19 Jun",
+        "publisher": "PMLR",
+        "pdf": "http://proceedings.mlr.press/v28/pascanu13.pdf",
+        "url": "https://proceedings.mlr.press/v28/pascanu13.html",
+        "abstract": "There are two widely known issues with properly training recurrent neural networks, the vanishing and the exploding gradient problems detailed in Bengio et al. (1994). In this paper we attempt to improve the understanding of the underlying issues by exploring these problems from an analytical, a geometric and a dynamical systems perspective. Our analysis is used to justify a simple yet effective solution. We propose a gradient norm clipping strategy to deal with exploding gradients and a soft constraint for the vanishing gradients problem. We validate empirically our hypothesis and proposed solutions in the experimental section."
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://proceedings.mlr.press/v28/pascanu13.html"
+        ],
+        "observations": "Publisher title/authors, ICML 2013 and pages 1310–1318 match. Abstract supports gradient norm clipping concept, not CAROTS chosen numerical setting.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "cosineschedule",
+      "type": "inproceedings",
+      "fields": {
+        "author": "Ilya Loshchilov and Frank Hutter",
+        "title": "{SGDR:} Stochastic Gradient Descent with Warm Restarts",
+        "booktitle": "5th International Conference on Learning Representations, {ICLR} 2017, Toulon, France, April 24-26, 2017, Conference Track Proceedings",
+        "publisher": "OpenReview.net",
+        "year": "2017",
+        "url": "https://openreview.net/forum?id=Skq89Scxx",
+        "id": "Skq89Scxx}",
+        "timestamp": "Thu, 25 Jul 2019 14:25:58 +0200",
+        "biburl": "https://dblp.org/rec/conf/iclr/LoshchilovH17.bib",
+        "bibsource": "dblp computer science bibliography, https://dblp.org"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://openreview.net/forum?id=Skq89Scxx",
+          "https://arxiv.org/abs/1608.03983"
+        ],
+        "observations": "Exact title and Ilya Loshchilov/Frank Hutter match preprint submitted 13 August 2016. OpenReview record challenged browser; ICLR 2017 conference details not independently inspected.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "gru",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Learning Phrase Representations using {RNN} Encoder{--}Decoder for Statistical Machine Translation",
+        "author": "Cho, Kyunghyun and van Merri{\\\"e}nboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua",
+        "editor": "Moschitti, Alessandro and Pang, Bo and Daelemans, Walter",
+        "booktitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+        "month": "oct",
+        "year": "2014",
+        "address": "Doha, Qatar",
+        "publisher": "Association for Computational Linguistics",
+        "url": "https://aclanthology.org/D14-1179/",
+        "doi": "10.3115/v1/D14-1179",
+        "pages": "1724--1734"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://aclanthology.org/D14-1179/"
+        ],
+        "observations": "Publisher title, complete authors, EMNLP 2014, pages 1724–1734 and DOI match.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "liu2024itransformer",
+      "type": "inproceedings",
+      "fields": {
+        "title": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+        "author": "Yong Liu and Tengge Hu and Haoran Zhang and Haixu Wu and Shiyu Wang and Lintao Ma and Mingsheng Long",
+        "booktitle": "The Twelfth International Conference on Learning Representations",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=JePfAI8fah",
+        "id": "JePfAI8fah}"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2310.06625",
+          "https://proceedings.iclr.cc/paper_files/paper/2024/file/2ea18fdc667e0ef2ad82b2b4d65147ad-Paper-Conference.pdf"
+        ],
+        "observations": "Exact title and seven authors match arXiv submitted 10 October 2023 and official ICLR 2024 PDF. Preprint and conference years differ legitimately.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "CPS1",
+      "type": "article",
+      "fields": {
+        "title": "Deep learning enabled intrusion detection system for Industrial IOT environment",
+        "author": "Nandanwar, Himanshu and Katarya, Rahul",
+        "journal": "Expert Systems with Applications",
+        "volume": "249",
+        "pages": "123808",
+        "year": "2024",
+        "publisher": "Elsevier"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.sciencedirect.com/science/article/pii/S0957417424006742"
+        ],
+        "observations": "Publisher exact title, Himanshu Nandanwar/Rahul Katarya, Expert Systems with Applications 249 Part C,123808, 1 September 2024 and DOI 10.1016/j.eswa.2024.123808 match.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "CPS2",
+      "type": "article",
+      "fields": {
+        "title": "DPDGAD: A Dual-Process Dynamic Graph-based Anomaly Detection for multivariate time series analysis in cyber-physical systems",
+        "author": "Liao, Junxuan and Li, Jing and Chen, Yu and Gu, Rongbin and Zhu, Ying and Peng, Weizhou",
+        "journal": "Advanced Engineering Informatics",
+        "volume": "61",
+        "pages": "102547",
+        "year": "2024",
+        "publisher": "Elsevier"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "healthcare1",
+      "type": "inproceedings",
+      "fields": {
+        "title": "AF classification from a short single lead ECG recording: The PhysioNet/computing in cardiology challenge 2017",
+        "author": "Clifford, Gari D and Liu, Chengyu and Moody, Benjamin and Li-wei, H Lehman and Silva, Ikaro and Li, Qiao and Johnson, AE and Mark, Roger G",
+        "booktitle": "2017 Computing in Cardiology (CinC)",
+        "pages": "1--4",
+        "year": "2017",
+        "organization": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://physionet.org/files/challenge-2017/1.0.0/papers/065-469.pdf"
+        ],
+        "observations": "Official PhysioNet challenge manuscript confirms title/authors/2017. Source bibliography misparses author Li-wei H. Lehman as surname Li-wei (author field Li-wei, H Lehman), rendered Li-wei, H. L. Correct future project citation to Lehman, Li-wei H.; preserve archived originals. This is a name-formatting error, not a nonexistent reference.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "healthcare2",
+      "type": "article",
+      "fields": {
+        "title": "RawECGNet: Deep Learning Generalization for Atrial Fibrillation Detection From the Raw ECG",
+        "author": "Ben-Moshe, Noam and Tsutsui, Kenta and Biton, Shany and Zvuloni, Eran and S{\\\"o}rnmo, Leif and Behar, Joachim A",
+        "journal": "IEEE Journal of Biomedical and Health Informatics",
+        "year": "2024",
+        "publisher": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://arxiv.org/abs/2401.05411",
+          "https://github.com/aim-lab/AFtoolkit",
+          "https://pubmed.ncbi.nlm.nih.gov/38787663/",
+          "https://doi.org/10.1109/JBHI.2024.3404877"
+        ],
+        "observations": "Exact title confirmed in author preprint; journal citation independently supplied by author repository, corroborated by PubMed: IEEE JBHI 28(9):5180–5188,2024,DOI 10.1109/JBHI.2024.3404877. Journal includes Eran Zvuloni, absent from displayed arXiv author list; author repository resolves this version difference. Journal uses Shany Biton Brimer whereas CAROTS bib uses Shany Biton. Direct DOI retrieval failed, so journal identity evidence is author-repository/registry rather than publisher full text.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "gdn",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Graph neural network-based anomaly detection in multivariate time series",
+        "author": "Deng, Ailin and Hooi, Bryan",
+        "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+        "volume": "35",
+        "number": "5",
+        "pages": "4027--4035",
+        "year": "2021"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "runge2019detecting",
+      "type": "article",
+      "fields": {
+        "title": "Detecting and quantifying causal associations in large nonlinear time series datasets",
+        "author": "Runge, Jakob and Nowack, Peer and Kretschmer, Marlene and Flaxman, Seth and Sejdinovic, Dino",
+        "journal": "Science advances",
+        "volume": "5",
+        "number": "11",
+        "pages": "eaau4996",
+        "year": "2019",
+        "publisher": "American Association for the Advancement of Science"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://doi.org/10.1126/sciadv.aau4996",
+          "https://oa.tib.eu/renate/items/4231680d-1e67-4f12-8a69-29a723f411ff"
+        ],
+        "observations": "Publisher DOI and institutional published-version record confirm exact title, five authors, Science Advances 5(11),eaau4996 (2019).",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "kang2024transformer",
+      "type": "article",
+      "fields": {
+        "title": "Transformer-based multivariate time series anomaly detection using inter-variable attention mechanism",
+        "author": "Kang, Hyeongwon and Kang, Pilsung",
+        "journal": "Knowledge-Based Systems",
+        "volume": "290",
+        "pages": "111507",
+        "year": "2024",
+        "publisher": "Elsevier"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://www.sciencedirect.com/science/article/pii/S0950705124001424"
+        ],
+        "observations": "Publisher exact title, Hyeongwon Kang/Pilsung Kang, Knowledge-Based Systems 290,111507,22 April 2024 and DOI 10.1016/j.knosys.2024.111507 match.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "absar2021discovering",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Discovering time-invariant causal structure from temporal data",
+        "author": "Absar, Saima and Zhang, Lu",
+        "booktitle": "Proceedings of the 30th ACM International Conference on Information \\& Knowledge Management",
+        "pages": "2807--2811",
+        "year": "2021"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://par.nsf.gov/servlets/purl/10326676"
+        ],
+        "observations": "Author manuscript confirms title, Saima Absar/Lu Zhang, CIKM 2021 and DOI 10.1145/3459637.3482086. This is existence/metadata; its time-invariance notion must not be assumed identical to constant CAROTS dynamics without passage-level analysis.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "absar2023neural",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Neural time-invariant causal discovery from time series data",
+        "author": "Absar, Saima and Wu, Yongkai and Zhang, Lu",
+        "booktitle": "2023 International Joint Conference on Neural Networks (IJCNN)",
+        "pages": "1--8",
+        "year": "2023",
+        "organization": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://par.nsf.gov/servlets/purl/10496303"
+        ],
+        "observations": "Author manuscript title and author names match; conference metadata not completely checked from accessible extract.",
+        "claim_support": "Not fully audited; only specific checked support is noted above.",
+        "retraction_status": "Not independently checked for this reference.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    },
+    {
+      "key": "yang2022causal",
+      "type": "article",
+      "fields": {
+        "title": "A causal approach to detecting multivariate time-series anomalies and root causes",
+        "author": "Yang, Wenzhuo and Zhang, Kun and Hoi, Steven CH",
+        "journal": "arXiv preprint arXiv:2206.15033",
+        "year": "2022"
+      },
+      "in_rendered_bibliography": false,
+      "verification": {
+        "status": "unverified",
+        "scope": "Unused source-library record; inventoried, not independently checked. No claim that it is cited in the rendered paper.",
+        "primary_identity_lookup_attempted": false
+      }
+    },
+    {
+      "key": "qiu2012granger",
+      "type": "inproceedings",
+      "fields": {
+        "title": "Granger causality for time-series anomaly detection",
+        "author": "Qiu, Huida and Liu, Yan and Subrahmanya, Niranjan A and Li, Weichang",
+        "booktitle": "2012 IEEE 12th international conference on data mining",
+        "pages": "1074--1079",
+        "year": "2012",
+        "organization": "IEEE"
+      },
+      "in_rendered_bibliography": true,
+      "verification": {
+        "status": "existence_verified_metadata_scoped",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/6413806",
+          "https://usc-melady.github.io/melady_website/publication/qiu-granger-2012/",
+          "https://bpb-us-w1.wpmucdn.com/sites.usc.edu/dist/b/174/files/2017/02/icdm2012-24cppog.pdf"
+        ],
+        "observations": "IEEE title and author-lab publication record confirm exact title and ICDM 2012. Author-hosted PDF search exposes Huida Qiu and Yan Liu. Remaining author/page metadata not independently resolved in this bounded lookup.",
+        "claim_support": "Not independently checked beyond explicitly described scope; identity does not verify experimental findings or citation support.",
+        "retraction_status": "Not systematically checked for this reference; any observed correction is recorded in observations.",
+        "primary_identity_lookup_attempted": true,
+        "lookup_date": "2026-10-16",
+        "lookup_method": "Exact-title and/or supplied identifier primary-source lookup; URLs and access limitations recorded in sources/observations."
+      }
+    }
+  ]
+}

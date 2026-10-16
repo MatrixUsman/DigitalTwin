@@ -1,0 +1,3413 @@
+{
+  "scope": "Integrity and format checks, not scientific validation or executable compatibility",
+  "at_utc": "2026-10-16T15:54:11.151617+00:00",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "command": "python3 tools/audit_baseline_resources.py",
+  "working_directory": "/Users/matrixusman/CUI/DigitalTwin/water",
+  "script_sha256": "0eca7e4ac731ea84c8272246d955499bd6668870313fa5b578847b7c5b8049bc",
+  "manifest_sha256": {
+    "RESOURCE_MANIFEST.json": "6a05cdf50875ddcdb0a029ca7c0f8a4e017615256872114d107233d92f9c3df9",
+    "DERIVED_ARTIFACTS.json": "3800f33ebb3d3cc71a13d0fbb8bca8f70ffa3605118c97d42c743831673be1c1"
+  },
+  "counts": {
+    "pass": 187,
+    "pass_with_limits": 2
+  },
+  "xml_semantic_equivalence": {
+    "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+    "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+    "comparisons": [
+      {
+        "group": "tables",
+        "count": 7,
+        "all_identical": true
+      },
+      {
+        "group": "figures",
+        "count": 5,
+        "all_identical": true
+      },
+      {
+        "group": "references",
+        "count": 1,
+        "all_identical": true
+      }
+    ]
+  },
+  "checks": [
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 18,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/metadata/pmlr.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [
+        "Fontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig\n\nFontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig\n\nFontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig\n\nFontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig"
+      ],
+      "pages": 18,
+      "status": "pass_with_limits"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "checks": [
+        "size_and_sha256_match",
+        "all_archive_members_match_extracted_bytes"
+      ],
+      "warnings": [],
+      "archive_regular_files": 32,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/metadata/repository_tree.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [
+        "Fontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig\n\nFontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig\n\nFontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig\n\nFontconfig error: No writable cache directories\n\t/opt/homebrew/var/cache/fontconfig\n\t/Users/matrixusman/.cache/fontconfig\n\t/Users/matrixusman/.fontconfig"
+      ],
+      "pages": 6,
+      "status": "pass_with_limits"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/metadata/arxiv_record.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "checks": [
+        "size_and_sha256_match",
+        "all_archive_members_match_extracted_bytes"
+      ],
+      "warnings": [],
+      "archive_regular_files": 7,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 17,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/publisher.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/PMC13402577.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/.gitignore",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/LICENSE",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/README.md",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/config.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/datasets/__init__.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/datasets/build.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/datasets/collate.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/datasets/loader.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/datasets/util.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/figure/components.png",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/figure/overview.png",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/layers/Conv_Blocks.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/layers/Embed.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/layers/SelfAttention_Family.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/layers/Transformer_EncDec.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/main.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/__init__.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/build.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/encoder.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/loss.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_carots.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_cuts_plus.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_negative_augmentor.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_positive_augmentor.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/predictor.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/scorer_carots.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/trainer_carots.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/trainer_cuts_plus.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/carots/transform_layer.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/itransformer/modeling_itransformer.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/optimizer.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/timesnet/modeling_timesnet.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/timesnet/scorer_timesnet.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/models/timesnet/trainer_timesnet.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph.npy",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "npy_numeric_header_and_payload_size_only"
+      ],
+      "warnings": [],
+      "array_header": {
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          51,
+          51
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_1582080.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_2373120.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_3164160.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_3955200.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_791040.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/best_result.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/checkpoint_best.pth",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "checkpoint_zip_crc_only_no_deserialization"
+      ],
+      "warnings": [],
+      "zip_members": [
+        "archive/data.pkl",
+        "archive/byteorder",
+        "archive/data/0",
+        "archive/data/1",
+        "archive/data/10",
+        "archive/data/100",
+        "archive/data/101",
+        "archive/data/102",
+        "archive/data/103",
+        "archive/data/104",
+        "archive/data/105",
+        "archive/data/106",
+        "archive/data/107",
+        "archive/data/108",
+        "archive/data/109",
+        "archive/data/11",
+        "archive/data/110",
+        "archive/data/111",
+        "archive/data/112",
+        "archive/data/113",
+        "archive/data/114",
+        "archive/data/115",
+        "archive/data/116",
+        "archive/data/117",
+        "archive/data/118",
+        "archive/data/119",
+        "archive/data/12",
+        "archive/data/120",
+        "archive/data/121",
+        "archive/data/122",
+        "archive/data/123",
+        "archive/data/124",
+        "archive/data/125",
+        "archive/data/126",
+        "archive/data/127",
+        "archive/data/128",
+        "archive/data/129",
+        "archive/data/13",
+        "archive/data/130",
+        "archive/data/131",
+        "archive/data/132",
+        "archive/data/133",
+        "archive/data/134",
+        "archive/data/135",
+        "archive/data/136",
+        "archive/data/137",
+        "archive/data/138",
+        "archive/data/139",
+        "archive/data/14",
+        "archive/data/140",
+        "archive/data/141",
+        "archive/data/142",
+        "archive/data/143",
+        "archive/data/144",
+        "archive/data/145",
+        "archive/data/146",
+        "archive/data/147",
+        "archive/data/148",
+        "archive/data/149",
+        "archive/data/15",
+        "archive/data/150",
+        "archive/data/151",
+        "archive/data/152",
+        "archive/data/153",
+        "archive/data/154",
+        "archive/data/155",
+        "archive/data/156",
+        "archive/data/157",
+        "archive/data/158",
+        "archive/data/159",
+        "archive/data/16",
+        "archive/data/160",
+        "archive/data/161",
+        "archive/data/162",
+        "archive/data/163",
+        "archive/data/164",
+        "archive/data/165",
+        "archive/data/166",
+        "archive/data/167",
+        "archive/data/168",
+        "archive/data/169",
+        "archive/data/17",
+        "archive/data/170",
+        "archive/data/171",
+        "archive/data/172",
+        "archive/data/173",
+        "archive/data/174",
+        "archive/data/175",
+        "archive/data/176",
+        "archive/data/177",
+        "archive/data/178",
+        "archive/data/179",
+        "archive/data/18",
+        "archive/data/180",
+        "archive/data/181",
+        "archive/data/182",
+        "archive/data/183",
+        "archive/data/184",
+        "archive/data/185",
+        "archive/data/186",
+        "archive/data/187",
+        "archive/data/188",
+        "archive/data/189",
+        "archive/data/19",
+        "archive/data/190",
+        "archive/data/191",
+        "archive/data/192",
+        "archive/data/193",
+        "archive/data/194",
+        "archive/data/195",
+        "archive/data/196",
+        "archive/data/197",
+        "archive/data/198",
+        "archive/data/199",
+        "archive/data/2",
+        "archive/data/20",
+        "archive/data/200",
+        "archive/data/201",
+        "archive/data/202",
+        "archive/data/203",
+        "archive/data/204",
+        "archive/data/205",
+        "archive/data/206",
+        "archive/data/207",
+        "archive/data/208",
+        "archive/data/209",
+        "archive/data/21",
+        "archive/data/210",
+        "archive/data/211",
+        "archive/data/212",
+        "archive/data/213",
+        "archive/data/214",
+        "archive/data/215",
+        "archive/data/216",
+        "archive/data/217",
+        "archive/data/218",
+        "archive/data/219",
+        "archive/data/22",
+        "archive/data/220",
+        "archive/data/221",
+        "archive/data/222",
+        "archive/data/223",
+        "archive/data/224",
+        "archive/data/225",
+        "archive/data/226",
+        "archive/data/227",
+        "archive/data/228",
+        "archive/data/229",
+        "archive/data/23",
+        "archive/data/230",
+        "archive/data/231",
+        "archive/data/232",
+        "archive/data/233",
+        "archive/data/234",
+        "archive/data/235",
+        "archive/data/236",
+        "archive/data/237",
+        "archive/data/238",
+        "archive/data/239",
+        "archive/data/24",
+        "archive/data/240",
+        "archive/data/241",
+        "archive/data/242",
+        "archive/data/243",
+        "archive/data/244",
+        "archive/data/245",
+        "archive/data/246",
+        "archive/data/247",
+        "archive/data/248",
+        "archive/data/249",
+        "archive/data/25",
+        "archive/data/250",
+        "archive/data/251",
+        "archive/data/252",
+        "archive/data/253",
+        "archive/data/254",
+        "archive/data/255",
+        "archive/data/256",
+        "archive/data/257",
+        "archive/data/258",
+        "archive/data/259",
+        "archive/data/26",
+        "archive/data/260",
+        "archive/data/261",
+        "archive/data/262",
+        "archive/data/263",
+        "archive/data/264",
+        "archive/data/265",
+        "archive/data/266",
+        "archive/data/267",
+        "archive/data/268",
+        "archive/data/269",
+        "archive/data/27",
+        "archive/data/270",
+        "archive/data/271",
+        "archive/data/272",
+        "archive/data/273",
+        "archive/data/274",
+        "archive/data/275",
+        "archive/data/276",
+        "archive/data/277",
+        "archive/data/278",
+        "archive/data/279",
+        "archive/data/28",
+        "archive/data/280",
+        "archive/data/281",
+        "archive/data/282",
+        "archive/data/283",
+        "archive/data/284",
+        "archive/data/285",
+        "archive/data/286",
+        "archive/data/287",
+        "archive/data/288",
+        "archive/data/289",
+        "archive/data/29",
+        "archive/data/290",
+        "archive/data/291",
+        "archive/data/292",
+        "archive/data/293",
+        "archive/data/294",
+        "archive/data/295",
+        "archive/data/296",
+        "archive/data/297",
+        "archive/data/298",
+        "archive/data/299",
+        "archive/data/3",
+        "archive/data/30",
+        "archive/data/300",
+        "archive/data/301",
+        "archive/data/302",
+        "archive/data/303",
+        "archive/data/304",
+        "archive/data/305",
+        "archive/data/306",
+        "archive/data/307",
+        "archive/data/308",
+        "archive/data/309",
+        "archive/data/31",
+        "archive/data/310",
+        "archive/data/311",
+        "archive/data/312",
+        "archive/data/313",
+        "archive/data/314",
+        "archive/data/315",
+        "archive/data/316",
+        "archive/data/317",
+        "archive/data/318",
+        "archive/data/319",
+        "archive/data/32",
+        "archive/data/320",
+        "archive/data/321",
+        "archive/data/322",
+        "archive/data/323",
+        "archive/data/324",
+        "archive/data/325",
+        "archive/data/326",
+        "archive/data/327",
+        "archive/data/328",
+        "archive/data/329",
+        "archive/data/33",
+        "archive/data/330",
+        "archive/data/331",
+        "archive/data/332",
+        "archive/data/333",
+        "archive/data/334",
+        "archive/data/335",
+        "archive/data/336",
+        "archive/data/337",
+        "archive/data/338",
+        "archive/data/339",
+        "archive/data/34",
+        "archive/data/340",
+        "archive/data/341",
+        "archive/data/342",
+        "archive/data/343",
+        "archive/data/344",
+        "archive/data/345",
+        "archive/data/346",
+        "archive/data/347",
+        "archive/data/348",
+        "archive/data/349",
+        "archive/data/35",
+        "archive/data/350",
+        "archive/data/351",
+        "archive/data/352",
+        "archive/data/353",
+        "archive/data/354",
+        "archive/data/355",
+        "archive/data/356",
+        "archive/data/357",
+        "archive/data/358",
+        "archive/data/359",
+        "archive/data/36",
+        "archive/data/360",
+        "archive/data/361",
+        "archive/data/362",
+        "archive/data/363",
+        "archive/data/364",
+        "archive/data/365",
+        "archive/data/366",
+        "archive/data/367",
+        "archive/data/368",
+        "archive/data/369",
+        "archive/data/37",
+        "archive/data/370",
+        "archive/data/371",
+        "archive/data/372",
+        "archive/data/373",
+        "archive/data/374",
+        "archive/data/375",
+        "archive/data/376",
+        "archive/data/377",
+        "archive/data/378",
+        "archive/data/379",
+        "archive/data/38",
+        "archive/data/380",
+        "archive/data/381",
+        "archive/data/382",
+        "archive/data/383",
+        "archive/data/384",
+        "archive/data/385",
+        "archive/data/386",
+        "archive/data/387",
+        "archive/data/388",
+        "archive/data/389",
+        "archive/data/39",
+        "archive/data/390",
+        "archive/data/391",
+        "archive/data/392",
+        "archive/data/393",
+        "archive/data/394",
+        "archive/data/395",
+        "archive/data/396",
+        "archive/data/397",
+        "archive/data/398",
+        "archive/data/399",
+        "archive/data/4",
+        "archive/data/40",
+        "archive/data/400",
+        "archive/data/401",
+        "archive/data/402",
+        "archive/data/403",
+        "archive/data/404",
+        "archive/data/405",
+        "archive/data/406",
+        "archive/data/407",
+        "archive/data/408",
+        "archive/data/409",
+        "archive/data/41",
+        "archive/data/410",
+        "archive/data/411",
+        "archive/data/412",
+        "archive/data/413",
+        "archive/data/414",
+        "archive/data/415",
+        "archive/data/416",
+        "archive/data/417",
+        "archive/data/418",
+        "archive/data/419",
+        "archive/data/42",
+        "archive/data/420",
+        "archive/data/421",
+        "archive/data/422",
+        "archive/data/423",
+        "archive/data/424",
+        "archive/data/425",
+        "archive/data/426",
+        "archive/data/427",
+        "archive/data/428",
+        "archive/data/429",
+        "archive/data/43",
+        "archive/data/430",
+        "archive/data/431",
+        "archive/data/432",
+        "archive/data/433",
+        "archive/data/434",
+        "archive/data/435",
+        "archive/data/436",
+        "archive/data/437",
+        "archive/data/438",
+        "archive/data/439",
+        "archive/data/44",
+        "archive/data/440",
+        "archive/data/441",
+        "archive/data/442",
+        "archive/data/443",
+        "archive/data/444",
+        "archive/data/445",
+        "archive/data/446",
+        "archive/data/447",
+        "archive/data/448",
+        "archive/data/449",
+        "archive/data/45",
+        "archive/data/450",
+        "archive/data/451",
+        "archive/data/452",
+        "archive/data/453",
+        "archive/data/454",
+        "archive/data/455",
+        "archive/data/46",
+        "archive/data/47",
+        "archive/data/48",
+        "archive/data/49",
+        "archive/data/5",
+        "archive/data/50",
+        "archive/data/51",
+        "archive/data/52",
+        "archive/data/53",
+        "archive/data/54",
+        "archive/data/55",
+        "archive/data/56",
+        "archive/data/57",
+        "archive/data/58",
+        "archive/data/59",
+        "archive/data/6",
+        "archive/data/60",
+        "archive/data/61",
+        "archive/data/62",
+        "archive/data/63",
+        "archive/data/64",
+        "archive/data/65",
+        "archive/data/66",
+        "archive/data/67",
+        "archive/data/68",
+        "archive/data/69",
+        "archive/data/7",
+        "archive/data/70",
+        "archive/data/71",
+        "archive/data/72",
+        "archive/data/73",
+        "archive/data/74",
+        "archive/data/75",
+        "archive/data/76",
+        "archive/data/77",
+        "archive/data/78",
+        "archive/data/79",
+        "archive/data/8",
+        "archive/data/80",
+        "archive/data/81",
+        "archive/data/82",
+        "archive/data/83",
+        "archive/data/84",
+        "archive/data/85",
+        "archive/data/86",
+        "archive/data/87",
+        "archive/data/88",
+        "archive/data/89",
+        "archive/data/9",
+        "archive/data/90",
+        "archive/data/91",
+        "archive/data/92",
+        "archive/data/93",
+        "archive/data/94",
+        "archive/data/95",
+        "archive/data/96",
+        "archive/data/97",
+        "archive/data/98",
+        "archive/data/99",
+        "archive/version",
+        "archive/.data/serialization_id"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph.npy",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "npy_numeric_header_and_payload_size_only"
+      ],
+      "warnings": [],
+      "array_header": {
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          123,
+          123
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_1254400.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_2508800.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_3763200.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_5017600.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_6272000.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/best_result.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/checkpoint_best.pth",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "checkpoint_zip_crc_only_no_deserialization"
+      ],
+      "warnings": [],
+      "zip_members": [
+        "archive/data.pkl",
+        "archive/byteorder",
+        "archive/data/0",
+        "archive/data/1",
+        "archive/data/10",
+        "archive/data/100",
+        "archive/data/1000",
+        "archive/data/1001",
+        "archive/data/1002",
+        "archive/data/1003",
+        "archive/data/1004",
+        "archive/data/1005",
+        "archive/data/1006",
+        "archive/data/1007",
+        "archive/data/1008",
+        "archive/data/1009",
+        "archive/data/101",
+        "archive/data/1010",
+        "archive/data/1011",
+        "archive/data/1012",
+        "archive/data/1013",
+        "archive/data/1014",
+        "archive/data/1015",
+        "archive/data/1016",
+        "archive/data/1017",
+        "archive/data/1018",
+        "archive/data/1019",
+        "archive/data/102",
+        "archive/data/1020",
+        "archive/data/1021",
+        "archive/data/1022",
+        "archive/data/1023",
+        "archive/data/1024",
+        "archive/data/1025",
+        "archive/data/1026",
+        "archive/data/1027",
+        "archive/data/1028",
+        "archive/data/1029",
+        "archive/data/103",
+        "archive/data/1030",
+        "archive/data/1031",
+        "archive/data/104",
+        "archive/data/105",
+        "archive/data/106",
+        "archive/data/107",
+        "archive/data/108",
+        "archive/data/109",
+        "archive/data/11",
+        "archive/data/110",
+        "archive/data/111",
+        "archive/data/112",
+        "archive/data/113",
+        "archive/data/114",
+        "archive/data/115",
+        "archive/data/116",
+        "archive/data/117",
+        "archive/data/118",
+        "archive/data/119",
+        "archive/data/12",
+        "archive/data/120",
+        "archive/data/121",
+        "archive/data/122",
+        "archive/data/123",
+        "archive/data/124",
+        "archive/data/125",
+        "archive/data/126",
+        "archive/data/127",
+        "archive/data/128",
+        "archive/data/129",
+        "archive/data/13",
+        "archive/data/130",
+        "archive/data/131",
+        "archive/data/132",
+        "archive/data/133",
+        "archive/data/134",
+        "archive/data/135",
+        "archive/data/136",
+        "archive/data/137",
+        "archive/data/138",
+        "archive/data/139",
+        "archive/data/14",
+        "archive/data/140",
+        "archive/data/141",
+        "archive/data/142",
+        "archive/data/143",
+        "archive/data/144",
+        "archive/data/145",
+        "archive/data/146",
+        "archive/data/147",
+        "archive/data/148",
+        "archive/data/149",
+        "archive/data/15",
+        "archive/data/150",
+        "archive/data/151",
+        "archive/data/152",
+        "archive/data/153",
+        "archive/data/154",
+        "archive/data/155",
+        "archive/data/156",
+        "archive/data/157",
+        "archive/data/158",
+        "archive/data/159",
+        "archive/data/16",
+        "archive/data/160",
+        "archive/data/161",
+        "archive/data/162",
+        "archive/data/163",
+        "archive/data/164",
+        "archive/data/165",
+        "archive/data/166",
+        "archive/data/167",
+        "archive/data/168",
+        "archive/data/169",
+        "archive/data/17",
+        "archive/data/170",
+        "archive/data/171",
+        "archive/data/172",
+        "archive/data/173",
+        "archive/data/174",
+        "archive/data/175",
+        "archive/data/176",
+        "archive/data/177",
+        "archive/data/178",
+        "archive/data/179",
+        "archive/data/18",
+        "archive/data/180",
+        "archive/data/181",
+        "archive/data/182",
+        "archive/data/183",
+        "archive/data/184",
+        "archive/data/185",
+        "archive/data/186",
+        "archive/data/187",
+        "archive/data/188",
+        "archive/data/189",
+        "archive/data/19",
+        "archive/data/190",
+        "archive/data/191",
+        "archive/data/192",
+        "archive/data/193",
+        "archive/data/194",
+        "archive/data/195",
+        "archive/data/196",
+        "archive/data/197",
+        "archive/data/198",
+        "archive/data/199",
+        "archive/data/2",
+        "archive/data/20",
+        "archive/data/200",
+        "archive/data/201",
+        "archive/data/202",
+        "archive/data/203",
+        "archive/data/204",
+        "archive/data/205",
+        "archive/data/206",
+        "archive/data/207",
+        "archive/data/208",
+        "archive/data/209",
+        "archive/data/21",
+        "archive/data/210",
+        "archive/data/211",
+        "archive/data/212",
+        "archive/data/213",
+        "archive/data/214",
+        "archive/data/215",
+        "archive/data/216",
+        "archive/data/217",
+        "archive/data/218",
+        "archive/data/219",
+        "archive/data/22",
+        "archive/data/220",
+        "archive/data/221",
+        "archive/data/222",
+        "archive/data/223",
+        "archive/data/224",
+        "archive/data/225",
+        "archive/data/226",
+        "archive/data/227",
+        "archive/data/228",
+        "archive/data/229",
+        "archive/data/23",
+        "archive/data/230",
+        "archive/data/231",
+        "archive/data/232",
+        "archive/data/233",
+        "archive/data/234",
+        "archive/data/235",
+        "archive/data/236",
+        "archive/data/237",
+        "archive/data/238",
+        "archive/data/239",
+        "archive/data/24",
+        "archive/data/240",
+        "archive/data/241",
+        "archive/data/242",
+        "archive/data/243",
+        "archive/data/244",
+        "archive/data/245",
+        "archive/data/246",
+        "archive/data/247",
+        "archive/data/248",
+        "archive/data/249",
+        "archive/data/25",
+        "archive/data/250",
+        "archive/data/251",
+        "archive/data/252",
+        "archive/data/253",
+        "archive/data/254",
+        "archive/data/255",
+        "archive/data/256",
+        "archive/data/257",
+        "archive/data/258",
+        "archive/data/259",
+        "archive/data/26",
+        "archive/data/260",
+        "archive/data/261",
+        "archive/data/262",
+        "archive/data/263",
+        "archive/data/264",
+        "archive/data/265",
+        "archive/data/266",
+        "archive/data/267",
+        "archive/data/268",
+        "archive/data/269",
+        "archive/data/27",
+        "archive/data/270",
+        "archive/data/271",
+        "archive/data/272",
+        "archive/data/273",
+        "archive/data/274",
+        "archive/data/275",
+        "archive/data/276",
+        "archive/data/277",
+        "archive/data/278",
+        "archive/data/279",
+        "archive/data/28",
+        "archive/data/280",
+        "archive/data/281",
+        "archive/data/282",
+        "archive/data/283",
+        "archive/data/284",
+        "archive/data/285",
+        "archive/data/286",
+        "archive/data/287",
+        "archive/data/288",
+        "archive/data/289",
+        "archive/data/29",
+        "archive/data/290",
+        "archive/data/291",
+        "archive/data/292",
+        "archive/data/293",
+        "archive/data/294",
+        "archive/data/295",
+        "archive/data/296",
+        "archive/data/297",
+        "archive/data/298",
+        "archive/data/299",
+        "archive/data/3",
+        "archive/data/30",
+        "archive/data/300",
+        "archive/data/301",
+        "archive/data/302",
+        "archive/data/303",
+        "archive/data/304",
+        "archive/data/305",
+        "archive/data/306",
+        "archive/data/307",
+        "archive/data/308",
+        "archive/data/309",
+        "archive/data/31",
+        "archive/data/310",
+        "archive/data/311",
+        "archive/data/312",
+        "archive/data/313",
+        "archive/data/314",
+        "archive/data/315",
+        "archive/data/316",
+        "archive/data/317",
+        "archive/data/318",
+        "archive/data/319",
+        "archive/data/32",
+        "archive/data/320",
+        "archive/data/321",
+        "archive/data/322",
+        "archive/data/323",
+        "archive/data/324",
+        "archive/data/325",
+        "archive/data/326",
+        "archive/data/327",
+        "archive/data/328",
+        "archive/data/329",
+        "archive/data/33",
+        "archive/data/330",
+        "archive/data/331",
+        "archive/data/332",
+        "archive/data/333",
+        "archive/data/334",
+        "archive/data/335",
+        "archive/data/336",
+        "archive/data/337",
+        "archive/data/338",
+        "archive/data/339",
+        "archive/data/34",
+        "archive/data/340",
+        "archive/data/341",
+        "archive/data/342",
+        "archive/data/343",
+        "archive/data/344",
+        "archive/data/345",
+        "archive/data/346",
+        "archive/data/347",
+        "archive/data/348",
+        "archive/data/349",
+        "archive/data/35",
+        "archive/data/350",
+        "archive/data/351",
+        "archive/data/352",
+        "archive/data/353",
+        "archive/data/354",
+        "archive/data/355",
+        "archive/data/356",
+        "archive/data/357",
+        "archive/data/358",
+        "archive/data/359",
+        "archive/data/36",
+        "archive/data/360",
+        "archive/data/361",
+        "archive/data/362",
+        "archive/data/363",
+        "archive/data/364",
+        "archive/data/365",
+        "archive/data/366",
+        "archive/data/367",
+        "archive/data/368",
+        "archive/data/369",
+        "archive/data/37",
+        "archive/data/370",
+        "archive/data/371",
+        "archive/data/372",
+        "archive/data/373",
+        "archive/data/374",
+        "archive/data/375",
+        "archive/data/376",
+        "archive/data/377",
+        "archive/data/378",
+        "archive/data/379",
+        "archive/data/38",
+        "archive/data/380",
+        "archive/data/381",
+        "archive/data/382",
+        "archive/data/383",
+        "archive/data/384",
+        "archive/data/385",
+        "archive/data/386",
+        "archive/data/387",
+        "archive/data/388",
+        "archive/data/389",
+        "archive/data/39",
+        "archive/data/390",
+        "archive/data/391",
+        "archive/data/392",
+        "archive/data/393",
+        "archive/data/394",
+        "archive/data/395",
+        "archive/data/396",
+        "archive/data/397",
+        "archive/data/398",
+        "archive/data/399",
+        "archive/data/4",
+        "archive/data/40",
+        "archive/data/400",
+        "archive/data/401",
+        "archive/data/402",
+        "archive/data/403",
+        "archive/data/404",
+        "archive/data/405",
+        "archive/data/406",
+        "archive/data/407",
+        "archive/data/408",
+        "archive/data/409",
+        "archive/data/41",
+        "archive/data/410",
+        "archive/data/411",
+        "archive/data/412",
+        "archive/data/413",
+        "archive/data/414",
+        "archive/data/415",
+        "archive/data/416",
+        "archive/data/417",
+        "archive/data/418",
+        "archive/data/419",
+        "archive/data/42",
+        "archive/data/420",
+        "archive/data/421",
+        "archive/data/422",
+        "archive/data/423",
+        "archive/data/424",
+        "archive/data/425",
+        "archive/data/426",
+        "archive/data/427",
+        "archive/data/428",
+        "archive/data/429",
+        "archive/data/43",
+        "archive/data/430",
+        "archive/data/431",
+        "archive/data/432",
+        "archive/data/433",
+        "archive/data/434",
+        "archive/data/435",
+        "archive/data/436",
+        "archive/data/437",
+        "archive/data/438",
+        "archive/data/439",
+        "archive/data/44",
+        "archive/data/440",
+        "archive/data/441",
+        "archive/data/442",
+        "archive/data/443",
+        "archive/data/444",
+        "archive/data/445",
+        "archive/data/446",
+        "archive/data/447",
+        "archive/data/448",
+        "archive/data/449",
+        "archive/data/45",
+        "archive/data/450",
+        "archive/data/451",
+        "archive/data/452",
+        "archive/data/453",
+        "archive/data/454",
+        "archive/data/455",
+        "archive/data/456",
+        "archive/data/457",
+        "archive/data/458",
+        "archive/data/459",
+        "archive/data/46",
+        "archive/data/460",
+        "archive/data/461",
+        "archive/data/462",
+        "archive/data/463",
+        "archive/data/464",
+        "archive/data/465",
+        "archive/data/466",
+        "archive/data/467",
+        "archive/data/468",
+        "archive/data/469",
+        "archive/data/47",
+        "archive/data/470",
+        "archive/data/471",
+        "archive/data/472",
+        "archive/data/473",
+        "archive/data/474",
+        "archive/data/475",
+        "archive/data/476",
+        "archive/data/477",
+        "archive/data/478",
+        "archive/data/479",
+        "archive/data/48",
+        "archive/data/480",
+        "archive/data/481",
+        "archive/data/482",
+        "archive/data/483",
+        "archive/data/484",
+        "archive/data/485",
+        "archive/data/486",
+        "archive/data/487",
+        "archive/data/488",
+        "archive/data/489",
+        "archive/data/49",
+        "archive/data/490",
+        "archive/data/491",
+        "archive/data/492",
+        "archive/data/493",
+        "archive/data/494",
+        "archive/data/495",
+        "archive/data/496",
+        "archive/data/497",
+        "archive/data/498",
+        "archive/data/499",
+        "archive/data/5",
+        "archive/data/50",
+        "archive/data/500",
+        "archive/data/501",
+        "archive/data/502",
+        "archive/data/503",
+        "archive/data/504",
+        "archive/data/505",
+        "archive/data/506",
+        "archive/data/507",
+        "archive/data/508",
+        "archive/data/509",
+        "archive/data/51",
+        "archive/data/510",
+        "archive/data/511",
+        "archive/data/512",
+        "archive/data/513",
+        "archive/data/514",
+        "archive/data/515",
+        "archive/data/516",
+        "archive/data/517",
+        "archive/data/518",
+        "archive/data/519",
+        "archive/data/52",
+        "archive/data/520",
+        "archive/data/521",
+        "archive/data/522",
+        "archive/data/523",
+        "archive/data/524",
+        "archive/data/525",
+        "archive/data/526",
+        "archive/data/527",
+        "archive/data/528",
+        "archive/data/529",
+        "archive/data/53",
+        "archive/data/530",
+        "archive/data/531",
+        "archive/data/532",
+        "archive/data/533",
+        "archive/data/534",
+        "archive/data/535",
+        "archive/data/536",
+        "archive/data/537",
+        "archive/data/538",
+        "archive/data/539",
+        "archive/data/54",
+        "archive/data/540",
+        "archive/data/541",
+        "archive/data/542",
+        "archive/data/543",
+        "archive/data/544",
+        "archive/data/545",
+        "archive/data/546",
+        "archive/data/547",
+        "archive/data/548",
+        "archive/data/549",
+        "archive/data/55",
+        "archive/data/550",
+        "archive/data/551",
+        "archive/data/552",
+        "archive/data/553",
+        "archive/data/554",
+        "archive/data/555",
+        "archive/data/556",
+        "archive/data/557",
+        "archive/data/558",
+        "archive/data/559",
+        "archive/data/56",
+        "archive/data/560",
+        "archive/data/561",
+        "archive/data/562",
+        "archive/data/563",
+        "archive/data/564",
+        "archive/data/565",
+        "archive/data/566",
+        "archive/data/567",
+        "archive/data/568",
+        "archive/data/569",
+        "archive/data/57",
+        "archive/data/570",
+        "archive/data/571",
+        "archive/data/572",
+        "archive/data/573",
+        "archive/data/574",
+        "archive/data/575",
+        "archive/data/576",
+        "archive/data/577",
+        "archive/data/578",
+        "archive/data/579",
+        "archive/data/58",
+        "archive/data/580",
+        "archive/data/581",
+        "archive/data/582",
+        "archive/data/583",
+        "archive/data/584",
+        "archive/data/585",
+        "archive/data/586",
+        "archive/data/587",
+        "archive/data/588",
+        "archive/data/589",
+        "archive/data/59",
+        "archive/data/590",
+        "archive/data/591",
+        "archive/data/592",
+        "archive/data/593",
+        "archive/data/594",
+        "archive/data/595",
+        "archive/data/596",
+        "archive/data/597",
+        "archive/data/598",
+        "archive/data/599",
+        "archive/data/6",
+        "archive/data/60",
+        "archive/data/600",
+        "archive/data/601",
+        "archive/data/602",
+        "archive/data/603",
+        "archive/data/604",
+        "archive/data/605",
+        "archive/data/606",
+        "archive/data/607",
+        "archive/data/608",
+        "archive/data/609",
+        "archive/data/61",
+        "archive/data/610",
+        "archive/data/611",
+        "archive/data/612",
+        "archive/data/613",
+        "archive/data/614",
+        "archive/data/615",
+        "archive/data/616",
+        "archive/data/617",
+        "archive/data/618",
+        "archive/data/619",
+        "archive/data/62",
+        "archive/data/620",
+        "archive/data/621",
+        "archive/data/622",
+        "archive/data/623",
+        "archive/data/624",
+        "archive/data/625",
+        "archive/data/626",
+        "archive/data/627",
+        "archive/data/628",
+        "archive/data/629",
+        "archive/data/63",
+        "archive/data/630",
+        "archive/data/631",
+        "archive/data/632",
+        "archive/data/633",
+        "archive/data/634",
+        "archive/data/635",
+        "archive/data/636",
+        "archive/data/637",
+        "archive/data/638",
+        "archive/data/639",
+        "archive/data/64",
+        "archive/data/640",
+        "archive/data/641",
+        "archive/data/642",
+        "archive/data/643",
+        "archive/data/644",
+        "archive/data/645",
+        "archive/data/646",
+        "archive/data/647",
+        "archive/data/648",
+        "archive/data/649",
+        "archive/data/65",
+        "archive/data/650",
+        "archive/data/651",
+        "archive/data/652",
+        "archive/data/653",
+        "archive/data/654",
+        "archive/data/655",
+        "archive/data/656",
+        "archive/data/657",
+        "archive/data/658",
+        "archive/data/659",
+        "archive/data/66",
+        "archive/data/660",
+        "archive/data/661",
+        "archive/data/662",
+        "archive/data/663",
+        "archive/data/664",
+        "archive/data/665",
+        "archive/data/666",
+        "archive/data/667",
+        "archive/data/668",
+        "archive/data/669",
+        "archive/data/67",
+        "archive/data/670",
+        "archive/data/671",
+        "archive/data/672",
+        "archive/data/673",
+        "archive/data/674",
+        "archive/data/675",
+        "archive/data/676",
+        "archive/data/677",
+        "archive/data/678",
+        "archive/data/679",
+        "archive/data/68",
+        "archive/data/680",
+        "archive/data/681",
+        "archive/data/682",
+        "archive/data/683",
+        "archive/data/684",
+        "archive/data/685",
+        "archive/data/686",
+        "archive/data/687",
+        "archive/data/688",
+        "archive/data/689",
+        "archive/data/69",
+        "archive/data/690",
+        "archive/data/691",
+        "archive/data/692",
+        "archive/data/693",
+        "archive/data/694",
+        "archive/data/695",
+        "archive/data/696",
+        "archive/data/697",
+        "archive/data/698",
+        "archive/data/699",
+        "archive/data/7",
+        "archive/data/70",
+        "archive/data/700",
+        "archive/data/701",
+        "archive/data/702",
+        "archive/data/703",
+        "archive/data/704",
+        "archive/data/705",
+        "archive/data/706",
+        "archive/data/707",
+        "archive/data/708",
+        "archive/data/709",
+        "archive/data/71",
+        "archive/data/710",
+        "archive/data/711",
+        "archive/data/712",
+        "archive/data/713",
+        "archive/data/714",
+        "archive/data/715",
+        "archive/data/716",
+        "archive/data/717",
+        "archive/data/718",
+        "archive/data/719",
+        "archive/data/72",
+        "archive/data/720",
+        "archive/data/721",
+        "archive/data/722",
+        "archive/data/723",
+        "archive/data/724",
+        "archive/data/725",
+        "archive/data/726",
+        "archive/data/727",
+        "archive/data/728",
+        "archive/data/729",
+        "archive/data/73",
+        "archive/data/730",
+        "archive/data/731",
+        "archive/data/732",
+        "archive/data/733",
+        "archive/data/734",
+        "archive/data/735",
+        "archive/data/736",
+        "archive/data/737",
+        "archive/data/738",
+        "archive/data/739",
+        "archive/data/74",
+        "archive/data/740",
+        "archive/data/741",
+        "archive/data/742",
+        "archive/data/743",
+        "archive/data/744",
+        "archive/data/745",
+        "archive/data/746",
+        "archive/data/747",
+        "archive/data/748",
+        "archive/data/749",
+        "archive/data/75",
+        "archive/data/750",
+        "archive/data/751",
+        "archive/data/752",
+        "archive/data/753",
+        "archive/data/754",
+        "archive/data/755",
+        "archive/data/756",
+        "archive/data/757",
+        "archive/data/758",
+        "archive/data/759",
+        "archive/data/76",
+        "archive/data/760",
+        "archive/data/761",
+        "archive/data/762",
+        "archive/data/763",
+        "archive/data/764",
+        "archive/data/765",
+        "archive/data/766",
+        "archive/data/767",
+        "archive/data/768",
+        "archive/data/769",
+        "archive/data/77",
+        "archive/data/770",
+        "archive/data/771",
+        "archive/data/772",
+        "archive/data/773",
+        "archive/data/774",
+        "archive/data/775",
+        "archive/data/776",
+        "archive/data/777",
+        "archive/data/778",
+        "archive/data/779",
+        "archive/data/78",
+        "archive/data/780",
+        "archive/data/781",
+        "archive/data/782",
+        "archive/data/783",
+        "archive/data/784",
+        "archive/data/785",
+        "archive/data/786",
+        "archive/data/787",
+        "archive/data/788",
+        "archive/data/789",
+        "archive/data/79",
+        "archive/data/790",
+        "archive/data/791",
+        "archive/data/792",
+        "archive/data/793",
+        "archive/data/794",
+        "archive/data/795",
+        "archive/data/796",
+        "archive/data/797",
+        "archive/data/798",
+        "archive/data/799",
+        "archive/data/8",
+        "archive/data/80",
+        "archive/data/800",
+        "archive/data/801",
+        "archive/data/802",
+        "archive/data/803",
+        "archive/data/804",
+        "archive/data/805",
+        "archive/data/806",
+        "archive/data/807",
+        "archive/data/808",
+        "archive/data/809",
+        "archive/data/81",
+        "archive/data/810",
+        "archive/data/811",
+        "archive/data/812",
+        "archive/data/813",
+        "archive/data/814",
+        "archive/data/815",
+        "archive/data/816",
+        "archive/data/817",
+        "archive/data/818",
+        "archive/data/819",
+        "archive/data/82",
+        "archive/data/820",
+        "archive/data/821",
+        "archive/data/822",
+        "archive/data/823",
+        "archive/data/824",
+        "archive/data/825",
+        "archive/data/826",
+        "archive/data/827",
+        "archive/data/828",
+        "archive/data/829",
+        "archive/data/83",
+        "archive/data/830",
+        "archive/data/831",
+        "archive/data/832",
+        "archive/data/833",
+        "archive/data/834",
+        "archive/data/835",
+        "archive/data/836",
+        "archive/data/837",
+        "archive/data/838",
+        "archive/data/839",
+        "archive/data/84",
+        "archive/data/840",
+        "archive/data/841",
+        "archive/data/842",
+        "archive/data/843",
+        "archive/data/844",
+        "archive/data/845",
+        "archive/data/846",
+        "archive/data/847",
+        "archive/data/848",
+        "archive/data/849",
+        "archive/data/85",
+        "archive/data/850",
+        "archive/data/851",
+        "archive/data/852",
+        "archive/data/853",
+        "archive/data/854",
+        "archive/data/855",
+        "archive/data/856",
+        "archive/data/857",
+        "archive/data/858",
+        "archive/data/859",
+        "archive/data/86",
+        "archive/data/860",
+        "archive/data/861",
+        "archive/data/862",
+        "archive/data/863",
+        "archive/data/864",
+        "archive/data/865",
+        "archive/data/866",
+        "archive/data/867",
+        "archive/data/868",
+        "archive/data/869",
+        "archive/data/87",
+        "archive/data/870",
+        "archive/data/871",
+        "archive/data/872",
+        "archive/data/873",
+        "archive/data/874",
+        "archive/data/875",
+        "archive/data/876",
+        "archive/data/877",
+        "archive/data/878",
+        "archive/data/879",
+        "archive/data/88",
+        "archive/data/880",
+        "archive/data/881",
+        "archive/data/882",
+        "archive/data/883",
+        "archive/data/884",
+        "archive/data/885",
+        "archive/data/886",
+        "archive/data/887",
+        "archive/data/888",
+        "archive/data/889",
+        "archive/data/89",
+        "archive/data/890",
+        "archive/data/891",
+        "archive/data/892",
+        "archive/data/893",
+        "archive/data/894",
+        "archive/data/895",
+        "archive/data/896",
+        "archive/data/897",
+        "archive/data/898",
+        "archive/data/899",
+        "archive/data/9",
+        "archive/data/90",
+        "archive/data/900",
+        "archive/data/901",
+        "archive/data/902",
+        "archive/data/903",
+        "archive/data/904",
+        "archive/data/905",
+        "archive/data/906",
+        "archive/data/907",
+        "archive/data/908",
+        "archive/data/909",
+        "archive/data/91",
+        "archive/data/910",
+        "archive/data/911",
+        "archive/data/912",
+        "archive/data/913",
+        "archive/data/914",
+        "archive/data/915",
+        "archive/data/916",
+        "archive/data/917",
+        "archive/data/918",
+        "archive/data/919",
+        "archive/data/92",
+        "archive/data/920",
+        "archive/data/921",
+        "archive/data/922",
+        "archive/data/923",
+        "archive/data/924",
+        "archive/data/925",
+        "archive/data/926",
+        "archive/data/927",
+        "archive/data/928",
+        "archive/data/929",
+        "archive/data/93",
+        "archive/data/930",
+        "archive/data/931",
+        "archive/data/932",
+        "archive/data/933",
+        "archive/data/934",
+        "archive/data/935",
+        "archive/data/936",
+        "archive/data/937",
+        "archive/data/938",
+        "archive/data/939",
+        "archive/data/94",
+        "archive/data/940",
+        "archive/data/941",
+        "archive/data/942",
+        "archive/data/943",
+        "archive/data/944",
+        "archive/data/945",
+        "archive/data/946",
+        "archive/data/947",
+        "archive/data/948",
+        "archive/data/949",
+        "archive/data/95",
+        "archive/data/950",
+        "archive/data/951",
+        "archive/data/952",
+        "archive/data/953",
+        "archive/data/954",
+        "archive/data/955",
+        "archive/data/956",
+        "archive/data/957",
+        "archive/data/958",
+        "archive/data/959",
+        "archive/data/96",
+        "archive/data/960",
+        "archive/data/961",
+        "archive/data/962",
+        "archive/data/963",
+        "archive/data/964",
+        "archive/data/965",
+        "archive/data/966",
+        "archive/data/967",
+        "archive/data/968",
+        "archive/data/969",
+        "archive/data/97",
+        "archive/data/970",
+        "archive/data/971",
+        "archive/data/972",
+        "archive/data/973",
+        "archive/data/974",
+        "archive/data/975",
+        "archive/data/976",
+        "archive/data/977",
+        "archive/data/978",
+        "archive/data/979",
+        "archive/data/98",
+        "archive/data/980",
+        "archive/data/981",
+        "archive/data/982",
+        "archive/data/983",
+        "archive/data/984",
+        "archive/data/985",
+        "archive/data/986",
+        "archive/data/987",
+        "archive/data/988",
+        "archive/data/989",
+        "archive/data/99",
+        "archive/data/990",
+        "archive/data/991",
+        "archive/data/992",
+        "archive/data/993",
+        "archive/data/994",
+        "archive/data/995",
+        "archive/data/996",
+        "archive/data/997",
+        "archive/data/998",
+        "archive/data/999",
+        "archive/version",
+        "archive/.data/serialization_id"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_collective_global.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_collective_trend.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_point_contextual.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_point_global.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/MSL_P-14.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/MSL_P-15.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/PSM.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/SMD_2-1.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/SMD_3-7.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/SWaT.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_collective_global.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_collective_trend.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_point_contextual.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_point_global.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/scripts/WADI.sh",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "bash_syntax_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/threshold.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/trainer.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/utils/__init__.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/utils/lr_policy.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/utils/masking.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/utils/meters.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/utils/misc.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/vendor/author_code/utils/parser.py",
+      "checks": [
+        "size_and_sha256_match",
+        "pinned_git_blob_matches",
+        "python_ast_parse_only"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/metadata/icml_presentation.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/metadata/upstream_issue_4.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/metadata/upstream_issue_6.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/metadata/pmc_oa.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/references/paper.ris",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/references/author_bibliography.ris",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 17,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.txt",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig1_HTML.jpg",
+      "checks": [
+        "size_and_sha256_match",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig2_HTML.jpg",
+      "checks": [
+        "size_and_sha256_match",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig3_HTML.jpg",
+      "checks": [
+        "size_and_sha256_match",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig4_HTML.jpg",
+      "checks": [
+        "size_and_sha256_match",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Figa_HTML.jpg",
+      "checks": [
+        "size_and_sha256_match",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 19,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/metadata/arxiv_record.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/itrust_terms.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/itrust_request_form.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/swat_characteristics.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/wadi_characteristics.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/itrust_dataset_summary.html",
+      "checks": [
+        "size_and_sha256_match"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/thuml_swat_file_listing.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/kaggle_wadi_file_listing.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/kaggle_wadi_metadata.json",
+      "checks": [
+        "size_and_sha256_match",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/00README.json",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/algorithmic.sty",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/algorithm.sty",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/fancyhdr.sty",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/causalit_mtx_all.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/causality_mtx.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/components.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/components_jm_ver3.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/overview.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/overview_jm_ver2.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/synthetic.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/synthetic_all.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/tsne.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/tsne_all_ver1.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/icml2025.bst",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/icml2025.sty",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/main.bbl",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/main.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/references.bib",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/ablation.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/ablation_extended.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/ablation_sigma.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/arch.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/causal_discoverer.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/computation.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/data.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/filter.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/hparam.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/main.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/over_time.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/std.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/synthetic.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/00README.json",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/architecture.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/fig_kl_timeline.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/fig_sensitivity.pdf",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "pdfinfo",
+        "all_pages_text_parse",
+        "all_pages_rasterize"
+      ],
+      "warnings": [],
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/IEEEtran.cls",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/Manuscript.tex",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/references.bib",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_ICML2025.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdfinfo.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.pdfinfo.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/carots/artifacts/previews/first_page.png",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdfinfo.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/previews/first_page.png",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdfinfo.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.pdfinfo.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/previews/first_page.png",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "image_decoded_by_sips"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_01.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_01.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_02.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_02.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_03.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_03.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_04.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_04.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_05.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_05.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_06.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_06.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_07.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_07.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_01.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_01.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_02.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_02.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_03.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_03.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_04.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_04.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_05.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_05.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/references_01.xml",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "xml_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/references_01.txt",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches"
+      ],
+      "warnings": [],
+      "status": "pass"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/INDEX.json",
+      "checks": [
+        "size_and_sha256_match",
+        "derivative_source_hash_matches",
+        "json_parse"
+      ],
+      "warnings": [],
+      "status": "pass"
+    }
+  ]
+}
