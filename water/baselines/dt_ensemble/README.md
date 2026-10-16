@@ -9,6 +9,8 @@ Received **13 October 2025**; accepted **14 May 2026**; published **22 May 2026*
 
 ## Start reading
 
+The assistant's [detailed method/implementation study](METHOD_TO_CODE.md) connects equations, Figure 1 and Algorithm 1, distinguishing EKF state correction, normalization, alarm gating, parameter/fusion learning and threshold updates. Pseudocode names are not verified source functions. Use the [three-paper study guide](../../docs/PAPER_STUDY_GUIDE.md) and [mechanism comparison](../../docs/MECHANISM_COMPARISON.md), then record actual reading/questions in [the researcher record](../../papers/notes/READING_RECORD.md). Assistant source study is complete; researcher reading and understanding remain unconfirmed.
+
 1. Open the [version-of-record PDF](artifacts/papers/Ensemble_ScientificReports_VOR.pdf). Begin with the Methods definitions of the plant, process model, EKF, residual and ensemble score.
 2. Explain Equation 5 (state correction), Equation 13 (alarm gate), and the adaptive-threshold/drift paragraphs separately. The alarm gate does not by itself specify which observations are admitted to learning.
 3. Read [DATASETS.md](DATASETS.md) and [EXPERIMENTS.md](EXPERIMENTS.md), especially the unresolved SWaT day numbering, sampling rate and certified-normal window selection.
@@ -37,4 +39,4 @@ The article is **CC BY 4.0** ([license](https://creativecommons.org/licenses/by/
 
 The publisher states that experimental result files and trained models are not publicly available; access by author request is conditional. Source code is promised upon publication, but no matched public runnable repository, software license, release, checkpoint, fitted physical model, aligned score stream or complete run log was verified in the bounded search.
 
-The nearby author repositories for a 2025 SCADA case study and a physics-informed generative framework describe different papers. They are not substitutes for this article's implementation. No author was contacted. Exact SWaT/WADI files and access approval remain absent. This article is close prior work to study critically; it is not approved for numerical reproduction. See the [detailed evidence audit](../../docs/literature/CAUSAL_AND_ENSEMBLE.md).
+The nearby author repositories for a 2025 SCADA case study and a physics-informed generative framework describe different papers. They are not substitutes for this article's implementation. No author was contacted. The [official SWaT/WADI request](../../docs/DATASET_REQUEST_PREPARATION.md) has website submission confirmation after explicit consent; email delivery, provider approval and raw-file receipt remain unverified. This article is close prior work to study critically; it is not approved for numerical reproduction. See the [detailed evidence audit](../../docs/literature/CAUSAL_AND_ENSEMBLE.md).

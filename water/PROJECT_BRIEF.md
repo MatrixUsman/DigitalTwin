@@ -4,6 +4,8 @@ Status: source collection, reading preparation and data-access audit. Updated **
 
 Project ID: `water`. Owner: **Muhammad Usman** (project responsibility, not a final authorship decision). This project inherits [shared workspace rules](../AGENTS.md) and has its own [status/handoff](STATUS.md). Run future commands from `water/`.
 
+**Current access update:** the official SWaT/WADI request was submitted after the user supplied the university email and explicitly accepted the stated terms/privacy consent. Website confirmation was observed by the post-submission clock check at **2026-10-16 16:15:51 UTC**; this is not an exact server timestamp. The form's default **17 October 2026** date was preserved because Singapore was already on that date. Approval, download access and dataset receipt remain pending. Exact personal details are retained only in ignored local storage. See the [request summary](docs/DATASET_REQUEST_PREPARATION.md); no duplicate submission is needed.
+
 ## Research scope
 
 **Provisional title:** Trust-Gated Digital Twins for Cyberattack Detection in Water Infrastructure.
@@ -24,14 +26,14 @@ SWaT/WADI attack detection alone cannot establish successful adaptation to legit
 
 ## Initial audit outcome
 
-The observations below describe the original single-water workspace before the three-project reorganization. Shared machine information remains at the workspace root; research evidence and future data/runs are local to this project.
+The observations below describe the original single-water workspace before the three-project reorganization. Statements about no submitted request describe that historical audit stage; the later authorized submission is recorded above. Shared machine information remains at the workspace root; research evidence and future data/runs are local to this project.
 
 - The workspace was empty when inspected. No Git repository, source PDF, `literature_candidates.md`, dataset files, or existing experiments were present.
 - The previous conversation was subsequently supplied as text in this chat. It is a lead source, not verified evidence. The referenced `ijcatr15081004 (1).pdf` itself is still unavailable.
 - No SWaT/WADI files were found **within this workspace**. No external dataset path or access authorization has been confirmed; no whole-computer search was performed.
-- **Correction, 2026-10-16:** the researcher reports having a COMSATS Sahiwal student university email, superseding the earlier statement of no affiliation/email. The exact address and dataset access are unverified. The [iTrust request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) requires a university/organisation email and shows no faculty-only requirement or student ban, so the standard request route is now plausible; provider approval remains pending and no request or inquiry has been submitted. See the [access checklist](docs/DATASET_ACCESS_CHECKLIST.md).
+- **Earlier correction, 2026-10-16:** the researcher reported having a COMSATS Sahiwal student university email, superseding the earlier statement of no affiliation/email. At that audit stage, the exact address and dataset access were unverified and no request or inquiry had been submitted. The [iTrust request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) required a university/organisation email and showed no faculty-only requirement or student ban. The later private address supply and authorized submission are recorded above; approval remains pending. See the [access checklist](docs/DATASET_ACCESS_CHECKLIST.md).
 - Local hardware: Apple M5 Pro, 18 CPU cores, 24 GB memory, 20-core Metal GPU, approximately 49 GiB free disk space at inspection. CUDA is not available through this local hardware; PyTorch/MPS compatibility has not been tested.
-- Candidate evidence and implementation limitations are recorded separately. No dataset contents were downloaded or uploaded; no access request or author message was sent.
+- Candidate evidence and implementation limitations were recorded separately. During the initial audit, no dataset contents were downloaded or uploaded, and no access request or author message was sent.
 
 ## Deliverables and next decision
 

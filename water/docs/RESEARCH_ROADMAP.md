@@ -22,6 +22,8 @@ Use this file for the order of work. Use [REPRODUCTION_PLAN.md](REPRODUCTION_PLA
 
 **Verification update:** read the [audit verdict](BASELINE_VERIFICATION_REPORT.md) before using those packs. Files passed integrity checks, while source code, figures, formulas and references contain material issues. The twin papers remain critical-reading material, not trusted numerical comparators. Researcher reading and runtime verification are still incomplete.
 
+**Deep-study and request update, 2026-10-16:** the assistant completed the [paper study guide](PAPER_STUDY_GUIDE.md), three method-to-code walkthroughs and [mechanism comparison](MECHANISM_COMPARISON.md). Researcher reading/understanding remains unconfirmed in [the reading record](../papers/notes/READING_RECORD.md). The [official SWaT/WADI request](DATASET_REQUEST_PREPARATION.md) was submitted once with explicit consent and website confirmation. Email delivery, approval and downloads remain unverified. These updates supersede the earlier preparation-only status; they do not complete the human-reading or experimental stages.
+
 Checkboxes are task status, not promises. Tick an item only after its output exists and its check passes; cite the evidence in the work log. **U** = researcher action/decision; **A** = assistant work within the authorized task; **B** = both. The next session should address a small set of IDs, not run this entire document automatically. All proposed file paths below resolve from `water/`; a path in backticks may not exist yet.
 
 ### Current position
@@ -31,6 +33,8 @@ Checkboxes are task status, not promises. Tick an item only after its output exi
 - [x] Private workspace repository and shared work-log procedure established.
 - [x] This detailed roadmap written; that does not complete its future steps.
 - [x] Three baseline resource packs collected, hashed and inspected; missing public code/results recorded.
+- [x] Assistant source study, method-to-code guides, protocol-gap audit and cross-paper mechanism comparison prepared.
+- [x] Official SWaT/WADI form submitted once with explicit user consent; safe website receipt summary recorded.
 - [ ] Authorized SWaT and WADI files received and identified.
 - [ ] Human reading of core papers recorded by the researcher; no reading is assumed on your behalf.
 - [ ] Environment, loaders, evaluator, baseline and meaningful software tests implemented.
@@ -83,13 +87,13 @@ Quick vocabulary: a **score** measures suspiciousness; a **threshold** converts 
 
 **Output:** updated access checklist plus private request/access record in `local/`. **Done when:** the requester and each data user are covered by the relevant permission and an authorized acquisition source is identified. Local receipt and release verification belong to Stage 3. Submission alone does not complete this stage.
 
-**Current task, 16 October 2026:** [application preparation](DATASET_REQUEST_PREPARATION.md) is complete for the available identity fields and SWaT/WADI selections. The exact university email, prior-request status and agreement/consent remain pending; no form submission or dataset receipt is claimed. The user explicitly authorized working on Stage 1; unfinished learning tasks do not block this independent access work.
+**Current status, 16 October 2026:** the [official request](DATASET_REQUEST_PREPARATION.md) was submitted once after the university email was supplied and the user explicitly accepted terms/privacy consent. Website success was observed; a private record and safe summary exist. The user's earlier-request status remains unknown, but the current authorized submission is confirmed. Do not submit another request merely because approval is pending. Email delivery, provider approval and dataset receipt are separate unresolved steps; Stage 1 is not complete.
 
 - [ ] **W1.01 · U:** Confirm privately that your own COMSATS Sahiwal student email works and you can receive messages. Do not put the address or login credentials in the repository.
-- [ ] **W1.02 · B:** Open the [official request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) and read the current [terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/).
-- [ ] **W1.03 · U:** Enter your correct name, full institution name, university email, organization category, region and request date; select SWaT and WADI. Review the privacy/consent statements yourself.
-- [ ] **W1.04 · U:** Submit the request yourself, or explicitly authorize the assistant to submit the reviewed form. No submission has occurred in this roadmap session.
-- [ ] **W1.05 · B:** Record the request date and requested datasets privately. Record only a safe status summary in the tracked checklist.
+- [x] **W1.02 · B:** Open the [official request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) and inspect the current [terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/). Current form/terms were checked; subsequent user agreement is recorded in the [request summary](DATASET_REQUEST_PREPARATION.md).
+- [x] **W1.03 · B:** Enter the supplied identity/institution/email, category, region and date; select SWaT and WADI. Fields were read back, and explicit terms/privacy consent was received before checking the consent boxes. Personal values remain private; this does not establish inbox delivery or provider acceptance.
+- [x] **W1.04 · U/A:** Obtain explicit user authorization and submit the reviewed form. The assistant clicked Submit once; website success was observed. No second submission is needed now.
+- [x] **W1.05 · B:** Record request date, requested datasets and receipt observation privately; retain the [safe status summary](DATASET_REQUEST_PREPARATION.md). No request identifier or download link was displayed.
 - [ ] **W1.06 · U:** Monitor inbox/spam for the provider's response. Record approval, denial, missing information or no response accurately; do not equate silence with approval.
 - [ ] **W1.07 · B:** If follow-up is necessary, prepare accurate questions about access/releases. Sending an inquiry is a separate authorized action; do not invent a supervisor or affiliation.
 - [ ] **W1.08 · B:** Check who may use the files and which storage/compute locations are permitted. A private GitHub repository does not permit uploading restricted datasets.
@@ -103,24 +107,26 @@ The form and terms were re-opened on 2026-10-16: it requests a university/organi
 
 **Output:** bibliographic records, versioned source notes, a paper-to-code checklist and an updated evidence table. **Done when:** the selected method can be explained and its unresolved reproduction details are explicit. No arbitrary paper count is required.
 
+**Assistant study completed:** [the Stage 2 guide](PAPER_STUDY_GUIDE.md) links the detailed [CAROTS](../baselines/carots/METHOD_TO_CODE.md), [IT-DT](../baselines/it_dt/METHOD_TO_CODE.md) and [ensemble](../baselines/dt_ensemble/METHOD_TO_CODE.md) walkthroughs. Only CAROTS has matched author functions to trace. The other guides identify conceptual implementation contracts and missing details. Human tasks remain open until the researcher supplies their own reading scope and explanations in [READING_RECORD.md](../papers/notes/READING_RECORD.md).
+
 - [x] **W2.01 · A:** Inspect CAROTS proceedings, full manuscript and author repository; retain pinned revision. Evidence: [CAROTS pack](../baselines/carots/README.md).
 - [x] **W2.02 · A:** Obtain the three open full texts. Per the user's folder request, files are stored under ignored `baselines/<method>/artifacts/papers/`; no earlier-chat attachment was assumed to transfer.
 - [x] **W2.03 · A:** Record title/authors/dates/identifier/version in each pack and source URLs, acquisition times and hashes in the [resource manifest](../baselines/RESOURCE_MANIFEST.json).
 - [x] **W2.04 · A:** Create primary-metadata `CITATION.bib` in each baseline folder, replacing the proposed single `papers/references.bib` location for these three papers. Author bibliographies remain separate, not fully verified citation records.
 - [ ] **W2.05 · U:** First reading pass: abstract, main diagram, introduction, conclusion and limitations. Write the problem, inputs, output and claimed contribution in your own words.
 - [ ] **W2.06 · U:** Second pass: dataset section, preprocessing, method, loss/objective, evaluation and ablations. Mark equations and experimental choices you cannot explain yet.
-- [ ] **W2.07 · B:** Third pass for the first implementation: map each algorithm step to a code file/function or mark it unresolved. Record page/section/table and commit permalink.
+- [ ] **W2.07 · B:** Third pass for the first implementation: map each algorithm step to a code file/function or mark it unresolved. Assistant mapping with paper/source anchors exists in [CAROTS METHOD_TO_CODE.md](../baselines/carots/METHOD_TO_CODE.md); researcher review/explanation remains pending.
 - [x] **W2.08 · A:** Separate authors' reported results from our observations in each pack's `PUBLISHED_RESULTS.md`. No measured-results table exists here.
-- [ ] **W2.09 · A:** Check normal/attack file names, downsampling, feature exclusions, time windows, validation, threshold, checkpoint selection, score fusion, metric definitions and test-label use.
-- [ ] **W2.10 · B:** Read IT-DT next as the provisional model-based twin candidate; list every missing identification, filtering, residual and calibration detail. No verified author code currently means a future implementation would be ours.
-- [ ] **W2.11 · B:** Read the ensemble paper specifically for state assimilation, alarm gating, model-update admission and threshold adaptation. Keep these four operations distinct.
+- [x] **W2.09 · A:** Audit file names, downsampling, exclusions, windows, validation, thresholds, checkpoints, fusion, metrics and test-label use against the available paper/code. Each [method guide](PAPER_STUDY_GUIDE.md) contains the audit and unresolved fields. This completes an assistant source/protocol-gap audit, not validation of absent data or execution.
+- [ ] **W2.10 · B:** Read IT-DT next as the provisional model-based twin candidate. The assistant's [study](../baselines/it_dt/METHOD_TO_CODE.md) records identification, filtering, residual and calibration gaps; researcher reading/explanation remains pending. No verified author code means a future implementation would be ours.
+- [ ] **W2.11 · B:** Read the ensemble for state assimilation, alarm gating, model-update admission and threshold adaptation. The assistant's [study](../baselines/dt_ensemble/METHOD_TO_CODE.md) separates those operations and documents algorithm order; researcher reading/explanation remains pending.
 - [ ] **W2.12 · A:** Continue CDT/DPDGAD full-text/code verification only as needed for comparator selection; record inaccessible material without filling gaps by guesswork.
 - [ ] **W2.13 · A:** Create a dated search log for closest adaptive/gated twin methods, including queries, searched sources, reasons for inclusion/exclusion and unresolved leads. Refresh it before final novelty claims.
-- [ ] **W2.14 · B:** Create a mechanism comparison: what changes online, who declares data clean, what trusted signal is available, what contamination is tested, and what limits are acknowledged.
-- [ ] **W2.15 · U:** Record which sections you actually read and your questions. AI extraction or assistant review must not become a human-read declaration.
+- [x] **W2.14 · A — comparison artifact:** Created [MECHANISM_COMPARISON.md](MECHANISM_COMPARISON.md): online changes, clean-data admission, trusted information, contamination evidence and limits. This checks only assistant artifact preparation; joint interpretation and researcher understanding remain pending.
+- [ ] **W2.15 · U:** Record actual sections read and questions in [the reading record](../papers/notes/READING_RECORD.md). AI extraction or assistant review must not become a human-read declaration.
 - [ ] **W2.16 · B:** Keep background/older work and unreviewed preprints separate from recent main comparisons. Preserve the agreed main-paper window, 2023-10-16 through 2026-10-16, unless explicitly revised later.
 
-The CAROTS proceedings and repository were re-opened for this roadmap; other paper-specific findings refer to the existing [audit](LITERATURE_EVIDENCE.md), not a new full-paper verification during this session. The first non-twin baseline remains CAROTS full plus CAROTS-dagger, conditionally; no variant is selected because it is easier to beat.
+The initial roadmap drew on the existing [audit](LITERATURE_EVIDENCE.md); the subsequent [deep-study pass](PAPER_STUDY_GUIDE.md) read the collected full methods and mapped the pinned CAROTS code. It found CPA noise outside the subsequent forecast input and SOC pair-versus-anchor averaging differences; runtime effects have not been measured. Preserve source files and record proposed corrections separately. The first non-twin baseline remains CAROTS full plus CAROTS-dagger, conditionally; no variant is selected because it is easier to beat.
 
 ## 3. Receive, identify and preserve the exact dataset files
 
@@ -347,7 +353,7 @@ These are bounded work packages, not five days or automatic authorizations.
 | D | W3 if files arrive; otherwise finish W2/code audit | Verified release inventory, or an explicit unresolved access status; no invented data properties |
 | E | W4–W5 decisions, then scoped W6–W7 implementation only when requested | A concrete evaluation specification and next software task; no automatic training |
 
-**Our immediate next action:** begin the [CAROTS reading pack](../baselines/carots/README.md), using the collected paper/figures/code to explain its inputs, causal graph, augmentations and two scores. The resource-acquisition task is recorded in WATER-007; it did not complete researcher reading or model execution. Resolve permitted SWaT/WADI receipt independently, and keep the fixed/adaptive twin candidates conditional.
+**Our immediate next action:** use the [completed assistant study guide](PAPER_STUDY_GUIDE.md) and [CAROTS code map](../baselines/carots/METHOD_TO_CODE.md) to develop a researcher-owned explanation, then prepare a bounded correction/deviation specification covering augmentation/loss semantics, data alignment, calibration and checkpoint selection. Record reading in [READING_RECORD.md](../papers/notes/READING_RECORD.md). The official dataset request is submitted; await the provider response and verify authorized receipt separately. The resource-acquisition history in WATER-007 and later study artifacts do not complete researcher reading or model execution. Both twin candidates remain on numerical hold.
 
 ## Decisions we will ask for when the evidence is ready
 

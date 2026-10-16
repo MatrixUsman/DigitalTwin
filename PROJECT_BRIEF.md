@@ -26,7 +26,7 @@ Shared items are workflow instructions, the read-only skill package, machine inf
 
 ## Current state and order
 
-- Water: evidence documents and alternative-source searches exist; no benchmark files or access approval have been confirmed. The owner reports a COMSATS Sahiwal student email. No access request has been submitted by the assistant.
+- Water: evidence documents and alternative-source searches exist; no benchmark files or access approval have been confirmed. After the owner supplied the university email and explicitly accepted the terms/privacy consent, the assistant submitted the official SWaT/WADI request and observed website confirmation. The post-submission clock check was **2026-10-16 16:15:51 UTC**; the form retained its default **17 October 2026** Singapore date. These are submission records, not approval or dataset receipt. Exact personal details remain in ignored local storage. [Request summary](water/docs/DATASET_REQUEST_PREPARATION.md)
 - Manufacturing and smart grids: initial scoping records are provided; full paper/code/release audits remain pending.
 - All three: no reproduced baselines, benchmark scores, training runs, or final contribution claims.
 - Shared compute: the earlier audit found an Apple M5 Pro with 24 GB unified memory and no CUDA device. Disk availability and runtime compatibility need rechecking before downloads/runs. [Historical audit](docs/WORKSPACE_AUDIT.md)

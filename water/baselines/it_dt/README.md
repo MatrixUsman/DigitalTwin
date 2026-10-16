@@ -8,6 +8,8 @@ Collected for the water project on **16 October 2026**. This is a collection of 
 
 ## Start reading
 
+The assistant's [method and implementation-requirements study](METHOD_TO_CODE.md) explains identification, Kalman estimation, residual distributions, KL scoring and fixed calibration. It maps equations to required inputs/state/outputs, not invented author functions. Use it with the [three-paper study guide](../../docs/PAPER_STUDY_GUIDE.md) and [mechanism comparison](../../docs/MECHANISM_COMPARISON.md), then record your own reading/questions in [the researcher record](../../papers/notes/READING_RECORD.md). Assistant reading is complete; researcher reading and understanding are unconfirmed.
+
 1. Read the [PDF](artifacts/papers/IT_DT_arxiv_2603.01621v1.pdf), starting with Sections III–IV and Algorithm 1. Identify the control inputs, observed measurements, estimated state, innovation residual and detection score.
 2. Use the [HTML manuscript](artifacts/papers/IT_DT_arxiv_2603.01621v1.html) to navigate equations and references. Locally saved HTML may retain online asset links; the PDF is the complete offline reading copy.
 3. Read [DATASETS.md](DATASETS.md) and [EXPERIMENTS.md](EXPERIMENTS.md) before treating the method as reproducible. Distinguish Kalman state correction from parameter learning and threshold updates.
@@ -35,4 +37,4 @@ The article is **CC BY-SA 4.0** ([license](https://creativecommons.org/licenses/
 
 No matched author detector implementation, executable configuration, dependency lock, fitted system matrices, checkpoints, aligned scores, run logs or figure-generation scripts were verified. Exact-title/arXiv searches and a bounded check of the corresponding author's public repositories did not resolve these gaps. A TeX source archive is not experimental source code.
 
-Raw SWaT/WADI files and access approval have not been received. Exact release identity and protocol ambiguities remain unresolved. Any later implementation written from this manuscript must be identified as **our reimplementation**, with assumptions and deviations recorded. This remains a learning paper and conditional model-based comparator, not an execution-ready baseline. See the [detailed audit](../../docs/literature/CAROTS_AND_INFORMATION_THEORETIC.md).
+The [official SWaT/WADI request](../../docs/DATASET_REQUEST_PREPARATION.md) was submitted with explicit consent and website confirmation; email delivery, approval and raw-file receipt remain unverified. Exact release identity and protocol ambiguities remain unresolved. Any later implementation written from this manuscript must be identified as **our reimplementation**, with assumptions and deviations recorded. This remains a learning paper and conditional model-based comparator, not an execution-ready baseline. See the [detailed audit](../../docs/literature/CAROTS_AND_INFORMATION_THEORETIC.md).

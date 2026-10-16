@@ -70,3 +70,9 @@ Record type: contemporaneous. The user's water-baseline verification request led
 ### 2026-10-16 — SHARED-010 — Reusable beginner teaching sequence
 
 Record type: contemporaneous. Added a shared-playbook procedure for teaching the process-to-alarm flow with labelled synthetic examples, data isolation, comparison roles and a researcher-owned comprehension check. Water's Step 0 lesson is the prepared example; its learning outcome remains unassessed. Future manufacturing/grid lessons must substitute verified sector assumptions and retain independent status. See [WATER-009](../water/docs/WORK_LOG.md). No sibling-project, installed-skill or experiment files changed.
+
+### 2026-10-16 — SHARED-011 — Reusable method study and access-submission records
+
+Record type: contemporaneous. Water's deep paper study produced source-to-function mappings for available author code and explicitly conceptual implementation requirements where code is missing. Added the procedure to the [shared playbook](RESEARCH_PLAYBOOK.md), together with separate state/parameter/reference/alarm analysis and scoped human-reading records. Water's new static discrepancies are not measured failures and are not findings about the other sectors. See WATER-012 in the [water log](../water/docs/WORK_LOG.md).
+
+The user also supplied the missing university address and explicit terms/privacy consent. The official SWaT/WADI form was submitted once with website confirmation; safe portfolio status was updated. Approval, email delivery and data receipt remain unverified. The playbook records submission-versus-approval and private-receipt handling; WATER-011 contains the bounded evidence. No private address is stored in tracked documents. Manufacturing/grid contexts, installed skills and GitHub contents remain unchanged. No scientific implementation, model run, paid compute, commit or push occurred.

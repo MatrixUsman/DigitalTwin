@@ -2,7 +2,7 @@
 
 Checked **16 October 2026**. The user explicitly reports **no iTrust approval received**. No raw SWaT or WADI files were downloaded, and no model was run. The search did find public mirrors; the unresolved issue is whether they provide the permitted, identical releases needed for a defensible comparison.
 
-**Latest access task:** the [official request draft](../docs/DATASET_REQUEST_PREPARATION.md) is prepared in Safari with SWaT and WADI selected. It remains unsubmitted pending the exact university email, prior-request status and required agreement/consent confirmation. Fresh inventory confirms no local data. A renewed bounded search, including the implementation repository linked by iTrust, found no stronger authorized public download route. Earlier size/hash entries below remain remote metadata.
+**Latest access task:** the [official request](../docs/DATASET_REQUEST_PREPARATION.md) was submitted in Safari after the user supplied the university email and agreement/consent. Website confirmation was observed by the post-submission clock check at **2026-10-16 16:15:51 UTC**, not an exact server timestamp. The form's default **17 October 2026** date was preserved, matching Singapore's date at submission. Approval and download access remain pending; no request identifier or download link was displayed. There is no local benchmark data. A renewed bounded search, including the implementation repository linked by iTrust, found no stronger authorized public download route. Earlier size/hash entries below remain remote metadata.
 
 ## Best matching public listings found
 
@@ -30,9 +30,9 @@ Additional processed-array, reduced-subset and incomplete mirrors are recorded i
 
 ## Why no mirror download was promoted to our dataset
 
-The provider's [terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/) prohibit recipient sharing and direct additional users to request access. Public visibility and a matching filename do not resolve that condition or establish release identity. Following the project's data rules, only mirror metadata was collected. The assistant did not submit a request or contact anyone.
+The provider's [terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/) prohibit recipient sharing and direct additional users to request access. Public visibility and a matching filename do not resolve that condition or establish release identity. Following the project's data rules, only mirror metadata was collected. During that earlier collection task, the assistant did not submit a request or contact anyone. The later explicitly authorized official submission is recorded above; it does not establish permission to use a mirror.
 
-The supported route is the [official request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) using the researcher's own university email. The current form requires a university/organisation email and excludes personal addresses; it does not state a faculty-only restriction. The user's reported COMSATS Sahiwal student address is a plausible application route, not approval.
+The supported route is the [official request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) using the researcher's own university email. That route has now been used with the user's supplied COMSATS Sahiwal student address and explicit consent. The form requires a university/organisation email and excludes personal addresses; it does not state a faculty-only restriction. Website confirmation establishes submission, not mailbox delivery, approval or exact-release access. Await the provider response rather than submitting a duplicate.
 
 ## Release matching is still conditional
 

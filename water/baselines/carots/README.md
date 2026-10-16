@@ -8,6 +8,10 @@ The [verification report](VERIFICATION_REPORT.md) confirms paper/repository iden
 
 ## Start here
 
+The assistant's [detailed method-to-code study](METHOD_TO_CODE.md) now maps the paper to pinned author files/functions, tensor flow, training, scoring and protocol choices. Read it with the [three-paper study guide](../../docs/PAPER_STUDY_GUIDE.md) and [mechanism comparison](../../docs/MECHANISM_COMPARISON.md). Record your actual sections read and questions in [the researcher reading record](../../papers/notes/READING_RECORD.md); assistant completion does not attest your reading or understanding.
+
+New static discrepancies include CPA noise outside the subsequent forecast input and SOC averaging over all eligible pairs rather than within anchors first. Their effects on execution or performance have not been measured. Resolve them in a declared correction/deviation specification before implementing changes or training.
+
 1. Read the [published paper](artifacts/papers/CAROTS_ICML2025.pdf), beginning with Figure 1 and Sections 3–5. Explain the causal discoverer, the two augmentors, the encoder and the anomaly scores in your own words.
 2. Read [datasets and release questions](DATASETS.md), then [original experiments and required changes](EXPERIMENTS.md).
 3. Consult the [published-results guide](PUBLISHED_RESULTS.md). Keep the authors' reported measurements separate from our future runs.
@@ -25,7 +29,7 @@ CAROTS is our conditional first reproduction candidate and a non-twin comparison
 | `artifacts/upstream_results/` | 16 author artifacts for SWaT/WADI: CUTS+ graphs, plots, validation logs and causal-discoverer checkpoints. These are not final CAROTS detector weights or our results. |
 | `artifacts/metadata/` | Publisher/conference records, repository tree and issue snapshots. Issue reports are leads, not reproduced defects. |
 
-The snapshot deliberately excludes the upstream top-level `data/` and `results/` trees; only the separately identified SWaT/WADI result artifacts were retained. Unrelated SMAP/MSL/SMD datasets were not collected. See the [resource manifest](../RESOURCE_MANIFEST.json) for exact URLs, byte counts, hashes and acquisition outcomes. No SWaT/WADI dataset files or provider approval have been received; see the [shared acquisition status](../DATASET_ACQUISITION_STATUS.md).
+The snapshot deliberately excludes the upstream top-level `data/` and `results/` trees; only the separately identified SWaT/WADI result artifacts were retained. Unrelated SMAP/MSL/SMD datasets were not collected. See the [resource manifest](../RESOURCE_MANIFEST.json) for exact URLs, byte counts, hashes and acquisition outcomes. The [official dataset request](../../docs/DATASET_REQUEST_PREPARATION.md) has website submission confirmation after explicit consent; email delivery, approval and raw-file receipt remain unverified. See the [shared acquisition status](../DATASET_ACQUISITION_STATUS.md).
 
 ## Rights and remaining gaps
 
