@@ -13,6 +13,8 @@ Stage: **literature/data audit; implementation not started**
 - Shared machine and skill setup remain documented at root; local folders define separate future storage.
 - [Detailed water roadmap](docs/RESEARCH_ROADMAP.md) created using the research skill's planning guidance, with numbered tasks through submission. Final-test scoring now explicitly follows development of all compared methods; no experiment stage is complete.
 - [Baseline-selection criteria](docs/BASELINE_SELECTION_CRITERIA.md) documented under the user's latest literature-first direction. CAROTS, IT-DT and the ensemble are a provisional learning set; no three-method experimental shortlist is approved. Three additional leads were screened with unresolved/exclusion reasons recorded.
+- Expanded search and [three-paper study selection](docs/BASELINE_SELECTION_REPORT.md) completed. Retained CAROTS → IT-DT → ensemble for complementary learning roles after checking additional twin, contamination and robustness candidates. RoCA is priority contamination prior art; ISTFAD is the priority inaccessible twin follow-up. [Search, exclusions and new evidence](docs/literature/EXPANDED_SEARCH_2026-10-16.md)
+- Published CAROTS and CCM-TAD PDFs were retrieved and inspected in memory, with hashes recorded; their repositories were pinned for static audit. CAROTS paper/code clipping discrepancy was verified. No paper files were saved in the local collection and no code was run.
 
 ## Not completed / blockers
 
@@ -20,11 +22,12 @@ Stage: **literature/data audit; implementation not started**
 - No local full-text paper collection has been downloaded; public manuscripts were read online for the audit.
 - No project environment, dependency lock, loader, test implementation, baseline checkout, model execution, or benchmark score exists.
 - CAROTS test-based threshold and separate max-F1 reporting need a declared protocol change. Label alignment, raw-folder writes, preprocessing, and CPU/MPS portability need validation.
+- CAROTS published gradient clipping is 1.0 versus code default 0.5; resolve the intended configuration before a pilot. The repository's 51/49-channel issue is a user report requiring schema checks, not a reproduced failure here.
 - Trust-gating novelty is unestablished; alarm gating in prior work must be distinguished from protecting model updates. Legitimate process-change evidence is unresolved.
 
 ## Next bounded task
 
-Latest user priority: select three recent, same-dataset papers to learn before implementation. Apply [the admission criteria](docs/BASELINE_SELECTION_CRITERIA.md), complete the candidate evidence cards and start structured CAROTS reading; then study the fixed-twin and closest adaptive-twin roles. The current learning set is provisional, and code/protocol gaps prevent final experimental admission. Dataset-access preparation can proceed independently using roadmap W1, with explicit authorization for assistant submission. Keep final attack outcomes closed throughout baseline and proposed-method development.
+Begin the [structured CAROTS reading sequence](docs/BASELINE_SELECTION_REPORT.md): researcher-owned explanation of the model and both variants, followed by a proposed reproduction/deviation specification. Then study IT-DT and the ensemble, with RoCA/context/shift work included before any novelty claim. The learning selection is complete for this bounded search; three experimental baselines are **not** admitted. Dataset-access preparation can proceed independently using roadmap W1, with explicit authorization for assistant submission. Keep final attack outcomes closed throughout baseline and proposed-method development.
 
 ## Run and manuscript state
 

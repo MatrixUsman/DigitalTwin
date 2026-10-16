@@ -16,6 +16,8 @@ Use this file for the order of work. Use [REPRODUCTION_PLAN.md](REPRODUCTION_PLA
 
 **Priority update, 2026-10-16:** the user wants to select three recent papers on the shared dataset pair for learning first. Start with [BASELINE_SELECTION_CRITERIA.md](BASELINE_SELECTION_CRITERIA.md) and Stage 2; access preparation may proceed in parallel. This changes the next work package, not the data/evaluation prerequisites for later experiments.
 
+**Selection outcome:** the [expanded search report and reading sequence](BASELINE_SELECTION_REPORT.md) retain CAROTS, IT-DT and the ensemble for initial study. Start the researcher-owned CAROTS explanation next. No human-reading, implementation or experimental-admission checkbox is complete merely because the assistant performed this source audit.
+
 Checkboxes are task status, not promises. Tick an item only after its output exists and its check passes; cite the evidence in the work log. **U** = researcher action/decision; **A** = assistant work within the authorized task; **B** = both. The next session should address a small set of IDs, not run this entire document automatically. All proposed file paths below resolve from `water/`; a path in backticks may not exist yet.
 
 ### Current position

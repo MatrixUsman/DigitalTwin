@@ -54,3 +54,7 @@ Record type: contemporaneous. The user explicitly requested remembering these pr
 - Attempted a narrow official USCIS source check; both direct official pages returned 403. No legal criteria or eligibility conclusions were added, and lookalike search-result domains were not relied upon.
 - No research results, title selection, venue selection, authorship change, data acquisition, model run, external communication, commit or push occurred. The shared skill package remains unchanged.
 - Next: resume the water project's baseline-selection and structured-reading task; use the same publication/writing standards when the manufacturing and grid audits start.
+
+### 2026-10-16 — SHARED-007 — Reusable source-audit record
+
+Record type: contemporaneous. Water's expanded baseline search demonstrated public proceedings retrieval in memory after browser failures, with document hashes and pinned code metadata. Added a shared-playbook lesson to preserve queries, exclusions, access corrections and the distinction between author claims, observed code, third-party issue reports and our inferences. [WATER-006](../water/docs/WORK_LOG.md) and its linked evidence contain the actual commands/outcomes. This is a reusable audit procedure, not a completed literature or reproduction stage for manufacturing/grids. No sibling-project files, installed skills, experimental state or GitHub contents changed.

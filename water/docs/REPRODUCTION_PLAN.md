@@ -17,10 +17,13 @@ This is conditional, not a claim that the repository runs on this machine. Resol
 3. Hardcoded CUDA paths on the available Apple hardware. CPU first for correctness; MPS only after compatibility/determinism checks. Remote or paid compute is not authorized.
 4. Test-label threshold optimization **and** the separate oracle-best-F1 reporting path. Disable both; calibration and report generation must use the frozen project protocol.
 5. Potential SWaT first-row alignment issue, writes into input directories, downsampling/label aggregation, and gap handling. Static concerns are not yet confirmed runtime defects.
+6. Published Appendix B specifies gradient clipping 1.0, while pinned code defaults to 0.5. Resolve and predeclare the intended setting without test-based selection. The 51/49-feature repository issue remains an unconfirmed user report. See the [expanded pinned-code audit](literature/EXPANDED_SEARCH_2026-10-16.md).
 
 Call the resulting work **author-code CAROTS under a modified evaluation protocol**, with an explicit deviation ledger. Published best-F1 values are reference claims, not targets we may reach by tuning on the test set. If faithful reported-score reproduction requires violating the held-out-label rule, do not perform that part.
 
 IT-DT is a later compact twin-method candidate, currently a preprint without verified author code or complete protocol. A manuscript-based implementation would be **our reimplementation**. CDT and the ensemble need matched code and clarification; DPDGAD needs accessible full text and code evidence. Do not make the first milestone depend on these unresolved artifacts.
+
+The [current learning selection](BASELINE_SELECTION_REPORT.md) retains CAROTS, IT-DT and the ensemble. New contamination/context/shift references inform question refinement, but do not expand this proposed implementation scope or authorize additional runs.
 
 ## 2. Minimal structure to create in the next phase
 

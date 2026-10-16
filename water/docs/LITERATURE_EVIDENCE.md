@@ -1,6 +1,6 @@
 # Literature evidence and baseline admission table
 
-Audit date: **16 October 2026 (Asia/Karachi)**. Inclusion window: **16 October 2023–16 October 2026**, inclusive. Prefer 2024–2026. This is a targeted audit of supplied leads plus one reserve candidate, not an exhaustive systematic review.
+Audit date: **16 October 2026 (Asia/Karachi)**. Inclusion window: **16 October 2023–16 October 2026**, inclusive. Prefer 2024–2026. This is a targeted audit of supplied leads and additional searches, not an exhaustive systematic review.
 
 The workspace initially had no notes or `literature_candidates.md`; the user subsequently pasted the earlier conversation. [Candidate register](literature_candidates.md) records those leads. No paper's numerical results were reproduced. “Both datasets” below means a primary source reports SWaT and WADI; it does **not** establish common releases, comparable metrics, or our dataset access.
 
@@ -9,6 +9,8 @@ Evidence labels: **verified** = observed directly in the linked primary source; 
 A subsequent [ARS fact-check](RESEARCH_READINESS_REVIEW.md) rechecked CAROTS threshold/reporting versus checkpoint selection, distinguished ensemble alarm gating from update admission, and reconfirmed that release equivalence and local dataset access remain unresolved.
 
 The later [baseline-selection criteria and learning shortlist](BASELINE_SELECTION_CRITERIA.md) distinguish reading priorities from execution-ready comparators. That record also contains a bounded new-lead screen: CCM-TAD is a recent reserve with test-guided selection concerns, CATCH does not meet the published-both-datasets rule, and SensitiveHUE needs primary full-text verification. None is admitted to execution.
+
+The subsequent [selection report](BASELINE_SELECTION_REPORT.md) retains CAROTS, IT-DT and the ensemble for structured study after a broader search. [Expanded evidence](literature/EXPANDED_SEARCH_2026-10-16.md) adds RoCA, WRADMts, NPSR, ECNU-GNN, SCDT, ISTFAD, i-SDT, invariant/shift background and explicit exclusions. It also supersedes earlier browser-only PDF access limits for the CAROTS/CCM-TAD published passages checked and records pinned-code findings. RoCA's claimed journal version remains incompletely verified; none of the new records is an execution approval.
 
 ## Main candidate papers: bibliographic evidence
 

@@ -6,7 +6,7 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 
 For the beginner-friendly sequence, follow the **[detailed water research roadmap](docs/RESEARCH_ROADMAP.md)**. It includes numbered small tasks, responsibilities, dependencies, artifacts, completion checks and the first five work sessions.
 
-Current priority: **[select three learning/baseline candidates using explicit criteria](docs/BASELINE_SELECTION_CRITERIA.md)**. Learning priorities and experimental admission are separate; no three-method comparison is finalized.
+Current priority: **[study the three selected learning papers](docs/BASELINE_SELECTION_REPORT.md)**: CAROTS → IT-DT → the ensemble. The expanded search applied the [selection criteria](docs/BASELINE_SELECTION_CRITERIA.md); learning priorities and experimental admission remain separate, and no three-method numerical comparison is finalized.
 
 | Location | Purpose |
 |---|---|

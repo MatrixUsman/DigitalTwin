@@ -53,7 +53,9 @@ This is a recommended coverage pattern for the current question, not a rigid rul
 
 Methods share source releases, eligible information, development/test isolation and metric definitions. They need not have identical architectures, optimal hyperparameters or all internal transforms. Preserve justified method-specific processing, give comparable tuning opportunities, and record any extra physical information or supervision.
 
-## Provisional three-paper learning set
+## Initial three-paper learning set
+
+The subsequent [expanded search and selection report](BASELINE_SELECTION_REPORT.md) retained these three for structured study and added new reserve/prior-art findings. Use that report for the current reading sequence; this document defines the admission rules. Selection for study does not establish experimental readiness.
 
 These are recommended **for learning and targeted audit**, not declared the three best models or an execution-ready set.
 
