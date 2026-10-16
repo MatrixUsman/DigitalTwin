@@ -28,3 +28,7 @@ See [the brief](PROJECT_BRIEF.md), [literature](docs/LITERATURE_EVIDENCE.md), [a
 ## Persistent work history
 
 Read [docs/WORK_LOG.md](docs/WORK_LOG.md) for the dated history and [the shared playbook](../docs/RESEARCH_PLAYBOOK.md) for reusable steps. After each substantive session, append actual work to the log and refresh this status; keep proposed steps separate from completed checks and experiments.
+
+## Confirmed portfolio preferences
+
+The [shared publication, writing and title standards](../docs/PUBLICATION_STANDARDS.md) now apply here. They guide future research and presentation; no title, venue, authorship or experimental claim was finalized. The current technical stage and next research task are unchanged.

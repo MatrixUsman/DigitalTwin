@@ -27,3 +27,7 @@ The distinction between an attack, a fault, and an authorized transition must co
 The [literature register](docs/LITERATURE_EVIDENCE.md) contains a bounded primary-source screen, not a completed systematic review. The [access checklist](docs/DATASET_ACCESS_CHECKLIST.md) and [reproduction plan](docs/REPRODUCTION_PLAN.md) identify prerequisites. No ready common benchmark or first main baseline is established.
 
 The user requested later audits one project at a time: water, then manufacturing, then smart grids. This setup does not initiate manufacturing implementation, data downloads, simulator execution, paid services, training, or publication.
+
+## Shared publication and writing preferences
+
+Apply the confirmed [shared publication standards](../docs/PUBLICATION_STANDARDS.md): aim for leading field-appropriate journals through rigorous distinct research, use natural precise academic prose, and develop distinctive titles grounded in the supported contribution. The user also records intended future EB-2 use; individual authorship, impact and publication claims must remain factual. Existing titles stay provisional, and no publication or immigration outcome is assured.

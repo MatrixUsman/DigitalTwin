@@ -31,3 +31,7 @@ Two recent digital-twin security papers and two data/simulator leads have been s
 Future principal baseline papers should fall within **2023-10-16 through 2026-10-16**, preferably 2024–2026. Older methodological references and dataset descriptions remain background; dataset age is not governed by the paper window. SWaT/WADI are not required for this project. Future grid comparisons must use the same verified releases, scenarios, measurement access, and evaluation rules.
 
 The agreed full-audit sequence is **water → manufacturing → smart grids**. Until the smart-grid stage is authorized, maintain these scoping documents without expanding into implementation or training. See [status](STATUS.md), [access checklist](docs/DATASET_ACCESS_CHECKLIST.md), and [proposed reproduction plan](docs/REPRODUCTION_PLAN.md).
+
+## Shared publication and writing preferences
+
+Apply the confirmed [shared publication standards](../docs/PUBLICATION_STANDARDS.md): aim for leading field-appropriate journals through rigorous distinct research, use natural precise academic prose, and develop distinctive titles grounded in the supported contribution. The user also records intended future EB-2 use; individual authorship, impact and publication claims must remain factual. Existing titles stay provisional, and no publication or immigration outcome is assured.

@@ -4,6 +4,10 @@ Owner: **Muhammad Usman**. Project ID: `water`. Academic digital-twin cybersecur
 
 Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. No trained models or benchmark results exist.
 
+For the beginner-friendly sequence, follow the **[detailed water research roadmap](docs/RESEARCH_ROADMAP.md)**. It includes numbered small tasks, responsibilities, dependencies, artifacts, completion checks and the first five work sessions.
+
+Current priority: **[select three learning/baseline candidates using explicit criteria](docs/BASELINE_SELECTION_CRITERIA.md)**. Learning priorities and experimental admission are separate; no three-method comparison is finalized.
+
 | Location | Purpose |
 |---|---|
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |

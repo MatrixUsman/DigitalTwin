@@ -8,6 +8,8 @@ Evidence labels: **verified** = observed directly in the linked primary source; 
 
 A subsequent [ARS fact-check](RESEARCH_READINESS_REVIEW.md) rechecked CAROTS threshold/reporting versus checkpoint selection, distinguished ensemble alarm gating from update admission, and reconfirmed that release equivalence and local dataset access remain unresolved.
 
+The later [baseline-selection criteria and learning shortlist](BASELINE_SELECTION_CRITERIA.md) distinguish reading priorities from execution-ready comparators. That record also contains a bounded new-lead screen: CCM-TAD is a recent reserve with test-guided selection concerns, CATCH does not meet the published-both-datasets rule, and SensitiveHUE needs primary full-text verification. None is admitted to execution.
+
 ## Main candidate papers: bibliographic evidence
 
 | Candidate / primary record | Publication date and peer review | DOI / identifier | Both datasets? | Decision |

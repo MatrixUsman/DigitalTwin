@@ -47,3 +47,7 @@ The observations below describe the original single-water workspace before the t
 Recommended first executable baseline: **CAROTS (ICML 2025), including its no-ensemble variant**, conditional on data access and resolution of code/protocol issues. An author-code run with a clean calibration threshold will be a **modified-protocol evaluation**, not a reproduction of its reported optimal-test-F1 result. The information-theoretic twin remains a later candidate for an explicitly identified independent implementation.
 
 The next milestone is an authorized, bounded baseline setup: freeze data manifests and evaluation protocol, resolve implementation issues, and pass loader/split/metric tests before training. This audit stops before that milestone. Paid compute, lengthy training, and publishing require approval.
+
+## Shared publication and writing preferences
+
+Apply the confirmed [shared publication standards](../docs/PUBLICATION_STANDARDS.md): aim for leading field-appropriate journals through rigorous distinct research, use natural precise academic prose, and develop distinctive titles grounded in the supported contribution. The user also records intended future EB-2 use; individual authorship, impact and publication claims must remain factual. Existing titles stay provisional, and no publication or immigration outcome is assured.

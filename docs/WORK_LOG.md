@@ -35,3 +35,22 @@ Record type: contemporaneous. The user explicitly authorized creating a private 
 - The first `git commit` attempt failed because configured SSH commit signing required an unavailable key passphrase. No commit was created by that attempt. Use the command-local `-c commit.gpgsign=false` for this initial unsigned snapshot; shared/global signing settings remain unchanged.
 - Initial delivery commands, from the workspace root: `git add --all`, `git diff --cached --check`, `git -c commit.gpgsign=false commit -m 'Initialize independent digital-twin cybersecurity research projects'`, `git remote add origin https://github.com/MatrixUsman/DigitalTwin.git`, and `git push -u origin main`. This record accompanies that initial snapshot; verify delivery using the GitHub branch head and local `git status`, rather than treating a listed command as evidence of success.
 - Scope: one private-repository snapshot; no collaborator invitations, public release, model execution or automatic future publishing. Future sessions continue recording research work locally and push only when authorized.
+
+### 2026-10-16 — SHARED-004 — Reusable final-test sequencing lesson
+
+Record type: contemporaneous. During the water roadmap task, added a shared planning lesson: separate baseline development from final evaluation, and freeze proposed methods before opening held-out outcomes. A later redesign informed by test results is exploratory unless independently confirmed. See [the water work log](../water/docs/WORK_LOG.md) and [detailed roadmap](../water/docs/RESEARCH_ROADMAP.md). This is a protocol-planning correction; no dataset was accessed or model run, and manufacturing/grid project files were not edited. No new GitHub push was performed.
+
+### 2026-10-16 — SHARED-005 — Reusable baseline-selection procedure
+
+Record type: contemporaneous. Added the distinction between learning papers, eligible candidates and execution-ready baselines to the shared playbook, linking water's criteria as an example. Manufacturing and grid comparisons must independently substitute their task, datasets and information assumptions; the three-paper learning recommendation is water-specific. Details and source-screening limits are in [WATER-004](../water/docs/WORK_LOG.md). No experiment, sibling-project mutation or GitHub push occurred.
+
+### 2026-10-16 — SHARED-006 — Publication ambition, writing, titles and career context
+
+Record type: contemporaneous. The user explicitly requested remembering these preferences across all three projects: rigorous research targeting leading journals, future intended EB-2 use, natural prose without a generic AI feel, and exceptionally strong titles.
+
+- Added [PUBLICATION_STANDARDS.md](PUBLICATION_STANDARDS.md), controlling rules in root `AGENTS.md`, and links in the portfolio brief, README, playbook and each project's context. This shared instruction update is explicitly authorized across the three sectors.
+- Recorded journal ambition without acceptance promises; clear author-understood prose with applicable disclosure; distinctive evidence-supported provisional titles; accurate individual contributions and professional evidence without assumptions about petition eligibility or route.
+- Consulted the installed suite's writing-quality reference and a read-only native reviewer for precise wording. No manuscript review, author attestations or scientific validation occurred.
+- Attempted a narrow official USCIS source check; both direct official pages returned 403. No legal criteria or eligibility conclusions were added, and lookalike search-result domains were not relied upon.
+- No research results, title selection, venue selection, authorship change, data acquisition, model run, external communication, commit or push occurred. The shared skill package remains unchanged.
+- Next: resume the water project's baseline-selection and structured-reading task; use the same publication/writing standards when the manufacturing and grid audits start.

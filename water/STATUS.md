@@ -11,6 +11,8 @@ Stage: **literature/data audit; implementation not started**
 - CAROTS and its no-ensemble variant selected as conditional first comparisons. [Evidence](docs/LITERATURE_EVIDENCE.md)
 - Official access requirements and alternative source listings checked. Owner reports a COMSATS Sahiwal student university email; exact account/access not verified. [Access checklist](docs/DATASET_ACCESS_CHECKLIST.md)
 - Shared machine and skill setup remain documented at root; local folders define separate future storage.
+- [Detailed water roadmap](docs/RESEARCH_ROADMAP.md) created using the research skill's planning guidance, with numbered tasks through submission. Final-test scoring now explicitly follows development of all compared methods; no experiment stage is complete.
+- [Baseline-selection criteria](docs/BASELINE_SELECTION_CRITERIA.md) documented under the user's latest literature-first direction. CAROTS, IT-DT and the ensemble are a provisional learning set; no three-method experimental shortlist is approved. Three additional leads were screened with unresolved/exclusion reasons recorded.
 
 ## Not completed / blockers
 
@@ -22,7 +24,7 @@ Stage: **literature/data audit; implementation not started**
 
 ## Next bounded task
 
-Arrange the official SWaT/WADI request using the owner's university identity, with explicit authorization for any assistant submission. Keep source leads separate from granted access. On receipt, identify releases/terms and preserve original files before loading. While waiting, read the audited CAROTS paper and refine the static fidelity checklist; do not tune against attack test labels.
+Latest user priority: select three recent, same-dataset papers to learn before implementation. Apply [the admission criteria](docs/BASELINE_SELECTION_CRITERIA.md), complete the candidate evidence cards and start structured CAROTS reading; then study the fixed-twin and closest adaptive-twin roles. The current learning set is provisional, and code/protocol gaps prevent final experimental admission. Dataset-access preparation can proceed independently using roadmap W1, with explicit authorization for assistant submission. Keep final attack outcomes closed throughout baseline and proposed-method development.
 
 ## Run and manuscript state
 
@@ -35,3 +37,7 @@ Work from `water/`. Read `../AGENTS.md`, `AGENTS.md`, `PROJECT_BRIEF.md`, this f
 ## Persistent work history
 
 Read [docs/WORK_LOG.md](docs/WORK_LOG.md) for the dated history and [the shared playbook](../docs/RESEARCH_PLAYBOOK.md) for reusable steps. After each substantive session, append actual work to the log and refresh this status; keep proposed steps separate from completed checks and experiments.
+
+## Confirmed portfolio preferences
+
+The [shared publication, writing and title standards](../docs/PUBLICATION_STANDARDS.md) now apply here. They guide future research and presentation; no title, venue, authorship or experimental claim was finalized. The current technical stage and next research task are unchanged.

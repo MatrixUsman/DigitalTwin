@@ -17,6 +17,14 @@ Read `README.md` and `PROJECT_BRIEF.md`, then the active project's `AGENTS.md`, 
 - Keep each project's environment, configuration, raw data, derived data, fitted transforms, checkpoints, logs, and manuscript separate. Do not create cross-project dataset symlinks or reusable fitted-model state by default.
 - Ownership is not final authorship. Record actual contributions and author-order decisions separately. Different sectors/titles alone do not establish distinct publishable contributions.
 
+## Publication ambition, writing and titles
+
+- Apply the user's confirmed preferences in `docs/PUBLICATION_STANDARDS.md` to **all three projects**. Aim for leading, credible, field-appropriate peer-reviewed journals through substantive contributions, demanding comparisons, reproducibility and honest limitations. Journal acceptance is an aspiration, not an assured outcome or a reason to inflate claims.
+- Carry the baseline-selection discipline across sectors: distinguish learning papers, eligible candidates and execution-ready baselines; verify recent primary sources, common releases within each project, appropriate information access and clean evaluation. Three papers is an initial learning target, not a substitute for all scientifically necessary comparisons.
+- Write natural, precise academic prose that the researchers understand and can defend. Avoid generic AI-sounding filler, repeated templates, forced synonyms and unsupported adjectives; use the authors' actual notes and reasoning to develop their voice. Preserve required AI-use disclosure and do not make claims about guaranteed detector classifications or human-only authorship.
+- Seek concise, distinctive, memorable titles grounded in the actual problem and supported contribution. Study strong articles' title structure without copying their names or wording. All current titles remain provisional; avoid forced acronyms and unsupported novelty, robustness, safety or superiority claims.
+- The user intends possible future use of publications in a U.S. **EB-2** petition. Preserve accurate individual contribution, publication/version and independently verifiable impact records; do not assume all three papers belong to one person, infer a particular petition route, give unsupported eligibility assurances, or reshape results to serve that purpose. Future immigration analysis requires current official sources and a separately scoped request.
+
 ## Evidence and research integrity
 
 - Never fabricate citations, access, measurements, results, or uncertainty intervals. Prior chats, snippets, and candidate lists are leads, not verified evidence.

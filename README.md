@@ -10,6 +10,8 @@ Start here. This workspace supports three separate academic papers. The owners a
 
 No project has reproduced a model or generated benchmark results. Working titles and research questions remain provisional.
 
+All three follow the [shared publication, writing and title standards](docs/PUBLICATION_STANDARDS.md): aim for leading journals through rigorous distinct research, use natural academic prose, and choose strong titles supported by the eventual contribution. These preferences are persistent project instructions, not claims of acceptance or results.
+
 Private repository: [MatrixUsman/DigitalTwin](https://github.com/MatrixUsman/DigitalTwin), branch `main`. It stores project documents and future eligible source/configuration files. Datasets, access records, environments, run outputs and the reinstallable third-party skill package remain excluded by `.gitignore`. To restore the skill on another machine, follow its [pinned installation record](docs/RESEARCH_SKILL_SETUP.md), adapting the local destination path. Git does not preserve empty directories; recreate the documented local storage directories when needed.
 
 ```text

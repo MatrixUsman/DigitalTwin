@@ -4,6 +4,8 @@ Version 1 — 2026-10-16. This is the living procedure for water, manufacturing,
 
 Reuse the process while independently checking each sector's papers, data, assumptions, and contribution. The existence of this checklist does not authorize downloads, installations, experiments, external messages, or publication beyond the user's current instructions.
 
+Apply the confirmed [publication, writing and title standards](PUBLICATION_STANDARDS.md) across all three sectors. Leading-journal ambitions guide the rigor of the study; publication and professional-use claims must remain supported by actual evidence.
+
 ## Start and finish every session
 
 1. Select the active project and bounded task from the user's instruction or its recorded next step. Read root and project `AGENTS.md`, its brief, status, and latest work-log entries.
@@ -35,6 +37,8 @@ Statuses describe our evidence about the procedure, not the progress of all thre
 - A public listing or repository is a lead until authorization, contents, provenance, and usability are checked. A simulator, bus case, architecture framework, or fault record is not automatically an attack dataset or runnable detector.
 - Keep setup checks, synthetic tests, measured benchmark results, and published paper scores explicitly distinct. Never mark a sibling project's stage complete because water completed a similar step.
 - Select per-sector decisions explicitly: water requires both SWaT and WADI; manufacturing needs production/run semantics; grids need electrical/topology and scenario semantics. These are different inputs to the same audit process.
+- Separate baseline implementation/development from final benchmark scoring. Freeze the proposed method, all variants and analysis before inspecting final held-out outcomes. Designing an improvement around baseline test failures makes later results on the same attacks exploratory; a different seed is not independent confirmation. Water's [detailed roadmap](../water/docs/RESEARCH_ROADMAP.md) is a planning example, not evidence that its future steps have been executed.
+- Select learning papers separately from execution-ready baselines. Use evidence-based admission rules and complementary scientific roles, rather than filling a fixed quota or choosing the largest published score. Water's [selection criteria](../water/docs/BASELINE_SELECTION_CRITERIA.md) provide a reusable example; substitute each sector's own task, data pair and trusted-input requirements, and verify all evidence independently.
 
 ## Work-log entry template
 

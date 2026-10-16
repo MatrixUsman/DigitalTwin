@@ -18,3 +18,7 @@ Record type: **retrospective summary** from the linked project documents, writte
 ### 2026-10-16 — MFG-002 — Session logging enabled
 
 Record type: contemporaneous. Added this log and navigation from the project README/status under the user's shared-workflow request. No project research state or scientific evidence was changed. After each substantive task, append actual actions, artifacts, checks, failures, decisions and the next step here; update status and add proven reusable lessons to the shared playbook. Run state: **none**. Next action remains the bounded task recorded above and in status.
+
+### 2026-10-16 — MFG-003 — Shared publication and presentation preferences
+
+Record type: contemporaneous. Under the user's explicit instruction covering all three projects, linked the [shared publication standards](../../docs/PUBLICATION_STANDARDS.md) from this project's brief/status. Leading-journal ambitions, natural precise prose, distinctive evidence-supported titles and accurate professional-use records now persist as shared instructions. Titles and contributions remain provisional; no authorship assignment, venue choice or immigration eligibility determination was made. See [SHARED-006](../../docs/WORK_LOG.md) for the common record. Research stage, data access and experimental state are unchanged. No implementation, training, external messages or push occurred. Next action remains this project's recorded research task.

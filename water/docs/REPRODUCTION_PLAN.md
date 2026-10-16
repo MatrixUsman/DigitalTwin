@@ -4,6 +4,8 @@ Status: **proposal only**, 2026-10-16. No source implementation, environment, ex
 
 Project: `water`, owner Muhammad Usman. After the three-project reorganization, all relative runtime paths resolve from `water/`. Source/checkpoint/environment isolation is governed by the [shared instructions](../../AGENTS.md) and [local status](../STATUS.md).
 
+The [detailed water roadmap](RESEARCH_ROADMAP.md) breaks this proposal into numbered tasks and completion criteria. The sequencing clarification below reserves final held-out scoring until baseline and proposed-method development are complete.
+
 ## 1. First baseline and admission criteria
 
 **Start with CAROTS and CAROTS-dagger (contrastive score without the forecasting-error ensemble).** It has an ICML 2025 publication, both target datasets, and inspectable author code. See [evidence and code permalinks](literature/CAROTS_AND_INFORMATION_THEORETIC.md). Select both variants in advance; do not choose the weaker variant or select the winner after looking at test labels.
@@ -66,6 +68,8 @@ Use a small package plus command-line entry points; no UI, database, deployment 
 ## 3. Isolated environment proposal
 
 Use the already available **Python 3.11.17** for the initial harness, subject to a dependency resolution check. Avoid modifying Homebrew, Miniconda base, or other projects. Python's `venv` provides package isolation; do not enable system-site packages. [Official venv documentation](https://docs.python.org/3.11/library/venv.html)
+
+Interpreter and machine observations come from the initial audit; recheck them, free disk and available memory before acquisition or installation. No dependency/device compatibility has been established by this proposal.
 
 After implementation is authorized, the proposed creation command is:
 
@@ -139,18 +143,18 @@ These are **test specifications**, not tests already written or passed. Later in
 2. **Authorize minimal implementation:** isolated environments, loaders, manifests, evaluator and synthetic tests; pin upstream source. No model claim from synthetic data.
 3. **Authorize bounded pilot:** proposed ceiling is one seed, one small normal-data subset, one epoch, CPU, at most 10 wall-clock minutes, with an explicit stop timer and logged resource use. This is a proposal for a later instruction, not permission to run it now. Stop on data leakage, mismatched labels, raw writes, excessive RAM or unsupported device operations.
 4. **Budget full baseline:** use pilot measurements to propose exact datasets, variants, three-seed configurations, time/memory estimates and storage before any lengthy or paid run. Obtain approval. Do not invent runtime estimates from hardware specifications.
-5. **Evaluate once under frozen rules:** use held-out normal and attack sets only after selection is final. Preserve outputs locally with full provenance and report all predeclared variants/seeds, including failures.
-6. **Only then investigate adaptation:** compare fixed twin, ungated adaptive twin, guarded twin and guarded twin without reference, against the frozen non-twin baseline. Define trusted inputs and the protected update type first. Keep unchanged benchmarks separate from synthetic corruption/measurement-shift tests; require independent evidence for legitimate physical changes.
+5. **Develop comparisons before final-test access:** establish baseline fidelity on fit/development data and synthetic software checks. Define trusted inputs and the protected update type, then develop the fixed twin, ungated adaptive twin, guarded twin and relevant ablations using permitted development evidence. Keep unchanged benchmarks separate from synthetic corruption/measurement-shift tests; resolve the evidence for legitimate physical changes early. Neither baseline test failures nor proposed-method test scores may guide this design.
+6. **Freeze all variants, then evaluate:** complete method, selection, mask, calibration and analysis decisions before scoring held-out normal and attack sets. Preserve outputs locally with full provenance and report every predeclared variant/seed, including failures. If final-test outcomes inform a subsequent redesign, label it exploratory and obtain independent confirmation evidence for confirmatory claims; rerunning on the same attacks or changing seeds does not restore an untouched test set.
 
-Every reported run should retain: run ID; seeds; exact command; resolved config/hash; raw/split/preprocessing hashes; our revision and dirty patch; upstream commit and patches; interpreter and dependency lock; OS/device/thread settings; timestamps; stdout/stderr; score/label alignment metadata; calibration rule; metrics with denominators; timing/memory; and outcome/failure reason. Logs must not expose raw records or private links. No experiment revision exists yet because the workspace is not a Git repository.
+Every reported run should retain: run ID; seeds; exact command; resolved config/hash; raw/split/preprocessing hashes; our revision and dirty patch; upstream commit and patches; interpreter and dependency lock; OS/device/thread settings; timestamps; stdout/stderr; score/label alignment metadata; calibration rule; metrics with denominators; timing/memory; and outcome/failure reason. Logs must not expose raw records or private links. The workspace now has a private Git repository; no implementation or experiment revision exists yet. Use the actual code revision and dirty patch when later experiments are authorized.
 
 ## 7. Blockers at audit close
 
 | Blocker | What resolves it |
 |---|---|
 | No dataset files or confirmed access | Authorized official files plus release/readme/attack-table manifests |
-| Provider approval remains pending; the exact university email and dataset access are unverified | The user's 2026-10-16 correction reports a COMSATS Sahiwal student university email, superseding the earlier no-affiliation/email statement. The [standard iTrust form](https://www.sutd.edu.sg/itrust/request-for-datasets/) requires university/organisation email and shows no faculty-only requirement or student ban, so this route is now plausible. Confirm the account privately and obtain provider approval; no request or inquiry has been submitted |
-| No local source PDF/candidate file | Prior-chat leads are now recorded; obtain source PDF only if further background auditing is needed |
+| Request/access status unresolved; the exact university email and dataset authorization are unverified | The user's 2026-10-16 correction reports a COMSATS Sahiwal student university email, superseding the earlier no-affiliation/email statement. The [standard iTrust form](https://www.sutd.edu.sg/itrust/request-for-datasets/) requires university/organisation email and shows no faculty-only requirement or student ban, so this route is now plausible. Confirm the account privately and obtain provider approval; the assistant has not submitted a request or inquiry, and no approval has been verified |
+| Original reference attachment and local full-text paper collection absent | The candidate register and source audit exist. Acquire accessible full texts for structured reading; obtain the original architecture PDF only if further background auditing needs it |
 | CAROTS forbidden metric paths, possible alignment issue, CUDA assumption | Static review followed by meaningful synthetic/integration tests and recorded patches after implementation authorization |
 | Other comparators lack full text, author code or sufficient protocol | Verified matched artifacts/clarifications; author contact only if explicitly authorized |
 | No evidence that benchmark shifts represent legitimate change | Documented regime annotations or separately validated simulation; otherwise limit claims to detection and labelled stress tests |
