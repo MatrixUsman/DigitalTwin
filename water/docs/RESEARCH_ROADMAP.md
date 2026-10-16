@@ -132,6 +132,8 @@ The initial roadmap drew on the existing [audit](LITERATURE_EVIDENCE.md); the su
 
 **Requires:** Stage 1 and an authorized acquisition task. **Output:** release manifests and a data-dictionary report. **Done when:** every required file, annotation and transformation rule has a traceable identity; test contents have not been used to design a model.
 
+**Source audit, 16 October 2026:** the [identity report](DATASET_IDENTITY_AUDIT.md), [provider evidence](literature/DATASET_PROVIDER_EVIDENCE_2026-10-16.md), [baseline compatibility audit](literature/DATASET_BASELINE_COMPATIBILITY_2026-10-16.md), [candidate register](../datasets/manifests/RELEASE_CANDIDATES.json) and [local inventory](../datasets/manifests/LOCAL_INVENTORY_2026-10-16.json) are prepared. The user explicitly reconfirmed no files received, and both raw/processed stores are empty. This completes the source-level preparation only. **All actual-receipt tasks below remain open**, including measured hashes, timestamp profiles, label reconciliation and common-release freeze. Read the [manifest contract](../datasets/manifests/README.md) before populating received-file records.
+
 - [ ] **W3.01 · A:** Create ignored release-specific raw directories and verify the ignore rule before saving data. Keep private download links in `local/` only.
 - [ ] **W3.02 · A:** Download normal, attack, metadata and attack-interval files from the authorized source; record acquisition dates and original names.
 - [ ] **W3.03 · A:** Verify archive integrity before extraction; retain original archives unchanged. Check that expected files are present and not empty Git LFS pointers or HTML error pages.

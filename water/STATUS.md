@@ -3,10 +3,11 @@
 Project ID: `water`\
 Owner: **Muhammad Usman**\
 Updated: **2026-10-16 (Asia/Karachi)**\
-Stage: **Stage 2 assistant paper/code study completed; official dataset request submitted, approval pending; model implementation not started**
+Stage: **Stage 3 source/identity audit prepared; actual release identification blocked by non-receipt; official request submitted, approval pending**
 
 ## Completed
 
+- Completed the [Stage 3 source-level dataset identity audit](docs/DATASET_IDENTITY_AUDIT.md), [provider evidence](docs/literature/DATASET_PROVIDER_EVIDENCE_2026-10-16.md), [baseline compatibility map](docs/literature/DATASET_BASELINE_COMPATIBILITY_2026-10-16.md), [candidate register](datasets/manifests/RELEASE_CANDIDATES.json) and [observed local inventory](datasets/manifests/LOCAL_INVENTORY_2026-10-16.json). User reconfirmed no files received; raw/processed storage and scoped expected-filename search are empty. Local raw hashes, timestamp profiles and label counts remain unmeasured; no release freeze is claimed.
 - Submitted the [official SWaT/WADI request](docs/DATASET_REQUEST_PREPARATION.md) once after the user supplied the university email and explicitly agreed to the terms/privacy consent. Website success was observed and a safe receipt summary recorded; exact personal information remains private. Email delivery, provider approval and downloads are not verified. No duplicate submission is needed while the response is pending.
 - Completed the assistant's [detailed study of the three papers](docs/PAPER_STUDY_GUIDE.md), with method-to-code guides for [CAROTS](baselines/carots/METHOD_TO_CODE.md), [IT-DT](baselines/it_dt/METHOD_TO_CODE.md) and [the ensemble](baselines/dt_ensemble/METHOD_TO_CODE.md), plus a [mechanism comparison](docs/MECHANISM_COMPARISON.md). Actual author functions are mapped only for CAROTS; the twin guides identify missing implementation details. The [reading record](papers/notes/READING_RECORD.md) keeps researcher reading/understanding unconfirmed.
 - Prepared the [Step 0 research-basics lesson](docs/RESEARCH_BASICS_LESSON.md): a synthetic water-tank example, score/threshold/alarm flow, baselines versus ablations, data roles, leakage and adaptation. The [researcher note scaffold](papers/notes/research_basics.md) is unanswered; no mastery or human reading is inferred.
@@ -25,6 +26,7 @@ Stage: **Stage 2 assistant paper/code study completed; official dataset request 
 ## Not completed / blockers
 
 - The official request has website submission confirmation, but no iTrust approval or raw SWaT/WADI files have been received or verified. No measured local dataset hashes, release freeze or row counts exist. Mirror metadata and application submission are not dataset receipt records.
+- Stage 3 requires authorized original recordings, schema/readme and corrected attack tables. WADI A2's catalogue/update dates differ; received timestamps, timezone, gaps and label reconciliation cannot be established from filenames. CAROTS supplies release clues, while exact-file equivalence for IT-DT/ensemble remains unknown. The [receipt contract](datasets/manifests/README.md) keeps these fields separate from source claims.
 - No matched public executable code, fitted models or full experimental outputs were verified for IT-DT or the ensemble. Those collections are complete only for the public resources located in this bounded search.
 - No scientific project environment, dependency lock, benchmark loader/evaluator, research tests, model execution or reproduced score exists. Resource-download/extraction utilities exist; the CAROTS source snapshot is not an installed or validated implementation.
 - CAROTS test-based threshold and separate max-F1 reporting need a declared protocol change. Label alignment, raw-folder writes, preprocessing, and CPU/MPS portability need validation.
@@ -36,7 +38,7 @@ Stage: **Stage 2 assistant paper/code study completed; official dataset request 
 
 ## Next bounded task
 
-Use the [paper study guide](docs/PAPER_STUDY_GUIDE.md) to explain CAROTS from normal windows to an alarm and record actual reading/questions in [the researcher record](papers/notes/READING_RECORD.md). Prepare a bounded CAROTS correction/deviation specification covering augmentation/loss semantics, calibration, alignment, checkpoints and device support before implementation. Keep the [Step 0 comprehension prompts](docs/RESEARCH_BASICS_LESSON.md) available as needed. Independently await the provider's response to the [submitted request](docs/DATASET_REQUEST_PREPARATION.md); no inbox access or background monitoring is implied. Download and hash originals only through an established authorized route. The [verification verdict](docs/BASELINE_VERIFICATION_REPORT.md) remains in force; three experimental baselines are **not** admitted. Keep final attack outcomes closed throughout development.
+To finish Stage 3, await provider approval and authorized original files, then perform the [receipt checks](docs/DATASET_IDENTITY_AUDIT.md) and populate measured manifests. No duplicate request, inbox access or background monitoring is implied. Meanwhile, researcher-owned CAROTS reading and a bounded correction/deviation specification can proceed without datasets; use the [study guide](docs/PAPER_STUDY_GUIDE.md) and [reading record](papers/notes/READING_RECORD.md). The [verification verdict](docs/BASELINE_VERIFICATION_REPORT.md) remains in force; three experimental baselines are **not** admitted. Keep final attack outcomes closed throughout development.
 
 ## Run and manuscript state
 

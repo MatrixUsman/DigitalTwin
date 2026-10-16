@@ -12,6 +12,8 @@ The **[official dataset request](docs/DATASET_REQUEST_PREPARATION.md)** was subm
 
 The **[local baseline resource collection](baselines/README.md)** now contains their PDFs, available code, original figures/tables, bibliographies and study guides. [Dataset acquisition remains unresolved](baselines/DATASET_ACQUISITION_STATUS.md): public mirrors were found, but SWaT/WADI approval and release equivalence are not established.
 
+**Stage 3 update:** the [dataset identity audit](docs/DATASET_IDENTITY_AUDIT.md) now records target revisions, label rules, timestamp unknowns, baseline compatibility and distinct hash sources. The user reconfirmed no files received; the [local inventory and candidate register](datasets/manifests/README.md) are prepared, while actual-file identification remains incomplete.
+
 The subsequent **[verification audit](docs/BASELINE_VERIFICATION_REPORT.md)** found intact files and genuine paper records, alongside substantive code, citation and scientific inconsistencies. Read that verdict before treating any published result or guarantee as reliable. CAROTS remains the conditional first reproduction; the two twin methods remain on hold.
 
 The deeper [CAROTS walkthrough](baselines/carots/METHOD_TO_CODE.md) also identifies CPA noise outside the forecast input and SOC pair-versus-anchor averaging differences. These static findings need a correction/deviation specification; no runtime or performance effects have been measured.

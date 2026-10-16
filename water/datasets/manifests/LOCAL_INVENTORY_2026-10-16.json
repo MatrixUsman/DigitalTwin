@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project": "water",
+  "record_type": "observed_local_inventory",
+  "checked_at_utc": "2026-10-16T16:34:44.992892+00:00",
+  "command": "python3 water/local/stage3_inventory.py",
+  "working_directory": "/Users/matrixusman/CUI/DigitalTwin",
+  "interpreter": "/opt/homebrew/opt/python@3.15/bin/python3.15",
+  "python_version": "3.15.0",
+  "inventory_script_sha256": "df9bcf27a0682217c92cbc62d3e2be326584bc5ceb221809a26dcd1ec976f288",
+  "access_status": "request_submitted_approval_pending",
+  "user_receipt_confirmation": "Still waiting; no files received",
+  "storage_scopes": [
+    {
+      "path": "datasets/raw",
+      "exists": true,
+      "files": [],
+      "symlinks_not_followed": []
+    },
+    {
+      "path": "datasets/processed",
+      "exists": true,
+      "files": [],
+      "symlinks_not_followed": []
+    }
+  ],
+  "known_filename_search": {
+    "scope": "water project excluding listed directories and symlink targets",
+    "excluded_directory_names": [
+      ".cache",
+      ".git",
+      "__pycache__",
+      "artifacts",
+      "local",
+      "vendor"
+    ],
+    "also_excluded": ".venv* directories",
+    "matches": []
+  },
+  "external_locations": "not_supplied_not_searched",
+  "source_metadata_integrity": [
+    {
+      "path": "baselines/artifacts/dataset_sources/itrust_terms.html",
+      "source_url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/",
+      "bytes": 220746,
+      "sha256": "01aa21335774919e7dde987284677a839aaf5b679da6b64d9a3fd5ac22f7520e",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/itrust_request_form.html",
+      "source_url": "https://www.sutd.edu.sg/itrust/request-for-datasets/",
+      "bytes": 252647,
+      "sha256": "066ec9dfc600e191b1d9cf3474cc8f39a9d9eb91e404c8dbd9ca18f088a20ed2",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/swat_characteristics.html",
+      "source_url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/",
+      "bytes": 224921,
+      "sha256": "d28c69a112cada469e29e988ad3df708f77f141709ab284e0f2152596de7d67d",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/wadi_characteristics.html",
+      "source_url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/wadi/",
+      "bytes": 220875,
+      "sha256": "6708f814727f4a7b09f2739674cef14bc228ebc7bb0797be57c2ee311143eecd",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/itrust_dataset_summary.html",
+      "source_url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/summary-of-available-datasets/",
+      "bytes": 220649,
+      "sha256": "14469c6c1aa1cc417b5c445dd07ebb13dcc4d9df7bf00482c5f8ffc48959face",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/thuml_swat_file_listing.json",
+      "source_url": "https://huggingface.co/api/datasets/thuml/Time-Series-Library/tree/2b66e59ee19dac8f6f19fb5d4997f289fdfea357/SWaT",
+      "bytes": 1944,
+      "sha256": "fbcd8aefb496af9cb213bbd60da085add5af578fd1ef336cc84124b46fb79d68",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/kaggle_wadi_file_listing.json",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/list/giovannimonco/wadi-data",
+      "bytes": 794,
+      "sha256": "d5a4869457b797198c69fa08b06f8e8368d12ebe19dcedc594f22c9a2256c732",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    },
+    {
+      "path": "baselines/artifacts/dataset_sources/kaggle_wadi_metadata.json",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/view/giovannimonco/wadi-data",
+      "bytes": 1824,
+      "sha256": "eefd6217b45851fdf459b0db01a65db87929bf0c658c56eb877b2b5c63a18cfd",
+      "matches_collection_manifest": true,
+      "hash_scope": "documentation_or_host_listing_not_dataset_bytes"
+    }
+  ],
+  "release_freeze": false,
+  "limitations": [
+    "No telemetry parsed; schemas, labels and timestamps not measured.",
+    "Documentation hashes are not dataset checksums.",
+    "No dataset identity inferred from paper or host metadata."
+  ]
+}

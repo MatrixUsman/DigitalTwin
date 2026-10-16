@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "project": "water",
+  "record_type": "candidate_release_register_not_receipt_manifest",
+  "audit_date": "2026-10-16",
+  "status": "source_audit_complete_actual_receipt_pending",
+  "release_frozen": false,
+  "local_inventory": "LOCAL_INVENTORY_2026-10-16.json",
+  "evidence_documents": [
+    "../../docs/DATASET_IDENTITY_AUDIT.md",
+    "../../docs/literature/DATASET_PROVIDER_EVIDENCE_2026-10-16.md",
+    "../../docs/literature/DATASET_BASELINE_COMPATIBILITY_2026-10-16.md"
+  ],
+  "author_code_revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb",
+  "candidates": [
+    {
+      "dataset": "SWaT",
+      "candidate_id": "swat_dec2015_normalv1_attackv0",
+      "provider_collection_label": "SWaT.A1 / SWaT.A2 Dec 2015",
+      "collection_period_label": "December 2015",
+      "provider_revision_date": "2018-09-24",
+      "provider_source": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/",
+      "startup_revision": "Normal v1 removes initial 30 minutes from normal v0; no additional deletion implied",
+      "provider_described_variables": 51,
+      "configured_carots_variables": 51,
+      "files": [
+        {
+          "role": "normal",
+          "expected_name_variants": [
+            "SWaT_Dataset_Normal_v1.xlsx",
+            "SWaT_Dataset_Normal_v1.csv"
+          ],
+          "filename_evidence": "Pinned CAROTS water loader; CSV may be its conversion of XLSX",
+          "local_observation": {
+            "receipt_status": "not_received",
+            "relative_raw_path": null,
+            "bytes": null,
+            "sha256": null,
+            "rows": null,
+            "columns": null,
+            "first_timestamp": null,
+            "last_timestamp": null,
+            "timestamp_format": null,
+            "timezone": null,
+            "observed_cadence_seconds": null,
+            "label_counts": null
+          },
+          "provider_sha256": null,
+          "host_metadata": {
+            "host": "THUML Hugging Face",
+            "revision": "2b66e59ee19dac8f6f19fb5d4997f289fdfea357",
+            "name": "SWaT_Dataset_Normal_v1.xlsx",
+            "advertised_bytes": 130566907,
+            "advertised_sha256": "fb7bb0a9c10f86ad29d8f2ae4fd09284e7db70c76350f5b2afcca58d9ace6c49",
+            "hash_algorithm": "SHA-256 from Git LFS object metadata",
+            "raw_bytes_downloaded": false,
+            "provider_permission_verified": false,
+            "evidence": {
+              "listing_url": "https://huggingface.co/api/datasets/thuml/Time-Series-Library/tree/2b66e59ee19dac8f6f19fb5d4997f289fdfea357/SWaT",
+              "saved_listing_path": "baselines/artifacts/dataset_sources/thuml_swat_file_listing.json",
+              "saved_listing_sha256": "fbcd8aefb496af9cb213bbd60da085add5af578fd1ef336cc84124b46fb79d68",
+              "snapshot_recorded_at_utc": "2026-10-16T15:43:03.770628+00:00",
+              "digest_scope": "saved_metadata_not_raw_dataset"
+            }
+          }
+        },
+        {
+          "role": "attack",
+          "expected_name_variants": [
+            "SWaT_Dataset_Attack_v0.xlsx",
+            "SWaT_Dataset_Attack_v0.csv"
+          ],
+          "filename_evidence": "Pinned CAROTS water loader; CSV may be its conversion of XLSX",
+          "local_observation": {
+            "receipt_status": "not_received",
+            "relative_raw_path": null,
+            "bytes": null,
+            "sha256": null,
+            "rows": null,
+            "columns": null,
+            "first_timestamp": null,
+            "last_timestamp": null,
+            "timestamp_format": null,
+            "timezone": null,
+            "observed_cadence_seconds": null,
+            "label_counts": null
+          },
+          "provider_sha256": null,
+          "host_metadata": {
+            "host": "THUML Hugging Face",
+            "revision": "2b66e59ee19dac8f6f19fb5d4997f289fdfea357",
+            "name": "SWaT_Dataset_Attack_v0.xlsx",
+            "advertised_bytes": 116016616,
+            "advertised_sha256": "6cc72c24425453879bac1565cae4c6f35ad585a578510ab2a27b325d1bac2e8d",
+            "hash_algorithm": "SHA-256 from Git LFS object metadata",
+            "raw_bytes_downloaded": false,
+            "provider_permission_verified": false,
+            "evidence": {
+              "listing_url": "https://huggingface.co/api/datasets/thuml/Time-Series-Library/tree/2b66e59ee19dac8f6f19fb5d4997f289fdfea357/SWaT",
+              "saved_listing_path": "baselines/artifacts/dataset_sources/thuml_swat_file_listing.json",
+              "saved_listing_sha256": "fbcd8aefb496af9cb213bbd60da085add5af578fd1ef336cc84124b46fb79d68",
+              "snapshot_recorded_at_utc": "2026-10-16T15:43:03.770628+00:00",
+              "digest_scope": "saved_metadata_not_raw_dataset"
+            }
+          }
+        }
+      ],
+      "label_evidence": {
+        "provider_description": "normal/abnormal",
+        "carots_attack_raw_token": "Attack",
+        "carots_label_column_selection": "last column",
+        "received_column_name": null,
+        "received_vocabulary": null,
+        "proposed_internal_attack_value": 1,
+        "proposed_internal_normal_value": 0,
+        "status": "requires_explicit_allowed_vocabulary_on_receipt"
+      },
+      "timestamp_status": "format_timezone_boundaries_cadence_unmeasured"
+    },
+    {
+      "dataset": "WADI",
+      "candidate_id": "wadi_a2_revision_dates_unresolved",
+      "provider_collection_label": "WaDi.A2",
+      "legacy_collection_catalogue_label": "WaDi.A1 9 Oct 2017",
+      "provider_revision_dates": [
+        {
+          "date": "2019-11-19",
+          "role": "catalogue label and CAROTS directory expectation"
+        },
+        {
+          "date": "2019-12-19",
+          "role": "provider characteristics update heading"
+        }
+      ],
+      "date_conflict_resolved": false,
+      "provider_source": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/wadi/",
+      "provider_summary_source": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/summary-of-available-datasets/",
+      "carots_expected_directory": "WADI.A2_19 Nov 2019",
+      "revision_effect": "unstable readings removed; attack labels and corrected attack dates supplied",
+      "provider_described_variables": 123,
+      "configured_carots_variables": 123,
+      "files": [
+        {
+          "role": "normal",
+          "expected_name_variants": [
+            "WADI_14days_new.csv"
+          ],
+          "filename_evidence": "Provider WADI A2 update and pinned CAROTS loader",
+          "local_observation": {
+            "receipt_status": "not_received",
+            "relative_raw_path": null,
+            "bytes": null,
+            "sha256": null,
+            "rows": null,
+            "columns": null,
+            "first_timestamp": null,
+            "last_timestamp": null,
+            "timestamp_format": null,
+            "timezone": null,
+            "observed_cadence_seconds": null,
+            "label_counts": null
+          },
+          "provider_sha256": null,
+          "host_metadata": {
+            "host": "Kaggle giovannimonco/wadi-data",
+            "version": 1,
+            "name": "WADI_14days_new.csv",
+            "advertised_bytes": 493730164,
+            "advertised_sha256": null,
+            "hash_status": "not_supplied_in_inspected_file_listing",
+            "raw_bytes_downloaded": false,
+            "provider_permission_verified": false,
+            "evidence": {
+              "listing_url": "https://www.kaggle.com/api/v1/datasets/list/giovannimonco/wadi-data",
+              "saved_listing_path": "baselines/artifacts/dataset_sources/kaggle_wadi_file_listing.json",
+              "saved_listing_sha256": "d5a4869457b797198c69fa08b06f8e8368d12ebe19dcedc594f22c9a2256c732",
+              "snapshot_recorded_at_utc": "2026-10-16T15:43:03.770646+00:00",
+              "digest_scope": "saved_metadata_not_raw_dataset"
+            }
+          }
+        },
+        {
+          "role": "attack",
+          "expected_name_variants": [
+            "WADI_attackdataLABLE.csv"
+          ],
+          "filename_evidence": "Provider WADI A2 update and pinned CAROTS loader",
+          "local_observation": {
+            "receipt_status": "not_received",
+            "relative_raw_path": null,
+            "bytes": null,
+            "sha256": null,
+            "rows": null,
+            "columns": null,
+            "first_timestamp": null,
+            "last_timestamp": null,
+            "timestamp_format": null,
+            "timezone": null,
+            "observed_cadence_seconds": null,
+            "label_counts": null
+          },
+          "provider_sha256": null,
+          "host_metadata": {
+            "host": "Kaggle giovannimonco/wadi-data",
+            "version": 1,
+            "name": "WADI_attackdataLABLE.csv",
+            "advertised_bytes": 109308247,
+            "advertised_sha256": null,
+            "hash_status": "not_supplied_in_inspected_file_listing",
+            "raw_bytes_downloaded": false,
+            "provider_permission_verified": false,
+            "evidence": {
+              "listing_url": "https://www.kaggle.com/api/v1/datasets/list/giovannimonco/wadi-data",
+              "saved_listing_path": "baselines/artifacts/dataset_sources/kaggle_wadi_file_listing.json",
+              "saved_listing_sha256": "d5a4869457b797198c69fa08b06f8e8368d12ebe19dcedc594f22c9a2256c732",
+              "snapshot_recorded_at_utc": "2026-10-16T15:43:03.770646+00:00",
+              "digest_scope": "saved_metadata_not_raw_dataset"
+            }
+          }
+        }
+      ],
+      "label_evidence": {
+        "provider_raw_attack_value": -1,
+        "provider_raw_normal_value": 1,
+        "carots_expected_column": "Attack LABLE (1:No Attack, -1:Attack)",
+        "proposed_internal_mapping": {
+          "-1": 1,
+          "1": 0
+        },
+        "received_column_name": null,
+        "received_vocabulary": null,
+        "status": "provider_polarity_verified_received_values_unverified"
+      },
+      "timestamp_status": "format_timezone_boundaries_cadence_and_removed_intervals_unmeasured"
+    }
+  ],
+  "required_supporting_artifacts": [
+    {
+      "role": "release README and schema",
+      "received": false,
+      "sha256": null
+    },
+    {
+      "role": "SWaT release-specific attack register",
+      "received": false,
+      "sha256": null
+    },
+    {
+      "role": "WADI corrected attack register",
+      "received": false,
+      "sha256": null
+    },
+    {
+      "role": "provider checksum manifest if supplied",
+      "received": false,
+      "sha256": null
+    }
+  ],
+  "baseline_equivalence": {
+    "CAROTS": "expected_names_and_revision_clues_only_no_author_raw_checksum",
+    "IT-DT": "exact_files_revision_and_hashes_unverified",
+    "ensemble": "exact_files_revision_and_hashes_unverified"
+  },
+  "prohibitions": [
+    "Do not promote host metadata to local measurement or provider authentication.",
+    "Do not populate missing hashes with the empty-file digest.",
+    "Do not infer common-release equivalence from matching dataset names or channel counts."
+  ]
+}

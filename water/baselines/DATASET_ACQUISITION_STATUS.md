@@ -2,6 +2,8 @@
 
 Checked **16 October 2026**. The user explicitly reports **no iTrust approval received**. No raw SWaT or WADI files were downloaded, and no model was run. The search did find public mirrors; the unresolved issue is whether they provide the permitted, identical releases needed for a defensible comparison.
 
+**Stage 3 identity audit:** the user reconfirmed no receipt. A fresh scoped local inventory found zero raw/processed files and zero expected-name matches; eight saved source-metadata objects retain their recorded hashes. [The detailed identity audit](../docs/DATASET_IDENTITY_AUDIT.md) and [candidate register](../datasets/manifests/RELEASE_CANDIDATES.json) preserve the remote listings below separately from unmeasured local bytes, hashes and timestamps. No release is frozen.
+
 **Latest access task:** the [official request](../docs/DATASET_REQUEST_PREPARATION.md) was submitted in Safari after the user supplied the university email and agreement/consent. Website confirmation was observed by the post-submission clock check at **2026-10-16 16:15:51 UTC**, not an exact server timestamp. The form's default **17 October 2026** date was preserved, matching Singapore's date at submission. Approval and download access remain pending; no request identifier or download link was displayed. There is no local benchmark data. A renewed bounded search, including the implementation repository linked by iTrust, found no stronger authorized public download route. Earlier size/hash entries below remain remote metadata.
 
 ## Best matching public listings found

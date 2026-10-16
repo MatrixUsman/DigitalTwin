@@ -1,6 +1,6 @@
 # Project brief
 
-Status: source collection, reading preparation and data-access audit. Updated **16 October 2026 (Asia/Karachi)**. The later acquisition request authorizes local public resource collection; model implementation and training have not begun.
+Status: paper/code study and Stage 3 source-level dataset identity audit prepared; actual-file identification awaits authorized receipt. Updated **16 October 2026 (Asia/Karachi)**. Model implementation and training have not begun.
 
 Project ID: `water`. Owner: **Muhammad Usman** (project responsibility, not a final authorship decision). This project inherits [shared workspace rules](../AGENTS.md) and has its own [status/handoff](STATUS.md). Run future commands from `water/`.
 
@@ -48,7 +48,7 @@ The observations below describe the original single-water workspace before the t
 
 Recommended first executable baseline: **CAROTS (ICML 2025), including its no-ensemble variant**, conditional on data access and resolution of code/protocol issues. An author-code run with a clean calibration threshold will be a **modified-protocol evaluation**, not a reproduction of its reported optimal-test-F1 result. The information-theoretic twin remains a later candidate for an explicitly identified independent implementation.
 
-The immediate next milestone is structured reading of the collected papers while authorized dataset receipt remains pending. Later baseline setup must freeze data manifests and evaluation protocol, resolve implementation issues, and pass loader/split/metric tests before training. Paid compute, lengthy training, and publishing require approval.
+The [dataset identity audit](docs/DATASET_IDENTITY_AUDIT.md) now separates candidate versions and label rules from unknown received-file hashes/timestamps. Complete file-level identification once authorized originals arrive; structured reading and the CAROTS correction specification can proceed meanwhile. Later baseline setup must freeze data manifests and evaluation protocol, resolve implementation issues, and pass loader/split/metric tests before training. Paid compute, lengthy training, and publishing require approval.
 
 ## Shared publication and writing preferences
 
