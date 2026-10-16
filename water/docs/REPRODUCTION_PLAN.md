@@ -1,6 +1,6 @@
 # Proposed reproduction plan
 
-Status: **proposal only**, 2026-10-16. No source implementation, environment, experiment, benchmark score, or training run has been produced. This document does not authorize later implementation or lengthy runs.
+Status: **proposal only**, 2026-10-16. Author materials and a pinned CAROTS source snapshot have been [collected](../baselines/README.md); no model implementation by us, scientific environment, experiment, benchmark score, or training run has been produced. Acquisition utilities are not model implementations. This document does not authorize lengthy runs.
 
 Project: `water`, owner Muhammad Usman. After the three-project reorganization, all relative runtime paths resolve from `water/`. Source/checkpoint/environment isolation is governed by the [shared instructions](../../AGENTS.md) and [local status](../STATUS.md).
 

@@ -1,0 +1,890 @@
+{
+  "scope": "Three water baseline source bundles; no restricted datasets or execution",
+  "resources": [
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/kim25aa/kim25aa.pdf",
+      "path": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdf",
+      "expected_bytes": 4383503,
+      "expected_sha256": "b9c8de2e1f517e0df614ae88bb8f3e1a6b1f065e2952cbfd0cd19c67b4e5b568"
+    },
+    {
+      "baseline": "carots",
+      "kind": "html",
+      "url": "https://proceedings.mlr.press/v267/kim25aa.html",
+      "path": "baselines/carots/artifacts/metadata/pmlr.html"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://arxiv.org/pdf/2506.03964v1",
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.pdf"
+    },
+    {
+      "baseline": "carots",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2506.03964v1",
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.html"
+    },
+    {
+      "baseline": "carots",
+      "kind": "archive",
+      "url": "https://arxiv.org/src/2506.03964v1",
+      "path": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "expected_bytes": 2634784,
+      "expected_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c"
+    },
+    {
+      "baseline": "carots",
+      "kind": "json",
+      "url": "https://api.github.com/repos/kimanki/CAROTS/git/trees/63a41f45a2ae680d5cdbb2d5739e7a11264867cb?recursive=1",
+      "path": "baselines/carots/artifacts/metadata/repository_tree.json"
+    },
+    {
+      "baseline": "it_dt",
+      "kind": "pdf",
+      "url": "https://arxiv.org/pdf/2603.01621v1",
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdf"
+    },
+    {
+      "baseline": "it_dt",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2603.01621v1",
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.html"
+    },
+    {
+      "baseline": "it_dt",
+      "kind": "html",
+      "url": "https://arxiv.org/abs/2603.01621v1",
+      "path": "baselines/it_dt/artifacts/metadata/arxiv_record.html"
+    },
+    {
+      "baseline": "it_dt",
+      "kind": "archive",
+      "url": "https://arxiv.org/src/2603.01621v1",
+      "path": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "expected_bytes": 166863,
+      "expected_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "pdf",
+      "url": "https://www.nature.com/articles/s41598-026-53863-z.pdf",
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdf"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "html",
+      "url": "https://www.nature.com/articles/s41598-026-53863-z",
+      "path": "baselines/dt_ensemble/artifacts/papers/publisher.html"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13402577/",
+      "path": "baselines/dt_ensemble/artifacts/papers/PMC13402577.html"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/.gitignore",
+      "path": "baselines/carots/vendor/author_code/.gitignore",
+      "expected_bytes": 24,
+      "git_blob_sha1": "bbe4bf41bbd2bb7b4ce9128da16f412ea5c1f2ab",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/LICENSE",
+      "path": "baselines/carots/vendor/author_code/LICENSE",
+      "expected_bytes": 1618,
+      "git_blob_sha1": "3acfb140e62ab20ba7a40b8ecf923e8bcc38821d",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/README.md",
+      "path": "baselines/carots/vendor/author_code/README.md",
+      "expected_bytes": 2650,
+      "git_blob_sha1": "3b0113b3661d86d1d7937018f61ba2c7797556d9",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/config.py",
+      "path": "baselines/carots/vendor/author_code/config.py",
+      "expected_bytes": 6028,
+      "git_blob_sha1": "4cec7069fb2b3c324ef2763a04a983f0b99a1e07",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/datasets/__init__.py",
+      "path": "baselines/carots/vendor/author_code/datasets/__init__.py",
+      "expected_bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/datasets/build.py",
+      "path": "baselines/carots/vendor/author_code/datasets/build.py",
+      "expected_bytes": 15961,
+      "git_blob_sha1": "1778f0d5a337efe63d40740b2421c87b83748367",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/datasets/collate.py",
+      "path": "baselines/carots/vendor/author_code/datasets/collate.py",
+      "expected_bytes": 464,
+      "git_blob_sha1": "a642ed88efc3cd7b1db2e2aed8bafc588272b045",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/datasets/loader.py",
+      "path": "baselines/carots/vendor/author_code/datasets/loader.py",
+      "expected_bytes": 1122,
+      "git_blob_sha1": "a16ec569fa450bd0664b32ba4e95e0ff9142e014",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/datasets/util.py",
+      "path": "baselines/carots/vendor/author_code/datasets/util.py",
+      "expected_bytes": 475,
+      "git_blob_sha1": "8a24a4bc211036afcf09075853ed6fa3d434483c",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/figure/components.png",
+      "path": "baselines/carots/vendor/author_code/figure/components.png",
+      "expected_bytes": 309366,
+      "git_blob_sha1": "33639457de8eed5e0c71648dc1cbc247c07a9cc5",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/figure/overview.png",
+      "path": "baselines/carots/vendor/author_code/figure/overview.png",
+      "expected_bytes": 178078,
+      "git_blob_sha1": "c5ae030ed36c9b0ac9cb2f9795682612dbc2f2b1",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/layers/Conv_Blocks.py",
+      "path": "baselines/carots/vendor/author_code/layers/Conv_Blocks.py",
+      "expected_bytes": 2457,
+      "git_blob_sha1": "07e94b5b056d523bf47fba02eaa0f238b340c6f1",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/layers/Embed.py",
+      "path": "baselines/carots/vendor/author_code/layers/Embed.py",
+      "expected_bytes": 7096,
+      "git_blob_sha1": "2dd790d557afca967a80c460db9389ce4e743343",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/layers/SelfAttention_Family.py",
+      "path": "baselines/carots/vendor/author_code/layers/SelfAttention_Family.py",
+      "expected_bytes": 8872,
+      "git_blob_sha1": "3817b96a55b2a3c2a9629f8aaf32a7b16f9cd582",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/layers/Transformer_EncDec.py",
+      "path": "baselines/carots/vendor/author_code/layers/Transformer_EncDec.py",
+      "expected_bytes": 4929,
+      "git_blob_sha1": "dabf4c2a5e1e11a04eb4ed67785033dd259ee738",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/main.py",
+      "path": "baselines/carots/vendor/author_code/main.py",
+      "expected_bytes": 834,
+      "git_blob_sha1": "ca09093d7e1922819396ef2b73d76885c86a0888",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/__init__.py",
+      "path": "baselines/carots/vendor/author_code/models/__init__.py",
+      "expected_bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/build.py",
+      "path": "baselines/carots/vendor/author_code/models/build.py",
+      "expected_bytes": 497,
+      "git_blob_sha1": "8a445370630ce616bd7712017d66e4de70bbb04f",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/encoder.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/encoder.py",
+      "expected_bytes": 6693,
+      "git_blob_sha1": "29682d3fa54164ccb954ed0c4fbe169f0407ad84",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/loss.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/loss.py",
+      "expected_bytes": 1159,
+      "git_blob_sha1": "0ac43fa22a5032c58abcf73fd4cd9447940135c3",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/modeling_carots.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_carots.py",
+      "expected_bytes": 3305,
+      "git_blob_sha1": "3eae51a172283f7e0635b849a7a813024499bc70",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/modeling_cuts_plus.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_cuts_plus.py",
+      "expected_bytes": 6415,
+      "git_blob_sha1": "56e13faccb0531669fe7129fa2e9b837fe37b32e",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/modeling_negative_augmentor.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_negative_augmentor.py",
+      "expected_bytes": 2122,
+      "git_blob_sha1": "a8063db4b76ca94eda414aa869bbbfc8dd2b3b81",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/modeling_positive_augmentor.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/modeling_positive_augmentor.py",
+      "expected_bytes": 1214,
+      "git_blob_sha1": "8d20b1cc4a64ea408a90ac623d67ee224e89fa51",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/predictor.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/predictor.py",
+      "expected_bytes": 6699,
+      "git_blob_sha1": "c9955cc32fac5cd5d649172f3ca96de42775fa25",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/scorer_carots.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/scorer_carots.py",
+      "expected_bytes": 2637,
+      "git_blob_sha1": "fbda21e48ae66e89f2cd0fe2b4e1abc9aeafa5c6",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/trainer_carots.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/trainer_carots.py",
+      "expected_bytes": 5676,
+      "git_blob_sha1": "6eb74d3541b219e39bde5377ea1ba40315f4374d",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/trainer_cuts_plus.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/trainer_cuts_plus.py",
+      "expected_bytes": 17522,
+      "git_blob_sha1": "5506ab615b58a743bb20af45da07e817fa006c5a",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/carots/transform_layer.py",
+      "path": "baselines/carots/vendor/author_code/models/carots/transform_layer.py",
+      "expected_bytes": 746,
+      "git_blob_sha1": "bf1b3c1cf0c2a9de17707fe003d6d255b3a88d32",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/itransformer/modeling_itransformer.py",
+      "path": "baselines/carots/vendor/author_code/models/itransformer/modeling_itransformer.py",
+      "expected_bytes": 5595,
+      "git_blob_sha1": "a9a9bd4c4c34765ddbecab885c00fb73eba72a44",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/optimizer.py",
+      "path": "baselines/carots/vendor/author_code/models/optimizer.py",
+      "expected_bytes": 2237,
+      "git_blob_sha1": "f74f40f5011da580d269d2300cd489e9cf1ee978",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/timesnet/modeling_timesnet.py",
+      "path": "baselines/carots/vendor/author_code/models/timesnet/modeling_timesnet.py",
+      "expected_bytes": 4417,
+      "git_blob_sha1": "1f5b9498ea0ce13a4b57efa0346c66b15c172f41",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/timesnet/scorer_timesnet.py",
+      "path": "baselines/carots/vendor/author_code/models/timesnet/scorer_timesnet.py",
+      "expected_bytes": 795,
+      "git_blob_sha1": "797408dcc76ee7e441c417d88e30edf5ba372b1b",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/models/timesnet/trainer_timesnet.py",
+      "path": "baselines/carots/vendor/author_code/models/timesnet/trainer_timesnet.py",
+      "expected_bytes": 1302,
+      "git_blob_sha1": "d6a7e8db7788140224f15d501296aabd53da2a02",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "upstream_artifact_not_our_result",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/Graph.npy",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph.npy",
+      "expected_bytes": 10532,
+      "git_blob_sha1": "4bf95a249ec56d01c7ca666906f112e7f9bf9f1a",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/Graph_1582080.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_1582080.pdf",
+      "expected_bytes": 18023,
+      "git_blob_sha1": "4525393379859c1c355e051639048950cf38aa99",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/Graph_2373120.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_2373120.pdf",
+      "expected_bytes": 17943,
+      "git_blob_sha1": "830a971d41156b671b44861460bbdb377e900313",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/Graph_3164160.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_3164160.pdf",
+      "expected_bytes": 17918,
+      "git_blob_sha1": "d47b7b32e005a7af4616c5e8f193d1f7a33cc165",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/Graph_3955200.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_3955200.pdf",
+      "expected_bytes": 17843,
+      "git_blob_sha1": "080cb4ff6f2e3817a6d1b1d620f6a648989d45b4",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/Graph_791040.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/Graph_791040.pdf",
+      "expected_bytes": 18878,
+      "git_blob_sha1": "3935d010a0a78f20085783b6015b35d994096e9c",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "upstream_artifact_not_our_result",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/best_result.txt",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/best_result.txt",
+      "expected_bytes": 47,
+      "git_blob_sha1": "4a75f203235343914e808ffe9f08665d1907464f",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "upstream_artifact_not_our_result",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/SWaT/cuts_plus/checkpoint_best.pth",
+      "path": "baselines/carots/artifacts/upstream_results/SWaT/cuts_plus/checkpoint_best.pth",
+      "expected_bytes": 363554,
+      "git_blob_sha1": "edaaad2e8cddf7dd9a77d1d2b3977b1242891699",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "upstream_artifact_not_our_result",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/Graph.npy",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph.npy",
+      "expected_bytes": 60644,
+      "git_blob_sha1": "9427007e789b354ed555fbc19b5fc09a64735ccf",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/Graph_1254400.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_1254400.pdf",
+      "expected_bytes": 32003,
+      "git_blob_sha1": "202df5ab2ab9eb8dbe2eb4d31233afb997b4ff4e",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/Graph_2508800.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_2508800.pdf",
+      "expected_bytes": 31143,
+      "git_blob_sha1": "d21dfc10ff6fc123f99f4b83d494784fc0e96290",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/Graph_3763200.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_3763200.pdf",
+      "expected_bytes": 30661,
+      "git_blob_sha1": "9322502441d55f5de48eea4e988ab5891f429a24",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/Graph_5017600.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_5017600.pdf",
+      "expected_bytes": 30390,
+      "git_blob_sha1": "cb8252b5d613d50008a615a27a7cba86d7e67dc7",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "pdf",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/Graph_6272000.pdf",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/Graph_6272000.pdf",
+      "expected_bytes": 30287,
+      "git_blob_sha1": "74d0566de394df3bfe8b8a1e4909d2f6feff031c",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "upstream_artifact_not_our_result",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/best_result.txt",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/best_result.txt",
+      "expected_bytes": 44,
+      "git_blob_sha1": "8e0b9dc4bb05200e04a797ce463347c10cc6e431",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "upstream_artifact_not_our_result",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/results/WADI/cuts_plus/checkpoint_best.pth",
+      "path": "baselines/carots/artifacts/upstream_results/WADI/cuts_plus/checkpoint_best.pth",
+      "expected_bytes": 849794,
+      "git_blob_sha1": "9ee54d7f4364504d9a6524c563d11f2101ee880b",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/Lorenz96_collective_global.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_collective_global.sh",
+      "expected_bytes": 109,
+      "git_blob_sha1": "079a91c42edc2e25f4a231867873b675ad8db648",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/Lorenz96_collective_trend.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_collective_trend.sh",
+      "expected_bytes": 108,
+      "git_blob_sha1": "3d783557e1ece2be9322fb5a5eb7e74cfd331d44",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/Lorenz96_point_contextual.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_point_contextual.sh",
+      "expected_bytes": 107,
+      "git_blob_sha1": "d93bcb3fc6057dfea82884ac4afcec453e07b8ad",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/Lorenz96_point_global.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/Lorenz96_point_global.sh",
+      "expected_bytes": 105,
+      "git_blob_sha1": "fe36fc0524ad0e32550f3b37a7b224f6456565c0",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/MSL_P-14.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/MSL_P-14.sh",
+      "expected_bytes": 82,
+      "git_blob_sha1": "ae16ea627aff063494045261261197f7c0bf40cb",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/MSL_P-15.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/MSL_P-15.sh",
+      "expected_bytes": 80,
+      "git_blob_sha1": "4ae6e4303e112c5e1156003d396014697c288645",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/PSM.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/PSM.sh",
+      "expected_bytes": 76,
+      "git_blob_sha1": "1b3dba5e10184295447614b44ca89f33e15ee308",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/SMD_2-1.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/SMD_2-1.sh",
+      "expected_bytes": 79,
+      "git_blob_sha1": "02d2345218acbb39d27a01d3ae5f02fc0585ed21",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/SMD_3-7.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/SMD_3-7.sh",
+      "expected_bytes": 79,
+      "git_blob_sha1": "61e922f0f8aed317381553b5cb8378fb74c01731",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/SWaT.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/SWaT.sh",
+      "expected_bytes": 100,
+      "git_blob_sha1": "68789d276396fd2a773396459e3755d9e5866851",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/VAR_collective_global.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_collective_global.sh",
+      "expected_bytes": 109,
+      "git_blob_sha1": "befc94c1c0739956a26c7dd4fb44107e9810ce79",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/VAR_collective_trend.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_collective_trend.sh",
+      "expected_bytes": 107,
+      "git_blob_sha1": "0d4c838b15246404ce2cffeacf4b0593869143e8",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/VAR_point_contextual.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_point_contextual.sh",
+      "expected_bytes": 107,
+      "git_blob_sha1": "bf66e3ac99e401a80e254c4b69161e2e3833bb91",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/VAR_point_global.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/VAR_point_global.sh",
+      "expected_bytes": 103,
+      "git_blob_sha1": "d16c883aff89573b67af876aacc6e0e60ce4de7c",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/scripts/WADI.sh",
+      "path": "baselines/carots/vendor/author_code/scripts/WADI.sh",
+      "expected_bytes": 97,
+      "git_blob_sha1": "49e3685906f82c9e28568346cb506e72d1683ccd",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/threshold.py",
+      "path": "baselines/carots/vendor/author_code/threshold.py",
+      "expected_bytes": 1666,
+      "git_blob_sha1": "059d722ec123333b0503f73d1fa4c03c33048377",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/trainer.py",
+      "path": "baselines/carots/vendor/author_code/trainer.py",
+      "expected_bytes": 10489,
+      "git_blob_sha1": "849f106daf67559a931a9ce73421babbcb03c7de",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/utils/__init__.py",
+      "path": "baselines/carots/vendor/author_code/utils/__init__.py",
+      "expected_bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/utils/lr_policy.py",
+      "path": "baselines/carots/vendor/author_code/utils/lr_policy.py",
+      "expected_bytes": 2117,
+      "git_blob_sha1": "1c1c925229847777068d854825833d3146b716ee",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/utils/masking.py",
+      "path": "baselines/carots/vendor/author_code/utils/masking.py",
+      "expected_bytes": 896,
+      "git_blob_sha1": "1fe286723f2d6691df8efe9b41c8539308da097e",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/utils/meters.py",
+      "path": "baselines/carots/vendor/author_code/utils/meters.py",
+      "expected_bytes": 1817,
+      "git_blob_sha1": "9abcb7e0ebbd6913d707a34c34c774a5292ac0fe",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/utils/misc.py",
+      "path": "baselines/carots/vendor/author_code/utils/misc.py",
+      "expected_bytes": 905,
+      "git_blob_sha1": "0986c8511d22f11f6563b7c100a6b0490d0e9566",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "code_or_document",
+      "url": "https://raw.githubusercontent.com/kimanki/CAROTS/63a41f45a2ae680d5cdbb2d5739e7a11264867cb/utils/parser.py",
+      "path": "baselines/carots/vendor/author_code/utils/parser.py",
+      "expected_bytes": 2679,
+      "git_blob_sha1": "ef7076c26f8664e9f73646229faad3e426cc6b71",
+      "revision": "63a41f45a2ae680d5cdbb2d5739e7a11264867cb"
+    },
+    {
+      "baseline": "carots",
+      "kind": "html",
+      "url": "https://icml.cc/virtual/2025/poster/45960",
+      "path": "baselines/carots/artifacts/metadata/icml_presentation.html"
+    },
+    {
+      "baseline": "carots",
+      "kind": "json",
+      "url": "https://api.github.com/repos/kimanki/CAROTS/issues/4",
+      "path": "baselines/carots/artifacts/metadata/upstream_issue_4.json"
+    },
+    {
+      "baseline": "carots",
+      "kind": "json",
+      "url": "https://api.github.com/repos/kimanki/CAROTS/issues/6",
+      "path": "baselines/carots/artifacts/metadata/upstream_issue_6.json"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "json",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/PMC13402577.1.json",
+      "path": "baselines/dt_ensemble/artifacts/metadata/pmc_oa.json"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "ris",
+      "url": "https://citation-needed.springer.com/v2/references/10.1038/s41598-026-53863-z?format=refman&flavour=citation",
+      "path": "baselines/dt_ensemble/artifacts/references/paper.ris"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "ris",
+      "url": "https://citation-needed.springer.com/v2/references/10.1038/s41598-026-53863-z?format=refman&flavour=references",
+      "path": "baselines/dt_ensemble/artifacts/references/author_bibliography.ris"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "pdf",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/PMC13402577.1.pdf",
+      "path": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.pdf"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "xml",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/PMC13402577.1.xml",
+      "path": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "txt",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/PMC13402577.1.txt",
+      "path": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.txt"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "image",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/41598_2026_53863_Fig1_HTML.jpg",
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig1_HTML.jpg"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "image",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/41598_2026_53863_Fig2_HTML.jpg",
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig2_HTML.jpg"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "image",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/41598_2026_53863_Fig3_HTML.jpg",
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig3_HTML.jpg"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "image",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/41598_2026_53863_Fig4_HTML.jpg",
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Fig4_HTML.jpg"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "image",
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13402577.1/41598_2026_53863_Figa_HTML.jpg",
+      "path": "baselines/dt_ensemble/artifacts/pmc/41598_2026_53863_Figa_HTML.jpg"
+    },
+    {
+      "baseline": "dt_ensemble",
+      "kind": "pdf",
+      "url": "https://www.nature.com/articles/s41598-026-53863-z_reference.pdf",
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.pdf"
+    },
+    {
+      "baseline": "carots",
+      "kind": "html",
+      "url": "https://arxiv.org/abs/2506.03964v1",
+      "path": "baselines/carots/artifacts/metadata/arxiv_record.html"
+    },
+    {
+      "baseline": "shared",
+      "kind": "html",
+      "url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/",
+      "path": "baselines/artifacts/dataset_sources/itrust_terms.html"
+    },
+    {
+      "baseline": "shared",
+      "kind": "html",
+      "url": "https://www.sutd.edu.sg/itrust/request-for-datasets/",
+      "path": "baselines/artifacts/dataset_sources/itrust_request_form.html"
+    },
+    {
+      "baseline": "shared",
+      "kind": "html",
+      "url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/",
+      "path": "baselines/artifacts/dataset_sources/swat_characteristics.html"
+    },
+    {
+      "baseline": "shared",
+      "kind": "html",
+      "url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/wadi/",
+      "path": "baselines/artifacts/dataset_sources/wadi_characteristics.html"
+    },
+    {
+      "baseline": "shared",
+      "kind": "html",
+      "url": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/summary-of-available-datasets/",
+      "path": "baselines/artifacts/dataset_sources/itrust_dataset_summary.html"
+    },
+    {
+      "baseline": "shared",
+      "kind": "json",
+      "url": "https://huggingface.co/api/datasets/thuml/Time-Series-Library/tree/2b66e59ee19dac8f6f19fb5d4997f289fdfea357/SWaT",
+      "path": "baselines/artifacts/dataset_sources/thuml_swat_file_listing.json"
+    },
+    {
+      "baseline": "shared",
+      "kind": "json",
+      "url": "https://www.kaggle.com/api/v1/datasets/list/giovannimonco/wadi-data",
+      "path": "baselines/artifacts/dataset_sources/kaggle_wadi_file_listing.json"
+    },
+    {
+      "baseline": "shared",
+      "kind": "json",
+      "url": "https://www.kaggle.com/api/v1/datasets/view/giovannimonco/wadi-data",
+      "path": "baselines/artifacts/dataset_sources/kaggle_wadi_metadata.json"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Project brief
 
-Status: audit and setup only. Updated **16 October 2026 (Asia/Karachi)**.
+Status: source collection, reading preparation and data-access audit. Updated **16 October 2026 (Asia/Karachi)**. The later acquisition request authorizes local public resource collection; model implementation and training have not begun.
 
 Project ID: `water`. Owner: **Muhammad Usman** (project responsibility, not a final authorship decision). This project inherits [shared workspace rules](../AGENTS.md) and has its own [status/handoff](STATUS.md). Run future commands from `water/`.
 
@@ -12,7 +12,7 @@ Project ID: `water`. Owner: **Muhammad Usman** (project responsibility, not a fi
 
 Sector: water-treatment and water-distribution industrial control systems. Shared evaluation datasets: **SWaT and WADI**, with releases and access still unconfirmed. The publication window for main baseline papers is **16 October 2023–16 October 2026**, inclusive, preferably 2024–2026. This restriction concerns papers, not the age of the datasets.
 
-The mechanism, title, and novelty are not finalized. No implementation, baseline reproduction, training run, or experimental result exists in this project. Literature claims are not our measurements.
+The mechanism, title, and novelty are not finalized. No model implementation by us, baseline reproduction, training run, or experimental result exists in this project. Author source and published artifacts are now available in the [three-paper collection](baselines/README.md); literature claims are not our measurements.
 
 ## Working hypothesis, not a contribution claim
 
@@ -46,7 +46,7 @@ The observations below describe the original single-water workspace before the t
 
 Recommended first executable baseline: **CAROTS (ICML 2025), including its no-ensemble variant**, conditional on data access and resolution of code/protocol issues. An author-code run with a clean calibration threshold will be a **modified-protocol evaluation**, not a reproduction of its reported optimal-test-F1 result. The information-theoretic twin remains a later candidate for an explicitly identified independent implementation.
 
-The next milestone is an authorized, bounded baseline setup: freeze data manifests and evaluation protocol, resolve implementation issues, and pass loader/split/metric tests before training. This audit stops before that milestone. Paid compute, lengthy training, and publishing require approval.
+The immediate next milestone is structured reading of the collected papers while authorized dataset receipt remains pending. Later baseline setup must freeze data manifests and evaluation protocol, resolve implementation issues, and pass loader/split/metric tests before training. Paid compute, lengthy training, and publishing require approval.
 
 ## Shared publication and writing preferences
 

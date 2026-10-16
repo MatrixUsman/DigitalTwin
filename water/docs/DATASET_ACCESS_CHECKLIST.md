@@ -1,10 +1,10 @@
 # Dataset access and release checklist
 
-Audit date: **2026-10-16**. **No SWaT or WADI dataset files are present in the audited workspace. Access is unconfirmed.** External storage was not searched without a supplied location. No access request has been submitted.
+Audit date: **2026-10-16**. **No raw SWaT or WADI dataset files are present in the audited workspace. The user confirms that iTrust approval has not been received.** External storage was not searched without a supplied location. No access request has been submitted by the assistant; the user's own request-submission state is unverified.
 
 **User correction, 2026-10-16:** the researcher reports having a COMSATS Sahiwal student university email, superseding the earlier statement of no affiliation/email. The exact address, account status, and dataset access have not been verified. The [official COMSATS Sahiwal student-email form](https://sahiwal.comsats.edu.pk/IT_Forms/Student_Email_ID_Request_Form_converted.pdf) lists the `@students.cuisahiwal.edu.pk` domain; this establishes an institutional student-email route, not the researcher's individual account or dataset eligibility.
 
-The [current iTrust request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) requires a university/organisation email, excludes personal addresses, and shows no faculty-only requirement or student ban. A request using the researcher's own university identity/email is therefore a plausible standard route; only iTrust can confirm approval. No request or inquiry has been submitted, and access remains unconfirmed. An independent-researcher exception is no longer the immediate prerequisite. Public-paper reading can proceed while access is arranged.
+The [current iTrust request form](https://www.sutd.edu.sg/itrust/request-for-datasets/) requires a university/organisation email, excludes personal addresses, and shows no faculty-only requirement or student ban. A request using the researcher's own university identity/email is therefore a plausible standard route; only iTrust can confirm approval. No request or inquiry has been submitted by the assistant. The user's own submission state is unverified; no approval has been received. An independent-researcher exception is no longer the immediate prerequisite. Public-paper reading can proceed while access is arranged.
 
 ## Provider evidence and unresolved release choices
 
@@ -22,7 +22,7 @@ CAROTS expects names including `SWaT_Dataset_Normal_v1`, `SWaT_Dataset_Attack_v0
 
 ## Access checklist
 
-- [ ] Confirm whether the researcher already has authorized access; record the local location without copying private download URLs into tracked files.
+- [x] Confirm current access state: the user reports no iTrust approval received. A permitted acquisition source and local receipt remain outstanding.
 - [ ] If not, review the [official request page](https://www.sutd.edu.sg/itrust/request-for-datasets/) and [terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/) using the researcher's COMSATS Sahiwal student affiliation. Submission is a separate authorized action.
 - [ ] Confirm the researcher's own active university email privately and use their accurate requester identity; do not place the exact address in tracked files. The current form explicitly disallows personal email addresses but shows no faculty-only requirement or student ban. This supports attempting the standard request route, not a claim of eligibility or granted access.
 - [ ] Record the requested releases, request/approval dates, authorized users, scope, and provider terms version in ignored local records.
@@ -74,3 +74,9 @@ The user requested searches beyond iTrust. Public repository listings, metadata,
 False leads were also checked: [Conviss/visual_dataset/WADI](https://github.com/Conviss/visual_dataset/tree/main/WADI) contains a processing script, and [ICS-Evasion-Attacks/WADI](https://github.com/scy-phy/ICS-Evasion-Attacks/tree/master/Data/WADI) provides instructions/features rather than the data. AnomalyBERT and AFMF direct users to request the official data. A repository README mentioning a dataset does not establish that it hosts it.
 
 iTrust's [current terms](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/terms-of-usage/) prohibit recipient sharing. This is an unresolved permission issue for the mirrors, **not proof that any particular host lacks separate authorization**. Keep the standard university-email request as the best-supported acquisition route while retaining these alternative-source leads for verification.
+
+## Acquisition-session correction — 2026-10-16
+
+The later resource-collection task retrieved the Kaggle public metadata/file-list APIs successfully, resolving the earlier dynamic-page access limitation. Version 1 lists `WADI_14days_new.csv` (493,730,164 bytes) and `WADI_attackdataLABLE.csv` (109,308,247 bytes), with an uploader Apache 2.0 label and no provenance description. The current THUML SWaT listing was pinned at `2b66e59ee19dac8f6f19fb5d4997f289fdfea357`; exact remote sizes and LFS hashes are retained in the [acquisition record](../baselines/DATASET_ACQUISITION_STATUS.md). These observations supersede only the earlier listing-access limitation, not the permission or release-equivalence unknowns.
+
+Provider pages and mirror **metadata** are saved and hashed. Raw/processed dataset folders remain empty. The user confirms no iTrust approval; no request was submitted by the assistant. Public papers and CAROTS artifacts have been collected separately in [baseline packs](../baselines/README.md). A `.npy` graph or `.pth` causal-discoverer checkpoint in that pack is an upstream model artifact, not a received raw dataset.

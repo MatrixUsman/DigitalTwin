@@ -1,0 +1,644 @@
+{
+  "purpose": "Local reading derivatives, never benchmark results",
+  "updated_at_utc": "2026-10-16T15:39:08.784906+00:00",
+  "script_sha256": "0e3ea18b3f79e39c0a94fa48b2e1cc0f5bc63c5d9dd4385832c37304a4f7e23b",
+  "tool_versions": {
+    "pdftotext": "pdftotext version 26.10.0",
+    "pdfinfo": "pdfinfo version 26.10.0",
+    "pdftoppm": "pdftoppm version 26.10.0"
+  },
+  "artifacts": [
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/00README.json",
+      "bytes": 346,
+      "sha256": "903779af1b058d37c1ab4875f9cc1d6f314b6faf7229ab175d15c5beb19fe159",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/algorithmic.sty",
+      "bytes": 7414,
+      "sha256": "48d18794a5d97c0479a588cc2eac0917992feb9da83acc4631b8f55757d80f9b",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/algorithm.sty",
+      "bytes": 2223,
+      "sha256": "93fd0eb31c112eb405833db8f1d7f5d238c7e691b1c05680d7276e68f36d564a",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/fancyhdr.sty",
+      "bytes": 20521,
+      "sha256": "b56ec4434b9f4607529a4b23dc68ad8d4b94f1f631c8cddaf7da78140d53a5ea",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/causalit_mtx_all.pdf",
+      "bytes": 328267,
+      "sha256": "6962375d738a15b8d7eedc9c9822dd6554f05c4d7dbbbc4fa623985ea39598d4",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/causality_mtx.tex",
+      "bytes": 268,
+      "sha256": "1f0c73a8547c8f484e4dec168ac38fd387764882c26ebb81c0c8196cde184739",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/components.tex",
+      "bytes": 1097,
+      "sha256": "c0f7086931622c07f706e515f7acdb22ca87506bebd45f0865a1df317108f62d",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/components_jm_ver3.pdf",
+      "bytes": 576403,
+      "sha256": "129146eb4d23e74a76220565806c3f4b59c374c36d8d1cf5706a43e0ed9e1b56",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/overview.tex",
+      "bytes": 987,
+      "sha256": "5e8b8df3c8d3721bd87d48cd5f8a30a4e17424bf3ca85baf66b6f2b884d40b3e",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/overview_jm_ver2.pdf",
+      "bytes": 278483,
+      "sha256": "0b20ca6c7cb07bdd7edefb6ccb6f92b40ccedc065101da61f031b1e79c73b19d",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/synthetic.tex",
+      "bytes": 369,
+      "sha256": "1d275bae592c02b21bc41deeabcbde391de81423a812b40291a7d913bbcc62e7",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/synthetic_all.pdf",
+      "bytes": 152494,
+      "sha256": "b60865328298af0468f89f0106e3bf7ee1b0d3460485b04804c6c6b9749c8c67",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/tsne.tex",
+      "bytes": 261,
+      "sha256": "6f2324fb05b77e665221ad9daffc9bd78737e40d3380a3e5144f12be2179fca1",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/figure/tsne_all_ver1.pdf",
+      "bytes": 3773913,
+      "sha256": "b837ceccb641c700c4fc49a274636cb03daf60cc86b2ead13d6f3d04803b8e8b",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/icml2025.bst",
+      "bytes": 27147,
+      "sha256": "0ec3d5eb9b02efb7e0b44a32f3775882f42a743d0bdc618f34e6936309b98764",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/icml2025.sty",
+      "bytes": 28139,
+      "sha256": "a176cdb6c9a39dde2cba05731d79ac02d2fe078b8c5edad1a2b8ddac4fd43d36",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/main.bbl",
+      "bytes": 18917,
+      "sha256": "9403b6b221a6b7e1037c33e75b436e014ee4e99570c595cd458bb63cb7ca15f6",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/main.tex",
+      "bytes": 61084,
+      "sha256": "8e951b9c827709b40dffb9b363566db8d7539b6f4bcfea9678badcb0f55099ac",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/references.bib",
+      "bytes": 33306,
+      "sha256": "100a124baaaa5e1f4626b073f2e262ec8f22935bdbed48e14f4931182fc998ac",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/ablation.tex",
+      "bytes": 717,
+      "sha256": "7b913fb4267134d5cccf1610ca4f8c5a5130e05f1c306592ca0b87fb0f97bea5",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/ablation_extended.tex",
+      "bytes": 1195,
+      "sha256": "b03f4b0dc485bdad8184f2bb590336d3fe1a623507187fc9fd48b53cd1115819",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/ablation_sigma.tex",
+      "bytes": 558,
+      "sha256": "597bf777f20602afb1ea80b8e14fd61482df25931196d29cf09639b94c71675b",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/arch.tex",
+      "bytes": 582,
+      "sha256": "ca6255ae1619a5bee25ff6a25af33336b5e6f62242725a04c9c282965d7a113c",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/causal_discoverer.tex",
+      "bytes": 573,
+      "sha256": "4bfe3848559994589411379cd4fe0e9fe0d7a67b83221d4f5032c90ef3271ad3",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/computation.tex",
+      "bytes": 343,
+      "sha256": "66d3c46cfbd8169b74dfe2c10e3668569f7edb0e678d7012656d4bff7fe86b3a",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/data.tex",
+      "bytes": 911,
+      "sha256": "fc43129a12e6d81801d4955e0b9f0b4831bfcac2c06be3c6a317d30f58fe0dbd",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/filter.tex",
+      "bytes": 1171,
+      "sha256": "5bb04efb40df049a2382d8fcb857e412bc193de254eae2dd28c305c7f052d9a0",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/hparam.tex",
+      "bytes": 980,
+      "sha256": "0ab73ad84498407adf15d26c1e3230e269abf8f172e9d1ed1a3c8051b63fab75",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/main.tex",
+      "bytes": 3341,
+      "sha256": "013202b906464d5196fc0947b25f843bd8fe65b00dcb7a198ae6f0798b9df275",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/over_time.tex",
+      "bytes": 488,
+      "sha256": "085a8dfd9fd359f17e3c1d989e28529b0a29fba43d688a380d40a0e0a54be68a",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/std.tex",
+      "bytes": 3488,
+      "sha256": "14b97c099252e37fb320e6e64f5ed56ac16b6d6597e62755a1e49d58053b2144",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/source/arxiv_v1/table/synthetic.tex",
+      "bytes": 1404,
+      "sha256": "611635900e66916876aca804a54fece1e1670777a4184135791bc0b2d52f90c9",
+      "source": "baselines/carots/artifacts/source/arxiv_2506.03964v1.source",
+      "source_sha256": "da0240a60c7a310a3cf678bcb50a990ae86cba9c567c7fa20df19fe1b657ee8c",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/00README.json",
+      "bytes": 219,
+      "sha256": "88a520716cb0d85100eb2b8e8793ec06f8d2dd662ee1f82772e0e0f3424c5080",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/architecture.pdf",
+      "bytes": 54957,
+      "sha256": "026b0eea29183b259175fc7bd9124817974b01bc0885f299e53f23f748c9cf9b",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/fig_kl_timeline.pdf",
+      "bytes": 37653,
+      "sha256": "7f11ae17a841b036acc2c9cd9b74b9537d4f49f072135ede565da54cd91d8e7e",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/fig_sensitivity.pdf",
+      "bytes": 22724,
+      "sha256": "6dec116ce62329b176ad27af5c2faad69aedda7bb8fe20bed6c1544d965268b9",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/IEEEtran.cls",
+      "bytes": 281957,
+      "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/Manuscript.tex",
+      "bytes": 32248,
+      "sha256": "127645099ee0b96e4b7c4639667d79d64548bd1a08ae7290d8e374c5042dd54a",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/source/arxiv_v1/references.bib",
+      "bytes": 9281,
+      "sha256": "f89190a3c72165750ef238acd1f0db907d09251107e3a4cc2d32f8cb4b6a811b",
+      "source": "baselines/it_dt/artifacts/source/arxiv_2603.01621v1.source",
+      "source_sha256": "cda46e7e0fd77e45aa17fbcb205d8a63e73215b9e42866c03ca46cc517511753",
+      "operation": "Safe regular-file extraction; no TeX compilation"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_ICML2025.txt",
+      "bytes": 112153,
+      "sha256": "b0ddb6c31da84fc35bb37f1b141431d2a1d7f0eeb542f38f93ba891b535ee82e",
+      "source": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdf",
+      "source_sha256": "b9c8de2e1f517e0df614ae88bb8f3e1a6b1f065e2952cbfd0cd19c67b4e5b568",
+      "operation": "pdftotext -layout; reading aid, PDF remains authoritative"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdfinfo.txt",
+      "bytes": 857,
+      "sha256": "684fa0255173052977bf7c725f95b609fe8a599efd43c33825afed3771cbad11",
+      "source": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdf",
+      "source_sha256": "b9c8de2e1f517e0df614ae88bb8f3e1a6b1f065e2952cbfd0cd19c67b4e5b568",
+      "operation": "pdfinfo"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.txt",
+      "bytes": 114328,
+      "sha256": "aaf498dd6aa796f346e818afe33cad24fa4f74da18acedb0529c5ea873417ebc",
+      "source": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.pdf",
+      "source_sha256": "b8e6e9d9ef46e21f41872fe463fe754d82978692220a655f6d02bdfa8813832d",
+      "operation": "pdftotext -layout; reading aid, PDF remains authoritative"
+    },
+    {
+      "path": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.pdfinfo.txt",
+      "bytes": 588,
+      "sha256": "7e39a29afa6c8a32e4bc43163814a09978acd326c303c029b79ddcaca7fe8686",
+      "source": "baselines/carots/artifacts/papers/CAROTS_arxiv_2506.03964v1.pdf",
+      "source_sha256": "b8e6e9d9ef46e21f41872fe463fe754d82978692220a655f6d02bdfa8813832d",
+      "operation": "pdfinfo"
+    },
+    {
+      "path": "baselines/carots/artifacts/previews/first_page.png",
+      "bytes": 366080,
+      "sha256": "e8535e67cc5af3ca5c668059aa5d0bf85b21a0d623ed80c2fd62986c9560d300",
+      "source": "baselines/carots/artifacts/papers/CAROTS_ICML2025.pdf",
+      "source_sha256": "b9c8de2e1f517e0df614ae88bb8f3e1a6b1f065e2952cbfd0cd19c67b4e5b568",
+      "operation": "pdftoppm first page, 1200px preview"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.txt",
+      "bytes": 57169,
+      "sha256": "18a94d1b9318cf7d2fd39346fff65d23d20b4016c1577d309edfe3bf529478a6",
+      "source": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdf",
+      "source_sha256": "b503dc34b798c24e95861fbbc9f1d50c22b2294222d9755e6c6c73095d610dad",
+      "operation": "pdftotext -layout; reading aid, PDF remains authoritative"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdfinfo.txt",
+      "bytes": 658,
+      "sha256": "a9c5be32707b0da51f05ed1194c0bc4e7c48bbb20119e8a589d7c5e6578c93d5",
+      "source": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdf",
+      "source_sha256": "b503dc34b798c24e95861fbbc9f1d50c22b2294222d9755e6c6c73095d610dad",
+      "operation": "pdfinfo"
+    },
+    {
+      "path": "baselines/it_dt/artifacts/previews/first_page.png",
+      "bytes": 373299,
+      "sha256": "8a4c267006a976f21edab905a8c2d5d1875573459056c41befef1e3ba1bbf182",
+      "source": "baselines/it_dt/artifacts/papers/IT_DT_arxiv_2603.01621v1.pdf",
+      "source_sha256": "b503dc34b798c24e95861fbbc9f1d50c22b2294222d9755e6c6c73095d610dad",
+      "operation": "pdftoppm first page, 1200px preview"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.txt",
+      "bytes": 118362,
+      "sha256": "b36edfb5a91902963a6383f0f74cd8ecb38bf75fe4778bf8b1d03a33a752cd98",
+      "source": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdf",
+      "source_sha256": "63edb383163250d89de7e0111010b4733563b12a094cc48655d8707de919181d",
+      "operation": "pdftotext -layout; reading aid, PDF remains authoritative"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdfinfo.txt",
+      "bytes": 587,
+      "sha256": "6c63a7616c9309ad5d41b9bac08267c43e7dc89c0797f09f71790dd015148202",
+      "source": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdf",
+      "source_sha256": "63edb383163250d89de7e0111010b4733563b12a094cc48655d8707de919181d",
+      "operation": "pdfinfo"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.txt",
+      "bytes": 111271,
+      "sha256": "8118d85ff8c146c90aac94073b1c047d7fea0426f43a7993e78d7b4d9fdc432d",
+      "source": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.pdf",
+      "source_sha256": "6b71012c8190dddd9b212023a7914e52fa1d95e8d6d912ab96e5a2c258fe13d1",
+      "operation": "pdftotext -layout; reading aid, PDF remains authoritative"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.pdfinfo.txt",
+      "bytes": 566,
+      "sha256": "30b5f81bb57ff0903b0b19bcfacea891842505dd132c004df0076681fd4a7feb",
+      "source": "baselines/dt_ensemble/artifacts/papers/Ensemble_accepted_manuscript.pdf",
+      "source_sha256": "6b71012c8190dddd9b212023a7914e52fa1d95e8d6d912ab96e5a2c258fe13d1",
+      "operation": "pdfinfo"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/previews/first_page.png",
+      "bytes": 260401,
+      "sha256": "1e3ccb7b5f3d778b043af45791bde6bb66df04ac2a6c735e99428e0b7573d2a5",
+      "source": "baselines/dt_ensemble/artifacts/papers/Ensemble_ScientificReports_VOR.pdf",
+      "source_sha256": "63edb383163250d89de7e0111010b4733563b12a094cc48655d8707de919181d",
+      "operation": "pdftoppm first page, 1200px preview"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_01.xml",
+      "bytes": 6919,
+      "sha256": "796614d8db97ab05da1d1fb6bbe9e47c2d8ab0515a608d5e84f9eecfc4ff85bf",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_01.txt",
+      "bytes": 2870,
+      "sha256": "e33ca1816e3163684a380440ee4299f6f18fb682c5f7f309ea9e3c5823fc3417",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_02.xml",
+      "bytes": 1492,
+      "sha256": "3a664d7f210e95ff21f47a1f9d0e5786e3a210ad1a1ad8ebec189b699ac1ff69",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_02.txt",
+      "bytes": 242,
+      "sha256": "c91d148620c793d812697967f99d87d0f6c137acbae40fc06975ebb9d0b4720b",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_03.xml",
+      "bytes": 3007,
+      "sha256": "dc9d02767ea857e7fed1ad83f66d529b5b8e3ced33620372d371cbb148fe19fb",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_03.txt",
+      "bytes": 367,
+      "sha256": "50542b8555a7952a848a7f7e61a38c3cda3fded62c9e483e7e476bd775c350e9",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_04.xml",
+      "bytes": 4320,
+      "sha256": "16fef7df674babbe724aded9eb05761c65a166610abb7357bba860c25ce2eba4",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_04.txt",
+      "bytes": 2190,
+      "sha256": "9df1c2cc49e798d65b5d6f54efefb2c7823e54ab58fcf6968c6281e6ae22c6cb",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_05.xml",
+      "bytes": 1684,
+      "sha256": "59476d689078c892e7adf176030aaf1b65205715166e315a8ab65daedca8687d",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_05.txt",
+      "bytes": 348,
+      "sha256": "11474cb5ad83d5d37203ccd018f2a68b822ab0b3d9460328cdb65b61ba6f6918",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_06.xml",
+      "bytes": 3052,
+      "sha256": "4175c716f2be9cfc47581b1d3cc8bd00bee84beb55ab472c4dbd713035254c5e",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_06.txt",
+      "bytes": 1326,
+      "sha256": "9e32d8aa04b96f2a330e3e5ff85acfe8872b1bc034868f45c629908661740b10",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_07.xml",
+      "bytes": 6926,
+      "sha256": "f3a4372c6f840caf9c3327919a90a8f2537fa4a826e3a6ce474f05160e6c48db",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/tables_07.txt",
+      "bytes": 3743,
+      "sha256": "9b1f1d2e57af8978cbcebd853c016c130c9f58bd075dbefbe8309484cd4f7a46",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_01.xml",
+      "bytes": 349,
+      "sha256": "b6f0c2ee81c71a9f633c84237ab4166fff2778cd781a53789293489e6c8bc5b4",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_01.txt",
+      "bytes": 59,
+      "sha256": "cd862154db2ffca07ce5fc8a0e98e198398548ff926ea22e4ef44d45fcae9bda",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_02.xml",
+      "bytes": 4933,
+      "sha256": "11b68261c8bf08693aa4c0bc27139611b7298c931e20a281b6e015644d42a6bf",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_02.txt",
+      "bytes": 3512,
+      "sha256": "bf0345a9cd491269e68733a6a3700ecdb1da8186a55c6bc92db9a7ffc1ce9433",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_03.xml",
+      "bytes": 878,
+      "sha256": "9527a59381a442a9d8b6b4dcf3a26ce08e2e0a770f04dc05a3c9182b2e93819f",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_03.txt",
+      "bytes": 583,
+      "sha256": "c44f4a2cba4404e920a745011f324c6f12c9452b3274d08ad0ede0a64c591482",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_04.xml",
+      "bytes": 901,
+      "sha256": "dba21acd79e0aaec4d0e0655d70352637030b91d35f44a367efe2c03494f847b",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_04.txt",
+      "bytes": 612,
+      "sha256": "fd2732b6827d8dbef0664d3e04c7a72784c4c742197d6994735aa397f0e574a4",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_05.xml",
+      "bytes": 937,
+      "sha256": "cd3abfc1963554e284f20d143fa6b868077bfcf2f71ce45b8acd74a4189bf929",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/figures_05.txt",
+      "bytes": 643,
+      "sha256": "636a1852bff018ab835a2411f936a4ca8cf0ef30f3ea6fa119dc1ee6315611e2",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/references_01.xml",
+      "bytes": 24505,
+      "sha256": "8ab43f0ff6bc41ef53cc0437041b1978d334302cacfdcda886dbee580c81fcbf",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "ElementTree extraction; XML serialization may differ, content retained"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/references_01.txt",
+      "bytes": 9119,
+      "sha256": "3f98509f55ff5fd6599e51142d2aaedd8005e566b83842231b2cfeacfef9e9e7",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "Plain text from XML element; formatting lost, not numerical experiment data"
+    },
+    {
+      "path": "baselines/dt_ensemble/artifacts/extracted/INDEX.json",
+      "bytes": 1511,
+      "sha256": "54ae730ecca8ba08013dcf7f59564f4536a2ef3b64910b074ded08c5eb1348ee",
+      "source": "baselines/dt_ensemble/artifacts/pmc/PMC13402577.1.xml",
+      "source_sha256": "2e4321a845ce9241ac5c02006115c96f2e125709b6993e8645f299b467e082a6",
+      "operation": "XML element inventory"
+    }
+  ]
+}

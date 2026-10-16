@@ -8,6 +8,8 @@ For the beginner-friendly sequence, follow the **[detailed water research roadma
 
 Current priority: **[study the three selected learning papers](docs/BASELINE_SELECTION_REPORT.md)**: CAROTS → IT-DT → the ensemble. The expanded search applied the [selection criteria](docs/BASELINE_SELECTION_CRITERIA.md); learning priorities and experimental admission remain separate, and no three-method numerical comparison is finalized.
 
+The **[local baseline resource collection](baselines/README.md)** now contains their PDFs, available code, original figures/tables, bibliographies and study guides. [Dataset acquisition remains unresolved](baselines/DATASET_ACQUISITION_STATUS.md): public mirrors were found, but SWaT/WADI approval and release equivalence are not established.
+
 | Location | Purpose |
 |---|---|
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
@@ -16,15 +18,15 @@ Current priority: **[study the three selected learning papers](docs/BASELINE_SEL
 | [docs/REPRODUCTION_PLAN.md](docs/REPRODUCTION_PLAN.md) | Proposed evaluation, implementation and verification |
 | [papers/](papers/README.md) | Reading notes and privately stored full texts |
 | [datasets/](datasets/README.md) | Separate raw/processed data and release manifests |
-| [baselines/](baselines/README.md) | Upstream-method provenance and future checkouts |
+| [baselines/](baselines/README.md) | Three paper/resource folders, pinned CAROTS source and provenance |
 | [configs/](configs/README.md) | Future explicit dataset/protocol/method configurations |
 | [src/](src/README.md) | Future project implementation |
 | [tests/](tests/README.md) | Planned correctness and leakage checks |
 | [experiments/](experiments/README.md) | Future run records and results |
 | [manuscript/](manuscript/README.md) | Future paper and contribution records |
 
-CAROTS and CAROTS-dagger are conditional first baselines. See the audited evidence before any checkout or execution.
+CAROTS and CAROTS-dagger are conditional first baselines. Source files are collected; see the audited evidence before installation or execution.
 
 Run future commands from `water/`; its local `.venv/`, fitted preprocessing, data, and results must not depend on sibling-project state. Dataset authorization is checked per user, not inferred from folder ownership. The [shared research skill](../.agents/skills/academic-research-suite/SKILL.md) remains at the workspace root; its generated state belongs here.
 
-See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. Current work is planning and source audit, not model execution.
+See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. Current work is source collection, reading and data-access audit; no model execution has begun.

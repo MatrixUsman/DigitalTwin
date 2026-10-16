@@ -2,7 +2,7 @@
 
 This project belongs to **Muhammad Usman** and concerns cybersecurity of water-treatment and water-distribution industrial control systems. It inherits `../AGENTS.md`; these local instructions retain the original water requirements. Read `PROJECT_BRIEF.md`, `STATUS.md`, `docs/LITERATURE_EVIDENCE.md`, and `docs/REPRODUCTION_PLAN.md` before experimental work. All local paths below resolve from `water/`. Ownership is not a final authorship decision.
 
-Keep data under local `datasets/raw/` and `datasets/processed/`, author-code checkouts under `baselines/vendor/`, runs under `experiments/runs/`, and environments under local `.venv/` or `.venv-<method>/`. Do not use manufacturing or grid data/state, or propagate the SWaT/WADI requirement into those projects. Shared skill/machine records remain in `../docs/`.
+Keep data under local `datasets/raw/` and `datasets/processed/`, author-code snapshots under `baselines/<method>/vendor/author_code/` (or the legacy `baselines/vendor/` location), runs under `experiments/runs/`, and environments under local `.venv/` or `.venv-<method>/`. The user requested a separate resource folder for each baseline; put its paper/source artifacts in ignored `baselines/<method>/artifacts/`, preserving provenance. Do not use manufacturing or grid data/state, or propagate the SWaT/WADI requirement into those projects. Shared skill/machine records remain in `../docs/`.
 
 ## Scope and current state
 
