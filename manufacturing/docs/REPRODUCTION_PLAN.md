@@ -2,6 +2,8 @@
 
 Planning updated 16 October 2026 after the user authorized original-CASPER acquisition, manuscript follow-up, Step 0 teaching and a fair comparison protocol. Receipt/structural inspection and targeted manuscript/code collection are complete within their documented coverage; no environment, dependency installation, simulator execution or training has occurred. Read the newer [comparison protocol](COMPARISON_PROTOCOL.md) for explicit separate information-access groups, split/calibration proposals and unresolved gates.
 
+**Later scope decision:** the [selected question and threat model](RESEARCH_QUESTION_AND_THREAT_MODEL.md) now prioritize normal-only right-arm state/progression monitoring under a restricted command-path adversary. The [annotation/feature/split specification](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) is defined for design review. Begin future software work with its loader/isolation/metrics checks, then simple velocity/template/AR controls and normal-only state-model validation. The paper-specific reproduction proposals below remain separate; they do not automatically define the main experimental comparison or authorize training.
+
 ## 1. Resolve the setting and evidence
 
 Prioritize original CASPER industrial robotic-arm pick-and-place observations. Receipt hashes and a structural profile are recorded in the [identity audit](CASPER_DATASET_IDENTITY.md); cross-clock annotation and scientific suitability remain separate issues. Define malicious interventions separately from faults and authorized speed/task changes. Specify the evaluation target: anomaly detection, attack classification, or command/sequence consistency. Do not promise attack attribution from anomaly scores alone.

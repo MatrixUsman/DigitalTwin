@@ -4,7 +4,7 @@
 
 - Origin skill: academic-research-suite, experiment-agent planning guidance; project rules take precedence.
 - Origin date: 2026-10-16.
-- Version label: `manufacturing_casper_protocol_v0.1`.
+- Version label: `manufacturing_casper_protocol_v0.2` — selected right-arm track added; earlier IMU/supervised proposals retained separately.
 - Verification status: **PROPOSED / NOT EXECUTED**. This is an engineering comparison contract, not a registered study, experiment result or validated statistical design.
 - Scope: offline evaluation of robotic-motion deviation detection using original CASPER. No training, cloud deployment or attack execution authorized by this document.
 
@@ -13,6 +13,8 @@
 The user authorized collection, exact identification, manuscript follow-up and a fair protocol before training. The rules below are fixed for this planning stage without looking at detector performance. Exact partitions/features/event annotations must be recorded in a machine-readable manifest before execution. If the data cannot support them, change the plan transparently **before** inspecting final model scores; do not fill missing labels or independent runs by assumption.
 
 Use [CASPER_DATASET_IDENTITY.md](CASPER_DATASET_IDENTITY.md) for received-byte evidence and [MANUSCRIPT_COLLECTION_AUDIT.md](MANUSCRIPT_COLLECTION_AUDIT.md) for current paper/code coverage. Those documents, not an earlier access-only record, govern the latest receipt status. Dataset identity does not establish trustworthy time alignment or attack ground truth.
+
+**Current selection:** the user subsequently requested a feasible question/threat model and exact annotation/features/splits. The [decision](RESEARCH_QUESTION_AND_THREAT_MODEL.md) selects **Group D** below; its [versioned contract](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) supplies exact ranges and supersedes generic split/primary-metric proposals in this document **for Group D only**. It does not silently alter or complete Group A/B. Read [the latest identity register](DATASET_IDENTITY_REGISTER.md) for six-file integrity and clock evidence. No final architecture, score implementation or run is approved merely by this specification.
 
 The later [sensor-schema audit](CASPER_SENSOR_SCHEMA.md) validates all nested controller fields and supports boot-relative seconds through a matched capture source and official definitions; original execution provenance and cross-device timing remain unresolved. The [annotation lineage study](CASPER_ANNOTATION_LINEAGE.md) derives **1,529 raw observations of support** for the inspected CASPER CNN score (median + prediction + residual aggregation). This is an audit of upstream behavior, not a newly frozen window choice or a reason to claim seconds for untimestamped IMU data.
 
@@ -25,8 +27,11 @@ Scientific target: detect documented changes to robot motion under an explicit o
 | **A: external-sensor, normal-only detection** | Original IMU signals available by decision time; prediction formed before the measurement it predicts, then compared with that measurement. Model/configuration development uses designated normal data. Attack labels remain evaluator-only. | CASPER 1D-CNN is the conditional first method. A later twin or simple predictor can join only with the same channels/history and normal-only access. This group tests motion deviations detectable from an external sensor. |
 | **B: controller-telemetry, supervised classification** | Same allowlisted controller features and labelled development episodes for every method; disjoint final episodes. Normal calibration reserved separately. | TWINE's random forest and a declared independent CatBoost implementation are candidates after full specifications and splits are resolved. Neither is a normal-only comparator as originally described. This group tests classification with controller telemetry and attack-labelled training. |
 | **C: added context/sensor fusion, future work only** | Explicit additional trusted commands, phase estimates or external references with availability times documented. | Separate information-access experiment, with controls receiving the same extra evidence. Not authorized implementation and not a current novelty claim. |
+| **D: right-arm controller telemetry, normal-only — selected main feasibility track** | Six actual joint positions, six actual joint velocities and relative elapsed time for propagation/gap handling; no labels or absolute-time/index features. Reference/model fitting and selection use designated initial scheduled-normal partitions. | Command-path speed manipulation with truthful monitoring telemetry/time assumed. Simple velocity/template/AR controls and a candidate synchronized motion twin; controller-input CNN would be a modified implementation. No claim of resistance to telemetry forgery or faithful three-paper reproduction. |
 
 **There is no approved single three-way ranking of the published implementations.** Same CASPER filenames do not equal same input information, labels or supervision. An algorithm ported to different channels or a different learning objective is a modified method/reimplementation. Do not present a random-forest regressor as a faithful reproduction of TWINE's classifier merely to place it in Group A.
+
+Group D uses the recorded right-arm schedule flags, not copied IMU/manual labels. The primary fitting/development/calibration prefix ends at row 864003; held-out normal begins there, followed continuously by all changed-speed/recovery records. See the contract for exact half-open boundaries, gap reset and warmup policy. Event labels never trigger state resets. Point-level schedule agreement and held-out-normal burden/coverage are reported together; eight long event hit counts alone cannot establish benefit. Model-specific normal-only initialization, transforms and score definitions remain to be specified before any execution.
 
 ## 2. Source and label contract
 

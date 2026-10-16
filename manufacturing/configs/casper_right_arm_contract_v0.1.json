@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "manufacturing-casper-right-arm-v0.1",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "created_at_utc": "2026-10-16T18:27:01.036751+00:00",
+  "status": "frozen_for_design_review_not_execution_admitted",
+  "training_authorized_by_this_file": false,
+  "purpose": "normal-only right-arm motion deviation comparison; not three-way attack/fault/authorized-change attribution",
+  "dataset": {
+    "release_key": "original-casper-v3:sha256:07f2daf948c8244c396c7b4d2fe4c475880a3a6577f982fc1738b5379b0e5409",
+    "provider_version": 3,
+    "source_file": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+    "source_bytes": 1978193094,
+    "source_sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+    "data_rows": 1762650,
+    "index_convention": "zero-based data rows excluding header; all ranges half-open",
+    "csv_record_one_based": "data_row + 2",
+    "other_dataset_members_permitted": false,
+    "physical_subject": "right UR3e arm in the original repetitive pick-and-place collection"
+  },
+  "evidence": [
+    {
+      "path": "datasets/manifests/casper_v3_receipt.json",
+      "sha256": "9c9bbc1b6a957fdbe2acebbca7c5df4f2517d2136b6b0cd29e4d0682e66b6e3a"
+    },
+    {
+      "path": "datasets/manifests/casper_v3_identity.json",
+      "sha256": "1e0ddcda07a24e9a9547a9167ae3f28092a941fcc295240af2a16b585300fbe5"
+    },
+    {
+      "path": "datasets/manifests/casper_v3_integrity_recheck.json",
+      "sha256": "5540d3089d5745e10a6c6e0ad39db40d2786768c0216f207e6ab6f3e29907ec4"
+    },
+    {
+      "path": "datasets/manifests/casper_controller_schema_audit.json",
+      "sha256": "4431ca88eae53c9f83e526f3e4d27151fd5f899adf2b251cd588063507b4a8ac"
+    },
+    {
+      "path": "local/casper_v3_receipt/schema_profile.json",
+      "sha256": "3863f3e6a3cdb7abb3c5d42bee687e09228a242176566281560c3c2af980722e"
+    },
+    {
+      "path": "local/casper_release_audit/label_time_review.json",
+      "sha256": "368986db3aeb50d2ca670cb39e3d0916b5136c528bb99f3e19abf2e8dbe6d704"
+    },
+    {
+      "path": "local/right_arm_contract_review/boundary_and_gap_receipt.json",
+      "sha256": "7ddc27f33c8e71ae66037c2b9600a2ec1ff201011b477c8690d5dd3b5fb43b16"
+    }
+  ],
+  "annotations": {
+    "version": "recorded-controller-schedule-v0.1",
+    "column": "Anomaly State",
+    "semantics": "recorded shared application schedule flag for documented changed-speed intervals",
+    "truth_limits": [
+      "not physical-effect onset",
+      "not independent malicious-intent truth",
+      "not attack-versus-fault ground truth"
+    ],
+    "positive_value": "1",
+    "zero_value": "0",
+    "total_positive_rows": 345602,
+    "positive_events": [
+      {
+        "event_ordinal_by_recorded_flag": 1,
+        "row_index_half_open": [
+          1080004,
+          1123205
+        ],
+        "positive_rows": 43201,
+        "previous_record": {
+          "row_zero_based": 1080003,
+          "csv_record_one_based": 1080005,
+          "timestamp_serialized": "311258.326",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1080004,
+          "csv_record_one_based": 1080006,
+          "timestamp_serialized": "311258.376",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1123204,
+          "csv_record_one_based": 1123206,
+          "timestamp_serialized": "313418.376",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1123205,
+          "csv_record_one_based": 1123207,
+          "timestamp_serialized": "313418.426",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2160.000",
+        "first_positive_to_next_record_native_time": "2160.050",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 2,
+        "row_index_half_open": [
+          1166405,
+          1209605
+        ],
+        "positive_rows": 43200,
+        "previous_record": {
+          "row_zero_based": 1166404,
+          "csv_record_one_based": 1166406,
+          "timestamp_serialized": "315578.376",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1166405,
+          "csv_record_one_based": 1166407,
+          "timestamp_serialized": "315578.426",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1209604,
+          "csv_record_one_based": 1209606,
+          "timestamp_serialized": "317738.376",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1209605,
+          "csv_record_one_based": 1209607,
+          "timestamp_serialized": "317738.426",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2159.950",
+        "first_positive_to_next_record_native_time": "2160.000",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 3,
+        "row_index_half_open": [
+          1252805,
+          1296005
+        ],
+        "positive_rows": 43200,
+        "previous_record": {
+          "row_zero_based": 1252804,
+          "csv_record_one_based": 1252806,
+          "timestamp_serialized": "319898.376",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1252805,
+          "csv_record_one_based": 1252807,
+          "timestamp_serialized": "319898.426",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1296004,
+          "csv_record_one_based": 1296006,
+          "timestamp_serialized": "322058.376",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1296005,
+          "csv_record_one_based": 1296007,
+          "timestamp_serialized": "322058.426",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2159.950",
+        "first_positive_to_next_record_native_time": "2160.000",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 4,
+        "row_index_half_open": [
+          1339205,
+          1382405
+        ],
+        "positive_rows": 43200,
+        "previous_record": {
+          "row_zero_based": 1339204,
+          "csv_record_one_based": 1339206,
+          "timestamp_serialized": "324218.376",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1339205,
+          "csv_record_one_based": 1339207,
+          "timestamp_serialized": "324218.426",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1382404,
+          "csv_record_one_based": 1382406,
+          "timestamp_serialized": "326378.376",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1382405,
+          "csv_record_one_based": 1382407,
+          "timestamp_serialized": "326378.426",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2159.950",
+        "first_positive_to_next_record_native_time": "2160.000",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 5,
+        "row_index_half_open": [
+          1425606,
+          1468806
+        ],
+        "positive_rows": 43200,
+        "previous_record": {
+          "row_zero_based": 1425605,
+          "csv_record_one_based": 1425607,
+          "timestamp_serialized": "328538.426",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1425606,
+          "csv_record_one_based": 1425608,
+          "timestamp_serialized": "328538.47599999997",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1468805,
+          "csv_record_one_based": 1468807,
+          "timestamp_serialized": "330698.426",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1468806,
+          "csv_record_one_based": 1468808,
+          "timestamp_serialized": "330698.47599999997",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2159.95000000003",
+        "first_positive_to_next_record_native_time": "2160.00000000000",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 6,
+        "row_index_half_open": [
+          1512006,
+          1555206
+        ],
+        "positive_rows": 43200,
+        "previous_record": {
+          "row_zero_based": 1512005,
+          "csv_record_one_based": 1512007,
+          "timestamp_serialized": "332858.426",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1512006,
+          "csv_record_one_based": 1512008,
+          "timestamp_serialized": "332858.47599999997",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1555205,
+          "csv_record_one_based": 1555207,
+          "timestamp_serialized": "335018.426",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1555206,
+          "csv_record_one_based": 1555208,
+          "timestamp_serialized": "335018.47599999997",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2159.95000000003",
+        "first_positive_to_next_record_native_time": "2160.00000000000",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 7,
+        "row_index_half_open": [
+          1598406,
+          1641606
+        ],
+        "positive_rows": 43200,
+        "previous_record": {
+          "row_zero_based": 1598405,
+          "csv_record_one_based": 1598407,
+          "timestamp_serialized": "337178.426",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1598406,
+          "csv_record_one_based": 1598408,
+          "timestamp_serialized": "337178.47599999997",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1641605,
+          "csv_record_one_based": 1641607,
+          "timestamp_serialized": "339338.426",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1641606,
+          "csv_record_one_based": 1641608,
+          "timestamp_serialized": "339338.47599999997",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2159.95000000003",
+        "first_positive_to_next_record_native_time": "2160.00000000000",
+        "label_transition_brackets_only_not_physical_onsets": true
+      },
+      {
+        "event_ordinal_by_recorded_flag": 8,
+        "row_index_half_open": [
+          1684806,
+          1728007
+        ],
+        "positive_rows": 43201,
+        "previous_record": {
+          "row_zero_based": 1684805,
+          "csv_record_one_based": 1684807,
+          "timestamp_serialized": "341498.426",
+          "label_serialized": "0"
+        },
+        "first_positive_record": {
+          "row_zero_based": 1684806,
+          "csv_record_one_based": 1684808,
+          "timestamp_serialized": "341498.47599999997",
+          "label_serialized": "1"
+        },
+        "last_positive_record": {
+          "row_zero_based": 1728006,
+          "csv_record_one_based": 1728008,
+          "timestamp_serialized": "343658.47599999997",
+          "label_serialized": "1"
+        },
+        "next_record": {
+          "row_zero_based": 1728007,
+          "csv_record_one_based": 1728009,
+          "timestamp_serialized": "343658.526",
+          "label_serialized": "0"
+        },
+        "first_positive_to_last_positive_native_time": "2160.00000000000",
+        "first_positive_to_next_record_native_time": "2160.05000000003",
+        "label_transition_brackets_only_not_physical_onsets": true
+      }
+    ],
+    "all_schedule_runs": [
+      {
+        "label": "0",
+        "start_row_inclusive": 0,
+        "end_row_exclusive": 1080004
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1080004,
+        "end_row_exclusive": 1123205
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1123205,
+        "end_row_exclusive": 1166405
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1166405,
+        "end_row_exclusive": 1209605
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1209605,
+        "end_row_exclusive": 1252805
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1252805,
+        "end_row_exclusive": 1296005
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1296005,
+        "end_row_exclusive": 1339205
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1339205,
+        "end_row_exclusive": 1382405
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1382405,
+        "end_row_exclusive": 1425606
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1425606,
+        "end_row_exclusive": 1468806
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1468806,
+        "end_row_exclusive": 1512006
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1512006,
+        "end_row_exclusive": 1555206
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1555206,
+        "end_row_exclusive": 1598406
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1598406,
+        "end_row_exclusive": 1641606
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1641606,
+        "end_row_exclusive": 1684806
+      },
+      {
+        "label": "1",
+        "start_row_inclusive": 1684806,
+        "end_row_exclusive": 1728007
+      },
+      {
+        "label": "0",
+        "start_row_inclusive": 1728007,
+        "end_row_exclusive": 1762650
+      }
+    ],
+    "initial_scheduled_normal_prefix": [
+      0,
+      1080004
+    ],
+    "initial_prefix_trust": "commissioning assumption drawn from study design; zero flag is not proof of uncompromised operation",
+    "later_zero_rows": "recovery/inter-event scheduled-zero; retained for evaluation and never admitted to training/development/calibration",
+    "physical_onset_uncertainty_seconds": null,
+    "label_access_at_runtime": "evaluator only; never detector, state reset, model selection or threshold fitting",
+    "no_imu_manual_annotations_or_synthetic_percentile_targets": true
+  },
+  "features": {
+    "observation_channel_count": 12,
+    "observed_channels": [
+      {
+        "source_column": "Actual Joint Positions",
+        "vector_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "name": "q",
+        "unit": "radian"
+      },
+      {
+        "source_column": "Actual Joint Velocities",
+        "vector_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "name": "qdot",
+        "unit": "radian_per_second"
+      }
+    ],
+    "time_context": {
+      "source_column": "Timestamp",
+      "derived_value": "current_minus_previous_timestamp_within_same_stream_segment",
+      "unit": "second",
+      "use": "state propagation and gap handling; no absolute-time regression feature",
+      "first_record_delta": null,
+      "origin": "controller startup; no UTC conversion"
+    },
+    "excluded_source_columns": [
+      "Actual Joint Currents",
+      "Actual Cartesian Coordinates",
+      "Actual Tool Speed",
+      "Generalized Forces",
+      "Temperature of Each Joint",
+      "Execution Time",
+      "Safety Status",
+      "Tool Acceleration",
+      "Norm of Cartesion Linear Momentum",
+      "Robot Current",
+      "Joint Voltages",
+      "Elbow Position",
+      "Elbow Velocity",
+      "Tool Current",
+      "Tool Temperature",
+      "TCP Force",
+      "Anomaly State"
+    ],
+    "excluded_other_inputs": [
+      "absolute timestamp",
+      "global or segment row index as a detector feature",
+      "schedule/event IDs or boundaries",
+      "anomaly-label derivatives",
+      "left-arm telemetry",
+      "external IMU",
+      "network capture",
+      "command targets",
+      "speed-scaling signals",
+      "future observations or summaries",
+      "trusted task/phase labels that are absent from the data"
+    ],
+    "joint_order": [
+      "base",
+      "shoulder",
+      "elbow",
+      "wrist_1",
+      "wrist_2",
+      "wrist_3"
+    ],
+    "latent_phase": "may be estimated causally from allowed history; no supplied phase truth or authenticated commands; observed qdot must not silently redefine nominal authorized progression",
+    "trust": "received q, qdot and elapsed clock assumed uncompromised; authentication not established by dataset"
+  },
+  "partitions": {
+    "rule": "cumulative floor(N*percentage/100), N=1080004, percentages=[0,50,65,80,100]",
+    "boundaries": [
+      0,
+      540002,
+      702002,
+      864003,
+      1080004
+    ],
+    "normal_blocks": [
+      {
+        "id": "training",
+        "rows_half_open": [
+          0,
+          540002
+        ],
+        "raw_rows": 540002,
+        "first_record": {
+          "row_zero_based": 0,
+          "csv_record_one_based": 2,
+          "timestamp_serialized": "257258.126",
+          "label_serialized": "0"
+        },
+        "last_record": {
+          "row_zero_based": 540001,
+          "csv_record_one_based": 540003,
+          "timestamp_serialized": "284258.22599999997",
+          "label_serialized": "0"
+        },
+        "label_access": "normal-prefix membership only; not attack labels",
+        "role": "fit transforms and reference/model parameters",
+        "reset_at_start": true
+      },
+      {
+        "id": "development",
+        "rows_half_open": [
+          540002,
+          702002
+        ],
+        "raw_rows": 162000,
+        "first_record": {
+          "row_zero_based": 540002,
+          "csv_record_one_based": 540004,
+          "timestamp_serialized": "284258.276",
+          "label_serialized": "0"
+        },
+        "last_record": {
+          "row_zero_based": 702001,
+          "csv_record_one_based": 702003,
+          "timestamp_serialized": "292358.22599999997",
+          "label_serialized": "0"
+        },
+        "label_access": "normal-prefix membership only; not attack labels",
+        "role": "normal-only architecture/hyperparameter/checkpoint selection",
+        "reset_at_start": true
+      },
+      {
+        "id": "normal_calibration",
+        "rows_half_open": [
+          702002,
+          864003
+        ],
+        "raw_rows": 162001,
+        "first_record": {
+          "row_zero_based": 702002,
+          "csv_record_one_based": 702004,
+          "timestamp_serialized": "292358.276",
+          "label_serialized": "0"
+        },
+        "last_record": {
+          "row_zero_based": 864002,
+          "csv_record_one_based": 864004,
+          "timestamp_serialized": "300458.276",
+          "label_serialized": "0"
+        },
+        "label_access": "normal-prefix membership only; not attack labels",
+        "role": "fit the fixed alarm threshold only, after model selection",
+        "reset_at_start": true
+      },
+      {
+        "id": "held_out_normal",
+        "rows_half_open": [
+          864003,
+          1080004
+        ],
+        "raw_rows": 216001,
+        "first_record": {
+          "row_zero_based": 864003,
+          "csv_record_one_based": 864005,
+          "timestamp_serialized": "300458.326",
+          "label_serialized": "0"
+        },
+        "last_record": {
+          "row_zero_based": 1080003,
+          "csv_record_one_based": 1080005,
+          "timestamp_serialized": "311258.326",
+          "label_serialized": "0"
+        },
+        "label_access": "normal-prefix membership only; not attack labels",
+        "role": "final evaluation only; initial portion of the continuous final replay"
+      }
+    ],
+    "final_replay": {
+      "rows_half_open": [
+        864003,
+        1762650
+      ],
+      "reset_only_at_start_or_declared_gaps": true,
+      "held_out_normal_reporting_slice": [
+        864003,
+        1080004
+      ],
+      "scheduled_change_and_recovery_reporting_slice": [
+        1080004,
+        1762650
+      ],
+      "no_reset_at_event_or_label_transitions": true,
+      "purpose": "pre-event held-out normal initializes state, then replay continues through all eight events and recovery periods"
+    },
+    "independence_limit": "one acquisition; chronological partitions are not independent robot runs or certified cycle-group splits"
+  },
+  "stream_policy": {
+    "invalid_or_gap_if": "delta_seconds <= 0 OR delta_seconds > 0.075",
+    "gap_threshold_seconds": "0.075",
+    "observed_breaks": [
+      {
+        "previous_row": 16570,
+        "restart_row": 16571,
+        "previous_timestamp_serialized": "258086.626",
+        "restart_timestamp_serialized": "258086.726",
+        "delta_seconds_decimal": "0.100"
+      }
+    ],
+    "handling": "break continuity; mark interval unknown; reset online state and trailing buffers; restart warmup from current row; do not fill or fabricate samples",
+    "invalid_feature_handling": "nonfinite/shape-invalid q or qdot is unscored unknown, breaks continuity and requires fresh initialization; no imputation",
+    "common_warmup_preceding_observations": 1528,
+    "warmup_status": "declared provisional floor motivated by previously audited CASPER pipeline support of 1529 observations; not a model window selection",
+    "state_history_limit": "recurrent state may depend on all prior observations in its segment; 1529 is not a bound on total state history",
+    "per_stream_segments_and_initial_coverage_exclusions": [
+      {
+        "partition_stream": "training",
+        "rows_half_open": [
+          0,
+          16571
+        ],
+        "initial_unscored_rows_half_open": [
+          0,
+          1528
+        ],
+        "first_potentially_eligible_endpoint_row": 1528,
+        "reason_for_start": "partition_initialization"
+      },
+      {
+        "partition_stream": "training",
+        "rows_half_open": [
+          16571,
+          540002
+        ],
+        "initial_unscored_rows_half_open": [
+          16571,
+          18099
+        ],
+        "first_potentially_eligible_endpoint_row": 18099,
+        "reason_for_start": "timestamp_gap_restart"
+      },
+      {
+        "partition_stream": "development",
+        "rows_half_open": [
+          540002,
+          702002
+        ],
+        "initial_unscored_rows_half_open": [
+          540002,
+          541530
+        ],
+        "first_potentially_eligible_endpoint_row": 541530,
+        "reason_for_start": "partition_initialization"
+      },
+      {
+        "partition_stream": "normal_calibration",
+        "rows_half_open": [
+          702002,
+          864003
+        ],
+        "initial_unscored_rows_half_open": [
+          702002,
+          703530
+        ],
+        "first_potentially_eligible_endpoint_row": 703530,
+        "reason_for_start": "partition_initialization"
+      },
+      {
+        "partition_stream": "final_replay",
+        "rows_half_open": [
+          864003,
+          1762650
+        ],
+        "initial_unscored_rows_half_open": [
+          864003,
+          865531
+        ],
+        "first_potentially_eligible_endpoint_row": 865531,
+        "reason_for_start": "partition_initialization"
+      }
+    ],
+    "model_specific_initialization_and_windows": "unresolved; must be specified before execution admission; if any needs longer warmup revise common policy before final attack scoring",
+    "score_then_update_state": true,
+    "online_parameter_residual_or_threshold_adaptation": false
+  },
+  "preprocessing": {
+    "split_before_filter_or_window": true,
+    "fit_scaler_imputer_feature_selection_on": "training only",
+    "default_imputation": "none",
+    "future_looking_processing": false,
+    "allowed_model_selection": "normal-only development objective saved before pilot",
+    "exact_transforms_windows_and_parameters": "not selected by this contract; require a versioned model specification",
+    "cross_partition_history": "forbidden; fitted training parameters may be reused, dynamic state may not"
+  },
+  "calibration": {
+    "source_partition": "normal_calibration",
+    "score_orientation": "larger_is_more_anomalous",
+    "quantile": "0.99",
+    "rank_one_based": "ceil(0.99*m) for m eligible calibration scores",
+    "threshold": "sorted_scores[rank_one_based-1]",
+    "alarm": "score > threshold",
+    "equality_alarms": false,
+    "zero_eligible_scores": "block evaluation; no threshold",
+    "claim": "empirical calibration operating point, not guaranteed future false-alarm rate",
+    "final_test_labels_for_selection": false,
+    "multiple_operating_points": "none declared in v0.1"
+  },
+  "comparison_design": {
+    "primary_contrast": "progression-aware twin versus otherwise matched progression-omitted variant",
+    "mandatory_controls": [
+      "simple joint-velocity deviation detector",
+      "normal-trajectory template control"
+    ],
+    "other_predictor": "ordinary causal predictor, specification to be frozen before pilot",
+    "same_inputs_and_normal_only_selection": true,
+    "no_test_selected_preferred_variants_or_composite_metrics": true
+  },
+  "evaluation": {
+    "primary_joint_reporting": [
+      "unadjusted point precision, recall and F1 on eligible endpoints in the mixed schedule slice",
+      "held-out-normal point exceedance",
+      "held-out-normal alarm episodes and episodes per verified eligible hour",
+      "eligible-score coverage in both slices"
+    ],
+    "point_metrics_rows_half_open": [
+      1080004,
+      1762650
+    ],
+    "point_metrics_scope": "mixed recorded-schedule slice only; not pooled with the earlier held-out-normal slice",
+    "point_denominator": "eligible scored endpoints in [1080004,1762650), with TP/FP/FN/TN and unknown/excluded counts explicitly reported",
+    "common_structural_eligibility": "shared declared warmup/gap/invalid-input mask; method-specific missing scores remain visible and cannot silently alter the other methods' evaluation population",
+    "coverage_claim_gate": "head-to-head claims require comparable coverage or a predeclared missing-score policy, settled before final scoring",
+    "secondary_mandatory": [
+      "recorded-schedule event recall with all eight intervals enumerated",
+      "per-event detections, misses and schedule-relative delays"
+    ],
+    "event_detected": "interval-overlap coverage: at least one eligible threshold-positive endpoint within recorded event half-open range",
+    "event_denominator": 8,
+    "event_without_eligible_score": "miss; separately identify coverage failure",
+    "delay": "first eligible alarm controller timestamp minus event first-positive timestamp; schedule-relative seconds, not physical-onset latency",
+    "pre_existing_alarm": "flag if the alarm was active before event first-positive row; overlapping continuation is not a new detection onset even when overlap delay is zero",
+    "fresh_alarm_onset_per_event": "separately report first eligible negative-to-positive transition inside interval and schedule-relative delay, or no_new_onset; no reset at labels or reporting slices",
+    "no_alarm_delay": null,
+    "misses_reported_separately": true,
+    "point_target": "endpoint recorded schedule flag, no majority-window target or point adjustment",
+    "supporting": [
+      "unadjusted precision, recall and F1 against recorded schedule",
+      "average precision with declared orientation",
+      "held-out-normal point exceedance",
+      "eligible-score coverage and unknown intervals",
+      "alarm episode counts",
+      "per-event onset/detection/miss table"
+    ],
+    "zero_labeled_recovery_handling": "report separately from held-out-normal; main mixed-trace confusion counts remain schedule-label agreement, not confirmed attack/normal truth",
+    "alarm_episode": "adjacent eligible positive endpoint decisions within one continuous segment; gap/unscored point ends observed episode; labels and reporting-slice boundaries never reset episodes; no test-chosen smoothing or cooldown",
+    "episode_left_censoring": "first eligible positive after initialization/gap/unknown is an observed positive segment with prior onset unknown; count and flag as left-censored, never a known fresh onset",
+    "episode_right_censoring": "positive episode reaching stream end/gap/unknown is flagged right-censored; cessation is not observed",
+    "held_out_normal_exposure_seconds": "sum delta_t for adjacent eligible endpoints both within held-out-normal and same continuous segment; no gap, warmup, boundary or unknown duration; no extrapolated final interval",
+    "false_alarm_episode_rate": "observed alarm episodes with an eligible positive endpoint in held-out-normal divided by its verified eligible exposure hours; include and separately flag censored episodes; NA if exposure zero; not an incident-arrival rate",
+    "undefined_metrics": "NA with counts, never silently zero or one",
+    "uncertainty": "no independent-row significance or confidence interval; one trace and eight scheduled intervals do not establish independent replication"
+  },
+  "execution_gates": [
+    "review this contract and resolve model-specific transforms, histories, initialization and score definitions",
+    "choose normal-only development objective and finite candidate configurations before scoring",
+    "validate chronology, feature/label isolation, gap resets, event/score alignment and metric edge cases using labelled synthetic fixtures",
+    "resolve baseline implementation designation and code-use terms",
+    "prepare isolated environment, run manifest and bounded pilot budget; no training authorized by this file"
+  ],
+  "limits": [
+    "No final model architecture, physical fidelity, novelty or superiority established.",
+    "This controller group is not a faithful three-paper comparison; original CASPER uses external IMU and TWINE/CatBoost use different supervision/protocols.",
+    "No raw feature arrays or target arrays were generated; stored ranges are metadata."
+  ]
+}

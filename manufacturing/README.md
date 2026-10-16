@@ -9,6 +9,8 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
 | [docs/DATA_AND_BASELINE_STUDY.md](docs/DATA_AND_BASELINE_STUDY.md) | Start here: received materials, findings and a practical reading sequence |
 | [docs/PAPER_CODE_TRACEABILITY.md](docs/PAPER_CODE_TRACEABILITY.md) | Paper-reading coverage and method-to-author-code connections for all three candidates |
+| [docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md](docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) | Selected state-synchronization question, restricted command threat and falsification criteria |
+| [docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md](docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) | Exact right-arm schedule labels, permitted joint-state inputs and chronological partitions |
 | [docs/RESEARCH_BASICS_LESSON.md](docs/RESEARCH_BASICS_LESSON.md) | Step 0: twins, baselines, scores, thresholds, evaluation and leakage |
 | [docs/YOUR_STEP_0_NOTES.md](docs/YOUR_STEP_0_NOTES.md) | Researcher's unanswered comprehension exercise |
 | [docs/CASPER_DATASET_IDENTITY.md](docs/CASPER_DATASET_IDENTITY.md) | Actual received files, hashes, schemas and timing/label limits |
@@ -33,7 +35,7 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [experiments/](experiments/README.md) | Future run records and results |
 | [manuscript/](manuscript/README.md) | Future paper and contribution records |
 
-Current recommendation: **industrial robotic arms using original CASPER pick-and-place data**. Original v3 archive and five files are now local, with integrity checks and hashes. **CASPER (2024), TWINE (2026) and CatBoost on CASPER (2026)** remain the critical-learning shortlist. CASPER's corrected full paper is collected; TWINE/CatBoost full-text gaps persist. No method is execution-ready: clock/annotation mapping, comparable information access, splits and code/protocol issues remain. Start with the lesson for concepts and the identity/protocol documents for current technical status.
+Current selection: **normal-only right-arm motion monitoring using original CASPER**, testing whether state synchronization can conceal changed-speed evidence. The restricted threat assumes truthful monitoring telemetry/time. Exact source, annotations, twelve joint-state features and chronological split metadata are specified; method configurations, executable checks and pilot admission remain open. **CASPER (2024), TWINE (2026) and CatBoost on CASPER (2026)** remain learning papers with unequal inputs/supervision, not a single admitted ranking. CASPER's full paper is collected; TWINE/CatBoost full-text gaps persist. External-IMU reproduction remains a separate track. No model has run and novelty is unverified.
 
 Run future commands from `manufacturing/`; its local `.venv/`, fitted preprocessing, data, and results must not depend on sibling-project state. Dataset authorization is checked per user, not inferred from folder ownership. The [shared research skill](../.agents/skills/academic-research-suite/SKILL.md) remains at the workspace root; its generated state belongs here.
 

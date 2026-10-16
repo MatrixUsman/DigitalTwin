@@ -7,7 +7,7 @@ Updated **16 October 2026 (Asia/Karachi)**. Current authorization: workspace org
 | Owner | Sector and project brief | Provisional emphasis |
 |---|---|---|
 | Muhammad Usman | [Water treatment and distribution](water/PROJECT_BRIEF.md) | Adaptation that resists learning corrupted measurements as normal |
-| Haiqa Mushtaq | [Smart manufacturing](manufacturing/PROJECT_BRIEF.md) | Robotic-arm monitoring preferred after open-data screen; process/sequence question and twin contribution remain provisional |
+| Haiqa Mushtaq | [Smart manufacturing](manufacturing/PROJECT_BRIEF.md) | Right-arm motion monitoring: preserving nominal progression during twin-state synchronization; command-path threat with truthful telemetry assumed |
 | Muhammad Usman Sanghla | [Smart grids](smart_grids/PROJECT_BRIEF.md) | Electrical-state/topology consistency; precise question still to be selected |
 
 Only the water project inherits the existing SWaT/WADI requirement and CAROTS audit. The other sectors need their own evidence-supported dataset and baseline decisions. Do not describe water datasets as manufacturing or grid experiments. All working titles, mechanisms, and novelty claims remain provisional.
@@ -27,7 +27,7 @@ Shared items are workflow instructions, the read-only skill package, machine inf
 ## Current state and order
 
 - Water: evidence documents and alternative-source searches exist; no benchmark files or access approval have been confirmed. After the owner supplied the university email and explicitly accepted the terms/privacy consent, the assistant submitted the official SWaT/WADI request and observed website confirmation. The post-submission clock check was **2026-10-16 16:15:51 UTC**; the form retained its default **17 October 2026** Singapore date. These are submission records, not approval or dataset receipt. Exact personal details remain in ignored local storage. [Request summary](water/docs/DATASET_REQUEST_PREPARATION.md)
-- Manufacturing: explicitly activated while water waits; original CASPER v3 archive and five members received with hashes, complete controller-schema validation and static annotation-lineage checks. A pinned source/result reading pack and study guide are available. Step 0 lesson and a comparison protocol are prepared. CASPER's corrected full manuscript and selected author code are collected; TWINE/CatBoost full texts, IMU event alignment and final comparison admission remain unresolved. [Current status](manufacturing/STATUS.md).
+- Manufacturing: original CASPER v3 received and audited; a state-synchronization question and restricted threat model are selected. Exact right-arm schedule annotations, twelve permitted joint-state channels and chronological split metadata are defined for design review. The earlier IMU-first proposal remains a separate reproduction track. CASPER's full paper is available; TWINE/CatBoost full texts, comparable baseline admission, model specifications and executable checks remain open. No model/training exists. [Current status](manufacturing/STATUS.md).
 - Smart grids: initial scoping records; detailed paper/code/release audit remains pending.
 - All three: no reproduced baselines, benchmark scores, training runs, or final contribution claims.
 - Shared compute: the earlier audit found an Apple M5 Pro with 24 GB unified memory and no CUDA device. Disk availability and runtime compatibility need rechecking before downloads/runs. [Historical audit](docs/WORKSPACE_AUDIT.md)

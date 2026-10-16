@@ -23,12 +23,12 @@ Writing notes starts in Stage 1. Results sections and superiority claims require
 ## Immediate next tasks
 
 1. **Water / Muhammad Usman:** use the COMSATS student-email route for an authorized SWaT/WADI request, then identify releases. In parallel, read CAROTS and audit remaining preprocessing/device issues. The assistant has not submitted a request.
-2. **Manufacturing / Haiqa Mushtaq:** validate whether selected leads actually represent a manufacturing process, contain relevant attacks, and support an explicit twin. Audit full papers and usable author code before choosing a baseline.
+2. **Manufacturing / Haiqa Mushtaq:** the [question/threat model](../manufacturing/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) and [right-arm contract](../manufacturing/docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) now define a bounded state-synchronization study. Next implement/test the loader, split/feature isolation and metrics, then specify normal-only simple controls and state-model validation. Baseline admission, missing manuscripts, novelty and pilot execution remain open.
 3. **Smart grids / Muhammad Usman Sanghla:** choose the electrical system and observation type; verify which leads provide attack recordings versus only simulation cases. Audit recent twin-based comparators and their code/protocol.
 
 ## Preventing accidental duplication
 
-Water currently investigates adaptation contamination. Manufacturing and grids have distinct provisional domain themes, not approved contributions. Before Stage 6, compare the actual questions, threat models, assumptions, proposed mechanisms, and evidence across projects. If the papers differ only by dataset or title, revise their scope before making three novelty claims.
+Water currently investigates adaptation contamination. Manufacturing now studies state synchronization against a fixed nominal progression reference under truthful monitoring telemetry; grids remain at a provisional domain theme. These are selected directions, not validated distinct contributions. Before Stage 6, compare the actual questions, threat models, assumptions, mechanisms and evidence. If the papers differ only by dataset or title, revise their scope before making three novelty claims.
 
 Shared utility code may later be justified, but it needs a documented interface/version and per-project tests. Share algorithms by explicit design; never share learned transforms, thresholds, hidden test decisions, or results implicitly. All dataset users must be individually covered by provider authorization.
 

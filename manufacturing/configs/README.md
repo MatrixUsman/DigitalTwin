@@ -1,6 +1,8 @@
 # Configurations — Smart manufacturing
 
-No executable configurations are frozen yet. Future configuration files should separately define dataset/release identity, preprocessing, chronological splits, calibration, metrics, method settings, seeds and runtime limits.
+The [right-arm contract v0.1](casper_right_arm_contract_v0.1.json) defines dataset identity, recorded schedule annotations, twelve permitted joint-state channels, relative-time use, chronological row ranges, gap/warmup policy and normal-only calibration. Its [explanation](../docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) records assumptions and limits. It is frozen for **design review**, not an executable model configuration or training admission.
+
+Model-specific transforms, histories, initialization, score definitions, finite candidate grids, seeds and runtime budgets still need separate specifications. Changing the selected inputs/partitions/annotation convention requires a new contract version and a reason recorded before final attack scoring.
 
 Keep private paths/credentials in ignored `local/` under the project root. Every run must save a resolved configuration and hash. Defaults imported from a sibling project or an upstream method require explicit review; never inherit its thresholds, test decisions or fitted transforms silently.
 

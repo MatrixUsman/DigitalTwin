@@ -6,11 +6,13 @@ This is an independent academic research project on cybersecurity of manufacturi
 
 ## Provisional direction
 
-Working title: **“Process- and Sequence-Aware Digital Twins for Cyberattack Detection in Manufacturing.”**
+Working title: **“Digital Twins for Robotic Motion Integrity: The Role of State Synchronization.”** The twin designation remains conditional on state/prediction/coupling validation.
 
-Candidate question: Can a digital twin conditioned on production phase, permitted operation sequences, and changeover context distinguish malicious command or sequence deviations from legitimate production changes and ordinary process faults?
+Selected feasibility question: **Does retaining a nominal cycle-progression reference during state synchronization improve a motion twin's detection of CASPER's recorded right-arm speed changes under normal-only calibration?**
 
-This is a hypothesis to investigate, not a novelty claim or finalized architecture. The current recommendation is **industrial robotic arms**, anchored to the original CASPER pick-and-place collection. Its public download route is verified without institutional approval. **CASPER (2024), TWINE (2026), and CatBoost on CASPER (2026)** form a critical-learning set with matched author-code leads; none is admitted for numerical comparison yet. Release ambiguity, unequal input/training access, code-license gaps and evaluation defects remain. See the [selection report](docs/BASELINE_SELECTION_REPORT.md). The final threat model, trusted measurements, twin representation and title remain undecided; available data may not support the original broad changeover question.
+The [question/threat-model decision](docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) selects a **normal-only right-arm controller-telemetry study** using joint positions, joint velocities and relative elapsed time. The restricted adversary changes motion commands; telemetry/time delivered to an assumed protected monitor remain truthful. No authentication or resistance to fully compromised controller firmware is established by the dataset. Model parameters/reference/calibration stay fixed during replay; the subject is state synchronization, distinct from water's provisional parameter-adaptation question.
+
+The earlier question about attacks versus authorized changeovers and faults is deferred because the original collection lacks the required independent ground truth. External-IMU reproduction remains a separate track. **CASPER (2024), TWINE (2026), and CatBoost on CASPER (2026)** remain learning papers, not three comparable admitted methods. Right-arm simple velocity/template/AR controls now come first for feasibility; a controller-input CASPER CNN is a modified implementation. TWINE/CatBoost's supervised workflows cannot be pooled unchanged into the normal-only comparison. Novelty remains unverified; see the [dated overlap screen](docs/literature/RQ_PRIOR_ART_SCREEN_2026-10-16.md).
 
 The distinction between an attack, a fault, and an authorized transition must come from documented ground truth. “Cyber-physical,” predictive maintenance, or generic ICS branding alone does not establish cybersecurity relevance or manufacturing data. A simulator, a detector dashboard, and a state-coupled digital twin are different artifacts and must be described accurately.
 
@@ -24,7 +26,7 @@ The distinction between an attack, a fault, and an authorized transition must co
 
 ## Setup deliverables and next stage
 
-The [literature register](docs/LITERATURE_EVIDENCE.md) links a bounded primary-source, manuscript and static-code audit. The [identity audit](docs/CASPER_DATASET_IDENTITY.md) records received files; the [manuscript audit](docs/MANUSCRIPT_COLLECTION_AUDIT.md) records one collected full paper and two access gaps. The [comparison protocol](docs/COMPARISON_PROTOCOL.md) separates normal-only IMU detection from supervised controller-telemetry classification. CASPER is the conditional first method to study/reproduce, with a corrected and disclosed calibration protocol; annotation/split manifests and execution readiness remain unresolved.
+The [identity register](docs/DATASET_IDENTITY_REGISTER.md) records exact received bytes; the [manuscript audit](docs/MANUSCRIPT_COLLECTION_AUDIT.md) retains one full paper and two access gaps. The [annotation/feature/split contract](docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) and [JSON specification](configs/casper_right_arm_contract_v0.1.json) now define the selected controller group. The [comparison protocol](docs/COMPARISON_PROTOCOL.md) keeps it separate from earlier IMU and supervised groups. Contract definition is complete for design review; model-specific transforms, initialization, scoring, executable tests and pilot admission remain open.
 
 The user selected manufacturing next while water waits for external access, then authorized original-CASPER collection/identification and protocol preparation. Read-only data-audit utilities are not model implementations. Simulator execution, paid services, training and publication remain outside this stage. The smart-grid project remains independently scoped.
 

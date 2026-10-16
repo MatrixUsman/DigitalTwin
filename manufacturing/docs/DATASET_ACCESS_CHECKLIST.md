@@ -54,3 +54,7 @@ The original-CASPER receipt items above are complete only within their stated sc
 - [ ] Preserve raw files unchanged and outside Git; keep derived data local with documented transforms and provenance.
 
 Public access, received bytes, a training-ready loader, and a defensible benchmark are separate milestones. Access/receipt and a read-only structural profile are complete for the preferred collection; no training-ready adapter or benchmark is validated. No blanket permission for uploading data or starting experiments follows.
+
+## Selected right-arm study contract — later same-day decision
+
+The user subsequently requested a feasible question/threat model and exact annotations, permitted features and chronological splits. The [right-arm contract](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) now defines recorded schedule labels, twelve joint-state channels, relative-time use, four chronological normal blocks and one continuous final replay. This closes **definition of those metadata fields for the restricted controller study**, not independent validation of onset, clean commissioning or a benchmark loader. The broader IMU/cross-clock and published-run questions above remain unresolved for their own tracks. Model-specific transforms, initialization/scoring and executable isolation/metric tests still precede a pilot.
