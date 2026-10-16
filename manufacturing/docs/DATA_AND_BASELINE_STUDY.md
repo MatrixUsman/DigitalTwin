@@ -2,6 +2,8 @@
 
 Study record: 16 October 2026. Owner: Haiqa Mushtaq. We have enough material to study the original robotic-arm experiment seriously. We do **not** yet have three methods ready for a fair benchmark. No model has been trained and no published result has been reproduced.
 
+For the subsequent collect/read/connect milestone, use the [paper-to-code map and individual reading notes](PAPER_CODE_TRACEABILITY.md). They expand the main-text study and distinguish what the paper says, what the code does, and which published-result links remain unresolved.
+
 ## What is on this computer
 
 The original [CASPER provider collection](https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-anomaly-detection), version 3, is already received. It contains an approximately 24-hour physical pick-and-place recording with planned changes to joint velocity. The unchanged archive plus extracted files occupy about **10.72 GB**. The dataset's provider license is CC BY-SA 4.0. Exact source/version, bytes and hashes are in the [receipt](../datasets/manifests/casper_v3_receipt.json) and [identity report](CASPER_DATASET_IDENTITY.md).

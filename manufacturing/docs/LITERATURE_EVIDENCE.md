@@ -1,5 +1,7 @@
 # Manufacturing literature evidence register
 
+The [paper-to-code reading map](PAPER_CODE_TRACEABILITY.md) is the current detailed follow-up: CASPER main text and all detector branches studied; TWINE/CatBoost abstracts, source and available result provenance studied with full-text gaps explicit. Original screening records below are not substituted for that later evidence.
+
 Current collection follow-up: [one full manuscript](MANUSCRIPT_COLLECTION_AUDIT.md), [67 pinned source/doc/config/author-result artifacts](../baselines/SOURCE_PACK_MANIFEST.json), [full controller-schema study](CASPER_SENSOR_SCHEMA.md), and [annotation-lineage study](CASPER_ANNOTATION_LINEAGE.md). [Original CASPER files](CASPER_DATASET_IDENTITY.md) remain unchanged. TWINE/CatBoost full texts remain unresolved. The [proposed protocol](COMPARISON_PROTOCOL.md) separates unequal information-access groups and blocks unsupported numerical comparisons. Earlier source-screen details below retain their original coverage; the later manuscript audit resolves the apparent CASPER architecture mismatch and records the Table 11 row-count discrepancy.
 
 Updated 16 October 2026 using publisher, author/institutional manuscripts, pinned author code and provider metadata. This is a bounded literature/access audit, not an exhaustive systematic review. No paper has been reproduced. Unknown fields are explicit; absence of a discovered link is not evidence that an artifact does not exist. Main comparison window: 2023-10-16–2026-10-16 inclusive, preferably 2024–2026.

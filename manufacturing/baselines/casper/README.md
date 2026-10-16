@@ -1,5 +1,7 @@
 # CASPER — learning and conditional reproduction candidate
 
+[Full main-text reading notes and code map](READING_NOTES.md) cover the physical setup, threat assumptions, all detector branches and unresolved figure/table/configuration links. This is a source study, not a reproduced experiment.
+
 Paper: [CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms](https://doi.org/10.1145/3670414), ACM ToIT, August 2024. [Author-hosted corrected VOR](https://iotgarage.net/publications/pdfs/Kayan2024a.pdf), V1.1 dated 2025-02-05.
 
 Author code: [1D-CNN-Anomaly-Detection-via-CASPER](https://github.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/tree/bff03c91d155bf3134f6d801d3a4f4af7ea78adb), revision `bff03c91d155bf3134f6d801d3a4f4af7ea78adb`. README has an MIT badge, but the complete tree has no corresponding license text; code-use terms remain unresolved. The successor TinyML repository is a separate code/data record.
