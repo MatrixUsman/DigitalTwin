@@ -27,9 +27,12 @@ These are alternatives, not a commitment to evaluate all. The [selection report]
 - [x] Download the scoped archive and five members into ignored `datasets/raw/casper/v3/`; preserve originals.
 - [x] Verify archive integrity and compute local SHA-256/byte sizes; distinguish provider metadata from local measurements.
 - [x] Identify schemas and numeric original/fixed correspondence: fixed Nicla adds a header and changes serialization, with the same parsed numeric sequence after six raw startup records. It supplies no alignment/labels. Left-arm/PCAP were preserved but are not automatically detector inputs.
-- [ ] Verify timestamp units, clock offsets, sample rates/gaps, labels and run boundaries; reconcile paper table with actual `Anomaly State` and sensor alignment.
+- [x] Inventory exact serialized controller timestamp endpoints and flag boundaries, source-supported units, native gaps/offsets, label counts and missing run/cycle identifiers; distinguish recorded flags from physical onset.
+- [x] Identify PCAPNG container/clock options and all packet timestamps; record nonmonotonic steps without reordering raw data. Verify absence of IMU time/label columns.
+- [x] Rehash archive and all five members against the preserved receipt; save a [consolidated manifest](../datasets/manifests/casper_v3_identity.json) and standard [checksum file](../datasets/manifests/casper_v3.sha256).
+- [ ] Establish original executing capture configuration, calendar anchors/cross-device synchronization and defensible IMU event mapping; resolve the paper's 750-row IMU discrepancy and exact published-run byte identity.
 
-Observed labels, native timestamp deltas/offsets and lack of cycle IDs are documented in the identity audit. The unchecked item retains unresolved original capture configuration, wall-clock alignment and IMU event mapping; it is not a claim that no clock/label inspection occurred.
+The [current identity register](DATASET_IDENTITY_REGISTER.md) separates completed observations from these remaining scientific-use gaps. Same schedule flags on both arms do not imply identical commanded perturbations; the inspected later source varies right-arm speed while keeping left-arm speed at default.
 - [ ] Establish independent training/calibration/evaluation periods and each method's permitted inputs/training labels.
 - [x] Record the received release manifest and measured hashes.
 - [ ] Freeze annotation/derivative/split manifests only after their separate provenance and chronology checks.

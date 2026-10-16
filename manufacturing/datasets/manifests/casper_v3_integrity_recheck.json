@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "project": "manufacturing",
+  "audit_started_at_utc": "2026-10-16T18:07:16.511498+00:00",
+  "command": "python3 manufacturing/scripts/verify_casper_release.py",
+  "working_directory": ". (repository root)",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "script_sha256": "fb0855a23d13380a3a55bbf2cde559db27656342e13ec4b7ffbe3884105b0f66",
+  "original_receipt_sha256": "9c9bbc1b6a957fdbe2acebbca7c5df4f2517d2136b6b0cd29e4d0682e66b6e3a",
+  "original_receipt_modified": false,
+  "raw_files_modified": false,
+  "model_or_network_replay_executed": false,
+  "format_reference": {
+    "url": "https://www.ietf.org/archive/id/draft-ietf-opsawg-pcapng-05.html",
+    "status": "IETF Internet-Draft -05; format reference, not a published RFC",
+    "supplemental_metadata_recorded_at_utc": "2026-10-16T18:09:10.490379+00:00",
+    "exact_primary_source_fetch_time": null,
+    "sections": [
+      "4.1 Section Header Block",
+      "4.2 Interface Description Block / if_tsresol / if_tsoffset",
+      "4.3 Enhanced Packet Block",
+      "4.4 Simple Packet Block",
+      "Appendix A obsolete Packet Block"
+    ],
+    "access_note": "IETF primary HTML opened and targeted sections inspected with web tool. tcpdump.org manpages were robots-blocked; no bypass attempted."
+  },
+  "files": [
+    {
+      "local_path": "datasets/raw/casper/v3/original_casper_v3.zip",
+      "bytes": 2824019108,
+      "sha256": "07f2daf948c8244c396c7b4d2fe4c475880a3a6577f982fc1738b5379b0e5409",
+      "original_receipt_match": true,
+      "read_only_mode": true,
+      "git_ignored": true,
+      "symlink": false
+    },
+    {
+      "local_path": "datasets/raw/casper/v3/original/dataset/arms.pcap",
+      "bytes": 3703911932,
+      "sha256": "e58032aa4058375f865f3b19348fd56042b8a4f29dff92178ab54f11b07d1bb9",
+      "original_receipt_match": true,
+      "read_only_mode": true,
+      "git_ignored": true,
+      "symlink": false
+    },
+    {
+      "local_path": "datasets/raw/casper/v3/original/dataset/left_arm.csv",
+      "bytes": 1965113819,
+      "sha256": "35552b683edcdd15be403f050c391979d1bc6f652908bbe5066323b79f9af777",
+      "original_receipt_match": true,
+      "read_only_mode": true,
+      "git_ignored": true,
+      "symlink": false
+    },
+    {
+      "local_path": "datasets/raw/casper/v3/original/dataset/nicla.csv",
+      "bytes": 138908648,
+      "sha256": "02653ba6d81cbfd1f47a1a71522f2c10a48fc9d8dee41e59d7df8d66608b5cd1",
+      "original_receipt_match": true,
+      "read_only_mode": true,
+      "git_ignored": true,
+      "symlink": false
+    },
+    {
+      "local_path": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+      "bytes": 1978193094,
+      "sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+      "original_receipt_match": true,
+      "read_only_mode": true,
+      "git_ignored": true,
+      "symlink": false
+    },
+    {
+      "local_path": "datasets/raw/casper/v3/original/nicla_fixed.csv",
+      "bytes": 113184581,
+      "sha256": "601fccb447f5c661ac5fe2885d5c38741aed979c58f6e9ce193768ad50ed4fe7",
+      "original_receipt_match": true,
+      "read_only_mode": true,
+      "git_ignored": true,
+      "symlink": false
+    }
+  ],
+  "capture_header_profile": {
+    "local_path": "local/casper_release_audit/pcapng_header_profile.json",
+    "sha256": "d68cb34d0e0f130123d22717b4b520d51d6fe9e07ecc02c6fd38f285fc1d072d",
+    "bytes": 4575
+  },
+  "capture_summary": {
+    "container": "PCAPNG",
+    "filename_suffix_is_not_container_proof": true,
+    "packet_blocks_total": 14582826,
+    "packet_blocks_without_timestamp": 0,
+    "block_counts_by_numeric_type": {
+      "168627466": 1,
+      "1": 1,
+      "6": 14582826,
+      "5": 1
+    },
+    "framing_and_file_boundary_checks": "passed",
+    "captured_shorter_than_original_count": 0,
+    "captured_longer_than_original_count": 0,
+    "zero_captured_length_count": 0
+  },
+  "audit_completed_at_utc": "2026-10-16T18:07:40.442071+00:00",
+  "status": "all_six_artifact_hashes_match_and_capture_container_headers_validated",
+  "limitations": [
+    "Byte identity is local receipt identity, not publisher-checksum or published-run correspondence.",
+    "Capture metadata provides no proof of synchronization with controller or IMU clocks; detailed timestamps remain local.",
+    "No ZIP re-extraction or second CRC pass was needed; original receipt records acquisition CRC validation.",
+    "Valid container framing and no retained-record truncation do not prove lossless capture or absence of missing traffic; interface-statistics block contents were not interpreted."
+  ],
+  "synthetic_parser_validation": {
+    "status": "passed",
+    "data_kind": "synthetic container fixtures only; not benchmark data",
+    "generator": {
+      "local_path": "local/casper_release_audit/check_pcapng_header_parser.py",
+      "bytes": 3331,
+      "sha256": "422fdbcb830d6cdc19105427d473cb3e6da99a129a965c425d6ede1648a1883c"
+    },
+    "result": {
+      "local_path": "local/casper_release_audit/synthetic_parser_checks.json",
+      "bytes": 574,
+      "sha256": "30340d241e9a3326eb06277c76129fa9948a0ff7a7b33ac1a66a0918d79e2dad"
+    }
+  },
+  "workspace_provenance": {
+    "git_head": "e93ed35427638f0f53a1a68fd5018f7a5f3bab7d",
+    "worktree_dirty": true,
+    "script_uncommitted": true
+  },
+  "supplemental_receipt_provenance": {
+    "note": "Format section/access notes, synthetic checks, workspace state and the lossless-capture limitation were appended after the raw verification command completed. They are not outputs of that command.",
+    "workspace_state_timing": "post-run; exact observation time not retained",
+    "format_timestamp_correction": "The 18:09:10Z value records metadata insertion, not an observed web-fetch time. Corrected during integration on 2026-10-16."
+  }
+}

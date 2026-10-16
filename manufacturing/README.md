@@ -12,6 +12,8 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [docs/RESEARCH_BASICS_LESSON.md](docs/RESEARCH_BASICS_LESSON.md) | Step 0: twins, baselines, scores, thresholds, evaluation and leakage |
 | [docs/YOUR_STEP_0_NOTES.md](docs/YOUR_STEP_0_NOTES.md) | Researcher's unanswered comprehension exercise |
 | [docs/CASPER_DATASET_IDENTITY.md](docs/CASPER_DATASET_IDENTITY.md) | Actual received files, hashes, schemas and timing/label limits |
+| [docs/DATASET_IDENTITY_REGISTER.md](docs/DATASET_IDENTITY_REGISTER.md) | Current consolidated release, six-file hash recheck, labels and exact clock inventory |
+| [docs/BASELINE_DATASET_CORRESPONDENCE.md](docs/BASELINE_DATASET_CORRESPONDENCE.md) | What connects each paper to our files, and what remains unproved |
 | [docs/CASPER_SENSOR_SCHEMA.md](docs/CASPER_SENSOR_SCHEMA.md) | Full nested-field validation, data dictionary and controller clock interpretation |
 | [docs/CASPER_ANNOTATION_LINEAGE.md](docs/CASPER_ANNOTATION_LINEAGE.md) | Manual-label coordinate mapping and complete score history |
 | [docs/BASELINE_CODE_STUDY.md](docs/BASELINE_CODE_STUDY.md) | Pinned source/result pack and paper-to-code reading notes |

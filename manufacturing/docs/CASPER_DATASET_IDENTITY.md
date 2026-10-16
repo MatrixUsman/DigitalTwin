@@ -4,6 +4,8 @@
 
 **Later same-day follow-up:** the [full sensor-schema study](CASPER_SENSOR_SCHEMA.md) supersedes this report's bounded nested-field check and strengthens controller-clock interpretation to source-supported boot-relative seconds. The [annotation study](CASPER_ANNOTATION_LINEAGE.md) traces manual IMU labels and score support. Historical receipt/profile statements below are retained; cross-device timing and original capture execution remain unresolved.
 
+**Subsequent release/clock pass:** use the [consolidated identity register](DATASET_IDENTITY_REGISTER.md) for fresh six-file hash verification, exact timestamp strings, PCAPNG header findings and the distinction between shared schedule flags and per-arm physical effects. This historical receipt report remains unchanged below; its original integrity-only capture coverage is superseded by the later header audit.
+
 ## Receipt and source
 
 Source: [Hakan Kayan's original Industrial Robotic Arm — Pick and Place collection](https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-anomaly-detection), [provider metadata](https://www.kaggle.com/api/v1/datasets/view/hkayan/industrial-robotic-arm-anomaly-detection), and [provider file inventory](https://www.kaggle.com/api/v1/datasets/list/hkayan/industrial-robotic-arm-anomaly-detection). This is **not** the newer CASPER 1 & 2 listing.

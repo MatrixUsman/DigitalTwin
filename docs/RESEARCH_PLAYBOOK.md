@@ -83,6 +83,18 @@ For a dedicated paper-to-code pass, record main-text versus abstract-only covera
 
 Expected artifacts: separate source/result manifest, full-schema report, annotation/index study, accessible reading guide, updated project status/log, and unresolved execution gates. Checks: exact hashes, syntax/structural parsing, source correspondence, links, raw immutability and ignore coverage. Before repeating in another sector, independently validate its units, labels, input availability and data permissions; do not copy manufacturing's conclusions.
 
+## Consolidating release, label and clock identity
+
+Status: **executed/validated for received manufacturing CASPER files** within the [identity register](../manufacturing/docs/DATASET_IDENTITY_REGISTER.md); no experimental split or model is validated. Prerequisites: an authorized unchanged receipt, available raw bytes, prior schema evidence and a bounded passive audit scope.
+
+1. Distinguish provider revision, received bytes and published-run identity. Recheck provider metadata separately from fresh full-file fingerprints. Preserve the original receipt; create a separate recheck and a consolidated manifest with evidence hashes. File names and sizes alone do not prove byte equality across successor listings or published experiments.
+2. Preserve serialized timestamp strings at endpoints and annotation transitions. Record zero-based half-open indices, previous/first-positive/last-positive/next records and the exact event convention. Decimal arithmetic preserves serialization; it does not add clock precision. Keep detailed observation metadata ignored when only summary provenance belongs in Git.
+3. Trace which physical device receives a changed command and when flags are attached relative to state receipt and command dispatch. A flag copied to two streams does not establish two manipulated devices, physical-effect onset or synchronized samples. Retain uncertainty when supporting capture code postdates the dataset.
+4. Inspect container magic and timestamp options instead of trusting suffixes. For capture files, review per-section/per-interface resolution/offset, missing timestamps and adjacent duplicate/backward steps while leaving packets unchanged. Decode only the headers needed for the task; validate parser assumptions with explicitly synthetic fixtures. Valid framing and retained lengths do not establish lossless acquisition or clock accuracy.
+5. Separate release date, controller elapsed time, capture epoch time and untimestamped row order. Missing time or labels are observed absences; do not fill them from nominal rates or neighboring modalities. Record what a defensible delay/false-alarm metric would still require.
+
+Expected artifacts: identity register, machine-readable manifest, standard checksum file with an explicit working directory, label/clock report, paper-specific correspondence and updated project log/status. Checks: receipt unchanged, all acquired-file hashes match, metadata/source hashes resolve, raw storage stays ignored/read-only, parser fixtures are marked synthetic, and annotation/split admission remains separate. A consolidated manifest should distinguish literal command output from later source-review supplements. Reuse the procedure, not the manufacturing findings, in the other projects.
+
 ## Work-log entry template
 
 Copy this into the active project's `docs/WORK_LOG.md` after substantive work. Use sequential project-specific entry IDs. Use the root log for shared changes. Do not add placeholders as if they were completed entries.
