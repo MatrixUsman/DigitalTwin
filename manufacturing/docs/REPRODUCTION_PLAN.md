@@ -1,12 +1,22 @@
 # Proposed manufacturing reproduction plan
 
-Planning only, 16 October 2026. No code, environment, dependency installation, dataset download, simulator execution, or training is authorized by this setup document. Detailed manufacturing audit follows the water audit in the user's requested sequence.
+Planning updated 16 October 2026 after the user activated manufacturing while water awaits access. Public-source and static-code audit completed with limitations; no environment, dependency installation, benchmark dataset acquisition, simulator execution or training has occurred. This plan does not start those operations.
 
 ## 1. Resolve the setting and evidence
 
-Select one manufacturing process after assessing observable production state and lawful data access. Define malicious interventions separately from faults and authorized job/recipe/changeover transitions. Specify the evaluation target: anomaly detection, attack classification, or command/sequence consistency. Do not promise attack attribution from anomaly scores alone.
+Prioritize original CASPER industrial robotic-arm pick-and-place observations. Public data access is verified; scientific suitability and exact file identity still require receipt/profile checks. Define malicious interventions separately from faults and authorized speed/task changes. Specify the evaluation target: anomaly detection, attack classification, or command/sequence consistency. Do not promise attack attribution from anomaly scores alone.
 
-Expand the [seed register](LITERATURE_EVIDENCE.md) into a full audit of relevant in-window detection methods. Verify manuscripts, dates, author code, licenses, data releases, preprocessing, splits, thresholds, metrics, and resource requirements. The current three twin papers do not establish a ready common detection benchmark; **first main baseline selection is blocked**. The Factory I/O author workflow is a conditional feasibility lead, not a committed reproduction or proof of eligibility.
+The [selection report](BASELINE_SELECTION_REPORT.md) recommends **CASPER 2024 → TWINE 2026 → CatBoost 2026** for critical study. CASPER is the conditional first reproduction candidate; no numerical baseline is admitted yet. Complete missing full manuscripts, release reconciliation, code-use permissions and paper-to-run mapping first. Keep the 2025 edge paper as related-data reserve. FactoryIO/LOTL/MIT/TEP are independent alternatives, not interchangeable data.
+
+### Proposed method-specific work, not executed
+
+| Method | Required decision before pilot |
+|---|---|
+| CASPER 1D-CNN | Audit synchronization and label derivation; partition before rolling filters/windows; confirm original code license or specify our independent implementation. Replace best-test-F1 threshold selection with an independently calibrated rule and disclose the deviation. |
+| TWINE | Obtain full manuscript; reconcile full-feature RF100, five-feature/subsampled simulation and SHAP RF50 paths; fix demo length/model-reference inconsistencies. Study local detector separately from Azure display/state synchronization. A local-only run cannot be called a reproduced cloud/twin deployment. |
+| CatBoost | Obtain full manuscript/run provenance and resolve code license. Do not run the inspected synthetic-label/padded-row pipeline as a cyber benchmark. A CatBoost control using authentic aligned labels, common features, train-only scaling and independent splits is our **independent implementation under a changed protocol**, not faithful reproduction. |
+
+The original collection contains different modalities; CASPER uses external IMU while TWINE uses controller telemetry, and the methods have different supervision. Predefine an equal-input track or explicitly separate information-access/supervision tracks. Changing inputs, labels and splitting can change the scientific task. If no fair protocol is possible with available episodes, revise the comparison before training.
 
 ## 2. Freeze a reproducible evaluation contract
 

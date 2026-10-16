@@ -7,7 +7,7 @@ Updated **16 October 2026 (Asia/Karachi)**. Current authorization: workspace org
 | Owner | Sector and project brief | Provisional emphasis |
 |---|---|---|
 | Muhammad Usman | [Water treatment and distribution](water/PROJECT_BRIEF.md) | Adaptation that resists learning corrupted measurements as normal |
-| Haiqa Mushtaq | [Smart manufacturing](manufacturing/PROJECT_BRIEF.md) | Manufacturing-specific process/sequence consistency; precise question still to be selected |
+| Haiqa Mushtaq | [Smart manufacturing](manufacturing/PROJECT_BRIEF.md) | Robotic-arm monitoring preferred after open-data screen; process/sequence question and twin contribution remain provisional |
 | Muhammad Usman Sanghla | [Smart grids](smart_grids/PROJECT_BRIEF.md) | Electrical-state/topology consistency; precise question still to be selected |
 
 Only the water project inherits the existing SWaT/WADI requirement and CAROTS audit. The other sectors need their own evidence-supported dataset and baseline decisions. Do not describe water datasets as manufacturing or grid experiments. All working titles, mechanisms, and novelty claims remain provisional.
@@ -27,8 +27,9 @@ Shared items are workflow instructions, the read-only skill package, machine inf
 ## Current state and order
 
 - Water: evidence documents and alternative-source searches exist; no benchmark files or access approval have been confirmed. After the owner supplied the university email and explicitly accepted the terms/privacy consent, the assistant submitted the official SWaT/WADI request and observed website confirmation. The post-submission clock check was **2026-10-16 16:15:51 UTC**; the form retained its default **17 October 2026** Singapore date. These are submission records, not approval or dataset receipt. Exact personal details remain in ignored local storage. [Request summary](water/docs/DATASET_REQUEST_PREPARATION.md)
-- Manufacturing and smart grids: initial scoping records are provided; full paper/code/release audits remain pending.
+- Manufacturing: explicitly activated while water waits; original CASPER robotic-arm data has a verified public retrieval route. CASPER 2024 / TWINE 2026 / CatBoost 2026 form a critical-learning set with author-code links, but exact shared release and fair evaluation remain unresolved. No raw data acquired; [selection report](manufacturing/docs/BASELINE_SELECTION_REPORT.md).
+- Smart grids: initial scoping records; detailed paper/code/release audit remains pending.
 - All three: no reproduced baselines, benchmark scores, training runs, or final contribution claims.
 - Shared compute: the earlier audit found an Apple M5 Pro with 24 GB unified memory and no CUDA device. Disk availability and runtime compatibility need rechecking before downloads/runs. [Historical audit](docs/WORKSPACE_AUDIT.md)
 
-Follow the [research roadmap](docs/RESEARCH_ROADMAP.md) and each project's current status. The latest water priority is selecting recent shared-dataset learning/baseline papers, with access preparation in parallel; manufacturing and grid feasibility audits follow separately. Freeze a separate protocol for each before test evaluation. Paid compute, lengthy training, external communications, and publishing retain their existing approval requirements.
+Follow the [research roadmap](docs/RESEARCH_ROADMAP.md) and each project's current status. Current active work is manufacturing dataset/baseline feasibility; water's recorded access wait is unchanged, and grid work follows separately. Freeze a separate protocol for each before test evaluation. Paid compute, lengthy training, external communications, and publishing retain their existing approval requirements.

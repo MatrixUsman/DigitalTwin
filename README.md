@@ -5,7 +5,7 @@ Start here. This workspace supports three separate academic papers. The owners a
 | Owner | Project | Current position |
 |---|---|---|
 | **Muhammad Usman** | [Water infrastructure](water/README.md) | Existing literature audit preserved; SWaT/WADI access and releases unresolved; CAROTS is the conditional first baseline |
-| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Initial scoping and source screening; no selected dataset pair or approved baseline |
+| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Active open-data audit: original CASPER robotics preferred; three-paper learning set, no execution-ready baseline |
 | **Muhammad Usman Sanghla** | [Smart grids](smart_grids/README.md) | Initial scoping and source screening; no selected dataset pair or approved baseline |
 
 No project has reproduced a model or generated benchmark results. Working titles and research questions remain provisional.
@@ -39,6 +39,6 @@ Each topic has its own `PROJECT_BRIEF.md`, `AGENTS.md`, `STATUS.md`, and folders
 
 The [shared work log](docs/WORK_LOG.md) records workspace-wide changes. Project logs retain their own detailed history: [water](water/docs/WORK_LOG.md), [manufacturing](manufacturing/docs/WORK_LOG.md), and [smart grids](smart_grids/docs/WORK_LOG.md).
 
-Planned order: **water → manufacturing → smart grids**, one bounded milestone at a time. First finish each sector's feasibility, datasets, and baseline decisions; then implement and run each project separately. Work need not stop everywhere when one project is waiting for external access. See the [shared roadmap](docs/RESEARCH_ROADMAP.md).
+Planned order: **water → manufacturing → smart grids**, one bounded milestone at a time. The user has now selected **manufacturing while water awaits access**. Its public-data and baseline screen is in the [selection report](manufacturing/docs/BASELINE_SELECTION_REPORT.md); shared-release/protocol admission remains pending. First finish each sector's feasibility, datasets, and baseline decisions; then implement and run each project separately. See the [shared roadmap](docs/RESEARCH_ROADMAP.md).
 
 The installed [research skill](.agents/skills/academic-research-suite/SKILL.md) stays at the root. Its source material is shared; generated research notes and state belong to the active project. [Installation provenance](docs/RESEARCH_SKILL_SETUP.md) and the [original machine audit](docs/WORKSPACE_AUDIT.md) are shared references.

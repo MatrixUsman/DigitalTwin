@@ -1,6 +1,6 @@
 # Datasets — Smart manufacturing
 
-**No benchmark data is present or access approval confirmed.** See the [access checklist](../docs/DATASET_ACCESS_CHECKLIST.md).
+**No benchmark data is present.** Public retrieval without institutional approval was verified for original CASPER and several alternatives; response bodies were not read. See the [access checklist](../docs/DATASET_ACCESS_CHECKLIST.md) for release, license and receipt prerequisites. Preferred candidate: original CASPER v3, CC BY-SA 4.0; do not silently substitute the newer CASPER 1 & 2 listing.
 
 - `datasets/raw/<dataset>/<release>/`: ignored, untouched originals, after authorized acquisition.
 - `datasets/processed/<manifest-id>/`: ignored derived outputs, traceable to originals and configurations.

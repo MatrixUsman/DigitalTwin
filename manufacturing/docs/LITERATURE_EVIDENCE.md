@@ -1,8 +1,21 @@
-# Manufacturing literature — seed evidence register
+# Manufacturing literature evidence register
 
-Screened on 16 October 2026 using publisher and author/institutional sources. This is a bounded initial screen, not a completed audit or exhaustive search. No paper has been reproduced. Unknown fields are explicit; absence of a discovered link is not evidence that an artifact does not exist. Main comparison window: 2023-10-16–2026-10-16 inclusive, preferably 2024–2026.
+Updated 16 October 2026 using publisher, author/institutional manuscripts, pinned author code and provider metadata. This is a bounded literature/access audit, not an exhaustive systematic review. No paper has been reproduced. Unknown fields are explicit; absence of a discovered link is not evidence that an artifact does not exist. Main comparison window: 2023-10-16–2026-10-16 inclusive, preferably 2024–2026.
 
-## Manufacturing cybersecurity and digital-twin papers
+## Current learning shortlist and comparative admission
+
+| Method | Date / identifier | Dataset/code connection | Admission |
+|---|---|---|---|
+| CASPER | ACM ToIT, August 2024; [10.1145/3670414](https://doi.org/10.1145/3670414); corrected VOR 2025-02-05 | Original robot IMU collection; pinned author notebook. Test-label F1 optimization; original code license unresolved. | First critical study and conditional reproduction candidate; non-twin detector. |
+| TWINE | IoT, online 2026-05-26 / July 2026; [10.1016/j.iot.2026.101976](https://doi.org/10.1016/j.iot.2026.101976) | Author MIT repository names original CASPER `right_arm.csv`; random forest/SHAP/Azure twin. Random split and static code inconsistencies; full manuscript inaccessible. | Direct twin learning/comparison candidate; no numerical admission yet. |
+| CatBoost on CASPER | IEEE Sensors Letters, February 2026 issue; [10.1109/LSENS.2026.3656499](https://doi.org/10.1109/LSENS.2026.3656499) | Matched author script reads original filenames but source citation points to newer listing. Synthetic IMU targets, mismatched modality stacking, scaling before random split; no license identified. | Third critical-learning paper; **hold** for comparison. Full manuscript/run mapping missing. |
+| Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing | IEEE IoTJ, August 2025 issue; [10.1109/JIOT.2025.3569780](https://doi.org/10.1109/JIOT.2025.3569780) | New 26-hour/10-Hz recordings, multiple tasks and physical disturbances; MIT TinyML code. Not established as evaluating original CASPER data. | Related-data reserve, not a silent substitute for the third common-data slot. |
+
+All are published journal records. Code visibility is not execution readiness; these are not three verified same-release/same-protocol experiments. Full provenance, preprocessing, splits, thresholds and limitations are in the [comparator screen](literature/COMPARATOR_SCREEN_2026-10-16.md), [twin-method screen](literature/TWIN_METHOD_SCREEN_2026-10-16.md) and [selection report](BASELINE_SELECTION_REPORT.md). The [open-data screen](literature/OPEN_DATASET_SCREEN_2026-10-16.md) distinguishes actual public access checks from received data.
+
+FactoryIO_TSC (ICAC 2024, DOI `10.1109/ICAC61394.2024.10718749`) and LOTL-Hunter (FGCS 2026, DOI `10.1016/j.future.2026.108382`) are alternative manufacturing simulations in those screens. Their datasets differ; they cannot complete the CASPER trio. The CASPER+ author programme is relevant overlap/background, not an additional published baseline.
+
+## Retained framework and older background records
 
 | Record | Date, identifier, status | Manufacturing evidence and role | Data/release and code | Preprocessing and evaluation | Screening decision |
 |---|---|---|---|---|---|
@@ -27,4 +40,4 @@ Source locations and limits:
 
 These sources establish relevant manufacturing work, not a verified gap or compatible benchmark suite. The provisional sequence-aware question overlaps broader established work on process context and attack/anomaly distinction; novelty remains unassessed. Water datasets must not be relabelled manufacturing merely because a paper uses “ICS.” Fault/quality/maintenance studies require separate treatment from cyberattack detection.
 
-First priority for the later manufacturing audit: find an in-window detection paper with accessible code and documented manufacturing attack data, then test compatibility against a second method. No first main baseline is recommended yet. The Factory I/O lead merits a **feasibility review**, not installation or execution, because source visibility and manufacturing semantics are promising but dates, licensing, platform support, and evaluation hygiene remain unresolved.
+The later audit prioritized original CASPER robotic-arm observations and the three-paper critical-learning set above. The Factory I/O leads remain alternatives with different corpora and licensing/platform issues. Follow the current [selection report](BASELINE_SELECTION_REPORT.md) before acquisition or implementation; the seed framework records are not an approved experimental comparison.

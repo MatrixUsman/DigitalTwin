@@ -1,6 +1,6 @@
 # Baselines — Smart manufacturing
 
-No main baseline is selected. The evidence register contains initial sector-specific leads, not approved reproduction targets.
+The critical-learning shortlist is [CASPER 2024](casper/README.md), [TWINE 2026](twine/README.md), and [CatBoost on CASPER 2026](catboost/README.md). These folders contain source/admission notes only, not complete resource packs or reproduced models. No main method is execution-ready. CASPER is the conditional first reproduction candidate.
 
 Consult [literature evidence](../docs/LITERATURE_EVIDENCE.md) and the [reproduction plan](../docs/REPRODUCTION_PLAN.md). This directory currently contains no model checkout or implementation.
 

@@ -1,0 +1,9 @@
+# CatBoost on CASPER — critical learning, numerical comparison on hold
+
+Paper: [CatBoost-Driven Anomaly Detection in Industrial Robotic Arms Using CASPER Dataset](https://doi.org/10.1109/LSENS.2026.3656499), IEEE Sensors Letters, February 2026 issue. [Official abstract](https://epapers2.org/apscon2026/ESR/paper_details.php?paper_id=6394). Full manuscript and exact published run remain unverified.
+
+Matched author code: [CatBoost_Anomaly_Detection_implementation](https://github.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/tree/7f2a691f94f548e6b7c744ee0eeee287489a8639), revision `7f2a691f94f548e6b7c744ee0eeee287489a8639`; no license identified. Script reads original `nicla.csv` and `right_arm.csv`, while reference metadata points to the newer CASPER listing. Local byte identity is unresolved.
+
+Static issues: acceleration-percentile synthetic IMU labels; incompatible modalities padded and stacked as rows; full-data scaling before random split. These findings concern the inspected script; manuscript/run correspondence has not been verified. Do not adopt this path or its headline scores as a cyberattack benchmark.
+
+A clean CatBoost control with authentic aligned labels and our common protocol would be an independent implementation, not faithful reproduction. [Detailed code/provenance audit](../../docs/literature/COMPARATOR_SCREEN_2026-10-16.md) · [selection decision](../../docs/BASELINE_SELECTION_REPORT.md). No checkout, training or results here.
