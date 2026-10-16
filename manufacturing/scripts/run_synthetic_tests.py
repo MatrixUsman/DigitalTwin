@@ -33,9 +33,10 @@ def main() -> int:
     output.mkdir(parents=True, exist_ok=False)
     files = [*ROOT.joinpath("src").rglob("*.py"), *ROOT.joinpath("tests").rglob("*.py"),
              *ROOT.joinpath("tests/fixtures").rglob("*.json"),
-             Path(__file__), ROOT/"pyproject.toml",
+             Path(__file__), ROOT/"scripts/run_bounded_pilot.py", ROOT/"pyproject.toml",
              ROOT/"configs/casper_right_arm_contract_v0.1.json",
-             ROOT/"configs/casper_right_arm_evaluation_v0.1.json"]
+             ROOT/"configs/casper_right_arm_evaluation_v0.1.json",
+             ROOT/"configs/casper_right_arm_pilot_v0.1.json"]
     fingerprints = {}
     for source in files:
         relative = source.relative_to(ROOT)

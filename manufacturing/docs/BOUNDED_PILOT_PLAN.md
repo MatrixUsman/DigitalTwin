@@ -1,5 +1,7 @@
 # Bounded normal-only feasibility pilot
 
+Historical specification, preserved below. A later explicit user instruction authorized implementation and one execution. See the [completed pilot report](PILOT_REPORT.md) and [actual run summary](../experiments/PILOT_V0.1_SUMMARY.json). The model, ranges and limits were not changed; planning-state fields in the original JSON remain historical. The one v0.1 attempt is consumed and must not be automatically repeated.
+
 ## Material Passport
 
 - Project / owner: manufacturing / Haiqa Mushtaq.

@@ -1,6 +1,6 @@
 # Research roadmap for the three projects
 
-Status: proposed staged work; **no experiments executed**. Updated 2026-10-16.
+Status: staged portfolio plan; **no model training or benchmark experiments executed**. Manufacturing has completed 83 synthetic software tests and a pilot specification. Updated 2026-10-17.
 
 ## Working order
 
@@ -23,7 +23,7 @@ Writing notes starts in Stage 1. Results sections and superiority claims require
 ## Immediate next tasks
 
 1. **Water / Muhammad Usman:** use the COMSATS student-email route for an authorized SWaT/WADI request, then identify releases. In parallel, read CAROTS and audit remaining preprocessing/device issues. The assistant has not submitted a request.
-2. **Manufacturing / Haiqa Mushtaq:** the [question/threat model](../manufacturing/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) and [right-arm contract](../manufacturing/docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) now define a bounded state-synchronization study. Next implement/test the loader, split/feature isolation and metrics, then specify normal-only simple controls and state-model validation. Baseline admission, missing manuscripts, novelty and pilot execution remain open.
+2. **Manufacturing / Haiqa Mushtaq:** use the [complete paper roadmap](../manufacturing/docs/PAPER_ROADMAP.md). The right-arm question/data/evaluation definitions and 83 synthetic loader/metric tests are complete within their recorded scope. Next implement/test the specified velocity control and bounded supervisor, then execute a separately scoped normal-only feasibility pilot. Comparator admission, missing manuscripts, twin/model validation, novelty, calibration and final execution remain open.
 3. **Smart grids / Muhammad Usman Sanghla:** choose the electrical system and observation type; verify which leads provide attack recordings versus only simulation cases. Audit recent twin-based comparators and their code/protocol.
 
 ## Preventing accidental duplication

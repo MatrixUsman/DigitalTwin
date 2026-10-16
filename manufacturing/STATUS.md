@@ -1,10 +1,10 @@
 # Manufacturing status
 
-As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active while water waits for iTrust. The user authorized teaching, acquisition/identity and paper audits, research/evaluation definitions, then loader/isolation/metric implementation with synthetic tests and a bounded pilot specification.
+As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active while water waits for iTrust. The latest user instruction authorized implementing/testing the velocity control and bounded runner, then executing one specified normal-only pilot. Both are complete; no broader training or final campaign is implied.
 
 | Item | Actual state |
 |---|---|
-| Stage | Loader/isolation/metric primitives implemented; 83 synthetic tests pass; bounded pilot specified but model/runner/fitting and comparator admission remain pending |
+| Stage | Control/loader/metrics/supervisor implemented; 150 synthetic tests pass; one bounded real normal-only pilot completed; comparator admission remains pending |
 | Recommended setting | Industrial robotic arms; original CASPER pick-and-place collection |
 | Title / question | State synchronization versus preservation of nominal cycle-progression evidence; title and twin/novelty claims remain provisional |
 | Selected threat / inputs | Command/application speed manipulation with truthful monitoring telemetry/time assumed; twelve right-arm joint-position/velocity channels plus relative-time context |
@@ -19,9 +19,10 @@ As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active whi
 | Manuscripts and code | CASPER corrected VOR V1.1 collected; TWINE and CatBoost full-text access unresolved. Pinned pack: 67 source/doc/config/author-result artifacts plus three tree receipts; no upstream code executed |
 | Paper-to-code milestone | CASPER main text studied with figure/cell mappings; TWINE and CatBoost abstract/record/code studies have separate reading notes. Full-paper reading remains **1 of 3**, with no reproduced run |
 | Step 0 comprehension | Lesson and synthetic worked example prepared; researcher worksheet unanswered, understanding unassessed |
-| First executable study | Proposed deterministic velocity-deviation pilot: 46,944 eligible fit-prefix rows and 18,472 development-prefix scores; model/supervisor not implemented or run |
+| First executable study | Deterministic velocity control fitted 46,944 eligible observations and saved 18,472 aligned finite development scores; reference unchanged; one attempt accepted |
 | Other open routes | MIT synthetic machining/assembly; CMU TEP manipulations; no verified recent three-paper intersection |
-| Environment / detector implementation / training | Manufacturing-local Python 3.15.0 venv; stdlib loader/contract/replay/metrics and 83 synthetic tests. No detector model or training |
+| Environment / detector implementation / training | Manufacturing-local Python 3.15.0 venv, standard library only; ordinary velocity control fitted on the declared prefix. No full-training models, twin or reproduced paper baseline |
+| Measured pilot resources | 8.626 s supervised wall, 8.571 s worker CPU, 27.94 MiB peak RSS, 1.93 MiB run outputs; all within declared limits |
 | Benchmark results / novelty evidence | None |
 
 ## Important limits
@@ -41,15 +42,19 @@ As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active whi
 
 ## Next bounded action
 
-The [software validation report](docs/SOFTWARE_VALIDATION.md) completes this bounded implementation milestone: 83 synthetic tests passed, including chronology/isolation, coverage and exact time metrics. No real CASPER observations were opened. The [pilot plan](docs/BOUNDED_PILOT_PLAN.md) and [configuration](configs/casper_right_arm_pilot_v0.1.json) specify one deterministic velocity control and proposed resource bounds. Next: implement and synthetically test that control and its bounded supervisor, resolve the concrete run command/provenance, then undertake a separately scoped normal-only pilot. Calibration/final access stays closed; the [freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json) remains pending. CASPER, TWINE and CatBoost still require separate fair-comparator admission. **No real-data fitting, calibrated threshold, final result or Azure/Factory I/O deployment exists.**
+The [complete paper roadmap](docs/PAPER_ROADMAP.md) tracks Stages 0–18 through submission and peer review. The first control/runner and bounded pilot stages are now complete. Literature admission, researcher learning and evidence-scope planning can proceed in parallel.
+
+The [pilot report](docs/PILOT_REPORT.md) records 150 passing synthetic tests and the successful real-data attempt. The loader parsed 70,000 selected normal-prefix observations; 610,002 CSV records were traversed for positioning, and two full-source byte hashes checked identity. No calibration/final observations were parsed, and raw data remains unchanged. The historical [pilot plan](docs/BOUNDED_PILOT_PLAN.md) and [configuration](configs/casper_right_arm_pilot_v0.1.json) retain their original planning fields; the actual execution record supersedes those status fields.
+
+**Next:** specify full-training velocity, causal periodic-template and small causal-predictor controls, including finite normal-only selection objectives and new bounded run budgets. The subset pilot artifact is not a final checkpoint. Calibration/final access stays closed and the [freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json) remains pending. No calibrated threshold, attack result, demonstrated twin, Azure/Factory I/O deployment or reproduced paper baseline exists.
 
 The three-paper list is for critical study; final comparative admission remains pending. If a clean shared-data comparison requires independent implementations or different features, record those changes before execution. No change has been made to water or grid research status.
 
 ## Evidence and persistent records
 
-- [Software validation](docs/SOFTWARE_VALIDATION.md), [actual test report](experiments/SOFTWARE_TEST_REPORT.json), [environment](docs/ENVIRONMENT.md), [bounded pilot](docs/BOUNDED_PILOT_PLAN.md), [pilot JSON](configs/casper_right_arm_pilot_v0.1.json).
+- [Pilot report](docs/PILOT_REPORT.md), [safe run summary](experiments/PILOT_V0.1_SUMMARY.json), [150-test report](experiments/SOFTWARE_TEST_REPORT_PILOT_V0.1.json), [historical 83-test foundation](docs/SOFTWARE_VALIDATION.md), [environment](docs/ENVIRONMENT.md), [historical pilot plan](docs/BOUNDED_PILOT_PLAN.md), [pilot JSON](configs/casper_right_arm_pilot_v0.1.json).
 - [Evaluation protocol](docs/EVALUATION_PROTOCOL.md), [metric formulas](docs/METRIC_DEFINITIONS.md), [final-test protection](docs/FINAL_TEST_PROTECTION.md), [evaluation JSON](configs/casper_right_arm_evaluation_v0.1.json), [pending freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json).
-- [Evaluation design review and dispositions](docs/EVALUATION_PROTOCOL_REVIEW.md); metadata/arithmetic checks passed, executable validation remains pending.
+- [Evaluation design review and dispositions](docs/EVALUATION_PROTOCOL_REVIEW.md); metadata/arithmetic checks passed, foundational software is now synthetic-tested; model-specific and production final-runner validation remain pending.
 - [Admission rules](docs/BASELINE_SELECTION_CRITERIA.md), [selection decision](docs/BASELINE_SELECTION_REPORT.md), [literature register](docs/LITERATURE_EVIDENCE.md).
 - [Received-file identity](docs/CASPER_DATASET_IDENTITY.md), [receipt manifest](datasets/manifests/casper_v3_receipt.json), [manuscript/code collection](docs/MANUSCRIPT_COLLECTION_AUDIT.md), [proposed protocol](docs/COMPARISON_PROTOCOL.md).
 - [Current release/hash/clock register](docs/DATASET_IDENTITY_REGISTER.md), [consolidated manifest](datasets/manifests/casper_v3_identity.json), [checksum file](datasets/manifests/casper_v3.sha256), [label/time review](docs/CASPER_LABEL_TIME_AUDIT.md), [paper-specific dataset correspondence](docs/BASELINE_DATASET_CORRESPONDENCE.md).

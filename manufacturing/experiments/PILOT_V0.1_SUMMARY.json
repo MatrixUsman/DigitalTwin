@@ -1,0 +1,267 @@
+{
+  "run_id": "velocity_zmax_pilot_20261016T192422_101078Z",
+  "kind": "bounded_normal_only_feasibility_not_benchmark",
+  "status": "completed",
+  "accepted": true,
+  "started_at_utc": "2026-10-16T19:24:22.098628+00:00",
+  "completed_at_utc": "2026-10-16T19:24:30.804165+00:00",
+  "entry_end_to_end_seconds_before_receipt": 8.705576749984175,
+  "supervisor": {
+    "status": "completed",
+    "reason": "completed",
+    "returncode": 0,
+    "wall_seconds": 8.625890333089046,
+    "sampled_peak_rss_bytes": 29294592,
+    "rss_samples": 35,
+    "maximum_rss_poll_start_gap_seconds": 0.2511478340020403,
+    "rss_source": "/bin/ps rss (1024-byte units)",
+    "rss_is_instantaneous_ceiling": false,
+    "worker_log_bytes": 116,
+    "output_bytes": 2013936,
+    "limits": {
+      "wall_seconds": 600,
+      "cpu_seconds": 300,
+      "rss_bytes": 1073741824,
+      "output_bytes": 52428800,
+      "poll_seconds": 0.25
+    },
+    "parent_reserve_bytes": 1048576,
+    "attempts": 1,
+    "worker_usage": {
+      "peak_rss_bytes": 29294592,
+      "process_cpu_seconds": 8.570764,
+      "ru_maxrss_native_unit": "bytes",
+      "source": "getrusage(RUSAGE_SELF)",
+      "system_cpu_seconds": 2.294572,
+      "user_cpu_seconds": 6.276192
+    },
+    "worker_usage_note": "caller must attach worker getrusage receipt when available"
+  },
+  "diagnostics": {
+    "attack_metrics_computed": false,
+    "calibrated_threshold": null,
+    "calibration_or_final_observations_parsed": false,
+    "effective_cpu_limits": {
+      "cpu_enforcement": "RLIMIT_CPU_in_worker",
+      "cpu_hard_seconds": 300,
+      "cpu_soft_seconds": 300,
+      "pid": 90660
+    },
+    "failure_reason": null,
+    "finite_positive_variance_channels": 6,
+    "fit_count": 46944,
+    "load_stats": {
+      "check_scores": {
+        "csv_records_traversed": 560002,
+        "hash_bytes": 1978193094,
+        "hash_scans_completed": 1,
+        "hash_seconds": 0.6737029160140082,
+        "selected_rows_parsed": 20000,
+        "source_verified": true,
+        "stream_checks_completed": true,
+        "valid_observations": 20000
+      },
+      "fit": {
+        "csv_records_traversed": 50000,
+        "hash_bytes": 1978193094,
+        "hash_scans_completed": 1,
+        "hash_seconds": 0.7794214169261977,
+        "selected_rows_parsed": 50000,
+        "source_verified": true,
+        "stream_checks_completed": true,
+        "valid_observations": 50000
+      }
+    },
+    "populations": {
+      "check_scores": {
+        "csv_loading_seconds_excluding_hash": 2.730253050569445,
+        "eligible_rows": 18472,
+        "exclusions": {
+          "warmup": 1528
+        },
+        "load_stats": {
+          "csv_records_traversed": 560002,
+          "hash_bytes": 1978193094,
+          "hash_scans_completed": 1,
+          "hash_seconds": 0.6737029160140082,
+          "selected_rows_parsed": 20000,
+          "source_verified": true,
+          "stream_checks_completed": true,
+          "valid_observations": 20000
+        },
+        "loader_advance_seconds": 3.403955966583453,
+        "raw_rows_yielded": 20000,
+        "segment_start_rows": [
+          540002
+        ],
+        "source_checks_completed": true
+      },
+      "fit": {
+        "csv_loading_seconds_excluding_hash": 0.5579045374179259,
+        "eligible_rows": 46944,
+        "exclusions": {
+          "warmup": 3056
+        },
+        "load_stats": {
+          "csv_records_traversed": 50000,
+          "hash_bytes": 1978193094,
+          "hash_scans_completed": 1,
+          "hash_seconds": 0.7794214169261977,
+          "selected_rows_parsed": 50000,
+          "source_verified": true,
+          "stream_checks_completed": true,
+          "valid_observations": 50000
+        },
+        "loader_advance_seconds": 1.3373259543441236,
+        "raw_rows_yielded": 50000,
+        "segment_start_rows": [
+          0,
+          16571
+        ],
+        "source_checks_completed": true
+      }
+    },
+    "reference_state_sha256_after": "9bba261d3142a4cc6915f056ec8fb6b4951e9be2367bcac4208b95df7a720939",
+    "reference_state_sha256_before": "9bba261d3142a4cc6915f056ec8fb6b4951e9be2367bcac4208b95df7a720939",
+    "reference_unchanged": true,
+    "score_alignment": "complete_declared_support_no_duplicates_or_missing",
+    "score_count": 18472,
+    "stage": "completed",
+    "status": "completed",
+    "timing_seconds": {
+      "core_end_to_end": 8.580915709026158,
+      "development_stage_including_loading_and_output": 7.062467542011291,
+      "fit_accumulation_and_coordination_excluding_loading": 0.17998937866650522,
+      "fit_stage_including_loading": 1.5173153330106288,
+      "score_function_calls": 0.048063932452350855,
+      "score_serialization_and_output": 3.5938876644941047
+    },
+    "worker_completed_at_utc": "2026-10-16T19:24:30.777964+00:00",
+    "worker_resources": {
+      "peak_rss_bytes": 29294592,
+      "process_cpu_seconds": 8.570764,
+      "ru_maxrss_native_unit": "bytes",
+      "source": "getrusage(RUSAGE_SELF)",
+      "system_cpu_seconds": 2.294572,
+      "user_cpu_seconds": 6.276192
+    },
+    "worker_started_at_utc": "2026-10-16T19:24:22.189175+00:00"
+  },
+  "source_changes_during_run": [],
+  "failure_stage": null,
+  "artifact_readback_validation": {
+    "saved_reference_valid": true,
+    "saved_score_count": 18472,
+    "missing": 0,
+    "duplicate_or_reordered": 0,
+    "nonfinite": 0
+  },
+  "total_output_bytes": 2021845,
+  "source_identity": {
+    "path": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+    "bytes": 1978193094,
+    "sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334"
+  },
+  "calibration_access": false,
+  "final_feature_access": false,
+  "benchmark_or_twin_claim": false,
+  "comparator_admission": "unchanged_pending_for_all_three_learning_papers",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "operator": "Codex assistant",
+  "attempts": 1,
+  "seed": null,
+  "stochastic": false,
+  "run_manifest": "experiments/runs/velocity_zmax_pilot_20261016T192422_101078Z/run.json",
+  "run_manifest_sha256": "94f0f5db16491b696742469aabbc3e57b69ce907efe20011143c6fd06f52d6a9",
+  "command_from_manufacturing": ".venv/bin/python scripts/run_bounded_pilot.py --execute --test-receipt local/software_validation/20261016T192407_763843Z/receipt.json",
+  "git_head": "0f1c2ed5ed21086b92579eeb7af98953fce96f18",
+  "source_sha256": {
+    "configs/casper_right_arm_contract_v0.1.json": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+    "configs/casper_right_arm_evaluation_v0.1.json": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+    "configs/casper_right_arm_pilot_v0.1.json": "5df7c1e6f279aebe482099fe9dfeaeba1eb241df47ce9a93137fbfcbb95870dc",
+    "pyproject.toml": "776f1287caa6c98e708fd8300d429f671f8b02e7b08a7ec1d8e832ce8a0ecfe6",
+    "scripts/run_bounded_pilot.py": "1bc9b8ace64a0331e3f4526dc455184baccc2b8b0b2d4b309e3fcd9d00d749fd",
+    "scripts/run_synthetic_tests.py": "32a51572de49b012b75f9f602f11342028d25084c449c12f36c9b0d7a68e9f04",
+    "src/mfg_twin/__init__.py": "3fd7d875a6a364c297b94b5f7422bf3bb155d5dd4f940d06e586c903a587effa",
+    "src/mfg_twin/contract.py": "06938cbea7d636e6554c0c718250fe27fdad21f455b5b97b0926e1dcf13bfae8",
+    "src/mfg_twin/data.py": "82e56d653ac9ff048fd85951e3370ae4c33f9c73edc940c682cbe66c2e85c7a6",
+    "src/mfg_twin/metrics.py": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+    "src/mfg_twin/pilot.py": "54efce773af65aec2e295d183c294a8867e7c8d1c28695e18c00fd807e2d9740",
+    "src/mfg_twin/replay.py": "fa42201b7bb5aa833f56205ba0e4fc689bddf3a439eb0c427271c7671f81d822",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3",
+    "src/mfg_twin/velocity.py": "080f6d09440f2605b1e636925d92791bb67391abead0c22b79d6fad3fc40f61a",
+    "tests/test_contract.py": "14808f358cf72c60ac7fb8daf126c910f9452b3d5e66e67d934896566857730e",
+    "tests/test_data.py": "63417cd3003fcd221f3e315867ee17a111fac39f56714684b2cba174011c3787",
+    "tests/test_integration.py": "d39831210678fee6195cb5a1e0c75c1345e3ef2f6f1fe470f83e966a96deb22d",
+    "tests/test_metrics.py": "2ccf8fa15f28785a6aa7255b8baf854935cfa2687569861c8567011dace56dac",
+    "tests/test_pilot.py": "42ad86508c65d04d1c941f69483e77617633b581b3d09b988babb2896183df49",
+    "tests/test_pilot_entry.py": "7928de4726ab92032ae9e813ad1865c3ff70b62d128969c50ef5e503a7ec0179",
+    "tests/test_supervisor.py": "7da9a980348f61d33eca5bbb391bd7b513caa16ba31c7926f53e07fa4215bb51",
+    "tests/test_velocity.py": "78dc8a7b4a840e713b9db28c39933c616c60c8ec21de1d5c02c2715842c2e7f9"
+  },
+  "source_snapshot_sha256": "28aa553b83bf8eee98f3974b8e333ad44fc5ee9e931e519a3298c7ab5c548cde",
+  "artifact_hashes": {
+    "development_scores.jsonl": {
+      "sha256": "b77c8d42d2e080c7d7b986f91fecd4349b1b7fd83f4457c98869f3d69935f861",
+      "bytes": 1522593
+    },
+    "diagnostics.json": {
+      "sha256": "28dc987c0c61bfc0982b6838169448900ced2841fdf1b1aca864379dc13843c8",
+      "bytes": 3551
+    },
+    "pilot_specification.json": {
+      "sha256": "5df7c1e6f279aebe482099fe9dfeaeba1eb241df47ce9a93137fbfcbb95870dc",
+      "bytes": 7120
+    },
+    "progress.jsonl": {
+      "sha256": "f626e1f224f66e52de873f4f96315855949a9b3d04689c9fb9375920801308c3",
+      "bytes": 19762
+    },
+    "reference.json": {
+      "sha256": "6a84be2f750742dd51e19b6663eec6fe63f2818e6ed6c61f6c719d88121bcf77",
+      "bytes": 866
+    },
+    "resolved_config.json": {
+      "sha256": "e521b5ec65211bda33699e013b010a12b24880bd21050b0b9e3f2a8dac153238",
+      "bytes": 7915
+    },
+    "source_snapshot.json": {
+      "sha256": "28aa553b83bf8eee98f3974b8e333ad44fc5ee9e931e519a3298c7ab5c548cde",
+      "bytes": 248633
+    },
+    "specification_snapshot.json": {
+      "sha256": "7f06d188b65ed8f663c5e8a1107a3a3413929ee812270c81a316dae65b2ced2f",
+      "bytes": 67959
+    },
+    "synthetic_test_receipt.json": {
+      "sha256": "abc34e1ecd08c2d1501df5e90601a5dada5807f5936c2a25dcbbd20b8faf828c",
+      "bytes": 4270
+    },
+    "tracked_workspace.patch": {
+      "sha256": "d220225b0a857cb639f50eeddbd82f20923e484e028cbc45cf59994b3c154bbc",
+      "bytes": 130964
+    },
+    "worker.log": {
+      "sha256": "38b26b8f8824ec12f20444ca3151af9707224279e5e733aaa4a40ad40945266a",
+      "bytes": 116
+    },
+    "worker_started.json": {
+      "sha256": "c3a2241f0ea5a7662ce0af46dbfeacfbd332ab3a246eb7888b42841940b1389f",
+      "bytes": 187
+    }
+  },
+  "hardware_sysctl": [
+    "Mac17,8",
+    "25769803776",
+    "Apple M5 Pro"
+  ],
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "dependencies": [],
+  "scope": "Ordinary velocity control fit on a normal prefix; no threshold, attack evaluation, twin validation or paper reproduction",
+  "source_hash_scans": 2,
+  "source_bytes_hashed": 3956386188,
+  "csv_data_records_traversed": 610002,
+  "selected_observations_parsed": 70000,
+  "raw_output_values_in_this_summary": false
+}

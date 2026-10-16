@@ -134,3 +134,11 @@ Record type: contemporaneous. Manufacturing completed the requested bounded load
 The [playbook](RESEARCH_PLAYBOOK.md) now records project-local minimal environments, evaluator/feature separation, manifest-bound development access, source hashing versus observation inspection, failure/coverage admission, synthetic edge cases and immutable test receipts. A reviewer-discovered Decimal precision defect was fixed with regression coverage after an earlier passing suite; a pass is evidence for tested cases, not proof of universal correctness. Full comparator admission and actual model/calibration/final execution remain separate.
 
 This is validated software behavior on manufacturing synthetic fixtures, not a water/grid implementation or a benchmark result. No sibling-project/skill edits, paid compute, external messages, uploads, publication or assistant-issued commit/push.
+
+### 2026-10-17 — SHARED-021 — Complete paper lifecycle roadmap
+
+Record type: contemporaneous. Manufacturing's requested [complete paper roadmap](../manufacturing/docs/PAPER_ROADMAP.md) now maps actual evidence to remaining work through submission/review. See [MFG-013](../manufacturing/docs/WORK_LOG.md). It distinguishes synthetic infrastructure, unexecuted pilot/model work, unresolved comparison/novelty, actual artifact freeze, final analysis and manuscript/submission readiness.
+
+Updated only manufacturing's entry in the shared portfolio roadmap and its evidence cells in the playbook; added a reusable lifecycle-planning procedure. Keep gates and failure paths explicit, preserve historical/frozen snapshots and do not infer progress percentages or publication promises. Other projects must receive their own evidence audit before adopting a roadmap or completion state.
+
+This task changed planning/status documents only. No raw reads, tests/models/training, installs, external contact, publishing or assistant-issued commit/push. No sibling-project or installed-skill edits.

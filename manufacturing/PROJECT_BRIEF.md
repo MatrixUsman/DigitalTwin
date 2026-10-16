@@ -1,6 +1,6 @@
 # Manufacturing research project
 
-Last updated: 16 October 2026. Project owner: **Haiqa Mushtaq**. Ownership is an organizational assignment, not a decision about academic authorship.
+Last updated: 17 October 2026. Project owner: **Haiqa Mushtaq**. Ownership is an organizational assignment, not a decision about academic authorship.
 
 This is an independent academic research project on cybersecurity of manufacturing cyber–physical systems. Its current stage is beginner teaching, original CASPER receipt/identity audit, targeted manuscript study and comparison planning. The original CASPER archive and five members have been acquired with integrity checks and hashes; a corrected CASPER manuscript, pinned code/documents and explicitly author-reported tables/figures are stored locally. A [study guide](docs/DATA_AND_BASELINE_STUDY.md) connects full controller-schema validation, annotation lineage and paper-to-code findings. No baseline has been reproduced and no experimental performance results exist.
 
@@ -25,6 +25,8 @@ The distinction between an attack, a fault, and an authorized transition must co
 - Keep title, mechanism, comparison set, and contribution provisional until a faithful baseline and an explicit literature-gap audit support decisions.
 
 ## Setup deliverables and next stage
+
+Use the [complete paper roadmap](docs/PAPER_ROADMAP.md) for current completion states, remaining implementation/scientific gates, manuscript development and submission. It does not authorize the future runs or publication it describes.
 
 The [identity register](docs/DATASET_IDENTITY_REGISTER.md) records exact received bytes; the [manuscript audit](docs/MANUSCRIPT_COLLECTION_AUDIT.md) retains one full paper and two access gaps. The [annotation/feature/split contract](docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) and [JSON specification](configs/casper_right_arm_contract_v0.1.json) now define the selected controller group. The [comparison protocol](docs/COMPARISON_PROTOCOL.md) keeps it separate from earlier IMU and supervised groups. The [evaluation protocol](docs/EVALUATION_PROTOCOL.md) now defines common eligible support, threshold-only calibration, metrics, fixed repeats and procedural protection of both final slices. The [freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json) is pending; no calibrated artifact or final run exists. Data/evaluation definitions and foundational synthetic loader/metric tests are complete; model-specific transforms, initialization, scoring, fitting tests, normal-only selection objectives and pilot execution admission remain open.
 

@@ -6,6 +6,7 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 
 | Location | Purpose |
 |---|---|
+| [docs/PAPER_ROADMAP.md](docs/PAPER_ROADMAP.md) | Complete current roadmap: completed work, remaining tasks, evidence gates and submission lifecycle |
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
 | [docs/DATA_AND_BASELINE_STUDY.md](docs/DATA_AND_BASELINE_STUDY.md) | Start here: received materials, findings and a practical reading sequence |
 | [docs/PAPER_CODE_TRACEABILITY.md](docs/PAPER_CODE_TRACEABILITY.md) | Paper-reading coverage and method-to-author-code connections for all three candidates |

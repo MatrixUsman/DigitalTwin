@@ -10,12 +10,13 @@ import hashlib
 import io
 import json
 import os
+import time
 from dataclasses import dataclass
 from decimal import Decimal
 from pathlib import Path
 from typing import BinaryIO, Iterator
 
-from .data import EvaluatorRecord, PartitionSpec, iter_csv_partition
+from .data import CSVReadStats, EvaluatorRecord, PartitionSpec, iter_csv_partition
 
 CONTRACT_PATH = "configs/casper_right_arm_contract_v0.1.json"
 POLICY_PATH = "configs/casper_right_arm_evaluation_v0.1.json"
@@ -29,6 +30,15 @@ class ContractError(ValueError):
 
 class ProtectedPartitionError(ContractError):
     """This milestone does not expose calibration or final observations."""
+
+
+@dataclass(slots=True)
+class LoadStats(CSVReadStats):
+    hash_bytes: int = 0
+    hash_scans_completed: int = 0
+    hash_seconds: float = 0.0
+    source_verified: bool = False
+    stream_checks_completed: bool = False
 
 
 @dataclass(frozen=True, slots=True)
@@ -91,20 +101,32 @@ def load_study(project_root: str | Path) -> Study:
     return Study(root, source["source_file"], source["source_bytes"], source["source_sha256"], partitions, eligible)
 
 
-def verify_source(stream: BinaryIO, *, expected_bytes: int, expected_sha256: str) -> None:
+def verify_source(stream: BinaryIO, *, expected_bytes: int, expected_sha256: str,
+                  stats: LoadStats | None = None) -> None:
     """Hash a seekable binary stream, then rewind; does not parse observations."""
-    stream.seek(0)
-    digest = hashlib.sha256()
+    started = time.perf_counter()
     count = 0
-    for chunk in iter(lambda: stream.read(1024 * 1024), b""):
-        count += len(chunk)
-        digest.update(chunk)
-    stream.seek(0)
+    try:
+        stream.seek(0)
+        digest = hashlib.sha256()
+        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+            count += len(chunk)
+            digest.update(chunk)
+        stream.seek(0)
+        if stats is not None:
+            stats.hash_scans_completed += 1
+    finally:
+        if stats is not None:
+            stats.hash_bytes += count
+            stats.hash_seconds += time.perf_counter() - started
     if count != expected_bytes or digest.hexdigest() != expected_sha256:
         raise ContractError("Source size or SHA-256 differs from the immutable receipt")
+    if stats is not None:
+        stats.source_verified = True
 
 
-def iter_development_records(study: Study, partition: str, *, stop: int | None = None) -> Iterator[EvaluatorRecord]:
+def iter_development_records(study: Study, partition: str, *, stop: int | None = None,
+                             stats: LoadStats | None = None) -> Iterator[EvaluatorRecord]:
     """Read a training/development prefix from verified bytes.
 
     `stop` may cap the end for a declared bounded pilot. It cannot move the start,
@@ -130,9 +152,9 @@ def iter_development_records(study: Study, partition: str, *, stop: int | None =
         before = os.fstat(binary.fileno())
         if before.st_size != study.source_bytes:
             raise ContractError("Source byte count mismatch")
-        verify_source(binary, expected_bytes=study.source_bytes, expected_sha256=study.source_sha256)
+        verify_source(binary, expected_bytes=study.source_bytes, expected_sha256=study.source_sha256, stats=stats)
         with io.TextIOWrapper(binary, encoding="utf-8-sig", newline="") as text:
-            for record in iter_csv_partition(text, bounded):
+            for record in iter_csv_partition(text, bounded, stats=stats):
                 if record.observation is None:
                     raise ContractError(f"Unexpected invalid observation at row {record.row}")
                 if (record.observation.dt is None) != (record.row in starts):
@@ -148,3 +170,5 @@ def iter_development_records(study: Study, partition: str, *, stop: int | None =
             after = os.fstat(binary.fileno())
             if (before.st_size, before.st_mtime_ns, before.st_ino) != (after.st_size, after.st_mtime_ns, after.st_ino):
                 raise ContractError("Source metadata changed while loading")
+            if stats is not None:
+                stats.stream_checks_completed = True

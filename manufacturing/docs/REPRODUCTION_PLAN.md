@@ -1,8 +1,8 @@
 # Proposed manufacturing reproduction plan
 
-Planning updated 16 October 2026 after the user authorized original-CASPER acquisition, manuscript follow-up, Step 0 teaching and a fair comparison protocol. Receipt/structural inspection and targeted manuscript/code collection are complete within their documented coverage; no environment, dependency installation, simulator execution or training has occurred. Read the newer [comparison protocol](COMPARISON_PROTOCOL.md) for explicit separate information-access groups, split/calibration proposals and unresolved gates.
+Historical paper-specific proposals from 16 October 2026, with current routing updated **17 October 2026**. Use [PAPER_ROADMAP.md](PAPER_ROADMAP.md) for the complete current lifecycle and [SOFTWARE_VALIDATION.md](SOFTWARE_VALIDATION.md) for the implemented loader/isolation/metric foundation: an isolated standard-library environment and 83 synthetic tests now exist. No detector, real-data fit, calibrated threshold or benchmark result exists. The separate reproduction proposals below remain unresolved; they are not a completed or admitted three-method comparison.
 
-**Later scope decision:** the [selected question and threat model](RESEARCH_QUESTION_AND_THREAT_MODEL.md) now prioritize normal-only right-arm state/progression monitoring under a restricted command-path adversary. The [annotation/feature/split specification](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) is defined for design review. Begin future software work with its loader/isolation/metrics checks, then simple velocity/template/AR controls and normal-only state-model validation. The paper-specific reproduction proposals below remain separate; they do not automatically define the main experimental comparison or authorize training.
+**Current scope decision:** the [selected question and threat model](RESEARCH_QUESTION_AND_THREAT_MODEL.md) prioritize normal-only right-arm state/progression monitoring under a restricted command-path adversary. The [annotation/feature/split specification](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) and [evaluation rules](EVALUATION_PROTOCOL.md) are defined. Foundational synthetic loader/isolation/metric checks are complete; the next work is the specified velocity control and bounded supervisor, then a separately scoped normal-only pilot. Template/AR controls and twin/state validation follow feasibility. The paper-specific proposals below do not automatically define the main comparison or authorize training.
 
 ## 1. Resolve the setting and evidence
 
@@ -34,7 +34,7 @@ Keep all artifacts project-local. Run commands from `manufacturing/` and use its
 
 | Location | Proposed responsibility |
 |---|---|
-| `src/manufacturing_dt/` | Dataset adapters, chronological/run-aware partitions, process-state interfaces, evaluation |
+| `src/mfg_twin/` | Current loader/contract/replay/metric primitives; future model adapters remain separate work |
 | `tests/` | Small clearly labelled synthetic fixtures and meaningful loader/split/metric checks |
 | `configs/` | Immutable dataset, protocol, model, and seed specifications |
 | `baselines/` | Pinned upstream references or separately labelled reimplementations, after license checks |

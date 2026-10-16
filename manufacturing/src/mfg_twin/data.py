@@ -35,6 +35,15 @@ class DataContractError(ValueError):
     """Malformed structure, annotation, or incomplete requested partition."""
 
 
+@dataclass(slots=True)
+class CSVReadStats:
+    """Counts only; no observations or skipped feature values are retained."""
+
+    csv_records_traversed: int = 0
+    selected_rows_parsed: int = 0
+    valid_observations: int = 0
+
+
 @dataclass(frozen=True, slots=True)
 class PartitionSpec:
     """A zero-based, half-open data-row range, excluding the CSV header."""
@@ -117,6 +126,7 @@ def _native_delta(current: Decimal, previous: Decimal) -> Decimal:
 
 def iter_csv_partition(
     source: str | os.PathLike[str] | TextIO, spec: PartitionSpec,
+    *, stats: CSVReadStats | None = None,
 ) -> Iterator[EvaluatorRecord]:
     """Yield exactly ``end-start`` records when fully consumed, or raise.
 
@@ -161,10 +171,14 @@ def iter_csv_partition(
                 ) from error
             except csv.Error as error:
                 raise DataContractError(f"malformed CSV at data row {row_index}") from error
+            if stats is not None:
+                stats.csv_records_traversed += 1
             if len(values) != len(CASPER_HEADER):
                 raise DataContractError(f"wrong CSV field count at data row {row_index}")
             if row_index < spec.start:
                 continue
+            if stats is not None:
+                stats.selected_rows_parsed += 1
             if values[-1] not in ("0", "1"):
                 raise DataContractError(f"label is not literal 0/1 at data row {row_index}")
             label = int(values[-1])
@@ -198,6 +212,8 @@ def iter_csv_partition(
                 preceding = 0
                 dt = None
             observation = Observation(q=q, qdot=qdot, dt=dt)
+            if stats is not None:
+                stats.valid_observations += 1
             eligible = preceding >= spec.warmup
             yield EvaluatorRecord(
                 row_index, timestamp, label, observation, eligible, segment,

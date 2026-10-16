@@ -1,5 +1,7 @@
 # Loader, split isolation and metric implementation
 
+Historical **83-test foundation milestone** below, preserved as executed. The subsequent [pilot report](PILOT_REPORT.md) records the expanded **150-test suite**, control/supervisor implementation and one completed real normal-only pilot. Earlier statements about absent models/readiness apply to this document's original milestone; current handoff is [STATUS.md](../STATUS.md).
+
 ## Material Passport
 
 - Project / owner: manufacturing / Haiqa Mushtaq.
