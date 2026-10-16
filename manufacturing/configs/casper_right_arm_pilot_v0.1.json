@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "pilot_id": "manufacturing-casper-right-arm-pilot-v0.1",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "date": "2026-10-16",
+  "date_timezone": "Asia/Karachi",
+  "status": "proposed_not_executed",
+  "authorizes_training": false,
+  "path_base": "manufacturing project root",
+  "documentation": "docs/BOUNDED_PILOT_PLAN.md",
+  "data_contract": {
+    "path": "configs/casper_right_arm_contract_v0.1.json",
+    "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25"
+  },
+  "evaluation_policy": {
+    "path": "configs/casper_right_arm_evaluation_v0.1.json",
+    "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0"
+  },
+  "dataset": {
+    "source_file": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+    "source_sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+    "source_bytes": 1978193094,
+    "provider_version": 3,
+    "index_convention": "zero-based data rows excluding header; half-open ranges",
+    "raw_read_for_this_plan": false,
+    "other_members_allowed": false
+  },
+  "access": {
+    "fit": {
+      "parent_partition": "training",
+      "rows_half_open": [
+        0,
+        50000
+      ],
+      "raw_rows": 50000,
+      "eligible_intervals_half_open": [
+        [
+          1528,
+          16571
+        ],
+        [
+          18099,
+          50000
+        ]
+      ],
+      "expected_eligible_rows": 46944
+    },
+    "check_scores": {
+      "parent_partition": "development",
+      "rows_half_open": [
+        540002,
+        560002
+      ],
+      "raw_rows": 20000,
+      "eligible_intervals_half_open": [
+        [
+          541530,
+          560002
+        ]
+      ],
+      "expected_eligible_rows": 18472
+    },
+    "calibration_access": false,
+    "protected_final_access": false,
+    "labels_available_to_model": false,
+    "raw_row_read_stop_exclusive": 560002,
+    "sequential_positioning_prefix_traversal": "allowed for record positioning only; do not fit, retain or report skipped feature values; count traversal separately",
+    "consume_record_at_stop": false,
+    "automatic_subset_expansion": false,
+    "whole_source_integrity_hash_allowed": true,
+    "whole_source_hash_purpose": "byte identity only; no protected feature parsing or statistics"
+  },
+  "continuity": {
+    "common_warmup_preceding_observations": 1528,
+    "gap_rule": "delta_seconds <= 0 or delta_seconds > 0.075",
+    "expected_fit_gap_restart_rows": [
+      16571
+    ],
+    "separate_development_initialization": true,
+    "unexpected_gap_invalid_input_or_support": "stop_with_diagnostic_no_mask_revision",
+    "imputation": false
+  },
+  "model": {
+    "id": "velocity_zmax_v0.1_pilot",
+    "designation": "proposed_independent_ordinary_control_not_a_digital_twin",
+    "implementation_status": "not_implemented",
+    "source_column": "Actual Joint Velocities",
+    "vector_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "units": "radian_per_second",
+    "fit_population": "all_and_only_eligible_fit_prefix_endpoints",
+    "reference": "per_channel_streaming_Welford_arithmetic_mean_and_population_variance_M2_divided_by_n",
+    "numeric_type": "Python float; record actual interpreter and platform",
+    "score": "max_j(abs((qdot[j]-mu[j])/sqrt(variance[j])))",
+    "orientation": "larger_is_more_anomalous",
+    "nonfinite_accumulator_or_nonpositive_variance": "fail_with_channel_diagnostic_no_epsilon_or_channel_drop",
+    "normalization_fit_on_development": false,
+    "reference_updates_during_scoring": false,
+    "uses_q": false,
+    "uses_dt_in_score": false,
+    "uses_labels_or_absolute_time_or_row_index_in_score": false,
+    "future_observations": false,
+    "threshold_computed": false,
+    "alarm_outputs": false
+  },
+  "selection": {
+    "configurations": 1,
+    "search": "none",
+    "objective": "complete_finite_aligned_outputs_and_resource_feasibility_only",
+    "attack_metric_objective": false,
+    "normal_score_minimization": false,
+    "epochs": null,
+    "checkpoint_selection": false,
+    "stochastic": false,
+    "seed": null,
+    "reserved_future_stochastic_pilot_seed": 42,
+    "declared_attempts": 1,
+    "automatic_retry": false,
+    "promotion_to_final_checkpoint": false
+  },
+  "required_diagnostics": [
+    "source_contract_config_and_code_identity",
+    "actual_rows_traversed_and_observations_parsed",
+    "fit_count_and_all_six_finite_positive_variances",
+    "score_count_alignment_duplicates_missing_nonfinite",
+    "structural_exclusion_counts",
+    "reference_unchanged_after_scoring",
+    "fit_loading_scoring_and_end_to_end_wall_time",
+    "process_cpu_seconds",
+    "measured_peak_RSS_bytes",
+    "output_bytes",
+    "terminal_status_failure_stage_and_reason",
+    "artifact_hashes"
+  ],
+  "forbidden_outputs": [
+    "calibrated_threshold",
+    "attack_precision_recall_F1_or_AP",
+    "event_detection_or_delay",
+    "final_normal_alarm_burden",
+    "benchmark_superiority_or_twin_claim"
+  ],
+  "resource_limits": {
+    "status": "proposed_abort_settings_not_measured_or_enforced",
+    "device": "cpu",
+    "worker_processes": 1,
+    "computation_threads": 1,
+    "wall_timeout_seconds": 600,
+    "worker_cpu_limit_seconds": 300,
+    "monitored_RSS_abort_bytes": 1073741824,
+    "RSS_poll_interval_seconds_maximum": 1,
+    "instantaneous_RSS_ceiling_guaranteed": false,
+    "output_limit_bytes": 52428800,
+    "network_allowed": false,
+    "GPU_or_MPS_allowed": false,
+    "concurrent_experiment_allowed": false,
+    "limits_auto_extend": false,
+    "requires_tested_supervisor_before_execution": true
+  },
+  "execution": {
+    "working_directory": "manufacturing project root",
+    "entry_command": null,
+    "interpreter": null,
+    "environment": null,
+    "proposed_dependencies": "Python standard library only",
+    "operator": null,
+    "code_revision": null,
+    "run_id": null,
+    "output_directory": null,
+    "started_at": null,
+    "completed_at": null,
+    "checkpoint_hash": null,
+    "score_hash": null,
+    "measured_resources": null,
+    "results": null
+  },
+  "gates": [
+    "synthetic_loader_split_isolation_and_metric_tests_pass_with_recorded_revision",
+    "implement_and_synthetically_test_fixed_control_and_bounded_runner",
+    "verify_read_only_source_identity_without_final_feature_inspection",
+    "resolve_actual_environment_command_run_manifest_and_resource_enforcement",
+    "subsequent_task_authorizes_bounded_real_data_fitting"
+  ],
+  "comparator_admission": {
+    "CASPER": "pending_changed_input_modality_threshold_protocol_and_code_use_terms",
+    "TWINE": "pending_full_text_published_run_correspondence_and_normal_only_protocol",
+    "CatBoost_on_CASPER": "pending_full_text_code_use_provenance_and_valid_common_annotation_input_protocol",
+    "synthetic_software_checks_admit_papers": false
+  },
+  "limits": [
+    "one_recording_normal_prefix_feasibility_only",
+    "does_not_establish_attack_sensitivity_or_answer_the_primary_twin_contrast",
+    "subset_fit_cannot_be_renamed_a_full_training_final_artifact",
+    "no_raw_sensor_values_read_and_no_fitting_in_plan_preparation"
+  ]
+}

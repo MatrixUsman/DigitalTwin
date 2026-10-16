@@ -1,14 +1,17 @@
 # Manufacturing status
 
-As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active while water waits for iTrust. The user authorized Step 0 teaching, original-CASPER acquisition/identification, manuscript collection, a fair protocol, question/threat-model selection and annotation/feature/split definition before training.
+As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active while water waits for iTrust. The user authorized teaching, acquisition/identity and paper audits, research/evaluation definitions, then loader/isolation/metric implementation with synthetic tests and a bounded pilot specification.
 
 | Item | Actual state |
 |---|---|
-| Stage | Research direction selected; right-arm annotation/feature/split contract defined for design review; execution admission remains open |
+| Stage | Loader/isolation/metric primitives implemented; 83 synthetic tests pass; bounded pilot specified but model/runner/fitting and comparator admission remain pending |
 | Recommended setting | Industrial robotic arms; original CASPER pick-and-place collection |
 | Title / question | State synchronization versus preservation of nominal cycle-progression evidence; title and twin/novelty claims remain provisional |
 | Selected threat / inputs | Command/application speed manipulation with truthful monitoring telemetry/time assumed; twelve right-arm joint-position/velocity channels plus relative-time context |
-| Annotation / splits | Recorded schedule flags, eight events; exact chronological normal train/development/calibration/held-out blocks and continuous final replay in contract v0.1 |
+| Annotation / splits | Recorded schedule flags, eight events; exact chronological blocks, common eligible support and continuous final replay defined |
+| Calibration / metrics | Threshold-only nearest-rank 99% with strict exceedance; unadjusted counts/P/R/F1, normal burden, AP, event/delay, coverage and cost rules specified |
+| Final-test protection | Both final slices protected; development wrapper blocks calibration/final opens. Public raw bytes remain accessible; no OS enforcement or completed artifact freeze |
+| Repeats | Final stochastic seeds 17, 42, 2026; deterministic controls once; all failures retained, no best-seed selection |
 | Learning set | CASPER 2024, TWINE 2026, CatBoost on CASPER 2026; source/admission notes under `baselines/` |
 | Shared-data evidence | Our v3 bytes/hashes fixed; equivalent bytes behind every published run, common annotations/inputs and run correspondence remain unresolved |
 | Public data access | Original CASPER v3 acquired publicly under provider CC BY-SA 4.0 terms; no institutional approval required |
@@ -16,9 +19,9 @@ As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active whi
 | Manuscripts and code | CASPER corrected VOR V1.1 collected; TWINE and CatBoost full-text access unresolved. Pinned pack: 67 source/doc/config/author-result artifacts plus three tree receipts; no upstream code executed |
 | Paper-to-code milestone | CASPER main text studied with figure/cell mappings; TWINE and CatBoost abstract/record/code studies have separate reading notes. Full-paper reading remains **1 of 3**, with no reproduced run |
 | Step 0 comprehension | Lesson and synthetic worked example prepared; researcher worksheet unanswered, understanding unassessed |
-| First executable study | Simple right-arm velocity/template/AR controls after loader/metric checks and a bounded pilot plan; original IMU CASPER reproduction stays separate |
+| First executable study | Proposed deterministic velocity-deviation pilot: 46,944 eligible fit-prefix rows and 18,472 development-prefix scores; model/supervisor not implemented or run |
 | Other open routes | MIT synthetic machining/assembly; CMU TEP manipulations; no verified recent three-paper intersection |
-| Environment / detector implementation / training | None; six standard-library receipt/schema/index/capture-header audit utilities only |
+| Environment / detector implementation / training | Manufacturing-local Python 3.15.0 venv; stdlib loader/contract/replay/metrics and 83 synthetic tests. No detector model or training |
 | Benchmark results / novelty evidence | None |
 
 ## Important limits
@@ -38,12 +41,15 @@ As of **16 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active whi
 
 ## Next bounded action
 
-The [question/threat-model decision](docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) and [exact right-arm contract](docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) complete the requested design step. Next: implement and test the scoped loader, feature/label separation, chronological/gap handling and metrics, then specify simple controls and normal-only state-validation/configuration rules. This requires the next bounded implementation task; training still needs a concrete pilot configuration and budget. The [independent critique](docs/RQ_CONTRACT_REVIEW.md) and [prior-art screen](docs/literature/RQ_PRIOR_ART_SCREEN_2026-10-16.md) retain scientific limits. Keep missing manuscripts, code-use/published-run provenance and final comparator admission open. **No training or Azure/Factory I/O deployment has started.**
+The [software validation report](docs/SOFTWARE_VALIDATION.md) completes this bounded implementation milestone: 83 synthetic tests passed, including chronology/isolation, coverage and exact time metrics. No real CASPER observations were opened. The [pilot plan](docs/BOUNDED_PILOT_PLAN.md) and [configuration](configs/casper_right_arm_pilot_v0.1.json) specify one deterministic velocity control and proposed resource bounds. Next: implement and synthetically test that control and its bounded supervisor, resolve the concrete run command/provenance, then undertake a separately scoped normal-only pilot. Calibration/final access stays closed; the [freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json) remains pending. CASPER, TWINE and CatBoost still require separate fair-comparator admission. **No real-data fitting, calibrated threshold, final result or Azure/Factory I/O deployment exists.**
 
 The three-paper list is for critical study; final comparative admission remains pending. If a clean shared-data comparison requires independent implementations or different features, record those changes before execution. No change has been made to water or grid research status.
 
 ## Evidence and persistent records
 
+- [Software validation](docs/SOFTWARE_VALIDATION.md), [actual test report](experiments/SOFTWARE_TEST_REPORT.json), [environment](docs/ENVIRONMENT.md), [bounded pilot](docs/BOUNDED_PILOT_PLAN.md), [pilot JSON](configs/casper_right_arm_pilot_v0.1.json).
+- [Evaluation protocol](docs/EVALUATION_PROTOCOL.md), [metric formulas](docs/METRIC_DEFINITIONS.md), [final-test protection](docs/FINAL_TEST_PROTECTION.md), [evaluation JSON](configs/casper_right_arm_evaluation_v0.1.json), [pending freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json).
+- [Evaluation design review and dispositions](docs/EVALUATION_PROTOCOL_REVIEW.md); metadata/arithmetic checks passed, executable validation remains pending.
 - [Admission rules](docs/BASELINE_SELECTION_CRITERIA.md), [selection decision](docs/BASELINE_SELECTION_REPORT.md), [literature register](docs/LITERATURE_EVIDENCE.md).
 - [Received-file identity](docs/CASPER_DATASET_IDENTITY.md), [receipt manifest](datasets/manifests/casper_v3_receipt.json), [manuscript/code collection](docs/MANUSCRIPT_COLLECTION_AUDIT.md), [proposed protocol](docs/COMPARISON_PROTOCOL.md).
 - [Current release/hash/clock register](docs/DATASET_IDENTITY_REGISTER.md), [consolidated manifest](datasets/manifests/casper_v3_identity.json), [checksum file](datasets/manifests/casper_v3.sha256), [label/time review](docs/CASPER_LABEL_TIME_AUDIT.md), [paper-specific dataset correspondence](docs/BASELINE_DATASET_CORRESPONDENCE.md).

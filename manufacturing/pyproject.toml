@@ -1,0 +1,12 @@
+[project]
+name = "manufacturing-twin-research"
+version = "0.1.0"
+description = "CASPER research loader and evaluation primitives; no trained models"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.research]
+stage = "synthetic-software-validation"
+package-directory = "src"
+test-command = ".venv/bin/python scripts/run_synthetic_tests.py"
+benchmark-results = false

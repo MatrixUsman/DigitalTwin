@@ -20,6 +20,8 @@ The later [sensor-schema audit](CASPER_SENSOR_SCHEMA.md) validates all nested co
 
 Scientific target: detect documented changes to robot motion under an explicit observation/trust model. A correct alarm does not prove malicious intent when an identical change could be authorized. No claim of general APT detection, attack attribution, unseen-robot generalization or live protection follows from these recordings.
 
+**Later Group D evaluation supplement:** [EVALUATION_PROTOCOL.md](EVALUATION_PROTOCOL.md), [metric definitions](METRIC_DEFINITIONS.md) and [final protection](FINAL_TEST_PROTECTION.md) now fix support, calibration, repeats and reporting. They resolve Group D evaluation details, including complete-score admission, and preserve the reviewed data-contract bytes. No change to Group A/B is implied; their earlier generic proposals do not override the selected track.
+
 ## 1. Comparison groups: do not pool unequal information
 
 | Group | Permitted observations/training | Candidates and claim |

@@ -118,3 +118,19 @@ Record type: contemporaneous. The user requested a feasible manufacturing questi
 Updated root brief/index/roadmap and [reusable playbook](RESEARCH_PLAYBOOK.md): choose questions from observable evidence; disclose modality/trust-model changes; distinguish scheduled intervention from intent/onset; test simple controls and state-synchronization failure hypotheses; freeze exact prospective metadata; retain episode censoring/coverage; distinguish a reviewed contract from a verified implementation. Manufacturing's question concerns state synchronization against a fixed reference; water retains its parameter-adaptation hypothesis and grids remain separately scoped. Distinct contributions and leading-journal readiness are not established by this planning distinction.
 
 No sibling-project or installed-skill edits, model execution, training, external messages, publication, upload or assistant-issued commit/push. Stage completion and dataset observations do not transfer to the other projects.
+
+### 2026-10-16 — SHARED-019 — Evaluation and final-test protection procedure
+
+Record type: contemporaneous. Manufacturing's requested calibration/metrics/final-protection definition is recorded in [MFG-011](../manufacturing/docs/WORK_LOG.md) and its [evaluation protocol](../manufacturing/docs/EVALUATION_PROTOCOL.md). Exact split metadata is preserved; outcome protection, complete-score admission, rank/tie rules, metric denominators, repeated-seed reporting and pending artifact-freeze requirements are specified. No model or final result exists.
+
+Updated the [shared playbook](RESEARCH_PLAYBOOK.md) with a reusable procedure: separate selection from threshold calibration, protect normal as well as intervention holdouts, reject denominator trimming, report event overlap separately from fresh onset, distinguish seeds from independent acquisitions, disclose previous data inspection, save/hash campaign artifacts and failures before outcome reveal, and label outcome-informed redesign exploratory. A plan/hash/null template is not executable enforcement or a completed freeze. Manufacturing's exact values do not automatically apply to water/grids.
+
+No sibling-project/installed-skill changes, training, external contact, uploads, publication or assistant-issued commit/push. The procedure is design/metadata reviewed; loader/metric implementation and experimental validation remain separate work.
+
+### 2026-10-16 — SHARED-020 — Synthetic loader/metric implementation procedure
+
+Record type: contemporaneous. Manufacturing completed the requested bounded loader/isolation/metric implementation with **83 passing explicitly synthetic tests** and specified an unexecuted normal-only pilot. See [MFG-012](../manufacturing/docs/WORK_LOG.md), [software validation](../manufacturing/docs/SOFTWARE_VALIDATION.md) and [pilot plan](../manufacturing/docs/BOUNDED_PILOT_PLAN.md). No raw observations were opened and no model was trained.
+
+The [playbook](RESEARCH_PLAYBOOK.md) now records project-local minimal environments, evaluator/feature separation, manifest-bound development access, source hashing versus observation inspection, failure/coverage admission, synthetic edge cases and immutable test receipts. A reviewer-discovered Decimal precision defect was fixed with regression coverage after an earlier passing suite; a pass is evidence for tested cases, not proof of universal correctness. Full comparator admission and actual model/calibration/final execution remain separate.
+
+This is validated software behavior on manufacturing synthetic fixtures, not a water/grid implementation or a benchmark result. No sibling-project/skill edits, paid compute, external messages, uploads, publication or assistant-issued commit/push.

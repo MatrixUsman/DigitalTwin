@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "project": "manufacturing",
+  "created_at_utc": "2026-10-16T18:39:10.523096+00:00",
+  "record_type": "pending_final_campaign_template_not_executed_record",
+  "status": "pending_prerequisites_not_frozen",
+  "evaluation_policy": {
+    "path": "configs/casper_right_arm_evaluation_v0.1.json",
+    "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0"
+  },
+  "data_contract": {
+    "path": "configs/casper_right_arm_contract_v0.1.json",
+    "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25"
+  },
+  "dataset_source_sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+  "protected_rows_half_open": [
+    864003,
+    1762650
+  ],
+  "planned_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "planned_deterministic_control_runs": 1,
+  "historical_exposure_disclosure": "Prior file/schema/label/time/gap/boundary audits and public author-result inspection are recorded in docs/WORK_LOG.md. No detector scores or our final outcomes exist. This ledger covers prospective model-outcome access, not a claim that raw data were never read.",
+  "protection_enforcement": "procedural_only_interfaces_and_ledger_not_implemented",
+  "model_selection_frozen_at": null,
+  "calibration_completed_at": null,
+  "final_freeze_at": null,
+  "campaign_started_at": null,
+  "first_outcome_revealed_at": null,
+  "campaign_completed_at": null,
+  "operator": null,
+  "reviewer_or_custodian": null,
+  "actual_code_revision_and_dirty_patch": null,
+  "actual_environment_lock": null,
+  "hardware_record": null,
+  "model_selection_record": null,
+  "mask_artifact": null,
+  "passing_synthetic_implementation_test_receipt": null,
+  "normal_only_pilot_receipt": null,
+  "execution_command_cwd_and_budget": null,
+  "execution_authorization_scope_record": null,
+  "model_roster": [],
+  "fitted_artifacts": [],
+  "calibration_receipts": [],
+  "declared_run_matrix": [],
+  "completed_run_artifacts": [],
+  "prospective_model_outcome_access_ledger": [],
+  "deviations_and_retries": [],
+  "final_report_artifact": null,
+  "validity_rule": "Empty lists and nulls mean prerequisites incomplete, never a valid zero-model campaign. Populate only from actual artifacts and actions; do not infer human approval."
+}
