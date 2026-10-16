@@ -194,15 +194,102 @@
       "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
       "bytes": 421236,
       "sha256": "4cac185d644675d32e5a2dacddddd078a75462a408d79955b02ae9b21277c9d5"
+    },
+    {
+      "kind": "rendered_page",
+      "local_path": "baselines/casper/artifacts/dataset_table11_page18.png",
+      "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "page": 18,
+      "scale_to": 1700,
+      "bytes": 399759,
+      "sha256": "782713eae92b2741ff6bbf77e1bf67dc4d1c6cd80b6e1c5e60810374f6df46a1"
+    },
+    {
+      "kind": "rendered_page",
+      "local_path": "baselines/casper/artifacts/architecture_figure11_page23.png",
+      "parent_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+      "page": 23,
+      "scale_to": 1900,
+      "bytes": 452786,
+      "sha256": "3bd2a5924550bb16bf5aac2ff6bcc18dea40d9599f307c9621b2b4168a12e44c"
     }
   ],
   "reading_scope": {
-    "casper": "Assistant targeted reading: title/version page; Sections 6.3\u20136.4, 6.6 and 7; Tables 10,11,14; Algorithm 1; rendered pages1,21,24. Human reading unconfirmed.",
+    "casper": "Assistant targeted reading: title/version page; Sections 6.3\u20136.4, 6.6 and 7; Tables 10,11,14; Algorithm 1; rendered pages1,21,24. Human reading unconfirmed. Subsequent visual inspection: page18 Table11 and page23 Figure11 architecture/confusion matrix; architecture concern narrowed by figure; row-count discrepancy preserved.",
     "twine": "Publisher abstract/introduction, institutional metadata, selected author source; full text unavailable.",
     "catboost": "Official abstract, metadata, selected author source/table; full text unavailable."
   },
   "tool_versions": {
     "pdftotext": "pdftotext version 26.10.0",
     "pdfinfo": "pdfinfo version 26.10.0"
-  }
+  },
+  "follow_up_checks": [
+    {
+      "recorded_at_utc": "2026-10-16T17:44:26.906072+00:00",
+      "date": "2026-10-16",
+      "scope": "Bounded full-text follow-up and CASPER visual clarification; no new full manuscript collected",
+      "checks": [
+        {
+          "url": "https://pure.qub.ac.uk/files/689658736/TWINE.pdf",
+          "route": "ordinary browser availability",
+          "outcome": "No browser available; document not fetched through this route."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/405114914_TWINE_ISO_23247-Compliant_Digital_Twin_and_Explainable_AI_Framework_for_Anomaly_Detection",
+          "route": "public indexed record",
+          "outcome": "Record states no full text available; author request not initiated."
+        },
+        {
+          "url": "https://cs.ut.ee/et/sisu/hiljuti-avaldatud-teadusartiklid",
+          "route": "public institutional page",
+          "outcome": "TWINE identified; DOI link only."
+        },
+        {
+          "url": "https://infosec.cs.ut.ee/Main/Publications",
+          "route": "public institutional page",
+          "outcome": "No additional matched full text located."
+        },
+        {
+          "url": "https://chess-eu.cs.ut.ee/2026/08/31/chess-showcases-cybersecurity-research-and-innovation-at-esscass-2026/",
+          "route": "public project page",
+          "outcome": "TWINE poster presentation and DOI link; no manuscript attachment identified."
+        },
+        {
+          "url": "https://courses.cs.ut.ee/t/esscass2026",
+          "route": "web fetch of project-linked summer-school page",
+          "outcome": "HTTP503."
+        },
+        {
+          "url": "https://priyanshudoshi.netlify.app/",
+          "route": "ordinary public HTTP",
+          "outcome": "HTTP200; public asset links inspected statically; IEEE article link, no manuscript PDF."
+        },
+        {
+          "url": "https://priyanshudoshi.netlify.app/assets/index-BiV7fMzd.js",
+          "route": "ordinary public HTTP, static text only",
+          "bytes_observed": 342488,
+          "outcome": "HTTP200; no execution or persistent asset copy."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/399984993_CatBoost-Driven_Anomaly_Detection_in_Industrial_Robotic_Arms_Using_CASPER_Dataset",
+          "route": "ordinary public HTTP",
+          "outcome": "HTTP403; no PDF."
+        }
+      ],
+      "source_arithmetic": {
+        "table11_nicla_points": 1750932,
+        "received_v3_numeric_rows": 1751682,
+        "difference": 750,
+        "figure11_confusion_counts": {
+          "TN": 330602,
+          "FP": 4597,
+          "FN": 529,
+          "TP": 341079
+        },
+        "figure11_total": 676807,
+        "v3_count_minus_notebook_reductions": 676807,
+        "meaning": "Shape consistency only, not reproduction or verified release equivalence."
+      }
+    }
+  ]
 }

@@ -1,0 +1,1372 @@
+{
+  "schema_version": 1,
+  "project_id": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "scope": "Pinned public author source/configuration/documentation and author-reported result artifacts; static inspection only",
+  "collection_started_at_utc": "2026-10-16T17:42:49.176425+00:00",
+  "python": "3.15.0",
+  "working_directory": "/Users/matrixusman/CUI/DigitalTwin",
+  "command": "python3 manufacturing/local/source_pack_collection/collect_source_pack.py",
+  "script_path": "local/source_pack_collection/collect_source_pack.py",
+  "script_sha256": "90d7305272307e16346594ebb6154c3afb168b6c81089c238acf517098414f66",
+  "source_execution": false,
+  "models_deserialized": false,
+  "dataset_downloads": false,
+  "cloud_calls": false,
+  "repositories": [
+    {
+      "baseline": "casper",
+      "repository": "https://github.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER",
+      "revision": "bff03c91d155bf3134f6d801d3a4f4af7ea78adb",
+      "license": null,
+      "license_status": "no license identified in complete pinned tree",
+      "tree_url": "https://api.github.com/repos/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/git/trees/bff03c91d155bf3134f6d801d3a4f4af7ea78adb?recursive=1",
+      "tree_local_path": "baselines/casper/artifacts/source_snapshot/_repository_tree.json",
+      "tree_sha256": "e6904d88edd091fff4f0f4f72b818986e640146f1f985ca86994d93d1d3ceab2",
+      "tree_complete": true,
+      "blob_count": 6,
+      "files": [
+        {
+          "repository_path": ".gitignore",
+          "url": "https://raw.githubusercontent.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/bff03c91d155bf3134f6d801d3a4f4af7ea78adb/.gitignore",
+          "local_path": "baselines/casper/artifacts/source_snapshot/.gitignore",
+          "received_at_utc": "2026-10-16T17:42:50.178192+00:00",
+          "bytes": 1,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "git_blob_sha1": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "configuration"
+        },
+        {
+          "repository_path": "README.md",
+          "url": "https://raw.githubusercontent.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/bff03c91d155bf3134f6d801d3a4f4af7ea78adb/README.md",
+          "local_path": "baselines/casper/artifacts/source_snapshot/README.md",
+          "received_at_utc": "2026-10-16T17:42:50.684674+00:00",
+          "bytes": 1965,
+          "sha256": "f609207d428bbfa2c20787220088380be46e409c9b63929c71c5e474535ae83b",
+          "git_blob_sha1": "cdaaa7b70643101e4e2d4c5fc27a7e43e257d742",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "documentation"
+        },
+        {
+          "repository_path": "notebooks/casper.ipynb",
+          "url": "https://raw.githubusercontent.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/bff03c91d155bf3134f6d801d3a4f4af7ea78adb/notebooks/casper.ipynb",
+          "local_path": "baselines/casper/artifacts/source_snapshot/notebooks/casper.ipynb",
+          "received_at_utc": "2026-10-16T17:42:51.377436+00:00",
+          "bytes": 2171524,
+          "sha256": "3f1beff113c904473cb554aa79edde7af31d777c4731eb93ba900e3aa4a5fea0",
+          "git_blob_sha1": "87e42fd208b5dea8c3c18a1b330d578b04585b5c",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "notebook_json_parse": "pass",
+            "cell_count": 178,
+            "code_cell_count": 125,
+            "stored_outputs_preserved": true,
+            "cells_executed": false
+          },
+          "read_only": true,
+          "artifact_type": "source_notebook"
+        }
+      ],
+      "not_collected": [
+        {
+          "repository_path": ".DS_Store",
+          "bytes": 6148,
+          "git_blob_sha1": "b6df633e9d42366ba269fa455d5d992d4bec52f8",
+          "reason": "Operating-system metadata; irrelevant to method"
+        },
+        {
+          "repository_path": ".ipynb_checkpoints/CASPER-checkpoint.ipynb",
+          "bytes": 1795522,
+          "git_blob_sha1": "8ad97a27a239569f324904200ecd97a0d66347c1",
+          "reason": "Notebook autosave duplicate; primary notebook collected"
+        },
+        {
+          "repository_path": "figures/.DS_Store",
+          "bytes": 6148,
+          "git_blob_sha1": "5008ddfcf53c02e82d7eee2e57c38e5672ef89f6",
+          "reason": "Operating-system metadata; irrelevant to method"
+        }
+      ],
+      "license_evidence_note": "README contains an MIT badge, but complete pinned tree contains no license text; reuse terms unresolved. Successor repository license is not assumed to apply retroactively."
+    },
+    {
+      "baseline": "twine",
+      "repository": "https://github.com/mubashar-iqbal/TWINE",
+      "revision": "841e1195acf90835c4c427e0fb48d10c08ed30d5",
+      "license": "MIT",
+      "license_status": "present in selected tree",
+      "tree_url": "https://api.github.com/repos/mubashar-iqbal/TWINE/git/trees/841e1195acf90835c4c427e0fb48d10c08ed30d5?recursive=1",
+      "tree_local_path": "baselines/twine/artifacts/source_snapshot/_repository_tree.json",
+      "tree_sha256": "044ec95e6a4a6cbccbdead9490d9928eeb64767d8e99746e9c1ad0ab6c261ff9",
+      "tree_complete": true,
+      "blob_count": 9,
+      "files": [
+        {
+          "repository_path": ".gitignore",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/.gitignore",
+          "local_path": "baselines/twine/artifacts/source_snapshot/.gitignore",
+          "received_at_utc": "2026-10-16T17:42:52.560753+00:00",
+          "bytes": 4688,
+          "sha256": "48b33f9f89ef24f8a66f461ea9278e7ecf21b4660c26088989d231e53c578724",
+          "git_blob_sha1": "b7faf403d915ca307532bb0eb9cceaf0214e8e5b",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "configuration"
+        },
+        {
+          "repository_path": "MIT-LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/MIT-LICENSE.txt",
+          "local_path": "baselines/twine/artifacts/source_snapshot/MIT-LICENSE.txt",
+          "received_at_utc": "2026-10-16T17:42:53.013678+00:00",
+          "bytes": 1072,
+          "sha256": "b60c044f81876f350bf5e309071bfc2057c444efd07d2b82790b786049d9d83f",
+          "git_blob_sha1": "7f2b58612adb4f7ca2a0ec6a75ba0bc715260e29",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "license"
+        },
+        {
+          "repository_path": "README.md",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/README.md",
+          "local_path": "baselines/twine/artifacts/source_snapshot/README.md",
+          "received_at_utc": "2026-10-16T17:42:53.448433+00:00",
+          "bytes": 4022,
+          "sha256": "3d8d67c26dd891730ff44f310a51b291e4329f6faf0dd89b70b791a26306987d",
+          "git_blob_sha1": "f83b22a02d3ddc9ded384a4183422ab3c3422c33",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "documentation"
+        },
+        {
+          "repository_path": "model/digital-twin-schema.json",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/model/digital-twin-schema.json",
+          "local_path": "baselines/twine/artifacts/source_snapshot/model/digital-twin-schema.json",
+          "received_at_utc": "2026-10-16T17:42:53.884124+00:00",
+          "bytes": 909,
+          "sha256": "3221eb338409dbc203b228142a10419d4392c5060314c240484c0faa6c5aa895",
+          "git_blob_sha1": "f5afd4b453987fd4527b5a85e6c9fe50c36923dc",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "json_parse": "pass"
+          },
+          "read_only": true,
+          "artifact_type": "configuration"
+        },
+        {
+          "repository_path": "scripts/anomaly_detection.py",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/scripts/anomaly_detection.py",
+          "local_path": "baselines/twine/artifacts/source_snapshot/scripts/anomaly_detection.py",
+          "received_at_utc": "2026-10-16T17:42:54.329821+00:00",
+          "bytes": 1746,
+          "sha256": "42b6b9fe80d20e16814f6f84ad6aa4ba8a2e4e7090db9116d014b31cf5123f27",
+          "git_blob_sha1": "ee15efb47ceaa08175fe851b8f11f418e28c9b14",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "python_ast": "pass; no execution"
+          },
+          "read_only": true,
+          "artifact_type": "source_code"
+        },
+        {
+          "repository_path": "scripts/digital_twin_azure.py",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/scripts/digital_twin_azure.py",
+          "local_path": "baselines/twine/artifacts/source_snapshot/scripts/digital_twin_azure.py",
+          "received_at_utc": "2026-10-16T17:42:54.768629+00:00",
+          "bytes": 6144,
+          "sha256": "c140135c220cdc34b52ba651c383558a36cd8dda937cc8736f26901054980773",
+          "git_blob_sha1": "14f2ae443770a813077dfee7be14d6fd9ed74d9a",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "python_ast": "pass; no execution"
+          },
+          "read_only": true,
+          "artifact_type": "source_code"
+        },
+        {
+          "repository_path": "scripts/predictive_maintenance.py",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/scripts/predictive_maintenance.py",
+          "local_path": "baselines/twine/artifacts/source_snapshot/scripts/predictive_maintenance.py",
+          "received_at_utc": "2026-10-16T17:42:55.233968+00:00",
+          "bytes": 1147,
+          "sha256": "0d167515c915852df726f9b23257de8c61ddfadc67ed9cf0299f4b5b264411ea",
+          "git_blob_sha1": "7321923a1e9196bd0008d2727776de6a1969f929",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "python_ast": "pass; no execution"
+          },
+          "read_only": true,
+          "artifact_type": "source_code"
+        },
+        {
+          "repository_path": "scripts/training.ipynb",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/scripts/training.ipynb",
+          "local_path": "baselines/twine/artifacts/source_snapshot/scripts/training.ipynb",
+          "received_at_utc": "2026-10-16T17:42:55.667772+00:00",
+          "bytes": 25560,
+          "sha256": "3bcaa5264946a6448a129ed952836b7db236cc67a206bdacc7f0db24219379ad",
+          "git_blob_sha1": "4ac7ba69716d2b280ac063f5318f5de43b43b19d",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "notebook_json_parse": "pass",
+            "cell_count": 23,
+            "code_cell_count": 23,
+            "stored_outputs_preserved": true,
+            "cells_executed": false
+          },
+          "read_only": true,
+          "artifact_type": "source_notebook"
+        },
+        {
+          "repository_path": "simulation_robotic_arm.ipynb",
+          "url": "https://raw.githubusercontent.com/mubashar-iqbal/TWINE/841e1195acf90835c4c427e0fb48d10c08ed30d5/simulation_robotic_arm.ipynb",
+          "local_path": "baselines/twine/artifacts/source_snapshot/simulation_robotic_arm.ipynb",
+          "received_at_utc": "2026-10-16T17:42:56.099163+00:00",
+          "bytes": 14802,
+          "sha256": "3f46dd3916c9acb10cc93509f1abd40dae425e8ad9367878585fd0f1ad2b0edb",
+          "git_blob_sha1": "cb1f449e035565e3c89178340513201e0fea4e62",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "notebook_json_parse": "pass",
+            "cell_count": 30,
+            "code_cell_count": 12,
+            "stored_outputs_preserved": true,
+            "cells_executed": false
+          },
+          "read_only": true,
+          "artifact_type": "source_notebook"
+        }
+      ],
+      "not_collected": [],
+      "license_evidence_note": "Pinned MIT-LICENSE.txt collected; README explicitly attributes copied code to h1548782/seleniumforest."
+    },
+    {
+      "baseline": "catboost",
+      "repository": "https://github.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation",
+      "revision": "7f2a691f94f548e6b7c744ee0eeee287489a8639",
+      "license": null,
+      "license_status": "no license identified in complete pinned tree",
+      "tree_url": "https://api.github.com/repos/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/git/trees/7f2a691f94f548e6b7c744ee0eeee287489a8639?recursive=1",
+      "tree_local_path": "baselines/catboost/artifacts/source_snapshot/_repository_tree.json",
+      "tree_sha256": "2c3868c62dbd3b15468cfde2cb126e05908128d9b628c87a86c98a1b2ba0ae20",
+      "tree_complete": true,
+      "blob_count": 55,
+      "files": [
+        {
+          "repository_path": ".gitignore",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/.gitignore",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/.gitignore",
+          "received_at_utc": "2026-10-16T17:42:57.187585+00:00",
+          "bytes": 504,
+          "sha256": "c15511aa77bb0e6447adb79dbe396f3767a6ac1b647b026e08035e58e0124a06",
+          "git_blob_sha1": "af1c70d17a307e048ce976e35b43fc5540fc60bf",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "configuration"
+        },
+        {
+          "repository_path": "README.md",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/README.md",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/README.md",
+          "received_at_utc": "2026-10-16T17:43:02.645129+00:00",
+          "bytes": 9447,
+          "sha256": "d307531f467c5ca3e529a5d8848db52307e2aba4ebf43325c373f949915e8905",
+          "git_blob_sha1": "6fa91931a722261f987081599074d23b6c29d3d7",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "documentation"
+        },
+        {
+          "repository_path": "final_multi_run.py",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/final_multi_run.py",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/final_multi_run.py",
+          "received_at_utc": "2026-10-16T17:43:03.081151+00:00",
+          "bytes": 34692,
+          "sha256": "c38ca2c84a1dbd73f822d4d713bbca7dbecdee54f80c7b88f2b76375e61385ca",
+          "git_blob_sha1": "6d28d4529868e23b9c4a25f93c00201909d7d80d",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "python_ast": "pass; no execution"
+          },
+          "read_only": true,
+          "artifact_type": "source_code"
+        },
+        {
+          "repository_path": "requirements.txt",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/requirements.txt",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/requirements.txt",
+          "received_at_utc": "2026-10-16T17:43:03.570288+00:00",
+          "bytes": 138,
+          "sha256": "fc102076f43fd570f24f9c6f20e4cfda1191229f671f90676462f37bbb4ed716",
+          "git_blob_sha1": "6e226a8e15d15f841fc80e7ee33235fb49e19566",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false
+          },
+          "read_only": true,
+          "artifact_type": "configuration"
+        },
+        {
+          "repository_path": "testing_imbalancing_methods/final.py",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/testing_imbalancing_methods/final.py",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/testing_imbalancing_methods/final.py",
+          "received_at_utc": "2026-10-16T17:43:04.071988+00:00",
+          "bytes": 34669,
+          "sha256": "d8e73f696192c6ed31635812dc940311dcd5844e6b4ac1cbbc12bf3fbf4f84f3",
+          "git_blob_sha1": "baa97c5d2df090c709b23c6e72c39b1361823f80",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "python_ast": "pass; no execution"
+          },
+          "read_only": true,
+          "artifact_type": "source_code"
+        },
+        {
+          "repository_path": "testing_imbalancing_methods/imbalance_comparison.py",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/testing_imbalancing_methods/imbalance_comparison.py",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/testing_imbalancing_methods/imbalance_comparison.py",
+          "received_at_utc": "2026-10-16T17:43:04.576156+00:00",
+          "bytes": 20566,
+          "sha256": "596c4985b3d1a63f4a25041254c9427e83e4203505a3cd81ae5fb18b81447d3c",
+          "git_blob_sha1": "1261aeb2d0b0a1981c64e63e534f2eaae6d9d1c3",
+          "validation": {
+            "utf8": true,
+            "git_blob_sha1_matched": true,
+            "lfs_pointer": false,
+            "python_ast": "pass; no execution"
+          },
+          "read_only": true,
+          "artifact_type": "source_code"
+        },
+        {
+          "repository_path": "latex_tables/CBC_all_runs.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/CBC_all_runs.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/CBC_all_runs.tex",
+          "received_at_utc": "2026-10-16T17:44:37.437408+00:00",
+          "bytes": 1185,
+          "sha256": "fbdcf6b4cb2dc135bdbd429f072daaac9ad707ee53bffb04609e7ae84c32de62",
+          "git_blob_sha1": "7a6446ded684d9d228b9a7c940a222592c7e54c6",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/CBC_comparison.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/CBC_comparison.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/CBC_comparison.tex",
+          "received_at_utc": "2026-10-16T17:44:37.974443+00:00",
+          "bytes": 438,
+          "sha256": "0e1ed6e804a21bbd680c209f398b2eaaaa84f138423eef3592410f5813421f1e",
+          "git_blob_sha1": "2fb1ac9c0635665cf6ba6107bf75fffe23c24252",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/LR_all_runs.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/LR_all_runs.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/LR_all_runs.tex",
+          "received_at_utc": "2026-10-16T17:44:38.445470+00:00",
+          "bytes": 1183,
+          "sha256": "3e07e81b349a1567ba9c5cee4ab7ceb2375d0fea3a7d4d0020dd48e6dfab3be9",
+          "git_blob_sha1": "67d8f3e120abb8c41645b4f7a5b32004e9f6358a",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/LR_comparison.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/LR_comparison.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/LR_comparison.tex",
+          "received_at_utc": "2026-10-16T17:44:38.917523+00:00",
+          "bytes": 436,
+          "sha256": "b8f5a9bef232f528fe69e94bb01f3b8db10d50105bf7f91a74bec08bcfd42b07",
+          "git_blob_sha1": "edd06569146aa60389ee416b75eb574d15989ced",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/NB_all_runs.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/NB_all_runs.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/NB_all_runs.tex",
+          "received_at_utc": "2026-10-16T17:44:39.368652+00:00",
+          "bytes": 1183,
+          "sha256": "cb419ecb263e4ec30d4b4f8a6cc2398eee98d6fe54a71d24a0298e70d4ae97e0",
+          "git_blob_sha1": "6146baa10abc4eacd6bfa750bc4e5233b37b92e3",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/NB_comparison.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/NB_comparison.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/NB_comparison.tex",
+          "received_at_utc": "2026-10-16T17:44:44.874907+00:00",
+          "bytes": 436,
+          "sha256": "f7700fd4915375d5686dca74a281aae55165ae6ee34b52b321bb59c9473dcb01",
+          "git_blob_sha1": "786c5d6167a1eb3b7ee9a55d2a63a096ded7ab4d",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/QDA_all_runs.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/QDA_all_runs.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/QDA_all_runs.tex",
+          "received_at_utc": "2026-10-16T17:44:45.364758+00:00",
+          "bytes": 1185,
+          "sha256": "9cdefdcfccf3326e4a7a88234171295d282783eae93bbe90a34719e8bd837417",
+          "git_blob_sha1": "b1b235404894b62d60fdca2f7439d52f97fa1e6d",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/QDA_comparison.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/QDA_comparison.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/QDA_comparison.tex",
+          "received_at_utc": "2026-10-16T17:44:45.820260+00:00",
+          "bytes": 438,
+          "sha256": "a1dca5d45a82f150dcc8edad968c9c6dd81cfde4ded68257553acb6376c15b3e",
+          "git_blob_sha1": "c6a8481f211741d87a911dda0aea8c13d89d3cd3",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/SSL_all_runs.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/SSL_all_runs.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/SSL_all_runs.tex",
+          "received_at_utc": "2026-10-16T17:44:46.470103+00:00",
+          "bytes": 1185,
+          "sha256": "acde49e640c7ab0256f5940e17e618fe56e91c12c9c59f17eca56d3a641f6db2",
+          "git_blob_sha1": "e82d08de4a1c6db5bbac6627db5be1079a86b117",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/SSL_comparison.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/SSL_comparison.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/SSL_comparison.tex",
+          "received_at_utc": "2026-10-16T17:44:46.951026+00:00",
+          "bytes": 438,
+          "sha256": "7758623dc2adc417d24a14b6276ac6bc637c0428a5b71863e8dfa31a1d7a3e04",
+          "git_blob_sha1": "bdad04e60d32c6f5e7188ecf8542c3e8cdb7d9f8",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/SVM_all_runs.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/SVM_all_runs.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/SVM_all_runs.tex",
+          "received_at_utc": "2026-10-16T17:44:52.491192+00:00",
+          "bytes": 1185,
+          "sha256": "87662de9fab6ac0a46adb1d66b17338b0bcab90053f2307fecee46a392b71ae1",
+          "git_blob_sha1": "6347fe62a2d085b454e72debe315f04331a0d45d",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/SVM_comparison.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/SVM_comparison.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/SVM_comparison.tex",
+          "received_at_utc": "2026-10-16T17:44:52.945583+00:00",
+          "bytes": 438,
+          "sha256": "bd02e799922fe9bcc240faff0a652768f3a34ff1a1dab6627e43447ace1f909b",
+          "git_blob_sha1": "aa90a9c5fe8ece765337268701955a94a85c6740",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/comprehensive_metrics_fixed.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/comprehensive_metrics_fixed.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/comprehensive_metrics_fixed.tex",
+          "received_at_utc": "2026-10-16T17:44:53.359424+00:00",
+          "bytes": 917,
+          "sha256": "25e3b5ee99d08fc8ae30d733974de2dc656196d20b9c03f680ef57c6815a034c",
+          "git_blob_sha1": "fadff562f3694fe78bcc9a215bbc9a1cf153b683",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "latex_tables/time_statistics.tex",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/latex_tables/time_statistics.tex",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/latex_tables/time_statistics.tex",
+          "received_at_utc": "2026-10-16T17:44:53.835370+00:00",
+          "bytes": 596,
+          "sha256": "00aee6fe41dc8135ff52c5c8ec02f8ce2dadb1e70edd93d3addad2661f4f0819",
+          "git_blob_sha1": "1c0968e78ac57591b9438c8157eadb95f0413433",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/CBC_all_runs_transposed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/CBC_all_runs_transposed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/CBC_all_runs_transposed.csv",
+          "received_at_utc": "2026-10-16T17:44:59.344901+00:00",
+          "bytes": 1201,
+          "sha256": "08b367f734f9bee2a1b3364712c70e35d84b1ea6bb3be6e1a1e13030c14cf2b1",
+          "git_blob_sha1": "b0cbb3791e5c7e2452ecb9a4ceca90d67f9ad4e2",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 9,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/LR_all_runs_transposed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/LR_all_runs_transposed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/LR_all_runs_transposed.csv",
+          "received_at_utc": "2026-10-16T17:44:59.798395+00:00",
+          "bytes": 1197,
+          "sha256": "4277fc67bf5a7f205cf5d528a1663a42c457aff355c591f73749f81a85cc4027",
+          "git_blob_sha1": "8b8795dbf40b30e84035f6c32f3556775544d3c5",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 9,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/NB_all_runs_transposed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/NB_all_runs_transposed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/NB_all_runs_transposed.csv",
+          "received_at_utc": "2026-10-16T17:45:00.265340+00:00",
+          "bytes": 1201,
+          "sha256": "d4e0c0f86270b33baaa7a256810219eada8e7939c0195c4d0464b04bf3dc9dab",
+          "git_blob_sha1": "b27299bf67ee7ca74905f99a2d964ee4cb3bb279",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 9,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/QDA_all_runs_transposed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/QDA_all_runs_transposed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/QDA_all_runs_transposed.csv",
+          "received_at_utc": "2026-10-16T17:45:00.738602+00:00",
+          "bytes": 1181,
+          "sha256": "ca4f777cd302f96ab4789807fa24fe45da5d77170f42f86136d832e2011decb7",
+          "git_blob_sha1": "fcc6106d6d49c3aaff9b102972fef2137d577d2a",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 9,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/SSL_all_runs_transposed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/SSL_all_runs_transposed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/SSL_all_runs_transposed.csv",
+          "received_at_utc": "2026-10-16T17:45:01.211989+00:00",
+          "bytes": 1180,
+          "sha256": "2828dae32dad1f27fb0c92ded5753dcd79e936f999d1f5a1b3dea86b16198b58",
+          "git_blob_sha1": "0f1e130168e6aa42cdd3ab599044631842e964cd",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 9,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/SVM_all_runs_transposed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/SVM_all_runs_transposed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/SVM_all_runs_transposed.csv",
+          "received_at_utc": "2026-10-16T17:45:01.670900+00:00",
+          "bytes": 1188,
+          "sha256": "9d44cc7fc438a1e562648df3762712b9998a7da72082236f9a12f07eb6fa7b49",
+          "git_blob_sha1": "19b33cee6b9a90c2e169ea512b14dad8379e4f85",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 9,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/auc_score_bar.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/auc_score_bar.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/auc_score_bar.png",
+          "received_at_utc": "2026-10-16T17:45:02.345067+00:00",
+          "bytes": 167507,
+          "sha256": "6722c378b725638dec1554d911a6079c689e39958ed63578c9678a9fe06a1bc5",
+          "git_blob_sha1": "366cb9c2efc29ced8014d23a46c78b563e34b1cc",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3600,
+            "height": 2400,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/comprehensive_metrics_with_std.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/comprehensive_metrics_with_std.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/comprehensive_metrics_with_std.csv",
+          "received_at_utc": "2026-10-16T17:45:03.062582+00:00",
+          "bytes": 580,
+          "sha256": "69bd90f216abf8457ebe33c88e94df0dca325fc2672170ad6958fed5bddeecca",
+          "git_blob_sha1": "09bda04f767f4f40430759fc4afd04bf86ac6cae",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              6
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/f1_score_bar.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/f1_score_bar.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/f1_score_bar.png",
+          "received_at_utc": "2026-10-16T17:45:03.660227+00:00",
+          "bytes": 162363,
+          "sha256": "67d6bdaa60d9f14301f8ed7e667302438368241bfe84da35af4a6b6b4590f899",
+          "git_blob_sha1": "4d7c6635aa923ebccf6e4e2bad8de56d3968be9b",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3600,
+            "height": 2400,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/multi_run_average_comparison.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/multi_run_average_comparison.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/multi_run_average_comparison.csv",
+          "received_at_utc": "2026-10-16T17:45:04.114813+00:00",
+          "bytes": 462,
+          "sha256": "75d2de75e8c00ab984ec44e80a9a1b55045784e0c22e6056315492f421953f86",
+          "git_blob_sha1": "9f3149eb35eeb59049f1fb08a1b8bfd1420ea288",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              5
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/precision_bar.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/precision_bar.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/precision_bar.png",
+          "received_at_utc": "2026-10-16T17:45:04.699963+00:00",
+          "bytes": 164337,
+          "sha256": "df237c144821c8d0f6dc0839b103dc56ae9ac8c2361d711d37058dfd9822ade8",
+          "git_blob_sha1": "84ca61da65fd7bcd1f551d8ceeb58bb4228c87d0",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3600,
+            "height": 2400,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/recall_bar.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/recall_bar.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/recall_bar.png",
+          "received_at_utc": "2026-10-16T17:45:05.266035+00:00",
+          "bytes": 164711,
+          "sha256": "b7454ded94119fea9c7c111360d7b1c58c98c468ae954f62b9f9471072011b6b",
+          "git_blob_sha1": "4a6940c4079fdcd253f971fa87fd746ec97da50e",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3600,
+            "height": 2400,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/single_run_comparison.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/single_run_comparison.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/single_run_comparison.csv",
+          "received_at_utc": "2026-10-16T17:45:10.718014+00:00",
+          "bytes": 395,
+          "sha256": "bc30d19ce77c8e1e708ff90543dc41c370039523f2e455b36496f2f26706df8f",
+          "git_blob_sha1": "1864f7b6c0ecfbb4a7964fe841cc8e291a2c1aae",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              5
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/testing_accuracy_bar.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/testing_accuracy_bar.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/testing_accuracy_bar.png",
+          "received_at_utc": "2026-10-16T17:45:13.315464+00:00",
+          "bytes": 302135,
+          "sha256": "5f1a42a481f829847aa5d1cff415dee2348fcb4cd603c5fff448f46e4b030c59",
+          "git_blob_sha1": "bfdbac51ec45293cd5ce4cfa006355208f103109",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3600,
+            "height": 2400,
+            "chunk_count": 9
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/training_inference_time.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/training_inference_time.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/training_inference_time.csv",
+          "received_at_utc": "2026-10-16T17:45:13.723179+00:00",
+          "bytes": 619,
+          "sha256": "dbd324318ed502d2e294265d573b2b6a73404ac3b6775c8d6730cb21d75cc92f",
+          "git_blob_sha1": "f29b613ff7bf8e9a26820e5366a4269c075c02da",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              5
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "multi_run_analysis_output/validation_accuracy_comparison.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/multi_run_analysis_output/validation_accuracy_comparison.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/multi_run_analysis_output/validation_accuracy_comparison.png",
+          "received_at_utc": "2026-10-16T17:45:14.239636+00:00",
+          "bytes": 182068,
+          "sha256": "17070dde8192335c383163ef37f106126cb5b72bd25233a01baff8eadba1c68e",
+          "git_blob_sha1": "d3d14dc57b33bba9e4adc98185c06c3caa859a04",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3600,
+            "height": 2400,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/algorithm_comparison_results.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/algorithm_comparison_results.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/algorithm_comparison_results.csv",
+          "received_at_utc": "2026-10-16T17:45:16.221270+00:00",
+          "bytes": 953,
+          "sha256": "95dfee684d4e22ebef69ebd17325ad2c4d7c265d974895a9aee29b83d1927467",
+          "git_blob_sha1": "346c199fd23734b8d7518faae4778147d0dd49e1",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              10
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/catboost_confusion_matrix.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/catboost_confusion_matrix.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/catboost_confusion_matrix.png",
+          "received_at_utc": "2026-10-16T17:45:16.892241+00:00",
+          "bytes": 69808,
+          "sha256": "66214206ea37a31eec97b4d6993018c5957f7b000726a76b7047cdc43a332256",
+          "git_blob_sha1": "9e52a90bafc981a1dd11130446d41e9d35423aeb",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 2335,
+            "height": 1770,
+            "chunk_count": 6
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/complete_results.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/complete_results.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/complete_results.csv",
+          "received_at_utc": "2026-10-16T17:45:17.281322+00:00",
+          "bytes": 953,
+          "sha256": "95dfee684d4e22ebef69ebd17325ad2c4d7c265d974895a9aee29b83d1927467",
+          "git_blob_sha1": "346c199fd23734b8d7518faae4778147d0dd49e1",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              10
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/comprehensive_comparison.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/comprehensive_comparison.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/comprehensive_comparison.png",
+          "received_at_utc": "2026-10-16T17:45:17.897876+00:00",
+          "bytes": 715136,
+          "sha256": "ef97175a2dba544a9cc54a3a21c8094cc337dd55fb50b6fd168f4d50dc95d43a",
+          "git_blob_sha1": "f8f34a181c40ec5698c718eb32ceb79a2a3a06b8",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 5954,
+            "height": 3566,
+            "chunk_count": 15
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/comprehensive_statistical_analysis.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/comprehensive_statistical_analysis.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/comprehensive_statistical_analysis.png",
+          "received_at_utc": "2026-10-16T17:45:18.539716+00:00",
+          "bytes": 743169,
+          "sha256": "8a3965ebaf7d2f178f78c1e9153423b80f1a7e0bd393a4d666ce695998128255",
+          "git_blob_sha1": "be48263aae417a2d8c17908170e41f479e5cb78e",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 7136,
+            "height": 5366,
+            "chunk_count": 16
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/confusion_matrices.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/confusion_matrices.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/confusion_matrices.png",
+          "received_at_utc": "2026-10-16T17:45:19.080660+00:00",
+          "bytes": 334487,
+          "sha256": "595151083c2fa02c238b355362c0c7d5ce705a3eba6db0bef8afc9d67b2a8fc2",
+          "git_blob_sha1": "d39a25600ca1715e050f7d59b08cf38a56ecd1c0",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 5333,
+            "height": 3565,
+            "chunk_count": 10
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/detailed_confidence_intervals.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/detailed_confidence_intervals.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/detailed_confidence_intervals.csv",
+          "received_at_utc": "2026-10-16T17:45:19.675383+00:00",
+          "bytes": 738,
+          "sha256": "fd4c409c876093c5dc759ad7d0f26f72c606cee0499636451796bac7a7a27621",
+          "git_blob_sha1": "a44dc4d55d6ca03b8f08c6b30a2e930dfbc32bc7",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              10
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/final_analysis.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/final_analysis.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/final_analysis.png",
+          "received_at_utc": "2026-10-16T17:45:20.678525+00:00",
+          "bytes": 425048,
+          "sha256": "d9370145b65643fb5ae7f13a9c955bf34d0ea81dc431e209f9d8dde801306cd0",
+          "git_blob_sha1": "bc0a95f163902ae44224381f6d350189b835f2d6",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 4469,
+            "height": 2966,
+            "chunk_count": 11
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/graph_1.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/graph_1.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/graph_1.png",
+          "received_at_utc": "2026-10-16T17:45:21.175897+00:00",
+          "bytes": 196253,
+          "sha256": "7f2c049a869debc6f1ed94c06de4ecb9f80b2cf790510041d8dfec2b3c7a2300",
+          "git_blob_sha1": "c1638ae43d45be9cc222254e4206931f80185db8",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3570,
+            "height": 2370,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/graph_2.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/graph_2.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/graph_2.png",
+          "received_at_utc": "2026-10-16T17:45:21.622837+00:00",
+          "bytes": 87012,
+          "sha256": "7eaba21e6817e69aab398fafab236e2f4707d13a83bb356e2c172b2b9897920c",
+          "git_blob_sha1": "db5fa94256466927cbad6eb6b0bbf41b82bd02b6",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 2329,
+            "height": 1774,
+            "chunk_count": 6
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/multi_run_raw_results.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/multi_run_raw_results.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/multi_run_raw_results.csv",
+          "received_at_utc": "2026-10-16T17:45:22.052380+00:00",
+          "bytes": 9932,
+          "sha256": "35f6601e73c31b3126fc6d8db7211497ce3ff80786f94d8d8bbe13a00393bbf5",
+          "git_blob_sha1": "8df13b20499cdb040ff13b7155b6c4793510ba5e",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 61,
+            "record_widths": [
+              13
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/performance_heatmap.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/performance_heatmap.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/performance_heatmap.png",
+          "received_at_utc": "2026-10-16T17:45:22.741647+00:00",
+          "bytes": 250988,
+          "sha256": "1faeb2477a9ca20d49e59005656a004fc44c7008ddeb7f4f1706170e3b65edfa",
+          "git_blob_sha1": "92550de9afd110a56f78068f9d9c01f8776245e9",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3420,
+            "height": 2370,
+            "chunk_count": 8
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/research_paper_table.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/research_paper_table.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/research_paper_table.csv",
+          "received_at_utc": "2026-10-16T17:45:23.157972+00:00",
+          "bytes": 493,
+          "sha256": "81d0b10db0714f03d4ebc1244fa3197db8cc5fc5fc691dd17b1629cd4e2daa39",
+          "git_blob_sha1": "ee252230fe098175f5fb3097a98d5ca458ba183f",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              10
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/research_paper_table_with_stats.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/research_paper_table_with_stats.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/research_paper_table_with_stats.csv",
+          "received_at_utc": "2026-10-16T17:45:23.544790+00:00",
+          "bytes": 1016,
+          "sha256": "e75dc8d4557f36c643303d56f9161bd1dc54de3b5af8cfa3a65358a250e1983c",
+          "git_blob_sha1": "adef074a2b1a83a917048364122f3223d5f4d828",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              9
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/statistical_summary_detailed.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/statistical_summary_detailed.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/statistical_summary_detailed.csv",
+          "received_at_utc": "2026-10-16T17:45:24.079333+00:00",
+          "bytes": 4416,
+          "sha256": "779c5860e0e0634b2e693dc98ce2cbe3cfad71b13195201d9cabf129d32f7977",
+          "git_blob_sha1": "d5e241abaed09a999afe859fccc510e3465c8b86",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 7,
+            "record_widths": [
+              33
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/summary_stats.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/summary_stats.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/summary_stats.csv",
+          "received_at_utc": "2026-10-16T17:45:24.464505+00:00",
+          "bytes": 276,
+          "sha256": "c5ea15fba5cfc936e4e79cc71cd72d2ee5407ef97606795a1175b9753ba0eb3f",
+          "git_blob_sha1": "080e1b99545e0391a8cc0bd4c5072d47799172bd",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 2,
+            "record_widths": [
+              8
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "output2/validation_accuracy_comparison.png",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/output2/validation_accuracy_comparison.png",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/output2/validation_accuracy_comparison.png",
+          "received_at_utc": "2026-10-16T17:45:24.968257+00:00",
+          "bytes": 136852,
+          "sha256": "603c9d95da467c30110990fe829fcabbb400d0a9361750cd51b399fb0301bcfd",
+          "git_blob_sha1": "b076f0a31cfe6838707532c2fd66ee98fd50e292",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "png_signature": true,
+            "png_chunk_crcs": "pass",
+            "width": 3570,
+            "height": 2362,
+            "chunk_count": 7
+          },
+          "artifact_type": "author_reported_figure",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "testing_imbalancing_methods/results/imbalance_comparison_results.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/testing_imbalancing_methods/results/imbalance_comparison_results.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/testing_imbalancing_methods/results/imbalance_comparison_results.csv",
+          "received_at_utc": "2026-10-16T17:45:25.378135+00:00",
+          "bytes": 1579,
+          "sha256": "18fa890265827ab5055c60eb8d5af30a788e359803e282ec6200f6d2e5a90080",
+          "git_blob_sha1": "8b47d5044cd8cda1c7c772f85148283d63f4ae18",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 13,
+            "record_widths": [
+              11
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        },
+        {
+          "repository_path": "testing_imbalancing_methods/results/imbalance_summary.csv",
+          "url": "https://raw.githubusercontent.com/Priyanshu-byte-coder/CatBoost_Anomaly_Detection_implementation/7f2a691f94f548e6b7c744ee0eeee287489a8639/testing_imbalancing_methods/results/imbalance_summary.csv",
+          "local_path": "baselines/catboost/artifacts/source_snapshot/testing_imbalancing_methods/results/imbalance_summary.csv",
+          "received_at_utc": "2026-10-16T17:45:25.791479+00:00",
+          "bytes": 993,
+          "sha256": "1ed982f2ab7b693109191002c22ede20869e067d3082c490add826b958b45576",
+          "git_blob_sha1": "b118ca687336804f833e3fd19a3697c6323c4bb4",
+          "read_only": true,
+          "validation": {
+            "git_blob_sha1_matched": true,
+            "utf8": true,
+            "csv_parse": "pass",
+            "records_including_header": 10,
+            "record_widths": [
+              15
+            ]
+          },
+          "artifact_type": "author_reported_table",
+          "evidence_status": "author-reported and unreplicated; published-run linkage unresolved; not our scores"
+        }
+      ],
+      "not_collected": [],
+      "license_evidence_note": "No license file identified in the complete pinned tree; public source availability is not a verified reuse license."
+    }
+  ],
+  "limitations": [
+    "Stored notebook outputs are inherited author artifacts, not reproduced measurements.",
+    "Valid syntax and matching hashes do not establish dependency compatibility or correct experiments.",
+    "No license found means code-use terms are unresolved; public visibility is not a reuse license.",
+    "Publication-run correspondence is not established by this receipt.",
+    "Reported tables/plots are preserved as author artifacts only; no raw per-observation scores or independently verified experiment lineage was established."
+  ],
+  "collection_finished_at_utc": "2026-10-16T17:43:04.576189+00:00",
+  "reported_artifact_collection": {
+    "started_at_utc": "2026-10-16T17:44:36.884736+00:00",
+    "command": "python3 manufacturing/local/source_pack_collection/collect_reported_artifacts.py",
+    "working_directory": "/Users/matrixusman/CUI/DigitalTwin",
+    "script_path": "local/source_pack_collection/collect_reported_artifacts.py",
+    "script_sha256": "bfc61a905f7d15002bca6fd6e220301657b3c64276c18eb9b9450dd0388f34ae",
+    "artifact_status": "author-reported, unreplicated; not our benchmark results",
+    "finished_at_utc": "2026-10-16T17:45:25.791547+00:00"
+  },
+  "validation_summary": {
+    "artifact_files": 67,
+    "repository_tree_receipts": 3,
+    "payload_bytes_excluding_tree_receipts": 6477266,
+    "source_ast_files": 6,
+    "notebook_json_files": 3,
+    "author_reported_tables": 34,
+    "author_reported_figures": 15,
+    "all_artifacts_and_tree_receipts_sha256_rechecked": true,
+    "all_artifacts_git_blob_hashes_matched": true,
+    "all_artifacts_ignored_and_read_only": true,
+    "preexisting_selected_source_snapshots_identical": true,
+    "local_study_document_links_checked": true,
+    "source_executed": false,
+    "numeric_results_reproduced": false
+  }
+}

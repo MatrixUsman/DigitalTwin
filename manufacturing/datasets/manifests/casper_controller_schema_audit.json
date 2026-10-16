@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "operator": "Codex read-only data/schema/source audit",
+  "created_at_utc": "2026-10-16T17:47:28.838407+00:00",
+  "status": "complete_with_capture_revision_and_cross_modal_clock_limits",
+  "report": "docs/CASPER_SENSOR_SCHEMA.md",
+  "audit_command": "python3 manufacturing/scripts/audit_casper_controller_schema.py",
+  "working_directory": ". (repository root)",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "audit_started_at_utc": "2026-10-16T17:42:06.234923+00:00",
+  "audit_completed_at_utc": "2026-10-16T17:43:37.601492+00:00",
+  "original_receipt_sha256": "9c9bbc1b6a957fdbe2acebbca7c5df4f2517d2136b6b0cd29e4d0682e66b6e3a",
+  "original_receipt_modified": false,
+  "raw_data_modified": false,
+  "model_execution": false,
+  "script": {
+    "local_path": "scripts/audit_casper_controller_schema.py",
+    "bytes": 6180,
+    "sha256": "40fddda47b5b06a9cf4e139a4c1a63e814b7c532795c8c29c16b8e13089936ba"
+  },
+  "profiles": [
+    {
+      "local_path": "local/casper_controller_schema_audit/controller_schema_profile.json",
+      "bytes": 19145,
+      "sha256": "acd532cea34098e6e17331bd62b9631ff1aa7180f1403e29752533c6ebac599e"
+    },
+    {
+      "local_path": "local/casper_controller_schema_audit/author_capture_mapping.json",
+      "bytes": 2781,
+      "sha256": "bec922543958d1d6462ecee8e680c1bd01c00d0071f5b08bd4508c63ec319840"
+    }
+  ],
+  "files": [
+    {
+      "local_path": "datasets/raw/casper/v3/original/dataset/left_arm.csv",
+      "bytes": 1965113819,
+      "sha256": "35552b683edcdd15be403f050c391979d1bc6f652908bbe5066323b79f9af777",
+      "receipt_sha256_match": true,
+      "rows": 1762650,
+      "record_width_counts": {
+        "20": 1762650
+      },
+      "structural_numeric_issues": [],
+      "elapsed_seconds": 45.371501542045735,
+      "scalar_values_per_row": 66,
+      "scalar_numeric_values_checked": 116334900,
+      "field_schema": {
+        "Timestamp": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Actual Joint Positions": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Joint Velocities": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Joint Currents": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Cartesian Coordinates": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Tool Speed": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Generalized Forces": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Temperature of Each Joint": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Execution Time": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Safety Status": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Tool Acceleration": {
+          "expected_width": 3,
+          "shape_counts": {
+            "list:3": 1762650
+          }
+        },
+        "Norm of Cartesion Linear Momentum": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Robot Current": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Joint Voltages": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Elbow Position": {
+          "expected_width": 3,
+          "shape_counts": {
+            "list:3": 1762650
+          }
+        },
+        "Elbow Velocity": {
+          "expected_width": 3,
+          "shape_counts": {
+            "list:3": 1762650
+          }
+        },
+        "Tool Current": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Tool Temperature": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "TCP Force": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Anomaly State": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        }
+      }
+    },
+    {
+      "local_path": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+      "bytes": 1978193094,
+      "sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+      "receipt_sha256_match": true,
+      "rows": 1762650,
+      "record_width_counts": {
+        "20": 1762650
+      },
+      "structural_numeric_issues": [],
+      "elapsed_seconds": 45.972373832948506,
+      "scalar_values_per_row": 66,
+      "scalar_numeric_values_checked": 116334900,
+      "field_schema": {
+        "Timestamp": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Actual Joint Positions": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Joint Velocities": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Joint Currents": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Cartesian Coordinates": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Actual Tool Speed": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Generalized Forces": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Temperature of Each Joint": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Execution Time": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Safety Status": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Tool Acceleration": {
+          "expected_width": 3,
+          "shape_counts": {
+            "list:3": 1762650
+          }
+        },
+        "Norm of Cartesion Linear Momentum": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Robot Current": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Joint Voltages": {
+          "expected_width": 6,
+          "shape_counts": {
+            "list:6": 1762650
+          }
+        },
+        "Elbow Position": {
+          "expected_width": 3,
+          "shape_counts": {
+            "list:3": 1762650
+          }
+        },
+        "Elbow Velocity": {
+          "expected_width": 3,
+          "shape_counts": {
+            "list:3": 1762650
+          }
+        },
+        "Tool Current": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Tool Temperature": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "TCP Force": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        },
+        "Anomaly State": {
+          "expected_width": 1,
+          "shape_counts": {
+            "scalar": 1762650
+          }
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/hkayann/Real-time-Anomaly-Detection-in-Industrial-Robotic-Arms-via-TinyML/41b907749b7e5882319690a627a251e93fa99982/rtde/README.md",
+      "local_path": "local/casper_controller_schema_audit/author_README.md",
+      "sha256": "db272eb4a630d2b945683304b0a60cb911249df021d8cda2e941980b06a9cf64",
+      "bytes": 1535,
+      "retrieved_at_utc": "2026-10-16T17:43:05.836520+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkayann/Real-time-Anomaly-Detection-in-Industrial-Robotic-Arms-via-TinyML/41b907749b7e5882319690a627a251e93fa99982/rtde/connector.py",
+      "local_path": "local/casper_controller_schema_audit/author_connector.py",
+      "sha256": "cb2eae2cce5de554d4fd4632ef64e0a28cda0dc0c7b538a0272b44abc0abd750",
+      "bytes": 8122,
+      "retrieved_at_utc": "2026-10-16T17:43:06.321982+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkayann/Real-time-Anomaly-Detection-in-Industrial-Robotic-Arms-via-TinyML/41b907749b7e5882319690a627a251e93fa99982/rtde/control_loop_connector_v1.py",
+      "local_path": "local/casper_controller_schema_audit/author_control_loop_connector_v1.py",
+      "sha256": "fd02d1aeb7641a8e721756de73d20e8b144f25f81428ab430067cc59e56c3b9f",
+      "bytes": 19606,
+      "retrieved_at_utc": "2026-10-16T17:43:06.795932+00:00"
+    },
+    {
+      "url": "https://docs.universal-robots.com/tutorials/communication-protocol-tutorials/rtde-guide.html",
+      "local_path": "local/casper_controller_schema_audit/ur_rtde_guide.html",
+      "bytes": 79716,
+      "sha256": "71af780d561bc4ee764c39816ae942777b3b6c2180d9145c6300d03b42dca49c",
+      "retrieved_at_utc": "2026-10-16T17:44:51.055736+00:00"
+    },
+    {
+      "url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_25_1/Content/prod-scriptmanual/all_scripts/get_actual_joint_positio.htm",
+      "local_path": "local/casper_controller_schema_audit/ur_joint_positions.html",
+      "bytes": 47744,
+      "sha256": "b2bfe29d65f844009cdc215e16eaede029e54b3619780f42c545d1dc38d61ec5",
+      "retrieved_at_utc": "2026-10-16T17:44:52.371209+00:00"
+    },
+    {
+      "url": "https://www.universal-robots.com/manuals/EN/HTML/SW10_15/Content/prod-scriptmanual/all_scripts/get_actual_joint_speeds.htm",
+      "local_path": "local/casper_controller_schema_audit/ur_joint_speeds.html",
+      "bytes": 47344,
+      "sha256": "97f3db39dfc7668c1a13bc7c2bcfe26ba2c62163f948430d9f2352c396c2b42b",
+      "retrieved_at_utc": "2026-10-16T17:44:53.327956+00:00"
+    }
+  ],
+  "clock_interpretation": {
+    "status": "source-supported from matched author field mapping and official RTDE definition",
+    "unit": "seconds",
+    "origin": "controller startup; each arm has its own clock",
+    "wall_clock_conversion": "not established",
+    "exact_original_capture_revision": "unverified",
+    "cross_modal_alignment": "not established; Nicla has no recorded timestamp"
+  },
+  "limitations": [
+    "Full numeric/shape validation does not establish physical calibration or label validity.",
+    "Source capture file is from later author code and uses different published filenames; exact v3 generation commit/config remains unverified.",
+    "Historical receipt and previous audit remain unchanged; report identifies the strengthened clock evidence.",
+    "64 non-time/non-label scalars are possible observables, not an approved feature selection."
+  ],
+  "capture_source_revision": "41b907749b7e5882319690a627a251e93fa99982",
+  "workspace": {
+    "git_head": "bb8789bd2515a2366134cfc57c3b2d3f89f7e4f0",
+    "worktree_dirty": true,
+    "note": "Audit utility is uncommitted; its SHA-256 is recorded."
+  }
+}

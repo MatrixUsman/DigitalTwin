@@ -71,3 +71,40 @@ Working directory: `/Users/matrixusman/CUI/DigitalTwin`. Applied the shared acad
 - Notebook JSON was parsed and cell source read as text. No cells were executed; no model objects were loaded. Successful file hashes, notebook structure, source paths and ignore coverage were checked. These are artifact-integrity checks, not benchmark tests.
 
 Status: **one of three full manuscripts collected; two access gaps explicitly retained**. Targeted reading/static audit completed within the scope above. The parent task maintains the project work log and current status; this note does not overwrite the previous audit history.
+
+## Follow-up: access checks and two CASPER clarifications
+
+**16 October 2026, subsequent bounded study session.** The user asked to study the downloaded manufacturing materials further. CASPER was inspected locally; its PDF was not downloaded again. The following observations refine the earlier source audit.
+
+**CNN architecture correction.** Direct visual inspection of Figure 11(a), PDF page 23, resolves the earlier architecture concern: the figure explicitly contains **four Conv1D layers**, arranged in two pairs separated by max pooling, followed by flattening and a fully connected output. That agrees with the number and order of convolution/pooling layers in notebook cell 82. Section 6.4.5's prose describes only two layers before a pooling layer; the prose alone was incomplete evidence. Do not retain a claim that the paper's architecture figure conflicts with the notebook. Exact run hyperparameters/checkpoint correspondence still require verification: for example, the figure advertises batch-size candidates 32/64 while the inspected source sets 1,024.
+
+**Dataset-count discrepancy, with a useful denominator cross-check.** Table 11, PDF page 18, visually confirms **1,750,932 Nicla samples**. The received-v3 profile records **1,751,682 numeric Nicla samples after the six startup records**: a difference of **750**. Neither the notebook's subsequent 897-sample startup trim nor the 19 rows lost to its trailing 20-sample median filter explains that difference. Do not silently trim 750 rows to match the table. The dataset identity/profile is documented separately in [CASPER_DATASET_IDENTITY.md](CASPER_DATASET_IDENTITY.md).
+
+Figure 11(c) reports TN=330,602, FP=4,597, FN=529 and TP=341,079, totaling **676,807 evaluated outputs**. Simple source/shape arithmetic with the received-v3 count gives the same number:
+
+```text
+1,751,682 numeric rows
+  - 897 leading rows
+  - 19 median-filter warm-up rows
+  - 1,072,450 normal-prefix rows
+  - 755 next-step predictor warm-up rows
+  - 754 additional rows lost to valid 755-residual aggregation
+= 676,807 outputs
+```
+
+Using Table 11's count instead gives 676,057. Thus the received corpus length and inspected notebook reductions are **consistent with the published confusion-matrix denominator**, despite the Table 11 discrepancy. This is a count consistency check, not proof of identical data bytes, correct labels, identical trained weights, valid evaluation or reproduced performance. The original artifact and the discrepancy are both retained.
+
+**New full-text access checks.** These supplement, rather than erase, the earlier failed institutional/publisher retrievals:
+
+| New route checked | Observed outcome |
+|---|---|
+| Ordinary browser access to the known public Queen's manuscript | Computer-use `getBrowser` returned **“No browser is available.”** No page was reached or challenge solved through that route. The earlier HTTP 403 records remain the actual document-download outcomes. |
+| [TWINE ResearchGate record](https://www.researchgate.net/publication/405114914_TWINE_ISO_23247-Compliant_Digital_Twin_and_Explainable_AI_Framework_for_Anomaly_Detection), located through an exact-title/site search | The publicly indexed record states no full text is available and offers an author request. No request was made. This corroborates an additional access gap, not a scientific claim. |
+| [University of Tartu recent-publications list](https://cs.ut.ee/et/sisu/hiljuti-avaldatud-teadusartiklid), [InfoSec group publication list](https://infosec.cs.ut.ee/Main/Publications), and [CHESS ESSCaSS account](https://chess-eu.cs.ut.ee/2026/08/31/chess-showcases-cybersecurity-research-and-innovation-at-esscass-2026/) | Tartu and CHESS identify TWINE and link its DOI; no additional complete manuscript was found. CHESS documents a poster presentation; its event photos are not a substitute for the paper. The linked summer-school page returned HTTP 503 through the web tool. |
+| [CatBoost first-author portfolio](https://priyanshudoshi.netlify.app/) and its publicly referenced JavaScript asset | Ordinary HTTP returned the public page and asset. Static link inspection found the same IEEE article URL and no manuscript PDF link. The JavaScript was read as text, never executed. |
+| [CatBoost author ResearchGate profile](https://www.researchgate.net/profile/Priyanshu-Doshi) and its [linked publication record](https://www.researchgate.net/publication/399984993_CatBoost-Driven_Anomaly_Detection_in_Industrial_Robotic_Arms_Using_CASPER_Dataset) | Profile/title/authors were visible. The linked record was unavailable to the web fetch and returned HTTP 403 to an ordinary request; no PDF received. |
+| Exact-title queries restricted to arXiv, TechRxiv, Zenodo and institutional domains | No additional matched full manuscript found in this bounded search. This does not establish that no copy exists. |
+
+The accepted TWINE manuscript still has a documented lawful public institutional location, but it is technically inaccessible through the available retrieval tools. CatBoost still lacks a verified accessible full-text location. The collection therefore remains **one full manuscript out of three**. No credentials, payment, contact, publishing, challenge completion, dataset modification or model execution occurred.
+
+Additional local rendering commands used the existing original PDF: `pdftoppm -f 18 -l 18 -scale-to 1700 -png -singlefile <casper_pdf> <table11_prefix>` and `pdftoppm -f 23 -l 23 -scale-to 1900 -png -singlefile <casper_pdf> <figure11_prefix>`. New page renders and their parent/hash provenance are in the manifest. The count calculations above used Python integer arithmetic only; they did not train or score a detector. Human reading remains unconfirmed.

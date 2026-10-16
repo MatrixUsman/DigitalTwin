@@ -14,6 +14,8 @@ The user authorized collection, exact identification, manuscript follow-up and a
 
 Use [CASPER_DATASET_IDENTITY.md](CASPER_DATASET_IDENTITY.md) for received-byte evidence and [MANUSCRIPT_COLLECTION_AUDIT.md](MANUSCRIPT_COLLECTION_AUDIT.md) for current paper/code coverage. Those documents, not an earlier access-only record, govern the latest receipt status. Dataset identity does not establish trustworthy time alignment or attack ground truth.
 
+The later [sensor-schema audit](CASPER_SENSOR_SCHEMA.md) validates all nested controller fields and supports boot-relative seconds through a matched capture source and official definitions; original execution provenance and cross-device timing remain unresolved. The [annotation lineage study](CASPER_ANNOTATION_LINEAGE.md) derives **1,529 raw observations of support** for the inspected CASPER CNN score (median + prediction + residual aggregation). This is an audit of upstream behavior, not a newly frozen window choice or a reason to claim seconds for untimestamped IMU data.
+
 Scientific target: detect documented changes to robot motion under an explicit observation/trust model. A correct alarm does not prove malicious intent when an identical change could be authorized. No claim of general APT detection, attack attribution, unseen-robot generalization or live protection follows from these recordings.
 
 ## 1. Comparison groups: do not pool unequal information
@@ -28,7 +30,7 @@ Scientific target: detect documented changes to robot motion under an explicit o
 
 ## 2. Source and label contract
 
-Use original CASPER provider v3 and retain its CC BY-SA 4.0 record, canonical source, archive/member checksums and unchanged originals. Do not silently merge the newer CASPER 1 & 2 listing or substitute `nicla_fixed.csv`. Record every local derivative's input hashes and transformation. The latter file's correction provenance must be resolved before adoption.
+Use original CASPER provider v3 and retain its CC BY-SA 4.0 record, canonical source, archive/member checksums and unchanged originals. Do not silently merge the newer CASPER 1 & 2 listing or substitute `nicla_fixed.csv`. Record every local derivative's input hashes and transformation. The receipt audit found every parsed numeric row of `nicla_fixed.csv` equal to original Nicla after its six startup records; this is measured numeric equivalence, not byte identity, time alignment or label restoration. Use the original file as the reference and preserve that documented relationship. Provider generation history remains unknown.
 
 The original paper describes scheduled controller-velocity changes. Its external IMU lacks a shared aligned clock/rate; the inspected notebook drops initial rows and manually labels eight intervals using signal plots. Nominal 20 Hz is not proof of exactly 20 samples per second. Therefore:
 

@@ -73,3 +73,47 @@ git diff HEAD --check
 Decision: industrial robotics is the preferred next feasibility route, with CASPER first to study and conditionally reproduce. The three-paper critical-learning set is **not** execution-ready or an established fair numerical comparison. Keep the title, mechanism and novelty provisional; CASPER+ already describes related research directions.
 
 Reusable lesson: the [shared playbook](../../docs/RESEARCH_PLAYBOOK.md) now records bounded public endpoint checks, exact collection/loader matching, label provenance and the separation of learning versus experimental admission. Run state: **none**. No benchmark data bodies acquired, model/attack/simulator execution, Azure setup, package installation, author contact, paid service, publication, commit or push performed by the assistant. Next action: bounded original-CASPER acquisition/identity planning and missing manuscript/run reconciliation, before any environment or training.
+
+### 2026-10-16 — MFG-005 — Step 0 beginner lesson and comprehension worksheet
+
+Record type: contemporaneous. User asked to learn twins, baselines, scores, thresholds and data leakage. Prepared a manufacturing-specific lesson using the research skill's source-verification discipline and the shared teaching procedure. Verified NIST twin/manufacturing context and primary security-ML/scikit-learn evaluation guidance. No broad literature rescreen or experiment pipeline was launched.
+
+Artifacts: [RESEARCH_BASICS_LESSON.md](RESEARCH_BASICS_LESSON.md), [YOUR_STEP_0_NOTES.md](YOUR_STEP_0_NOTES.md). The robot-angle and six-point label examples are explicitly **synthetic**. They teach state/model/calibration distinctions, anomaly versus attack, fair information access, score versus probability, independent threshold calibration, confusion-matrix denominators, event versus point evaluation and chronology/window leakage. The worksheet remains unanswered; no researcher reading or understanding is attested.
+
+Checks: a separate read-only reviewer checked arithmetic and terminology. Corrected wording to distinguish labels needed for evaluation from labels available to an operating detector, and to say detectors compute scores from permitted observations. A standard-library arithmetic check verified TP/FP/FN/TN at thresholds 1.5, 3 and 5 as `(3,2,0,1)`, `(2,1,1,2)` and `(1,0,2,3)`. This is classroom arithmetic, not a benchmark or model experiment. Sources are linked in the lesson; older methodological background is not counted as a recent baseline.
+
+Working directory: repository root. No environment/packages/models created. Next learning action: researcher explains the four worksheet prompts; give feedback only on their actual response. Shared playbook records reusable clarifications without copying learning completion to another project.
+
+### 2026-10-16 — MFG-006 — Original CASPER receipt, manuscript follow-up and comparison protocol
+
+Record type: contemporaneous. The user expanded the task to explicitly authorize original-CASPER collection/identification, missing-manuscript resolution and a fair comparison protocol before training, while retaining Step 0. This superseded earlier source-screen-only scope; no further download permission was needed. Read existing rules/audits, checked storage/ignore coverage, and used separate bounded dataset and manuscript workers. The parent prepared/reviewed the protocol and integrated project status.
+
+Completed:
+
+- Original author Kaggle **v3** archive (2,824,019,108 bytes) and five unchanged members (7,899,312,074 bytes) preserved under ignored `datasets/raw/casper/v3/`. Version/license were checked before/after the latest-endpoint download; all members passed CRC and received SHA-256 hashes. Originals are read-only. About 10.72 GB total archive+member storage; no paid compute.
+- Full streaming CSV structural/native-clock/label audit and numeric correspondence check. Each arm: 1,762,650 rows, eight positive runs, asynchronous native clocks. Original Nicla: 1,751,682 numeric rows after six startup records, no time/label fields. Fixed Nicla contains the same numeric sequence under binary64 parsing; it is not an aligned or labelled dataset. PCAP received/integrity-checked, not decoded or replayed.
+- CASPER corrected VOR V1.1 (36 pages) collected and matched to prior SHA-256; targeted methods reading plus selected notebook/author-source snapshots. One full paper collected, **TWINE/CatBoost full texts still unresolved** after lawful publisher/institutional/author routes. Two TWINE institutional PDF endpoints returned 403; IEEE presented robot verification; no bypass, purchase or author contact. Available source-code findings remain distinct from proven published-run correspondence.
+- [COMPARISON_PROTOCOL.md](COMPARISON_PROTOCOL.md) prepared: normal-only external-IMU and supervised controller groups kept separate; proposed chronological 50/15/15/20 normal partition; train-only fitting; normal calibration at a declared empirical 99th percentile; no test-based tuning; explicit coverage, endpoint/event semantics and combined-history purging. Exact annotation/feature/split manifests and Group B admission remain blocked by unresolved evidence. This is not an execution-ready protocol or permission to train.
+- Refreshed current brief/instructions/status, data/paper/baseline indexes, access checklist and reproduction proposal. Earlier selection-session no-download statements retained as historical scope with a current-stage pointer. Root context and shared playbook updated; water/grid files and installed skills left unchanged.
+
+Evidence: [identity report](CASPER_DATASET_IDENTITY.md), [receipt manifest](../datasets/manifests/casper_v3_receipt.json), [manuscript collection/mapping audit](MANUSCRIPT_COLLECTION_AUDIT.md), [manuscript manifest](../papers/MANUSCRIPT_MANIFEST.json), [protocol](COMPARISON_PROTOCOL.md), [audit utilities](../scripts/README.md). Detailed source metadata, CSV profiles, clock/annotation intervals and original-source artifacts are ignored/local; tracked notes contain provenance/aggregate facts, not raw observations.
+
+Executed dataset commands, from `/Users/matrixusman/CUI/DigitalTwin`:
+
+```sh
+python3 manufacturing/scripts/acquire_casper_v3.py
+python3 manufacturing/scripts/profile_casper_v3.py
+python3 manufacturing/scripts/inspect_casper_alignment.py
+```
+
+The profiler was refined for the fixed file's header and rerun; final outputs are identified in the receipt. Public network access required approved sandbox execution. No system packages changed. Manuscript retrieval/extraction/render commands and source failures are in its audit; local collection script is retained under ignored `papers/downloads/`. No detector/code snapshot or checkpoint was executed.
+
+Validation: dataset worker checked complete decompression/CRC, all hashes, read-only modes, final utility/profile provenance and ignore rules. Manuscript worker checked 14 successful source/derived artifact hashes and ignore coverage, notebook JSON and rendered PDF pages. Parent independently parsed the receipt/manuscript JSON and three audit utilities, matched member sizes, confirmed read-only/ignore status, and checked local links. The pre-log pass covered **33 documents and 205 local links**, with no missing targets. `git diff HEAD --check` passed; `git ls-files manufacturing/datasets/raw manufacturing/baselines/casper/artifacts manufacturing/baselines/twine/artifacts manufacturing/baselines/catboost/artifacts` returned no tracked payload files. No training tests or model scores were generated.
+
+A separate read-only review found four protocol wording/support issues; fixed current-measurement availability, supervised training/validation label access, unknown-gap alarm contiguity, and combined filter/model/aggregation history. No supported primary event/delay claim is made while clock/annotation provenance remains unresolved.
+
+Final post-log check: **34 Markdown documents and 218 local links passed**, receipt/manuscript JSON and three script syntax checks passed, processed-data and run directories remained empty, and `git diff HEAD --check` passed. No water/grid/skill changes appeared in the scoped diff.
+
+Run state: **data acquisition/identity and document checks only**, plus separately labelled synthetic teaching arithmetic. No training, fitted transforms, benchmark scores, cloud/simulator setup, packet replay, installs, external messages, uploads, publication, commit or push by the assistant.
+
+Next bounded technical action: reconcile the paper's retrospective IMU annotation with frozen bytes and document uncertainty/clock limitations; select an admissible information-access group and freeze annotation/feature/split manifests before implementation. Obtain lawful missing full texts or keep affected methods on hold. No novelty or superiority conclusion follows from receipt or code inspection.

@@ -5,7 +5,7 @@ Start here. This workspace supports three separate academic papers. The owners a
 | Owner | Project | Current position |
 |---|---|---|
 | **Muhammad Usman** | [Water infrastructure](water/README.md) | Existing literature audit preserved; SWaT/WADI access and releases unresolved; CAROTS is the conditional first baseline |
-| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Active open-data audit: original CASPER robotics preferred; three-paper learning set, no execution-ready baseline |
+| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Original CASPER received/profiled; Step 0 lesson and comparison protocol prepared; manuscript/annotation gates remain |
 | **Muhammad Usman Sanghla** | [Smart grids](smart_grids/README.md) | Initial scoping and source screening; no selected dataset pair or approved baseline |
 
 No project has reproduced a model or generated benchmark results. Working titles and research questions remain provisional.

@@ -2,7 +2,7 @@
 
 Last updated: 16 October 2026. Project owner: **Haiqa Mushtaq**. Ownership is an organizational assignment, not a decision about academic authorship.
 
-This is an independent academic research project on cybersecurity of manufacturing cyber–physical systems. Its current stage is beginner teaching, original CASPER receipt/identity audit, targeted manuscript study and comparison planning. The original CASPER archive and five members have been acquired with integrity checks and hashes; a corrected CASPER manuscript and selected code snapshots are stored locally. No baseline has been reproduced and no experimental performance results exist.
+This is an independent academic research project on cybersecurity of manufacturing cyber–physical systems. Its current stage is beginner teaching, original CASPER receipt/identity audit, targeted manuscript study and comparison planning. The original CASPER archive and five members have been acquired with integrity checks and hashes; a corrected CASPER manuscript, pinned code/documents and explicitly author-reported tables/figures are stored locally. A [study guide](docs/DATA_AND_BASELINE_STUDY.md) connects full controller-schema validation, annotation lineage and paper-to-code findings. No baseline has been reproduced and no experimental performance results exist.
 
 ## Provisional direction
 

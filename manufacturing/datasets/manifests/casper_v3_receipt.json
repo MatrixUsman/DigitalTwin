@@ -63,7 +63,7 @@
         9,
         10
       ],
-      "profile_status": "not_yet_profiled"
+      "profile_status": "integrity_only_not_decoded"
     },
     {
       "archive_member": "dataset/left_arm.csv",
@@ -80,7 +80,7 @@
         17,
         6
       ],
-      "profile_status": "not_yet_profiled"
+      "profile_status": "streaming_schema_clock_label_audit_complete_with_documented_limits"
     },
     {
       "archive_member": "dataset/nicla.csv",
@@ -97,7 +97,7 @@
         26,
         48
       ],
-      "profile_status": "not_yet_profiled"
+      "profile_status": "streaming_schema_clock_label_audit_complete_with_documented_limits"
     },
     {
       "archive_member": "dataset/right_arm.csv",
@@ -114,7 +114,7 @@
         27,
         14
       ],
-      "profile_status": "not_yet_profiled"
+      "profile_status": "streaming_schema_clock_label_audit_complete_with_documented_limits"
     },
     {
       "archive_member": "nicla_fixed.csv",
@@ -131,7 +131,7 @@
         36,
         30
       ],
-      "profile_status": "not_yet_profiled"
+      "profile_status": "streaming_schema_clock_label_audit_complete_with_documented_limits"
     }
   ],
   "limitations": [
@@ -152,5 +152,56 @@
     "sha256": "07f2daf948c8244c396c7b4d2fe4c475880a3a6577f982fc1738b5379b0e5409",
     "received_at_utc": "2026-10-16T17:08:32.090901+00:00"
   },
-  "completed_at_utc": "2026-10-16T17:08:42.469743+00:00"
+  "completed_at_utc": "2026-10-16T17:08:42.469743+00:00",
+  "identity_audit": {
+    "status": "completed_with_clock_and_label_provenance_limits",
+    "completed_at_utc": "2026-10-16T17:14:21.013871+00:00",
+    "report": "docs/CASPER_DATASET_IDENTITY.md",
+    "profiles": [
+      {
+        "local_path": "local/casper_v3_receipt/schema_profile.json",
+        "bytes": 15176,
+        "sha256": "3863f3e6a3cdb7abb3c5d42bee687e09228a242176566281560c3c2af980722e"
+      },
+      {
+        "local_path": "local/casper_v3_receipt/alignment_profile.json",
+        "bytes": 2991,
+        "sha256": "6ebe67142a2d7d700307c9af86695a5451a9d40d16165158c982fd36fc461c90"
+      }
+    ],
+    "model_or_benchmark_execution": false,
+    "schema_note": "20 top-level arm fields contain scalar and vector-valued data. Full vector validation is outstanding.",
+    "clock_note": "Native numeric clocks only; clock origin, units and timezone not established; no calendar conversion.",
+    "nicla_note": "After 6 raw startup records and the fixed file header are excluded, all 1,751,682 rows match under binary64 parsing; no embedded clocks or labels."
+  },
+  "audit_utilities": [
+    {
+      "local_path": "scripts/acquire_casper_v3.py",
+      "sha256": "2089666e9d7c1884a84c363acebb47f624239eb2c0cc4df5d021e620570c43f8",
+      "bytes": 9566
+    },
+    {
+      "local_path": "scripts/profile_casper_v3.py",
+      "sha256": "406db7edda919da3718bb1febbfff4e3e2fca5764daf61168cd7ae6fdeeb37d1",
+      "bytes": 7453
+    },
+    {
+      "local_path": "scripts/inspect_casper_alignment.py",
+      "sha256": "384deae0a45c04defc0dd2506ecbd3c9cbde6ded152d0e17a0b2df8d5fbd5220",
+      "bytes": 4326
+    }
+  ],
+  "source_notebook": {
+    "url": "https://raw.githubusercontent.com/hkayann/1D-CNN-Anomaly-Detection-via-CASPER/bff03c91d155bf3134f6d801d3a4f4af7ea78adb/notebooks/casper.ipynb",
+    "revision": "bff03c91d155bf3134f6d801d3a4f4af7ea78adb",
+    "local_path": "local/casper_v3_receipt/casper_author_notebook.ipynb",
+    "bytes": 2171524,
+    "sha256": "3f1beff113c904473cb554aa79edde7af31d777c4731eb93ba900e3aa4a5fea0",
+    "execution": "not executed; static JSON source inspection only"
+  },
+  "workspace_provenance_at_identity_audit_completion": {
+    "git_head": "bb8789bd2515a2366134cfc57c3b2d3f89f7e4f0",
+    "worktree_dirty": true,
+    "note": "Audit utilities were uncommitted; individual hashes are recorded. Other project changes were preserved."
+  }
 }

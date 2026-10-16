@@ -7,3 +7,5 @@ Author code: [mubashar-iqbal/TWINE](https://github.com/mubashar-iqbal/TWINE/tree
 Before execution: resolve manuscript-to-code paths, feature/model differences, random splitting and static length/model-reference errors. The inspected Azure twin holds observed properties and classifier outputs; no physical predictive estimator is established by that code. No cloud account or paid service has been created. A local RF comparison and an end-to-end Azure reproduction are different scopes.
 
 [Detailed twin/code audit](../../docs/literature/TWIN_METHOD_SCREEN_2026-10-16.md) · [selection decision](../../docs/BASELINE_SELECTION_REPORT.md). Learning candidate only; no checkout, training or reproduced results.
+
+All tracked files at this revision are now preserved as an ignored source snapshot. See [the pack manifest](../SOURCE_PACK_MANIFEST.json) and [code study](../../docs/BASELINE_CODE_STUDY.md). Complete repository-file collection does not resolve the missing manuscript, missing demo resources, environment or published-run correspondence.

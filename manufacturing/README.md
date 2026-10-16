@@ -7,9 +7,13 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | Location | Purpose |
 |---|---|
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
+| [docs/DATA_AND_BASELINE_STUDY.md](docs/DATA_AND_BASELINE_STUDY.md) | Start here: received materials, findings and a practical reading sequence |
 | [docs/RESEARCH_BASICS_LESSON.md](docs/RESEARCH_BASICS_LESSON.md) | Step 0: twins, baselines, scores, thresholds, evaluation and leakage |
 | [docs/YOUR_STEP_0_NOTES.md](docs/YOUR_STEP_0_NOTES.md) | Researcher's unanswered comprehension exercise |
 | [docs/CASPER_DATASET_IDENTITY.md](docs/CASPER_DATASET_IDENTITY.md) | Actual received files, hashes, schemas and timing/label limits |
+| [docs/CASPER_SENSOR_SCHEMA.md](docs/CASPER_SENSOR_SCHEMA.md) | Full nested-field validation, data dictionary and controller clock interpretation |
+| [docs/CASPER_ANNOTATION_LINEAGE.md](docs/CASPER_ANNOTATION_LINEAGE.md) | Manual-label coordinate mapping and complete score history |
+| [docs/BASELINE_CODE_STUDY.md](docs/BASELINE_CODE_STUDY.md) | Pinned source/result pack and paper-to-code reading notes |
 | [docs/MANUSCRIPT_COLLECTION_AUDIT.md](docs/MANUSCRIPT_COLLECTION_AUDIT.md) | Collected paper/code artifacts and remaining full-text gaps |
 | [docs/COMPARISON_PROTOCOL.md](docs/COMPARISON_PROTOCOL.md) | Proposed separate evaluation groups and pre-training gates |
 | [docs/BASELINE_SELECTION_REPORT.md](docs/BASELINE_SELECTION_REPORT.md) | Current robotics recommendation, three-paper study set and unresolved admission criteria |
