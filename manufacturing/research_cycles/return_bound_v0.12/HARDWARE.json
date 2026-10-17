@@ -1,0 +1,9 @@
+{
+  "observation_time_utc": "2026-10-17T16:37:29.949740+00:00",
+  "stage": "post-run inventory, same workspace",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "logical_cpu_count": 18,
+  "cpu_model": "not independently queried",
+  "total_physical_memory": "not independently queried; run memory measured by supervisor/getrusage"
+}

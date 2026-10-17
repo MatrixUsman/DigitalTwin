@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-17T15:48:11.355161+00:00",
+  "status": "visually_checked",
+  "artifact": "research_cycles/casper_convergence_v0.11/figures/normal_learning_curves.png",
+  "sha256": "052e4eaa8da9278ff07b76bd1d25df0bd421ef3d02efddb0296cca8be35419ec",
+  "findings": "Both panels, legend, log-scale ticks, all curves, checkpoint markers, captions and axes are legible; no clipping observed.",
+  "render_warning": "Fontconfig could not write its default system/home cache; Matplotlib generated the plot successfully using the project-local plotting configuration. No system package/cache permission change."
+}

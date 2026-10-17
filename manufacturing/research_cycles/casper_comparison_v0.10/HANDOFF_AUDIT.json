@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-17T13:31:43.462729+00:00",
+  "status": "passed",
+  "local_links": 19,
+  "preserved_prior_sources": 11,
+  "preserved_prior_inputs": 1521,
+  "frozen_sources": 15,
+  "successor_frozen_sources": 19,
+  "successor_training": "pending actual user resource approval",
+  "published": false,
+  "scope": "Integrity and packaging; no new observation, fit or experimental claim."
+}

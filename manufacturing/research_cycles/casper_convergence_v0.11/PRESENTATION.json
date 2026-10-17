@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T15:46:19.894466+00:00",
+  "status": "generated",
+  "source_summary_sha256": "1142727db5c709426b3c2de08cdb6aedd99d53a3e37b0d3434fbe87b06a49db2",
+  "predecessor_summary_sha256": "25d6370f3258910801f7ddf3df5b537c1ed087e1a40207bfbc397b8c802bb945",
+  "script_sha256": "901e8538659a8f4e5063b404c349e3603bfb81c1506b361dcb097460e4a40425",
+  "matplotlib_version": "3.10.0",
+  "scope": "Descriptive normal-development table and learning curves; no raw data or statistical significance claims.",
+  "artifacts": {
+    "all_outcomes.csv": "1bce3e550c0a35e1bfd21b6d6cd983463c7d1e8cc9ea1b5d3e9bdd6e369e9e4e",
+    "per_channel_errors.csv": "073963b8130326dc8263e5e1b94015199e654516f19a3535af6caa3ee60b2b86",
+    "figures/normal_learning_curves.png": "052e4eaa8da9278ff07b76bd1d25df0bd421ef3d02efddb0296cca8be35419ec",
+    "figures/normal_learning_curves.svg": "1b551a6bb4efecef89f388e5fef39b596a1395e67a82939b7698868fa98619b9"
+  }
+}

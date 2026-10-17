@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-17T15:45:46.103430+00:00",
+  "status": "passed",
+  "checks": 3754,
+  "elapsed_seconds": 7.231367958011106,
+  "verified_models": 9,
+  "prior_scientific_sources": 11,
+  "prior_input_bindings": 1521,
+  "prior_packages": {
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": 301,
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": 24,
+    "research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json": 64
+  },
+  "raw_data_opened": false,
+  "attack_data_opened": false,
+  "cnn_refitting": false,
+  "predecessor_model_trajectories_checked": true,
+  "scope": "Saved-artifact integrity and numerical consistency; not attack, physics or novelty validation.",
+  "freeze_sha256": "d32a487613c046c3fa85f415935ebcdabc7aa7bdaae07de4b1f24e3440e50718",
+  "verifier_sha256": "1eb4acfff3d52e9c5142f4a1280fef0b55ad688e6e2d76dd961e7aa48d490af8",
+  "summary_sha256": "1142727db5c709426b3c2de08cdb6aedd99d53a3e37b0d3434fbe87b06a49db2"
+}

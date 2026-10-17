@@ -1,0 +1,25 @@
+{
+  "study_id": "manufacturing-return-bound-v0.12",
+  "synthetic": true,
+  "samples": 1200,
+  "seeds": [17, 42, 2026],
+  "windows": [1, 41, 201],
+  "alpha": 0.05,
+  "tolerance": [0.1, 0.1, 0.1, 0.1],
+  "bias_bound": [0.01, 0.01, 0.01, 0.01],
+  "sigma_multipliers": [1.0, 0.8, 1.1, 0.9],
+  "phases": [0.0, 0.4, 0.8, 1.2],
+  "noise_settings": [
+    {"id": "iid_low", "sigma": 0.03, "rho": 0.0},
+    {"id": "iid_high", "sigma": 0.06, "rho": 0.0},
+    {"id": "ar08_low", "sigma": 0.03, "rho": 0.8},
+    {"id": "ar095_high", "sigma": 0.06, "rho": 0.95}
+  ],
+  "profiles": [
+    {"id": "settled", "amplitude": 0.0, "frequency": 0.0},
+    {"id": "slow_within_tolerance", "amplitude": 0.02, "frequency": 0.004},
+    {"id": "faster_within_tolerance", "amplitude": 0.02, "frequency": 0.04}
+  ],
+  "feasibility_fraction": 0.95,
+  "limits": {"wall_seconds": 120, "cpu_seconds": 60, "rss_bytes": 536870912, "output_bytes": 20971520, "poll_seconds": 0.1}
+}

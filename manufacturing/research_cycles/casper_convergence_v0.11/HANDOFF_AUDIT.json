@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T15:48:40.820055+00:00",
+  "status": "passed",
+  "local_links": 18,
+  "preserved": {
+    "source_sha256": 11,
+    "input_sha256": 1521,
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": 301,
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": 24,
+    "research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json": 64
+  },
+  "frozen_sources": 19,
+  "model_outcomes": 9,
+  "per_channel_rows": 81,
+  "explicit_user_approval": true,
+  "completion": "one authorized scientific execution; all outcomes retained",
+  "scope": "Saved-result arithmetic and package integrity, not independent security or physics validation."
+}

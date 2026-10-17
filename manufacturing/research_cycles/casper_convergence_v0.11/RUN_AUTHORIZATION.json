@@ -1,0 +1,15 @@
+{
+  "status": "approved_by_user",
+  "reason": "User explicitly approved the prepared bounded local run in the current message.",
+  "freeze_sha256": "d32a487613c046c3fa85f415935ebcdabc7aa7bdaae07de4b1f24e3440e50718",
+  "limits": {
+    "wall_seconds": 1200,
+    "cpu_seconds": 900,
+    "rss_bytes": 1073741824,
+    "output_bytes": 52428800
+  },
+  "question": "Approve one local run capped at 1200 seconds wall, 900 seconds CPU, 1 GiB sampled RSS, 50 MiB output, with no paid compute?",
+  "user_response": "Approve the bounded local run",
+  "recorded_utc": "2026-10-17T15:32:29.526155+00:00",
+  "approval_scope": "One execution of the frozen v0.11 normal-only study within its recorded limits; no paid compute, attack evaluation or automatic retry."
+}

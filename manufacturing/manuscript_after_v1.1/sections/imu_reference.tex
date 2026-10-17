@@ -1,0 +1,32 @@
+\section{Separate common-input IMU prediction study}\label{app:imu}
+\subsection{Release, chronology and permitted information}
+This supplementary study examines normal prediction under common inputs. It does not enter the command-aware attack ranking. The data are the received author-linked CASPER-1-and-2 provider-v2 nominal file \texttt{IMU\_10Hz.csv}, from the \href{https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2}{public provider listing}. Its SHA-256 is\nopagebreak[4]
+\begin{center}\small\url{1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c}.\end{center}
+The file differs from the original CASPER-v3 archive; exact original-paper run identity is unresolved. The nine channels are accelerometer, gyroscope and magnetometer X/Y/Z. Timestamp units and acquisition-versus-arrival semantics remain unresolved, so the filename is not used to infer elapsed time or detection delay.
+
+Training uses numeric rows 219--9184 and development uses rows 9185--12006, indexed from zero. The split precedes a trailing width-20 median filter. Each partition loses its first 19 filtered warmup observations. Training alone supplies the channel means and population standard deviations; constant or nonfinite channels are rejected. The clock must increase strictly, with no gap greater than five times the training median increment. All models use the same eligible targets after 755 history observations: 8,192 training and 2,048 development targets. The development target rows are 9959--12006 inclusive. A 755-residual aggregation leaves 1,294 aligned development endpoints. This prefix had already been used for development and is not an independent final test.
+
+\subsection{Architectures, fitting and model selection}
+The CASPER-style architecture follows the corrected manuscript's four valid one-dimensional convolutions, each with 32 filters, kernel size five and ReLU activation. Max pooling with width three follows each pair; flattening and a nine-output dense layer give 39,977 parameters for history length 755. The compact Edge-style architecture has two valid convolutions with eight filters and kernel size three, followed by width-three pooling and a nine-output dense layer: 1,369 parameters for history length 45. Both are independently written architectural implementations under a modified protocol. A zero-initialized output layer, batch size 64 and the present causal preprocessing are disclosed implementation choices, not proof of correspondence to a published checkpoint.
+
+Training uses mean squared error, Adamax at learning rate $10^{-3}$, chronological minibatches without shuffling, and seeds 17,42,2026. All models start afresh for this longer study; optimizer state was not transferred from the short pilot. The maximum is 100 epochs. A development improvement greater than $10^{-6}$ selects a checkpoint; five epochs without such improvement stop training. Per-fit CPU admission is limited to 240 seconds, with total ceilings of 1,200 seconds wall and 900 seconds CPU. No attack labels select training duration, model weights or score formulas.
+
+Training-mean, persistence and AR(4) controls use the same target observations. The AR control fits standardized channels with ridge $10^{-3}$ on mean normal equations, leaving the intercept unpenalized. The reported MSE averages squared error over the nine standardized target channels and 2,048 development endpoints. Mean, persistence and AR run once; all stochastic seeds are reported separately.
+
+\begin{table}[htbp]\centering\small
+\caption{Normal-development prediction on the common filtered IMU prefix. Epoch columns show completed and selected epochs. All nine outcomes are retained.}\label{tab:imu}
+\setlength{\tabcolsep}{5pt}
+\input{generated/imu}
+\end{table}
+
+\subsection{Results and interpretation}
+All CASPER-style seeds stop by the declared patience rule after 27 epochs and select epoch 22, with MSE 0.017451--0.017703. This is 46.11--58.12\% below their respective short-pilot errors. All compact seeds reach 100 epochs while improving, so their MSE 0.042700--0.044730 remains training-limited. AR(4) has the lowest error, 0.006074, on this prefix. Figure~\ref{fig:imu} retains the learning curves for every neural seed.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\linewidth]{figures/imu_learning_curves.pdf}
+\caption{Normal-development learning curves from the saved training records. Local patience stopping supports greater training adequacy for the CASPER-style architecture; the compact models remain limited by the epoch ceiling. Horizontal control lines refer to the same filtered targets.}\label{fig:imu}
+\end{figure}
+
+Median filtering induces dependence and changes the prediction task; the strong autoregressive result therefore cannot be transferred to unfiltered attack detection. Patience stopping is not proof of a global optimum, representative full-data convergence or original-paper reproduction. No attack threshold, F1, recovery score or test-label optimization was computed in this study. Improved normal MSE does not establish a more effective cyberattack detector.
+
+The run used 764.794 s wall time, 753.252 s CPU, 553.05 MiB sampled peak memory and 2.68 MiB of outputs. Seventeen pre-run synthetic checks and 3,754 fresh-process artifact checks covered checkpoint reloads, score alignment and source identities. The hardware was the same macOS arm64 workstation; process threads and actual budgets are retained in provenance. No neural model was refitted while preparing this manuscript.

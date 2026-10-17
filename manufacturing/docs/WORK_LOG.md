@@ -937,3 +937,115 @@ manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.0/audit.py
 ```
 
 Current deliverable: one complete polished author-review/submission draft. The original contribution objective remains active; actual evidence still does not establish a successful novel detector. Next is author and scientific review of this consolidated manuscript, with declarations confirmed before submission. Prior PDFs, raw data, consumed scientific packages, sibling projects and system packages remain unchanged. No publishing, upload, paid compute, external messages or assistant-issued Git mutation. Existing shared playbook already covers this editorial/reproducibility procedure; no root changes were needed.
+
+
+### 2026-10-17 — MFG-037 — Executable CASPER comparison and prepared convergence study
+
+The user asked to address the missing superiority and original-detector evidence. Applied the academic-research-suite experiment workflow inline. The existing command-aware simulator cannot fairly establish superiority over an external-IMU detector. Reused the corrected CASPER and Edge-2025 manuscripts and static repository audit; independently implemented the original CASPER four-convolution architecture and compact successor under one nine-channel IMU protocol. No original notebook code was copied/executed, and unresolved original licensing/checkpoint/run correspondence remains explicit.
+
+Created `research_cycles/casper_comparison_v0.10/`: frozen plan/configuration, architecture/preprocessing implementation, supervisor launcher, tests, worker, separate process-monitor retry, all-outcome report, fresh-process verifier, source review and scientific decision. Fourteen synthetic tests passed before freezing15source identities. Read only the previously exposed nominal provider-v2 prefix, at most12,007numeric rows. Raw split first, trailing20-observation medians, training-only scaling,755history common support:8,192training and2,048development targets,1,294aggregated score targets. Saved all six CNN seed checkpoints plus mean/persistence/AR4 scores, both standardized and native RMSE and755-residual sums. No threshold, calibration, attack label/file or final exposure.
+
+Initial pilot_001 failed before worker startup because `/bin/ps` was denied in the sandbox; its empty log and supervision failure remain. An independently recorded launcher-only retry used scoped process-monitor permission and unchanged scientific source/configuration. pilot_002 completed in100.647seconds supervised wall,98.871seconds worker CPU,563.80MiB sampled RSS (564.55MiB worker lifetime peak),2.53MiB supervised outputs. All limits passed. No system package or environment change.
+
+Normal development standardized MSE: mean1.073987, persistence0.019432, AR4=0.006074; CASPER-style seeds17/42/2026=0.034652/0.041666/0.032397; compact seeds=0.087276/0.080812/0.079634. Larger CNNs completed3epochs each under the CPU admission rule, selecting3/2/3; compact models selected30/30/30 and still improved. These are training-limited prefix-development comparisons, not benchmark attack superiority. Fresh-process verification passed2,411checks, including all nine saved-model scores, independent AR/rolling arithmetic, checkpoint selection, populations/resources and preservation of11previous scientific sources,1,521input bindings,301v0.9 package files and24current manuscript package files. The verifier opens derived observations only and does not retrain CNNs.
+
+Targeted primary-source checks retain the CASPER/Edge/Ayankoso and recovery prior-art limitations. The Kaisar institutional endpoint was inaccessible; exact full recovery mechanism remains unresolved. Howard et al.'s Annals of Statistics2021/arXiv1810.08240 identifies time-uniform statistical background, outside the recent-baseline window. The accessible Wiley DOI10.1049/dgt2.70016 records first publication31December2025; its SWaT/classifier scope and an unrelated ENF/audio paragraph in the abstract prevent manufacturing comparator admission without further audit. This inconsistency is not asserted to prove fabrication. Added a specific noise/bias/drift return-bound formulation as an established statistical control, explicitly not our novel method or a guaranteed physical bound without justified assumptions.
+
+Prepared a separate `casper_convergence_v0.11` with identical data/models and longer resource allowance: maximum100epochs,240CPU seconds per fit, total1200s wall/900s CPU/1GiB monitored RSS/50MiB output. All fits start from scratch because optimizer state was not saved. Seventeen synthetic tests passed,19source identities frozen. The launcher checks a matching user approval record before any run directory or raw access. An asynchronous approval request was issued under the user's standing lengthy-training rule; approval remains pending at this handoff. No real v0.11 training ran. Receipt warnings about pip cache access and future protobuf/Python3.14 support are preserved; no dependency installation occurred.
+
+Executed from workspace root:
+
+```sh
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_comparison_v0.10/freeze.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_comparison_v0.10/run.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_comparison_v0.10/run_monitor_retry.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_comparison_v0.10/verify.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_convergence_v0.11/freeze.py
+```
+
+Next executable step after the actual resource approval is the frozen v0.11 normal-only convergence command. Its outcome may still be training-limited; do not promise convergence or open attacks automatically. In parallel, a replacement recovery mechanism needs a concrete distinction from existing statistical/observer controls and a fresh feasibility/evaluation protocol. The original contribution objective is preserved; no new PDF, automatic novelty claim, upload, author contact, paid compute, Git mutation or changes to sibling projects. The existing shared playbook already covers the executed workflow, so no root changes were needed.
+
+MFG-037 closing checks: sealed64local pilot files in `research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json`;19relative links resolve and all prior bindings remain unchanged. Packaging command: `manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_comparison_v0.10/package.py`. A separate intentional v0.11 launcher check rejected the pending approval before any worker/run directory or raw access; evidence is in `local/casper_convergence_v0.11/readiness/`. This was an authorization-gate check, not a failed training attempt. The longer run remains pending an actual user response.
+
+### 2026-10-17 — MFG-038 — Approved v0.11 convergence execution
+
+The user explicitly replied “Approve the bounded local run” to the prepared1200s wall/900s CPU/1GiB monitored RSS/50MiB output request. Recorded exact approval with the frozen hash and verified all19source identities and the passing17-test receipt before launch. Started the unchanged frozen command once as pilot_001 using scoped permission for the /bin/ps monitor. No new model/data choices or budget enlargement. External authorization receipt: `local/casper_convergence_v0.11/execution_authorization.json`. Execution is in progress; outcomes and verification will be appended after completion.
+
+MFG-038 completion: the single approved pilot_001 finished without retry or training failure. Measured 764.794s supervised wall, 753.252s worker CPU, 553.05MiB sampled/lifetime RSS, 2.68MiB supervised outputs. All limits passed. Six CNN fits and three deterministic controls all produced saved predictions, scores and records. Same nominal prefix, filtering, scaling, support, seeds and optimizer as v0.10; at most12,007numeric rows parsed and no attack file/label/calibration/final data accessed.
+
+CASPER-style seeds17/42/2026 all completed27epochs and selected22 by normal-development patience; MSE0.01770295896/0.01745145661/0.01745781589 (48.91%/58.12%/46.11% lower than their own short-pilot values). Compact seeds all reached100epochs and selected100 while improving, MSE0.04472959742/0.04345130495/0.04269980588. They remain training-limited. AR4=0.00607397387, persistence=0.01943161335 and mean=1.07398697857 are unchanged. No seed was hidden or selected as the sole comparator. These are prediction errors on filtered normal development, not attack-superiority results or new-method novelty.
+
+Fresh-process verification passed3,754checks in7.231s: all saved checkpoints/predictions/scores, independent AR and aggregation arithmetic, selected epochs, exact prepared-array parity and overlapping deterministic training trajectories with v0.10. Preserved11prior scientific sources,1,521input bindings and301/24/64files in the v0.9/manuscript/v0.10 packages. Verification uses saved derived observations and does not refit CNNs.
+
+Generated complete nine-outcome and81-channel tables plus PNG/SVG learning curves and a source-backed descriptive report. The figure was visually inspected; no clipping/illegibility observed. Matplotlib printed default font-cache permission warnings but completed successfully with local configuration; no package or system-permission change. A separate native sysctl hardware probe was denied in the sandbox; standard-library inventory recorded macOS/arm64 and18logical CPUs, and actual research Python/dependencies remain in worker provenance. That metadata failure did not affect the approved resource monitor or scientific run.
+
+Commands from workspace root:
+
+```sh
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_convergence_v0.11/run.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_convergence_v0.11/verify.py
+manufacturing/.venv-plots-v03/bin/python manufacturing/research_cycles/casper_convergence_v0.11/present.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_convergence_v0.11/report.py
+```
+
+Next: continue the common-information mechanism/novelty design and fresh-evidence requirements, while retaining compact-model training limitations and unresolved original paper-run correspondence. This approved attempt is consumed; no automatic budget extension, further training or attack campaign. Raw data, prior manuscripts/frozen studies, sibling projects and system packages are unchanged. No paid compute, external contact, upload, publication or assistant-issued Git mutation. Existing shared playbook covers this workflow; no root changes needed.
+
+MFG-038 closing integrity: `package.py` sealed71local study files, validated18relative links, rechecked all19frozen source identities and preserved the11scientific/1,521input/301+24+64package bindings. Post-run raw-file SHA256 still matches `1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c`; this final check hashes bytes without parsing observations. `git diff --check` passed. Packaging command: `manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/casper_convergence_v0.11/package.py`. Current handoffs report completed execution and the compact fits' epoch limitation; no further run is active.
+
+
+## MFG-039 — Noise-aware standard return control and synthetic normal diagnostic, 17 October 2026
+
+The user's “resume” continued manufacturing from completed v0.11. Applied the shared academic-research-suite inline; reread the common-information recovery decision and primary prior-art records. Howard's metadata/author repository were rechecked; the Kaisar institutional abstract remains accessible through search, while direct DOI/full-method retrieval failed. RAPIO publisher retrieval returned429. No source access failure is treated as proof of nonexistence or novelty.
+
+Created `research_cycles/return_bound_v0.12/`: a standard Gaussian current-deviation bound with explicit bias, noise covariance and drift terms, three predeclared windows, simultaneous risk accounting, causal/missing-input behavior, tests, generator, bounded runner and independent verifier. No original mechanism is claimed. The design and all18source/configuration/prior-manifest identities were frozen before generating any study trace.
+
+Pre-freeze development: AST inspection corrected a verifier syntax/resource-key issue. Synthetic test001 passed19/20; one exact-equality assertion differed by2.77555756e-17 after cumulative-sum roundoff. Archived the source, receipt and full failure log; changed only that assertion to absolute1e-15 tolerance. Explicit test002 passed20/20 and produced the freeze. Neither attempt generated experiment outcomes.
+
+One local diagnostic ran under120swall/60sCPU/512MiBsampledRSS/20MiBoutput, with scoped execution permitting the existing /bin/ps monitor. Measured0.565153swall/0.459052sworkerCPU/39.8125MiBsampledRSS/39.90625MiBlifetimeRSS/11.0685MiBfinalrunoutputs. All36synthetic traces and216method/trace outcomes completed, zero experiment failures/retries. No training, real-data observations, saved-CNN scoring, new attack/final exposure, package installation, paid compute or physical testbed use.
+
+The simultaneous envelope passed the predeclared95%normal-point criterion on20/36traces; the overall gate failed. Longer windows reduce noise uncertainty but their current-state drift penalty can block return. Strong temporal correlation defeats this registered window set. Deliberately ignoring correlation yields favorable-looking but unjustified certificates. Zero coverage violations in small within-tolerance signals cannot establish an unsafe-clearing rate or attack sensitivity. All results are conditional on generator-supplied noise/bias/drift parameters.
+
+Independent saved-array convolution/covariance calculations and all-outcome checks passed2,665checks, also preserving301v0.9/64v0.10/71v0.11/24manuscript-package bindings. Report includes all outcomes and corrects the frozen plan's “independent trace” wording: scenarios reuse paired innovations across only3independent seeds; each bound is marginal per trace, with no study-wide95%guarantee. Skill interpretation review covered11/11fallacy categories.
+
+Commands from workspace root:
+
+```sh
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/return_bound_v0.12/freeze.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/return_bound_v0.12/freeze.py --test-attempt test_002
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/return_bound_v0.12/run.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/return_bound_v0.12/verify.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/return_bound_v0.12/report.py
+```
+
+The first command failed only its software test and did not freeze or run the experiment. Scientific sources remained unchanged after the successful freeze. Next: derive and test operational uncertainty estimates from clean command-matched virtual commissioning observations, keeping truth evaluator-only and ordinary observers equally informed. Full recovery prior-art non-equivalence, adequately trained compact CASPER comparator and original paper-run correspondence remain unresolved. Existing manuscripts, raw datasets and sibling projects are preserved. No publication, external messages, uploads or assistant-issued Git mutations. Existing shared playbook covers the procedure; no root changes needed.
+
+MFG-039 closing integrity: `manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/return_bound_v0.12/package.py` sealed116files and checked20relative links. A fresh full package hash audit passed all116bindings; `git diff --check` passed. Mutable handoffs were archived before sealing; no experiment remains active.
+
+## MFG-040 — Sole-author neutral manuscript revision, 17 October 2026
+
+The user requested the latest manuscript for journal consideration with only Muhammad Usman in the byline. During this task, the user confirmed no funding or competing interests and selected neutral journal format. Applied the academic-research-suite writing, citation and formatter guidance inline and the PDF render/inspection workflow. The supplied COMSATS Sahiwal affiliation is retained. No actual CRediT roles, contributor agreement or final human approval was invented; outstanding submission matters are in a separate note. Historical contributor records and previous PDFs remain unchanged.
+
+Created `manuscript_after_v1.1/` and `output/pdf/AFTER-Muhammad-Usman.pdf`: 20 pages, eight tables, four vector figures and nine cited primary references. The existing proposed AFTER title is retained. Integrated the completed covariance-aware return-bound diagnostic and normal-only common-IMU convergence study with the earlier recovery and commissioning evidence. The abstract and conclusion distinguish synthetic physical trajectories, synthetic residual signals and the separate real nominal IMU prefix. The failed overall gates, stronger simple control, unresolved compact-model convergence, oracle-informed uncertainty parameters, unavailable closest full algorithm and absence of detector-superiority evidence remain explicit. This writing task does not silently replace the user's original-contribution objective.
+
+Rechecked primary publisher/proceedings/author metadata for the cited papers, with exact DOI/version details and source-access limits in `REFERENCE_AUDIT.md`. CASPER, Edge, hybrid twin, structured identification, FAIL-Detect, interval-observer and time-uniform-inference sources are distinguished from the RESCUE preprint. The Kaisar institutional endpoint/full algorithm remains inaccessible; the previously indexed primary abstract supports only the limited context stated. Citation numbering follows first occurrence. No new reference was admitted from an unverified conversational claim.
+
+`present.py` generated all seven result-table inputs and four vector plots from sealed JSON results; the plant-parameter table is inline. The sole author is also set in PDF metadata. The no-funding/no-conflicts declarations follow the user's answer. The AI-assistance statement accurately describes design, code, execution, checking and writing assistance and does not assert completed human review.
+
+Four offline Tectonic build attempts are preserved. Attempt001 failed for an uncached italic 8-point font; equivalent mathematical notation removed that dependency. Attempt002 compiled to 22 pages, but visual inspection found unnecessarily sparse forced pages and an underfull line. Attempt003 failed for an uncached footnote font; an ordinary inline provider link avoided it. Attempt004 compiled the final 20-page PDF with no overfull/underfull boxes, undefined references or missing-character warnings. No packages/fonts were installed or downloaded. All 20 final pages were rendered and inspected, including all tables, figures, equations, declarations and references. The source is neutral article format, not an asserted match to an unspecified journal.
+
+The editorial audit passed **2,461 checks**: numeric arithmetic and denominators, all retained method/seed outcomes, failed criteria, reference keys/order, source/figure/table/build hashes, PDF metadata/text and preservation of 11 prior scientific sources, 1,521 input bindings and the 301/64/71/116/24-file prior packages. This is artifact checking, not independent scientific peer review. The compiled PDF SHA-256 is `3c8cd4a3c27ca81303ab24fa3e6a8ae2630fe9b5b7ea682d0c7f1a9d9d334d0c`.
+
+Commands from workspace root:
+
+```sh
+manufacturing/.venv-plots-v03/bin/python manufacturing/manuscript_after_v1.1/present.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.1/build_pdf.py
+pdftoppm -r 100 -png manufacturing/output/pdf/AFTER-Muhammad-Usman.pdf manufacturing/local/manuscript_after_v1.1/qa_final/page
+manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.1/audit.py
+```
+
+The build command was executed four times with the documented typography edits. Page contact sheets and the visual QA receipt are local review artifacts. A separate whitelist-based `package.py` prepares the editable source ZIP, validates archive bytes and seals this revision with archived mutable handoffs. The ZIP contains typesetting source and generated figures, not the complete research experiment package.
+
+No training, simulation, raw-observation parsing, new final exposure, system-package changes, external contact, upload, submission or assistant-issued Git mutation occurred. Sibling projects are unchanged. Next manuscript step is human review and journal selection; the next scientific step remains justified operational uncertainty estimates and a distinct, fairly tested mechanism. Existing shared playbook already covers revision/source packaging, so no root guidance was changed.
+
+MFG-040 closing integrity: `manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.1/package.py` sealed **38 files** and validated a **16-entry, 86,360-byte** editable source ZIP (`03670697081f9f56bb58d3597da446f1008cb07f9453ea8aa64e89cacae9b560`). A fresh hash check passed every sealed binding; ZIP CRC and byte parity passed. Working-tree and staged whitespace checks scoped to this revision passed. The broader staged check reports existing Matplotlib SVG trailing whitespace in the immutable v0.11 learning-curve figure; it was left untouched to preserve its recorded hash. Archived handoffs precede this closing note. No task or experiment remains running.

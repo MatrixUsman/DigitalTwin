@@ -1,0 +1,48 @@
+{
+  "study_id": "manufacturing-casper-convergence-v0.11",
+  "data_path": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+  "data_sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+  "columns": [
+    "accX",
+    "accY",
+    "accZ",
+    "gyroX",
+    "gyroY",
+    "gyroZ",
+    "magX",
+    "magY",
+    "magZ"
+  ],
+  "raw_start": 219,
+  "training_raw_stop": 9185,
+  "development_raw_stop": 12007,
+  "median_width": 20,
+  "common_history": 755,
+  "aggregate_width": 755,
+  "gap_multiple": 5.0,
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "architectures": [
+    "casper_cnn",
+    "edge_cnn"
+  ],
+  "optimizer": "Adamax",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "maximum_epochs": 100,
+  "patience": 5,
+  "minimum_improvement": 1e-06,
+  "fit_cpu_seconds_per_model": 240,
+  "next_epoch_cost_factor": 1.25,
+  "ar_order": 4,
+  "ar_ridge": 0.001,
+  "limits": {
+    "wall_seconds": 1200,
+    "cpu_seconds": 900,
+    "rss_bytes": 1073741824,
+    "output_bytes": 52428800
+  }
+}

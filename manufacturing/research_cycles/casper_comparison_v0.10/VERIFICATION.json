@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-17T13:23:48.271212+00:00",
+  "status": "passed",
+  "checks": 2411,
+  "elapsed_seconds": 5.908325375057757,
+  "verified_models": 9,
+  "prior_scientific_sources": 11,
+  "prior_input_bindings": 1521,
+  "prior_packages": {
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": 301,
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": 24
+  },
+  "raw_data_opened": false,
+  "attack_data_opened": false,
+  "cnn_refitting": false,
+  "scope": "Saved-artifact integrity and numerical consistency; not attack, physics or novelty validation.",
+  "freeze_sha256": "593efe5b99f342b8fdef02b30dd5d246a38848fd7a1b8e9deb8da5ba14a9bb23",
+  "verifier_sha256": "867d0ac6a82754e56ee004ab51efa0ee0a9e9269a5b6f2ec450f6e04da5c2927",
+  "summary_sha256": "25d6370f3258910801f7ddf3df5b537c1ed087e1a40207bfbc397b8c802bb945"
+}

@@ -1,0 +1,77 @@
+{
+  "utc": "2026-10-17T13:29:38.141582+00:00",
+  "configuration": {
+    "study_id": "manufacturing-casper-convergence-v0.11",
+    "data_path": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+    "data_sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+    "columns": [
+      "accX",
+      "accY",
+      "accZ",
+      "gyroX",
+      "gyroY",
+      "gyroZ",
+      "magX",
+      "magY",
+      "magZ"
+    ],
+    "raw_start": 219,
+    "training_raw_stop": 9185,
+    "development_raw_stop": 12007,
+    "median_width": 20,
+    "common_history": 755,
+    "aggregate_width": 755,
+    "gap_multiple": 5.0,
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "architectures": [
+      "casper_cnn",
+      "edge_cnn"
+    ],
+    "optimizer": "Adamax",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "maximum_epochs": 100,
+    "patience": 5,
+    "minimum_improvement": 1e-06,
+    "fit_cpu_seconds_per_model": 240,
+    "next_epoch_cost_factor": 1.25,
+    "ar_order": 4,
+    "ar_ridge": 0.001,
+    "limits": {
+      "wall_seconds": 1200,
+      "cpu_seconds": 900,
+      "rss_bytes": 1073741824,
+      "output_bytes": 52428800
+    }
+  },
+  "source_sha256": {
+    "research_cycles/casper_convergence_v0.11/PLAN.md": "d93ad90ee1f322ea1a52072844e9c6ce1438c79857c1eff6d4f4cb1de15c5bdc",
+    "research_cycles/casper_convergence_v0.11/authorization.py": "e1dec1671ef3c450ed290f4aa136138dab69d62449726b28178a3a70e4acd45f",
+    "research_cycles/casper_convergence_v0.11/config.json": "07c95106e96737d708cc33f6e130d6e95390a97ff343261814df21fd928ff128",
+    "research_cycles/casper_convergence_v0.11/core.py": "81d241fa4354f5a62daed547f4e8e0614ad309be31c9d5b38742b8c48d00b5ac",
+    "research_cycles/casper_convergence_v0.11/freeze.py": "ba05bdea52026980eb683d7efd152d239e56da5118874f06cb6eb23493b80c85",
+    "research_cycles/casper_convergence_v0.11/io_utils.py": "0e76c7db1ba685fddd3aff57462a316121f3445c3a8fbdd151e906c6df1c6cc3",
+    "research_cycles/casper_convergence_v0.11/model10.py": "9e811a7d286b17dbe6f63063469fb13d441417ce02768bc0167aa7ad5ffe6cd6",
+    "research_cycles/casper_convergence_v0.11/run.py": "bd61f538ec0f407e40192c090fd2f85480f23d8e5acc50310e5721b799937c80",
+    "research_cycles/casper_convergence_v0.11/test_authorization.py": "b50706d9742dc3f0e1e38ebd74d0580cbf73307c14d16f1044e7630417decca7",
+    "research_cycles/casper_convergence_v0.11/test_core10.py": "8f1458ff506a04b17f69c6a3eb6402409cd1b5ba66adc84f2e789c5db352be68",
+    "research_cycles/casper_convergence_v0.11/worker.py": "d13e336a3a155be31a99dc85a3535377397a50fbed60dd5486fac0da5a8b5c8e",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3",
+    "research_cycles/contribution_v0.2/requirements-macos-arm64.lock.txt": "e14f42f52a15e8e62aed231897166344e210bc5bf66e9d67d2328d766f37a749",
+    "baselines/casper/artifacts/casper_corrected_vor_v1.1.pdf": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+    "local/contribution_v0.2/sources/edge_paper.pdf": "a7f8a647ad277fdcacb0e361b3ce95107bfb849a8111ac314d7841bf31d75fd9",
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": "ccafca2f2edb1bf710c14ac9598c5d0ec436b7270772e74acd9ff9f009d8730d",
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": "bbcf9ca6613218be132ed48a99d6d1662fcfb71b22f6f3a097e5619e7ff8c401",
+    "research_cycles/casper_comparison_v0.10/FREEZE.json": "593efe5b99f342b8fdef02b30dd5d246a38848fd7a1b8e9deb8da5ba14a9bb23",
+    "research_cycles/casper_comparison_v0.10/VERIFICATION.json": "c5cf12d6204aec4a5350a062ea3b170b54627b0d4148bb413fdb6af092444792"
+  },
+  "test_receipt": "local/casper_convergence_v0.11/tests/test_001/receipt.json",
+  "test_receipt_sha256": "cf572b24a13b6bdd95b14f8d53e42bf15986d6dca1292a77d82a95ebbcbaca3b",
+  "data_access": false,
+  "environment": "absl-py==2.5.1\nastunparse==1.6.3\ncertifi==2026.7.22\ncharset-normalizer==3.5.2\ncloudpickle==3.1.2\nflatbuffers==25.12.19\ngast==0.7.0\ngoogle-pasta==0.2.0\ngrpcio==1.84.0\nh5py==3.16.0\nidna==3.20\njoblib==1.6.0\nkeras==3.15.1\nlibclang==18.1.1\nMarkdown==3.11.1\nmarkdown-it-py==4.2.0\nMarkupSafe==3.0.4\nmdurl==0.1.2\nml-dtypes==0.3.2\nnamex==0.1.0\nnumpy==1.26.4\nopt_einsum==3.4.0\noptree==0.20.0\npackaging==26.3\npandas==2.2.3\nprotobuf==4.25.9\nPygments==2.21.0\npython-dateutil==2.9.0.post0\npytz==2026.5\nrequests==2.34.2\nrich==15.0.0\nscikit-learn==1.5.2\nscipy==1.17.1\nsetuptools==84.0.0\nsix==1.17.0\ntensorboard==2.16.2\ntensorboard-data-server==0.7.2\ntensorflow==2.16.2\ntermcolor==3.3.0\nthreadpoolctl==3.7.0\ntyping_extensions==4.16.0\ntzdata==2026.5\nurllib3==2.8.0\nWerkzeug==3.1.9\nwheel==0.48.0\nwrapt==2.5.1\n",
+  "command": "freeze.py before run.py"
+}

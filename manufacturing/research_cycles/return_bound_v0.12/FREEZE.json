@@ -1,0 +1,121 @@
+{
+  "utc": "2026-10-17T16:34:16.576850+00:00",
+  "configuration": {
+    "study_id": "manufacturing-return-bound-v0.12",
+    "synthetic": true,
+    "samples": 1200,
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "windows": [
+      1,
+      41,
+      201
+    ],
+    "alpha": 0.05,
+    "tolerance": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "bias_bound": [
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sigma_multipliers": [
+      1.0,
+      0.8,
+      1.1,
+      0.9
+    ],
+    "phases": [
+      0.0,
+      0.4,
+      0.8,
+      1.2
+    ],
+    "noise_settings": [
+      {
+        "id": "iid_low",
+        "sigma": 0.03,
+        "rho": 0.0
+      },
+      {
+        "id": "iid_high",
+        "sigma": 0.06,
+        "rho": 0.0
+      },
+      {
+        "id": "ar08_low",
+        "sigma": 0.03,
+        "rho": 0.8
+      },
+      {
+        "id": "ar095_high",
+        "sigma": 0.06,
+        "rho": 0.95
+      }
+    ],
+    "profiles": [
+      {
+        "id": "settled",
+        "amplitude": 0.0,
+        "frequency": 0.0
+      },
+      {
+        "id": "slow_within_tolerance",
+        "amplitude": 0.02,
+        "frequency": 0.004
+      },
+      {
+        "id": "faster_within_tolerance",
+        "amplitude": 0.02,
+        "frequency": 0.04
+      }
+    ],
+    "feasibility_fraction": 0.95,
+    "limits": {
+      "wall_seconds": 120,
+      "cpu_seconds": 60,
+      "rss_bytes": 536870912,
+      "output_bytes": 20971520,
+      "poll_seconds": 0.1
+    }
+  },
+  "source_sha256": {
+    "research_cycles/return_bound_v0.12/PLAN.md": "466bb660b353b74c3cf6398266226db00e3a6d0a77c48bce4c5f537a6e015942",
+    "research_cycles/return_bound_v0.12/PRIOR_ART.md": "343232b6c82f4d0d148be970bc719f254599a67c9d0b1e97a36d42f809fbb5b9",
+    "research_cycles/return_bound_v0.12/config.json": "db58f272d5587ab1bf98adcf794c6739648ae04fc2cd3f74c2e2a70b0bf62619",
+    "research_cycles/return_bound_v0.12/control.py": "df34d5518140d2e524be935f212dbde345dde62c1fbcd0857a79700198f5c89a",
+    "research_cycles/return_bound_v0.12/freeze.py": "968cd198f2d37734087c34383042fd6ad9d661ce72af7819f59726cef41ced68",
+    "research_cycles/return_bound_v0.12/io_utils.py": "b718e43853810f4380834cabf80558de1b3144005eff650a8612d70a87789c75",
+    "research_cycles/return_bound_v0.12/run.py": "e8f55ef6e47268da1c9cecb75f6aac61d7769958704545b21000a3f7a293eb2d",
+    "research_cycles/return_bound_v0.12/study.py": "4628eba094d0e446ed9e4bf52159677f3e4056de2786348b259bf55a3a9fe4d5",
+    "research_cycles/return_bound_v0.12/test_control.py": "41f6513fef6d285f465672c7c14b1715c3dc68229c56ea40d99745f7c95b47f2",
+    "research_cycles/return_bound_v0.12/verify.py": "789b2ad886781329af8400d399b2ae872ed9178659b9e95354eefba278614bfa",
+    "research_cycles/return_bound_v0.12/worker.py": "b32c9cf91d8bdfba1f13ed949dc8897e97dff3af0811c13de0a6478aece19770",
+    "research_cycles/return_bound_v0.12/TEST_DEVELOPMENT.md": "d0ab1d57ba81f2db9163302b33bc393706cdb7cb249141578a505b4de3fb81b6",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3",
+    "src/mfg_twin/__init__.py": "3fd7d875a6a364c297b94b5f7422bf3bb155d5dd4f940d06e586c903a587effa",
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": "ccafca2f2edb1bf710c14ac9598c5d0ec436b7270772e74acd9ff9f009d8730d",
+    "research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json": "7c1d2efff863904bd1d5a4bbf3f11b6d4c1c6fe75496fdf4ab0538d74b1a2720",
+    "research_cycles/casper_convergence_v0.11/PACKAGE_MANIFEST.json": "4acb408343af042483e59f08ef3fc94852f3bc3b3008ea3ece257d8ce2c7abad",
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": "bbcf9ca6613218be132ed48a99d6d1662fcfb71b22f6f3a097e5619e7ff8c401"
+  },
+  "prior_packages": [
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json",
+    "research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json",
+    "research_cycles/casper_convergence_v0.11/PACKAGE_MANIFEST.json",
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json"
+  ],
+  "test_receipt": "local/return_bound_v0.12/tests/test_002/receipt.json",
+  "test_receipt_sha256": "fa8e9404fd94bc382380fee176d8d9fed168ab9108189830756fbbcbef9737cb",
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "dependencies": "absl-py==2.5.1\nastunparse==1.6.3\ncertifi==2026.7.22\ncharset-normalizer==3.5.2\ncloudpickle==3.1.2\nflatbuffers==25.12.19\ngast==0.7.0\ngoogle-pasta==0.2.0\ngrpcio==1.84.0\nh5py==3.16.0\nidna==3.20\njoblib==1.6.0\nkeras==3.15.1\nlibclang==18.1.1\nMarkdown==3.11.1\nmarkdown-it-py==4.2.0\nMarkupSafe==3.0.4\nmdurl==0.1.2\nml-dtypes==0.3.2\nnamex==0.1.0\nnumpy==1.26.4\nopt_einsum==3.4.0\noptree==0.20.0\npackaging==26.3\npandas==2.2.3\nprotobuf==4.25.9\nPygments==2.21.0\npython-dateutil==2.9.0.post0\npytz==2026.5\nrequests==2.34.2\nrich==15.0.0\nscikit-learn==1.5.2\nscipy==1.17.1\nsetuptools==84.0.0\nsix==1.17.0\ntensorboard==2.16.2\ntensorboard-data-server==0.7.2\ntensorflow==2.16.2\ntermcolor==3.3.0\nthreadpoolctl==3.7.0\ntyping_extensions==4.16.0\ntzdata==2026.5\nurllib3==2.8.0\nWerkzeug==3.1.9\nwheel==0.48.0\nwrapt==2.5.1\n",
+  "scientific_status": "standard control; prospective synthetic normal diagnostic; no generated study outcomes yet"
+}

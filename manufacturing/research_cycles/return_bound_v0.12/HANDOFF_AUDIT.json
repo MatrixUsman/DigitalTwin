@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-17T16:39:47.674067+00:00",
+  "status": "passed",
+  "frozen_sources": 18,
+  "preserved_prior_packages": {
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": 301,
+    "research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json": 64,
+    "research_cycles/casper_convergence_v0.11/PACKAGE_MANIFEST.json": 71,
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": 24
+  },
+  "relative_links": 20,
+  "archived_handoffs": [
+    "AGENTS.md",
+    "STATUS.md",
+    "docs/WORK_LOG.md"
+  ],
+  "completed_outcomes": 216,
+  "software_tests": 20,
+  "artifact_verification_checks": 2665
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "utc": "2026-10-17T16:34:43.219338+00:00",
+  "checks": 2665,
+  "traces": 36,
+  "outcomes": 216,
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-reproduction-v02/bin/python",
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/research_cycles/return_bound_v0.12/verify.py"
+  ],
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "1.26.4",
+  "verifier_sha256": "789b2ad886781329af8400d399b2ae872ed9178659b9e95354eefba278614bfa",
+  "freeze_sha256": "b22b229e5d919882302296e3f1de1e8ba3460c66a69c8de70d254148a24d146c",
+  "summary_sha256": "33b6352f5a33f96359121898b8ef5394f84ebec9e7257dcd7d0414433b88ba51",
+  "preserved_prior_packages": {
+    "research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json": 301,
+    "research_cycles/casper_comparison_v0.10/PACKAGE_MANIFEST.json": 64,
+    "research_cycles/casper_convergence_v0.11/PACKAGE_MANIFEST.json": 71,
+    "manuscript_after_v1.0/PACKAGE_MANIFEST.json": 24
+  },
+  "independent_arithmetic": true,
+  "no_raw_access": true
+}

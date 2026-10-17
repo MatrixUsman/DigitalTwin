@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrl}\toprule
+Predictor & Seed & MSE & Epochs & Stopping \\\midrule
+Training mean & -- & 1.073987 & -- & Closed form \\
+Persistence & -- & 0.019432 & -- & Closed form \\
+AR(4) & -- & 0.006074 & -- & Closed form \\
+CASPER-style CNN & 17 & 0.017703 & 27/22 & Patience \\
+CASPER-style CNN & 42 & 0.017451 & 27/22 & Patience \\
+CASPER-style CNN & 2026 & 0.017458 & 27/22 & Patience \\
+Edge-style CNN & 17 & 0.044730 & 100/100 & Epoch limit \\
+Edge-style CNN & 42 & 0.043451 & 100/100 & Epoch limit \\
+Edge-style CNN & 2026 & 0.042700 & 100/100 & Epoch limit \\
+\bottomrule\end{tabular}

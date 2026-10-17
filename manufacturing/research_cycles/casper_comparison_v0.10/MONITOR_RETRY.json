@@ -1,0 +1,7 @@
+{
+  "reason": "Initial launch could not invoke /bin/ps in sandbox; worker log empty, no worker outputs or observations. Preserve pilot_001; retry the unchanged worker with process-monitor permission.",
+  "old_launcher_sha256": "d0dd24d0a75c820c17fcfaa86043559fda0504ff98039fd90c40bf8491e0b8fd",
+  "new_launcher_sha256": "9511637dd1c3d47d513e669b0242f5dc0f3de3c7a928caad43a94742b28217a7",
+  "science_changed": false,
+  "attempt": "pilot_002"
+}
