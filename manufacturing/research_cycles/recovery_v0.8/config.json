@@ -1,0 +1,20 @@
+{
+  "study_id": "manufacturing-recovery-v0.8",
+  "steps": 1200, "dt": 0.02, "warmup": 100, "onset": 320, "end": 620,
+  "brief_length": 6, "context_gap_end": 380, "offset_radians": 0.14, "slow_rate": 0.6,
+  "seeds": [17, 42, 2026], "order": 4, "ridge": 0.0000001,
+  "return_tolerance": 0.1, "dwell": 10, "calibration_episodes": 19,
+  "plants8": [
+    {"id":"Q1","mass":[1.1,0.86],"damping":[0.8,1.2],"lag":0.0,"lengths":[0.48,0.42],"noise":1.0},
+    {"id":"Q2","mass":[0.88,1.15],"damping":[1.3,0.85],"lag":0.03,"lengths":[0.53,0.37],"noise":1.0},
+    {"id":"Q3","mass":[1.16,1.06],"damping":[0.9,1.4],"lag":0.06,"lengths":[0.46,0.43],"noise":1.5}
+  ],
+  "tasks8": [
+    {"id":"E","kind":"multisine8","amplitude":[0.31,0.35],"frequency":0.63,"phase":0.8},
+    {"id":"F","kind":"chirp8","amplitude":[0.26,0.40],"frequency":0.38,"phase":1.2},
+    {"id":"G","kind":"modulated8","amplitude":[0.36,0.32],"frequency":0.83,"phase":0.4}
+  ],
+  "conditions":["normal","authorized_offset","authorized_slow","brief_offset","persistent_offset","hold","slow","context_gap_offset"],
+  "methods8":["persistence","arx_one_step","following_point","following_hysteresis","nominal_hysteresis","nominal_fixed_return","learned_point","learned_hysteresis","learned_fixed_return","learned_uncertainty_return","functional_cp_constant_band","matched_no_allowance","matched_no_dwell"],
+  "limits":{"wall_seconds":600,"cpu_seconds":300,"rss_bytes":1073741824,"output_bytes":268435456}
+}

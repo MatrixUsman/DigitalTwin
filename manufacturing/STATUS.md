@@ -1,10 +1,38 @@
 # Manufacturing status
 
-## Latest manuscript edit — 17 October 2026
+## Current science — normal-only reference study v0.9, 17 October 2026
+
+[Completed](research_cycles/commissioning_v0.9/RESULTS.md): 63 ordinary ARX/FIR candidate fits, fifteen archived normal checks, 81 fresh normal episodes and 576 role outcomes. Twenty-three synthetic tests and 10,293 verification checks passed. The first worker stopped on a reporting-key collision before fresh generation; the separately recorded fix reproduced every fit and selection unchanged. Completed run: 14.748 s wall, 14.296 s CPU, 113.97 MiB sampled RSS, 28.02 MiB outputs. No new attack experiment or raw dataset observation.
+
+Clean-data selection chose ARX orders 8/16/32 for Q1/Q2/Q3. Q2 allowance fell 0.146910→0.071592 (51.27%) and all 108 normal probes can clear; its 93.32% feasible-point fraction misses the frozen 95% gate. Q3 allowance fell 0.191250→0.117495 (38.56%) but remains above tolerance 0.1. All normal prediction RMSEs improve against a matched-initialization ARX(4). These are ordinary identification gains; no new algorithm or attack benefit is established.
+
+[Post-study noise diagnosis](research_cycles/commissioning_v0.9/NOISE_DIAGNOSTIC.json): for a hypothetical perfect reference under the declared independent Q3 Gaussian noise, the probability that a maximum allowance from 5,500 points leaves 95% population feasibility is about 2.19e-9. This is a conditional calculation, not a general impossibility result. Improving the reference alone does not fix the specific maximum-plus-discrepancy rule.
+
+[Current versioned roadmap](docs/PAPER_ROADMAP_V0.9.md). The older roadmap retains its consumed frozen bytes.
+
+**Next:** [define a noise-aware causal return decision](research_cycles/commissioning_v0.9/DECISION.md) that separates model bias, sensor noise and physical-deviation evidence. Compare with ordinary averaging, likelihood/equivalence tests and same-reference hysteresis before claiming novelty. Require a new frozen normal-feasibility check before fresh attacks. The current H/I/J check is exposed; full paper comparators and author approval remain unresolved. AFTER stays a proposed title, and existing manuscripts/results are preserved.
+
+## Current title preview — 17 October 2026
+
+The user rejected the question-style title and requested a memorable name. The assistant-proposed working title is **AFTER: Digital Twins for Cyberattack and Recovery Monitoring in Industrial Robots**. [Latest title preview and PDF](manuscript_recovery_v0.8r1/README.md). **The user has not finalized this name.** Only the title changes; the v0.8 scientific text, findings and readiness decision below are unchanged. [Title decision](docs/TITLE_DECISION.md) records the naming scope. Earlier titles remain historical evidence.
+
+## Current handoff — commissioning and recovery v0.8, 17 October 2026
+
+[The new frozen study](research_cycles/recovery_v0.8/RESULTS.md) completed **216 synthetic episodes, thirteen methods and 2,808 outcomes**. Fourteen pre-run tests and 9,610 post-run checks passed. All eleven scientific source/spec files and 1,078 prior/source/input bindings remain unchanged. The completed run took 229.196 s wall / 228.069 s CPU, with 167.25 MiB sampled RSS (217.41 MiB worker lifetime peak) and 118.32 MiB output. One process-monitor failure before worker startup is preserved; the unchanged worker completed after a scoped monitoring retry.
+
+**Scientific decision:** reject the uncertainty-addition rule as the intended contribution. It reduced benign alarm observations from 621 to 309 versus nominal fixed return, but cleared within five seconds in only 36/108 detected-returned events. Its declared primary criterion failed. The same-entry-threshold control without the allowance achieved 140 benign alarms and 108/108 timely clearances, with the same 108 event overlaps and no premature clears. Q2/Q3 allowances exceed the return tolerance, making clearance impossible by construction. All 27 command-context misses remain in the results.
+
+**Delivered:** [ten-page LaTeX/PDF manuscript](manuscript_recovery_v0.8/README.md), complete all-method/plant tables, mathematical explanation, primary-source/code audit and [publication decision](research_cycles/recovery_v0.8/REVIEW_AND_DECISION.md). The stronger ordinary control remains visible. The full recent-paper comparison set and original-method novelty are still incomplete. The draft is not journal-ready; author roles, Haiqa's affiliation, funding/conflicts and both-author approval remain unconfirmed. Public simulation is sufficient to continue; physical equipment is not required.
+
+**Next bounded step:** commissioning-only diagnosis of reference error/model adequacy, with a normal-only clearance-feasibility gate before any new attack exposure. A proposed improvement must have a defensible distinction from close interval/recovery methods and share its fitted reference with ordinary controls. The v0.8 matrix is now exposed; outcome-informed changes need a separately frozen fresh test. See [normal-only admission diagnostic](research_cycles/recovery_v0.8/NORMAL_ADMISSION.json). The current monitor computations use only permitted inputs, but its broad dictionary interface does not enforce that boundary; the supplemental check is explicitly scoped to three restricted-input replays.
+
+Earlier handoffs below are historical. Old experiments/PDFs, raw data and sibling projects are preserved. No publication, external contact, paid compute or assistant-issued Git mutation occurred.
+
+## Historical manuscript edit — 17 October 2026
 
 The [revised 14-page PDF](output/pdf/alarm-recovery-model-mismatch-revised.pdf) removes repeated draft notices and process commentary and tightens the prose throughout. [Editorial source and checks](manuscript_recovery_v0.7r1/README.md) preserve the findings, limitations, references and AI-assistance disclosure. All generated tables/figures and display equations are unchanged. Offline compilation and visual review passed; all 260 files in the original scientific package retain their hashes. No new experiment ran. The scientific findings and next research task below are unchanged.
 
-## Current handoff — fresh confirmation and manuscript v0.7, 17 October 2026
+## Historical handoff — fresh confirmation and manuscript v0.7, 17 October 2026
 
 **Completed:** [the prospectively frozen virtual comparison](research_cycles/recovery_v0.7/RESULTS.md), 144 fresh episodes, 23 decisions and 3,312 outcomes; fourteen synthetic tests and 14,635 fresh-process checks passed. All source/configuration/input bindings, calibration and score seals remain intact. One successful run took 81.959 s wall / 81.472 s CPU, with 273.05 MiB measured peak memory. No raw observations, physical equipment or new neural training were used.
 

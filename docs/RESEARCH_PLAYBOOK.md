@@ -423,3 +423,33 @@ Status: **executed and checked in manufacturing v0.7**, whose primary improvemen
 9. Draft declarations only from known facts. User permission to draft is not evidence of a person's affiliation, contribution, funding, conflicts or review. Keep substantive AI assistance transparent and unknown personal facts unconfirmed. Select journals by verified scope; scope fit is not acceptance or contribution approval.
 
 Expected artifacts: frozen experiment/config/inputs, all-run outcomes and resources, same-threshold component receipts, complete tables/figures, source/citation and claim ledgers, LaTeX/PDF, rendered-page QA, pending factual declarations, package manifest and durable current-state handoff. New science prompted by the now-exposed outcomes needs fresh confirmation; public recordings and simulation can be used without requiring physical hardware.
+
+
+## Paired recovery truth and pre-confirmation feasibility
+
+Status: **executed and checked in manufacturing v0.8; proposed uncertainty-addition mechanism rejected**. [Evidence](../manufacturing/research_cycles/recovery_v0.8/README.md). Transfer the procedure only after checking sector-specific dynamics and trust assumptions.
+
+1. Separate recovery truth from the monitored nominal model. In a simulator, retain an uncorrupted same-plant, same-initial-state approved-command trajectory for evaluation only. Diagnose disagreements with nominal-reference return. This is simulation-specific evidence, not an observed physical counterfactual or a safety certificate.
+2. Before spending fresh attack conditions, use normal-only commissioning/calibration to test whether the proposed clearance inequality is reachable in every declared regime. If uncertainty exceeds the return tolerance, a dwell rule cannot repair that infeasibility. Treat this as a necessary admission check, not a novelty or safety guarantee.
+3. Give ordinary controls the same fitted reference. Distinguish whole-alarm point-budget calibration, episode-level conformal calibration and identical-entry-threshold ablations; they answer different questions. Never present their budgets as interchangeable.
+4. Freeze training, calibration, complete comparison roster, fresh conditions and success criterion before generation. Preserve a pre-worker infrastructure failure separately from a scientific run. Verify numerical replay with recorded BLAS thread settings before attributing tiny coefficient differences to altered scientific inputs.
+5. Inspect both manuscript version and executed author-code path. A printed sign discrepancy, unused module or inaccessible manuscript is not an experimentally established algorithmic flaw. Record modified components honestly and preserve code-use terms.
+6. Check actual information usage and interface enforcement separately. Restricted-input replays can support an input-use claim; they do not prove that a broad dictionary interface prevents forbidden access.
+7. Retain failures of recovery alongside benign-alarm reductions. Reject a distinctive component when its matched simpler control is stronger. A new manuscript or elementary derivation does not establish an original-method paper; keep the user's intended contribution objective explicit.
+
+Expected artifacts: commissioning/calibration identities, normal-only feasibility record, scientific freeze, paired truth diagnostics, complete score seal/outcomes, same-fit controls, full resources/failures, numerical replay and source-access qualifications, manuscript claim traceability, PDF QA and a truthful submission decision. All used conditions become exposed; redesign needs new confirmation.
+
+
+## Normal-only model development and sensor-noise feasibility
+
+Status: **executed and checked in manufacturing v0.9**. References improved; overall clearance-feasibility admission failed. [Evidence](../manufacturing/research_cycles/commissioning_v0.9/README.md).
+
+1. Declare a finite model bank, training/development/allowance/check assignments and tie-break rules before fitting. Reusing old normal data is acceptable for documented development, not relabeling it independent holdout evidence. Split before creating lag histories.
+2. Fit transforms only on training; give simple and selected models the same initialization and eligible inputs. Preserve every candidate and failed fit. Distinguish one-step following from free command-driven references, and duplicate roles from independent methods.
+3. Seal selected fits and allowances before new normal checks. Use a restricted observation type; keep actual dynamics/labels separate. Forced alarms during known-normal trajectories test clearance opportunity only; they do not establish actual attack recovery or a complete alarm machine.
+4. Separate algebraic reachability, point feasibility and dwell/probe success. A model can clear every probe and still fail a predeclared point criterion. Keep consumed criteria unchanged.
+5. Diagnose measurement-noise limits separately from reference-model error. A calibration maximum of noisy residuals plus another noisy discrepancy can leave inadequate margin even for a perfect reference. State the exact noise/independence/scaling assumptions, whether the calculation is post-study and whether the target is population coverage or a finite empirical outcome. Do not advertise elementary probability calculations as a new detector.
+6. Preserve a reporting failure and freeze a minimal repair. Verify fitted artifacts, selection and scientific records are identical before generating any fresh observations. Retain numerical replay and independent arithmetic checks.
+7. Preserve old mutable handoff bytes separately from immutable scientific files; do not rewrite old manifests to conceal history. Record partial manuscript/code access and unresolved full-paper comparator status honestly.
+
+Expected artifacts: finite plan/bank, restricted input catalog, source/input freeze, all fits/development records, selection/allowance seal, complete archived/fresh normal checks, failures/minimal repair, numerical/metric verification, noise diagnostic with assumptions, result-generated figure/table and a bounded next-mechanism decision. Success on normal prediction alone is not attack benefit, novelty or author approval.

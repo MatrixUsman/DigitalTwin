@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-17T12:22:23.545202+00:00",
+  "status": "analytical_diagnostic",
+  "post_exposure": true,
+  "assumptions": "Hypothetical perfect free reference; conditioned on observed training scales; independent zero-mean Gaussian sensor noise exactly as declared by the simulator. Empirical allowance is maximum of 5x1100 calibration discrepancies. Does not characterize arbitrary real sensors or a complete alarm machine.",
+  "formula": "F(x)=product_j erf(x/(sqrt(2)*sigma_j/scale_j)); P(B<=b)=F(b)^N; population feasibility F(delta-B)>=0.95 iff B<=delta-F^{-1}(0.95).",
+  "N": 5500,
+  "delta": 0.1,
+  "records": [
+    {
+      "plant": "Q1",
+      "standardized_sensor_sigma": [
+        0.0025097304395036274,
+        0.0021834779840779342,
+        0.012387794596570143,
+        0.012862333897680144
+      ],
+      "point_discrepancy_q95": 0.02825138583276147,
+      "calibration_max_q95": 0.058005418432723645,
+      "largest_allowance_compatible_with_95pct_population_coverage": 0.07174861416723853,
+      "probability_noise_only_calibration_max_leaves_95pct_population_coverage": 0.9998280686262226,
+      "population_feasibility_at_q95_calibration_max": 0.9982069075650666,
+      "independent_numeric_check": "passed"
+    },
+    {
+      "plant": "Q2",
+      "standardized_sensor_sigma": [
+        0.002491591080463174,
+        0.0021804892267792255,
+        0.01221050385567626,
+        0.01273463584883936
+      ],
+      "point_discrepancy_q95": 0.02791403092768402,
+      "calibration_max_q95": 0.05735067411095073,
+      "largest_allowance_compatible_with_95pct_population_coverage": 0.07208596907231599,
+      "probability_noise_only_calibration_max_leaves_95pct_population_coverage": 0.9998974910898396,
+      "population_feasibility_at_q95_calibration_max": 0.998711672073814,
+      "independent_numeric_check": "passed"
+    },
+    {
+      "plant": "Q3",
+      "standardized_sensor_sigma": [
+        0.0037426819115332867,
+        0.003264785426506503,
+        0.01830070648564097,
+        0.01900194980500589
+      ],
+      "point_discrepancy_q95": 0.04173650289055024,
+      "calibration_max_q95": 0.08569303117307084,
+      "largest_allowance_compatible_with_95pct_population_coverage": 0.058263497109449766,
+      "probability_noise_only_calibration_max_leaves_95pct_population_coverage": 2.185836112170331e-09,
+      "population_feasibility_at_q95_calibration_max": 0.3102165117993463,
+      "independent_numeric_check": "passed"
+    }
+  ],
+  "source_sha256": "0d0d0e62a54491ed8bb4ba9f99857e9b3ee77e7b778080731d3453d2f3db617c",
+  "freeze_sha256": "1fe31c40cb4ef981d6cfcd4c34f81b8ff3521da89666c93e3365a1dc5a4bfa1e",
+  "action": "Do not change the consumed tolerance, allowance or normal admission. Diagnose noise separately before specifying any new return rule."
+}

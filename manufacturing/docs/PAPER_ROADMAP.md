@@ -1,6 +1,17 @@
 # Manufacturing paper roadmap: evidence, experiments and submission
 
-## Latest completed stage — v0.7 virtual confirmation and manuscript
+## Current stage — v0.8 completed; original contribution not admitted
+
+1. **Completed:** primary-source/code review including FAIL-Detect and RESCUE; comparator roles and full-text/access limits are in [PRIOR_ART.md](../research_cycles/recovery_v0.8/PRIOR_ART.md) and [SOURCE_ACCESS.json](../research_cycles/recovery_v0.8/SOURCE_ACCESS.json). The adapted functional-CP component is not a full FAIL-Detect reproduction. CASPER/edge inputs and other manuscript gaps still prevent a paper-level ranking.
+2. **Completed:** clean commissioning, normal calibration and frozen fresh simulation: 216 episodes, thirteen methods, 2,808 outcomes. Fourteen tests and 9,610 checks passed. [All results](../research_cycles/recovery_v0.8/RESULTS.md) retain all methods, missed context-gap events and plant strata.
+3. **Failed scientific gate:** uncertainty-aware return cleared only 36/108 detected-returned events, despite reducing benign alarms from 621 to 309. Its simpler same-threshold control achieved 140 alarms and 108/108 clearances. The component is rejected; neither that control nor elementary error bounds automatically establishes novelty.
+4. **Completed writing:** [ten-page LaTeX/PDF](../manuscript_recovery_v0.8/README.md), result-generated tables/figure, claim/source traceability and visual QA. This is a review manuscript, not the requested journal-ready original-method paper.
+5. **Next, normal-only:** diagnose reference error against commissioning model class and require feasible clearance on every declared regime. Do not spend another attack campaign on a rule that cannot clear. Specify the exact difference from close prior art and give ordinary controls the same fitted model before new frozen confirmation.
+6. **Still required for submission:** demonstrated worthwhile original contribution, compatible recent paper comparisons, fresh confirmation of any redesigned candidate, researcher understanding and both-author review, factual declarations and current journal requirements. No physical laboratory requirement applies.
+
+The [scientific review](../research_cycles/recovery_v0.8/REVIEW_AND_DECISION.md) is an internal self-review, not external peer review. v0.8 is now exposed. Earlier lifecycle records below retain their historical status.
+
+## Historical completed stage — v0.7 virtual confirmation and manuscript
 
 1. **Done:** test 23 methods/components, including saved AR/ARX, rolling mean, CUSUM, ordinary observer/reset rules and same-entry-threshold removals. Preserve all detection, miss, fresh-onset, recovery, false-alarm and cost outcomes.
 2. **Done:** freeze new multisine/chirp tasks and independently varied plants/lag/noise before generation; retain old fits and calibration. Execute 144 episodes and 3,312 outcomes in one bounded successful attempt. Fourteen tests and 14,635 verification checks passed. The primary improvement criterion failed; the matrix is now exposed.

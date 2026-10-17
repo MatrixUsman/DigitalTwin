@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T11:29:40.674735+00:00",
+  "sha256": {
+    "local/recovery_v0.8/runs/confirmation_002/aggregate.json": "49b5a7cf778af1d308b29e4ed85c08a9b08ae49f52784d698627298266b4f857",
+    "local/recovery_v0.8/runs/confirmation_002/summary.json": "f3fd44499c78fe5bdb0a65f378ba7859ab958269bd5061ca9201730a10546c5c",
+    "local/recovery_v0.8/runs/confirmation_002/calibration.json": "66f60e10f8b1ebe9c12cbd94701a8ca51cf91dd033e322c25d0ef5fb0067f7d2",
+    "local/recovery_v0.8/runs/confirmation_002/reference_disagreements.json": "ce2368ee637bebb6ccb55c815fb691af2bf9b43f3dc9ebacdcd71fb0f53ae0f6",
+    "research_cycles/recovery_v0.8/VERIFICATION.json": "c6fdbed32ff4343bc3a990003c303f08d5df32e3518291bf12e01315b781bdca",
+    "research_cycles/recovery_v0.8/RESULTS.md": "0ffbc916991c2a8c409e9fc19c8af83fd9e7f9e7fce5ed9f3d175c6d9fe2d928",
+    "output/recovery_v0.8/all_methods.csv": "dc0bdc2496f252df0cb05c2cecec185a534a6724cc11bcd522b65863411e18bb",
+    "output/recovery_v0.8/recovery_tradeoff.pdf": "47cd971419fd560450eea231a593e5c389b5cce605eb222ed90fd0614672e6ef",
+    "output/recovery_v0.8/recovery_tradeoff.png": "6a32b7eb242d934656988c584c92749704247109a2b88ec316cded844ce37138"
+  },
+  "source_sha256": "1965d2c7c56a0d2b6daf05920f2045b248beccca9afe9bb94a53995c37f0e6fc"
+}

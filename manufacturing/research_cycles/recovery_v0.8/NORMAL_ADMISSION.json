@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-17T11:35:35.905414+00:00",
+  "status": "rejected",
+  "scope": "Post-exposure diagnostic using normal calibration only; not a new confirmatory result. Passing is necessary, not evidence of novelty or guaranteed recovery.",
+  "plants": [
+    {
+      "plant": "Q1",
+      "allowance": 0.07088018024888298,
+      "tolerance": 0.1,
+      "minimum_required_discrepancy": 0.02911981975111702,
+      "clearance_inequality_feasible": true,
+      "stable_reference": true
+    },
+    {
+      "plant": "Q2",
+      "allowance": 0.19148906385987327,
+      "tolerance": 0.1,
+      "minimum_required_discrepancy": -0.09148906385987327,
+      "clearance_inequality_feasible": false,
+      "stable_reference": true
+    },
+    {
+      "plant": "Q3",
+      "allowance": 0.20928362824068056,
+      "tolerance": 0.1,
+      "minimum_required_discrepancy": -0.10928362824068055,
+      "clearance_inequality_feasible": false,
+      "stable_reference": true
+    }
+  ]
+}

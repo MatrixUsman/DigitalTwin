@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-10-17T11:39:55.688082+00:00",
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/pdf_build_v0.1/bin/tectonic",
+    "--untrusted",
+    "--keep-logs",
+    "--keep-intermediates",
+    "--outdir",
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/recovery_v0.8/pdf_build/attempt_006",
+    "--only-cached",
+    "main.tex"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/manuscript_recovery_v0.8",
+  "compiler_sha256": "b52b5a730e2b0b33087304f7720f649603953f270a6b1c88bb031e1ae01f7f9c",
+  "compiler_version": "Tectonic 0.17.0",
+  "offline": true,
+  "source_sha256": {
+    "build_pdf.py": "001712a0ccbecf7d161d04457e48b8feef95edf5ec379f63f9a5d221cfb0d369",
+    "figures/recovery_tradeoff.pdf": "47cd971419fd560450eea231a593e5c389b5cce605eb222ed90fd0614672e6ef",
+    "generated/calibration.tex": "c8640be3563cb112b730ec7d8ac42b32f4412fede9b402974966f619eec6f9dc",
+    "generated/results.tex": "f35a9544bc20a4da52d90424068bdc053b00a8f91074b55f54bf16377e979f65",
+    "generated/strata.tex": "2b583ed9bac871d73a872ab283105a518a4d668718ac42aa96c31f6de879a1c5",
+    "main.tex": "f4573f9a5f56ba4eebce256354ae989ccafcd75b30221572d71eac9ddbddbfa4"
+  },
+  "attempt": "local/recovery_v0.8/pdf_build/attempt_006",
+  "returncode": 0,
+  "completed_utc": "2026-10-17T11:39:56.159574+00:00",
+  "sources_unchanged": true,
+  "pdf": "output/pdf/counterfactual-recovery-manuscript.pdf",
+  "pdf_sha256": "bb519d23c1c99dc2f2d4b832c6d2ae47c52af11585fdd225bf27e9a7d7cbc493",
+  "bytes": 98190,
+  "visual_review": "Pending separate rendered-page inspection"
+}

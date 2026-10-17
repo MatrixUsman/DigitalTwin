@@ -262,3 +262,17 @@ The envelope candidate partly reduced benign alarm time within range but failed 
 Manufacturing [MFG-031](../manufacturing/docs/WORK_LOG.md) completed [v0.7](../manufacturing/research_cycles/recovery_v0.7/RESULTS.md): 144 newly frozen virtual episodes, 23 methods, 3,312 outcomes, fourteen synthetic tests and 14,635 verification checks. The candidate failed its primary improvement target; matched-entry component tests identified a recovery/benign-burden trade-off. A separate 17-page LaTeX/PDF review manuscript and reproducibility package preserve every method and the negative finding. Original-method novelty and author approval remain open. No physical equipment was required.
 
 Shared pointers/playbook now record frozen transfer tests, matched-entry ablations, source correction, full negative-result reporting and figure-to-artifact manuscript traceability. Water and grids did not progress or change scientifically. No raw observations, system installations, paid compute, external contacts, public release or assistant Git mutation occurred. Missing compiler fonts were retrieved to a project-local cache after preserved offline/DNS failures; no manuscript was uploaded.
+
+
+### 2026-10-17 — SHARED-039 — Recovery feasibility and honest submission gates
+
+Manufacturing [MFG-033](../manufacturing/docs/WORK_LOG.md) completed [v0.8](../manufacturing/research_cycles/recovery_v0.8/RESULTS.md): 216 frozen synthetic episodes, thirteen methods, 2,808 outcomes; fourteen pre-run tests and 9,610 post-run checks. The proposed uncertainty-addition rule failed timely recovery and is rejected as the intended contribution. A ten-page LaTeX/PDF and all-method evidence package preserve the stronger simple control and unresolved novelty/comparator/author gates.
+
+Updated the shared playbook with paired-plant recovery truth, normal-only clearance-feasibility admission, matched fitted references, explicit calibration budgets, BLAS replay settings, manuscript/code distinctions and information-interface qualifications. These are reusable procedures, not transferred scientific results. Water and smart grids did not progress. No physical equipment, system install, paid compute, external contact, publication, upload or assistant Git mutation occurred.
+
+
+### 2026-10-17 — SHARED-040 — Normal reference improvement and noise feasibility
+
+Manufacturing [MFG-035](../manufacturing/docs/WORK_LOG.md) completed normal-only commissioning study v0.9: 63 candidate fits, fifteen archived checks and 81 fresh normal episodes; 23 tests and 10,293 verification checks passed. Longer ordinary ARX references improve accuracy, but the full clearing-feasibility gate fails. A separately labelled Gaussian noise calculation diagnoses the maximum-plus-discrepancy construction under stated assumptions. No attack experiment or new-method novelty established.
+
+Updated the shared playbook with finite model selection, equal initialization, normal-only clearance diagnostics, noise/reference-error separation and preserved reporting repairs. No completion or results transfer to water/grids; their files remain untouched. No system installation, paid compute, publication, external contact or assistant Git mutation. Existing manuscripts and provisional title stay unchanged.

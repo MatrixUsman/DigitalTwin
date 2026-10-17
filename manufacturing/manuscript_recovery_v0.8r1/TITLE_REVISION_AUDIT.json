@@ -1,0 +1,74 @@
+{
+  "utc": "2026-10-17T11:46:48.119386+00:00",
+  "status": "passed",
+  "scope": "Title-only editorial revision; final author selection pending.",
+  "title": "AFTER: Digital Twins for Cyberattack and Recovery Monitoring in Industrial Robots",
+  "author_finalized": false,
+  "pdf_sha256": "e107945af03561096b0863f19179d6d34fc569dcce4d1162bad49b44e5b8dfc4",
+  "pdf_pages": 10,
+  "body_unchanged": true,
+  "generated_assets_preserved": 4,
+  "prior_package_unchanged_files": 425,
+  "prior_handoff_snapshots": {
+    "AGENTS.md": {
+      "snapshot": "local/recovery_v0.8/title_revision/prior_handoff/AGENTS.md",
+      "sha256": "bf2c7328074868285399d8ed0d8a1b7caa29a3bd8c2ab69f34dfb1fb6005b4f2"
+    },
+    "README.md": {
+      "snapshot": "local/recovery_v0.8/title_revision/prior_handoff/README.md",
+      "sha256": "e11e79303649e344d3a027c7967eb47f09f31dfc9547e7841cd8e93fbab46c10"
+    },
+    "STATUS.md": {
+      "snapshot": "local/recovery_v0.8/title_revision/prior_handoff/STATUS.md",
+      "sha256": "122ee9e26ab289635dece1e7d140fc688b4220d79b8fb7cc4d608552fb316803"
+    },
+    "docs/WORK_LOG.md": {
+      "snapshot": "local/recovery_v0.8/title_revision/prior_handoff/docs/WORK_LOG.md",
+      "sha256": "d06871500baa3bc543902a59d0461770faac020c174c66b521d7722538eef8e5"
+    }
+  },
+  "build_receipt_sha256": "d514663c3e9336c6c587928771f3604f99e9bc9d6dafd0847f1ec35b8efb5bf2",
+  "visually_inspected_pages": [
+    "page-01.png",
+    "page-02.png"
+  ],
+  "pixel_identical_pages": [
+    "page-03.png",
+    "page-04.png",
+    "page-05.png",
+    "page-06.png",
+    "page-07.png",
+    "page-08.png",
+    "page-09.png",
+    "page-10.png"
+  ],
+  "page_sha256": {
+    "local/recovery_v0.8/title_revision/qa/page-01.png": "25c351a7a56a886c219131f29a10685250e4e676b9bfcd12e1fc6a6f0b6e3b2a",
+    "local/recovery_v0.8/title_revision/qa/page-02.png": "d0be8d57761e631bbab7ce70e27d0e6d26392311f51d2cd5d83e650334874b55",
+    "local/recovery_v0.8/title_revision/qa/page-03.png": "3b667f51868c65c9653f9a97eaca0ab6d4c0f4de7bb34e0a9af2078dd2843f8c",
+    "local/recovery_v0.8/title_revision/qa/page-04.png": "3bb5081cd5d311aa0ce5a920f08728c9cf857559e59db679e32aae9a4d0c030a",
+    "local/recovery_v0.8/title_revision/qa/page-05.png": "98e77420b756a38b8598b6557f5363ff7a02d303c175f0233bbea070c7ae3abb",
+    "local/recovery_v0.8/title_revision/qa/page-06.png": "c8b16ea6fae1c93d66eb2290eafaa664931d7c3309119a59e00de3102bd7a406",
+    "local/recovery_v0.8/title_revision/qa/page-07.png": "d11561c8a7009ed7605148d9b5aa61499619a6d0de1c37190c436de8434ff5e7",
+    "local/recovery_v0.8/title_revision/qa/page-08.png": "8e4ffa4199707ce9beacc428cda38a59fe903aef9bec92e783b575611a034248",
+    "local/recovery_v0.8/title_revision/qa/page-09.png": "5efb009dc1a4a0cfeb38f8f2313d72787ace5e957a873712b438a110e34b75ef",
+    "local/recovery_v0.8/title_revision/qa/page-10.png": "828585948008833065ad78c82dee838b1be026e08877af574d62265776c34f58"
+  },
+  "new_source_sha256": {
+    "manuscript_recovery_v0.8r1/BUILD_RECEIPT.json": "d514663c3e9336c6c587928771f3604f99e9bc9d6dafd0847f1ec35b8efb5bf2",
+    "manuscript_recovery_v0.8r1/README.md": "b76ec0222a3456dc7a6c26a451fc48f5b2c99f0bc9088ee2e15eadfb0b9ef4d0",
+    "manuscript_recovery_v0.8r1/build_pdf.py": "045f031ba612a33dbb86a7c5f38605a23c5d1e6797672b657c509b5f994cf2b4",
+    "manuscript_recovery_v0.8r1/figures/recovery_tradeoff.pdf": "47cd971419fd560450eea231a593e5c389b5cce605eb222ed90fd0614672e6ef",
+    "manuscript_recovery_v0.8r1/generated/calibration.tex": "c8640be3563cb112b730ec7d8ac42b32f4412fede9b402974966f619eec6f9dc",
+    "manuscript_recovery_v0.8r1/generated/results.tex": "f35a9544bc20a4da52d90424068bdc053b00a8f91074b55f54bf16377e979f65",
+    "manuscript_recovery_v0.8r1/generated/strata.tex": "2b583ed9bac871d73a872ab283105a518a4d668718ac42aa96c31f6de879a1c5",
+    "manuscript_recovery_v0.8r1/main.tex": "8a57fdccf4456e693f8038fb4a18a4dedacbce8f182822e22b5665342443bd26"
+  },
+  "new_handoff_sha256": {
+    "STATUS.md": "59e117c96dee94ab7ab8e8efa481a45a547ecc577c1c58b43a3d2857a9b5729f",
+    "README.md": "9d0bdbabff6e1fd2e2e4fccb628b7f982c44984eb41b8ef1769a4542a8f8ea81",
+    "AGENTS.md": "09bff04c87c1179a62bac9421f334aa1e52a0d7822fa8b3d5605dce7e1dc9302",
+    "docs/WORK_LOG.md": "6e8bf3bf25b83711939281c38cd3e8e132d18caaf98773d3d5bf60b5081ee643",
+    "docs/TITLE_DECISION.md": "936c81a9d40da03e9542d0df4adb9aa419f51411e160d5d0b3ca6d26a1b71743"
+  }
+}

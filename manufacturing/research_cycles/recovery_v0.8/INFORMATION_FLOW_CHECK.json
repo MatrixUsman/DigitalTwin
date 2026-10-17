@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "scope": "Three selected episodes replay identically when observation dictionary contains only measurements, available approved command and validity. Original worker passed a wider episode dictionary; no claim of a sandboxed information boundary.",
+  "records": [
+    {
+      "episode": "eval_E_Q1_17_normal",
+      "input_keys": [
+        "measurements",
+        "available",
+        "valid"
+      ],
+      "matched_output_keys": [
+        "scores",
+        "nominal_error",
+        "learned_error",
+        "reference",
+        "nominal_reference",
+        "following",
+        "one_step",
+        "valid"
+      ]
+    },
+    {
+      "episode": "eval_F_Q1_42_normal",
+      "input_keys": [
+        "measurements",
+        "available",
+        "valid"
+      ],
+      "matched_output_keys": [
+        "scores",
+        "nominal_error",
+        "learned_error",
+        "reference",
+        "nominal_reference",
+        "following",
+        "one_step",
+        "valid"
+      ]
+    },
+    {
+      "episode": "eval_G_Q1_2026_normal",
+      "input_keys": [
+        "measurements",
+        "available",
+        "valid"
+      ],
+      "matched_output_keys": [
+        "scores",
+        "nominal_error",
+        "learned_error",
+        "reference",
+        "nominal_reference",
+        "following",
+        "one_step",
+        "valid"
+      ]
+    }
+  ],
+  "source_sha256": "d98901a1a232bb3cbcc56eb1daefc02fabe5e60e96d9af69e128ad7ce60d0b00"
+}

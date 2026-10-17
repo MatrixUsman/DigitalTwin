@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-17T11:42:33.123342+00:00",
+  "pdf_sha256": "bb519d23c1c99dc2f2d4b832c6d2ae47c52af11585fdd225bf27e9a7d7cbc493",
+  "pages": 10,
+  "status": "passed",
+  "review": "All ten prior final pages visually inspected; final pages 3 and 4 re-inspected after input-interface clarification; remaining eight pixel-identical. No clipping, overlap, missing glyphs, broken tables or TeX layout warnings observed.",
+  "unchanged_pages": [
+    "page-01.png",
+    "page-02.png",
+    "page-05.png",
+    "page-06.png",
+    "page-07.png",
+    "page-08.png",
+    "page-09.png",
+    "page-10.png"
+  ],
+  "reinspected_pages": [
+    "page-03.png",
+    "page-04.png"
+  ],
+  "page_sha256": {
+    "local/recovery_v0.8/pdf_qa_delivery/page-01.png": "9a743cbe6682cfbcaad9b76679a80108920e95de49e416488aaaa7d07decc4e6",
+    "local/recovery_v0.8/pdf_qa_delivery/page-02.png": "3e03e55d178194deb6c9fe2a13c2319d13416067e373c6515e949e00c0c0de9f",
+    "local/recovery_v0.8/pdf_qa_delivery/page-03.png": "3b667f51868c65c9653f9a97eaca0ab6d4c0f4de7bb34e0a9af2078dd2843f8c",
+    "local/recovery_v0.8/pdf_qa_delivery/page-04.png": "3bb5081cd5d311aa0ce5a920f08728c9cf857559e59db679e32aae9a4d0c030a",
+    "local/recovery_v0.8/pdf_qa_delivery/page-05.png": "98e77420b756a38b8598b6557f5363ff7a02d303c175f0233bbea070c7ae3abb",
+    "local/recovery_v0.8/pdf_qa_delivery/page-06.png": "c8b16ea6fae1c93d66eb2290eafaa664931d7c3309119a59e00de3102bd7a406",
+    "local/recovery_v0.8/pdf_qa_delivery/page-07.png": "d11561c8a7009ed7605148d9b5aa61499619a6d0de1c37190c436de8434ff5e7",
+    "local/recovery_v0.8/pdf_qa_delivery/page-08.png": "8e4ffa4199707ce9beacc428cda38a59fe903aef9bec92e783b575611a034248",
+    "local/recovery_v0.8/pdf_qa_delivery/page-09.png": "5efb009dc1a4a0cfeb38f8f2313d72787ace5e957a873712b438a110e34b75ef",
+    "local/recovery_v0.8/pdf_qa_delivery/page-10.png": "828585948008833065ad78c82dee838b1be026e08877af574d62265776c34f58"
+  }
+}

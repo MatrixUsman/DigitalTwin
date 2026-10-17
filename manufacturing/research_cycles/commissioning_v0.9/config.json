@@ -1,0 +1,17 @@
+{
+  "study_id": "manufacturing-commissioning-v0.9",
+  "warmup": 100,
+  "arx_orders": [4,8,16,32], "fir_orders": [16,32,64],
+  "ridges": [0.0000001,0.00001,0.001],
+  "development_indices": [0,1,2,3,4,5,6,7,8],
+  "allowance_indices": [9,10,11,12,13], "archived_check_indices": [14,15,16,17,18],
+  "return_tolerance": 0.1, "dwell": 10, "probe_indices": [100,320,620,900], "max_clear_steps": 250,
+  "admission_fraction": 0.95, "seeds": [17,42,2026],
+  "normal_conditions": ["normal","authorized_offset","authorized_slow"],
+  "tasks": [
+    {"id":"H","kind":"multisine8","amplitude":[0.28,0.37],"frequency":0.52,"phase":1.4},
+    {"id":"I","kind":"chirp8","amplitude":[0.34,0.33],"frequency":0.45,"phase":0.7},
+    {"id":"J","kind":"modulated8","amplitude":[0.25,0.38],"frequency":0.93,"phase":1.0}
+  ],
+  "limits":{"wall_seconds":600,"cpu_seconds":300,"rss_bytes":1073741824,"output_bytes":209715200}
+}

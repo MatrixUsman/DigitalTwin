@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-17T11:27:19.049029+00:00",
+  "source_sha256": {
+    "SOURCE_RECEIPT.json": "36f01a3d495d2efbd92cabd407324edf077b483037deedbddd24875ff0cb43fc",
+    "fail_detect_rss.pdf": "06c64a918532956adced42b5f4546a5e5b7df98ec0dc459313a14e29d2a3017c",
+    "LICENSE": "21be65951e13806c2c9b093fe8c1cb677436eb0ca8b53b9bdfb669feba8f6684",
+    "plot_with_CP_band.py": "eff2f0c76c37c88feca11f9ee37a7c46b823479f177e12c0c4909d79e7b3bedb",
+    "rescue.html": "30e8aff7698c5a9c9a0f32b4ac4d9a0a3d4bce30eb1c7861becfcc9a095b6172",
+    "fail_detect_rss.txt": "d5387627a5266472bfb0b90d754c9d2c18ed6046796ddb3ed7dc3564f83b101f",
+    "functional_predictor.py": "422792ceec8972d8d45cbfcba9d5fe027a5cb23e5c82f493b8afc2d7acb898da",
+    "fail_detect_tree.json": "4aa51ede372460061fd48380501f3a22ac6d41b80a7fdd42eeecd8ec9d2e281c",
+    "lcp_predictor.py": "c7221a05f8b8244a4035ccdb3b3ae019564608d3f4c221e5d2cb178c0130b647",
+    "fail_detect.html": "5ac67249f66c2d75ba75b5aa0f080d2ff704be243fbb99574a5b045db6dea05d"
+  },
+  "access_notes": {
+    "RAPIO": "Publisher-indexed text only; direct curl returned 403",
+    "FAIL_Detect": "Author HTML, repository tree, license, functional CP and caller source retrieved; proceedings PDF is raster, text extraction produced page breaks only; printed-sign observation is confined to arXiv v1",
+    "RESCUE": "Full arXiv v1 HTML retrieved; preprint status",
+    "initial_network_attempts": "Unquoted query URL failed zsh glob; urllib and wrapped subprocess curl DNS failed; explicit direct curl calls retrieved sources. Original receipt preserved."
+  }
+}

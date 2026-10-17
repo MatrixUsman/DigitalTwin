@@ -1,0 +1,17 @@
+{
+  "source_sha256": {
+    "local/commissioning_v0.9/runs/normal_002/fresh_summary.json": "65377ee112babdb6eab5e98395078cb87dc1a8c0b7a316936177d88ff672aa36",
+    "local/commissioning_v0.9/runs/normal_002/archived_summary.json": "9ef74b4841406ffb82f0dd781a90cea30f1a5e939b6afab87f35c9204924f9c3",
+    "local/commissioning_v0.9/runs/normal_002/summary.json": "f9708d3f60d72fd046292ed1740e3809585d0c9bc07f0d2849304ba4564c2bfa",
+    "local/commissioning_v0.9/runs/normal_002/supervisor.json": "82d037103514d74d62d589910b8c57ca62181a40217dc0c4d5da4e3cefca57bc",
+    "local/commissioning_v0.9/runs/normal_002/candidates.json": "67b21e42eba243844092aeb6532eeec3e9bbc99e7f85ca9c379e43b4a950c939",
+    "research_cycles/commissioning_v0.9/NOISE_DIAGNOSTIC.json": "b1f9817be10073b8e92204e6bcebe3ca24b8c17210a763b2d511b07495159b97"
+  },
+  "outputs": {
+    "output/commissioning_v0.9/normal_reference_adequacy.svg": "1bb40ea71f8af9c8f58f9d748a179c0eb32c7cbffbc8d0b89d5b6c286f7d1072",
+    "output/commissioning_v0.9/normal_reference_adequacy.png": "3026a96cef03a06f1bac161c886d6a9c919f3b9b319bdd92bc8b422cfdec915a",
+    "research_cycles/commissioning_v0.9/RESULTS.md": "0174ebb74011e2f0e20dd65707cce3845b0ed644467c328f0b3093ad968e21a4",
+    "research_cycles/commissioning_v0.9/MODEL_BANK.md": "78c8ddb7c3746415ba07a09daef16b2aaaae12ffe3c60e4adb6f549c37b618e1"
+  },
+  "generator_sha256": "2087bf396316676606d6c9c30642fe96819bf64267a9bf1611b9dd027495c293"
+}

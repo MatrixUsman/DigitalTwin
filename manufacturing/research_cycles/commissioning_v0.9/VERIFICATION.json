@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-17T12:20:29.382249+00:00",
+  "status": "passed",
+  "checks": 10293,
+  "seconds": 4.09063241595868,
+  "scope": "All preserved hashes, refitted candidates, development selection, allowances, 576 prediction/score/metric rows; independent clearance windows and admission arithmetic. No new simulation; not independent physics or security validation.",
+  "freeze_sha256": "1fe31c40cb4ef981d6cfcd4c34f81b8ff3521da89666c93e3365a1dc5a4bfa1e",
+  "verifier_sha256": "b41ce520dd44f8c3972162b4d131b150aec131549edc6fea50489c79f2c9986a",
+  "worker_summary_sha256": "f9708d3f60d72fd046292ed1740e3809585d0c9bc07f0d2849304ba4564c2bfa"
+}
