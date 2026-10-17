@@ -5,7 +5,7 @@ Start here. This workspace supports three separate academic papers. The owners a
 | Owner | Project | Current position |
 |---|---|---|
 | **Muhammad Usman** | [Water infrastructure](water/README.md) | Existing literature audit preserved; SWaT/WADI access and releases unresolved; CAROTS is the conditional first baseline |
-| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Saved-model limitation experiment completed: 189 synthetic scenarios; rolling-mean gain and accumulation/recovery trade-off measured |
+| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Recovery simulation completed: 48 synthetic episodes; trusted-command controls and physical-return/normal-alarm trade-off measured |
 | **Muhammad Usman Sanghla** | [Smart grids](smart_grids/README.md) | Initial scoping and source screening; no selected dataset pair or approved baseline |
 
 No project has reproduced a paper baseline. Manufacturing has completed [final evaluation and analysis](manufacturing/docs/FINAL_CAMPAIGN_REPORT_V0.1.md) of its own controls/empirical observer on one CASPER recording. The small correction-score gain does not establish strong detection or general superiority. Working titles and research questions remain provisional.

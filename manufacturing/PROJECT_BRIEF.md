@@ -1,5 +1,7 @@
 # Manufacturing research project
 
+**Latest milestone — 17 October 2026:** [recovery simulation v0.5](research_cycles/recovery_v0.5/RESULTS.md) is complete. Comparator roles, explicit trusted-command threat, physical equations and recovery rule were frozen before 48 synthetic evaluation episodes. The rule equals classical dwell-time hysteresis: it preserves alarms through the declared physical-return diagnostic but raises benign alarm time. Strong ARX/following controls remain. There is no admitted original algorithm or faithful paper reproduction. Preserve all old campaigns and the export-failure/recovery record; future confirmation needs new frozen conditions. This supersedes earlier pending simulation language below.
+
 Last updated: 17 October 2026. Project owner: **Haiqa Mushtaq**. Ownership is an organizational assignment, not a decision about academic authorship.
 
 **Current destination, corrected after the PDF:** develop an original digital-twin cybersecurity contribution by identifying and demonstrating a limitation of relevant baselines, designing a justified improvement, and testing it fairly. The completed CASPER study and PDF are **preliminary internal feasibility work**, not the intended final paper. No baseline reproduction or novel contribution is established. Follow the [current contribution direction](docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md); it supersedes the historical narrow-study destination below without changing its evidence.

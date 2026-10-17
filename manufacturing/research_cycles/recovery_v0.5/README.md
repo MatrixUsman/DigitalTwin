@@ -2,6 +2,7 @@
 
 Manufacturing only. This exploratory cycle follows the exposed v0.4 measurement-replay results. It specifies and tests a simulated horizontal two-joint arm with protected command context. All observations generated here are **synthetic**. No CASPER data are opened and no real robot is connected.
 
+- [Completed results and scientific decision](RESULTS.md), [all-method aggregates](RESULTS.json), [figures](../../output/recovery_v0.5/comparison.png).
 - [Comparator decisions](COMPARATORS.md): independent Edge-architecture implementation in the recorded-IMU track; separate/background/reserve dispositions for CASPER, TWINE, CatBoost and ModernTCN.
 - [Precise model, threat and evaluation plan](PLAN.md), [configuration](config.json), [prior-art and algebraic admission decision](PRIOR_ART.md).
 - [Pre-execution identities](FREEZE.json), [primary-source artifact identities](SOURCE_RECEIPT.json).
@@ -19,13 +20,28 @@ Run from repository root `/Users/matrixusman/CUI/DigitalTwin`. Reuse the unchang
 ```sh
 manufacturing/.venv-reproduction-v02/bin/python -m unittest discover -s manufacturing/research_cycles/recovery_v0.5 -p test_pilot.py -v
 manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/recovery_v0.5/run.py --attempt simulation_001
-manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/recovery_v0.5/verify.py --run simulation_001 --attempt verify_001
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/recovery_v0.5/recover_reporting.py --attempt reporting_001
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/recovery_v0.5/verify.py --run reporting_001 --attempt verify_001
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/recovery_v0.5/verify_reporting.py
 ```
 
 The named attempt commands are historical executable records, not invitations to overwrite results. `freeze.py` created the one-time freeze after the passing synthetic checks; it refuses to replace that record. A new explicitly authorized repeat uses a new attempt name and retains all earlier outcomes.
 
-Ignored local storage: `manufacturing/local/recovery_v0.5/sources/`, `tests/`, `runs/simulation_001/`, `verification/`. Synthetic arrays, fit coefficients, calibration, per-episode scores, outcomes, full environment/provenance and logs are retained there. Git stores our implementation, protocol, safe summaries and hashes. `PACKAGE_MANIFEST.json` will bind completed reporting artifacts; it supplements rather than changes the pre-execution freeze.
+Ignored local storage: `manufacturing/local/recovery_v0.5/sources/`, `tests/`, `runs/simulation_001/`, `verification/`. Synthetic arrays, fit coefficients, calibration, per-episode scores, outcomes, full environment/provenance and logs are retained there. Git stores our implementation, protocol, safe summaries and hashes. `PACKAGE_MANIFEST.json` binds completed reporting artifacts; it supplements rather than changes the pre-execution freeze.
 
 ## Test history
 
 `tests_001`: 23/24 passed; one-step numerical convergence error with four RK4 substeps exceeded the original tolerance. `tests_002`: 24/24 passed after increasing the fixed integrator to eight substeps before any pilot observation was generated. Tolerance unchanged. Both logs and pre-correction source hashes are preserved. No experiment result motivated that correction.
+
+## Completed execution and repair
+
+`simulation_001` generated and sealed all 84 train/calibration/evaluation streams, then failed exporting one NumPy integer. Its original code and failed attempt remain frozen. The separately bounded `reporting_001` recovered all 528 outcome rows from byte-identical sealed arrays, without rerunning simulation. See [the repair record](REPORTING_RECOVERY.md) and [its freeze](REPORTING_RECOVERY_FREEZE.json). Two additional synthetic checks passed. The main verifier passed 52,582 checks; the reporting/physical-return verifier passed 422 more. Future code reuse should incorporate the proven serializer in a new version; the consumed worker here deliberately retains its historical defect.
+
+Reporting commands, run from repository root after successful verification:
+
+```sh
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/recovery_v0.5/summarize.py
+manufacturing/.venv-plots-v03/bin/python manufacturing/research_cycles/recovery_v0.5/plot_results.py
+```
+
+These reports and figures already exist. Reporting helpers reject existing JSON receipts; preserve them rather than automatically overwriting. The current evidence is exploratory, and the candidate is exactly a classical hysteresis control. [Next scientific gate](RESULTS.md#scientific-decision-and-next-bounded-step).

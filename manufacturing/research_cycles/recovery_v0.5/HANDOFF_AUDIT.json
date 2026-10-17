@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-17T09:55:21.198390+00:00",
+  "status": "passed",
+  "scientific_source_identities": 13,
+  "scientific_input_identities": 337,
+  "recovery_identities": 99,
+  "completed_package_identities": 225,
+  "missing_local_links": [],
+  "local_ignore_checks": {
+    "manufacturing/local/recovery_v0.5/runs/reporting_001/fit.npz": true,
+    "manufacturing/local/recovery_v0.5/sources/ayankoso_pdf.pdf": true,
+    "manufacturing/.venv-reproduction-v02/bin/python": true
+  },
+  "synthetic_figures": "Eligible result artifacts; no source data, private access details or publication action",
+  "whitespace_checks": "working and staged diffs pass",
+  "package_manifest_sha256": "4c34928d61aa3d2592272934e52871d30c94319c3341c2b76e1ce78bd4b24d8b",
+  "assistant_git_mutations": false,
+  "raw_data_read": false
+}

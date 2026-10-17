@@ -374,3 +374,20 @@ Status: **executed and verified in manufacturing v0.4**. [Protocol/package](../m
 8. Retain standard-method gains as controls. Establish a precise prior-art difference and new physical/context evidence before claiming a novel twin or confirming an outcome-informed redesign.
 
 Expected artifacts: versioned protocol/code/config freeze, synthetic tests/failure ledger, bounded replay and cost receipts, all-case outcomes, diagnostic counterfactuals, result-derived figures, independent arithmetic checks and a concrete scientific decision.
+
+
+## Testing recovery with physically specified simulation and matched context
+
+Status: **executed and verified in manufacturing v0.5**. [Protocol, artifacts and findings](../manufacturing/research_cycles/recovery_v0.5/README.md). Reuse the procedure only after validating the new sector's equations, information access and claim.
+
+1. Finalize comparator roles explicitly. Different modalities, supervised labels or reconstruction/prediction access require separate tracks or disclosed adaptations. Missing manuscripts/code grants remain named constraints; do not fill a three-paper quota with incomparable methods.
+2. Specify true physical state, equations, sensors, approved versus executed commands, trust assumptions and observer synchronization together. Give ordinary controls every input the candidate receives. An authenticated command is a substantive assumption, not a free dataset feature.
+3. Before claiming novelty, reduce the candidate algebraically and implement an exact classical equivalent where one exists. Matched alarm trajectories can reveal that a proposed mechanism is ordinary max fusion/hysteresis. A useful control result remains useful without being renamed an invention.
+4. Validate physics using independent energy/geometry identities and integration refinement before scenario generation. Preserve numerical test failures; improve integration accuracy rather than relaxing tolerance to fit outcomes. Separate equation correctness, numerical accuracy and physical validation.
+5. Use paired authorized/unauthorized commands with identical physical observations when scientifically appropriate. This tests identifiability and shows what trusted context contributes. Preserve dependent seed/scenario grouping; observation counts do not create new physical evidence units.
+6. Freeze normal-only fitting, normal calibration ranks, all methods, scenario groups, budgets and reporting before evaluation. Score before correction, never reset at true attack boundaries, seal all scores before label joining, and preserve uncertainty as missing decisions rather than free true negatives.
+7. Distinguish command corruption ending from physical effects disappearing. Report misses, fresh versus continuing alarms, normal point/episode burden, clearing during corruption, post-command alarms and a declared physical-return diagnostic. Diagnostics using true simulation state are evaluator-only and do not establish operational safety.
+8. Preserve failures at their actual stage. If scoring completed but export failed, bind the source seal and use a separately recorded, value-preserving reporting repair; do not silently rerun/reselect models. Account for the failed attempt, repair resources and duplicate retained storage. Keep consumed source freezes immutable.
+9. Independently verify fits, thresholds, identity/alignment, state machines, physical-return arithmetic and complete outcome coverage. Generate figures from saved results and visually inspect them. A successful synthetic pilot supports only its model assumptions; freeze ungenerated conditions separately for later confirmation.
+
+Expected artifacts: comparator dispositions, source receipts, algebraic/prior-art decision, physical/threat protocol, synthetic tests and failures, immutable freeze, bounded run/resource records, sealed complete arrays, verified joint outcomes, result-derived figures and an explicit next scientific gate. Never copy manufacturing parameters, success status or claims into water or grids.

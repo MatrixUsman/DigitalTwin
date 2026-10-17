@@ -1,6 +1,18 @@
 # Manufacturing status
 
-## Current handoff — limitation experiment v0.4, 17 October 2026
+## Current handoff — recovery simulation v0.5, 17 October 2026
+
+**Completed:** [comparator role decisions](research_cycles/recovery_v0.5/COMPARATORS.md), [precise candidate/prior-art assessment](research_cycles/recovery_v0.5/PRIOR_ART.md), and [bounded physical simulation pilot](research_cycles/recovery_v0.5/RESULTS.md). Two simulated plants, three paired noise seeds, 18 training / 18 calibration / 48 evaluation episodes, eleven methods and 528 outcomes. All observations are synthetic; no CASPER or fresh physical recording was opened.
+
+The protected-command following observer reaches 92.05% attack-command recall with 1.07% alarms on clean normal episodes; ordinary ARX reaches 91.72%. The recovery candidate gives the same 92.05% recall and 3.49% normal alarms. It clears after the declared simulated physical-return diagnostic in all 30 intervention episodes, whereas the following observer clears earlier. This is a real recovery/normal-alarm trade-off in the specified simulator. **The candidate is exactly fused-error dwell-time hysteresis**, verified algebraically and in every episode; do not claim original algorithmic novelty or general physical safety.
+
+Validation: 26 passing synthetic tests; 53,004 passing fresh-process and reporting checks. Preserve one pre-run integration-test failure and one post-scoring JSON-export failure. All simulation scores were sealed; a separately frozen reporting job repaired only scalar serialization. Generation took 73.353 s supervised wall / 72.422 s CPU; export recovery 0.393 s / 0.379 s CPU. No scientific choice changed. Both attempts, source freezes, prior model/PDF identities and environments remain preserved.
+
+**Next bounded scientific task:** diagnose authorized-change residuals in this exposed pilot, then specify a non-equivalent uncertainty/recovery mechanism against mode-conditioned calibration, ordinary hysteresis and close set-consistency work. The required problem is reducing legitimate-change alarms while retaining evidence until physical recovery under model mismatch. Freeze any new task/geometry/mismatch groups before generation; none was generated here. The original-contribution destination remains active. Recent paper roles are decided, but three faithful comparable paper reproductions are not established.
+
+Everything below records prior stages; this v0.5 handoff supersedes their pending recovery-simulation task.
+
+## Historical handoff — limitation experiment v0.4, 17 October 2026
 
 **Completed:** [189 synthetic brief/persistent scenarios](research_cycles/limitation_v0.4/RESULTS.md), six saved predictors, four scoring rules and 4,536 jointly evaluated outcomes. No retraining or new raw/final observations. [Figures and package](research_cycles/limitation_v0.4/README.md) preserve all controls, seeds, misses, false alarms and costs.
 
