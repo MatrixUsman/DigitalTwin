@@ -5,10 +5,10 @@ Start here. This workspace supports three separate academic papers. The owners a
 | Owner | Project | Current position |
 |---|---|---|
 | **Muhammad Usman** | [Water infrastructure](water/README.md) | Existing literature audit preserved; SWaT/WADI access and releases unresolved; CAROTS is the conditional first baseline |
-| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Right-arm state-synchronization question and exact data contract defined; no training, novelty or final baseline admission |
+| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Eleven-method protected final campaign and joint analysis complete; weak detection, single-acquisition evidence; no paper reproduction or established novelty |
 | **Muhammad Usman Sanghla** | [Smart grids](smart_grids/README.md) | Initial scoping and source screening; no selected dataset pair or approved baseline |
 
-No project has reproduced a paper baseline or generated attack benchmark results. Manufacturing has measured normal-only control and observer development results. Working titles and research questions remain provisional.
+No project has reproduced a paper baseline. Manufacturing has completed [final evaluation and analysis](manufacturing/docs/FINAL_CAMPAIGN_REPORT_V0.1.md) of its own controls/empirical observer on one CASPER recording. The small correction-score gain does not establish strong detection or general superiority. Working titles and research questions remain provisional.
 
 All three follow the [shared publication, writing and title standards](docs/PUBLICATION_STANDARDS.md): aim for leading journals through rigorous distinct research, use natural academic prose, and choose strong titles supported by the eventual contribution. These preferences are persistent project instructions, not claims of acceptance or results.
 

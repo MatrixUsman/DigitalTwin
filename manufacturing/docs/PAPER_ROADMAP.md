@@ -12,7 +12,7 @@ This is the main lifecycle roadmap for this paper. Use [STATUS.md](../STATUS.md)
 
 ## Where we actually are
 
-We have an audited dataset, selected feasibility question, defined evaluation protocol, **254 passing synthetic tests**, preserved pilot/control studies and a completed **normal-only empirical motion-observer validation**. Seven candidates each fitted 536,946 eligible targets and scored 160,472 development endpoints; velocity, a 32-bin template and AR(4) ridge 0.001 were selected. We have **not reproduced a paper baseline, calibrated a threshold or measured attack-detection performance**. See the [observer report](OBSERVER_VALIDATION_REPORT.md): all seven internal checks and 48 saved-artifact checks passed, while ordinary AR remains substantially stronger at one-step prediction. The physical-twin claim remains unsupported.
+We have an audited dataset, selected feasibility question, frozen evaluation protocol, **324 passing synthetic tests**, preserved pilot/control/observer/score-extension studies, an actual eleven-method model freeze and completed normal calibration. The [freeze/calibration report](CAMPAIGN_FREEZE_AND_CALIBRATION_REPORT_V0.1.md) records every fitted artifact, threshold and run. Final admission passes without opening raw observations. We have **not reproduced a paper baseline or measured final attack-detection performance**. Observer limitations, strong AR and single-acquisition scope remain unchanged.
 
 Working title: **“Correction Evidence in Robotic Motion Monitoring: A CASPER Case Study.”** It remains provisional and follows the [scope decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md). The question is:
 
@@ -29,15 +29,15 @@ The scope is one right-arm pick-and-place recording, with truthful telemetry/tim
 | 2. Literature and comparator admission | Decisions recorded; implementation gates remain | Two original learning manuscripts available/AI-audited; [explicit designations](COMPARATOR_ADMISSION.md); no admitted three-paper ranking |
 | 3. Data identity and suitability | Completed audit, with scientific limitations | Original CASPER v3 received; hashes/schema/labels/clocks recorded |
 | 4. Research question and threat model | Selected for feasibility | Novelty and twin usefulness unproved |
-| 5. Evaluation rules | Defined | Actual model/checkpoint/threshold freeze not completed |
-| 6. Loader and metric foundation | Implemented and tested | Expanded 254-test suite; loader exercised on complete training/development as well as the earlier pilot prefixes |
+| 5. Evaluation rules | Defined and bound to actual artifacts | Model selection and calibration complete; final execution not run |
+| 6. Loader and metric foundation | Implemented and tested | Expanded 324-test suite; loader exercised on complete training/development as well as the earlier pilot prefixes |
 | 7. First control and bounded runner | Implemented and tested | Welford velocity control, supervision, access/provenance and failure checks |
 | 8. Real-data feasibility pilot | Completed, one accepted attempt | 46,944 fitted / 18,472 scored; immutable reference; 8.626 s supervised wall, 27.94 MiB peak RSS |
 | 9. Full normal-only controls | Completed for essential controls | Seven candidates; selected velocity, 32-bin template and AR(4) ridge 0.001; CNN deferred |
 | 10. Observer and matched ablations | Completed within empirical-observer scope | 7/7 normal checks; prospective prediction/synchronization and uncertainty evaluated; physical-twin claim unsupported |
 | 11. Contribution and evidence scope | Design decision complete; empirical contribution unproved | Narrow single-acquisition score audit; prior-art overlap, eleven-variant design and independent-source needs recorded |
-| 12. Model-selection freeze | Partial; execution roster pending | Seven implemented variants; four required C/K/L/Rv extensions and actual complete run matrix pending |
-| 13. Calibration and final-release preparation | Not done | No thresholds; final runner, ledger and actual freeze incomplete |
+| 12. Model-selection freeze | Completed before calibration | Eleven deterministic methods, four fitted references, 52 tested source/configuration identities, 133 saved input bindings and complete run matrix |
+| 13. Calibration and final-release preparation | Completed | Eleven valid thresholds from 160,473 endpoints/rank 158,869; sealed scores, access/failure records, tested delayed join and actual final freeze |
 | 14. Protected final campaign | Not run | No final scores or outcomes |
 | 15. Analysis and interpretation | Normal-only feasibility interpreted; final analysis pending | Observer limitations and strong simple predictors recorded; no attack outcomes |
 | 16. Manuscript and reproducibility package | Not completed | Existing notes are source material, not a finished paper |
@@ -198,7 +198,7 @@ The [contribution decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [comparison des
 
 - [x] Compare phase/alignment/segmentation/prediction/surprise prior art claim by claim. These components and the tracking/detection trade-off are established; no new-twin/estimator claim.
 - [x] Correct the matched contrast: R versus R+C isolates added correction-discrepancy scoring. Both retain nominal progression and identical states; map the historical wording in a future versioned execution manifest.
-- [x] Decide the narrow core comparison roles: eleven variants, seven implemented and four C/K/L/Rv design-only. Classical controls remain essential; original learning trio is not a fair admitted ranking. Full implementation admission remains Stage 12.
+- [x] Decide the narrow core comparison roles: eleven variants; the four C/K/L/Rv scores were design-only at this decision and are now implemented under Stage 12. Classical controls remain essential; original learning trio is not a fair admitted ranking. Full implementation admission remains Stage 12.
 - [x] Limit claims to one repetitive acquisition/eight dependent intervals. No robot/task/fault/changeover generalization or intent attribution.
 - [x] Screen independent sources: prioritize voraus-AD as separate physical-fault/variable-execution evidence and NIST as benign-condition evidence. No additional source admitted.
 - [ ] Freeze an independent-evidence design before looking at its outcomes. Multiple windows, eight intervals and three seeds are not independent robot replications.
@@ -206,33 +206,33 @@ The [contribution decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [comparison des
 
 **Go/no-go:** do not spend a large training budget on an indistinct mechanism or unsupported claim. If simple controls explain the task or prior art already establishes the proposed contribution, narrow/revise the question. Negative findings may be useful; neither a negative nor positive finding guarantees publication.
 
-**Complete here:** scope revision, close-prior-art comparison, scientific roster design and independent-source investigation. **Still pending:** measured contribution, four score implementations, independent dataset/protocol admission and final execution readiness. The uncompleted independent-evidence freeze is a future source-specific gate, not a claim that metadata screening supplies new observations.
+**Complete here:** scope revision, close-prior-art comparison, scientific roster design and independent-source investigation. The subsequent [four-score implementation](SCORE_EXTENSION_REPORT_V0.1.md) is also complete. **Still pending:** measured contribution, independent dataset/protocol admission and final execution readiness. The uncompleted independent-evidence freeze is a future source-specific gate, not a claim that metadata screening supplies new observations.
 
 ## 12. Freeze the selected model comparison before calibration
 
-- [x] Select scientific roles and designations in the [core roster](COMPARISON_ROSTER_DECISION.md); seven implemented and four design-only variants.
-- [ ] Specify, implement/test and normal-validate the new C/K/L/Rv scores under a versioned bounded extension; preserve v0.1 and the consumed attempts.
-- [ ] Admit the complete executable roster, exact artifact identities and explicit historical-to-current contrast-name mapping.
-- [ ] Record each finite search, normal-only selection objective, candidate table and selected configuration.
-- [ ] Fit selected full-training artifacts and record their transforms, references/checkpoints and initialization.
-- [ ] Fix stochastic seeds **17, 42, 2026**, paired where applicable; deterministic controls run once.
-- [ ] Fix all score definitions, common support, failure policies, reporting populations and primary paired contrast.
-- [ ] Freeze exact code/environment/configuration identities, commands and resource budgets.
-- [ ] Verify that no calibration or final behavior selected a model, seed, feature or persistence rule.
+- [x] Select scientific roles and designations in the historical [core roster](COMPARISON_ROSTER_DECISION.md); all eleven variants are now implemented, with current status in the [extension report](SCORE_EXTENSION_REPORT_V0.1.md).
+- [x] Specify, implement/test and normal-validate C/K/L/Rv under a versioned bounded extension; preserve old v0.1 and all consumed attempts. 295 tests, exact R/RC/index parity and 257 internal saved-artifact checks passed; no fitting.
+- [x] Admit the complete executable roster, exact artifact identities and explicit historical-to-current contrast-name mapping.
+- [x] Record each finite search, normal-only selection objective, candidate table and selected configuration.
+- [x] Bind already-fitted full-training artifacts, transforms, references/checkpoints and initialization; no new fitting in calibration.
+- [x] Fix stochastic seeds **17, 42, 2026**, paired where applicable; deterministic controls run once.
+- [x] Fix all score definitions, common support, failure policies, reporting populations and primary paired contrast.
+- [x] Freeze exact code/environment/configuration identities, commands and resource budgets.
+- [x] Verify that no calibration or final behavior selected a model, seed, feature or persistence rule.
 
-**Completion evidence:** a nonempty frozen roster/run matrix and real artifact hashes. Empty lists/nulls in the current [freeze record](../experiments/FINAL_TEST_FREEZE_RECORD.json) mean this is unfinished.
+**Completed:** the [actual selection record](../experiments/MODEL_SELECTION_FREEZE_V0.1.json) predates calibration and contains real artifacts, all eleven deterministic runs, scientific choices and provenance. No stochastic method is admitted; seeds 17/42/2026 remain the rule if one is admitted in a separate study.
 
 ## 13. Calibrate thresholds and complete final-evaluation readiness
 
-- [ ] Implement/test a calibration-only path that accepts frozen artifacts and the correct normal partition.
-- [ ] For every model/seed, produce complete scores on the same **160,473** eligible calibration endpoints.
-- [ ] Set the threshold at ascending one-based rank **158,869**, using strict `score > threshold`; no interpolation or test-selected alternative.
-- [ ] Save the exact threshold, score dtype, score/count/hash receipt and fitted-artifact identities.
-- [ ] Do not rank models on calibration behavior or refit after calibration under this protocol.
-- [ ] Implement/test final-source admission, complete output alignment, access ledger, terminal failure handling, and label joining only after all campaign outputs are saved/hashed.
-- [ ] Fill the actual final-freeze record with completed prerequisites; keep approvals, timestamps and hashes factual.
+- [x] Implement/test a calibration-only path that accepts frozen artifacts and the correct normal partition.
+- [x] For every model/seed, produce complete scores on the same **160,473** eligible calibration endpoints.
+- [x] Set the threshold at ascending one-based rank **158,869**, using strict `score > threshold`; no interpolation or test-selected alternative.
+- [x] Save the exact threshold, score dtype, score/count/hash receipt and fitted-artifact identities.
+- [x] Do not rank models on calibration behavior or refit after calibration under this protocol.
+- [x] Implement/test final-source admission, complete output alignment, access ledger, terminal failure handling, and label joining only after all campaign outputs are saved/hashed.
+- [x] Fill the actual final-freeze record with completed prerequisites; keep approvals, timestamps and hashes factual.
 
-**Completion evidence:** valid thresholds for every admitted artifact and a verified final runner. The empirical 99th-percentile rule is not a guarantee of a future 1% false-positive rate.
+**Completed:** all eleven thresholds and the [actual final freeze](../experiments/FINAL_TEST_FREEZE_RECORD.json) passed readback/admission. **324 tests** include 29 synthetic campaign cases. A guarded metadata preflight opened no raw data. Final full-size execution remains unmeasured and unrun. The empirical 99th-percentile rule is not a guarantee of a future 1% false-positive rate.
 
 ## 14. Execute the protected final campaign once as declared
 
@@ -294,7 +294,7 @@ Acceptance and publication timing are editorial outcomes, not milestones we can 
 
 ## What we do next, and what can run in parallel
 
-**Immediate sequence:** retain controls/observer v0.1 → specify the bounded C/K/L/Rv extension → implement/test and normal-validate it → admit the complete executable roster → implement/admit threshold-only calibration → complete final freeze → execute the protected campaign only within its separately scoped plan. No large neural run is needed to fill a quota. Any observer refinement preserves v0.1 and declares a new development version before execution.
+**Immediate sequence:** preserve completed normal studies, selection freeze and calibration → explicitly scope the protected final scoring run under its frozen budget → seal all eleven complete streams → separately join labels and evaluate every declared method. No large neural run is needed to fill a quota. Calibration does not reopen scientific choices; later changes must be explicitly versioned and assessed for compromised separation.
 
 **Parallel work:** researcher learning, missing-source follow-up, contribution records and source-specific independent-evidence admission. ModernTCN/causal alignment become necessary if broader competitive claims are revived; they remain conditional now.
 

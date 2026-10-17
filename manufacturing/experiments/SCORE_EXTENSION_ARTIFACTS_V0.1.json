@@ -1,0 +1,100 @@
+{
+  "attack_detection_benefit_demonstrated": false,
+  "calibration_runner_admitted": false,
+  "complete_executable_final_roster_admitted": false,
+  "configuration_path": "configs/casper_right_arm_score_extension_v0.1.json",
+  "configuration_sha256": "57876f77ce2f447b127766246d91e0775a1e15de2996946b210adc4ed3fe0497",
+  "coordinates_exact_parity": true,
+  "development_eligible_count": 160472,
+  "final_test_admitted": false,
+  "historical_pair_exact_parity": true,
+  "historical_terminology": {
+    "clarification": "Both retain nominal progression and measurement correction in state evolution; only additive correction evidence differs",
+    "progression_aware": "O-RC",
+    "progression_omitted": "O-R"
+  },
+  "input_model_file_sha256": "28a9376bc93945adc783f7cd11354393fab070d0306081372891df7292977767",
+  "input_observer_registry": "experiments/OBSERVER_ARTIFACTS_V0.1.json",
+  "input_observer_registry_sha256": "1f435b1ebf76116e617ae74617b41bdfb150200624dee6253042bfb49be4c557",
+  "kind": "normal_validated_frozen_observer_score_extension_not_final_admission",
+  "new_score_ids": [
+    "O-C",
+    "O-K",
+    "O-L",
+    "O-Rv"
+  ],
+  "normal_development_reuse": true,
+  "plan_path": "docs/SCORE_EXTENSION_PLAN_V0.1.md",
+  "plan_sha256": "a5754c9ddb4b18e89c08677b7c661e6993a6b67205418a3cd9df96393234b359",
+  "ready_to_consider_for_later_calibration": true,
+  "refitting": false,
+  "run_manifest_sha256": "222c7dab492be668641d7f53772476e92a902f4ee257d5dd68ec8bb951897900",
+  "same_state_score_ids": [
+    "O-R",
+    "O-RC",
+    "O-C",
+    "O-K",
+    "O-L",
+    "O-Rv"
+  ],
+  "saved_scores": {
+    "O-C": {
+      "max": 0.024737070609407955,
+      "mean": 0.0018540639953986005,
+      "min": 9.18970392347011e-05,
+      "n": 160472,
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-C.scores.f64",
+      "sha256": "72fafc0e47af6f4906dd242435efa13e8b2b54079b11c46c59096677efbd541d"
+    },
+    "O-K": {
+      "max": 0.09406392193938622,
+      "mean": 0.006835572991551919,
+      "min": 0.00029547097193081213,
+      "n": 160472,
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-K.scores.f64",
+      "sha256": "e5be362cfc68b154e9481b59ee2c34821a99901fe557ab66e0663e7a029f742b"
+    },
+    "O-L": {
+      "max": 13.683644436447688,
+      "mean": 0.5466955536286918,
+      "min": 0.0007011730151647022,
+      "n": 160472,
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-L.scores.f64",
+      "sha256": "5c22a3e73ef7101ed1991d26a3c6247e0b59be4fe883688d0a8a6f384bd280e4"
+    },
+    "O-R": {
+      "max": 26.678739020166535,
+      "mean": 0.998483843590454,
+      "min": 1.3392103355818705e-06,
+      "n": 160472,
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-R.scores.f64",
+      "sha256": "aeac99c18828d9cd6686941cdde725d2c07038ae13ca2118c6301a64968e7dba"
+    },
+    "O-RC": {
+      "max": 33.46385334825809,
+      "mean": 1.9976307340888584,
+      "min": 0.049528090009188994,
+      "n": 160472,
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-RC.scores.f64",
+      "sha256": "b150d02208d2bd71f05d2a5734a4f143dddd2b85a364d2d8548e733d82c69f5b"
+    },
+    "O-Rv": {
+      "max": 18.09784900473613,
+      "mean": 0.5449087333872906,
+      "min": 1.3754319064431658e-07,
+      "n": 160472,
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-Rv.scores.f64",
+      "sha256": "82deb68595fb138b265c45a65b71b41589bfaa556e9ad5e60d3fed74ba50ac69"
+    }
+  },
+  "score_definitions": {
+    "O-C": "JSD(prior,posterior), natural log, unscaled",
+    "O-K": "KL(posterior || prior), natural log, unscaled",
+    "O-L": "negative_log_sum_prior_exp_minus_distance_over_2tau, unnormalized_energy",
+    "O-R": "prospective_R / pinned_training_mean_R",
+    "O-RC": "prospective_R / pinned_training_mean_R + JSD(prior,posterior) / pinned_training_mean_C",
+    "O-Rv": "mean_squared_standardized_six_velocity_prior_prediction_error"
+  },
+  "source_run": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z",
+  "thresholds": null
+}

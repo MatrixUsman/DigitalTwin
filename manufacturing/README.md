@@ -2,7 +2,7 @@
 
 Owner: **Haiqa Mushtaq**. Project ID: `manufacturing`. Academic digital-twin cybersecurity research for manufacturing processes; titles and contributions remain provisional.
 
-Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. A bounded pilot and a separate full-training normal-only velocity/template/AR study are complete; no attack benchmark result or reproduced paper baseline exists.
+Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. Normal-only development and the eleven-method protected final campaign are complete. The [joint report](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) records weak detection and a small correction-score gain; no paper baseline has been reproduced.
 
 | Location | Purpose |
 |---|---|
@@ -11,7 +11,7 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [docs/DATA_AND_BASELINE_STUDY.md](docs/DATA_AND_BASELINE_STUDY.md) | Start here: received materials, findings and a practical reading sequence |
 | [docs/PAPER_CODE_TRACEABILITY.md](docs/PAPER_CODE_TRACEABILITY.md) | Paper-reading coverage and method-to-author-code connections for all three candidates |
 | [docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) | Current claim, close-prior-art overlap, falsification and single-acquisition limits |
-| [docs/COMPARISON_ROSTER_DECISION.md](docs/COMPARISON_ROSTER_DECISION.md) | Eleven-variant core design; four additional scores still unimplemented |
+| [docs/COMPARISON_ROSTER_DECISION.md](docs/COMPARISON_ROSTER_DECISION.md) | Historical eleven-variant design; subsequent implementation recorded in score-extension report |
 | [docs/INDEPENDENT_EVIDENCE_PLAN.md](docs/INDEPENDENT_EVIDENCE_PLAN.md) | Separate fault/benign-source admission and requirements for broader cyber evidence |
 | [docs/COMPARATOR_ADMISSION.md](docs/COMPARATOR_ADMISSION.md) | Current comparator designations, information-access compatibility and remaining implementation gates |
 | [docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md](docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) | Selected state-synchronization question, restricted command threat and falsification criteria |
@@ -21,6 +21,7 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [docs/FINAL_TEST_PROTECTION.md](docs/FINAL_TEST_PROTECTION.md) | Prospective outcome protection and actual-artifact freeze requirements; not an enforced lock |
 | [docs/SOFTWARE_VALIDATION.md](docs/SOFTWARE_VALIDATION.md) | Implemented loader/isolation/metric primitives, 83 synthetic tests, limitations and reproducible command |
 | [docs/BOUNDED_PILOT_PLAN.md](docs/BOUNDED_PILOT_PLAN.md) | Historical specification for the single bounded velocity pilot |
+| [docs/SCORE_EXTENSION_REPORT_V0.1.md](docs/SCORE_EXTENSION_REPORT_V0.1.md) | C/K/L/Rv implementation; 295 tests, 160,472 endpoints, exact R/RC/index parity; no fitting |
 | [docs/OBSERVER_VALIDATION_REPORT.md](docs/OBSERVER_VALIDATION_REPORT.md) | 254 tests; empirical observer and matched ablations; 7 normal checks and 48 artifact checks passed, with strong AR and ambiguity limitations |
 | [docs/CONTROL_STUDY_REPORT.md](docs/CONTROL_STUDY_REPORT.md) | 205 tests; seven full-training normal-only candidates; selected velocity, 32-bin template and AR(4) artifacts |
 | [docs/SIMPLE_CONTROLS_PLAN.md](docs/SIMPLE_CONTROLS_PLAN.md) | Fixed formulas, initialization, finite selection and resource limits |
@@ -47,13 +48,13 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [configs/](configs/README.md) | Defined data/evaluation policies; future executable method configurations |
 | [src/](src/README.md) | Implemented loader, guarded development access, causal coordinator and metric primitives |
 | [tests/](tests/README.md) | Executable synthetic correctness/isolation checks |
-| [experiments/](experiments/README.md) | Synthetic software report and pending experiment/final-freeze records |
+| [experiments/](experiments/README.md) | Software reports, actual model/threshold freezes and recorded experiment identities |
 | [manuscript/](manuscript/README.md) | Future paper and contribution records |
 
-Current selection: **normal-only right-arm motion monitoring using original CASPER**, comparing added correction evidence with residual-only and conventional scores in a single-acquisition case study. The restricted threat assumes truthful monitoring telemetry/time. Exact source, annotations, twelve joint-state features and chronological split metadata are specified; 254 synthetic tests pass, the earlier pilot/control studies are preserved, and a separately bounded observer validation completed. Its state/prediction/synchronization checks support an empirical motion observer with a matched correction-evidence ablation. Simple AR remains stronger at one-step forecasting. The scope decision is complete; measured contribution, four score extensions and final admission remain open.
+Current selection: **normal-only right-arm motion monitoring using original CASPER**, comparing added correction evidence with residual-only and conventional scores in a single-acquisition case study. The restricted threat assumes truthful monitoring telemetry/time. Exact source, annotations, twelve joint-state features and chronological split metadata are specified; 324 synthetic tests pass, the earlier pilot/control studies are preserved, and a separately bounded observer validation completed. Its state/prediction/synchronization checks support an empirical motion observer with a matched correction-evidence ablation. Simple AR remains stronger at one-step forecasting. The scope decision, score extension, model freeze/calibration and protected final campaign are complete. All eleven methods and eight events are reported with false alarms and coverage. The small correction-score gain does not establish strong detection, novelty or general superiority.
 
 The [current comparison decision](docs/COMPARATOR_ADMISSION.md) keeps CASPER's external-IMU reproduction separate and held; a CASPER-inspired controller CNN is an independent design candidate. TWINE/CatBoost are background for Group D, with no admitted supervised side track. CASPER's corrected paper and TWINE's accepted manuscript are available and AI-audited (**2/3**); CatBoost full text remains unavailable. ModernTCN 2024 is a conditional modified author-code transfer candidate, requiring an adapter and validation; it is not a published CASPER baseline or reproduced method. The pilot is an independent ordinary control; novelty is unverified.
 
 Run future commands from `manufacturing/`; its local `.venv/`, fitted preprocessing, data, and results must not depend on sibling-project state. Dataset authorization is checked per user, not inferred from folder ownership. The [shared research skill](../.agents/skills/academic-research-suite/SKILL.md) remains at the workspace root; its generated state belongs here.
 
-See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. The essential normal-only controls are fitted and selected. The empirical observer and matched ablations are now tested on normal data. Next: specify and implement/test the bounded C/K/L/Rv extension, then freeze the executable comparison before calibration. Independently audit voraus-AD admission as a physical-anomaly track; no additional dataset is admitted. No attack result or validated physical twin exists.
+See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. The essential normal-only controls are fitted and selected. The empirical observer and matched ablations are now tested on normal data. Next: prepare an author-understood methods/results/limitations draft and a separate independent-evidence plan. See the [final report](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) and [completion record](experiments/FINAL_CAMPAIGN_V0.1_RECORD.json). No additional dataset is admitted or physical twin validated. Final outcomes have been exposed; future outcome-driven changes are exploratory and require fresh evidence for a new confirmatory claim.

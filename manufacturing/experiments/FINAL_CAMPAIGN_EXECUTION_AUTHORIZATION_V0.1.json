@@ -1,0 +1,25 @@
+{
+  "kind": "subsequent_explicit_user_authorization_for_frozen_final_campaign",
+  "recorded_at_utc": "2026-10-17T06:21:14.493904+00:00",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "operator": "Codex assistant",
+  "user_instruction": "Run the protected final campaign as declared; account for every registered method/run and preserve artifacts and failures; release joint evaluation only after scoring; analyze detection, false alarms, all eight events, schedule-relative delay, coverage and cost honestly.",
+  "scope": [
+    "one frozen score-final attempt",
+    "one evaluate-final attempt after accepted complete score seal",
+    "saved-artifact verification",
+    "complete joint descriptive analysis and durable records"
+  ],
+  "final_freeze": {
+    "path": "experiments/FINAL_TEST_FREEZE_RECORD.json",
+    "sha256": "1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d"
+  },
+  "budget_source": "Unchanged final freeze: score 900 s wall/600 s CPU/1 GiB RSS/256 MiB output; evaluation 1800 s wall/1200 s CPU/1 GiB RSS/256 MiB output.",
+  "changes_to_fitted_models_thresholds_scientific_choices": false,
+  "stochastic_runs": [],
+  "deterministic_methods": 11,
+  "human_review_attested": false,
+  "publication_or_paid_compute_authorized": false,
+  "historical_authorization_fields": "Frozen config, freeze and runner description refer to the prior preparation task. This later user instruction authorizes final execution without modifying those historical bytes."
+}

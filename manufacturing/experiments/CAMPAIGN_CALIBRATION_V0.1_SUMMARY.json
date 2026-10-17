@@ -1,0 +1,168 @@
+{
+  "kind": "normal_calibration_and_final_readiness_not_attack_benchmark",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "version": "v0.1",
+  "status": "complete_final_not_executed",
+  "model_selection_record": {
+    "path": "experiments/MODEL_SELECTION_FREEZE_V0.1.json",
+    "sha256": "3b3f62ad323fec96aa5940ea081b668286829064a90225293e4790256baa3b36"
+  },
+  "final_freeze_record": {
+    "path": "experiments/FINAL_TEST_FREEZE_RECORD.json",
+    "sha256": "1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d"
+  },
+  "calibration_run": "experiments/runs/campaign_v0.1_calibrate_2026-10-17T061227.592687_0000",
+  "run_manifest_sha256": "495642cc7db6060f19a42afaa0c9f988cacc7523d5e73cc3acf9c2c7ae803553",
+  "model_selection_frozen_at": "2026-10-17T06:12:20.955125+00:00",
+  "calibration_started_at": "2026-10-17T06:12:27.592958+00:00",
+  "calibration_completed_at": "2026-10-17T06:13:20.608899+00:00",
+  "final_freeze_at": "2026-10-17T06:13:50.712014+00:00",
+  "methods": [
+    "O-R",
+    "O-RC",
+    "O-C",
+    "O-K",
+    "O-L",
+    "O-Rv",
+    "O-Follow",
+    "O-Free",
+    "V-Z",
+    "T-32",
+    "AR-4"
+  ],
+  "stochastic_runs": [],
+  "declared_stochastic_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "deterministic_runs_each": 1,
+  "fitting_calls": 0,
+  "calibration_population": {
+    "raw_rows": 162001,
+    "warmup": 1528,
+    "eligible_rows": 160473,
+    "rank_one_based": 158869,
+    "alarm": "score > threshold"
+  },
+  "thresholds": {
+    "O-R": {
+      "threshold": 13.985559778490424,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-RC": {
+      "threshold": 16.463814217165016,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-C": {
+      "threshold": 0.015377372026598208,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-K": {
+      "threshold": 0.05635036542503125,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-L": {
+      "threshold": 7.215389156567541,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-Rv": {
+      "threshold": 9.30218041641827,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-Follow": {
+      "threshold": 14.83928194200882,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "O-Free": {
+      "threshold": 23.009252694772172,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "V-Z": {
+      "threshold": 6.570120518167795,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "T-32": {
+      "threshold": 4.9056682511855545,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    },
+    "AR-4": {
+      "threshold": 0.03677493527896336,
+      "strict_exceedances": 1604,
+      "ties_at_threshold": 1
+    }
+  },
+  "synthetic_tests": {
+    "tests": 324,
+    "success": true,
+    "duration_seconds": 5.888506292016245,
+    "source_files": 52,
+    "receipt_sha256": "43608d58d75251dc2be31991100143059787fe1ff43a0216d8096b122d57aa8c"
+  },
+  "saved_artifact_audit": {
+    "passed": true,
+    "assertions_including_per_row_checks": 162268,
+    "sha256": "bc2f726bde96c208ce8f426f541cb9b676df92f834487f2c4003970be1791f5b"
+  },
+  "production_preflight": {
+    "kind": "production_final_preflight_with_raw_open_rejection_guard",
+    "created_at_utc": "2026-10-17T06:14:41.757865+00:00",
+    "passed": true,
+    "positive_admission": true,
+    "negative_cases_rejected": [
+      "missing_run",
+      "seed_change",
+      "threshold_change",
+      "fitted_reference_change",
+      "mask_change",
+      "budget_change",
+      "bad_calibration_hash"
+    ],
+    "final_freeze_sha256": "1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d",
+    "raw_source_opened": false,
+    "dataset_or_model_replay": false,
+    "final_attempts_present": [
+      false,
+      false
+    ]
+  },
+  "calibration_resources": {
+    "wall_seconds": 52.246721833013,
+    "peak_rss_bytes": 52084736,
+    "process_cpu_seconds": 52.043006,
+    "ru_maxrss_native_unit": "bytes",
+    "source": "getrusage(RUSAGE_SELF)",
+    "system_cpu_seconds": 0.747367,
+    "user_cpu_seconds": 51.295639,
+    "outputs_bytes_including_manifest": 19142875
+  },
+  "final_scoring_executed": false,
+  "final_labels_joined": false,
+  "final_outcomes_exist": false,
+  "model_or_score_selection_from_calibration": false,
+  "future_false_alarm_guarantee": false,
+  "failure_notes": [
+    "Focused initial test invocation lacked PYTHONPATH=src; corrected invocation passed. No raw data or fitting.",
+    "Default-sandbox freeze metadata collection could not read sysctl; no freeze/attempt/data open occurred. Same unchanged freeze command succeeded with approved local hardware inspection."
+  ],
+  "limitations": [
+    "One acquisition with eight dependent scheduled interventions",
+    "Normal-development reuse and weak observer one-step forecasting retained",
+    "Empirical phase observer, not validated physical twin or established new method",
+    "Shared whole-roster compute receipt; not separate per-method inference cost",
+    "Procedural access control, no OS blinding or independent human custodian",
+    "Final full-size scoring/metric resource feasibility remains to be observed; finite abort ceilings frozen"
+  ],
+  "next_step": "Explicitly scoped protected final scoring, seal verification, then separate delayed-label evaluation; no scientific choices may change from calibration/final outcomes."
+}

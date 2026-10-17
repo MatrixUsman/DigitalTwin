@@ -1,54 +1,293 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
+  "status": "ready_for_final_execution_not_executed",
   "project": "manufacturing",
-  "created_at_utc": "2026-10-16T18:39:10.523096+00:00",
-  "record_type": "pending_final_campaign_template_not_executed_record",
-  "status": "pending_prerequisites_not_frozen",
-  "evaluation_policy": {
-    "path": "configs/casper_right_arm_evaluation_v0.1.json",
-    "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0"
-  },
-  "data_contract": {
-    "path": "configs/casper_right_arm_contract_v0.1.json",
-    "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25"
-  },
-  "dataset_source_sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
-  "protected_rows_half_open": [
-    864003,
-    1762650
+  "owner": "Haiqa Mushtaq",
+  "operator": "Codex assistant",
+  "methods": [
+    "O-R",
+    "O-RC",
+    "O-C",
+    "O-K",
+    "O-L",
+    "O-Rv",
+    "O-Follow",
+    "O-Free",
+    "V-Z",
+    "T-32",
+    "AR-4"
   ],
-  "planned_seeds": [
+  "model_selection_frozen_at": "2026-10-17T06:12:20.955125+00:00",
+  "calibration_completed_at": "2026-10-17T06:13:20.608899+00:00",
+  "final_freeze_at": "2026-10-17T06:13:50.712014+00:00",
+  "campaign_started_at": null,
+  "first_outcome_revealed_at": null,
+  "campaign_completed_at": null,
+  "model_selection_record": {
+    "path": "experiments/MODEL_SELECTION_FREEZE_V0.1.json",
+    "sha256": "3b3f62ad323fec96aa5940ea081b668286829064a90225293e4790256baa3b36",
+    "bytes": 44921
+  },
+  "fitted_artifacts": {
+    "ar": {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.001.model.json",
+      "sha256": "f18d2191e41fbda1dc433caac4de2669aef794b41fa01e5ded445be471feaada"
+    },
+    "template": {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins32.model.json",
+      "sha256": "f46cd8248eb09013f0d3b28b5a4505c0f64c7ce3719c58bda9cfe79a7bd52cea"
+    },
+    "velocity": {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/velocity_zmax.model.json",
+      "sha256": "6ab61aac8025ebac4424a9b6f29fc9c27e62b285e9e28fa23d777fda7c924aa2"
+    },
+    "observer": {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer.model.json",
+      "sha256": "28a9376bc93945adc783f7cd11354393fab070d0306081372891df7292977767"
+    }
+  },
+  "calibration_run": {
+    "path": "experiments/runs/campaign_v0.1_calibrate_2026-10-17T061227.592687_0000/run.json",
+    "sha256": "495642cc7db6060f19a42afaa0c9f988cacc7523d5e73cc3acf9c2c7ae803553",
+    "bytes": 6431
+  },
+  "calibration_receipt": {
+    "path": "experiments/runs/campaign_v0.1_calibrate_2026-10-17T061227.592687_0000/calibration.json",
+    "sha256": "c1d78e0828b2fa56772c07bb52459ded36e507353e33458e773b3c1cf7da072b",
+    "bytes": 1882
+  },
+  "thresholds": {
+    "AR-4": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 0.03677493527896336
+    },
+    "O-C": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 0.015377372026598208
+    },
+    "O-Follow": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 14.83928194200882
+    },
+    "O-Free": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 23.009252694772172
+    },
+    "O-K": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 0.05635036542503125
+    },
+    "O-L": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 7.215389156567541
+    },
+    "O-R": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 13.985559778490424
+    },
+    "O-RC": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 16.463814217165016
+    },
+    "O-Rv": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 9.30218041641827
+    },
+    "T-32": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 4.9056682511855545
+    },
+    "V-Z": {
+      "count": 160473,
+      "exceedances": 1604,
+      "rank": 158869,
+      "threshold": 6.570120518167795
+    }
+  },
+  "mask_artifact": {
+    "path": "local/campaign_v0.1/selection_freeze/mask.json",
+    "sha256": "815e55d394ffc75a3fa17d30d09b42b873bdf9aa42c5e251de0a2d3969e8d554",
+    "bytes": 1198
+  },
+  "passing_synthetic_implementation_test_receipt": {
+    "path": "local/campaign_v0.1/selection_freeze/test_receipt.json",
+    "sha256": "43608d58d75251dc2be31991100143059787fe1ff43a0216d8096b122d57aa8c",
+    "bytes": 8006
+  },
+  "source_snapshot": {
+    "path": "local/campaign_v0.1/selection_freeze/source_snapshot.json",
+    "sha256": "f2b7848e8b2901c8bcc44c684ab29aea7ecb8822f34972eabc430367d03d203c",
+    "bytes": 713883
+  },
+  "actual_code_revision_and_dirty_patch": {
+    "git_head": "b207e0758c1dd90fbd09d3aa4de943a11d7f08cb",
+    "patch": {
+      "path": "local/campaign_v0.1/selection_freeze/tracked_workspace.patch",
+      "sha256": "0c7119c57d1182bff3d917f57f696ba67c7a70842ced6f89439e6e6d0d9b892f",
+      "bytes": 187362
+    }
+  },
+  "actual_environment_lock_and_hardware": {
+    "path": "local/campaign_v0.1/selection_freeze/environment.json",
+    "sha256": "8980dd82a07c5e04b3691a4365b86703b5feea289d75db5a09f90833da32a1bf",
+    "bytes": 1850
+  },
+  "execution_commands": {
+    "calibrate": ".venv/bin/python scripts/run_campaign.py --calibrate",
+    "score_final": ".venv/bin/python scripts/run_campaign.py --score-final",
+    "evaluate_final": ".venv/bin/python scripts/run_campaign.py --evaluate-final --score-run <accepted score-final run directory>"
+  },
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "budgets": {
+    "calibrate": {
+      "wall_seconds": 600,
+      "cpu_seconds": 300,
+      "rss_bytes": 1073741824,
+      "output_bytes": 52428800,
+      "poll_seconds": 0.25
+    },
+    "score-final": {
+      "wall_seconds": 900,
+      "cpu_seconds": 600,
+      "rss_bytes": 1073741824,
+      "output_bytes": 268435456,
+      "poll_seconds": 0.25
+    },
+    "evaluate-final": {
+      "wall_seconds": 1800,
+      "cpu_seconds": 1200,
+      "rss_bytes": 1073741824,
+      "output_bytes": 268435456,
+      "poll_seconds": 0.25
+    }
+  },
+  "declared_run_matrix": [
+    {
+      "method": "O-R",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-RC",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-C",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-K",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-L",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-Rv",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-Follow",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "O-Free",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "V-Z",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "T-32",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    },
+    {
+      "method": "AR-4",
+      "seed": null,
+      "replicate": 1,
+      "stochastic": false,
+      "calibration_status": "valid",
+      "final_status": "not_started"
+    }
+  ],
+  "declared_stochastic_seeds": [
     17,
     42,
     2026
   ],
-  "planned_deterministic_control_runs": 1,
+  "stochastic_runs": [],
+  "protected_rows_half_open": [
+    864003,
+    1762650
+  ],
+  "expected_final_eligible": 897119,
   "historical_exposure_disclosure": "Prior file/schema/label/time/gap/boundary audits and public author-result inspection are recorded in docs/WORK_LOG.md. No detector scores or our final outcomes exist. This ledger covers prospective model-outcome access, not a claim that raw data were never read.",
-  "protection_enforcement": "procedural_only_interfaces_and_ledger_not_implemented",
-  "model_selection_frozen_at": null,
-  "calibration_completed_at": null,
-  "final_freeze_at": null,
-  "campaign_started_at": null,
-  "first_outcome_revealed_at": null,
-  "campaign_completed_at": null,
-  "operator": null,
-  "reviewer_or_custodian": null,
-  "actual_code_revision_and_dirty_patch": null,
-  "actual_environment_lock": null,
-  "hardware_record": null,
-  "model_selection_record": null,
-  "mask_artifact": null,
-  "passing_synthetic_implementation_test_receipt": null,
-  "normal_only_pilot_receipt": null,
-  "execution_command_cwd_and_budget": null,
-  "execution_authorization_scope_record": null,
-  "model_roster": [],
-  "fitted_artifacts": [],
-  "calibration_receipts": [],
-  "declared_run_matrix": [],
-  "completed_run_artifacts": [],
-  "prospective_model_outcome_access_ledger": [],
+  "protection_enforcement": "tested procedural admission and label-free scorer; logical access chain; no OS blinding",
+  "final_execution_authorized_by_this_step": false,
+  "no_further_scientific_selection": true,
+  "access_ledger": "local/campaign_v0.1/access.jsonl",
+  "completed_final_runs": [],
   "deviations_and_retries": [],
-  "final_report_artifact": null,
-  "validity_rule": "Empty lists and nulls mean prerequisites incomplete, never a valid zero-model campaign. Populate only from actual artifacts and actions; do not infer human approval."
+  "final_report_artifact": null
 }

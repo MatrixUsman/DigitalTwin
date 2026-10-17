@@ -1,0 +1,126 @@
+{
+  "accepted": true,
+  "aligned_scores_total": 962832,
+  "artifact_readback": {
+    "all_scores_finite": true,
+    "calibration_or_final_opened": false,
+    "exact_coordinate_parity": true,
+    "exact_historical_score_parity": {
+      "O-R": true,
+      "O-RC": true
+    },
+    "fit_calls": 0,
+    "input_hashes_unchanged": true,
+    "saved_index_rows": 160472,
+    "score_variants": 6
+  },
+  "attack_metrics": null,
+  "calibration_access": false,
+  "completed_at_utc": "2026-10-17T05:52:22.508925+00:00",
+  "configuration_sha256": "57876f77ce2f447b127766246d91e0775a1e15de2996946b210adc4ed3fe0497",
+  "eligible_endpoints_per_score": 160472,
+  "final_feature_access": false,
+  "independent_internal_audit": {
+    "checks_passed": 257,
+    "kind": "internal_AI_assisted_saved_artifact_integrity_check_not_independent_empirical_replication",
+    "raw_reopened": false,
+    "receipt_path": "local/score_extension_review/saved_artifact_audit.json",
+    "receipt_sha256": "98e10078d5da25f4dfd3dc8d270b5177f573d126dfeb3ba04cab688ea4b38222"
+  },
+  "independent_validation_partition": false,
+  "kind": "normal_only_score_extension_software_alignment_validation_not_attack_benchmark",
+  "limitations": [
+    "same_normal_development_reuse",
+    "no_physical_phase_ground_truth",
+    "no_attack_or_final_normal_metrics",
+    "score_means_are_not_performance_ranking",
+    "weights_and_energy_not_calibrated_probabilities"
+  ],
+  "load_stats": {
+    "csv_records_traversed": 702002,
+    "hash_bytes": 3956386188,
+    "hash_scans_completed": 2,
+    "hash_seconds": 1.448133334168233,
+    "selected_rows_parsed": 162000,
+    "source_verified": true,
+    "stream_checks_completed": true,
+    "valid_observations": 162000
+  },
+  "new_explanatory_score_variants": 4,
+  "new_fitting": false,
+  "owner": "Haiqa Mushtaq",
+  "plan_sha256": "a5754c9ddb4b18e89c08677b7c661e6993a6b67205418a3cd9df96393234b359",
+  "project": "manufacturing",
+  "resource_measurements": {
+    "maximum_poll_gap_seconds": 0.25113558396697044,
+    "outputs_including_manifest_bytes": 17090049,
+    "rss_samples": 136,
+    "sampled_peak_rss_bytes": 39534592,
+    "supervised_wall_seconds": 34.014629875076935,
+    "worker_cpu_seconds": 33.783556,
+    "worker_peak_rss_bytes": 44679168
+  },
+  "run_manifest_sha256": "222c7dab492be668641d7f53772476e92a902f4ee257d5dd68ec8bb951897900",
+  "score_selection_performed": false,
+  "score_summaries": {
+    "O-C": {
+      "max": 0.024737070609407955,
+      "mean": 0.0018540639953986005,
+      "min": 9.18970392347011e-05,
+      "n": 160472,
+      "path": "O-C.scores.f64",
+      "sha256": "72fafc0e47af6f4906dd242435efa13e8b2b54079b11c46c59096677efbd541d"
+    },
+    "O-K": {
+      "max": 0.09406392193938622,
+      "mean": 0.006835572991551919,
+      "min": 0.00029547097193081213,
+      "n": 160472,
+      "path": "O-K.scores.f64",
+      "sha256": "e5be362cfc68b154e9481b59ee2c34821a99901fe557ab66e0663e7a029f742b"
+    },
+    "O-L": {
+      "max": 13.683644436447688,
+      "mean": 0.5466955536286918,
+      "min": 0.0007011730151647022,
+      "n": 160472,
+      "path": "O-L.scores.f64",
+      "sha256": "5c22a3e73ef7101ed1991d26a3c6247e0b59be4fe883688d0a8a6f384bd280e4"
+    },
+    "O-R": {
+      "max": 26.678739020166535,
+      "mean": 0.998483843590454,
+      "min": 1.3392103355818705e-06,
+      "n": 160472,
+      "path": "O-R.scores.f64",
+      "sha256": "aeac99c18828d9cd6686941cdde725d2c07038ae13ca2118c6301a64968e7dba"
+    },
+    "O-RC": {
+      "max": 33.46385334825809,
+      "mean": 1.9976307340888584,
+      "min": 0.049528090009188994,
+      "n": 160472,
+      "path": "O-RC.scores.f64",
+      "sha256": "b150d02208d2bd71f05d2a5734a4f143dddd2b85a364d2d8548e733d82c69f5b"
+    },
+    "O-Rv": {
+      "max": 18.09784900473613,
+      "mean": 0.5449087333872906,
+      "min": 1.3754319064431658e-07,
+      "n": 160472,
+      "path": "O-Rv.scores.f64",
+      "sha256": "82deb68595fb138b265c45a65b71b41589bfaa556e9ad5e60d3fed74ba50ac69"
+    }
+  },
+  "score_variants": 6,
+  "security_benefit_established": false,
+  "seed": null,
+  "selected_rows_parsed": 162000,
+  "source_inventory_count": 46,
+  "source_run": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z",
+  "started_at_utc": "2026-10-17T05:51:48.191385+00:00",
+  "status": "completed",
+  "test_receipt_sha256": "7329b62b0e2ed09632219cfe658248c3b8c3568c7fe20b9fcd2bc6c4cf31dd10",
+  "tests_run": 295,
+  "thresholds": null
+}

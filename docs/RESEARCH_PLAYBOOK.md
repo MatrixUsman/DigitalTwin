@@ -27,6 +27,18 @@ Expected artifacts: claim-to-prior-art/evidence matrix, scientific comparison ro
 
 Executed example: manufacturing [scope decision](../manufacturing/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [roster](../manufacturing/docs/COMPARISON_ROSTER_DECISION.md) and [independent-evidence plan](../manufacturing/docs/INDEPENDENT_EVIDENCE_PLAN.md), 17 October 2026. Reuse the process in water/grids, not its dataset assumptions, selected controls, results or completion status.
 
+### Extending scores without changing a fitted observer
+
+**Executed/validated in manufacturing, 17 October 2026:** [four-score extension report](../manufacturing/docs/SCORE_EXTENSION_REPORT_V0.1.md). Reuse this procedure, not its model, data counts or results, in another project.
+
+1. Freeze the existing model/scaler, source implementation, data/evaluation contracts, dependency hashes and previous run/attempt records. Specify new scores and their scientific roles before protected outcomes; no new score weights or threshold selection is implied.
+2. Add a pure score module around the same prospective proposal. Separate proposal creation, score emission and state commit; preserve exact old-score arithmetic and state transitions. Declare numerical support, zero limits, log-domain calculations and tolerances.
+3. Test independent arithmetic, high-precision examples, underflow/overflow, immutable state, feature/label isolation and malformed inputs using explicitly synthetic fixtures. Test the new runner against synthetic prior artifacts and preserve failure diagnostics. Bind a fresh complete test receipt to the actual source inventory/interpreter.
+4. Declare one bounded no-fit replay on permitted normal data. Preserve warmup, gaps and exact support. Use prior score arrays/coordinates as strict compatibility checks, never as tuning targets. Record source hashing, positioning traversal and selected observation parsing separately.
+5. Enforce actual wall/CPU/RSS/output caps and one-attempt records. Resolve monitoring restrictions without silently disabling monitoring. Save provenance, all scores, source/model pre/post checks and failures; do not auto-retry a real failure.
+6. Independently read back saved artifacts: complete hashes/lengths, finite values, exact old-score/index parity, algebraic cross-score bounds, immutable inputs, resource receipts and attempt ledger. State which formulas cannot be independently reconstructed without additional retained histories.
+7. Preserve the original documents/artifacts as historical snapshots. Record current readiness in a new report/registry and handoff, not by rewriting a consumed plan. A successful extension admits software/normal replay only; calibration, final tests and scientific claims retain separate gates.
+
 ### Session record procedure
 
 1. Select the active project and bounded task from the user's instruction or its recorded next step. Read root and project `AGENTS.md`, its brief, status, and latest work-log entries.
@@ -248,3 +260,20 @@ Use a request such as:
 > Work in `manufacturing/`. Read the shared research playbook, project instructions, status and work log. Apply the literature and dataset-feasibility procedure to manufacturing sources, using water's lessons where relevant. Record actual work and unresolved facts, update the handoff, and stop before installation or training.
 
 Use `smart_grids/` when that audit begins. Carry over the checklist and verified engineering lessons; independently select that project's sources, datasets, configuration and scientific assumptions.
+
+## Freezing actual choices and calibrating without reopening selection
+
+**Executed/validated in manufacturing, 17 October 2026:** [freeze/calibration report](../manufacturing/docs/CAMPAIGN_FREEZE_AND_CALIBRATION_REPORT_V0.1.md). This is a reusable procedure; counts, parameters, models and results are project-specific.
+
+Prerequisites: admitted data/splits, tested causal models/metrics, actual fitted artifacts from permitted development, complete scientific method roster and an explicit fixed calibration rule. A template with empty hashes is not a freeze.
+
+1. Freeze every method/ablation and its actual artifact; preserve all candidate outcomes and selection rules. Identify shared state/scalers and score-only ablations. Declare seeds only for stochastic methods; deterministic controls run once. Bind source snapshots, revision/dirty patch, dependencies, commands, masks, budgets and reporting before calibration opens.
+2. Preserve historical specifications as snapshots. If replacing an empty final-freeze template, archive its old bytes and explicitly record the transition. Do not reinterpret earlier evidence using silently changed files.
+3. Implement a label-free, partition-bounded calibration replay. Use exact shared eligible support; fail on missing, nonfinite, extra or reordered outputs. Never rank variants or change fusion/percentiles from calibration. Distinguish feature parsing from positioning tokenization and whole-byte identity scans.
+4. Test synthetic end-to-end calibration, score sealing and delayed label joining; test model immutability, causal scoring, invalid labels, ties, missing methods, tampered references, failure retention and consumed attempts. Require a matching full test receipt before real access.
+5. Run one bounded local calibration with actual supervision/resource receipts, pre/post source checks and retained failures. Save every method's scores and exact rank/tie rule. Reconstruct thresholds independently from saved arrays; verify the entire common coordinate support and frozen inputs. Quantiles do not guarantee a future alarm rate.
+6. Populate a separate actual final freeze with fitted/reference hashes, thresholds, calibration receipts and complete run matrix. Keep future event times/results null. Validate final admission with raw-open rejection and deliberately corrupted metadata without changing real artifacts.
+7. Separate future final feature scoring from evaluation. Seal all declared complete score streams and accepted terminal manifests before any label join or outcome release. Keep a logical access/failure ledger and report its limits; no OS-blinding or independent-custodian claim without evidence. Failures remain visible, with no silent success-only comparison.
+8. Freeze budgets large enough to retain the whole campaign; full final score arrays can exceed pilot output caps. Distinguish measured calibration resources from unmeasured future resources. Stop at the user's authorized stage; preparation is not final execution.
+
+Expected artifacts: actual selection freeze and source/environment snapshots, bound original candidate/fitted records, versioned plan/configuration, passing synthetic receipt, calibration attempt/run/sealed scores/thresholds, independent saved-artifact audit, populated final freeze, production preflight, current status/roadmap and work log. Outcome: technical readiness for final evaluation, not demonstrated superiority, novelty or generalization. Recheck each sector's permissions and scientific assumptions before reusing this procedure.

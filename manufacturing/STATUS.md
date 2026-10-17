@@ -1,20 +1,20 @@
 # Manufacturing status
 
-As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active while water waits for iTrust. The pilot, ordinary controls and empirical observer study are preserved: **254 synthetic tests**, **7/7 internal normal-data checks**, and **48/48 saved-artifact checks** passed previously. The [contribution/evidence review](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) is now complete as a design decision: proceed with a **single-acquisition score-comparison case study**, withhold new-twin/broad-security claims, and add four conventional explanatory scores before calibration. No attack benefit or completed empirical contribution is established.
+As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing remains active while water waits for iTrust. The [protected final campaign and joint analysis](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) are complete: **eleven deterministic methods, 897,119 finite scores each, all eight event outcomes**, one accepted scoring attempt and one accepted delayed-label evaluation. No failures or retries. The saved-result arithmetic audit passed. The correction-score gain is small and absolute detection is poor; this single-acquisition study does not establish a general detector or novel digital twin. The holdout is now exposed.
 
 | Item | Actual state |
 |---|---|
-| Stage | Observer/controls/loader/metrics/supervisor implemented; 254 tests; preserved pilot/control studies plus one bounded normal-only observer validation; paper-method admission remains conditional |
+| Stage | Protected final campaign and joint analysis complete; every declared run accounted for and artifacts preserved |
 | Recommended setting | Industrial robotic arms; original CASPER pick-and-place collection |
 | Title / question | Provisional “Correction Evidence in Robotic Motion Monitoring: A CASPER Case Study”; same-filter R versus R+C, with classical surprise/energy and direct-velocity explanations |
 | Contribution / breadth decision | Narrow scope selected; phase tracking, surprise and tracking/detection trade-offs are established. One acquisition/eight dependent intervals does not support cross-robot/task/cyber generalization |
-| Core comparison design | Eleven deterministic variants: seven implemented; C-only, KL K, energy L and same-filter velocity Rv still design-only. ModernTCN/independent alignment conditional on broader claims |
+| Core comparison design | Eleven deterministic variants, one run each, actual fitted references/configurations frozen; all eleven calibrated. ModernTCN/independent alignment remain conditional on broader claims |
 | Independent evidence | voraus-AD and NIST screened as separate physical-fault/benign routes; no new dataset received/admitted, no new cyber ground truth |
 | Selected threat / inputs | Command/application speed manipulation with truthful monitoring telemetry/time assumed; twelve right-arm joint-position/velocity channels plus relative-time context |
 | Annotation / splits | Recorded schedule flags, eight events; exact chronological blocks, common eligible support and continuous final replay defined |
-| Calibration / metrics | Threshold-only nearest-rank 99% with strict exceedance; unadjusted counts/P/R/F1, normal burden, AP, event/delay, coverage and cost rules specified |
-| Final-test protection | Both final slices protected; development wrapper blocks calibration/final opens. Public raw bytes remain accessible; no OS enforcement or completed artifact freeze |
-| Repeats | Final stochastic seeds 17, 42, 2026; deterministic controls once; all failures retained, no best-seed selection |
+| Calibration / metrics | All eleven thresholds stayed fixed at ascending rank 158,869 of 160,473, strict exceedance; P/R/F1/AP, normal burden, coverage, events/delays and recovery audited |
+| Final-test protection | All scores sealed before labels; joint outcomes inspected after every method completed. Original freeze preserved; actual access/completion recorded separately. Holdout now exposed |
+| Repeats | All eleven deterministic methods ran once, seed null. Policy seeds 17, 42, 2026 unused; no stochastic variability or independent replications |
 | Learning set | CASPER 2024, TWINE 2026, CatBoost on CASPER 2026; source/admission notes under `baselines/` |
 | Shared-data evidence | Our v3 bytes/hashes fixed; equivalent bytes behind every published run, common annotations/inputs and run correspondence remain unresolved |
 | Public data access | Original CASPER v3 acquired publicly under provider CC BY-SA 4.0 terms; no institutional approval required |
@@ -32,7 +32,13 @@ As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active whi
 | Observer validation | 38-second recurrence and ordered phase progression; all 7 internal checks passed on 536,946 training / 160,472 development endpoints; same development reused after template selection |
 | Observer limits | One-step MSE 0.338911 versus AR 0.002094; 53.12% descriptive phase ambiguity; uncertainty uncalibrated; diffusive free-running comparison is limited |
 | Observer resources | 169.945 s wall, 169.649 s CPU, 330.19 MiB peak RSS, 14.05 MiB outputs; all caps met |
-| Attack benchmark results / novelty evidence | None |
+| Score extension | Six same-state outputs / 160,472 endpoints each; no fitting; exact previous R/RC/index parity; all 66 historical protected hashes unchanged |
+| Score-extension resources | 34.015 s wall, 33.784 s CPU, 42.61 MiB peak RSS, 16.30 MiB outputs; all caps met |
+| Frozen calibration resources | 52.247 s supervised wall, 52.043 s CPU, 49.67 MiB peak RSS, 18.26 MiB outputs; all limits satisfied |
+| Protected scoring resources | 270.890 s wall, 270.520 s CPU, 143.19 MiB peak RSS, 102.317 MiB outputs; all frozen limits met |
+| Joint evaluation resources | 44.778 s wall, 44.660 s CPU, 902.50 MiB peak RSS, 0.188 MiB outputs; all frozen limits met |
+| Main result / novelty | O-RC F1 0.017292 versus O-R 0.016603; O-RC recall 0.8805%, 0.9941% normal point alarms and 185.98 episodes/hour. Small within-recording gain; no established novelty or general superiority |
+| Ordinary controls | AR-4 F1 0.018846 with 437.09 normal episodes/hour; T-32 F1 0.074737 with 1.3997% normal point alarms. No method exceeded 4.0217% point recall |
 
 ## Important limits
 
@@ -51,19 +57,17 @@ As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing is active whi
 
 ## Next bounded action
 
-The [complete paper roadmap](docs/PAPER_ROADMAP.md) tracks Stages 0–18 through submission and peer review. The first control/runner and bounded pilot stages are now complete. The essential full-training controls are also complete. Literature admission, researcher learning and evidence-scope planning continue in parallel.
+Stages 12–15 of the [complete paper roadmap](docs/PAPER_ROADMAP.md) are complete for the frozen within-recording study. Preserve the [selection freeze](experiments/MODEL_SELECTION_FREEZE_V0.1.json), immutable [pre-execution freeze](experiments/FINAL_TEST_FREEZE_RECORD.json), [actual completion record](experiments/FINAL_CAMPAIGN_V0.1_RECORD.json), all scores/thresholds/manifests and consumed attempts. No scientific choices changed after freezing.
 
-The [pilot report](docs/PILOT_REPORT.md) records 150 passing synthetic tests and the successful real-data attempt. The loader parsed 70,000 selected normal-prefix observations; 610,002 CSV records were traversed for positioning, and two full-source byte hashes checked identity. No calibration/final observations were parsed, and raw data remains unchanged. The historical [pilot plan](docs/BOUNDED_PILOT_PLAN.md) and [configuration](configs/casper_right_arm_pilot_v0.1.json) retain their original planning fields; the actual execution record supersedes those status fields.
+Next: prepare an author-understood methods/results/limitations draft and decide what independent evidence would be required for any broader or redesigned study. O-RC overlaps all eight events, but its sparse point recall and high normal episode rate prevent calling that reliable attack recognition. The primary pair tests correction evidence; both retain progression. Isolated per-method cost and latency quantiles are unavailable, so the report does not claim a measured compute advantage.
 
-**Essential controls are complete:** the [control-study report](docs/CONTROL_STUDY_REPORT.md) records all seven candidates, their normal-development objectives and the [three selected artifacts](experiments/SELECTED_CONTROLS_V0.1.json). No development refit or threshold was applied. Its historical 205-test receipt and 34 source/configuration fingerprints are preserved; an independent saved-artifact audit passed 28/28 checks.
-
-**Observer milestone complete:** the [validation report](docs/OBSERVER_VALIDATION_REPORT.md) defines the phase state, nominal transition, prospective prediction and correction. The principal R versus R+C pair shares exactly the same trajectory; unconstrained/free-running variants were also evaluated. All seven internal checks passed, but AR is much stronger at one-step prediction. Use **empirical motion observer**, preserve the negative comparison, and treat correction-evidence detection benefit as unmeasured. The [fitted-artifact registry](experiments/OBSERVER_ARTIFACTS_V0.1.json) is not final admission.
-
-**Contribution design complete; execution still pending:** the [scope decision](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) and [core roster](docs/COMPARISON_ROSTER_DECISION.md) define the narrow claim, competing explanations and falsification rules. Next specify a separately versioned bounded C/K/L/Rv extension, then implement/test and validate it on permitted normal data. Preserve observer v0.1 and the 254-test receipt; neither covers those new scores. In parallel, audit [independent-source admission](docs/INDEPENDENT_EVIDENCE_PLAN.md), starting with voraus-AD as a physical-anomaly track. ModernTCN and causal alignment remain conditional before broader competitive claims. Freeze actual complete artifacts/commands before calibration. Both final slices stay closed and the [freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json) remains pending.
-
-The [comparison decision](docs/COMPARATOR_ADMISSION.md) now assigns each learning paper an explicit role and separates conditional transfer/design candidates from execution-ready methods. A CASPER-inspired controller CNN must be independently implemented from documented ideas without copying code whose reuse terms remain unresolved. No change has been made to water or grid research status.
+The original final holdout cannot become fresh confirmation through a rerun or reshuffle. Outcome-motivated changes are exploratory and must be declared as such. Prior plans/reports remain historical evidence; the new completion record supersedes their readiness fields without rewriting frozen inputs. Researcher comprehension and source-specific independent-evidence admission remain separate; no new dataset, generalization claim or publication is admitted.
 
 ## Evidence and persistent records
+
+- [Freeze/calibration report](docs/CAMPAIGN_FREEZE_AND_CALIBRATION_REPORT_V0.1.md), [selection freeze](experiments/MODEL_SELECTION_FREEZE_V0.1.json), [actual final freeze](experiments/FINAL_TEST_FREEZE_RECORD.json), [safe summary](experiments/CAMPAIGN_CALIBRATION_V0.1_SUMMARY.json), [324-test report](experiments/SOFTWARE_TEST_REPORT_CAMPAIGN_V0.1.json).
+
+- [Score-extension report](docs/SCORE_EXTENSION_REPORT_V0.1.md), [frozen plan](docs/SCORE_EXTENSION_PLAN_V0.1.md), [295-test report](experiments/SOFTWARE_TEST_REPORT_SCORE_EXTENSION_V0.1.json), [safe summary](experiments/SCORE_EXTENSION_V0.1_SUMMARY.json), [extension artifact registry](experiments/SCORE_EXTENSION_ARTIFACTS_V0.1.json).
 
 - [Contribution and evidence scope](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [eleven-variant comparison design](docs/COMPARISON_ROSTER_DECISION.md), [independent-evidence plan](docs/INDEPENDENT_EVIDENCE_PLAN.md).
 - [Periodic alignment prior art](docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md), [innovation/synchronization prior art](docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md), [independent-source screen](docs/literature/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md). These are bounded primary-source audits, not exhaustive novelty proof or new baseline executions.
@@ -73,7 +77,7 @@ The [comparison decision](docs/COMPARATOR_ADMISSION.md) now assigns each learnin
 - [Control-study report](docs/CONTROL_STUDY_REPORT.md), [declared model plan](docs/SIMPLE_CONTROLS_PLAN.md), [205-test report](experiments/SOFTWARE_TEST_REPORT_CONTROLS_V0.1.json), [safe run summary](experiments/CONTROLS_V0.1_SUMMARY.json), [selected-control registry](experiments/SELECTED_CONTROLS_V0.1.json).
 
 - [Pilot report](docs/PILOT_REPORT.md), [safe run summary](experiments/PILOT_V0.1_SUMMARY.json), [150-test report](experiments/SOFTWARE_TEST_REPORT_PILOT_V0.1.json), [historical 83-test foundation](docs/SOFTWARE_VALIDATION.md), [environment](docs/ENVIRONMENT.md), [historical pilot plan](docs/BOUNDED_PILOT_PLAN.md), [pilot JSON](configs/casper_right_arm_pilot_v0.1.json).
-- [Evaluation protocol](docs/EVALUATION_PROTOCOL.md), [metric formulas](docs/METRIC_DEFINITIONS.md), [final-test protection](docs/FINAL_TEST_PROTECTION.md), [evaluation JSON](configs/casper_right_arm_evaluation_v0.1.json), [pending freeze record](experiments/FINAL_TEST_FREEZE_RECORD.json).
+- [Evaluation protocol](docs/EVALUATION_PROTOCOL.md), [metric formulas](docs/METRIC_DEFINITIONS.md), [final-test protection](docs/FINAL_TEST_PROTECTION.md), [evaluation JSON](configs/casper_right_arm_evaluation_v0.1.json), [actual final freeze](experiments/FINAL_TEST_FREEZE_RECORD.json).
 - [Evaluation design review and dispositions](docs/EVALUATION_PROTOCOL_REVIEW.md); metadata/arithmetic checks passed, foundational software is now synthetic-tested; model-specific and production final-runner validation remain pending.
 - [Current comparator admission decision](docs/COMPARATOR_ADMISSION.md), [admission rules](docs/BASELINE_SELECTION_CRITERIA.md), [historical selection screen](docs/BASELINE_SELECTION_REPORT.md), [literature register](docs/LITERATURE_EVIDENCE.md).
 - [Received-file identity](docs/CASPER_DATASET_IDENTITY.md), [receipt manifest](datasets/manifests/casper_v3_receipt.json), [manuscript/code collection](docs/MANUSCRIPT_COLLECTION_AUDIT.md), [proposed protocol](docs/COMPARISON_PROTOCOL.md).
