@@ -1049,3 +1049,30 @@ The build command was executed four times with the documented typography edits. 
 No training, simulation, raw-observation parsing, new final exposure, system-package changes, external contact, upload, submission or assistant-issued Git mutation occurred. Sibling projects are unchanged. Next manuscript step is human review and journal selection; the next scientific step remains justified operational uncertainty estimates and a distinct, fairly tested mechanism. Existing shared playbook already covers revision/source packaging, so no root guidance was changed.
 
 MFG-040 closing integrity: `manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.1/package.py` sealed **38 files** and validated a **16-entry, 86,360-byte** editable source ZIP (`03670697081f9f56bb58d3597da446f1008cb07f9453ea8aa64e89cacae9b560`). A fresh hash check passed every sealed binding; ZIP CRC and byte parity passed. Working-tree and staged whitespace checks scoped to this revision passed. The broader staged check reports existing Matplotlib SVG trailing whitespace in the immutable v0.11 learning-curve figure; it was left untouched to preserve its recorded hash. Archived handoffs precede this closing note. No task or experiment remains running.
+
+## MFG-041 — Natural academic prose revision with content preservation, 17 October 2026
+
+The user reported that AI checkers flagged the manuscript and requested more natural wording without breaking it. The assistant stated that a detector outcome cannot be guaranteed and applied the research-writing and PDF skills to a language revision. No detector was accessed and the user's reported score was not independently verified. The factual AI-assistance disclosure remains unchanged; no human-only authorship claim, artificial error, hidden text or character-obfuscation technique was introduced.
+
+Created isolated `manuscript_after_v1.2/` and `output/pdf/AFTER-Muhammad-Usman-revised.pdf`, preserving revision 1.1 and all earlier artifacts. Applied localized paragraph patches to the abstract, introduction, related work, selected methods/results, discussion, conclusion and appendix explanations. The explicit whole-manuscript request authorized the abstract copyedit; its findings were not regenerated or changed. The skill's writing-quality guidance was used inline, without claiming the formal full review-roadmap pipeline or independent review.
+
+Forty-three paragraphs changed. The revision replaces repeated project-note language with concrete explanations of command restoration, remaining motion, reference error, the failed allowance and the averaging trade-off. All negative outcomes and limits remain visible. IMU, ARX, FIR, PD, RMSE, MSE and CNN are expanded where useful. No claims of novelty, CASPER superiority, physical validation or human approval were added.
+
+One offline Tectonic build succeeded, yielding 20 pages and PDF SHA-256 `7daad09b2576153a2a9da8b6efe75abd287cb1cb93f12d6b3fd5a4eb2132e938` (196,510 bytes). All pages were rendered and visually inspected: no clipping, overlap, missing glyphs or unresolved references observed. Compiler log has no overfull/underfull boxes or reference/glyph warnings. All eight tables and four vector figures remain readable.
+
+`audit.py` passed **210 checks**. It verifies the base source inventory and 38-file sealed prior package, original PDF preservation, exact inline math and equation/proof environments, unchanged tables/figures/assets/bibliography, unchanged citation/reference commands and labels, per-paragraph numerical-token counts, declarations, build inputs, metadata and rendering. `REVISION.diff` and `PARAGRAPH_CHANGES.json` preserve every edit for review. Semantic equivalence was reviewed by the same assistant; mechanical number preservation is not claimed to prove it independently.
+
+The first acronym-check invocation used the wrong skill subdirectory and failed before reading the manuscript. The script was located under `ars/scripts/`, then run on extracted PDF text. A final English-body/abstract advisory report is retained. Proper names and standard technical abbreviations remain flagged, and the script cannot mechanically recognize the conventional ARX expansion. These exceptions are documented; no clean automated acronym verdict is asserted. No additional prose change followed the rendered inspection.
+
+Commands from workspace root:
+
+```sh
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.2/build_pdf.py
+pdftoppm -r 100 -png manufacturing/output/pdf/AFTER-Muhammad-Usman-revised.pdf manufacturing/local/manuscript_after_v1.2/qa/page
+manufacturing/.venv-pdf/bin/python .agents/skills/academic-research-suite/ars/scripts/check_acronyms.py --input manufacturing/local/manuscript_after_v1.2/acronym_input.md --scopes body,abstract_en --lang en --json-out manufacturing/local/manuscript_after_v1.2/acronym_report_final.json
+manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.2/audit.py
+```
+
+The PDF skill's edit-operation marker ran once before creating this revision. A source-only ZIP and sealed editorial package are prepared separately. No raw observations were opened, no experiment or training ran, and no system package, sibling project, external service, publication or assistant-issued Git mutation was involved. Current scientific and submission limits remain those of the prior manuscript. Next: author review of the revised prose and journal-specific preparation when a venue is selected. Existing shared playbook already covers this preservation workflow.
+
+MFG-041 closing integrity: `manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.2/package.py` sealed 38 files and validated the 16-entry editable source ZIP (86,814 bytes; SHA-256 `6e762c2762b3cd504f71546f13d9d9883523ab7b4e34ae68973e5c7ab44e87d8`). A fresh full manifest check and ZIP CRC check passed. Current-revision working-tree and staged whitespace checks passed. Handoff snapshots precede this closing note. No running task remains and no AI-detector result is available or asserted.

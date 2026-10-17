@@ -1,0 +1,42 @@
+{
+  "started_utc": "2026-10-17T17:14:00.065019+00:00",
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/pdf_build_v0.1/bin/tectonic",
+    "--untrusted",
+    "--keep-logs",
+    "--keep-intermediates",
+    "--outdir",
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/manuscript_after_v1.2/pdf_build/attempt_001",
+    "--only-cached",
+    "main.tex"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/manuscript_after_v1.2",
+  "compiler_sha256": "b52b5a730e2b0b33087304f7720f649603953f270a6b1c88bb031e1ae01f7f9c",
+  "compiler_version": "Tectonic 0.17.0",
+  "offline": true,
+  "source_sha256": {
+    "build_pdf.py": "ec40b35e50ab663a047f21c06befd095eb0b719ae28c2681bc6e390e33eff115",
+    "figures/commissioning.pdf": "a5f7495b77d449986903ec724a234329495df9c61699442235e9906debb292c4",
+    "figures/imu_learning_curves.pdf": "2e4fd515f530c167f05ac32a73af742417648a11ba9a346b89497d5a71e7b25e",
+    "figures/recovery.pdf": "548e3b8d4bd29f610e77d0f3d58f7d137b236c5f5253f5749e06f9d214237793",
+    "figures/window_feasibility.pdf": "af794d0c63fc768f9a15ac34e68ba85dcf7b18df61e56ecc1c1a57c6864c23bc",
+    "generated/attack.tex": "f35a9544bc20a4da52d90424068bdc053b00a8f91074b55f54bf16377e979f65",
+    "generated/imu.tex": "7c2c540804a4e649674d98a99838762c01576e9632cf680b67fdd8e1888f376c",
+    "generated/metrics.tex": "b1469ffdf4198aac15f1817486cc2311ead7bf41f7d1a3128a981db8478bdc70",
+    "generated/noise.tex": "6bb65a0446f10aadd7f9b723446d87aca7a18924be39158ab491edb60f5c50eb",
+    "generated/normal.tex": "878a82e85ac9811ecb7a407c70317912861c8a2383a41705b17d9cefb5da47f4",
+    "generated/normal_all.tex": "3c9c746441ac88847a09594cab3d15ddc4a4e03ec60a02c0d26054164e5c9098",
+    "generated/window.tex": "94575b2b0e9124d2f1f6c6fb1f6220823fd18192fef1177a429437f9f81e711c",
+    "main.tex": "95c5877ff12de3bfcec1f440495d6cb0b92a18098fb1dab7ab52a11887084d02",
+    "sections/imu_reference.tex": "431690497e2b16c0382b62b35e8afd638ad771b04c15b3f3cd635261bde58b05",
+    "sections/return_bound.tex": "90133aae62d241265bb89f5cc2cbfaea4b9dbc327b77b84582c2b811e99c1e83"
+  },
+  "attempt": "local/manuscript_after_v1.2/pdf_build/attempt_001",
+  "returncode": 0,
+  "completed_utc": "2026-10-17T17:14:00.561376+00:00",
+  "sources_unchanged": true,
+  "pdf": "output/pdf/AFTER-Muhammad-Usman-revised.pdf",
+  "pdf_sha256": "7daad09b2576153a2a9da8b6efe75abd287cb1cb93f12d6b3fd5a4eb2132e938",
+  "bytes": 196510,
+  "visual_review": "Pending separate rendered-page inspection"
+}

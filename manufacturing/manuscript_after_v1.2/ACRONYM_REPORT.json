@@ -1,0 +1,136 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "manufacturing/local/manuscript_after_v1.2/acronym_input.md",
+  "input_sha256": "166205fcd625d4d756f25363e0aec5c03842b33649f8d689efc170b7a228d18a",
+  "status": "partial",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "checked",
+    "abstract_zh": "not_requested"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        24,
+        1015
+      ]
+    ],
+    "abstract_en": [
+      [
+        2,
+        22
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [
+    {
+      "scope": "body",
+      "line": 78,
+      "acronym": "ARX",
+      "reason": "unconfirmed_definition"
+    }
+  ],
+  "findings": [
+    {
+      "scope": "body",
+      "line": 59,
+      "rule": "undefined",
+      "acronym": "AFTER",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 65,
+      "rule": "undefined",
+      "acronym": "CASPER",
+      "expansion": null,
+      "occurrences": 9
+    },
+    {
+      "scope": "body",
+      "line": 82,
+      "rule": "undefined",
+      "acronym": "FAIL",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 104,
+      "rule": "undefined",
+      "acronym": "RESCUE",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 548,
+      "rule": "undefined",
+      "acronym": "AR",
+      "expansion": null,
+      "occurrences": 6
+    },
+    {
+      "scope": "body",
+      "line": 686,
+      "rule": "undefined",
+      "acronym": "CPU",
+      "expansion": null,
+      "occurrences": 6
+    },
+    {
+      "scope": "body",
+      "line": 686,
+      "rule": "undefined",
+      "acronym": "MiB",
+      "expansion": null,
+      "occurrences": 10
+    },
+    {
+      "scope": "body",
+      "line": 817,
+      "rule": "undefined",
+      "acronym": "SHA",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 836,
+      "rule": "undefined",
+      "acronym": "ReLU",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1009,
+      "rule": "undefined",
+      "acronym": "AI",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1010,
+      "rule": "undefined",
+      "acronym": "OpenAI",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "abstract_en",
+      "line": 17,
+      "rule": "undefined",
+      "acronym": "CASPER",
+      "expansion": null,
+      "occurrences": 1
+    }
+  ]
+}

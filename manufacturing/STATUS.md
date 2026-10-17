@@ -1,5 +1,11 @@
 # Manufacturing status
 
+## Current manuscript — prose revision 1.2, 17 October 2026
+
+[Revision 1.2](manuscript_after_v1.2/README.md) is the current [20-page PDF](output/pdf/AFTER-Muhammad-Usman-revised.pdf). The user requested more natural wording after reporting an AI-detector flag. Forty-three prose paragraphs were edited for clarity and flow; **210 preservation/build checks passed** and all 20 rendered pages were visually inspected. Equations, proofs, tables, figures, numerical tokens, citations, author details and declarations are preserved. The abstract was copyedited as part of the whole-manuscript request, without changing its findings. The editable source archive accompanies the PDF.
+
+No AI-detector outcome is promised or measured, and no detector service received the manuscript. The factual AI-assistance disclosure remains. This is a language revision of the same evidence, with no new training, scientific result or novelty claim. Revision 1.1 and all earlier packages remain unchanged. The [revision notes](manuscript_after_v1.2/REVISION_NOTES.md) and full diff record the changes. Existing submission and scientific limitations below still apply.
+
 ## Current manuscript — sole-author neutral revision, 17 October 2026
 
 [AFTER revision 1.1](manuscript_after_v1.1/README.md) incorporates the completed v0.8–v0.12 evidence in a **20-page neutral-format manuscript**, with **Muhammad Usman** as the sole byline and PDF author. The user confirmed no funding and no competing interests. The current deliverable is [the PDF](output/pdf/AFTER-Muhammad-Usman.pdf); its editable LaTeX source is packaged separately. Eight tables and four vector figures derive from saved results. All pages were rendered and visually checked; **2,461 editorial/evidence checks passed**, including preservation of prior scientific packages and the previous manuscript.

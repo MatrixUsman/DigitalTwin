@@ -1,0 +1,346 @@
+[
+  {
+    "file": "main.tex",
+    "line": 26,
+    "before_sha256": "94a18e892af39fd2399ee7f773954da8e619eebbbe460c25ce7e2aa6bd51207a",
+    "after_sha256": "7f216e91afd7e08a1b27e9b9868526760ae5fb0872bf0859db113572066aa157",
+    "before": "Cyberattack detection and alarm clearance impose different demands on a robotic digital twin. A predictor can follow unauthorized motion, while an inaccurate reference can prevent clearance after recovery. This study separates physical return from reference proximity and examines three sources of error: model mismatch, measurement noise and continuing motion. In 216 synthetic episodes, thirteen monitoring rules receive common observations and approved-command context. Adding an empirical uncertainty allowance reduces benign alarm observations from 621 to 309 relative to nominal fixed return, but permits timely clearance in only 36 of 108 detected events with physical return. Removing the allowance at the same entry threshold yields 140 benign alarm observations and 108 timely clearances, with no observed premature clearing. A normal-only search over 63 reference models reduces the allowance by 51.27\\% and 38.56\\% on the harder plants without satisfying the overall feasibility requirement. A conditional Gaussian calculation explains how a noisy calibration maximum can exhaust the recovery tolerance even with a perfect reference. A subsequent covariance-aware window control meets a predeclared normal-feasibility criterion on 20 of 36 synthetic residual traces; correlation and changing motion limit the benefit of averaging. A separate common-input IMU study records improved CASPER-style training adequacy, with an ordinary autoregressive control retaining the lowest normal prediction error. These results support an evaluation discipline for recovery monitoring: distinguish prediction from physical return, account for uncertainty explicitly, and establish normal-operation feasibility before interpreting reduced alarm burden as a security improvement.",
+    "after": "A robotic digital twin may detect a motion anomaly yet give poor evidence about when the alarm should clear. Its predictor may follow unauthorized motion, or its reference may remain inaccurate after the robot recovers. We examine this problem by separating physical return from agreement with a reference model. Thirteen monitoring rules are compared on 216 synthetic episodes using the same observations and approved commands. An empirical uncertainty allowance reduces benign alarm observations from 621 to 309 relative to nominal fixed return, but allows timely clearance in only 36 of 108 detected events with physical return. Removing the allowance while keeping the entry threshold gives 140 benign alarm observations and 108 timely clearances, with no observed premature clearing. A search over 63 reference models fitted to normal data reduces the allowance by 51.27\\% and 38.56\\% on the harder plants, yet the overall feasibility requirement still fails. A Gaussian calculation explains why calibration noise can consume the recovery tolerance even with a perfect reference. A covariance-aware window control then meets the declared normal-feasibility criterion on 20 of 36 synthetic residual traces; temporal correlation and changing motion limit the gains from averaging. In a separate common-input inertial measurement unit (IMU) study, longer CASPER-style training lowers prediction error, but an ordinary autoregressive control remains strongest. The findings show why reduced alarm burden must be assessed alongside physical recovery, and why a clearance rule should first be checked on normal motion."
+  },
+  {
+    "file": "main.tex",
+    "line": 31,
+    "before_sha256": "53708d31dc00b1e1a4c0a2b2a28ae790587e2a3ad522d230dc0c6c4cf3ca47af",
+    "after_sha256": "378dc9ba20d65470182ccc85e1b2679c2c0d707ce8c17eaa14d3cd3820037734",
+    "before": "A robot can continue to move away from its intended trajectory after a corrupted command has been removed. An alarm that clears at command restoration can therefore disappear before the physical effect ends. The reverse problem also occurs: an accurate account of the robot's recovery may remain inconsistent with an inaccurate nominal model, leaving an alarm active after normal motion resumes. Both errors matter when a digital twin supplies evidence for cyberattack monitoring.",
+    "after": "Removing a corrupted command does not immediately undo its effect on a robot. The arm may still be displaced or moving away from its intended trajectory when the controller resumes approved commands. Clearing an alarm at that instant can hide the remaining deviation. An inaccurate nominal model creates the opposite problem: the robot recovers, but the alarm stays active because the measurements still disagree with the model. A twin used for cyberattack monitoring must therefore support decisions about both the onset and the end of abnormal motion."
+  },
+  {
+    "file": "main.tex",
+    "line": 33,
+    "before_sha256": "3d3e7d82a2ead6fb2ca755082247fbdf0607ba57f45c2b55ea3a81e899237913",
+    "after_sha256": "57103d84bd25490bce61f29203944f0cfc5c1b9b07f01257a3cc4b9e9af45f1a",
+    "before": "Recent robotic anomaly detectors use motion measurements to identify departures from expected behavior~\\cite{casper,edge}. Hybrid twins combine models of robot mechanics, drives and control with learned components~\\cite{hybrid}. These approaches motivate a closer examination of the relationship between prediction quality and alarm recovery. A small one-step prediction error need not indicate a return to authorized motion, because the predictor may already be following the deviation. Conversely, a large free-reference error can reflect ordinary model mismatch rather than a continuing attack.",
+    "after": "Recent robotic anomaly detectors identify departures from expected behavior in motion measurements~\\cite{casper,edge}, while hybrid twins combine learned components with models of robot mechanics, drives and control~\\cite{hybrid}. Prediction error is useful in both settings, but its meaning depends on how the reference evolves. A predictor corrected by recent measurements may follow an unauthorized deviation and produce a small error. A reference that runs without correction may produce a large error simply because its model is inaccurate. Neither observation, by itself, tells us whether the robot has returned to authorized motion."
+  },
+  {
+    "file": "main.tex",
+    "line": 35,
+    "before_sha256": "a9aa191ad0e623cfc9e955d92eb2a6af90641be13a6cdf4ccd7276bbfe5d7ef8",
+    "after_sha256": "1baec0daee4e595ea849adf3d7eaffbde37c71074d44f6e77d509803e188b264",
+    "before": "We study a specific question: \\emph{under model mismatch, when does discrepancy from a command-driven reference provide usable evidence for clearing a robotic attack alarm?} The monitor receives noisy joint positions and velocities together with a protected record of approved commands. An attacker can corrupt the downstream command path. This information model permits a reference to predict authorized motion while preserving a distinction between approved and executed commands.",
+    "after": "The question addressed here is: \\emph{under model mismatch, when does discrepancy from a command-driven reference provide usable evidence for clearing a robotic attack alarm?} We assume access to noisy joint positions and velocities and a protected record of approved commands. The attacker can alter commands downstream of that record. This gives the monitor a way to predict authorized motion even when the plant executes a different command."
+  },
+  {
+    "file": "main.tex",
+    "line": 37,
+    "before_sha256": "b31ce50a0919a11e12b48567f72f89d556a40aedeb12c402fc5384ad7d5be8f4",
+    "after_sha256": "2cb00efc7594a655f8bf54014504d451af235d6109f9762a2785b619cdf982fc",
+    "before": "The investigation has three connected stages. A prospectively specified attack evaluation compares thirteen detection and clearance rules under common observations. A subsequent normal-only study tests whether better clean-data identification restores clearance feasibility. A Gaussian analysis and a separately specified residual experiment then examine noise allocation, temporal correlation and the cost of bounding current rather than average motion. Later stages diagnose the initial failure without revising its attack results. A separate external-IMU prediction study, reported in Appendix~\\ref{app:imu}, checks the training adequacy of recent architectural comparators without giving them access to the simulated command context.",
+    "after": "We first compare thirteen detection and clearance rules under a fixed attack protocol. When the uncertainty-based rule fails to clear reliably, we examine whether better references fitted to clean data resolve the problem. A Gaussian calculation and a separate residual experiment isolate the effects of measurement noise, temporal correlation and motion during the averaging window. These later analyses explain the initial failure; the original attack results remain unchanged. Appendix~\\ref{app:imu} reports a separate external inertial measurement unit (IMU) prediction study that checks training adequacy under common inputs, without giving those predictors the simulation's command information."
+  },
+  {
+    "file": "main.tex",
+    "line": 39,
+    "before_sha256": "318aa4ed80d80e98dfc5eaf4f55e4065da2d568fcbdb9c31596ad679bcd3b6b1",
+    "after_sha256": "2a8734cb75155eaa90e64742c70140d1970ec345dd935e97bfde1b3041305976",
+    "before": "The contribution is an experimentally supported account of a failure mode in uncertainty-based alarm clearance. It combines a physical-return target, matched component comparisons, normal-reference development and explicit noise calculations. The window experiment further identifies when averaging restores a usable return margin and when its motion penalty prevents that benefit. The bounds use established interval and probability arguments. AFTER names this investigation; it does not denote a newly validated detector or a claimed improvement over complete recent systems.",
+    "after": "The paper contributes an experimentally supported explanation of a failure in uncertainty-based alarm clearance. Matched comparisons identify the component responsible, while reference fitting and noise calculations explain why the difficulty persists. The window experiment shows when averaging recovers enough margin to recognize normal motion and when variation within the window prevents it. The mathematical bounds use established interval and probability arguments. AFTER is the name of this investigation; it does not denote a newly validated detector or establish an improvement over complete recent systems."
+  },
+  {
+    "file": "main.tex",
+    "line": 43,
+    "before_sha256": "f1cde3ef3209f92f0735684c91e7357f34679acc0ca8cb237470950543494a84",
+    "after_sha256": "0340d32b71b5cfa0898ee261a4b9d37ec577a98d44c0e78dbcb960fda6c8c4ce",
+    "before": "CASPER detects anomalous industrial-arm motion using external inertial sensing and contextual information~\\cite{casper}. Its edge-computing successor develops real-time robotic anomaly detection~\\cite{edge}. Their sensing modality differs from the joint-state and approved-command simulation here. Appendix~\\ref{app:imu} evaluates independently written architectural implementations on the same nominal IMU observations, with causal preprocessing and ordinary controls. This separate study supports a normal prediction comparison; it does not reproduce either paper's attack benchmark or justify ranking IMU-only predictors against command-aware recovery monitors.",
+    "after": "CASPER uses external inertial sensing and contextual information to detect anomalous industrial-arm motion~\\cite{casper}. Its successor develops real-time detection with edge computing~\\cite{edge}. Those inputs differ from the joint states and approved commands available in our simulation. To examine the architectures on their own modality, Appendix~\\ref{app:imu} compares independent implementations on common nominal IMU observations, using causal preprocessing and simple controls. The resulting comparison concerns normal prediction. It neither reproduces the papers' attack benchmarks nor places IMU-only predictors in the same ranking as command-aware recovery monitors."
+  },
+  {
+    "file": "main.tex",
+    "line": 45,
+    "before_sha256": "94f2c549014140593d9ce1b9f6a9a225613f7dfb61d52121af8fe30758a22ab0",
+    "after_sha256": "4ecd3700ddcbcaa418f8df780db0a31d98012cfc84c84c0f23a9d145d55c4ce3",
+    "before": "Ayankoso et al. describe a hybrid twin combining robot kinematic and dynamic models, drive and control information, and learned uncertainty accommodation for collaborative-robot condition monitoring~\\cite{hybrid}. This establishes the relevance of model fidelity and uncertainty to robotic twins. It does not establish that an uncertainty allowance improves attack-alarm clearance. More broadly, Classens et al. develop recursive identification of structured mechanical systems through instrumental variables and block-coordinate descent~\\cite{identification}. Our fixed ARX/FIR search is an ordinary identification exercise rather than an alternative claim to that contribution.",
+    "after": "Ayankoso et al. combine kinematic and dynamic models, drive and control information, and learned uncertainty accommodation in a hybrid twin for collaborative-robot condition monitoring~\\cite{hybrid}. Their work makes model fidelity and uncertainty relevant to this setting, although the benefit of an uncertainty allowance for clearing attack alarms remains a separate question. Classens et al. address structured mechanical-system identification through recursive instrumental variables and block-coordinate descent~\\cite{identification}. Our finite search over autoregressive models with exogenous inputs (ARX) and finite impulse response (FIR) models uses ordinary identification methods; it is not a contribution to that identification theory."
+  },
+  {
+    "file": "main.tex",
+    "line": 48,
+    "before_sha256": "ca81ec748a53696f52c777e41c61bf6131b7f206c5dc769882576597e2a5872e",
+    "after_sha256": "063763aee88cf17eb7db2d399ea77791ce52292a06818bc00562dd97225afa62",
+    "before": "FAIL-Detect learns or constructs scalar signals and calibrates uncertainty-aware failure monitors from successful robot rollouts~\\cite{fail}. Its full system concerns imitation-learning policies and includes signal-learning and calibration choices absent from our experiment. We independently implement a restricted constant episode-band component on our shared discrepancy signal. We therefore compare a thresholding principle under common inputs, not the full published method.",
+    "after": "FAIL-Detect calibrates uncertainty-aware failure monitors from successful robot rollouts, using learned or constructed scalar signals~\\cite{fail}. The full method targets imitation-learning policies and makes signal-learning and calibration choices that our experiment does not reproduce. We implement only a constant episode band on the shared discrepancy signal. This tests the thresholding principle with the same inputs as our other controls; it should not be read as an evaluation of the complete published system."
+  },
+  {
+    "file": "main.tex",
+    "line": 50,
+    "before_sha256": "93b52244c64ec5924272e7593a4937d589f1e9087b9303dfc248a930a73d8d4f",
+    "after_sha256": "6cce952a923fd9c787dea603deb5aac0d91db93784561dd44d3f4610781efe54",
+    "before": "Interval-observer fault detection explicitly considers the effect of uncertain models and observer design~\\cite{interval}. Adding a bound to a measured residual, or requiring a dwell period before clearing an alarm, is not by itself a new digital-twin mechanism. The useful question here is whether the resulting decision remains feasible at the tolerance required by the recovery definition.",
+    "after": "Uncertain models and observer design are already central to interval-observer fault detection~\\cite{interval}. Residual bounds and dwell periods are therefore established ingredients. Our concern is their feasibility: after these allowances are applied, can the rule still recognize a return within the chosen tolerance? A rule may be conservative enough to avoid premature clearing yet leave no room to clear at all."
+  },
+  {
+    "file": "main.tex",
+    "line": 52,
+    "before_sha256": "b42f36069fb2bf0a19bae3ec26d03e9c15a8bf32d165ca957cce3e560f3d3129",
+    "after_sha256": "c7c8095cabaee349520c3e0db920004baa2df51dfa9c5a05d86198853c2c942b",
+    "before": "Kaisar et al. describe a robotic-vehicle architecture combining statistical detection, a kinematic twin, supervisory handover and consistency-gated recovery~\\cite{kaisar}. The available abstract establishes direct overlap with generic twin-assisted recovery; its full algorithm and implementation were unavailable for an equation-level comparison. Time-uniform inference is also established: Howard et al. develop confidence sequences under explicit probabilistic assumptions~\\cite{howard}. The window control below uses elementary Gaussian tails and error spending, with no claim to reproduce those sharper constructions or introduce a new confidence-sequence method.",
+    "after": "Kaisar et al. describe statistical detection, a kinematic twin, supervisory handover and consistency-gated recovery in a robotic-vehicle architecture~\\cite{kaisar}. The available abstract directly overlaps the broad idea of twin-assisted recovery. Its full algorithm and implementation were unavailable, so an equation-level comparison remains open. Howard et al. develop time-uniform confidence sequences under explicit probabilistic assumptions~\\cite{howard}. Our window control uses the simpler tools of Gaussian tails and error spending. It does not reproduce those sharper constructions or introduce a new confidence-sequence method."
+  },
+  {
+    "file": "main.tex",
+    "line": 54,
+    "before_sha256": "08a0eb26f7061985ef1e8add79df325e28681d29ae3374a04561ffdfdda2eb5f",
+    "after_sha256": "c8bde2b43cefd2daa8d73283d71a34893f53164b426593583b7719bed86abc1f",
+    "before": "The RESCUE preprint evaluates the value of runtime alarms through counterfactual robot-policy interventions~\\cite{rescue}. It shows why detection accuracy and intervention usefulness must be distinguished. Our evaluator instead compares corrupted and uncorrupted executions of the same plant to measure the disappearance of a motion deviation. The overlap is substantive: counterfactual evaluation is existing methodology. Our narrower emphasis is the interaction among reference error, sensor noise and a particular alarm-clearance rule. The experiments support conclusions about this rule and these simulated conditions, rather than a ranking against complete recent robotic-security systems.",
+    "after": "The RESCUE preprint uses counterfactual robot-policy interventions to assess whether runtime alarms are worth acting on~\\cite{rescue}. It distinguishes detection accuracy from the usefulness of an intervention. We also use a counterfactual, but for a narrower measurement: comparing corrupted and uncorrupted executions of the same plant to determine when a motion deviation ends. Counterfactual evaluation is thus part of the existing methodology on which this study builds. Our conclusions concern reference error, sensor noise and the tested clearance rule under the specified simulation conditions."
+  },
+  {
+    "file": "main.tex",
+    "line": 104,
+    "before_sha256": "ac40d798cd8e58ac1db6694a4466f26ab7eaa85339c42ecd289dfa8f2370973d",
+    "after_sha256": "eefd9ca30b14ab5cd3d19da861eb081d624cb0aafc12f44cebcdfa8f8e767950",
+    "before": "A PD controller requests componentwise saturated torque",
+    "after": "A proportional--derivative (PD) controller requests componentwise saturated torque"
+  },
+  {
+    "file": "main.tex",
+    "line": 121,
+    "before_sha256": "5b84126d6be496b1f12abca9cf9ff4cdd58108091cffc85f2721e72d0ed9651b",
+    "after_sha256": "cec3cf002b2827540fac89dda4fcd6a23c0ee0e282782217c8602d037bf1ec6b",
+    "before": "Position and velocity noise are independent zero-mean Gaussians with standard deviations 0.0005 rad and 0.002 rad/s, respectively, before the plant multiplier. Episodes contain 1,200 observations at 50 Hz. Fourth-order Runge--Kutta integration uses eight substeps per observation. A short lagged trajectory was checked against a separate SciPy integration. This verifies numerical consistency; the model excludes gravity, contact, flexibility and thermal effects and has not been validated against physical robot measurements.",
+    "after": "Position and velocity measurements have independent, zero-mean Gaussian noise with standard deviations of 0.0005 rad and 0.002 rad/s before applying the plant multiplier. Each episode contains 1,200 observations at 50 Hz. We integrate with fourth-order Runge--Kutta, using eight substeps per observation, and check a short trajectory with actuator lag against a separate SciPy integration. That check supports numerical consistency. Physical fidelity remains limited: the model excludes gravity, contact, flexibility and thermal effects, and has not been validated against measurements from a real robot."
+  },
+  {
+    "file": "main.tex",
+    "line": 124,
+    "before_sha256": "78c761eb2f3fd2b4b40063db0cfee37e4c9f7362efb5517e440b38bad7fa6c8c",
+    "after_sha256": "96aeb9ace0dfacb9f92f47a7e8faacb9310d98b06405aba9fb41c5372c92288b",
+    "before": "The attacker changes executed commands downstream of the protected approved-command record. It can impose an offset, slow progression or hold a command. Joint measurements remain truthful apart from the declared sensor noise. Legitimate task changes update both command paths. The monitor receives no intervention labels, true state, actual plant parameters or paired counterfactual trajectory in its calculations.",
+    "after": "The attacker acts downstream of the protected command record. It can offset an executed command, slow its progression or hold it fixed. Joint measurements remain truthful apart from sensor noise. A legitimate task change, in contrast, updates both the approved and executed command paths. The monitor's calculations use neither intervention labels nor the true state, actual plant parameters or paired counterfactual trajectory."
+  },
+  {
+    "file": "main.tex",
+    "line": 126,
+    "before_sha256": "910289eab5f5b7a4910cf4c86fb3f961cddf03294c85a7f0e458dbef7a7263fe",
+    "after_sha256": "613618395a999cf75af1135f76dd5f9635d10526219b35b590560491235b9d3f",
+    "before": "The attack-study implementation passes a complete episode dictionary to the monitoring routine. Source inspection and three restricted-input replays support the stated input use, but this is not an enforced isolation boundary. The later normal-only study uses a restricted observation type. Neither study addresses joint compromise of sensing and approved commands, poisoned commissioning, or attribution of malicious intent from motion alone.",
+    "after": "In the attack-study code, the monitoring routine receives a dictionary containing the complete episode. Source inspection and three replays with restricted inputs support the stated use of information, although the interface does not enforce isolation. The later normal-only study restricts the observation type itself. Both studies assume that sensing and the approved-command record are not jointly compromised, and that commissioning data are clean. Motion alone is not used to infer malicious intent."
+  },
+  {
+    "file": "main.tex",
+    "line": 128,
+    "before_sha256": "e9c166b1f97933c704f1a11e7c4b90af31cb9690390bf174d1c852f6dd2d7f59",
+    "after_sha256": "49889e2cd183da726326c7c8f3e4b67483a5ae0b80d31496092fbd8693375eae",
+    "before": "Missing approved commands invalidate the complete history required by a free reference. Command-dependent methods therefore remain unknown for the rest of that episode, even after availability resumes. Unknown intervals remain in coverage and missed-event accounting; they are not silently removed from the evaluation population. Persistence does not require commands.",
+    "after": "A free reference requires the complete approved-command history. Once commands are missing, command-dependent methods remain in an unknown state for the rest of the episode, even if command availability resumes. These intervals stay in the evaluation population and count toward coverage and missed events. The persistence control does not need commands."
+  },
+  {
+    "file": "main.tex",
+    "line": 163,
+    "before_sha256": "7843a251825cf323d681e7ba2e561d2d94e4d23333aeaa171972aa7c725ac7ae",
+    "after_sha256": "ecf97fbe2e641d5568ee077266763cbe37c86a8babe9995db1378ccf7dce0adf",
+    "before": "The primary criterion failed. The candidate reduced benign alarm observations from 621 to 309, or 50.24\\%, but achieved timely clearance in only 36 of 108 detected-returned events. It overlapped 108 of 135 interventions, with 104 fresh onsets. Table~\\ref{tab:attack} retains every method; Figure~\\ref{fig:recovery} contrasts its apparent alarm-burden benefit with the clearing failure.",
+    "after": "The candidate failed the primary criterion. Benign alarm observations fell from 621 to 309, a reduction of 50.24\\%, but only 36 of 108 detected-returned events cleared on time. The alarm overlapped 108 of 135 interventions, with 104 fresh onsets. The full comparison is in Table~\\ref{tab:attack}. Figure~\\ref{fig:recovery} makes the trade-off visible: the lower benign alarm count comes with poor clearance after physical return."
+  },
+  {
+    "file": "main.tex",
+    "line": 178,
+    "before_sha256": "ae80bc5e3084acfb1eb21ff87a8c6e336b38e5f90533aaf4a9b586590ae82476",
+    "after_sha256": "0091bef92e6f0c84a2cc96657e395bbadf829179c40001067a639a84ec32ac86",
+    "before": "Removing the allowance at the same entry threshold reduces benign alarms further, to 140, and restores timely clearance in all 108 detected-returned events. Fresh onsets increase from 104 to 108, with no observed premature clears. Removing dwell alone reduces benign alarms to 20 but leaves the same 72 clearing failures. The matched comparison identifies the allowance as the obstruction; a longer or shorter waiting period cannot remove it.",
+    "after": "The matched controls locate the cause. Removing the allowance, while retaining the entry threshold, lowers benign alarms further to 140 and permits timely clearance in all 108 detected-returned events. Fresh onsets rise from 104 to 108, with no observed premature clears. Removing only the dwell period lowers benign alarms to 20 but leaves the same 72 clearing failures. The obstacle is the allowance itself; changing the waiting period cannot make an unreachable inequality hold."
+  },
+  {
+    "file": "main.tex",
+    "line": 180,
+    "before_sha256": "ac14eac598e86f379903dfd929fc01af7599e199a144d2df76964b53b849aa60",
+    "after_sha256": "c0ffb3bfe4f666f80ad6a488aa992fdaf483daf38f7616f5a508c370657cc1cc",
+    "before": "The following-observer point rule achieves F1 0.808 but clears prematurely in all 108 detected events. The episode band has no benign alarm observations and F1 0.744, yet clears prematurely in 75 events. Learned-reference hysteresis has 792 benign alarms, no premature clears and 108 timely clearances. These outcomes show why interval detection scores and recovery measurements must be read together.",
+    "after": "Detection scores alone give a different impression. The following-observer point rule reaches F1 0.808, although it clears prematurely in all 108 detected events. The episode band produces no benign alarm observations and reaches F1 0.744, but clears prematurely in 75 events. Learned-reference hysteresis records 792 benign alarms, no premature clears and 108 timely clearances. A useful comparison therefore needs both the interval detection scores and the recovery outcomes."
+  },
+  {
+    "file": "main.tex",
+    "line": 188,
+    "before_sha256": "f69f3d14f1edafe12842db244e8315f6ca30e75cad3458975e58be9984b6425d",
+    "after_sha256": "78d01926054bd85aecfb8beafe8172fa03f7fa1d47b9e2f592fb5ff881dd6821",
+    "before": "The nineteen previously used normal calibration episodes are explicitly reused for development: the first nine select a model, the next five estimate its allowance, and the last five provide archived checks. Selection minimizes the worst episode's 99th-percentile discrepancy, breaking ties by mean standardized RMSE, parameter count and model identifier. The allowance is the maximum over the five assigned episodes, or 5,500 observations. The archived checks are not relabeled independent holdouts.",
+    "after": "The nineteen previously used normal calibration episodes are explicitly reused for development: the first nine select a model, the next five estimate its allowance, and the last five provide archived checks. Selection minimizes the worst episode's 99th-percentile discrepancy, breaking ties by mean standardized root mean squared error (RMSE), parameter count and model identifier. The allowance is the maximum over the five assigned episodes, or 5,500 observations. The archived checks are not relabeled independent holdouts."
+  },
+  {
+    "file": "main.tex",
+    "line": 216,
+    "before_sha256": "20bebb6e3f00b981d60b1e11d5de8a34a3dc413fb7b4c82075b761dd416f899f",
+    "after_sha256": "c035ef6514a54dd8c0fb5dbec2f5224fb675cae7bb6b5decc58e69cbc975c1e1",
+    "before": "The normal-study outcome motivates a separate post-study calculation. Consider a hypothetical perfect free reference $r_t=x_t^0$ under normal motion, with the simulator's independent Gaussian measurement noise and fixed training scales. Let $\\nu_j=\\sigma_j/s_j$. The distribution of the scalar noise discrepancy is",
+    "after": "The remaining normal-motion failure raises a simple question: would a perfect reference solve it? To examine this, consider a hypothetical free reference $r_t=x_t^0$ under normal motion, retaining the simulator's independent Gaussian measurement noise and fixed training scales. Let $\\nu_j=\\sigma_j/s_j$. The scalar noise discrepancy has distribution"
+  },
+  {
+    "file": "main.tex",
+    "line": 233,
+    "before_sha256": "371354894682ea1d58353d537f1812fcb9936899105bc2571a35bec8d90bd3b8",
+    "after_sha256": "803b37ef795b756215a729986cc98e5b9a090360306a32a9298bbe10bbc7f0b5",
+    "before": "This elementary calculation describes allocation of a fixed tolerance between two noisy quantities. Increasing $N$ makes the calibration maximum stochastically larger, even though a larger calibration sample might otherwise seem reassuring. Better reference fitting cannot remove this noise-only contribution.",
+    "after": "The tolerance is being shared between two noisy quantities. Increasing $N$ makes the calibration maximum stochastically larger and leaves less margin for the next observation. A larger calibration sample therefore does not automatically help this particular rule. Better reference fitting cannot remove the contribution from measurement noise."
+  },
+  {
+    "file": "main.tex",
+    "line": 247,
+    "before_sha256": "538fc428b61df90c3f7a6230f9ec2410e08331dad9c58685057b9cba0c889311",
+    "after_sha256": "8ec904de242d3fd1c5c67a54e3c18616f0e845605cd9792e086fb5695a407cc1",
+    "before": "The studies distinguish three questions that a single detection score cannot answer: whether unauthorized motion is detected, whether its physical effect persists, and whether the chosen clearance rule can recognize normal motion. The candidate's reduced benign alarm count initially appears favorable, but two plants have an unreachable clearing condition. A matched ordinary control removes this obstruction and is stronger on the recorded outcomes. The uncertainty-addition component consequently has no demonstrated benefit here.",
+    "after": "The central failure was easy to miss if judged only by benign alarm counts. The candidate produced fewer such alarms, yet on two plants its clearing condition could never be satisfied. Removing the uncertainty allowance under the same entry threshold gave better outcomes. In this experiment, the added allowance did not earn its place in the rule. The result also separates questions that an interval detection score combines poorly: whether an attack is detected, whether its physical effect remains, and whether the monitor can recognize recovery."
+  },
+  {
+    "file": "main.tex",
+    "line": 249,
+    "before_sha256": "8977b6168676ea4c73f46c09fe770cfa81a26c2fe063da2b21046e4e002c4143",
+    "after_sha256": "e89e2f0408f85b261d798779a83d5e7845a79a775ad6f7a1d26519d0a57bffc7",
+    "before": "Improved commissioning addresses one part of the problem. Longer ARX histories reduce normal prediction error and make Q2's condition reachable. The remaining failure on Q3, together with the perfect-reference calculation, shows that reference bias and measurement noise require separate treatment. A maximum of noisy residuals is not interchangeable with a bound on model error. Once it is added to another noisy residual, the available tolerance can be consumed before any genuine physical deviation is considered.",
+    "after": "Better commissioning helps, but only to a point. Longer ARX histories lower normal prediction error and make Q2's clearing condition reachable. Q3 still fails. The perfect-reference calculation explains why fitting alone is insufficient: the empirical maximum contains measurement noise as well as model error. Adding that maximum to another noisy residual can use up the tolerance even when there is no physical deviation. Reference bias and measurement noise therefore need separate treatment."
+  },
+  {
+    "file": "main.tex",
+    "line": 251,
+    "before_sha256": "493815800f6d1b7923d7bd4cc5da7e1c60c814f3b4373be5953ff54102727c3e",
+    "after_sha256": "70087dab3f9c28fea061cfbac7ce49aa9137f220daea09aef919acd20b3ef2f9",
+    "before": "This suggests a practical design sequence: define the physical return target and trusted information; check the return condition under normal motion; then evaluate detection, persistence and recovery jointly. Algebraic reachability, point feasibility and successful dwell probes provide different evidence. None alone establishes a safe reset policy. Statistical estimation, averaging and noise-aware observers are established tools for revising such a decision, and a replacement would need comparison against those tools rather than a new name for the present combination.",
+    "after": "A recovery monitor should first specify what return means and which observations it can trust. The next check is whether its clearing condition is reachable during normal motion. Only then is it useful to examine detection, alarm persistence and recovery together. Algebraic reachability, the fraction of feasible observations and successful dwell probes answer different parts of that question; none alone establishes a safe reset policy. Any replacement should also be tested against ordinary statistical estimation, averaging and noise-aware observers, since these already address parts of the problem."
+  },
+  {
+    "file": "main.tex",
+    "line": 253,
+    "before_sha256": "412d99df6ba69dcc53a20a4b8a0850358eacabed19113dfe1e47b7c1c97c4da9",
+    "after_sha256": "bee7248a6e93063c0bfa9310fbec7595747c300efcf0332a9ec02b93d7698dcb",
+    "before": "Study III makes this distinction quantitative. A windowed uncertainty control can certify normal residuals that an instantaneous control cannot, while still failing under correlated noise or faster within-tolerance variation. The limiting terms have different meanings: a noise term shrinks with effective sample size, whereas the current-state drift term increases with window length. Ignoring correlation improves some reported certificate fractions by weakening the assumption contract, not by demonstrating more reliable recovery. Useful deployment would require these uncertainty quantities to be justified from commissioning observations and plant knowledge; they were supplied by the generator in Study III.",
+    "after": "Study III shows what averaging can and cannot repair. Windowed bounds certify some normal residuals that the instantaneous bound cannot certify. With stronger correlation or faster variation within tolerance, that advantage disappears. A longer window reduces the noise term but increases the allowance for change between the window average and the current state. Assuming independent noise when it is correlated makes some certificate fractions look better while removing their statistical justification. Here the generator supplied the uncertainty parameters; an operational monitor would have to justify them from commissioning observations and knowledge of the plant."
+  },
+  {
+    "file": "main.tex",
+    "line": 255,
+    "before_sha256": "65c050da1fb99b31dbe1280a9be5dd8a82965a56a33c455ca0199cc8b89daf33",
+    "after_sha256": "dacc105e30ef3c50f81c8b3999fdbf3606e750dda509a1aaf118fe6349271167",
+    "before": "The same-plant counterfactual also changes interpretation. In 21 intervention episodes, nominal-reference and actual-plant return times disagree. Measuring recovery against the detector's own nominal model can conflate model mismatch with remaining attack effects. Simulation permits the two trajectories to be separated exactly within the model. In a physical deployment, the counterfactual would itself be uncertain and would need independent justification.",
+    "after": "The choice of recovery reference matters as well. Nominal-reference and actual-plant return times disagree in 21 intervention episodes. If the detector's nominal model also defines the evaluation target, model mismatch can be mistaken for a lingering attack effect. The simulation separates these trajectories within the model. A physical deployment would not have that exact counterfactual, so the recovery target would carry uncertainty of its own."
+  },
+  {
+    "file": "main.tex",
+    "line": 258,
+    "before_sha256": "915b3890dc470cc3fb5d5a6c003a9c601a9ce9e4b939604538f96937f01ca724",
+    "after_sha256": "90f4f89abfa3007a2e1a3a461b12f287b14c43220c0759aed400b6e764008101",
+    "before": "The evidence comes from three specified plant configurations in one simulator. Noise seeds repeat a physical condition; they are not independent robot acquisitions. Geometry, damping, lag and noise vary together, preventing causal attribution of a subgroup difference to a single factor. There are no contact-rich tasks, changeovers between manufacturing processes, field attacks or hardware measurements. The observed return tolerance has no established safety interpretation.",
+    "after": "The simulated motion comes from three plant configurations in one simulator. Repeating them with different noise seeds does not provide independent robot acquisitions. Geometry, damping, lag and noise also vary together, so a subgroup difference cannot be attributed to one of those factors alone. The study covers neither contact-rich tasks nor manufacturing-process changeovers, field attacks or hardware measurements. The chosen return tolerance has no established safety interpretation."
+  },
+  {
+    "file": "main.tex",
+    "line": 260,
+    "before_sha256": "689bd9f689edd06bb8f2bc4781f3efb2cf80a53edd706b401911d5a7787c6108",
+    "after_sha256": "85fcf7d84c5829f0721481bea875dff75ac79835273c0303d19bf16d54adc72d",
+    "before": "The attack comparison contains common-information controls and a restricted recent calibration component, rather than three full recent paper reproductions. The separate IMU study adds executable, common-input architectural comparisons, but its prefix is reused normal development, its compact models remain epoch-limited, and the exact original publication-run correspondence is unresolved. External-IMU baselines cannot be ranked fairly against protected-command monitors without resolving their input and protocol differences. This limits comparative-performance claims even where the internal ablations are informative.",
+    "after": "The attack comparison tests controls with common information and a restricted calibration component. It does not reproduce three complete recent methods. The IMU appendix adds executable architectural comparisons, but uses an already exposed normal-development prefix; the compact models still reach the epoch limit, and correspondence to the original published runs remains unresolved. These input and protocol differences prevent a fair overall ranking of external-IMU baselines and protected-command monitors. The matched internal ablations are informative within that narrower scope."
+  },
+  {
+    "file": "main.tex",
+    "line": 262,
+    "before_sha256": "2f83ec19409a32b190e9a19b876b71acfd6ba1eeb9b07484b2bc85136be372e6",
+    "after_sha256": "e651ac293da714929b131d7eb8b14a6d465ace3c7b095608756be9e7e5ca7b86",
+    "before": "The stages have different evidential roles. Study I prospectively evaluates a fixed candidate. Study II diagnoses its failure on new normal tasks. The post-study calculation explains a mechanism under explicit assumptions. Study III was specified before generating its residual traces, but it was motivated by the earlier failures and remains a simplified diagnostic. Its three noise realizations are paired across settings and are not independent robot acquisitions. All reported conditions are now exposed. A redesigned rule evaluated on them would be exploratory until tested under a new prospective protocol.",
+    "after": "The order of the studies limits what can be claimed. Study I evaluates a fixed candidate prospectively. Study II uses its outcome to motivate new normal-task checks, followed by a conditional mathematical explanation. Study III was specified before its residual traces were generated, but grew out of those earlier failures and remains a simplified diagnostic. Its three noise realizations are reused across settings. All these conditions are now exposed, so a redesign based on them would need a new prospective evaluation for confirmation."
+  },
+  {
+    "file": "main.tex",
+    "line": 265,
+    "before_sha256": "de4e5377ce7ed5a268996578389b873ecd0fc2d11700a49356893059003ef063",
+    "after_sha256": "e00aa17e68238a663b4196701f1ed41079b43a9757ab33d7579859e5f7cba256",
+    "before": "Alarm recovery depends on more than prediction accuracy. In the declared simulation, adding an empirical uncertainty allowance halves benign alarm observations relative to nominal fixed return but prevents timely clearance in two-thirds of detected-returned events. The matched control without that allowance performs better. Improved clean-data references reduce discrepancy without restoring feasibility across all plants. The Gaussian analysis identifies how calibration noise consumes the return margin, while the covariance-aware window experiment shows a further trade-off between averaging and current-motion uncertainty. Its criterion is met on 20 of 36 constructed normal traces. The separate IMU comparison also retains a strong ordinary autoregressive control after longer CNN training. Together, these findings support evaluating uncertainty, information access and normal-return feasibility explicitly. They establish neither a universally effective reset policy nor superiority over CASPER.",
+    "after": "A smaller prediction error does not settle when an attack alarm should clear. In our simulation, the empirical uncertainty allowance halves benign alarm observations relative to nominal fixed return, yet prevents timely clearance in two-thirds of detected-returned events. The matched rule without the allowance performs better. Fitting more accurate references helps, but does not restore feasibility on every plant. Calibration noise can consume the return margin even with a perfect reference, and averaging introduces a further trade-off with uncertainty about current motion. The window control meets its criterion on 20 of 36 constructed normal traces. In the separate IMU study, ordinary autoregression also remains a strong control after longer convolutional neural network (CNN) training. These findings support checking normal-return feasibility and uncertainty assumptions before interpreting a lower alarm count as an improvement. They do not establish a universal reset policy or superiority over CASPER."
+  },
+  {
+    "file": "sections/return_bound.tex",
+    "line": 3,
+    "before_sha256": "19b6662f0d94c3f76d930746e0102f2f9774ea726855227f941634be1ee1911f",
+    "after_sha256": "a3718264161b7629b945d593e1bc35f1cf4f99e59e8d15c84c2d90ed34245227",
+    "before": "The noise-only obstruction motivates a control that averages noise while retaining a bound on current motion. This section states the assumptions explicitly, rather than interpreting a noisy empirical maximum as a model-error enclosure. For a dimensionless channel $j$, write",
+    "after": "Averaging offers a way to reduce noise, but a clearance decision concerns the robot's motion now. The following control accounts for both effects. It separates reference bias from measurement noise instead of treating an empirical residual maximum as a model-error bound. For a dimensionless channel $j$, write"
+  },
+  {
+    "file": "sections/return_bound.tex",
+    "line": 24,
+    "before_sha256": "500068af37fb6c16d57c4b605c6b0cbb9d9bb5d8467611990fe1677da8e7735c",
+    "after_sha256": "79e9a39011bf203808eb53772e6a0d286dbe2acbb55d58fa3fdb16186f063ccd",
+    "before": "The last term is essential: a small window-average deviation need not imply a small deviation now.",
+    "after": "The last term covers motion during the window. Without it, a small average deviation could be mistaken for a small current deviation."
+  },
+  {
+    "file": "sections/return_bound.tex",
+    "line": 40,
+    "before_sha256": "576fa5cde27750336b6cd4a1a8432a07e44f32b2101a7e14fd3824de7778bb06",
+    "after_sha256": "d6d783f0a13742c969ebbae779f510456900d1c928d95e4b1c42083740550429",
+    "before": "This is an elementary comparison control, not a new time-uniform inference result. Its error allocation is conservative, and its validity depends on the supplied covariance and deterministic bounds. Unknown or invalid observations invalidate affected windows; they do not reset the clock. An absence of a certificate indicates uncertainty, not an attack alarm. The calculation does not model arbitrary colored, heavy-tailed or nonstationary noise.",
+    "after": "This control follows from elementary probability bounds and makes no new claim in time-uniform inference. The error allocation is conservative, and the guarantee holds only under the supplied covariance and deterministic bounds. An unknown or invalid observation invalidates the affected windows without restarting the clock. Failure to obtain a certificate leaves return uncertain; it does not generate an attack alarm. Arbitrary colored, heavy-tailed or nonstationary noise is outside the model."
+  },
+  {
+    "file": "sections/return_bound.tex",
+    "line": 49,
+    "before_sha256": "cd1c35739f1994d73d4176ffbc671ed0f47d6b888a4dc6e8c91f511f16ac1f9a",
+    "after_sha256": "c4dd85fbfa0c668a9d980523801c43f4b815480efd67f2820085123b29f55a72",
+    "before": "These are synthetic residual signals, not outputs of the robot dynamics in Section~\\ref{sec:simulation}. Noise, bias and increment bounds are known generator parameters. The experiment isolates their mathematical effects without establishing that those bounds are available from commissioning data. There is no attack, threshold fitting, model learning or measured post-attack recovery delay.",
+    "after": "The generator constructs these residual signals directly; it does not run the robot dynamics of Section~\\ref{sec:simulation}. It also supplies the noise, bias and increment bounds. This lets the experiment isolate their mathematical effects, but leaves open how an operational monitor would obtain those bounds from commissioning data. The diagnostic contains no attacks, threshold fitting or model learning, and measures no post-attack recovery delay."
+  },
+  {
+    "file": "sections/return_bound.tex",
+    "line": 52,
+    "before_sha256": "18d5b565dcc184a37fa8af3ca90da4aa3c9e308a4b8aa1aefd1dde4e820d1a7b",
+    "after_sha256": "8047001aeaeaf60cfe1d6f1edf826b9d2b886fac62ae8e148921ed0e21dd647f",
+    "before": "The envelope meets the criterion on 20 of 36 traces, so the overall normal-feasibility requirement fails. Table~\\ref{tab:window} reports all condition groups, including seed ranges; Figure~\\ref{fig:window} displays each group's worst seed. No instantaneous control endpoint is certified. Averaging restores normal certificates for several settings, but neither the longest window nor the assumption of independent noise is uniformly appropriate.",
+    "after": "The envelope passes on 20 of 36 traces and therefore fails the overall normal-feasibility requirement. Table~\\ref{tab:window} includes every condition group and its range across seeds; Figure~\\ref{fig:window} shows the lowest fraction in each group. The instantaneous control certifies no endpoints. Averaging helps in several settings, but taking the longest window or assuming independent noise does not work uniformly."
+  },
+  {
+    "file": "sections/return_bound.tex",
+    "line": 67,
+    "before_sha256": "daf342339c7a657987bf6e43fc2d5e4bccc0d30e74a806e9eb20eedd1d893950",
+    "after_sha256": "faa3e859a3b790761d4b0edc6d563c25dcdbb6dec245c2b4a143c59bdef9d007",
+    "before": "No coverage violation is observed in the within-tolerance traces. This is a numerical check under a constructed normal distribution, not an estimate of rare unsafe-clearing risk or evidence near the tolerance boundary. Longer averaging reduces the noise term while increasing the current-state variation term. A useful recovery mechanism must resolve that trade-off with justified information about noise and motion, rather than selecting the most favorable observed window after evaluation.",
+    "after": "There are no observed coverage violations, but all the constructed deviations lie within tolerance. These traces cannot estimate rare unsafe-clearing risk or establish performance near the tolerance boundary. The experiment instead exposes the competing effects of window length: more averaging reduces noise uncertainty while increasing the allowance for current-state variation. Choosing a window after seeing its outcome would not resolve that conflict. The decision needs defensible information about noise and motion."
+  },
+  {
+    "file": "sections/imu_reference.tex",
+    "line": 3,
+    "before_sha256": "14708882150aded31f711b744873a413ca809d0310a5267b99c6de324c9f77ea",
+    "after_sha256": "13bd40a0c56e10c91a59c70cbfccd866294e80a702d09a9f8688a7a64efc0abc",
+    "before": "This supplementary study examines normal prediction under common inputs. It does not enter the command-aware attack ranking. The data are the received author-linked CASPER-1-and-2 provider-v2 nominal file \\texttt{IMU\\_10Hz.csv}, from the \\href{https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2}{public provider listing}. Its SHA-256 is\\nopagebreak[4]",
+    "after": "This study compares normal prediction when every model receives the same inputs. Its results are reported separately from the command-aware attack comparison. We use the received author-linked CASPER-1-and-2 provider-v2 nominal file \\texttt{IMU\\_10Hz.csv}, obtained from the \\href{https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2}{public provider listing}. Its SHA-256 is\\nopagebreak[4]"
+  },
+  {
+    "file": "sections/imu_reference.tex",
+    "line": 5,
+    "before_sha256": "4c9cc508abdb05da05149112c9ae4f69f87c265c2a33380036bc330f34dc72aa",
+    "after_sha256": "8259a36d156ce92fbe0d2155bb1769ff76fa08b1a673b3453cd28e56675db47f",
+    "before": "The file differs from the original CASPER-v3 archive; exact original-paper run identity is unresolved. The nine channels are accelerometer, gyroscope and magnetometer X/Y/Z. Timestamp units and acquisition-versus-arrival semantics remain unresolved, so the filename is not used to infer elapsed time or detection delay.",
+    "after": "This file differs from the original CASPER-v3 archive, and its exact correspondence to the original paper's runs remains unresolved. It contains nine channels: X/Y/Z measurements from an accelerometer, gyroscope and magnetometer. We could not resolve the timestamp units or whether they record acquisition or arrival. The filename is therefore insufficient evidence for reporting elapsed time or detection delay."
+  },
+  {
+    "file": "sections/imu_reference.tex",
+    "line": 12,
+    "before_sha256": "996dd24efb6bbddead16e44e7634159045da3800e275412cbf12ee9a7d9d6c00",
+    "after_sha256": "d823823de4c8351f476782a962ebf1c2a698f0563ae403f9a0e99591f0fa4222",
+    "before": "Training uses mean squared error, Adamax at learning rate $10^{-3}$, chronological minibatches without shuffling, and seeds 17,42,2026. All models start afresh for this longer study; optimizer state was not transferred from the short pilot. The maximum is 100 epochs. A development improvement greater than $10^{-6}$ selects a checkpoint; five epochs without such improvement stop training. Per-fit CPU admission is limited to 240 seconds, with total ceilings of 1,200 seconds wall and 900 seconds CPU. No attack labels select training duration, model weights or score formulas.",
+    "after": "Training uses mean squared error (MSE), Adamax at learning rate $10^{-3}$, chronological minibatches without shuffling, and seeds 17,42,2026. All models start afresh for this longer study; optimizer state was not transferred from the short pilot. The maximum is 100 epochs. A development improvement greater than $10^{-6}$ selects a checkpoint; five epochs without such improvement stop training. Per-fit CPU admission is limited to 240 seconds, with total ceilings of 1,200 seconds wall and 900 seconds CPU. No attack labels select training duration, model weights or score formulas."
+  },
+  {
+    "file": "sections/imu_reference.tex",
+    "line": 23,
+    "before_sha256": "8d0bc2d48c6ca817595a3360e0ab95f2aade93d0439cfd293a5e0bd519f4683f",
+    "after_sha256": "923bca1857109a1398f03d032666a8f14a74e524846db42ebbcd5e9a26c9361e",
+    "before": "All CASPER-style seeds stop by the declared patience rule after 27 epochs and select epoch 22, with MSE 0.017451--0.017703. This is 46.11--58.12\\% below their respective short-pilot errors. All compact seeds reach 100 epochs while improving, so their MSE 0.042700--0.044730 remains training-limited. AR(4) has the lowest error, 0.006074, on this prefix. Figure~\\ref{fig:imu} retains the learning curves for every neural seed.",
+    "after": "Longer training lowers the CASPER-style errors. Every seed stops under the declared patience rule after 27 epochs and selects epoch 22, with MSE 0.017451--0.017703. These errors are 46.11--58.12\\% below the corresponding short-pilot values. The compact models all reach 100 epochs while still improving; their MSE 0.042700--0.044730 remains limited by the training budget. AR(4) gives the lowest error on this prefix, 0.006074. Figure~\\ref{fig:imu} includes the learning curve for every neural seed."
+  },
+  {
+    "file": "sections/imu_reference.tex",
+    "line": 30,
+    "before_sha256": "165e8297182daa3052476922e126a3c345146c40f520f37503b2c61188ea5bbd",
+    "after_sha256": "6b267cf0e7869beb37126abe685386439449e10b2f510d2356ee95a3c8390e22",
+    "before": "Median filtering induces dependence and changes the prediction task; the strong autoregressive result therefore cannot be transferred to unfiltered attack detection. Patience stopping is not proof of a global optimum, representative full-data convergence or original-paper reproduction. No attack threshold, F1, recovery score or test-label optimization was computed in this study. Improved normal MSE does not establish a more effective cyberattack detector.",
+    "after": "These results apply to the filtered normal prefix. Median filtering changes the prediction task and introduces dependence, so the autoregressive advantage cannot be assumed to hold for unfiltered attack detection. The patience rule establishes when these runs stopped, not a global optimum, convergence on a representative full dataset or reproduction of the published experiments. This study computes no attack threshold, F1 or recovery score and performs no test-label optimization. Lower normal MSE alone is insufficient evidence of better cyberattack detection."
+  }
+]
