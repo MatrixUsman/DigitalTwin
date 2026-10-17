@@ -1,5 +1,7 @@
 # Collect, read and connect papers to author code
 
+**Current follow-up, 17 October 2026:** [admission decisions](COMPARATOR_ADMISSION.md) and [TWINE full-manuscript audit](literature/TWINE_ADMISSION_2026-10-17.md) supersede the access/readiness statements in this historical study. Two of the original three full manuscripts are now available and AI-audited; CatBoost remains inaccessible. TWINE/CatBoost are background only for Group D; CASPER requires a separate IMU track or an independent controller-input adaptation. ModernTCN is an explicitly transferred candidate. One ordinary control pilot exists, but zero paper baselines have been reproduced. The coverage table and detailed findings below describe the earlier 16 October study.
+
 Manufacturing / Haiqa Mushtaq. Updated 16 October 2026. This is a source-study milestone, not a reproduction report. The study uses the shared academic research skill's bounded verification workflow. No researcher is marked as having read or understood a paper on the assistant's behalf.
 
 ## Completion and evidence levels

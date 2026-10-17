@@ -12,13 +12,13 @@ This is the main lifecycle roadmap for this paper. Use [STATUS.md](../STATUS.md)
 
 ## Where we actually are
 
-We have a received and audited dataset, a selected feasibility question, a defined evaluation protocol, working research infrastructure and **83 passing synthetic software tests**. We have **not fitted a real-data model, reproduced a baseline, calibrated a CASPER threshold or measured attack-detection performance**. Most work that would establish the paper's scientific contribution is still ahead.
+We have an audited dataset, selected feasibility question, defined evaluation protocol, **254 passing synthetic tests**, preserved pilot/control studies and a completed **normal-only empirical motion-observer validation**. Seven candidates each fitted 536,946 eligible targets and scored 160,472 development endpoints; velocity, a 32-bin template and AR(4) ridge 0.001 were selected. We have **not reproduced a paper baseline, calibrated a threshold or measured attack-detection performance**. See the [observer report](OBSERVER_VALIDATION_REPORT.md): all seven internal checks and 48 saved-artifact checks passed, while ordinary AR remains substantially stronger at one-step prediction. The physical-twin claim remains unsupported.
 
-Working title: **“Digital Twins for Robotic Motion Integrity: The Role of State Synchronization.”** It remains provisional. The question is:
+Working title: **“Correction Evidence in Robotic Motion Monitoring: A CASPER Case Study.”** It remains provisional and follows the [scope decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md). The question is:
 
-> Does retaining a nominal cycle-progression reference during state synchronization improve a motion twin's detection of CASPER's recorded right-arm speed changes under normal-only calibration?
+> Does retaining measurement-correction evidence improve the empirical motion observer’s detection of recorded right-arm speed changes compared with its residual alone under the same normal-only calibration?
 
-In everyday terms: the monitor must follow the robot's motion, but following an unexpected speed change too readily might make that deviation disappear from its alarms. We want to test that possibility and whether retaining expected progression helps. It is a hypothesis, not a demonstrated failure or improvement.
+In everyday terms: compare the monitor's prediction error with the additional evidence in how a measurement changes its estimated phase. Both variants already use expected progression. Because measured velocity can retain speed mismatch after position alignment, do not assume synchronization hides the interventions. Conventional surprise/energy and velocity scores must test these alternative explanations.
 
 The scope is one right-arm pick-and-place recording, with truthful telemetry/time assumed and command-path speed manipulation as the restricted threat. It does not cover a fully compromised controller, forged telemetry, legitimate changeovers, fault/attack attribution or live robot protection. See the [question and threat model](RESEARCH_QUESTION_AND_THREAT_MODEL.md).
 
@@ -26,20 +26,20 @@ The scope is one right-arm pick-and-place recording, with truthful telemetry/tim
 |---|---|---|
 | 0. Workspace and records | Completed within setup scope | Independent project, instructions, local storage, logs and publication standards |
 | 1. Researcher understanding | Partial | Lesson exists; researcher worksheet unanswered |
-| 2. Literature and comparator admission | Partial / blocked in places | One full paper out of three; no admitted three-method ranking |
+| 2. Literature and comparator admission | Decisions recorded; implementation gates remain | Two original learning manuscripts available/AI-audited; [explicit designations](COMPARATOR_ADMISSION.md); no admitted three-paper ranking |
 | 3. Data identity and suitability | Completed audit, with scientific limitations | Original CASPER v3 received; hashes/schema/labels/clocks recorded |
 | 4. Research question and threat model | Selected for feasibility | Novelty and twin usefulness unproved |
 | 5. Evaluation rules | Defined | Actual model/checkpoint/threshold freeze not completed |
-| 6. Loader and metric foundation | Implemented, synthetic-tested | 83 tests pass; new loader has not been exercised on real observations |
-| 7. First control and bounded runner | Not implemented | Exact pilot specification exists |
-| 8. Real-data feasibility pilot | Not run | No fitted reference, scores, timing or memory measurements |
-| 9. Full normal-only controls | Not implemented/fitted | Velocity, template and causal predictor specifications needed |
-| 10. Twin and matched ablations | Not implemented/validated | State, progression, prediction and synchronization must be justified |
-| 11. Contribution and evidence scope | Unresolved | Close prior art, appropriate comparators and independent-evidence needs |
-| 12. Model-selection freeze | Not done | Roster/configurations/checkpoints/seeds remain pending |
+| 6. Loader and metric foundation | Implemented and tested | Expanded 254-test suite; loader exercised on complete training/development as well as the earlier pilot prefixes |
+| 7. First control and bounded runner | Implemented and tested | Welford velocity control, supervision, access/provenance and failure checks |
+| 8. Real-data feasibility pilot | Completed, one accepted attempt | 46,944 fitted / 18,472 scored; immutable reference; 8.626 s supervised wall, 27.94 MiB peak RSS |
+| 9. Full normal-only controls | Completed for essential controls | Seven candidates; selected velocity, 32-bin template and AR(4) ridge 0.001; CNN deferred |
+| 10. Observer and matched ablations | Completed within empirical-observer scope | 7/7 normal checks; prospective prediction/synchronization and uncertainty evaluated; physical-twin claim unsupported |
+| 11. Contribution and evidence scope | Design decision complete; empirical contribution unproved | Narrow single-acquisition score audit; prior-art overlap, eleven-variant design and independent-source needs recorded |
+| 12. Model-selection freeze | Partial; execution roster pending | Seven implemented variants; four required C/K/L/Rv extensions and actual complete run matrix pending |
 | 13. Calibration and final-release preparation | Not done | No thresholds; final runner, ledger and actual freeze incomplete |
 | 14. Protected final campaign | Not run | No final scores or outcomes |
-| 15. Analysis and interpretation | Not started | Requires complete declared results and failure records |
+| 15. Analysis and interpretation | Normal-only feasibility interpreted; final analysis pending | Observer limitations and strong simple predictors recorded; no attack outcomes |
 | 16. Manuscript and reproducibility package | Not completed | Existing notes are source material, not a finished paper |
 | 17. Venue review and submission | Not started | No selected journal, approved submission or acceptance |
 | 18. Peer review and publication | Future, outcome uncertain | Depends on submission and editorial decisions |
@@ -64,24 +64,28 @@ There is no meaningful “percentage of paper completed” yet: an unresolved co
 
 ## 2. Finish the literature audit and admit fair comparators
 
-**Already done:** source collection and static method/code study; a pinned pack of source/configuration/author-result artifacts; detailed [paper-to-code traceability](PAPER_CODE_TRACEABILITY.md). Author graphs and tables are literature artifacts, not our reproduced results.
+**Already done:** source collection and static method/code study; a pinned pack of source/configuration/author-result artifacts; detailed [paper-to-code traceability](PAPER_CODE_TRACEABILITY.md); [current comparator designations](COMPARATOR_ADMISSION.md). CASPER's corrected paper and TWINE's newly obtained accepted manuscript are available and AI-audited (**2/3 original learning papers**); researcher comprehension remains unassessed. Author graphs and tables are literature artifacts, not our reproduced results.
 
 | Learning paper | What is available | What prevents current experimental admission |
 |---|---|---|
-| CASPER | Corrected full paper and author code studied | Original external-IMU inputs differ from our controller inputs; inspected threshold selection uses anomaly labels; code-use and exact published-run correspondence remain unresolved |
-| TWINE | Publication/abstract evidence and pinned code | Full manuscript unresolved; supervised/random-row workflow and differing model paths do not match our normal-only study |
-| CatBoost on CASPER | Publication/abstract evidence, code and reported-output audit | Full manuscript/code provenance unresolved; inspected target construction, modality stacking and scaling cannot be adopted as our common protocol |
+| CASPER | Corrected full paper and author code studied | Separate external-IMU track held for code-use, threshold and run-correspondence gaps; an independently implemented CASPER-inspired controller CNN is a Group D design candidate, not a faithful reproduction |
+| TWINE | Accepted manuscript obtained; section/code and reported-metric audit complete within stated coverage | Background only for Group D; supervised/random-row task and wider inputs are incompatible. Separate supervised track remains unadmitted; model/result correspondence remains unresolved |
+| CatBoost on CASPER | Publication/abstract evidence, code and reported-output audit | Background only for Group D; full manuscript/provenance unresolved and target/modalities/preprocessing unsuitable for direct reuse. Separate supervised track unadmitted |
+
+ModernTCN 2024 is a **conditional modified author-code transfer candidate** for a normal-only comparison after a causal/common-input adapter and tests. This is not evidence that its paper evaluated CASPER, nor an execution-ready or reproduced baseline. Follow the [admission decision](COMPARATOR_ADMISSION.md) for the justified comparison set and remaining gates.
 
 **Remaining checklist:**
 
-- [ ] Seek lawful full manuscripts through publisher, institutional repository or author versions. Contact requires separately authorized outreach; absence of access is not evidence of a fake paper.
+- [x] Obtain and audit TWINE's lawful institutional accepted manuscript; preserve the acquired version and result/code discrepancies.
+- [ ] Resolve CatBoost's remaining manuscript gap if its separate study role warrants further work. Contact requires separately authorized outreach; absence of access is not evidence of a fake paper.
 - [ ] Finish exact paper-section ↔ code-function ↔ configuration ↔ dataset/run correspondence.
 - [ ] Resolve licenses/code-use terms and distinguish public availability from permission to reuse or redistribute.
 - [ ] Search specifically for close work on task-phase synchronization, progression residuals, periodic-template alignment, prediction and anomaly preservation.
 - [ ] Keep the current publication window **2023-10-16–2026-10-16** unless explicitly revising the search plan. Record any later literature update separately; older work can remain relevant background.
 - [ ] For every proposed comparator, record release, features, labels, supervision, chronology, preprocessing, calibration, code revision and implementation designation.
-- [ ] Decide: admitted under the common protocol, disclosed modified implementation, independent reimplementation, separate reproduction track, or background only.
-- [ ] Find better-matched recent alternatives if necessary; do not fill three slots with scientifically unequal methods.
+- [x] Record honest designations for the original three learning papers, separating Group D from original-input and supervised tracks.
+- [ ] Complete adapter/model validation and execution admission for selected independent or transfer comparators; do not convert design eligibility into completed reproduction.
+- [ ] Extend the better-matched recent-method search where needed; do not fill three slots with scientifically unequal methods.
 
 **Completion evidence:** an admission matrix with justified decisions and runnable/specifiable methods. Three downloaded papers are not three reproduced baselines, and three is not a scientific upper limit. Missing manuscripts do not block our independent simple-control pilot; they do block claims of reproducing those methods.
 
@@ -93,7 +97,7 @@ Earlier audits did read raw records for identity/schema/annotation work. The lat
 
 **Remaining checklist:**
 
-- [ ] Exercise the new loader on the authorized bounded normal prefixes during the pilot and verify exact support, without changing raw bytes.
+- [x] Exercise the new loader on the authorized bounded normal prefixes during the pilot and verify exact support, without changing raw bytes.
 - [ ] Preserve the clean-commissioning and truthful-monitor assumptions as assumptions, not discovered security properties.
 - [ ] Keep recorded schedule flags separate from physical-onset or malicious-intent ground truth.
 - [ ] Decide whether the available normal data support a meaningful nominal trajectory/progression model.
@@ -115,91 +119,100 @@ Earlier audits did read raw records for identity/schema/annotation work. The lat
 
 Final normal and mixed are one continuous replay. Warmup is 1,528 preceding observations; gaps and invalid inputs break continuity. Labels do not reset state. The [evaluation protocol](EVALUATION_PROTOCOL.md) and [metric definitions](METRIC_DEFINITIONS.md) fix exact row ranges, ties, missingness and event conventions.
 
-**Implemented:** read-only loader; manifest-bound training/development wrapper; observation/evaluator separation; causal score/update coordinator; calibration/count/AP/episode/event/time primitives. **83 synthetic tests passed**, and the recorded 13 source/config fingerprints still match at this roadmap audit. See [software validation](SOFTWARE_VALIDATION.md) and the [actual receipt summary](../experiments/SOFTWARE_TEST_REPORT.json).
+**Implemented:** read-only loader; manifest-bound training/development wrapper; observation/evaluator separation; causal score/update coordinator; calibration/count/AP/episode/event/time primitives. The historical foundation passed 83 tests; the current observer/control/runner suite passes **254 tests**, with 40 source/configuration fingerprints verified. See the [observer report](OBSERVER_VALIDATION_REPORT.md) and [current test receipt summary](../experiments/SOFTWARE_TEST_REPORT_OBSERVER_V0.1.json).
 
 **Remaining checklist:**
 
-- [ ] Add model-specific fitting, future-information and immutable-reference tests when each model is implemented.
-- [ ] Test the bounded supervisor and actual failure/abort records.
+- [x] Add fitting, future-information and immutable-reference tests for velocity/template/AR; future models require their own tests.
+- [x] Test the bounded supervisor and synthetic failure/abort records; the real pilot completed successfully.
 - [ ] Implement production calibration/final admission, exact score artifacts and protected label-join/release path.
 - [ ] Implement complete seed/run report assembly and actual resource instrumentation.
 - [ ] Validate these additions before using them for claims. Do not treat existing synthetic tests as production evaluator admission.
 
 The current wrapper intentionally blocks calibration and final observations. Public raw files remain accessible locally; this is procedural/interface protection, not an OS lock or blinded study.
 
-## 7. Implement the first control and bounded supervisor — immediate next task
+## 7. First control and bounded supervisor — completed
 
-The [pilot specification](BOUNDED_PILOT_PLAN.md) is complete as a plan. The control and supervisor are absent.
+The [pilot specification](BOUNDED_PILOT_PLAN.md) was implemented without changing its formula, subsets or limits. The [pilot report](PILOT_REPORT.md) records the implementation, 150 passing synthetic tests and actual execution.
 
-- [ ] Implement six-channel velocity mean and population variance using the declared streaming Welford calculation.
-- [ ] Implement the fixed maximum absolute standardized-deviation score.
-- [ ] Reject zero/nonfinite variance; do not introduce an unrecorded epsilon or discard a channel.
-- [ ] Test known synthetic statistics, constant channels, nonfinite inputs, complete score support and unchanged fitted parameters.
-- [ ] Ensure only eligible training-prefix observations fit the reference; development observations cannot update it.
-- [ ] Implement timeout, CPU, monitored-memory and output-size limits with explicit terminal failure records.
-- [ ] Test the supervisor on harmless synthetic workers that finish, fail or exceed a bound.
-- [ ] Resolve the exact interpreter, command, configuration hashes, output paths and run manifest.
+- [x] Implement six-channel velocity mean and population variance using the declared streaming Welford calculation.
+- [x] Implement the fixed maximum absolute standardized-deviation score.
+- [x] Reject zero/nonfinite variance; do not introduce an unrecorded epsilon or discard a channel.
+- [x] Test known synthetic statistics, constant channels, nonfinite inputs, complete score support and unchanged fitted parameters.
+- [x] Ensure only eligible training-prefix observations fit the reference; development observations cannot update it.
+- [x] Implement timeout, CPU, monitored-memory and output-size limits with explicit terminal failure records.
+- [x] Test the supervisor on harmless synthetic workers that finish, fail or exceed a bound.
+- [x] Resolve the exact interpreter, command, configuration hashes, output paths and run manifest.
 
 **Completion evidence:** executable, tested control and runner with a concrete command. This stage is software work; it does not require an attack score or a claim that the method is a twin.
 
-## 8. Run the bounded normal-only feasibility pilot
+The 17 October literature follow-up verified the existing 150-test receipt and source identities without repeating tests or training. The completed stage does not need another pilot attempt.
 
-- [ ] Verify raw source identity without inspecting protected feature distributions.
-- [ ] Fit on raw training prefix `[0,50000)`: **46,944 eligible observations**.
-- [ ] Score raw development prefix `[540002,560002)`: **18,472 eligible observations**.
-- [ ] Record source traversal separately from selected observations; do not borrow history across the development boundary.
-- [ ] Record all finite scores, coverage, reference hashes, timing, CPU, memory, output size and terminal status locally.
-- [ ] Respect proposed limits: 600 seconds wall, 300 seconds CPU, 1 GiB monitored RSS, 50 MiB outputs, one deterministic attempt. These are unmeasured proposed limits until the supervisor exists and a run occurs.
-- [ ] Do not calculate a threshold, attack F1/AP, final normal false alarms or event detection in this pilot.
-- [ ] Preserve failure; diagnose with permitted normal data and version any changed rule before another bounded attempt.
+## 8. Bounded normal-only feasibility pilot — completed
+
+- [x] Verify raw source identity without inspecting protected feature distributions.
+- [x] Fit on raw training prefix `[0,50000)`: **46,944 eligible observations**.
+- [x] Score raw development prefix `[540002,560002)`: **18,472 eligible observations**.
+- [x] Record source traversal separately from selected observations; do not borrow history across the development boundary.
+- [x] Record all finite scores, coverage, reference hashes, timing, CPU, memory, output size and terminal status locally.
+- [x] Enforce 600 seconds wall, 300 seconds CPU, 1 GiB monitored RSS, 50 MiB outputs and one deterministic attempt. Actual supervised wall 8.626 seconds, CPU 8.571 seconds, peak RSS 27.94 MiB, run outputs 1.93 MiB.
+- [x] Do not calculate a threshold, attack F1/AP, final normal false alarms or event detection in this pilot.
+Failure preservation and termination behavior were tested synthetically; the one real attempt succeeded. Any future retry or changed rule requires a separate declared scope. No attempt was repeated.
 
 **Pass condition:** exact permitted fitting/scoring support, finite outputs, immutable reference and recorded completion within the declared limits. **What it proves:** machinery and resource feasibility. **What it does not prove:** attack detection, novelty or superiority. A subset-fit pilot artifact cannot be renamed a full-training final checkpoint.
 
-## 9. Implement and validate the simple comparison methods
+## 9. Implement and validate the simple comparison methods — completed
 
-- [ ] Specify a full-training version of the velocity control.
-- [ ] Specify a nominal periodic-trajectory/template control with causal alignment.
-- [ ] Specify an ordinary causal predictor, initially a small autoregressive model where feasible.
-- [ ] Add a compact CNN only if it has a justified comparison role and an acceptable implementation/source designation.
-- [ ] For every method, define inputs, formula, train-only transforms, history, initialization, score orientation and numerical failures.
-- [ ] Predeclare a finite configuration set, normal-only development objective and deterministic tie-breaking. Development has no attack F1 target.
-- [ ] Fit/select using training/development only; assess predictive/state behavior and computational feasibility there.
-- [ ] Record all candidate configurations and failures, including simpler methods that work well.
+- [x] Specify and fit the full-training velocity control.
+- [x] Implement a frozen nominal periodic template with causal warmup alignment and fixed clock progression.
+- [x] Implement channelwise autoregressive ridge prediction with past-only histories.
+- [x] Define inputs, formulas, training-only transforms, history, initialization, score direction and failures in the [plan](SIMPLE_CONTROLS_PLAN.md).
+- [x] Predeclare one velocity, two template and four AR configurations, normal-development MSE selection and deterministic ties.
+- [x] Pass synthetic numerical, causal, leakage and saved-artifact tests.
+- [x] Fit all seven using 536,946 eligible training targets and score all 160,472 normal-development endpoints without changing fitted references.
+- [x] Retain every candidate and select velocity, template32 and AR(4)/ridge0.001 without development refitting.
+- [x] Save [selected artifacts and hashes](../experiments/SELECTED_CONTROLS_V0.1.json) and measure resources: 51.377 s wall, 147.48 MiB peak RSS, 17.53 MiB output.
 
-**Completion evidence:** verified, complete-score controls with normal-only selected artifacts. Their final attack performance remains unknown until the common final campaign. Simple controls are essential because the recorded intervention directly changes speed.
+**Completion evidence:** [control-study report](CONTROL_STUDY_REPORT.md), 205 passing tests and an independent 28-check post-run audit. The compact CNN is optional and deferred; no recent paper method was reproduced. Selected controls are ready to supply later calibration, but the complete twin/ablation roster and calibration runner are not ready. Normal prediction loss does not establish attack sensitivity.
 
-## 10. Specify and validate the candidate twin and ablations
+## 10. Specify and validate the observer and ablations — completed in narrow scope
 
-- [ ] Define the physical quantity/state represented and its connection to measured joint motion.
-- [ ] Learn the nominal motion reference/progression from training only; do not use event boundaries to create task phases.
-- [ ] Specify causal initialization, state propagation, prospective observation prediction and synchronization.
-- [ ] Separate prediction before correction from the correction proposed by the current measurement.
-- [ ] Keep expected progression separate from merely adopting measured speed as authorized speed.
-- [ ] Define the detection score and any permitted causal score aggregation before calibration.
-- [ ] Test normal-only recurrence, phase ambiguity, prediction usefulness and state uncertainty against simple controls.
-- [ ] Implement the matched progression-aware versus progression-omitted comparison with all other conditions held comparable.
-- [ ] Specify scientifically justified additional ablations: unconstrained following and fixed/free-running reference, with failure/normal drift reported.
-- [ ] Test actual model causality and score-before-update behavior; infrastructure call order alone is insufficient.
+- [x] Define the physical quantity/state represented and its connection to measured joint motion.
+- [x] Learn the nominal motion reference/progression from training only; do not use event boundaries to create task phases.
+- [x] Specify causal initialization, state propagation, prospective observation prediction and synchronization.
+- [x] Separate prediction before correction from the correction proposed by the current measurement.
+- [x] Keep expected progression separate from merely adopting measured speed as authorized speed.
+- [x] Define the detection score and any permitted causal score aggregation before calibration.
+- [x] Test normal-only recurrence, phase ambiguity, prediction usefulness and state uncertainty against simple controls.
+- [x] Implement the matched correction-evidence versus residual-only score comparison with identical state trajectories; nominal progression remains in both predictors.
+- [x] Specify scientifically justified additional ablations: unconstrained following and fixed/free-running reference, with failure/normal drift reported.
+- [x] Test actual model causality and score-before-update behavior; infrastructure call order alone is insufficient.
 
 **Go/no-go:** if meaningful asset-state correspondence, prediction and synchronization cannot be established, describe the model as an observer/predictor or revise the question before final testing. A twin label or an added phase variable is not evidence of novelty.
 
-## 11. Resolve contribution, comparator strength and evidence breadth before final exposure
+**Completion evidence:** [observer report](OBSERVER_VALIDATION_REPORT.md), [artifact registry](../experiments/OBSERVER_ARTIFACTS_V0.1.json), 254 passing tests, 7/7 declared internal checks and 48/48 saved-artifact checks. The state is an empirical phase distribution; ambiguity and strong AR performance limit the claim. This meets the stated observer/revised-question branch of the milestone; it does not establish a physical twin or security benefit.
 
-This work runs alongside Stages 7–10 rather than waiting for final results.
+## 11. Resolve contribution and evidence breadth — scope decision complete
 
-- [ ] Build a claim-by-claim comparison with the closest existing methods: what is already known, what differs here, and which experiment could refute the proposed benefit.
-- [ ] Confirm that the matched ablation isolates progression evidence rather than changing inputs, capacity and tuning budget at the same time.
-- [ ] Decide whether the final comparison set is strong and fairly admitted; keep unchanged paper reproductions separate from modified methods.
-- [ ] Decide which claims one repetitive recording can support and what broader claims would require.
-- [ ] Assess suitable independent acquisitions/tasks/robots or another compatible dataset/testbed if broader evidence is needed. No additional source is currently admitted; verify access, labels, clocks and comparability first.
+The [contribution decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [comparison design](COMPARISON_ROSTER_DECISION.md), three primary-source audits and [independent-evidence plan](INDEPENDENT_EVIDENCE_PLAN.md) now document this decision. No security result or publication readiness follows.
+
+- [x] Compare phase/alignment/segmentation/prediction/surprise prior art claim by claim. These components and the tracking/detection trade-off are established; no new-twin/estimator claim.
+- [x] Correct the matched contrast: R versus R+C isolates added correction-discrepancy scoring. Both retain nominal progression and identical states; map the historical wording in a future versioned execution manifest.
+- [x] Decide the narrow core comparison roles: eleven variants, seven implemented and four C/K/L/Rv design-only. Classical controls remain essential; original learning trio is not a fair admitted ranking. Full implementation admission remains Stage 12.
+- [x] Limit claims to one repetitive acquisition/eight dependent intervals. No robot/task/fault/changeover generalization or intent attribution.
+- [x] Screen independent sources: prioritize voraus-AD as separate physical-fault/variable-execution evidence and NIST as benign-condition evidence. No additional source admitted.
 - [ ] Freeze an independent-evidence design before looking at its outcomes. Multiple windows, eight intervals and three seeds are not independent robot replications.
-- [ ] Record a reasoned choice: a narrow single-recording feasibility claim, or a larger validated study. Leading-journal ambitions do not turn limited evidence into a general result.
+- [x] Choose a narrow single-recording score-comparison case study; broader cybersecurity claims remain withheld. Leading-journal ambitions do not turn limited evidence into a general result.
 
 **Go/no-go:** do not spend a large training budget on an indistinct mechanism or unsupported claim. If simple controls explain the task or prior art already establishes the proposed contribution, narrow/revise the question. Negative findings may be useful; neither a negative nor positive finding guarantees publication.
 
+**Complete here:** scope revision, close-prior-art comparison, scientific roster design and independent-source investigation. **Still pending:** measured contribution, four score implementations, independent dataset/protocol admission and final execution readiness. The uncompleted independent-evidence freeze is a future source-specific gate, not a claim that metadata screening supplies new observations.
+
 ## 12. Freeze the selected model comparison before calibration
 
-- [ ] Finalize the full method/control/ablation roster and implementation designations.
+- [x] Select scientific roles and designations in the [core roster](COMPARISON_ROSTER_DECISION.md); seven implemented and four design-only variants.
+- [ ] Specify, implement/test and normal-validate the new C/K/L/Rv scores under a versioned bounded extension; preserve v0.1 and the consumed attempts.
+- [ ] Admit the complete executable roster, exact artifact identities and explicit historical-to-current contrast-name mapping.
 - [ ] Record each finite search, normal-only selection objective, candidate table and selected configuration.
 - [ ] Fit selected full-training artifacts and record their transforms, references/checkpoints and initialization.
 - [ ] Fix stochastic seeds **17, 42, 2026**, paired where applicable; deterministic controls run once.
@@ -237,7 +250,7 @@ This work runs alongside Stages 7–10 rather than waiting for final results.
 - [ ] Verify unadjusted TP/FP/FN/TN, precision/recall/F1 and tied-score average precision on the mixed population.
 - [ ] Report protected-normal point exceedance, observed episodes/hour, native-time exposure and coverage together.
 - [ ] Show all eight interval outcomes, misses, pre-existing alarms, fresh onsets and schedule-relative delay; keep recovery behavior visible.
-- [ ] Compare the progression-aware/omitted pair and all mandatory controls without a new composite winner or a better-looking threshold.
+- [ ] Compare R versus R+C (additional correction evidence) and all mandatory controls without a new composite winner or a better-looking threshold.
 - [ ] Report every seed and descriptive paired summaries. Do not turn correlated rows, intervals or seeds into independent-plant significance claims.
 - [ ] Separate parsing, fitting, calibration and processing costs; do not present them as live deployment latency.
 - [ ] Inspect final plots/failure cases only after release, as analysis; do not use them to tune the claimed final model.
@@ -281,10 +294,10 @@ Acceptance and publication timing are editorial outcomes, not milestones we can 
 
 ## What we do next, and what can run in parallel
 
-**Immediate sequence:** implement the velocity control → test its fitting/numerical behavior → implement/test the bounded supervisor → prepare the concrete pilot command/manifest → run the separately scoped normal-only pilot → review feasibility before expanding models.
+**Immediate sequence:** retain controls/observer v0.1 → specify the bounded C/K/L/Rv extension → implement/test and normal-validate it → admit the complete executable roster → implement/admit threshold-only calibration → complete final freeze → execute the protected campaign only within its separately scoped plan. No large neural run is needed to fill a quota. Any observer refinement preserves v0.1 and declares a new development version before execution.
 
-**Parallel work:** researcher learning, missing-manuscript/source follow-up, comparator admission, close-prior-art analysis, contribution records and independent-evidence planning. These need not wait for the pilot.
+**Parallel work:** researcher learning, missing-source follow-up, contribution records and source-specific independent-evidence admission. ModernTCN/causal alignment become necessary if broader competitive claims are revived; they remain conditional now.
 
 **Keep closed:** calibration for model selection, both final slices for exploratory development, invented results, heavy training without a concrete measured plan, and submission/publication without approval.
 
-The next scientific decision after the pilot is whether normal-only data support a useful nominal state/progression representation and whether a strong comparison can test a distinct contribution. Completing code is necessary, but that decision determines what paper we can honestly write.
+The supported nominal representation is an empirical observer. The next experiment must test the narrowly defined scoring question against its ordinary alternatives; an empirical contribution remains unproved. Additional faults or benign variation would extend evidence in separate tracks, not establish cross-robot cybersecurity by themselves.

@@ -18,3 +18,7 @@ Established 16 October 2026 for Haiqa Mushtaq's independent manufacturing projec
 | Genuine twin contribution | Identify represented process state, model, synchronization, prediction and trusted observations. An Azure object or classifier is not evidence of a validated physical model or a useful twin contribution. |
 
 Use **learning candidate**, **conditional comparative candidate**, **hold**, **background**, and **execution-ready** explicitly. A missing full manuscript, dataset citation or license is an unresolved fact, not proof of fabrication. No candidate is execution-ready at this stage.
+
+## Recorded transfer-track decision — 17 October 2026
+
+The [admission decision](COMPARATOR_ADMISSION.md) selects a comparison design that includes an explicitly transferred general time-series detector (ModernTCN), alongside ordinary motion controls and matched mechanism variants. This is a disclosed extension of the search scope, **not satisfaction of the published common-dataset-trio criterion**. Every eventual local rerun must still use identical admitted CASPER bytes and information access. Keep paper/role selection, numerical specification, software validation and execution readiness separate. The original three papers have Group D dispositions; no recent-paper implementation is yet execution-ready. The implemented velocity control is an independent ordinary control, not a recent paper.

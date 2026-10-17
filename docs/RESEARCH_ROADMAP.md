@@ -1,6 +1,6 @@
 # Research roadmap for the three projects
 
-Status: staged portfolio plan; **no model training or benchmark experiments executed**. Manufacturing has completed 83 synthetic software tests and a pilot specification. Updated 2026-10-17.
+Status: staged portfolio plan. Manufacturing has completed **254 synthetic tests, preserved pilot/control studies and bounded normal-only empirical motion-observer validation**. No paper baseline reproduction, attack benchmark or validated twin exists. Updated 2026-10-17.
 
 ## Working order
 
@@ -23,7 +23,7 @@ Writing notes starts in Stage 1. Results sections and superiority claims require
 ## Immediate next tasks
 
 1. **Water / Muhammad Usman:** use the COMSATS student-email route for an authorized SWaT/WADI request, then identify releases. In parallel, read CAROTS and audit remaining preprocessing/device issues. The assistant has not submitted a request.
-2. **Manufacturing / Haiqa Mushtaq:** use the [complete paper roadmap](../manufacturing/docs/PAPER_ROADMAP.md). The right-arm question/data/evaluation definitions and 83 synthetic loader/metric tests are complete within their recorded scope. Next implement/test the specified velocity control and bounded supervisor, then execute a separately scoped normal-only feasibility pilot. Comparator admission, missing manuscripts, twin/model validation, novelty, calibration and final execution remain open.
+2. **Manufacturing / Haiqa Mushtaq:** use the [complete paper roadmap](../manufacturing/docs/PAPER_ROADMAP.md). The right-arm question/data/evaluation definitions, 254 synthetic tests, prior bounded pilot/control selection and empirical motion-observer validation are complete within their recorded scope. Velocity, a 32-bin template and AR(4) artifacts are ready for later calibration. The observer checks support a narrow empirical-state interpretation; ordinary AR remains stronger at one-step prediction. The [scope decision](../manufacturing/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) selects a narrow single-acquisition case study; next implement/test the bounded C/K/L/Rv score extension and admit the executable roster before calibration. Independent voraus-AD/NIST sources remain screened fault/benign candidates, not admitted cyber evidence. The [comparator audit](../manufacturing/docs/COMPARATOR_ADMISSION.md) excludes TWINE/CatBoost from Group D, records two original full manuscripts, and selects a conditional ModernTCN transfer. Neural adapter/configuration admission, CatBoost full text, physical-twin claims, novelty, calibration and final execution remain unresolved.
 3. **Smart grids / Muhammad Usman Sanghla:** choose the electrical system and observation type; verify which leads provide attack recordings versus only simulation cases. Audit recent twin-based comparators and their code/protocol.
 
 ## Preventing accidental duplication

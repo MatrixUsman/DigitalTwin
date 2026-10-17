@@ -1,5 +1,7 @@
 # TWINE: reading notes and connection to author code
 
+**Current update — 17 October 2026:** the full QUB accepted manuscript has now been lawfully obtained and AI-audited. See the [new source/admission audit](../../docs/literature/TWINE_ADMISSION_2026-10-17.md) for exact PDF identity, section/code mapping, reported-metric inconsistencies and remaining provenance gaps, and the [current comparison decision](../../docs/COMPARATOR_ADMISSION.md) for its **background-only Group D** role. The separate supervised track is not admitted. The notes below preserve the 16 October audit and its then-unresolved manuscript access; they are historical, not the current access status. Human comprehension is not attested.
+
 Audit date: **16 October 2026**. Project: manufacturing; owner: Haiqa Mushtaq. Scope: source verification and static reading with the installed research skill's bounded source-verification workflow. No training, notebook execution, Azure access, paid service or author contact occurred. These notes do not certify that a researcher has read or understood the paper.
 
 **Reading coverage is partial:** the complete manuscript is still inaccessible. The institutional abstract, bibliographic records, repository README, both complete notebooks, all three Python modules and the twin schema were inspected. Paper section/equation/table correspondence remains unverified. Code facts below describe the collected revision, not necessarily the exact experiment reported in the article.

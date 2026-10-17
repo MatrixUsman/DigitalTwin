@@ -1,5 +1,7 @@
 # CatBoost on CASPER — critical learning, numerical comparison on hold
 
+**17 October 2026 admission update:** see the [dated CATBOOST audit](../../docs/literature/CATBOOST_ADMISSION_2026-10-17.md) and [central decision](../../docs/COMPARATOR_ADMISSION.md). Earlier collection status below is historical; no faithful reproduction or Group D execution admission is implied.
+
 [Reading notes and result-provenance study](READING_NOTES.md) connect the official abstract to code and author-reported summaries, including test/validation label and timing-unit discrepancies. Full-paper reading remains incomplete; these are not our benchmark results.
 
 Paper: [CatBoost-Driven Anomaly Detection in Industrial Robotic Arms Using CASPER Dataset](https://doi.org/10.1109/LSENS.2026.3656499), IEEE Sensors Letters, February 2026 issue. [Official abstract](https://epapers2.org/apscon2026/ESR/paper_details.php?paper_id=6394). Full manuscript and exact published run remain unverified.

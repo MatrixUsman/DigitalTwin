@@ -1,5 +1,7 @@
 # CASPER comparison protocol — before training
 
+**Current routing, 17 October 2026:** [comparator admission](COMPARATOR_ADMISSION.md) now records the original papers' dispositions and an explicitly transferred ModernTCN candidate. The frozen Group D feature/evaluation contracts remain unchanged. The ordinary velocity control has completed [one bounded pilot](PILOT_REPORT.md); this earlier comparison-plan snapshot is not a statement that no fitting has ever occurred.
+
 ## Material Passport
 
 - Origin skill: academic-research-suite, experiment-agent planning guidance; project rules take precedence.

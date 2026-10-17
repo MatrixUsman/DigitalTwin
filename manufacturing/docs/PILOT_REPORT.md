@@ -11,6 +11,8 @@
 
 The user explicitly authorized both implementation/testing and execution of this bounded pilot. That later instruction supplied the execution authorization missing from the historical plan. Its original `proposed_not_executed` fields remain unchanged; this report and the actual run record describe the subsequent execution.
 
+The resolved record preserves the original model-description block, including its historical `not_implemented` wording. Its separate implementation designation, code snapshots and completed run status record what actually executed; those copied planning labels are not current readiness claims.
+
 ## Outcome and what it means
 
 The control fitted all **46,944 eligible training-prefix observations** and produced all **18,472 eligible development-prefix scores**. All six population variances were positive and finite. Saved scores were read back and checked for exact row order, completeness and finite values. The fitted reference's state hash was identical before and after development. There were no missing, duplicated or reordered score endpoints.

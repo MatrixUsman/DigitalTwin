@@ -1,0 +1,40 @@
+# Independent evidence: admission plan before final exposure
+
+**17 October 2026. Metadata-based design; no new dataset admitted or bulk download performed.** The [provider/manuscript screen](literature/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md) records release identities, access, modalities, source revisions and unresolved facts. The [scope decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md) chooses a narrow CASPER case study now; this plan identifies what would support broader claims.
+
+## Candidate priorities and honest scope
+
+1. **voraus-AD:** preferred next admission audit for a separate physical-anomaly/variable-execution study. Author sources describe 1,367 nominal and 755 anomalous robot executions, with six joint positions/velocities among available signals, random workpiece positions and twelve physical error types. This is another robot/task context, not another cyberattack corpus. Author-reported counts are not locally verified row/label counts. Keep only justified common channels and separately fit each source unless a genuine transfer experiment is expressly specified.
+2. **NIST UR5 degradation recordings:** candidate evidence on nominal changes involving speed, payload and temperature, with controller time and joint states. Suitable for examining response to benign conditions; no cybersecurity truth is implied. Confirm which runs are eligible healthy operation rather than treating degradation labels as normal or cyber labels.
+3. **UR5e collaborative-manipulator anomaly recordings:** secondary public physical-anomaly source with run/program variation; details and limits are in the source screen. Program-tree/context features may exceed our current information budget. Do not import those advantages silently or relabel perturbations as attacks.
+4. **CASPER 1 & 2 / newer cyber sources:** hold until independence, modalities and labels are established. Original-sized controller/IMU files recur in CASPER's later listing; metadata overlap is neither proof of byte identity nor evidence of an independent acquisition. FactoryNet's context-label and release questions presently prevent using it to inflate corpus breadth.
+
+**Recommended scope choice:** complete the narrow score-audit design; next audit voraus-AD's admission before considering acquisition/execution. NIST is a complementary benign-condition route, not a replacement security benchmark. Neither source alone supports cross-robot cyberattack detection, malicious-intent attribution or legitimate-change/attack separation.
+
+## Admission gates for each source
+
+| Gate | Required record before it passes |
+|---|---|
+| Access and terms | Official provider/version links, applicable data and code licenses, authorized users/use and redistribution limits. Public listing is not permission to upload files. Resolve noncommercial/share-alike obligations for the intended use; do not give legal assurances. |
+| Exact identity | Version/release date, manifest, original filenames and sizes, supplied checksums; after authorized receipt compute local cryptographic hashes and preserve raw bytes. No hashes are invented from filenames. |
+| Independence | Acquisition/session/day, physical robot, task/program, operating-condition and execution identifiers; identify duplicate/reprocessed records and train/test overlap across releases. Different folders or samples are not automatically independent units. |
+| Physical semantics | Six-joint position/velocity availability and order, units, native time/rate, gaps, start/end conventions, actual versus commanded values, sensor provenance and trustworthy context. Transform units only through documented derived processing. |
+| Ground truth | Distinguish nominal, physical faults, scripted perturbations, cyber interventions and authorized transitions; inspect annotation source/uncertainty. Do not invent attack labels or use labels as model features. |
+| Task compatibility | Confirm repeated/variable trajectory structure, reference requirements, causality and meaningful observer initialization. Do not assume CASPER's 38-second period, phase grid or cycle meaning applies. |
+| Split independence | Allocate whole acquisitions/sessions/executions before windows. Preserve acquisition chronology when known; if unknown, report grouped held-out execution design instead of calling it chronological. Keep duplicated trajectories and condition families from leaking across intended generalization boundaries. |
+| Calibration/final separation | Source-specific normal training/development/calibration; protected complete-run final normal and anomaly sets, with access ledger and predeclared outcome rules. Fault types, robot identities or conditions held out for transfer must not inform selection. |
+| Resource and interface feasibility | Audited loader/schema tests, synthetic contract checks, bounded normal-only pilot estimate and local storage budget; new dependency environment if required. No full training from metadata availability alone. |
+
+For short executions, **do not copy CASPER's 1,528-record warmup**. voraus-AD executions average about 11 seconds; at 100 Hz that warmup alone is 15.28 seconds. The 100/500 Hz release choice, reset/history lengths, native-time horizons and valid support require a new source-specific contract. Copying a large row count would silently erase runs or change denominators. CASPER's 0.075-second gap rule and fixed raw-row boundaries also do not transfer automatically.
+
+Freeze complete execution/session groups and the specific claim before opening outcome data. Three valid designs answer different questions: (a) source-specific refitting tests portability of the procedure; (b) new-condition holdout tests within-platform condition transfer; (c) no-refit cross-robot transfer tests a much stronger invariance assumption and requires physically justified alignment. Never call (a) zero-shot generalization. Aggregate per source/condition with explicit denominators; do not pool unrelated anomaly types into one apparent cyber benchmark score.
+
+The present screen supports proposing a study, not freezing actual group allocations. Session metadata, bytes and labels must be verified before a real independent-evidence protocol can be finalized. No arbitrary count of runs guarantees representativeness or statistical power. Estimate appropriate independent-unit sample sizes after defining the estimand, dependence and meaningful effect, rather than treating millions of rows as samples.
+
+## What a broader cyber study would need
+
+A separately authorized physical testbed or suitable independent recording should provide repeated acquisitions across days/conditions, documented robot/task identities, trusted command/context provenance if authorization is a claim, truthful independently collected monitoring, and matched normal speed changes, physical faults and command-path interventions. Use appropriate physical safeguards and local testbed authorization; no facility or hardware access is assumed here. Simulated or measurement-level perturbations stay explicitly separate from physical cyber evidence.
+
+To claim changeover robustness, include independently labelled legitimate changeovers under the intended operating distribution. To claim fault/attack discrimination, the available trusted information and annotations must distinguish causes. Identical permitted telemetry histories remain indistinguishable to this detector regardless of dataset count. To claim across-robot cybersecurity generalization, obtain security-labelled observations from independent robots with compatible trust/input assumptions; a second robot's faults establish only fault-track evidence.
+
+Independent-recording design should be settled before protected CASPER exposure if it will support the eventual confirmatory paper. If that evidence cannot be obtained, retain the single-acquisition case-study claim and its limited publication scope rather than rename the same rows or open a holdout to search for a story. Any later outcome-informed extension must disclose the earlier exposure and use a fresh protected confirmation set.

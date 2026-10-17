@@ -1,22 +1,25 @@
-# Proposed manufacturing reproduction plan
+# Manufacturing reproduction and implementation plan
 
-Historical paper-specific proposals from 16 October 2026, with current routing updated **17 October 2026**. Use [PAPER_ROADMAP.md](PAPER_ROADMAP.md) for the complete current lifecycle and [SOFTWARE_VALIDATION.md](SOFTWARE_VALIDATION.md) for the implemented loader/isolation/metric foundation: an isolated standard-library environment and 83 synthetic tests now exist. No detector, real-data fit, calibrated threshold or benchmark result exists. The separate reproduction proposals below remain unresolved; they are not a completed or admitted three-method comparison.
+Current execution record, **17 October 2026**: the [full-training control study](CONTROL_STUDY_REPORT.md) completed one bounded normal-only attempt after **205 synthetic tests passed across 34 source/configuration files**. Seven candidates each fitted 536,946 eligible training targets and produced 160,472 aligned development scores. The selected methods are the fixed velocity-deviation control, 32-bin periodic template and AR(4) with ridge 0.001. [Selected artifact identities](../experiments/SELECTED_CONTROLS_V0.1.json) are recorded for later calibration. These are independent ordinary controls, not digital twins or paper reproductions.
 
-**Current scope decision:** the [selected question and threat model](RESEARCH_QUESTION_AND_THREAT_MODEL.md) prioritize normal-only right-arm state/progression monitoring under a restricted command-path adversary. The [annotation/feature/split specification](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) and [evaluation rules](EVALUATION_PROTOCOL.md) are defined. Foundational synthetic loader/isolation/metric checks are complete; the next work is the specified velocity control and bounded supervisor, then a separately scoped normal-only pilot. Template/AR controls and twin/state validation follow feasibility. The paper-specific proposals below do not automatically define the main comparison or authorize training.
+The [earlier smaller pilot](PILOT_REPORT.md) and [83-test loader/metric foundation](SOFTWARE_VALIDATION.md) remain preserved historical milestones. Both the pilot and full-training control-study v0.1 attempts are consumed; the concrete commands in their reports document completed runs, not commands to repeat. No calibrated threshold or final attack benchmark exists. Use [PAPER_ROADMAP.md](PAPER_ROADMAP.md) for the lifecycle and [COMPARATOR_ADMISSION.md](COMPARATOR_ADMISSION.md) for current paper-specific decisions. The initial three learning papers do not constitute three admitted experimental baselines.
+
+**Current scope decision:** the [selected question and threat model](RESEARCH_QUESTION_AND_THREAT_MODEL.md) prioritize normal-only right-arm state/progression monitoring under a restricted command-path adversary. The [annotation/feature/split specification](ANNOTATION_FEATURE_SPLIT_CONTRACT.md) and [evaluation rules](EVALUATION_PROTOCOL.md) remain frozen. Essential control implementations and normal-only artifact selection are complete. The empirical observer has since been normal-only validated. The [scope decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md) narrows the claim to a single-acquisition score study; next specify and validate the bounded C/K/L/Rv extensions in the [core roster](COMPARISON_ROSTER_DECISION.md). ModernTCN remains conditional on broader claims. Freeze the complete comparison roster before threshold calibration. Calibration and both final slices remain closed; the control milestone does not establish twin fidelity, novelty or attack sensitivity.
 
 ## 1. Resolve the setting and evidence
 
 Prioritize original CASPER industrial robotic-arm pick-and-place observations. Receipt hashes and a structural profile are recorded in the [identity audit](CASPER_DATASET_IDENTITY.md); cross-clock annotation and scientific suitability remain separate issues. Define malicious interventions separately from faults and authorized speed/task changes. Specify the evaluation target: anomaly detection, attack classification, or command/sequence consistency. Do not promise attack attribution from anomaly scores alone.
 
-The [selection report](BASELINE_SELECTION_REPORT.md) recommends **CASPER 2024 → TWINE 2026 → CatBoost 2026** for critical study. CASPER is the conditional first reproduction candidate; no numerical baseline is admitted yet. Complete missing full manuscripts, release reconciliation, code-use permissions and paper-to-run mapping first. Keep the 2025 edge paper as related-data reserve. FactoryIO/LOTL/MIT/TEP are independent alternatives, not interchangeable data.
+The historical [selection report](BASELINE_SELECTION_REPORT.md) identified **CASPER 2024 → TWINE 2026 → CatBoost 2026** for critical study. The subsequent [admission audit](COMPARATOR_ADMISSION.md) supersedes that shortlist's experimental implications. CASPER's original IMU reproduction remains a separate held track; TWINE's full manuscript now establishes incompatible supervision/inputs for Group D; the inspected CatBoost implementation is excluded from Group D and its full manuscript remains unavailable. ModernTCN is a conditional transferred-method candidate requiring a disclosed adapter and evaluation corrections. FactoryIO/LOTL/MIT/TEP remain independent alternatives, not interchangeable data.
 
-### Proposed method-specific work, not executed
+### Paper-specific routing, no reproduction executed
 
-| Method | Required decision before pilot |
+| Method | Current designation and remaining work |
 |---|---|
-| CASPER 1D-CNN | Audit synchronization and label derivation; partition before rolling filters/windows; confirm original code license or specify our independent implementation. Replace best-test-F1 threshold selection with an independently calibrated rule and disclose the deviation. |
-| TWINE | Obtain full manuscript; reconcile full-feature RF100, five-feature/subsampled simulation and SHAP RF50 paths; fix demo length/model-reference inconsistencies. Study local detector separately from Azure display/state synchronization. A local-only run cannot be called a reproduced cloud/twin deployment. |
-| CatBoost | Obtain full manuscript/run provenance and resolve code license. Do not run the inspected synthetic-label/padded-row pipeline as a cyber benchmark. A CatBoost control using authentic aligned labels, common features, train-only scaling and independent splits is our **independent implementation under a changed protocol**, not faithful reproduction. |
+| CASPER 1D-CNN | Separate original-IMU reproduction held for checkpoint correspondence, original code terms and protocol resolution. Any controller-input CNN must be justified and identified as an independent modified implementation; it is not part of the completed essential-control suite. |
+| TWINE | Full accepted manuscript obtained and audited. Background/critical study for Group D because supervised random-row training and wider features differ from our normal-only protocol. Any supervised/cloud comparison needs a separately defined track. |
+| CatBoost | Background/critical study; inspected synthetic-label/padded-modality pipeline is excluded from Group D. Full manuscript, run correspondence and code-use gaps remain. A supervised classifier cannot become a normal-only control merely by changing its split. |
+| ModernTCN | Conditional transferred-method candidate, not a published CASPER baseline. Specify the reconstruction/prediction interface, implement the adapter and remove upstream test-based selection/point adjustment under a documented modified protocol before execution admission. |
 
 The original collection contains different modalities; CASPER uses external IMU while TWINE uses controller telemetry, and the methods have different supervision. Predefine an equal-input track or explicitly separate information-access/supervision tracks. Changing inputs, labels and splitting can change the scientific task. If no fair protocol is possible with available episodes, revise the comparison before training.
 
@@ -28,14 +31,14 @@ Do not tune thresholds, hyperparameters, feature selection, or preprocessing on 
 
 Report unadjusted point metrics where meaningful, event detection and delay, and false alarms per operating hour or production cycle. Document alarm merging, event matching, missing events, and undefined metric cases. Point adjustment is not a substitute for raw scores; any reproduction requiring it must be separately labelled. No metric is evidence of industrial deployment.
 
-## 3. Proposed minimal implementation, after audit approval
+## 3. Project implementation and remaining adapters
 
 Keep all artifacts project-local. Run commands from `manufacturing/` and use its dedicated ignored `.venv/`, selecting Python and pinning dependencies only after checking the chosen baseline. Paths below resolve from this project root. Do not share mutable environments with water or smart grids or modify system packages.
 
-| Location | Proposed responsibility |
+| Location | Responsibility |
 |---|---|
-| `src/mfg_twin/` | Current loader/contract/replay/metric primitives; future model adapters remain separate work |
-| `tests/` | Small clearly labelled synthetic fixtures and meaningful loader/split/metric checks |
+| `src/mfg_twin/` | Implemented loader/contract/replay/metrics, ordinary controls and bounded study/supervisor; candidate twin and paper adapters remain separate work |
+| `tests/` | 205 passing synthetic checks covering data/evaluation, ordinary controls, selection and resource/provenance behavior; future methods require their own checks |
 | `configs/` | Immutable dataset, protocol, model, and seed specifications |
 | `baselines/` | Pinned upstream references or separately labelled reimplementations, after license checks |
 | `datasets/` | Local ignored raw/derived artifacts plus permitted manifests; no raw data in Git |
@@ -44,7 +47,7 @@ Keep all artifacts project-local. Run commands from `manufacturing/` and use its
 
 Record seeds, dependency versions, hardware, code revisions/dirty state, configurations, data and split hashes, full commands, timestamps, and logs for every reported experiment. A synthetic smoke test is never a benchmark result.
 
-## 4. Tests to specify before real evaluation
+## 4. Checks required for subsequent methods and final evaluation
 
 - Loader: explicit schema/units, timestamp monotonicity and duplicates, missing channels, categorical process states, and attack/fault/normal label mapping. Never silently coerce a fault into an attack.
 - Split: no timestamp, cycle, or run overlap; no duplicated simulated replay across partitions; windows and fitted transforms respect split boundaries.
@@ -54,4 +57,4 @@ Record seeds, dependency versions, hardware, code revisions/dirty state, configu
 
 ## Stop conditions and completion criteria
 
-Stop before substantial implementation when access, label semantics, baseline eligibility, or protocol are unresolved. Resolve costs and platform feasibility before any VM/simulator work; obtain approval for paid compute, lengthy training, or publishing. A future first reproduction is complete only when the authorized baseline runs on a verified release with frozen evaluation, documented deviations, and traceable logs. No such reproduction exists now.
+Stop the affected method's progression when access, label semantics, baseline eligibility or protocol are unresolved. Preserve the completed independent-control evidence rather than equating it with unresolved paper admission. Resolve costs and platform feasibility before any VM/simulator work; obtain approval for paid compute, lengthy training or publishing. A first paper reproduction is complete only when its authorized method runs on a verified release with frozen evaluation, documented deviations and traceable logs. No paper reproduction exists now. The next bounded milestone is the versioned C/K/L/Rv score extension and independent-source admission design; the full-roster freeze, calibration and protected final campaign follow their own gates.

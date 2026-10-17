@@ -2,7 +2,7 @@
 
 Owner: **Haiqa Mushtaq**. Project ID: `manufacturing`. Academic digital-twin cybersecurity research for manufacturing processes; titles and contributions remain provisional.
 
-Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. No trained models or benchmark results exist.
+Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. A bounded pilot and a separate full-training normal-only velocity/template/AR study are complete; no attack benchmark result or reproduced paper baseline exists.
 
 | Location | Purpose |
 |---|---|
@@ -10,13 +10,21 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
 | [docs/DATA_AND_BASELINE_STUDY.md](docs/DATA_AND_BASELINE_STUDY.md) | Start here: received materials, findings and a practical reading sequence |
 | [docs/PAPER_CODE_TRACEABILITY.md](docs/PAPER_CODE_TRACEABILITY.md) | Paper-reading coverage and method-to-author-code connections for all three candidates |
+| [docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) | Current claim, close-prior-art overlap, falsification and single-acquisition limits |
+| [docs/COMPARISON_ROSTER_DECISION.md](docs/COMPARISON_ROSTER_DECISION.md) | Eleven-variant core design; four additional scores still unimplemented |
+| [docs/INDEPENDENT_EVIDENCE_PLAN.md](docs/INDEPENDENT_EVIDENCE_PLAN.md) | Separate fault/benign-source admission and requirements for broader cyber evidence |
+| [docs/COMPARATOR_ADMISSION.md](docs/COMPARATOR_ADMISSION.md) | Current comparator designations, information-access compatibility and remaining implementation gates |
 | [docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md](docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md) | Selected state-synchronization question, restricted command threat and falsification criteria |
 | [docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md](docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) | Exact right-arm schedule labels, permitted joint-state inputs and chronological partitions |
 | [docs/EVALUATION_PROTOCOL.md](docs/EVALUATION_PROTOCOL.md) | Exact evaluation populations, threshold-only calibration, repeats, metrics and protected final campaign |
 | [docs/METRIC_DEFINITIONS.md](docs/METRIC_DEFINITIONS.md) | Counts, AP ties, coverage, alarm episodes, event delay and synthetic acceptance examples |
 | [docs/FINAL_TEST_PROTECTION.md](docs/FINAL_TEST_PROTECTION.md) | Prospective outcome protection and actual-artifact freeze requirements; not an enforced lock |
 | [docs/SOFTWARE_VALIDATION.md](docs/SOFTWARE_VALIDATION.md) | Implemented loader/isolation/metric primitives, 83 synthetic tests, limitations and reproducible command |
-| [docs/BOUNDED_PILOT_PLAN.md](docs/BOUNDED_PILOT_PLAN.md) | Proposed simple velocity-control feasibility pilot; no training executed |
+| [docs/BOUNDED_PILOT_PLAN.md](docs/BOUNDED_PILOT_PLAN.md) | Historical specification for the single bounded velocity pilot |
+| [docs/OBSERVER_VALIDATION_REPORT.md](docs/OBSERVER_VALIDATION_REPORT.md) | 254 tests; empirical observer and matched ablations; 7 normal checks and 48 artifact checks passed, with strong AR and ambiguity limitations |
+| [docs/CONTROL_STUDY_REPORT.md](docs/CONTROL_STUDY_REPORT.md) | 205 tests; seven full-training normal-only candidates; selected velocity, 32-bin template and AR(4) artifacts |
+| [docs/SIMPLE_CONTROLS_PLAN.md](docs/SIMPLE_CONTROLS_PLAN.md) | Fixed formulas, initialization, finite selection and resource limits |
+| [docs/PILOT_REPORT.md](docs/PILOT_REPORT.md) | 150 synthetic tests and the completed real normal-only pilot, artifacts, resources and limits |
 | [docs/ENVIRONMENT.md](docs/ENVIRONMENT.md) | Isolated standard-library test environment and actual interpreter |
 | [docs/RESEARCH_BASICS_LESSON.md](docs/RESEARCH_BASICS_LESSON.md) | Step 0: twins, baselines, scores, thresholds, evaluation and leakage |
 | [docs/YOUR_STEP_0_NOTES.md](docs/YOUR_STEP_0_NOTES.md) | Researcher's unanswered comprehension exercise |
@@ -42,8 +50,10 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [experiments/](experiments/README.md) | Synthetic software report and pending experiment/final-freeze records |
 | [manuscript/](manuscript/README.md) | Future paper and contribution records |
 
-Current selection: **normal-only right-arm motion monitoring using original CASPER**, testing whether state synchronization can conceal changed-speed evidence. The restricted threat assumes truthful monitoring telemetry/time. Exact source, annotations, twelve joint-state features and chronological split metadata are specified; foundational synthetic checks pass, while model configurations, model-specific tests and pilot execution admission remain open. **CASPER (2024), TWINE (2026) and CatBoost on CASPER (2026)** remain learning papers with unequal inputs/supervision, not a single admitted ranking. CASPER's full paper is collected; TWINE/CatBoost full-text gaps persist. External-IMU reproduction remains a separate track. No model has run and novelty is unverified.
+Current selection: **normal-only right-arm motion monitoring using original CASPER**, comparing added correction evidence with residual-only and conventional scores in a single-acquisition case study. The restricted threat assumes truthful monitoring telemetry/time. Exact source, annotations, twelve joint-state features and chronological split metadata are specified; 254 synthetic tests pass, the earlier pilot/control studies are preserved, and a separately bounded observer validation completed. Its state/prediction/synchronization checks support an empirical motion observer with a matched correction-evidence ablation. Simple AR remains stronger at one-step forecasting. The scope decision is complete; measured contribution, four score extensions and final admission remain open.
+
+The [current comparison decision](docs/COMPARATOR_ADMISSION.md) keeps CASPER's external-IMU reproduction separate and held; a CASPER-inspired controller CNN is an independent design candidate. TWINE/CatBoost are background for Group D, with no admitted supervised side track. CASPER's corrected paper and TWINE's accepted manuscript are available and AI-audited (**2/3**); CatBoost full text remains unavailable. ModernTCN 2024 is a conditional modified author-code transfer candidate, requiring an adapter and validation; it is not a published CASPER baseline or reproduced method. The pilot is an independent ordinary control; novelty is unverified.
 
 Run future commands from `manufacturing/`; its local `.venv/`, fitted preprocessing, data, and results must not depend on sibling-project state. Dataset authorization is checked per user, not inferred from folder ownership. The [shared research skill](../.agents/skills/academic-research-suite/SKILL.md) remains at the workspace root; its generated state belongs here.
 
-See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. Current work has reached synthetic software validation and pilot specification; no model execution has begun.
+See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. The essential normal-only controls are fitted and selected. The empirical observer and matched ablations are now tested on normal data. Next: specify and implement/test the bounded C/K/L/Rv extension, then freeze the executable comparison before calibration. Independently audit voraus-AD admission as a physical-anomaly track; no additional dataset is admitted. No attack result or validated physical twin exists.

@@ -142,3 +142,45 @@ Record type: contemporaneous. Manufacturing's requested [complete paper roadmap]
 Updated only manufacturing's entry in the shared portfolio roadmap and its evidence cells in the playbook; added a reusable lifecycle-planning procedure. Keep gates and failure paths explicit, preserve historical/frozen snapshots and do not infer progress percentages or publication promises. Other projects must receive their own evidence audit before adopting a roadmap or completion state.
 
 This task changed planning/status documents only. No raw reads, tests/models/training, installs, external contact, publishing or assistant-issued commit/push. No sibling-project or installed-skill edits.
+
+### 2026-10-17 — SHARED-022 — Validated bounded-pilot execution procedure
+
+Record type: contemporaneous. The user authorized manufacturing's control/runner implementation and one real normal-only pilot. [MFG-014](../manufacturing/docs/WORK_LOG.md) and the [pilot report](../manufacturing/docs/PILOT_REPORT.md) record 150 synthetic tests, one accepted attempt, exact 46,944 fitting / 18,472 scoring endpoints and measured resources. The ordinary velocity control is not a digital twin or reproduced paper baseline; no calibration/final campaign occurred.
+
+Updated the [playbook](RESEARCH_PLAYBOOK.md) with the executed procedure: bind a passing receipt to the exact inventory/runtime, test numerical/isolation/resource failures with synthetic workers, resolve authorized scope and limits, prevent parent/worker replay, distinguish source hashing/CSV positioning/selected parsing, save durable last-known progress, read back and hash artifacts, retain negative outcomes and keep subsequent runs separately scoped. A sandbox restriction on the required RSS monitor was resolved through approved local execution with monitoring retained. No safety cap was silently removed.
+
+Refreshed the shared manufacturing readiness entry and removed stale portfolio-wide claims that no fitting had occurred. The water/grid status and their files remain unchanged. Completed workflow does not transfer model performance, permissions or scientific validity to another sector. The next manufacturing task is finite full-training control specification and normal-only selection design; paper comparator admission, twin usefulness and novelty remain open.
+
+No system-package change, paid service, external message, upload, publication or assistant-issued commit/push. All numerical pilot artifacts remain local/ignored; safe technical summaries and reproducible source are in the workspace.
+
+
+### 2026-10-17 — SHARED-023 — Comparator admission procedure and transfer disclosure
+
+Record type: contemporaneous. Manufacturing's [MFG-015](../manufacturing/docs/WORK_LOG.md) completed scoped decisions for its original learning trio and verified the unchanged control/runner evidence. TWINE's accepted manuscript is now obtained; CatBoost full text remains inaccessible. The [central decision](../manufacturing/docs/COMPARATOR_ADMISSION.md) excludes the supervised TWINE/CatBoost implementations from normal-only Group D, holds faithful external-IMU CASPER reproduction and selects an explicit ModernTCN transfer design. This is not three approved recent published same-CASPER methods or execution-ready neural software.
+
+Updated the [shared playbook](RESEARCH_PLAYBOOK.md) with the reusable admission process: distinguish access, claim-to-code/run correspondence, scientific role and execution readiness; pin complete sources and permissions; disclose transfer versus published same-data evidence; retain necessary simple controls; audit current-conditioned reconstruction versus past-only prediction; preserve missing evidence without claiming fabrication. Refreshed manufacturing's shared-roadmap entry. These procedures transfer to other sectors; their datasets, models, access and completion states do not.
+
+All 22 code/configuration hashes still match the existing 150-test receipt, so no consumed pilot or test suite was repeated for this document/source-only task. No other project, installed skill, system package or frozen evaluation artifact changed. No external contact, paid computation, upload, publication or assistant-issued commit/push occurred.
+
+
+### 2026-10-17 — SHARED-024 — Normal-only control fitting and selection procedure validated
+
+Record type: contemporaneous. Manufacturing's [MFG-016](../manufacturing/docs/WORK_LOG.md) preserves its successful small pilot and completes a separately authorized full-training ordinary-control study. **205 synthetic tests** passed; seven deterministic candidates each fitted 536,946 eligible training targets and scored 160,472 normal-development endpoints. Velocity, template32 and AR(4)/ridge0.001 artifacts were selected by predeclared within-family rules. Independent saved-artifact review passed 28/28 checks; resources stayed within the unchanged four limits. These are normal-only control-selection/feasibility results, not attack benchmark scores or twin validation.
+
+Updated shared portfolio status/instructions and the [playbook](RESEARCH_PLAYBOOK.md) with the reusable procedure: declare populations/formulas/grid/ties first; separate fitted parameters from causal warmup state; test independent arithmetic and leakage failures; use compact buffers/sufficient statistics; bind exact-source receipts and provenance; execute one bounded attempt; preserve every candidate; select only on permitted normal development; verify outputs independently and save selected artifacts without opening calibration/final data. Existing source/paper admission limitations remain visible.
+
+Water and grids retain their independent files, access, scientific status and future procedures. No source parameters, learned periods, normal losses or readiness are transferred. No system packages, paid computation, contact, upload, publication, assistant-issued commit/push or installed-skill changes occurred.
+
+### 2026-10-17 — SHARED-025 — Normal-only observer validation procedure
+
+Record type: contemporaneous. Manufacturing's [MFG-017](../manufacturing/docs/WORK_LOG.md) implements an empirical motion observer and matched correction-evidence score ablation, then executes one bounded normal-only study. 254 synthetic tests, seven internal normal checks and 48 saved-artifact checks passed. The [report](../manufacturing/docs/OBSERVER_VALIDATION_REPORT.md) preserves substantial uncertainty and much stronger one-step AR performance. The physical-twin/security-benefit claims remain unsupported; calibration/final observations stayed closed.
+
+Added a reusable [playbook procedure](RESEARCH_PLAYBOOK.md#validating-a-stateful-observer-before-a-twin-claim): specify state correspondence and causal correction, isolate the evidence term, use native-history paired diagnostics, distinguish technical completion from scientific checks, audit saved artifacts, retain negative controls and choose terminology from evidence. Updated root navigation/current scope and manufacturing records. The observed period, implementation parameters, losses and completion status do not transfer to water or grids. No sibling data/files, shared skill, external repository or publication was changed.
+
+### 2026-10-17 — SHARED-026 — Contribution and evidence-scope review procedure
+
+Record type: contemporaneous. Manufacturing [MFG-018](../manufacturing/docs/WORK_LOG.md) completes a bounded primary-source prior-art and breadth decision. The [central synthesis](../manufacturing/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) narrows the prospective claim to a single-acquisition score comparison, retains classical/simple explanatory controls, and distinguishes an eleven-variant design from seven existing implementations. Four scores remain unimplemented. The independent-source screen recommends separate physical-fault/benign tracks without admitting data or claiming cyber generalization. No attack result or established novel twin follows.
+
+Added the reusable [playbook procedure](RESEARCH_PLAYBOOK.md#reconciling-a-proposed-contribution-with-prior-art-and-evidence-breadth): claim-first primary-source comparison, exact score/causality audit, independent-unit reasoning, alternatives/falsification, source-specific admission and versioned terminology corrections. Root instructions and manufacturing portfolio pointers now reflect the narrowed scope. Use this process for all three sectors, without copying selected sources, method assumptions, dataset permissions or completion states.
+
+This was literature/metadata/design work with internal review. No raw observations, new model/test runs, extra dataset admission, calibration/final exposure, paid compute, external contact, upload/publication or assistant-issued commit/push. Frozen manufacturing software/configurations/registries and prior plans are verified at handoff; water/grid files and the installed skill remain untouched.

@@ -1,5 +1,7 @@
 # Manufacturing manuscript collection and method-to-code audit
 
+**Current follow-up, 17 October 2026:** the [TWINE accepted manuscript](literature/TWINE_ADMISSION_2026-10-17.md) was successfully retrieved from the ordinary QUB public URL and audited. Its receipt records HTTP 200, 33 pages, 4,464,780 bytes and SHA-256 `02f446e7c62d22289209a2667c411322cce0c1a134e8a1b9ac9b333fe3ce5012`. This supersedes TWINE access failures below without erasing them. Two original full manuscripts are now available; CatBoost remains unavailable. See [current comparator decisions](COMPARATOR_ADMISSION.md); manuscript access alone does not admit a method.
+
 Current reading follow-up: [paper-to-code map and individual reading notes](PAPER_CODE_TRACEABILITY.md). CASPER's main-text reading now extends beyond the targeted methods sections below; TWINE/CatBoost full-paper coverage remains incomplete. Source-result arithmetic is kept separate from reproduced experiments.
 
 Date: **16 October 2026**. Project: manufacturing; owner: Haiqa Mushtaq. This records the user's authorized collection and static reading of the three learning papers. No upstream program, notebook cell, checkpoint, robot, cloud resource or model was executed. No human reading or understanding is claimed on a researcher's behalf.

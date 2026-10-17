@@ -1,5 +1,7 @@
 # CASPER — learning and conditional reproduction candidate
 
+**17 October 2026 admission update:** see the [dated CASPER audit](../../docs/literature/CASPER_ADMISSION_2026-10-17.md) and [central decision](../../docs/COMPARATOR_ADMISSION.md). Earlier collection status below is historical; no faithful reproduction or Group D execution admission is implied.
+
 [Full main-text reading notes and code map](READING_NOTES.md) cover the physical setup, threat assumptions, all detector branches and unresolved figure/table/configuration links. This is a source study, not a reproduced experiment.
 
 Paper: [CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms](https://doi.org/10.1145/3670414), ACM ToIT, August 2024. [Author-hosted corrected VOR](https://iotgarage.net/publications/pdfs/Kayan2024a.pdf), V1.1 dated 2025-02-05.

@@ -10,7 +10,7 @@ Read `README.md` and `PROJECT_BRIEF.md`, then the active project's `AGENTS.md`, 
 
 ## Scope and task routing
 
-- The user authorized restructuring and scoping these independent projects, followed by staged dataset/baseline work. Current work is setup and evidence audit; no models or benchmark results exist. Do not treat a folder, plan, or installed skill as proof of experimental readiness.
+- The user authorized restructuring and scoping these independent projects, followed by staged dataset/baseline work. Current readiness is recorded per project. Manufacturing has completed an authorized bounded normal-only pilot, full-training control selection and a separately scoped empirical motion-observer validation; no project has a reproduced paper baseline or attack benchmark result. Do not treat a folder, plan, installed skill or successful pilot as proof of final experimental readiness.
 - Default work order is water → manufacturing → smart grids, one bounded milestone at a time. Continue useful independent planning while external access is pending. A user instruction can explicitly select another project.
 - For an ambiguous request that could change multiple projects, establish the intended project before project-specific mutations; use session context when clear. Do not automatically replicate changes into sibling projects.
 - Never overwrite another project's context. Shared notes are limited to workspace facts, common rules, scheduling, and explicit cross-project decisions.
@@ -33,6 +33,7 @@ Read `README.md` and `PROJECT_BRIEF.md`, then the active project's `AGENTS.md`, 
 - Distinguish paper existence, claim support, code availability, and reproducibility. Absence from search is not proof of nonexistence. Do not claim novelty, superiority, causality, physical fidelity, safety, or live deployment without evidence.
 - Within a project's main comparison, freeze consistent releases, eligible inputs, labels, splits, score alignment, and metric rules. Different sectors may need different datasets/protocols; do not pool their scores into one ranking.
 - Establish what the twin actually estimates/predicts and how it is coupled to observations. A generic classifier, static network trace, or simulator name does not establish a digital twin. A fault dataset does not automatically contain cyberattacks.
+- Before expensive experiments, reconcile each proposed claim with close methodological prior art, the necessary explanatory controls and independent evidence units. A phase variable, synchronization or a renamed score alone does not establish novelty. Narrow unsupported claims; do not count rows/windows/seeds or repackaged releases as independent acquisitions. Separate decision/design completion from implemented comparisons and measured contributions. Manufacturing's current case-study decision is project-local, not a conclusion about the other sectors.
 - Preserve negative results. Distinguish faithful reproduction, author-code execution under a modified protocol, and our independent reimplementation. Record every deviation.
 
 ## Data and evaluation
