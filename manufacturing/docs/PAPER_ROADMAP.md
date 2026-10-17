@@ -1,10 +1,22 @@
 # Manufacturing paper roadmap: evidence, experiments and submission
 
+## Latest completed stage — v0.7 virtual confirmation and manuscript
+
+1. **Done:** test 23 methods/components, including saved AR/ARX, rolling mean, CUSUM, ordinary observer/reset rules and same-entry-threshold removals. Preserve all detection, miss, fresh-onset, recovery, false-alarm and cost outcomes.
+2. **Done:** freeze new multisine/chirp tasks and independently varied plants/lag/noise before generation; retain old fits and calibration. Execute 144 episodes and 3,312 outcomes in one bounded successful attempt. Fourteen tests and 14,635 verification checks passed. The primary improvement criterion failed; the matrix is now exposed.
+3. **Done for measured evidence:** write and compile a separate 17-page [LaTeX review manuscript](../manuscript_recovery_v0.7/README.md), including generated tables/figures, all-method appendices, source/claim audits, limitations and pending declarations. Inspect every PDF page. ISA Transactions is a conditional scope-fit target.
+4. **Still required for the intended original contribution:** establish a specific difference from close interval/recovery work and a mechanism addressing the measured benign/recovery trade-off; test it on newly frozen virtual conditions. A renamed latch or favorable secondary metric is insufficient. The current draft does not replace that research destination.
+5. **Still required before submission:** researcher understanding/verification, both authors' affiliations and actual roles, funding/conflicts, approval, permissions and journal-specific formatting. Public-recording admission can strengthen breadth but must establish compatible trust/labels; no physical-lab requirement applies.
+
+[Results and full package](../research_cycles/recovery_v0.7/README.md). The sections below preserve earlier lifecycle decisions; they do not override this execution state.
+
 ## Current destination and sequence — user correction after PDF delivery
 
 The intended paper requires an **original digital-twin cybersecurity contribution** grounded in baseline limitations and fair evidence. The completed CASPER case study is retained as preliminary internal work. Its completion does not complete the intended paper. The [current contribution direction](ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md) supersedes the narrow-study destination and old next-action wording in the historical lifecycle record below.
 
-**Execution update:** [v0.4 limitation and improvement testing](../research_cycles/limitation_v0.4/RESULTS.md) is complete: 189 synthetic scenarios, six saved models, four scores, all outcomes retained, 22 synthetic tests and 26,374 checks passed. The long-event gain is strongest in F1 for a 45-point mean; accumulation has substantial carryover. Retain these ordinary controls. Next specify a physically modeled recovery mechanism, close-prior-art distinction and fresh task/plant groups before confirmation.
+**Execution update:** [v0.6 is complete](../research_cycles/recovery_v0.6/RESULTS.md): diagnosed authorized-change residuals, implemented an entry envelope plus independent fixed-return criterion, froze two fresh tasks/three mismatch settings and ran all 144 episodes/thirteen methods. The full candidate missed the 25% primary target; the simpler fixed-return ablation was stronger within range, while extrapolation remains problematic. All results, failures of the hypothesis, validation and plots are preserved.
+
+**Next bounded target:** establish what protected evidence can identify a legitimate dynamics change, distinguish model inadequacy from command inconsistency, and compare the proposed rule with interval/set-membership observers and ordinary fixed-return controls. Resolve the close 2026 recovery manuscript/code before claiming novelty. Use v0.6 only as exposed development evidence. Freeze new physical assumptions and conditions before any outcome-informed confirmation; do not rerun v0.6 as a fresh test.
 
 1. **Bounded audit completed:** [CASPER/successor dossier](BASELINE_LIMITATION_DOSSIER_V0.2.md), synthetic defect tests, released-model execution and a normal-only CNN pilot are recorded in [v0.2 results](../research_cycles/contribution_v0.2/RESULTS.md). Paper-table/run correspondence remains incomplete; algorithmic cyber limitations remain unmeasured.
 2. Choose one feasible task, trust boundary and compatible recent comparison set; resolve each method's reproduction or explicitly modified implementation route.

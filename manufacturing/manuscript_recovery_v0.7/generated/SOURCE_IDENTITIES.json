@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "local/recovery_v0.7/runs/confirmation_001/aggregate.json": "81f778f7ecc8d71eea9598ba58546e62b5a80d850f3f9c3423b9a6631d4c1f05",
+    "local/recovery_v0.7/runs/confirmation_001/outcomes.json": "b82a9af288cb13c0e03eb0beb4d1a2f13ffae3d40be5e2543f1064eec2daaf18",
+    "local/recovery_v0.7/runs/confirmation_001/summary.json": "2f2c44501581004533c0b9b4586dd7841dee1c2bca17f6a5fbd57d100dde5520",
+    "local/recovery_v0.7/runs/confirmation_001/supervisor.json": "2c57d46a9cbd08feeef89f5f44575f51063dd32530cd6f9ab1b34c3d85b12445",
+    "local/recovery_v0.7/runs/confirmation_001/calibration.json": "2bf0bf1f302515060d585f8590d7b0a7b9edc178c3672397b711e2ba3999e677"
+  },
+  "script_sha256": "d2a7c366e1e35d5d27cae691a985ec74291e4cafc31c3da067fa35eee4508b03",
+  "reporting_scope": "Post-exposure presentation; no refitting, recalibration or reselection",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.0"
+}

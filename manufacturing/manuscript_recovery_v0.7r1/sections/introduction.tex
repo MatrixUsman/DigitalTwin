@@ -1,0 +1,15 @@
+\section{Introduction}
+An alarm in a robotic system must identify a deviation and remain active for as long as the monitored condition warrants it. These decisions need different evidence. A predictor that follows recent measurements may produce a small error while the robot is still displaced from its approved trajectory. A fixed reference can expose that displacement, but errors in its plant model can also cause alarms during legitimate motion.
+
+We study whether a separate return criterion can preserve alarm evidence through recovery without increasing alarms during authorized command changes. A following observer supplies a prediction error for alarm entry. A reference driven by the approved command supplies the return condition. Once triggered, the alarm clears only after the measured state stays close to this reference for ten consecutive samples.
+
+We evaluate this rule on 144 simulated episodes and compare 23 methods and ablations. All context-aware methods receive the same protected commands and noisy joint observations. Two comparisons separate the effects of calibration and recovery logic: one calibrates each complete decision rule on the same normal data, while the other holds the entry threshold fixed. The experiment tests an engineering combination of established components; it makes no claim of algorithmic originality.
+
+\section{Related work}
+CASPER detects motion anomalies using external inertial measurements from a robotic arm and evaluates deviations introduced through joint-velocity changes \cite{casper}. Its successor investigates real-time detection on edge hardware \cite{edge}. Both concern movement monitoring, but their external-IMU inputs differ from the four joint-state channels and protected commands used here. Their published results therefore cannot be compared directly with this simulation.
+
+TWINE combines a manufacturing digital twin with explainable anomaly detection \cite{twine}. Its supervised classification workflow uses labels that are unavailable to our normal-only procedure. Ayankoso et al. combine trajectory-change recognition with condition monitoring \cite{ayankoso}. Recognizing a changed trajectory is relevant to legitimate operation, although the movement alone does not establish whether a command was authorized.
+
+Observer-based fault diagnosis already addresses the effects of gain and model uncertainty on detection \cite{meseguer}. CUSUM accumulates evidence of persistent changes \cite{nist}. More recent work examines adaptive interval observers for actuator faults \cite{rapio} and digital-twin-based false-data-injection detection in robotic vehicles \cite{kaisar}. Full-method comparisons with these two recent studies remain unresolved because complete manuscripts or implementation details were unavailable in the source audit.
+
+Our executable comparisons use specified predictors and classical alarm rules under common information access. The earlier nine-channel IMU predictors remain a separate experiment. No published detector's complete experimental protocol has been reproduced in the present study.

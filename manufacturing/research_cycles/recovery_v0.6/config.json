@@ -1,0 +1,26 @@
+{
+  "study_id": "manufacturing-recovery-v0.6",
+  "onset": 325,
+  "end": 525,
+  "context_gap_end": 385,
+  "offset_radians": 0.2,
+  "tasks": [
+    {"id": "A", "frequency": 0.65, "amplitude": [0.30, 0.40], "phase_offset": 0.45},
+    {"id": "B", "frequency": 1.0, "amplitude": [0.40, 0.50], "phase_offset": 0.95}
+  ],
+  "fresh_plants": [
+    {"id": "low", "mass_factor": 0.85, "damping_factor": 0.625, "stratum": "within_range"},
+    {"id": "high", "mass_factor": 1.15, "damping_factor": 1.375, "stratum": "within_range"},
+    {"id": "outside", "mass_factor": 1.30, "damping_factor": 1.75, "stratum": "extrapolation"}
+  ],
+  "bank": [[0.8, 0.5], [1.0, 1.0], [1.2, 1.5]],
+  "physical_tolerance": 0.1,
+  "noise_margin_sigma": 3.0,
+  "mode_duration": 50,
+  "mode_position_jump": 0.01,
+  "mode_velocity_jump": 0.02,
+  "mode_quantile": 0.99,
+  "calibration_alarm_budget": 162,
+  "methods": ["persistence", "ar4", "arx4", "following", "following_mean45", "following_cusum", "fused", "fused_hysteresis", "mode_hysteresis", "envelope", "envelope_hysteresis", "nominal_fixed_return", "envelope_fixed_return"],
+  "limits": {"wall_seconds": 600, "cpu_seconds": 300, "rss_bytes": 1073741824, "output_bytes": 100663296}
+}

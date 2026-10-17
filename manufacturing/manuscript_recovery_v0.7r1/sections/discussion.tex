@@ -1,0 +1,14 @@
+\section{Discussion}
+The component tests separate detection from recovery. Holding the entry threshold fixed, a ten-sample dwell reduced premature clearing from 44 events to zero, while increasing benign alarm time. Following-error hysteresis achieved the highest F1 among the selected controls, but cleared before the declared return in every event. This difference arises partly from the labels: retaining an alarm after command corruption ends lowers command-interval precision even when the robot has not yet returned to its reference trajectory.
+
+The additional reference-based entry score provided no decision benefit in these conditions. Removing it left all alarm arrays unchanged. The reference still governed recovery, so this finding supports simplifying entry rather than discarding the reference. Fixed return also failed to improve benign alarm burden relative to fused hysteresis in either lagged plant. Its favorable result in earlier development did not extend to the new task and plant settings.
+
+\subsection{Limitations}
+Recovery was defined as proximity of the true simulated state to a nominal reference. This is a diagnostic tolerance, not a measured safe set or production-quality requirement. The reference is itself affected by model mismatch. Gaussian noise is unbounded, and the three-model envelope does not guarantee containment of all possible trajectories. Zero observed premature clears consequently provides no safety guarantee.
+
+The study covers two analytic tasks and three plant settings within one simulator. Noise seeds repeat the same deterministic physical trajectories, and masses, damping, lag and noise co-vary between settings. The results do not isolate the effect of each physical parameter or establish performance across robots. The assumed protected command channel and truthful sensors also exclude attacks that compromise both sources.
+
+Independent simulations and public recordings could test how far these findings extend. For example, voraus-AD provides robot fault observations \cite{voraus}, but its target signals would need a separate trust assessment before use as approved commands. Fault labels would also support a different evaluation from the present command-corruption and recovery task. Any redesign informed by these results requires newly reserved conditions for confirmation.
+
+\section{Conclusion}
+Fixed-return alarm logic eliminated observed premature clearing in the specified simulation, but increased benign alarm points by \RelativeIncrease\% relative to fused hysteresis and failed the predeclared improvement target. The matched-threshold ablations identify the recovery dwell as a useful component; reference-based entry added no decision benefit. The remaining problem is to retain reliable recovery evidence without prolonging alarms caused by legitimate motion and model mismatch.

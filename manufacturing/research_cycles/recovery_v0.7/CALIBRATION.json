@@ -1,0 +1,1649 @@
+{
+  "methods": [
+    "persistence",
+    "ar4",
+    "arx4",
+    "following",
+    "following_mean45",
+    "following_cusum",
+    "fused",
+    "fused_hysteresis",
+    "mode_hysteresis",
+    "envelope",
+    "envelope_hysteresis",
+    "nominal_fixed_return",
+    "envelope_fixed_return",
+    "fixed_no_dwell",
+    "fixed_no_margin",
+    "reference_fixed_return",
+    "command_reset",
+    "following_hysteresis",
+    "matched_point",
+    "matched_hysteresis",
+    "matched_no_dwell",
+    "matched_no_margin",
+    "following_fixed_return"
+  ],
+  "old_calibration_sha256": "9b22f5840a7d25259f6ec45c00f1e3b14ae6ff80d288acf922fa0b1c09f52e44",
+  "population": 16200,
+  "records": [
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 14383,
+      "index": 14210,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 7904,
+          "index": 7191,
+          "threshold": 0.00029191072639586017
+        },
+        {
+          "alarms": 3765,
+          "index": 10787,
+          "threshold": 0.0004189782743700412
+        },
+        {
+          "alarms": 1708,
+          "index": 12585,
+          "threshold": 0.0005634862621343134
+        },
+        {
+          "alarms": 765,
+          "index": 13484,
+          "threshold": 0.0007963873305098544
+        },
+        {
+          "alarms": 397,
+          "index": 13933,
+          "threshold": 0.0025276196022714988
+        },
+        {
+          "alarms": 206,
+          "index": 14158,
+          "threshold": 0.00420026834799449
+        },
+        {
+          "alarms": 183,
+          "index": 14186,
+          "threshold": 0.004558765381346223
+        },
+        {
+          "alarms": 171,
+          "index": 14200,
+          "threshold": 0.004875208350749764
+        },
+        {
+          "alarms": 165,
+          "index": 14207,
+          "threshold": 0.005064389567000253
+        },
+        {
+          "alarms": 163,
+          "index": 14209,
+          "threshold": 0.0050660293536559774
+        },
+        {
+          "alarms": 162,
+          "index": 14210,
+          "threshold": 0.005089627469957684
+        },
+        {
+          "alarms": 161,
+          "index": 14211,
+          "threshold": 0.005122284131712326
+        },
+        {
+          "alarms": 158,
+          "index": 14214,
+          "threshold": 0.005245087885019751
+        },
+        {
+          "alarms": 106,
+          "index": 14270,
+          "threshold": 0.012830084938715666
+        },
+        {
+          "alarms": 0,
+          "index": 14382,
+          "threshold": 0.912991586745036
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 0.005089627469957684
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 14365,
+      "index": 14187,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 7881,
+          "index": 7182,
+          "threshold": 6.121324939310897e-05
+        },
+        {
+          "alarms": 3660,
+          "index": 10773,
+          "threshold": 0.00013054283196773864
+        },
+        {
+          "alarms": 1737,
+          "index": 12569,
+          "threshold": 0.00022447776547995603
+        },
+        {
+          "alarms": 810,
+          "index": 13467,
+          "threshold": 0.00036022930314334115
+        },
+        {
+          "alarms": 392,
+          "index": 13916,
+          "threshold": 0.0007313801362961533
+        },
+        {
+          "alarms": 204,
+          "index": 14140,
+          "threshold": 0.0014475550369355858
+        },
+        {
+          "alarms": 178,
+          "index": 14168,
+          "threshold": 0.0016788106392697291
+        },
+        {
+          "alarms": 167,
+          "index": 14182,
+          "threshold": 0.0017707891177607756
+        },
+        {
+          "alarms": 163,
+          "index": 14186,
+          "threshold": 0.0018074530489178356
+        },
+        {
+          "alarms": 162,
+          "index": 14187,
+          "threshold": 0.0018089631372604643
+        },
+        {
+          "alarms": 161,
+          "index": 14188,
+          "threshold": 0.0018093756976281757
+        },
+        {
+          "alarms": 160,
+          "index": 14189,
+          "threshold": 0.0018137597803058972
+        },
+        {
+          "alarms": 153,
+          "index": 14196,
+          "threshold": 0.0018541367367767203
+        },
+        {
+          "alarms": 108,
+          "index": 14252,
+          "threshold": 0.0031526607443703456
+        },
+        {
+          "alarms": 0,
+          "index": 14364,
+          "threshold": 0.8999790576247473
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 0.0018089631372604643
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 14365,
+      "index": 14189,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 7829,
+          "index": 7182,
+          "threshold": 5.6683152809185606e-05
+        },
+        {
+          "alarms": 3668,
+          "index": 10773,
+          "threshold": 0.0001224201344007481
+        },
+        {
+          "alarms": 1710,
+          "index": 12569,
+          "threshold": 0.00021151532824626988
+        },
+        {
+          "alarms": 796,
+          "index": 13467,
+          "threshold": 0.0003345208598667582
+        },
+        {
+          "alarms": 389,
+          "index": 13916,
+          "threshold": 0.0006331812938354603
+        },
+        {
+          "alarms": 200,
+          "index": 14140,
+          "threshold": 0.001124276737633952
+        },
+        {
+          "alarms": 178,
+          "index": 14168,
+          "threshold": 0.001228351451121784
+        },
+        {
+          "alarms": 168,
+          "index": 14182,
+          "threshold": 0.0012996409658418062
+        },
+        {
+          "alarms": 165,
+          "index": 14186,
+          "threshold": 0.0013127554406988239
+        },
+        {
+          "alarms": 163,
+          "index": 14188,
+          "threshold": 0.0013143207651984009
+        },
+        {
+          "alarms": 162,
+          "index": 14189,
+          "threshold": 0.0013146019504457972
+        },
+        {
+          "alarms": 156,
+          "index": 14196,
+          "threshold": 0.0014134378700473805
+        },
+        {
+          "alarms": 108,
+          "index": 14252,
+          "threshold": 0.0019597099859608854
+        },
+        {
+          "alarms": 0,
+          "index": 14364,
+          "threshold": 0.7699225194763991
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 0.0013146019504457972
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 14386,
+      "index": 14217,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 7960,
+          "index": 7192,
+          "threshold": 4.031511277916305e-05
+        },
+        {
+          "alarms": 3866,
+          "index": 10789,
+          "threshold": 7.812100861341466e-05
+        },
+        {
+          "alarms": 1877,
+          "index": 12587,
+          "threshold": 0.00012131791161984044
+        },
+        {
+          "alarms": 907,
+          "index": 13486,
+          "threshold": 0.00016946244490084012
+        },
+        {
+          "alarms": 425,
+          "index": 13936,
+          "threshold": 0.00022019043557419863
+        },
+        {
+          "alarms": 209,
+          "index": 14161,
+          "threshold": 0.0003041497100806118
+        },
+        {
+          "alarms": 188,
+          "index": 14189,
+          "threshold": 0.0003208737357817439
+        },
+        {
+          "alarms": 175,
+          "index": 14203,
+          "threshold": 0.00033341027881188636
+        },
+        {
+          "alarms": 169,
+          "index": 14210,
+          "threshold": 0.00034426228895769286
+        },
+        {
+          "alarms": 164,
+          "index": 14214,
+          "threshold": 0.0003504920490101922
+        },
+        {
+          "alarms": 163,
+          "index": 14216,
+          "threshold": 0.0003537664286623511
+        },
+        {
+          "alarms": 162,
+          "index": 14217,
+          "threshold": 0.0003537666351807566
+        },
+        {
+          "alarms": 112,
+          "index": 14273,
+          "threshold": 0.0006139221581445407
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 0.0030318125270788507
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 0.0003537666351807566
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 14386,
+      "index": 14223,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 7391,
+          "index": 7192,
+          "threshold": 5.4350823740482536e-05
+        },
+        {
+          "alarms": 3474,
+          "index": 10789,
+          "threshold": 6.183104274024915e-05
+        },
+        {
+          "alarms": 1502,
+          "index": 12587,
+          "threshold": 7.058536274613145e-05
+        },
+        {
+          "alarms": 710,
+          "index": 13486,
+          "threshold": 0.00011701092279897117
+        },
+        {
+          "alarms": 449,
+          "index": 13936,
+          "threshold": 0.00032437620576106295
+        },
+        {
+          "alarms": 224,
+          "index": 14161,
+          "threshold": 0.00037884852397003277
+        },
+        {
+          "alarms": 168,
+          "index": 14217,
+          "threshold": 0.0003932761932117547
+        },
+        {
+          "alarms": 164,
+          "index": 14221,
+          "threshold": 0.00039388439976499416
+        },
+        {
+          "alarms": 163,
+          "index": 14222,
+          "threshold": 0.00039398666414723767
+        },
+        {
+          "alarms": 162,
+          "index": 14223,
+          "threshold": 0.0003941500033579251
+        },
+        {
+          "alarms": 161,
+          "index": 14224,
+          "threshold": 0.00039417931091905643
+        },
+        {
+          "alarms": 154,
+          "index": 14231,
+          "threshold": 0.0003948582175888931
+        },
+        {
+          "alarms": 140,
+          "index": 14245,
+          "threshold": 0.00039739823524455103
+        },
+        {
+          "alarms": 112,
+          "index": 14273,
+          "threshold": 0.00041092946821113407
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 0.000470559061560501
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 0.0003941500033579251
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 6697,
+      "index": 6534,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 3348,
+          "index": 3348,
+          "threshold": 73.75048679220555
+        },
+        {
+          "alarms": 1674,
+          "index": 5022,
+          "threshold": 176.33799389534957
+        },
+        {
+          "alarms": 837,
+          "index": 5859,
+          "threshold": 228.10084767547391
+        },
+        {
+          "alarms": 418,
+          "index": 6278,
+          "threshold": 263.5621573016916
+        },
+        {
+          "alarms": 209,
+          "index": 6487,
+          "threshold": 282.25286727721226
+        },
+        {
+          "alarms": 182,
+          "index": 6514,
+          "threshold": 284.4804919261397
+        },
+        {
+          "alarms": 169,
+          "index": 6527,
+          "threshold": 285.8684383837819
+        },
+        {
+          "alarms": 165,
+          "index": 6531,
+          "threshold": 287.0191318976895
+        },
+        {
+          "alarms": 163,
+          "index": 6533,
+          "threshold": 287.0307770859724
+        },
+        {
+          "alarms": 162,
+          "index": 6534,
+          "threshold": 287.1491879698396
+        },
+        {
+          "alarms": 156,
+          "index": 6540,
+          "threshold": 287.6762895710789
+        },
+        {
+          "alarms": 104,
+          "index": 6592,
+          "threshold": 299.76666700817043
+        },
+        {
+          "alarms": 0,
+          "index": 6696,
+          "threshold": 327.0003510986293
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 287.1491879698396
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 14386,
+      "index": 14223,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 7729,
+          "index": 7192,
+          "threshold": 0.694302130315417
+        },
+        {
+          "alarms": 3618,
+          "index": 10789,
+          "threshold": 1.4091315129700586
+        },
+        {
+          "alarms": 1651,
+          "index": 12587,
+          "threshold": 2.3830580169444375
+        },
+        {
+          "alarms": 809,
+          "index": 13486,
+          "threshold": 4.291156522598862
+        },
+        {
+          "alarms": 449,
+          "index": 13936,
+          "threshold": 9.953089275989901
+        },
+        {
+          "alarms": 224,
+          "index": 14161,
+          "threshold": 23.283243184102332
+        },
+        {
+          "alarms": 168,
+          "index": 14217,
+          "threshold": 26.044932825211248
+        },
+        {
+          "alarms": 164,
+          "index": 14221,
+          "threshold": 26.19046679820611
+        },
+        {
+          "alarms": 163,
+          "index": 14222,
+          "threshold": 26.195717477377492
+        },
+        {
+          "alarms": 162,
+          "index": 14223,
+          "threshold": 26.315688661645595
+        },
+        {
+          "alarms": 161,
+          "index": 14224,
+          "threshold": 26.338604865780162
+        },
+        {
+          "alarms": 154,
+          "index": 14231,
+          "threshold": 26.53757577190962
+        },
+        {
+          "alarms": 140,
+          "index": 14245,
+          "threshold": 27.723097503321263
+        },
+        {
+          "alarms": 112,
+          "index": 14273,
+          "threshold": 29.24999714035859
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 26.315688661645595
+    },
+    {
+      "actual_normal_alarms": 155,
+      "alarms": 155,
+      "grid_size": 14386,
+      "index": 14373,
+      "preceding_alarms": 175,
+      "probes": [
+        {
+          "alarms": 16200,
+          "index": 7192,
+          "threshold": 0.694302130315417
+        },
+        {
+          "alarms": 16114,
+          "index": 10789,
+          "threshold": 1.4091315129700586
+        },
+        {
+          "alarms": 11947,
+          "index": 12587,
+          "threshold": 2.3830580169444375
+        },
+        {
+          "alarms": 2083,
+          "index": 13486,
+          "threshold": 4.291156522598862
+        },
+        {
+          "alarms": 891,
+          "index": 13936,
+          "threshold": 9.953089275989901
+        },
+        {
+          "alarms": 563,
+          "index": 14161,
+          "threshold": 23.283243184102332
+        },
+        {
+          "alarms": 502,
+          "index": 14273,
+          "threshold": 29.24999714035859
+        },
+        {
+          "alarms": 312,
+          "index": 14329,
+          "threshold": 32.04519441566039
+        },
+        {
+          "alarms": 224,
+          "index": 14357,
+          "threshold": 34.25586148263153
+        },
+        {
+          "alarms": 177,
+          "index": 14371,
+          "threshold": 36.39645237685589
+        },
+        {
+          "alarms": 175,
+          "index": 14372,
+          "threshold": 36.4595045909826
+        },
+        {
+          "alarms": 155,
+          "index": 14373,
+          "threshold": 36.51783318519694
+        },
+        {
+          "alarms": 150,
+          "index": 14375,
+          "threshold": 36.806011065733536
+        },
+        {
+          "alarms": 119,
+          "index": 14378,
+          "threshold": 39.01138203111483
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 36.51783318519694
+    },
+    {
+      "actual_normal_alarms": 161,
+      "alarms": 161,
+      "grid_size": 14392,
+      "index": 14375,
+      "preceding_alarms": 182,
+      "probes": [
+        {
+          "alarms": 15860,
+          "index": 7195,
+          "threshold": 0.10191384344147696
+        },
+        {
+          "alarms": 15619,
+          "index": 10793,
+          "threshold": 0.20819756242857337
+        },
+        {
+          "alarms": 12926,
+          "index": 12592,
+          "threshold": 0.3461997835798166
+        },
+        {
+          "alarms": 4251,
+          "index": 13492,
+          "threshold": 0.5245905010662503
+        },
+        {
+          "alarms": 1428,
+          "index": 13942,
+          "threshold": 0.7491219501595512
+        },
+        {
+          "alarms": 683,
+          "index": 14167,
+          "threshold": 0.9261375832075623
+        },
+        {
+          "alarms": 359,
+          "index": 14279,
+          "threshold": 1.1743511871374108
+        },
+        {
+          "alarms": 289,
+          "index": 14335,
+          "threshold": 1.3562850041589216
+        },
+        {
+          "alarms": 249,
+          "index": 14363,
+          "threshold": 1.519990107652113
+        },
+        {
+          "alarms": 199,
+          "index": 14370,
+          "threshold": 1.60971832833661
+        },
+        {
+          "alarms": 182,
+          "index": 14374,
+          "threshold": 1.6464644792257743
+        },
+        {
+          "alarms": 161,
+          "index": 14375,
+          "threshold": 1.6600089627663202
+        },
+        {
+          "alarms": 161,
+          "index": 14376,
+          "threshold": 1.6696936550721757
+        },
+        {
+          "alarms": 161,
+          "index": 14377,
+          "threshold": 1.6773874557214286
+        },
+        {
+          "alarms": 0,
+          "index": 14391,
+          "threshold": 1.939520115690621
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 1.6600089627663202
+    },
+    {
+      "actual_normal_alarms": 162,
+      "alarms": 162,
+      "grid_size": 10992,
+      "index": 10852,
+      "preceding_alarms": 163,
+      "probes": [
+        {
+          "alarms": 6367,
+          "index": 5495,
+          "threshold": 0.7469510300366078
+        },
+        {
+          "alarms": 3185,
+          "index": 8243,
+          "threshold": 1.1872350212366531
+        },
+        {
+          "alarms": 1552,
+          "index": 9617,
+          "threshold": 1.55737437397932
+        },
+        {
+          "alarms": 769,
+          "index": 10304,
+          "threshold": 1.8707203469200129
+        },
+        {
+          "alarms": 390,
+          "index": 10648,
+          "threshold": 2.1422572939500153
+        },
+        {
+          "alarms": 194,
+          "index": 10820,
+          "threshold": 2.3759851493099227
+        },
+        {
+          "alarms": 172,
+          "index": 10842,
+          "threshold": 2.426227784894069
+        },
+        {
+          "alarms": 166,
+          "index": 10848,
+          "threshold": 2.435716246217606
+        },
+        {
+          "alarms": 163,
+          "index": 10851,
+          "threshold": 2.4492389153696545
+        },
+        {
+          "alarms": 162,
+          "index": 10852,
+          "threshold": 2.456910094671569
+        },
+        {
+          "alarms": 161,
+          "index": 10853,
+          "threshold": 2.4587765337250462
+        },
+        {
+          "alarms": 151,
+          "index": 10863,
+          "threshold": 2.483396227751178
+        },
+        {
+          "alarms": 102,
+          "index": 10906,
+          "threshold": 2.617855516941936
+        },
+        {
+          "alarms": 0,
+          "index": 10991,
+          "threshold": 3.6251819328375134
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 2.456910094671569
+    },
+    {
+      "actual_normal_alarms": 159,
+      "alarms": 159,
+      "grid_size": 10992,
+      "index": 10982,
+      "preceding_alarms": 169,
+      "probes": [
+        {
+          "alarms": 15637,
+          "index": 5495,
+          "threshold": 0.7469510300366078
+        },
+        {
+          "alarms": 15063,
+          "index": 8243,
+          "threshold": 1.1872350212366531
+        },
+        {
+          "alarms": 13806,
+          "index": 9617,
+          "threshold": 1.55737437397932
+        },
+        {
+          "alarms": 11360,
+          "index": 10304,
+          "threshold": 1.8707203469200129
+        },
+        {
+          "alarms": 7934,
+          "index": 10648,
+          "threshold": 2.1422572939500153
+        },
+        {
+          "alarms": 4625,
+          "index": 10820,
+          "threshold": 2.3759851493099227
+        },
+        {
+          "alarms": 2573,
+          "index": 10906,
+          "threshold": 2.617855516941936
+        },
+        {
+          "alarms": 1207,
+          "index": 10949,
+          "threshold": 2.842625607663296
+        },
+        {
+          "alarms": 530,
+          "index": 10970,
+          "threshold": 3.1242200963553928
+        },
+        {
+          "alarms": 169,
+          "index": 10981,
+          "threshold": 3.241770274180808
+        },
+        {
+          "alarms": 159,
+          "index": 10982,
+          "threshold": 3.249762882605478
+        },
+        {
+          "alarms": 143,
+          "index": 10983,
+          "threshold": 3.264408200805702
+        },
+        {
+          "alarms": 122,
+          "index": 10984,
+          "threshold": 3.3069216225100337
+        },
+        {
+          "alarms": 50,
+          "index": 10986,
+          "threshold": 3.370967844348871
+        },
+        {
+          "alarms": 0,
+          "index": 10991,
+          "threshold": 3.6251819328375134
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 3.249762882605478
+    },
+    {
+      "actual_normal_alarms": 153,
+      "alarms": 153,
+      "grid_size": 14386,
+      "index": 14381,
+      "preceding_alarms": 177,
+      "probes": [
+        {
+          "alarms": 16155,
+          "index": 7192,
+          "threshold": 0.694302130315417
+        },
+        {
+          "alarms": 13772,
+          "index": 10789,
+          "threshold": 1.4091315129700586
+        },
+        {
+          "alarms": 7283,
+          "index": 12587,
+          "threshold": 2.3830580169444375
+        },
+        {
+          "alarms": 1624,
+          "index": 13486,
+          "threshold": 4.291156522598862
+        },
+        {
+          "alarms": 851,
+          "index": 13936,
+          "threshold": 9.953089275989901
+        },
+        {
+          "alarms": 648,
+          "index": 14161,
+          "threshold": 23.283243184102332
+        },
+        {
+          "alarms": 616,
+          "index": 14273,
+          "threshold": 29.24999714035859
+        },
+        {
+          "alarms": 386,
+          "index": 14329,
+          "threshold": 32.04519441566039
+        },
+        {
+          "alarms": 306,
+          "index": 14357,
+          "threshold": 34.25586148263153
+        },
+        {
+          "alarms": 303,
+          "index": 14371,
+          "threshold": 36.39645237685589
+        },
+        {
+          "alarms": 277,
+          "index": 14378,
+          "threshold": 39.01138203111483
+        },
+        {
+          "alarms": 177,
+          "index": 14380,
+          "threshold": 39.91403902525628
+        },
+        {
+          "alarms": 153,
+          "index": 14381,
+          "threshold": 40.81853600914825
+        },
+        {
+          "alarms": 153,
+          "index": 14382,
+          "threshold": 41.50604140665618
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 40.81853600914825
+    },
+    {
+      "actual_normal_alarms": 160,
+      "alarms": 160,
+      "grid_size": 10992,
+      "index": 10975,
+      "preceding_alarms": 170,
+      "probes": [
+        {
+          "alarms": 15655,
+          "index": 5495,
+          "threshold": 0.7469510300366078
+        },
+        {
+          "alarms": 13261,
+          "index": 8243,
+          "threshold": 1.1872350212366531
+        },
+        {
+          "alarms": 9783,
+          "index": 9617,
+          "threshold": 1.55737437397932
+        },
+        {
+          "alarms": 6107,
+          "index": 10304,
+          "threshold": 1.8707203469200129
+        },
+        {
+          "alarms": 3511,
+          "index": 10648,
+          "threshold": 2.1422572939500153
+        },
+        {
+          "alarms": 1883,
+          "index": 10820,
+          "threshold": 2.3759851493099227
+        },
+        {
+          "alarms": 1060,
+          "index": 10906,
+          "threshold": 2.617855516941936
+        },
+        {
+          "alarms": 563,
+          "index": 10949,
+          "threshold": 2.842625607663296
+        },
+        {
+          "alarms": 234,
+          "index": 10970,
+          "threshold": 3.1242200963553928
+        },
+        {
+          "alarms": 200,
+          "index": 10973,
+          "threshold": 3.151076960370495
+        },
+        {
+          "alarms": 170,
+          "index": 10974,
+          "threshold": 3.1620427868822576
+        },
+        {
+          "alarms": 160,
+          "index": 10975,
+          "threshold": 3.208292662722073
+        },
+        {
+          "alarms": 150,
+          "index": 10976,
+          "threshold": 3.2095673820413535
+        },
+        {
+          "alarms": 100,
+          "index": 10981,
+          "threshold": 3.241770274180808
+        },
+        {
+          "alarms": 0,
+          "index": 10991,
+          "threshold": 3.6251819328375134
+        }
+      ],
+      "source": "unchanged_v0.6",
+      "threshold": 3.208292662722073
+    },
+    {
+      "actual_normal_alarms": 158,
+      "alarms": 158,
+      "preceding_alarms": 164,
+      "probes": [
+        {
+          "alarms": 7729,
+          "index": 7192,
+          "threshold": 0.694302130315417
+        },
+        {
+          "alarms": 3618,
+          "index": 10789,
+          "threshold": 1.4091315129700586
+        },
+        {
+          "alarms": 1651,
+          "index": 12587,
+          "threshold": 2.3830580169444375
+        },
+        {
+          "alarms": 809,
+          "index": 13486,
+          "threshold": 4.291156522598862
+        },
+        {
+          "alarms": 504,
+          "index": 13936,
+          "threshold": 9.953089275989901
+        },
+        {
+          "alarms": 382,
+          "index": 14161,
+          "threshold": 23.283243184102332
+        },
+        {
+          "alarms": 345,
+          "index": 14273,
+          "threshold": 29.24999714035859
+        },
+        {
+          "alarms": 219,
+          "index": 14329,
+          "threshold": 32.04519441566039
+        },
+        {
+          "alarms": 169,
+          "index": 14343,
+          "threshold": 32.715606448721765
+        },
+        {
+          "alarms": 164,
+          "index": 14347,
+          "threshold": 32.83507596185673
+        },
+        {
+          "alarms": 164,
+          "index": 14348,
+          "threshold": 33.18160292383428
+        },
+        {
+          "alarms": 158,
+          "index": 14349,
+          "threshold": 33.25250967952505
+        },
+        {
+          "alarms": 158,
+          "index": 14350,
+          "threshold": 33.454338965087544
+        },
+        {
+          "alarms": 151,
+          "index": 14357,
+          "threshold": 34.25586148263153
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "same_normal_population",
+      "threshold": 33.25250967952505
+    },
+    {
+      "actual_normal_alarms": 160,
+      "alarms": 160,
+      "preceding_alarms": 164,
+      "probes": [
+        {
+          "alarms": 16155,
+          "index": 7192,
+          "threshold": 0.694302130315417
+        },
+        {
+          "alarms": 13772,
+          "index": 10789,
+          "threshold": 1.4091315129700586
+        },
+        {
+          "alarms": 7283,
+          "index": 12587,
+          "threshold": 2.3830580169444375
+        },
+        {
+          "alarms": 1624,
+          "index": 13486,
+          "threshold": 4.291156522598862
+        },
+        {
+          "alarms": 779,
+          "index": 13936,
+          "threshold": 9.953089275989901
+        },
+        {
+          "alarms": 547,
+          "index": 14161,
+          "threshold": 23.283243184102332
+        },
+        {
+          "alarms": 508,
+          "index": 14273,
+          "threshold": 29.24999714035859
+        },
+        {
+          "alarms": 320,
+          "index": 14329,
+          "threshold": 32.04519441566039
+        },
+        {
+          "alarms": 234,
+          "index": 14357,
+          "threshold": 34.25586148263153
+        },
+        {
+          "alarms": 188,
+          "index": 14371,
+          "threshold": 36.39645237685589
+        },
+        {
+          "alarms": 164,
+          "index": 14373,
+          "threshold": 36.51783318519694
+        },
+        {
+          "alarms": 164,
+          "index": 14374,
+          "threshold": 36.71787530811691
+        },
+        {
+          "alarms": 160,
+          "index": 14375,
+          "threshold": 36.806011065733536
+        },
+        {
+          "alarms": 129,
+          "index": 14378,
+          "threshold": 39.01138203111483
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "same_normal_population",
+      "threshold": 36.806011065733536
+    },
+    {
+      "actual_normal_alarms": 160,
+      "alarms": 160,
+      "preceding_alarms": 180,
+      "probes": [
+        {
+          "alarms": 16118,
+          "index": 7192,
+          "threshold": 0.18622937628921962
+        },
+        {
+          "alarms": 11886,
+          "index": 10789,
+          "threshold": 0.4012454788613183
+        },
+        {
+          "alarms": 2905,
+          "index": 12587,
+          "threshold": 0.9521815718777192
+        },
+        {
+          "alarms": 1084,
+          "index": 13486,
+          "threshold": 3.8410372576361786
+        },
+        {
+          "alarms": 882,
+          "index": 13936,
+          "threshold": 9.212788667537108
+        },
+        {
+          "alarms": 610,
+          "index": 14161,
+          "threshold": 21.763790994972023
+        },
+        {
+          "alarms": 497,
+          "index": 14273,
+          "threshold": 28.39845497819534
+        },
+        {
+          "alarms": 349,
+          "index": 14329,
+          "threshold": 31.57821013069526
+        },
+        {
+          "alarms": 263,
+          "index": 14357,
+          "threshold": 33.454338965087544
+        },
+        {
+          "alarms": 184,
+          "index": 14371,
+          "threshold": 35.908198052878795
+        },
+        {
+          "alarms": 180,
+          "index": 14375,
+          "threshold": 36.21781225994474
+        },
+        {
+          "alarms": 160,
+          "index": 14376,
+          "threshold": 36.39645237685589
+        },
+        {
+          "alarms": 160,
+          "index": 14377,
+          "threshold": 36.4595045909826
+        },
+        {
+          "alarms": 135,
+          "index": 14378,
+          "threshold": 36.51783318519694
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 41.50604140665618
+        }
+      ],
+      "source": "same_normal_population",
+      "threshold": 36.39645237685589
+    },
+    {
+      "actual_normal_alarms": 155,
+      "alarms": 155,
+      "preceding_alarms": 175,
+      "probes": [
+        {
+          "alarms": 16180,
+          "index": 7192,
+          "threshold": 0.694302130315417
+        },
+        {
+          "alarms": 16081,
+          "index": 10789,
+          "threshold": 1.4091315129700586
+        },
+        {
+          "alarms": 11898,
+          "index": 12587,
+          "threshold": 2.3830580169444375
+        },
+        {
+          "alarms": 2055,
+          "index": 13486,
+          "threshold": 4.291156522598862
+        },
+        {
+          "alarms": 891,
+          "index": 13936,
+          "threshold": 9.953089275989901
+        },
+        {
+          "alarms": 563,
+          "index": 14161,
+          "threshold": 23.283243184102332
+        },
+        {
+          "alarms": 502,
+          "index": 14273,
+          "threshold": 29.24999714035859
+        },
+        {
+          "alarms": 312,
+          "index": 14329,
+          "threshold": 32.04519441566039
+        },
+        {
+          "alarms": 224,
+          "index": 14357,
+          "threshold": 34.25586148263153
+        },
+        {
+          "alarms": 177,
+          "index": 14371,
+          "threshold": 36.39645237685589
+        },
+        {
+          "alarms": 175,
+          "index": 14372,
+          "threshold": 36.4595045909826
+        },
+        {
+          "alarms": 155,
+          "index": 14373,
+          "threshold": 36.51783318519694
+        },
+        {
+          "alarms": 150,
+          "index": 14375,
+          "threshold": 36.806011065733536
+        },
+        {
+          "alarms": 119,
+          "index": 14378,
+          "threshold": 39.01138203111483
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "same_normal_population",
+      "threshold": 36.51783318519694
+    },
+    {
+      "actual_normal_alarms": 156,
+      "alarms": 156,
+      "preceding_alarms": 168,
+      "probes": [
+        {
+          "alarms": 16200,
+          "index": 7192,
+          "threshold": 4.031511277916305e-05
+        },
+        {
+          "alarms": 16170,
+          "index": 10789,
+          "threshold": 7.812100861341466e-05
+        },
+        {
+          "alarms": 15230,
+          "index": 12587,
+          "threshold": 0.00012131791161984044
+        },
+        {
+          "alarms": 10128,
+          "index": 13486,
+          "threshold": 0.00016946244490084012
+        },
+        {
+          "alarms": 3983,
+          "index": 13936,
+          "threshold": 0.00022019043557419863
+        },
+        {
+          "alarms": 1255,
+          "index": 14161,
+          "threshold": 0.0003041497100806118
+        },
+        {
+          "alarms": 273,
+          "index": 14273,
+          "threshold": 0.0006139221581445407
+        },
+        {
+          "alarms": 219,
+          "index": 14329,
+          "threshold": 0.0012667024793606213
+        },
+        {
+          "alarms": 180,
+          "index": 14357,
+          "threshold": 0.0016900111053939951
+        },
+        {
+          "alarms": 174,
+          "index": 14364,
+          "threshold": 0.0018311514492189102
+        },
+        {
+          "alarms": 168,
+          "index": 14368,
+          "threshold": 0.001957440431908997
+        },
+        {
+          "alarms": 156,
+          "index": 14369,
+          "threshold": 0.0020213163503479733
+        },
+        {
+          "alarms": 141,
+          "index": 14370,
+          "threshold": 0.0020369485195451814
+        },
+        {
+          "alarms": 122,
+          "index": 14371,
+          "threshold": 0.002051766894039029
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 0.0030318125270788507
+        }
+      ],
+      "source": "same_normal_population",
+      "threshold": 0.0020213163503479733
+    },
+    {
+      "actual_normal_alarms": 4,
+      "source": "matched_candidate_entry_diagnostic",
+      "threshold": 40.81853600914825
+    },
+    {
+      "actual_normal_alarms": 65,
+      "source": "matched_candidate_entry_diagnostic",
+      "threshold": 40.81853600914825
+    },
+    {
+      "actual_normal_alarms": 44,
+      "source": "matched_candidate_entry_diagnostic",
+      "threshold": 40.81853600914825
+    },
+    {
+      "actual_normal_alarms": 72,
+      "source": "matched_candidate_entry_diagnostic",
+      "threshold": 40.81853600914825
+    },
+    {
+      "actual_normal_alarms": 153,
+      "alarms": 153,
+      "preceding_alarms": 204,
+      "probes": [
+        {
+          "alarms": 16178,
+          "index": 7192,
+          "threshold": 0.6048440801493923
+        },
+        {
+          "alarms": 14840,
+          "index": 10789,
+          "threshold": 1.1720425998546464
+        },
+        {
+          "alarms": 10660,
+          "index": 12587,
+          "threshold": 1.8201219245323168
+        },
+        {
+          "alarms": 5996,
+          "index": 13486,
+          "threshold": 2.542430109705465
+        },
+        {
+          "alarms": 2570,
+          "index": 13936,
+          "threshold": 3.303497678205802
+        },
+        {
+          "alarms": 1053,
+          "index": 14161,
+          "threshold": 4.563131266161153
+        },
+        {
+          "alarms": 636,
+          "index": 14273,
+          "threshold": 9.210619974209415
+        },
+        {
+          "alarms": 629,
+          "index": 14329,
+          "threshold": 19.00422554064687
+        },
+        {
+          "alarms": 567,
+          "index": 14357,
+          "threshold": 25.355087509828603
+        },
+        {
+          "alarms": 430,
+          "index": 14371,
+          "threshold": 30.78247769028752
+        },
+        {
+          "alarms": 260,
+          "index": 14378,
+          "threshold": 35.047670802427646
+        },
+        {
+          "alarms": 253,
+          "index": 14380,
+          "threshold": 36.806011065733536
+        },
+        {
+          "alarms": 204,
+          "index": 14381,
+          "threshold": 39.183966245522406
+        },
+        {
+          "alarms": 153,
+          "index": 14382,
+          "threshold": 39.91403902525628
+        },
+        {
+          "alarms": 0,
+          "index": 14385,
+          "threshold": 45.486015856421005
+        }
+      ],
+      "source": "same_normal_population",
+      "threshold": 39.91403902525628
+    }
+  ],
+  "utc": "2026-10-17T10:31:13.237040+00:00"
+}

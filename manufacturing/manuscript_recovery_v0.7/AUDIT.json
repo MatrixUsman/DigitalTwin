@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-17T11:03:59.859035+00:00",
+  "status": "passed",
+  "scientific_source_files": 10,
+  "preserved_inputs": 809,
+  "citations": [
+    "ayankoso",
+    "casper",
+    "edge",
+    "kaisar",
+    "meseguer",
+    "nist",
+    "rapio",
+    "twine",
+    "voraus"
+  ],
+  "local_source_files": 5,
+  "source_table_hashes_match": true,
+  "key_numeric_claims_match": true,
+  "primary_failure_retained": true,
+  "human_author_review": "pending",
+  "external_peer_review": false,
+  "original_method_contribution": "not established",
+  "scope": "Source identity, key numerical claim assertions and citation-key coverage; source support reviewed manually in SOURCES_AND_ADMISSION.md"
+}

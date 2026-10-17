@@ -1,0 +1,24 @@
+{
+  "attempts": 1,
+  "limits": {
+    "cpu_seconds": 300,
+    "output_bytes": 167772160,
+    "poll_seconds": 0.25,
+    "rss_bytes": 1073741824,
+    "wall_seconds": 600
+  },
+  "maximum_rss_poll_start_gap_seconds": 0.2521775410277769,
+  "output_bytes": 88762851,
+  "parent_reserve_bytes": 1048576,
+  "reason": "completed",
+  "returncode": 0,
+  "rss_is_instantaneous_ceiling": false,
+  "rss_samples": 326,
+  "rss_source": "/bin/ps rss (1024-byte units)",
+  "sampled_peak_rss_bytes": 286310400,
+  "status": "completed",
+  "wall_seconds": 81.95935079199262,
+  "worker_log_bytes": 336,
+  "worker_usage": null,
+  "worker_usage_note": "caller must attach worker getrusage receipt when available"
+}

@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-17T11:04:38.115301+00:00",
+  "status": "passed",
+  "package_files": 260,
+  "scientific_sources": 10,
+  "prior_inputs": 809,
+  "experiment_attempts": 1,
+  "episode_method_outcomes": 3312,
+  "verification_checks": 14635,
+  "pdf_pages": 17,
+  "normal_and_score_seals_preserved": true,
+  "local_links_valid": true,
+  "scoped_git_whitespace_check_pass": true,
+  "cached_whitespace_warning_files": [
+    "manufacturing/output/recovery_v0.6/comparison.svg",
+    "manufacturing/output/recovery_v0.6/examples.svg",
+    "manufacturing/research_cycles/recovery_v0.7/TABLES.md"
+  ],
+  "sibling_projects_unchanged": true,
+  "primary_hypothesis": "failed",
+  "original_algorithm": "unestablished",
+  "author_review": "pending",
+  "publication": "not performed",
+  "package_manifest_sha256": "d66b951d2e63ddd07cf4fbf1af6c6e2de3e4c9dd970c984eaed1882f81cddd64"
+}

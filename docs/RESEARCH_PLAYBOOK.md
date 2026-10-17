@@ -391,3 +391,35 @@ Status: **executed and verified in manufacturing v0.5**. [Protocol, artifacts an
 9. Independently verify fits, thresholds, identity/alignment, state machines, physical-return arithmetic and complete outcome coverage. Generate figures from saved results and visually inspect them. A successful synthetic pilot supports only its model assumptions; freeze ungenerated conditions separately for later confirmation.
 
 Expected artifacts: comparator dispositions, source receipts, algebraic/prior-art decision, physical/threat protocol, synthetic tests and failures, immutable freeze, bounded run/resource records, sealed complete arrays, verified joint outcomes, result-derived figures and an explicit next scientific gate. Never copy manufacturing parameters, success status or claims into water or grids.
+
+## Separating alarm entry uncertainty from recovery evidence
+
+Status: **executed and checked in manufacturing v0.6**; [full records](../manufacturing/research_cycles/recovery_v0.6/README.md). The primary hypothesis failed its full criterion and extrapolation exposed a substantial failure; reuse the research procedure, not a claim that the mechanism is successful.
+
+1. Diagnose only exposed development material. Separate deterministic model mismatch, measurement noise and legitimate command changes, with saved input identities.
+2. Specify entry and recovery conditions independently. Include ordinary stateful controls and an ablation that changes recovery without adding the proposed model complexity. Audit interval/adaptive-threshold/recovery prior art before calling the combination new.
+3. For retained alarms, calibrate the complete state machine on the same normal population. Freeze the threshold grid, alarm budget, warmup state handling and strict comparison. Test monotonicity and exact minimality; preserve threshold probes. Do not compare point-score percentiles as if they guarantee equal alarm duration.
+4. Freeze new task/parameter/noise conditions and success criteria before generation. Seal normal fitted/calibrated artifacts before fresh simulation, then seal every method's scores before outcome inspection. Retain a separately named extrapolation stratum.
+5. Report alarm duration and alarm episodes, event overlap and fresh onsets, every premature clear and all unalarmed gaps before a declared physical return. A reduction in alarm duration can coincide with more alarm episodes; return-aware alarms can lower attack-interval precision.
+6. Show subgroup reversals and ablations. A simpler method outperforming the candidate is evidence to retain. Report failure of the exact primary criterion even when secondary comparisons look favorable. Do not promote a sampled model envelope into a certified uncertainty bound.
+7. Verify source/score identities, threshold replay and independent contingency arithmetic. Distinguish numerical refinement from physical validation, shared-implementation replay from independent verification, and unused configuration metadata from actual information-flow enforcement. Record any qualification without rewriting consumed freezes.
+8. Preserve exposed status and design a fresh test for any next outcome-informed change. Different simulator seeds are not new robots. Public-data, hardware, trust and claim assumptions must be rechecked in another sector.
+
+Expected artifacts: diagnosis, close-prior-art decision, frozen scientific plan/config/source/inputs, test logs, normal calibration probes/seal, complete fresh roster/scores/outcomes, primary pass/fail record, all-method/subgroup tables, resource and numerical QA receipts, figures, preserved presentation corrections and a durable handoff.
+
+
+## Fresh component confirmation and a traceable manuscript
+
+Status: **executed and checked in manufacturing v0.7**, whose primary improvement criterion failed. [Evidence package](../manufacturing/research_cycles/recovery_v0.7/README.md). Reuse the process, not its scientific parameters or completion status.
+
+1. Select the candidate from exposed development before reserving genuinely new task/plant conditions. New noise seeds alone are not new physical systems. Declare an explicit conjunctive success criterion and every comparison, including strong ordinary controls.
+2. Preserve saved fits and old thresholds where appropriate. Calibrate added methods only on the agreed normal population. Distinguish equal-normal-budget comparisons from ablations with identical entry thresholds; show the latter's actual calibration burdens.
+3. Remove one component at a time, define what remains, and check exact alarm arrays before calling equal aggregate outcomes equivalent. Report useless components and the strongest simple controls.
+4. Enforce label/true-state/actual-parameter separation in the detector interface, seal thresholds before generation and every score before joint outcomes. Preserve all outcomes and bounded-run receipts, including failures.
+5. Report overlap, fresh onset, misses, command-interval point metrics, unknown coverage, wholly benign alarms, physical-return diagnostics and clearing failures together. Conditional delay summaries need explicit denominators. Component timings with shared work are not independent deployment latency.
+6. Write claims from measured evidence, including failed primary criteria and subgroup reversals. A completed manuscript does not establish algorithmic novelty or a successful contribution. Preserve the intended research objective honestly.
+7. Generate paper tables/figures from sealed artifacts, bind their source hashes, audit citation identity and support, and correct bibliography errors in a new record without rewriting consumed freezes. Keep partial-access sources and incompatible paper baselines explicit.
+8. Compile a separate draft and preserve document-build failures. Render and inspect every PDF page; after a limited revision, compare unchanged renders and inspect changed pages. Record source/build/PDF hashes and a reproducible offline path.
+9. Draft declarations only from known facts. User permission to draft is not evidence of a person's affiliation, contribution, funding, conflicts or review. Keep substantive AI assistance transparent and unknown personal facts unconfirmed. Select journals by verified scope; scope fit is not acceptance or contribution approval.
+
+Expected artifacts: frozen experiment/config/inputs, all-run outcomes and resources, same-threshold component receipts, complete tables/figures, source/citation and claim ledgers, LaTeX/PDF, rendered-page QA, pending factual declarations, package manifest and durable current-state handoff. New science prompted by the now-exposed outcomes needs fresh confirmation; public recordings and simulation can be used without requiring physical hardware.

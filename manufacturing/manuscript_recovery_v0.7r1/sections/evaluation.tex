@@ -1,0 +1,40 @@
+\section{Experimental design}
+\subsection{Development, calibration and fresh conditions}
+Earlier simulation cycles were exposed development evidence. The immediately preceding cycle tested 144 episodes with thirteen methods. Its envelope candidate missed the complete predeclared improvement target and showed substantial extrapolation failure. A simpler fixed-return ablation was the stronger within-range development lead. We selected that ablation before generating the present data; no finding from this cycle selected its configuration.
+
+All fitted coefficients, channel transforms, residual means and mode normalizers were retained from the earlier normal-only study. Eighteen normal calibration episodes provide 16,200 eligible targets. The first thirteen methods retain their exact saved thresholds. Each of six new normal-calibrated methods selects the smallest observed score-grid threshold, including zero and warmup scores, yielding at most 162 eligible normal alarms under its complete decision state machine. Alarms use strict exceedance. The four matched-entry diagnostics instead inherit the candidate threshold, $h=\CandidateThreshold$, without recalibration. The candidate produced 153 calibration alarms; the matched point, hysteresis, no-dwell and no-margin variants produced 4, 65, 44 and 72, respectively. Equal entry thresholds and equal alarm budgets are different experimental controls.
+
+The fresh matrix reserves two analytic tasks. For phase $\theta(s)$, amplitudes $a_1,a_2$ and offset $\phi$, desired positions are
+\begin{equation}
+ q_1^c=a_1\sin\theta+0.06\sin2\theta,\qquad
+ q_2^c=a_2\sin(\theta+\phi)+0.04\sin3\theta.
+\end{equation}
+Task C uses $\theta=0.75s+0.10\sin(0.2s)$, amplitudes $(0.28,0.38)$ and $\phi=0.55$. Task D uses $\theta=0.45s+0.0125s^2$, amplitudes $(0.33,0.42)$ and $\phi=1.05$. Velocities are analytic derivatives multiplied by the current time-warp rate. Slow commands integrate rate $0.5$ causally. An authorized slowdown retains its accrued phase delay; an unauthorized slowdown rejoins the original approved schedule when command corruption ends. That restoration can create a command discontinuity, which is part of the specified model.
+
+\begin{table}[htbp]\centering\small
+\caption{Fresh actual plants. Factors multiply nominal parameters; the monitor is unchanged.}
+\begin{tabular}{lcccr}\toprule
+Plant & Mass factors $(m_1,m_2)$ & Damping factors & Lag (s) & Noise factor\\\midrule
+P1 & $(0.92,1.08)$ & $(1.4,0.7)$ & 0 & 1.0\\
+P2 & $(1.18,0.90)$ & $(0.7,1.3)$ & 0.04 & 1.0\\
+P3 & $(0.82,1.22)$ & $(1.5,0.6)$ & 0.08 & 1.5\\\bottomrule
+\end{tabular}\label{tab:plants}
+\end{table}
+
+Each task--plant pair receives noise seeds 17, 42 and 2026, offset by a fixed task/plant formula before generation. Noise is paired across conditions. Eight conditions comprise unchanged motion, authorized offset, authorized slowdown, brief unauthorized offset, persistent unauthorized offset, hold, unauthorized slowdown and an offset with missing command context. Offset magnitude is $-0.18$ rad on joint 1. Interventions start at sample 350; the brief one lasts eight samples (0.16 s), while others end before sample 550. Missing context occupies samples 350--409. Each episode has 1,200 samples at 50 Hz, with the first 100 processed but excluded from metrics. State resets only between independent simulated episodes, never at labels.
+
+The total is $2\times3\times3\times8=144$ episodes, 158,400 eligible observations per method, 59,400 observations in wholly benign episodes and 90 intervention events. These are paired virtual conditions, not 144 independent robots. The two new motion families and torque lag provide a prospective within-simulator challenge beyond new noise seeds, but not independent physical validation. No inferential population confidence interval or seed-based significance claim is made.
+
+\subsection{Metrics and primary criterion}
+Point precision, recall and F1 use the scheduled command-corruption labels without point adjustment. Unknown decisions do not count as alarms; their positive labels remain false negatives. Average precision uses underlying scores, with unknown scores ranked below all valid scores and all positive labels retained. Consequently AP evaluates score ranking rather than the complete alarm latch. Variants sharing a score have identical AP even when their alarms differ.
+
+Benign alarm fractions use wholly benign episodes, separating legitimate-operation burden from post-corruption recovery. Alarm episodes per eligible hour count causal rising edges; missing-context reappearance is not a fresh onset. Event overlap means at least one known alarm within the intervention. A fresh detection additionally requires a known alarm rising edge. All misses remain in event denominators; delays are conditional on the stated detected subset. An overlapping alarm alone is not proof of timely new detection.
+
+For evaluation only, physical return is the first start of ten consecutive true-state observations within $0.1s_j$ of the nominal reference in every channel after the executed command is restored, searched within five seconds. This compares simulated state to a modeled trajectory; it is neither a damage metric nor a safety criterion. Premature clearing means an alarm falls after its first known event hit but before that declared return. Unalarmed gaps and absence of return are also preserved. Clearing delay is the first known non-alarm at or after return, up to five seconds. A method that cleared too early can therefore have zero delay: the premature-clear metric must be read alongside it.
+
+The primary criterion requires the candidate to reduce benign alarm points by at least 25\% against \emph{both} fused hysteresis and mode-conditioned hysteresis, without more benign alarm episodes, missed overlaps, missed fresh onsets or premature-clear events. At least 95\% of detected events with a physical return must clear within five seconds. The complete conjunction was specified before generation. Subgroups and component comparisons are descriptive; they do not replace this primary outcome.
+
+\subsection{Implementation and validation}
+The configuration, fitted models and calibration thresholds were fixed before evaluation. All methods were scored before outcomes were examined. Fourteen synthetic tests covered command derivatives, lag dynamics, integration refinement, causality, missing-context behavior and threshold rules. Post-run checks verified source and artifact hashes, score replay, state transitions and contingency counts. These checks establish software consistency within the implementation.
+
+The run used an isolated Python 3.12.15/NumPy 1.26.4 environment on an Apple M5 Pro computer with 24 GiB memory. Resource limits were 600 s wall time, 300 s CPU, 1 GiB monitored memory and 160 MiB outputs. No new neural training was performed. Figures and tables were computed from saved results with Python and Matplotlib. AI assistance in study design, implementation and analysis is disclosed in the declarations.

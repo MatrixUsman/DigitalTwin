@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T10:00:49.087808+00:00",
+  "type": "Presentation and inspection of saved synthetic data, not an experiment",
+  "sha256": {
+    "simulation/inspect_virtual_lab.py": "81c3ca70a637240120b03a6f4aae71c39fee88532124bf869d4f72f55a9dfac2",
+    "simulation/render_virtual_lab.py": "fec8372806830d818ec8391212e5fa04588c22576ac2ddf682518570dc2e5b80",
+    "simulation/README.md": "4237e794ac72e097b3ddc9930d141376935f949e5cd6a5964bc357cb01bf2d84",
+    "output/virtual_lab_demo/virtual_robot_lab.gif": "26f939978e6ddfbe035dd56c8669e17aaa8f31edb102a4335ed618677075c49b",
+    "output/virtual_lab_demo/virtual_lab_overview.png": "60c40096e59776ed6f14466e56895bfa26e9eb6102eaf0b7f10a1dfe89e9f62a",
+    "local/virtual_lab_demo/render_receipt.json": "efdb20d1df17a5393dd25b123fcefdb0d9ae234947a849d19a33e765cb53c7e8",
+    "local/virtual_lab_demo/presentation_review.json": "b4e8f2e5e9fd59d3d396e9437761d964b0e9ec7a29e84b0f6c0d1cdb4b545c3e"
+  },
+  "missing_local_links": [],
+  "source_experiment_manifest_sha256": "4c34928d61aa3d2592272934e52871d30c94319c3341c2b76e1ce78bd4b24d8b"
+}

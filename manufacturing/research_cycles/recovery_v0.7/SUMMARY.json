@@ -1,0 +1,51 @@
+{
+  "cost_scope": "Measured shared component and decision replay totals, not independent per-method inference latency",
+  "costs": {
+    "bank_propagation_seconds": 10.073259874945506,
+    "decision_seconds": [
+      0.0005956729874014854,
+      0.0002781759249046445,
+      0.00026829331181943417,
+      0.0002289587864652276,
+      0.00024799490347504616,
+      0.00021325889974832535,
+      0.00019983667880296707,
+      0.01151937316171825,
+      0.011340746539644897,
+      0.0002573701785877347,
+      0.012168494053184986,
+      0.011206915136426687,
+      0.011914587463252246,
+      0.01107224973384291,
+      0.011114531429484487,
+      0.011216997285373509,
+      0.014824710669927299,
+      0.011060495278798044,
+      0.00026241352315992117,
+      0.011083197430707514,
+      0.011048663989640772,
+      0.011076042428612709,
+      0.011377583490684628
+    ],
+    "following_seconds": 46.9212658808101,
+    "normal_calibration_seconds": 2.7045874160248786,
+    "physical_generation_seconds": 17.244881127262488,
+    "score_assembly_seconds": 0.626873039174825
+  },
+  "eligible_per_method": 158400,
+  "episodes": 144,
+  "methods": 23,
+  "outcomes": 3312,
+  "scores_seal_sha256": "6914e6334074f839c11e093ad01e9c44fe74621a4fec1eb0074e7a6262cb8272",
+  "status": "completed",
+  "usage": {
+    "peak_rss_bytes": 286310400,
+    "process_cpu_seconds": 81.472142,
+    "ru_maxrss_native_unit": "bytes",
+    "source": "getrusage(RUSAGE_SELF)",
+    "system_cpu_seconds": 0.448509,
+    "user_cpu_seconds": 81.023633
+  },
+  "utc": "2026-10-17T10:32:32.082319+00:00",
+  "wall_seconds": 81.86187166604213
+}

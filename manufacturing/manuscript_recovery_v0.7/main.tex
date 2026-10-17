@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx}
+\usepackage{microtype,xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\setlength{\emergencystretch}{2em}
+\newcommand{\pending}[1]{\textcolor{red!60!black}{[Pending: #1]}}
+\input{generated/values}
+\title{When Should a Digital-Twin Alarm Clear?\\Recovery Evidence under Motion-Model Mismatch}
+\author{Muhammad Usman \and Haiqa Mushtaq}
+\date{Research draft for author review --- 17 October 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Draft status.} This manuscript reports completed, fully synthetic experiments. It does not establish a new algorithm or reproduce the headline results of a published detector. Its primary improvement hypothesis failed. Muhammad Usman's supplied university affiliation is recorded in the declarations. Other personal declarations and approval by both authors remain unconfirmed. This draft has not been submitted or externally peer reviewed.
+\begin{abstract}
+A small prediction residual can justify an alarm onset rule without establishing that a disturbed process has recovered. We investigate this distinction in digital-twin motion monitoring with protected command context. A corrected observer supplies prospective residuals, while an uncorrected nominal trajectory supplies a separate return criterion. The candidate retains an alarm until measured joint state lies within a fixed reference tolerance, including a noise margin, for ten samples. We test this engineering combination against saved autoregressive predictors, rolling means, CUSUM, ordinary hysteresis, command resets and component removals. Configurations and thresholds were frozen before generating 144 episodes with new multisine and chirp commands, independently varied plant parameters, actuator lag and sensor noise. All 23 methods were scored before joint outcome inspection. The candidate overlapped all 90 interventions and had no premature clearing under the declared physical-return diagnostic, but alarmed on 2,778 of 59,400 benign observations, versus 2,452 for fused hysteresis. Its predeclared improvement criterion therefore failed. At identical entry thresholds, removing the recovery dwell caused premature clearing in 44 events; removing reference-based entry changed no alarm decision. These results distinguish a useful recovery component from an unsupported overall improvement. They also show why command-interval F1, benign alarm burden and physical-return behavior must be reported separately. Conclusions apply to the stated virtual model and trust assumptions; algorithmic novelty and real-system validity remain unestablished.
+\end{abstract}
+\noindent\textbf{Keywords:} digital twin; robotic motion; anomaly detection; alarm recovery; model mismatch; cybersecurity; simulation.
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/evaluation}
+\input{sections/results}
+\input{sections/discussion}
+\clearpage
+\appendix
+\input{sections/appendix}
+\clearpage
+\input{sections/declarations}
+\input{references}
+\end{document}

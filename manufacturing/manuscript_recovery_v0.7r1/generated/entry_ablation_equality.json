@@ -1,0 +1,725 @@
+{
+  "episodes": [
+    {
+      "episode": "eval_C_P1_17_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_17_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_2026_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P1_42_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_17_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_2026_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P2_42_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_17_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_2026_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_C_P3_42_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_17_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_2026_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P1_42_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_17_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_2026_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P2_42_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_17_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_2026_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_authorized_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_authorized_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_brief_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_context_gap_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_hold",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_normal",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_persistent_offset",
+      "alarms_identical": true,
+      "unknown_identical": true
+    },
+    {
+      "episode": "eval_D_P3_42_slow",
+      "alarms_identical": true,
+      "unknown_identical": true
+    }
+  ],
+  "all_equal": true
+}

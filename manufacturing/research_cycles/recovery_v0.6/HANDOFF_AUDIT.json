@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T10:23:25.278620+00:00",
+  "status": "passed",
+  "source_bindings": 12,
+  "prior_input_bindings": 575,
+  "package_files": 232,
+  "synthetic_tests": 23,
+  "replay_checks": 8332,
+  "restricted_config_checks": 4176,
+  "numerical_trajectories": 12,
+  "numerical_maximum": 3.7640859711363106e-06,
+  "missing_local_links": [],
+  "primary_target_met": false,
+  "numeric_presentation_tables_unchanged": true,
+  "visual_review": "Comparison and final warmup-corrected examples inspected; readable labels/legends and all methods retained",
+  "package_sha256": "b0ffcef4f38acedf8afa0e8d106b4f207f2f03f9c0aaae58fd58fff39c884fec",
+  "prior_scientific_sources_unchanged": true
+}

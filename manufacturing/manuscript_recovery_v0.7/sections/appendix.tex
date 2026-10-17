@@ -1,0 +1,31 @@
+\section{Complete performance roster}\label{app:all}
+IDs are stable across every table. IDs 18--21 are the matched-entry diagnostic track; other methods use the declared normal-budget calibration. Precision/recall/F1 are command-interval metrics; AP uses the underlying score and is insensitive to alternative latches sharing that score.
+\begin{center}\small\input{generated/performance}\end{center}
+Context-dependent methods have 1,080 unknown observations out of 158,400 (99.318\% known coverage); persistence and AR have no unknown observations. All 90 simulated intervention events have an evaluator-defined return. No row is omitted for poor performance or failure to clear.
+\clearpage
+\section{Alarm burden and recovery for every method}
+Benign points have denominator 59,400. Overlap/fresh counts have denominator 90. ``Clear / returned'' counts detected events that clear within five seconds of return, divided by detected events with a return. It does not penalize events that cleared early; that failure appears in the early-clear column. Missing detections must also be read from overlap.
+\begin{center}\small\input{generated/burden}\end{center}
+\subsection*{Benign alarm counts by plant}
+\begin{center}\small\input{generated/strata}\end{center}
+Each plant stratum has 19,800 benign targets. Complete 92-row plant/method results and all 3,312 event/episode outcomes are retained in the reproducibility package.
+\clearpage
+\section{Delay accounting}
+Delays below are conditional on the overlap or fresh-onset subset; their omitted events are explicitly counted as ``Miss / no fresh.'' All values are seconds relative to scheduled onset or the declared physical return. A zero clearing delay can mean the method had already cleared prematurely. CUSUM has no valid clearing delay in the five-second search window.
+\begin{center}\small\input{generated/delay}\end{center}
+For the candidate, the maximum overlap delay is 1.20 s and the maximum fresh-onset delay is 0.04 s. The difference is caused by the missing-context cases, which have overlap but no counted fresh onset. Comparing these conditional summaries without their populations would be misleading.
+\clearpage
+\section{Thresholds and computation}
+All thresholds were fixed before fresh generation. The calibration population contains 16,200 eligible targets; the budget ceiling is 162 alarms. Different state machines can produce different attainable counts at their smallest feasible threshold. The matched-entry diagnostic counts are intentionally not equalized.
+\begin{center}\small\input{generated/thresholds}\end{center}
+\begin{center}\small\input{generated/costs}\end{center}
+Shared component timings overlap normal calibration and must not be summed as disjoint costs. Per-method decision-only totals appear in the generated supplementary table and JSON; prediction, reference propagation and score assembly are excluded from those totals.
+\clearpage
+\section{Reproducibility and claim traceability}
+The project stores the pre-generation protocol in \path{research_cycles/recovery_v0.7/PLAN.md}, the scientific configuration and input/source hashes in \path{FREEZE.json}, and the sole completed run in \path{local/recovery_v0.7/runs/confirmation_001/}. Normal calibration is sealed in \path{BEFORE_FRESH_GENERATION.json}; full score artifacts are sealed in \path{SCORES_SEALED.json}. The freeze SHA-256 is
+\begin{quote}\small\path{6faa76a59e5050f56ddafcf87417d8d766955afe8c62266195c2bbab56b9a4d7}.\end{quote}
+The old fitted artifact is copied byte-for-byte. Source code, environment versions and commands are recorded alongside the run. Fourteen synthetic tests and 14,635 post-run checks passed; there was no final-outcome-driven scientific change. The v0.7 reporting stage only reads existing artifacts. It produces all manuscript tables, three original data figures, a complete outcome CSV, event-delay summaries and a paired entry-ablation equality receipt.
+
+The local package includes a claim ledger, reference/source manifest, review record and PDF build receipt. Local presence is not a public repository release or a data-sharing promise. Third-party papers and datasets retain their original permissions. No source paper figure, third-party dataset content or published performance table is reproduced in this manuscript. Release and submission require a separate author decision.
+
+This draft is an evidence-complete account of the specified virtual comparison, not a completed original-method publication. The exact primary test is false. Any revision driven by these outcomes must label this matrix as exposed and register a different confirmation before claiming a new improvement.

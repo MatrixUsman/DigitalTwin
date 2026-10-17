@@ -1,0 +1,122 @@
+{
+  "checked_date": "2026-10-17",
+  "records": [
+    {
+      "key": "casper",
+      "doi": "10.1145/3670414",
+      "year": 2024,
+      "authors": "Hakan Kayan and Ryan Heartfield and Omer Rana and Pete Burnap and Charith Perera",
+      "title": "CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms",
+      "journal": "ACM Transactions on Internet of Things",
+      "volume": "5",
+      "number": "3",
+      "pages": "18",
+      "url": "https://iotgarage.net/publications/pdfs/Kayan2024a.pdf",
+      "local": "baselines/casper/artifacts/casper_corrected_vor_v1.1.pdf",
+      "status": "Corrected VOR v1.1, 2025-02-05; first published August 2024; full text inspected",
+      "local_sha256": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186"
+    },
+    {
+      "key": "edge",
+      "doi": "10.1109/JIOT.2025.3569780",
+      "year": 2025,
+      "authors": "Hakan Kayan and Ryan Heartfield and Omer Rana and Pete Burnap and Charith Perera",
+      "title": "Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing",
+      "journal": "IEEE Internet of Things Journal",
+      "volume": "12",
+      "number": "15",
+      "pages": "29696--29712",
+      "url": "https://iotgarage.net/publications/pdfs/Kayan2025a.pdf",
+      "local": "local/contribution_v0.2/sources/edge_paper.pdf",
+      "status": "Author-hosted full manuscript inspected; exact online publication day not asserted",
+      "local_sha256": "a7f8a647ad277fdcacb0e361b3ce95107bfb849a8111ac314d7841bf31d75fd9"
+    },
+    {
+      "key": "twine",
+      "doi": "10.1016/j.iot.2026.101976",
+      "year": 2026,
+      "authors": "Mubashar Iqbal and Sabah Suhail and Simon Freudenthaler and Muhammad Fahim and Raimundas Matulevičius",
+      "title": "TWINE: ISO 23247-compliant digital twin and explainable AI framework for anomaly detection",
+      "journal": "Internet of Things",
+      "volume": "38",
+      "pages": "101976",
+      "url": "https://pureadmin.qub.ac.uk/ws/files/689658736/TWINE.pdf",
+      "local": "local/comparator_admission_20261017/twine/qub_public_pdf.pdf",
+      "status": "Locally available peer-reviewed accepted manuscript; live fetch failed this cycle; prior receipt retained",
+      "local_sha256": "02f446e7c62d22289209a2667c411322cce0c1a134e8a1b9ac9b333fe3ce5012"
+    },
+    {
+      "key": "ayankoso",
+      "doi": "10.3390/machines12090630",
+      "year": 2024,
+      "authors": "Samuel Ayankoso and Fengshou Gu and Hassna Louadah and Hamidreza Fahham and Andrew Ball",
+      "title": "Artificial-Intelligence-Based Condition Monitoring of Industrial Collaborative Robots: Detecting Anomalies and Adapting to Trajectory Changes",
+      "journal": "Machines",
+      "volume": "12",
+      "number": "9",
+      "pages": "630",
+      "url": "https://www.mdpi.com/2075-1702/12/9/630",
+      "local": "local/recovery_v0.5/sources/ayankoso_pdf.pdf",
+      "status": "Publisher full manuscript; published 2024-09-07, accepted 2024-09-04",
+      "local_sha256": "4ff02dafb4d46972f02e4bd5486b5e61461f11e9e214ea636a0046641fb67701"
+    },
+    {
+      "key": "meseguer",
+      "doi": "10.1016/j.jprocont.2010.06.017",
+      "year": 2010,
+      "authors": "Jordi Meseguer and Vicenç Puig and Teresa Escobet and Jordi Saludes",
+      "title": "Observer gain effect in linear interval observer-based fault detection",
+      "journal": "Journal of Process Control",
+      "volume": "20",
+      "number": "8",
+      "pages": "944--956",
+      "url": "https://futur.upc.edu/2748744",
+      "status": "Institutional metadata and publisher abstract; full method/code not audited; historical background"
+    },
+    {
+      "key": "nist",
+      "year": 2026,
+      "authors": "{NIST/SEMATECH}",
+      "title": "CUSUM Control Charts",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc323.htm",
+      "status": "Official e-Handbook section 6.3.2.3 read; 2026 is access year, not asserted publication date"
+    },
+    {
+      "key": "rapio",
+      "doi": "10.3390/jmse14151445",
+      "year": 2026,
+      "authors": "Ishaq Ahmed and Ayman Alharbi and Jun Lu and Amar Jaffar and Muhammad Bilal",
+      "title": "Robust Adaptive Propagated Interval Observer for Actuator Fault Diagnosis in Underactuated AUVs",
+      "journal": "Journal of Marine Science and Engineering",
+      "volume": "14",
+      "number": "15",
+      "pages": "1445",
+      "url": "https://www.mdpi.com/2077-1312/14/15/1445",
+      "status": "Publisher-indexed metadata/text; direct page rate-limited; full recovery equations, exact online date and code unresolved"
+    },
+    {
+      "key": "kaisar",
+      "doi": "10.1109/OJCOMS.2026.3739185",
+      "year": 2026,
+      "authors": "Hunain Kaisar and Muhammad Rehan and Ijaz Ahmed and Muhammad Bilal and Muhammad Khalid",
+      "title": "A Digital Twin-Based Cybersecurity Architecture for FDI Anomaly Detection and Isolation in Next Generation Robotic Vehicles",
+      "journal": "IEEE Open Journal of the Communications Society",
+      "volume": "7",
+      "pages": "12709--12728",
+      "url": "https://pure.kfupm.edu.sa/en/publications/a-digital-twin-based-cybersecurity-architecture-for-fdi-anomaly-d/",
+      "local": "local/recovery_v0.5/sources/kaisar_crossref.json",
+      "status": "Institutional abstract and Crossref metadata; full manuscript and exact publication day unresolved",
+      "local_sha256": "c57a5a82727efb3cdc98c3168283949ae730a771755b4674fff01602522c7ec5"
+    },
+    {
+      "key": "voraus",
+      "year": 2023,
+      "authors": "Jan Thieß Brockmann and Marco Rudolph and Bodo Rosenhahn and Bastian Wandt",
+      "title": "The voraus-AD Dataset for Anomaly Detection in Robot Applications",
+      "url": "https://arxiv.org/abs/2311.04765",
+      "identifier": "arXiv:2311.04765",
+      "status": "Submitted 2023-11-08; author record reports IEEE T-RO acceptance, final issue/DOI not used; no data admission"
+    }
+  ],
+  "verification": "Manual primary-source inspection with explicit scope limits; local hashes rechecked by this script"
+}

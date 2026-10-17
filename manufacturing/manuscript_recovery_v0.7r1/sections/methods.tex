@@ -1,0 +1,56 @@
+\section{Virtual plant, information and threat model}
+The simulated plant is a horizontal two-revolute-joint arm with point masses. Its state is $x=[q_1,q_2,\dot q_1,\dot q_2]^\top$, with angles in radians and time in seconds. Writing $a=m_2l_1l_2$ and $d=m_2l_2^2$, the mechanical equations are
+\begin{align}
+ M(q)\ddot q+c(q,\dot q)+B\dot q&=\tau,\\
+ M(q)&=\begin{bmatrix}
+ (m_1+m_2)l_1^2+d+2a\cos q_2 & d+a\cos q_2\\
+ d+a\cos q_2 & d
+ \end{bmatrix},\\
+ c(q,\dot q)&=a\sin q_2\begin{bmatrix}-2\dot q_1\dot q_2-\dot q_2^2\\\dot q_1^2\end{bmatrix}.
+\end{align}
+Nominal parameters are $m_1=1$, $m_2=0.8$ kg, $l_1=0.5$, $l_2=0.4$ m and $B=\operatorname{diag}(0.08,0.06)$. A saturated proportional--derivative controller requests
+\begin{equation}
+ \tau^*=\operatorname{clip}\{K_p(q^c-q)+K_d(\dot q^c-\dot q),-20,20\},
+\end{equation}
+componentwise, with $K_p=\operatorname{diag}(18,12)$ and $K_d=\operatorname{diag}(4,3)$. For a lagged plant, actuator torque is an additional two-dimensional state satisfying $\dot\tau=(\tau^*-\tau)/T_a$. The zero-lag plant applies $\tau^*$ directly. The monitor retains the lag-free nominal model in every condition. Gravity, contact, flexible links, thermal effects, communication jitter and actuator faults beyond the declared command manipulations are absent.
+
+The plant receives an executed command $u^e=[q^c,\dot q^c]$. The monitor receives a protected approved command $u^a$, a context-validity flag and noisy truthful joint measurements $y=x+\epsilon$. Nominal independent Gaussian sensor standard deviations are $(0.0005,0.0005,0.002,0.002)$. Plant-specific noise scaling is stated below. The attacker changes the downstream executed command without changing the protected approved record or measurement stream. Authorized changes update both command paths. This separates the effect of permission context from the physical shape of a change. Authentication itself is assumed, not implemented or demonstrated.
+
+The detector API excludes executed commands, true states, actual plant parameters, scenario names, intervention schedules and labels. When context is unavailable, the command channel holds its last available value. Context-dependent decisions become unknown. A stateful alarm remains internally latched and its recovery counter resets; unknown observations do not become known negatives. Context-free persistence and AR remain available. The attack model excludes coordinated compromise of the protected command and all sensing channels. The experiment cannot establish security under that stronger adversary or distinguish every mechanical fault from malicious intent.
+
+\section{Prediction and recovery mechanisms}
+Let $F_0$ be one nominal integration step and $r_t$ a reference driven by the available approved command. A following observer maintains a separate estimate $\hat x_t^-$. Its recursion is
+\begin{align}
+ r_{t+1}&=F_0(r_t,u_t^a),\\
+ \hat x_{t+1}^-&=F_0\{\hat x_t^-+L(y_t-\hat x_t^-),u_t^a\},
+ \qquad L=\operatorname{diag}(0.65,0.65,0.35,0.35).
+\end{align}
+Scores at $t$ use $\hat x_t^-$ before the current measurement corrects the state. Both trajectories begin at the declared task's initial pose and zero velocity. Parameters, gains and residual scales remain fixed throughout an episode. The observer is synchronized with measurements, while the reference remains driven by approved commands.
+
+With training standard deviation vector $s$, define
+\begin{equation}
+ e_t^f=\tfrac14\sum_{j=1}^{4}[(y_{t,j}-\hat x^-_{t,j})/s_j]^2,
+ \qquad
+ e_t^r=\tfrac14\sum_{j=1}^{4}[(y_{t,j}-r_{t,j})/s_j]^2.
+\end{equation}
+Training means $\bar e^f,\bar e^r$ normalize a fused entry score
+\begin{equation}
+ z_t=\max(e_t^f/\bar e^f,e_t^r/\bar e^r).
+\end{equation}
+Ordinary fused hysteresis enters when $z_t>h$ and clears after ten valid consecutive samples at $z_t\le h/2$. An above-threshold observation has priority and restarts the recovery count. 
+
+The fixed-return candidate uses the same entry score but replaces the low-score condition by
+\begin{equation}\label{eq:return}
+ R_t=\mathbf 1\!\left\{\forall j:\ |y_{t,j}-r_{t,j}|+3\sigma_j\le0.1s_j\right\}.
+\end{equation}
+After entry, the candidate clears when $R_t=1$ for ten consecutive valid observations without a new entry. The ten-observation window spans nine sample intervals; we report the count explicitly rather than calling it an exact 0.20 s residence time. The $3\sigma$ allowance is a design margin, not a deterministic bound on Gaussian noise or a confidence certificate. In the noisy fresh plant the detector still uses its original nominal $\sigma$.
+
+The saved AR(4) and ARX(4) controls predict standardized state using four preceding observations; ARX also receives the preceding approved command. They use ridge coefficient $0.001$ with an unpenalized intercept. Persistence uses the preceding observation. Their scores are channel-mean squared standardized errors. A 45-sample trailing mean and a CUSUM operate on following-observer error. The latter obeys
+\begin{equation}
+ C_t=\max\{0,C_{t-1}+\min(e_t^f/\bar e^f,25)-1.5\}.
+\end{equation}
+The cap and drift remain fixed throughout evaluation.
+
+Additional controls include mode-conditioned fusion, an envelope from three nominal-model parameter combinations, and their ordinary or fixed-return decisions. The envelope score is the maximum per-channel excess outside the sampled trajectory range divided by nominal sensor noise. Mode conditioning uses protected command increments to flag a 50-sample transition interval and fixed training normalizers. A command-reset control clears ordinary fused hysteresis at the start of a detected command-mode interval, before applying the current entry rule; it never receives an intervention boundary.
+
+Six added normal-calibrated variants remove the dwell, remove the noise margin, use reference-only entry, use following-only entry, add following-error hysteresis, or apply the command reset. Removing reference entry retains the reference in the return test. Four further ablations retain the candidate's identical $h$ while changing only its decision rule to point thresholding, ordinary hysteresis, one-sample return or zero-margin return. This second track isolates the return mechanism; its members need not have the same calibration alarm burden. All 23 definitions and exact thresholds are retained in the code and appendix.

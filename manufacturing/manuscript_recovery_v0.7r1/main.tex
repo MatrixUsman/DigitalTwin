@@ -1,0 +1,30 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\setlength{\emergencystretch}{2em}
+\input{generated/values}
+\title{When Should a Digital-Twin Alarm Clear?\\Recovery Evidence under Motion-Model Mismatch}
+\author{Muhammad Usman \and Haiqa Mushtaq}
+\date{17 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A small prediction error does not necessarily mean that a disturbed robot has returned to its intended motion. We examine alarm recovery using a corrected motion observer and a separate reference driven by approved commands. The alarm clears only after measured joint state remains within a reference tolerance, including a noise margin, for ten consecutive samples. We compare this fixed-return rule with autoregressive predictors, rolling means, CUSUM, hysteresis, command resets and component ablations. The evaluation comprises 144 simulated episodes with multisine and chirp commands, varied plant parameters, actuator lag and sensor noise. All configurations and thresholds were fixed before generating the evaluation data. Across 90 interventions, fixed return had no premature clears under the specified recovery criterion. It nevertheless alarmed on 2,778 of 59,400 benign observations, compared with 2,452 for fused hysteresis, and failed the predeclared improvement criterion. At the same entry threshold, removing the ten-sample dwell caused premature clearing in 44 events. Removing reference-based alarm entry changed no decision. The dwell therefore improved recovery behavior at the cost of additional benign alarm time. These results support evaluating alarm onset and recovery separately. Their scope is limited to the simulated dynamics and the assumption of protected commands and truthful sensing.
+\end{abstract}
+\noindent\textbf{Keywords:} digital twin; robotic motion; anomaly detection; alarm recovery; model mismatch; cybersecurity; simulation.
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/evaluation}
+\input{sections/results}
+\input{sections/discussion}
+\clearpage
+\appendix
+\input{sections/appendix}
+\clearpage
+\input{sections/declarations}
+\input{references}
+\end{document}

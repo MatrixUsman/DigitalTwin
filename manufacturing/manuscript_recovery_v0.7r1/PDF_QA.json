@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-17T11:12:35.632617+00:00",
+  "pdf_sha256": "9252c33e1d33c9f03308acb8e2b1839bb8079a2d7bb478da6b69245dabde8064",
+  "renderer": "pdftoppm -r 85 -png",
+  "visual_review": "All 15 first-build pages inspected; final changed pages 8, 13, 14 inspected separately; other 11 final pages pixel-identical to inspected pages. No clipping, overlap, missing glyphs or broken tables observed.",
+  "pages_pixel_identical_to_reviewed_first_build": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12
+  ],
+  "final_changed_pages_reviewed": [
+    8,
+    13,
+    14
+  ],
+  "page_sha256": {
+    "local/recovery_v0.7/editorial_v1/qa_final/page-01.png": "edb64e9af363ff09e1a0c7f7adf5848d6ae86a25acec63ef208eecff3cc37b56",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-02.png": "e117fa5210f0df758b013981275dd5d4f0f7db9496693a7d2228b15aa473949c",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-03.png": "c48d28fe23ef4bad57bdfc02642983dd62a07fbd11e0ac1ec0c2bdf6c2fb59f5",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-04.png": "3dfe442a82a697c7c2ada19f5e128b35d3c6e8ace4b89606833b84fbe9fa5a11",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-05.png": "7a84b9423100470eecb5e4df18fa514c6cd0460f81891e5a3e51bf7ae30db1d6",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-06.png": "6e1bea8d32485b2f9b29686bc0fd359e66d5955add9d32dd28867df345843079",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-07.png": "89a14014fe0aef80fd0bf59eb85e9523f5f8da016dc76753776941e469dac1fe",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-08.png": "5e3654dec1eb0dc07f42197e832145ea375c313e92a57ff49196dd1e110ab6e7",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-09.png": "ba8c06a5f45f1acd9b1b41d52160e28a6fda5a67d3bee8c47380dc70cc410313",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-10.png": "0efa0d6f0fba018facc4fcc919650a2bc9402c404879f011e23a34cb0e6f6338",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-11.png": "dadd500ec2b8d70d62d200845ca787a4d183598bde645ef7fb36892a5ec50a1a",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-12.png": "46cffccac572269250f12798da57e188791c724225c925f8983a273e70f0fe08",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-13.png": "1e00a90a31620a2acc5274ce258a2c0c453b29044fde88652f0d1e3d90d7fe81",
+    "local/recovery_v0.7/editorial_v1/qa_final/page-14.png": "f90c2cfe4ed9599d99075ccb42ac7958dcdd2bad8f7833bb509bdb2c7e39929f"
+  },
+  "latex_layout_or_reference_warnings": [],
+  "status": "passed"
+}

@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-17T11:03:18.763829+00:00",
+  "pdf_sha256": "69932efa60694fbe06f8928784c10b4a8c24001e885d4e7fe362c3fbd5ddbf59",
+  "pages": 17,
+  "render_command": "pdftoppm -r 85 -png [PDF] [local study QA prefix]",
+  "visual_review": "All initial pages inspected; final changed pages 1,16,17 inspected; other pages pixel-identical",
+  "unchanged_page_numbers": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "final_changed_pages_inspected": [
+    1,
+    16,
+    17
+  ],
+  "clipping_or_overlap_observed": false,
+  "unresolved_citation_or_missing_font_warnings": false,
+  "final_offline_build": true,
+  "render_sha256": {
+    "local/recovery_v0.7/pdf_qa/references/page-01.png": "e14fce4dc579900187cd384afd0f4a7071a1f14354a79612a68aa8e22b52f953",
+    "local/recovery_v0.7/pdf_qa/references/page-02.png": "64426bfb5ce402c7e77784dc66d2e261ff36d745f69db675911a9c845d6a5aa0",
+    "local/recovery_v0.7/pdf_qa/references/page-03.png": "d74aa3e1f11364fec7a4512fe3bdcb7bca1116d143a3fc3ffabb8c0d60ccabaa",
+    "local/recovery_v0.7/pdf_qa/references/page-04.png": "a94c2077f0aa6610122a7ff40494610283c0e5bd0cf275194c6f2e8e573ab5bb",
+    "local/recovery_v0.7/pdf_qa/references/page-05.png": "7bfb3c39ebea6f3786f1b7d594fbbf758608f53499695d87f72f5ed5b0db960b",
+    "local/recovery_v0.7/pdf_qa/references/page-06.png": "c522271c3c5f8aa91e7b9fe8de843327a9f401c3f0b2605d7417d6c85944d089",
+    "local/recovery_v0.7/pdf_qa/references/page-07.png": "4dd7380b945a0c218a04fce79000f9d9ae191276605a5a9da94ecf513f181b20",
+    "local/recovery_v0.7/pdf_qa/references/page-08.png": "182b4c36ba449fe7889d45acfc81c0e4cd3c8dceeb2ecae00f57999d8f9416bb",
+    "local/recovery_v0.7/pdf_qa/references/page-09.png": "4fc38a2cb01b16fc94d2423e8006895585d170b47faa59115c63cc283403831c",
+    "local/recovery_v0.7/pdf_qa/references/page-10.png": "8a2d9cc4a006f37ee18bdbcdba765e736c343d7d80b3c136182583bb9bc1ed16",
+    "local/recovery_v0.7/pdf_qa/references/page-11.png": "2f94218fb87fd25e978fe207944dfd542f178de9bf23ac70fc19373437bf8a7c",
+    "local/recovery_v0.7/pdf_qa/references/page-12.png": "a2e3eac2a1d88d2eb4e30040328ca1589233dd3d2dd66850938313ce1c0db7c9",
+    "local/recovery_v0.7/pdf_qa/references/page-13.png": "c97aab4f97041e87352f2c442f6327f25350dfc6f158003b1074810ad8962388",
+    "local/recovery_v0.7/pdf_qa/references/page-14.png": "d8586f0f55c6934fea773ddfdb541c2797fe223905cb96bda85d3a7106d148d5",
+    "local/recovery_v0.7/pdf_qa/references/page-15.png": "8b28f1c3288b81732a2baa417ba3b41fd04deb716648fd09c72a3c6e5b6ad73a",
+    "local/recovery_v0.7/pdf_qa/references/page-16.png": "73ab0557e684d49065ea69e02ea7e7901a3038bab6ceaaa7041325de110db334",
+    "local/recovery_v0.7/pdf_qa/references/page-17.png": "76c9bee611df83ded3519e053ce38b79ad88698e1db6b3419d7135a97ef4f658"
+  }
+}

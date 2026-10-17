@@ -1,6 +1,32 @@
 # Manufacturing status
 
-## Current handoff — recovery simulation v0.5, 17 October 2026
+## Latest manuscript edit — 17 October 2026
+
+The [revised 14-page PDF](output/pdf/alarm-recovery-model-mismatch-revised.pdf) removes repeated draft notices and process commentary and tightens the prose throughout. [Editorial source and checks](manuscript_recovery_v0.7r1/README.md) preserve the findings, limitations, references and AI-assistance disclosure. All generated tables/figures and display equations are unchanged. Offline compilation and visual review passed; all 260 files in the original scientific package retain their hashes. No new experiment ran. The scientific findings and next research task below are unchanged.
+
+## Current handoff — fresh confirmation and manuscript v0.7, 17 October 2026
+
+**Completed:** [the prospectively frozen virtual comparison](research_cycles/recovery_v0.7/RESULTS.md), 144 fresh episodes, 23 decisions and 3,312 outcomes; fourteen synthetic tests and 14,635 fresh-process checks passed. All source/configuration/input bindings, calibration and score seals remain intact. One successful run took 81.959 s wall / 81.472 s CPU, with 273.05 MiB measured peak memory. No raw observations, physical equipment or new neural training were used.
+
+The selected fixed-return mechanism **failed its primary improvement criterion**: 2,778 benign alarm points versus 2,452 for fused hysteresis (13.30% more), with 90/90 overlaps, 72 fresh onsets and no premature clears. At the same entry threshold, removing dwell caused premature clearing in 44 events; removing reference entry left every alarm array unchanged. The all-method table retains stronger ordinary controls, subgroup results, all misses and recovery costs.
+
+**Written and built:** [17-page LaTeX review manuscript](manuscript_recovery_v0.7/README.md), *When Should a Digital-Twin Alarm Clear? Recovery Evidence under Motion-Model Mismatch*, with result-generated tables/figures, claim/reference audit, declarations and a separate PDF at `output/pdf/alarm-recovery-model-mismatch.pdf`. Every page was rendered and inspected. Author order is Muhammad Usman, Haiqa Mushtaq; Muhammad Usman’s supplied COMSATS Sahiwal affiliation is recorded. Haiqa’s affiliation, individual roles, funding/conflicts and both-author approval remain unconfirmed. ISA Transactions is a conditional scope-fit target, not a submission or acceptance decision.
+
+**Scientific gate:** a new original algorithm or overall improvement is not established. The intended original-contribution objective remains active; the manuscript records the completed evidence rather than relabeling failure as superiority. Next specify model-adequacy/recovery evidence against close interval/recovery prior art and test any redesign on newly frozen virtual conditions. v0.7 is exposed. Public fault recordings require separate admission and must not be renamed cyber evidence. No physical-lab requirement applies. Earlier studies, old PDFs, water and smart grids remain unchanged.
+
+## Historical handoff — command uncertainty and recovery v0.6, 17 October 2026
+
+**Completed:** [the frozen virtual experiment](research_cycles/recovery_v0.6/RESULTS.md): 144 new synthetic episodes, thirteen methods, 1,872 outcomes. Twenty-three synthetic tests, 8,332 fresh-process checks and twelve numerical-refinement trajectory comparisons passed. One successful supervised run took 63.578s wall / 63.114s CPU with 88.66MiB sampled RSS. All old scientific artifacts remain unchanged.
+
+The envelope/fixed-return candidate reduced within-range benign alarms from 354 to 277 (21.75%) versus fused hysteresis, with 60/60 event overlaps, 48 fresh onsets and no premature clears. The predeclared 25% reduction requirement against both controls **failed**. Its false alarms rose to 66.60% beyond the modeled parameter range. The simpler nominal-entry/fixed-return ablation had 167 benign alarms (52.82% fewer than fused), the same event coverage and no premature clears, but did not improve outside-range benign alarms. Alarm episodes/hour and attack-interval F1 expose additional costs; [all methods and strata](research_cycles/recovery_v0.6/TABLES.md) remain visible.
+
+**Decision:** retain the simple fixed-return ablation as a development lead and keep fused/ARX/following/rolling-mean controls. The sampled envelope is not justified as the final method. Next investigate trusted model-adequacy evidence under legitimate dynamics change, and resolve the distinction from interval-observer/recovery prior art before another design. This cycle is now exposed; any outcome-informed candidate needs newly frozen physical assumptions/conditions for confirmation. No original algorithm, faithful paper reproduction or real-robot validation has been established. The original-contribution destination remains active.
+
+[Plan and code](research_cycles/recovery_v0.6/README.md), [comparison figure](output/recovery_v0.6/comparison.png), [validation](research_cycles/recovery_v0.6/VALIDATION.md). All work is fully virtual; the user needs no laboratory equipment. Earlier handoffs below are historical.
+
+## Historical handoff — recovery simulation v0.5, 17 October 2026
+
+**Entirely virtual:** the user confirmed that no physical laboratory work is feasible. The simulator and all existing pilot observations run in software. [Open the virtual lab guide and animated replay](simulation/README.md); Codex handles implementation and execution. This demonstration uses existing saved observations and does not create fresh experimental evidence.
 
 **Completed:** [comparator role decisions](research_cycles/recovery_v0.5/COMPARATORS.md), [precise candidate/prior-art assessment](research_cycles/recovery_v0.5/PRIOR_ART.md), and [bounded physical simulation pilot](research_cycles/recovery_v0.5/RESULTS.md). Two simulated plants, three paired noise seeds, 18 training / 18 calibration / 48 evaluation episodes, eleven methods and 528 outcomes. All observations are synthetic; no CASPER or fresh physical recording was opened.
 
