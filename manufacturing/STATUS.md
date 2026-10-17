@@ -1,8 +1,22 @@
 # Manufacturing status
 
+## Current handoff — limitation experiment v0.4, 17 October 2026
+
+**Completed:** [189 synthetic brief/persistent scenarios](research_cycles/limitation_v0.4/RESULTS.md), six saved predictors, four scoring rules and 4,536 jointly evaluated outcomes. No retraining or new raw/final observations. [Figures and package](research_cycles/limitation_v0.4/README.md) preserve all controls, seeds, misses, false alarms and costs.
+
+Altered prediction histories reduce discrepancy for many holds/slow-playback cases, but CNN error does not consistently decline over time. Sensor offsets often amplify error. The broad hypothesis of universal persistent-deviation assimilation is not supported.
+
+For 450-observation deviations, the CNN average point recall/F1 is **25.12%/0.2778** for point scoring, **53.33%/0.5127** for a 45-point mean, and **66.91%/0.2364** for CUSUM. CUSUM's long carryover offsets its coverage gain; 128/189 long seed-case outcomes remain alarmed throughout the next 512 observations. Rolling means miss all five-observation events. Same-percentile calibration does not ensure equal normal false-alarm rates. These are dependent synthetic scenarios on exposed normal development, not independently recorded attacks.
+
+Validation: **22 synthetic tests** after one preserved float32 assertion correction; **26,374/26,374** fresh-process checks. One successful replay took **6.198s wall**, **4.799s CPU**, **453.77MiB sampled RSS**, and about 20.0MB of outputs, inside all caps. Original source/model/PDF identities remain unchanged.
+
+**Next scientific step:** retain the 45-point mean as a strong ordinary control and test a mechanism that jointly handles sustained-change evidence, brief deviations and justified recovery. Specify a small dynamics-based simulation with permitted command context, plant/observer mismatch and legitimate changes; freeze separate task/plant groups before prospective outcomes. Resolve the exact difference from close prior art. This exploratory result does not establish algorithmic novelty. The user's original-contribution objective remains active.
+
+The earlier handoffs below are historical records; the v0.4 result supersedes their pending limitation-experiment task.
+
 **Current result:** the [compact CNN baseline pipeline](research_cycles/baseline_training_v0.3/README.md) is implemented, tested and executed. Three CNN seeds each completed 30 epochs on 65,536 normal training targets and scored 16,384 chronological development targets. The selected models, scaler, AR control, predictions and learning curves are saved and verified.
 
-## Current handoff — baseline training v0.3, 17 October 2026
+## Completed baseline training v0.3, 17 October 2026
 
 | Item | Actual outcome |
 |---|---|

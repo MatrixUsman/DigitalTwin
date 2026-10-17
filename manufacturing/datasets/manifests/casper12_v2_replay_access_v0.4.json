@@ -1,0 +1,24 @@
+{
+  "study_id": "manufacturing-limitation-v0.4",
+  "utc": "2026-10-17T09:20:58.963747+00:00",
+  "source": "local/baseline_training_v0.3/runs/training_001/prepared_development.npz",
+  "source_sha256": "a9f78607df111f451e8aa9a36830f460edd816268fb03776092f29ed2cf46a8c",
+  "raw_parse": false,
+  "raw_identity_recomputed_this_cycle": false,
+  "new_dataset_files_received": false,
+  "observation_raw_rows": [
+    65800,
+    82229
+  ],
+  "target_raw_rows": [
+    65845,
+    82229
+  ],
+  "half_open": true,
+  "coordinate_definition": "zero-based numeric rows, header excluded",
+  "synthetic_replay": true,
+  "data_exposure": "Previously exposed normal development; not a fresh final holdout",
+  "protected_final_access": false,
+  "training": false,
+  "original_raw_data_modified": false
+}

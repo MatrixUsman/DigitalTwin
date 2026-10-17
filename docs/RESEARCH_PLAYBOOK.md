@@ -359,3 +359,18 @@ Status: **executed and verified in manufacturing v0.3**. [Protocol and results](
 7. Move next to a specified limitation experiment using the trained references. Any further normal training budget is decided before inspecting intervention outcomes. Keep calibration, final evaluation and novelty claims tied to their own evidence.
 
 Expected artifacts: source/config/test freeze, all fitted checkpoints, transformations, control coefficients, aligned predictions/scores, full learning curves, bounded resource receipts, fresh-process verification, result-derived figures and an actionable handoff. Manufacturing counts/parameters/results never transfer automatically to another project.
+
+## Testing a trained baseline limitation with paired synthetic replay
+
+Status: **executed and verified in manufacturing v0.4**. [Protocol/package](../manufacturing/research_cycles/limitation_v0.4/README.md). Transfer the procedure, not its parameters, completion status or findings.
+
+1. Freeze already fitted model/scaler artifacts and a complete intervention matrix before outcomes. Label prior data exposure; reassigning roles inside development cannot create an independent holdout.
+2. Define synthetic changes in the coordinates they actually manipulate. Measurement replay, physical simulation and recorded cyberattacks are distinct evidence. Test interval support, causality, unchanged source arrays and analytic cases before replay.
+3. Give all scorers the same normal calibration population, fixed rank and tie rule. Never reset score memory at true event boundaries. Include ordinary rolling/sequential controls and the strongest simple predictors.
+4. To diagnose history assimilation, hold the target fixed and compare predictions under altered versus original histories. Label clean-history predictions as an unavailable oracle and exclude them from the operational ranking.
+5. Seal all predictions/calibration before joint outcome inspection. Save sparse changed-window overrides plus the original complete scores when that losslessly reconstructs full trajectories; bind coordinates and every artifact hash.
+6. Measure event coverage and fresh starts separately, retain misses/null delays, and report post-event carryover and actual normal alarms. A recall gain can be prolonged alarms rather than more events detected. Report clock units only when established.
+7. Recompute outcomes with separate arithmetic and fresh-process inference. Preserve failed test attempts and their pre-outcome corrections. Do not infer independence from the number of seeds, windows or perturbations.
+8. Retain standard-method gains as controls. Establish a precise prior-art difference and new physical/context evidence before claiming a novel twin or confirming an outcome-informed redesign.
+
+Expected artifacts: versioned protocol/code/config freeze, synthetic tests/failure ledger, bounded replay and cost receipts, all-case outcomes, diagnostic counterfactuals, result-derived figures, independent arithmetic checks and a concrete scientific decision.

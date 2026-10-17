@@ -20,7 +20,13 @@ Keep raw data unchanged, outside Git, and local. The original CASPER archive, id
 
 The shared [academic-research-suite skill](../.agents/skills/academic-research-suite/SKILL.md) is available. Apply its bounded source-check, experiment-planning or software-validation guidance as the current task requires. Do not install another copy or initiate broad automated research, writing, or experiment pipelines. User instructions and shared research-integrity rules take precedence.
 
-## Current trained-reference milestone v0.3 — 17 October 2026
+## Current limitation experiment v0.4 — 17 October 2026
+
+The user authorized testing saved models on brief/persistent deviations and evaluating an improvement. [v0.4](research_cycles/limitation_v0.4/README.md) is complete: 189 synthetic measurement scenarios, six models, four scores, 4,536 outcomes, 22 synthetic tests and 26,374 verification checks. Preserve its 10-source/260-input freeze, all outcomes and failure history. No retraining or new raw/final access occurred. The 45-point mean improves long-event descriptive F1; CUSUM increases coverage with substantial carryover. The universal CNN residual-collapse hypothesis is not supported. Treat these as exploratory, dependent edits of exposed normal development, not physical attacks or a new acquisition.
+
+The next mechanism must address sustained-change evidence, brief-event sensitivity and justified recovery under equally available information. Use a separately specified physical simulation and meaningful prospective groups if continuing; do not tune on these outcomes and call the rerun confirmatory. Rolling means/CUSUM are established controls, not novelty. All earlier studies remain immutable; do not transfer findings to sibling projects.
+
+## Completed trained-reference milestone v0.3 — 17 October 2026
 
 The user's subsequent instruction authorized implementing and executing the normal-only baseline training pipeline. [v0.3](research_cycles/baseline_training_v0.3/README.md) completed one supervised run: three CNN seeds, 30 epochs each, 65,536 training and 16,384 development targets, plus training-mean/persistence/AR(4) controls. All 25 synthetic tests and 410 fresh-process artifact checks passed. The [result report](research_cycles/baseline_training_v0.3/RESULTS.md) preserves every seed, learning curve, score convention, cost and stronger AR outcome. Models reached the fixed epoch cap while still improving. No attack metric, calibration or final observation was opened.
 
