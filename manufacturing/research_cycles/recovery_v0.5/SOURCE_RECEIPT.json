@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-17T09:42:23.617651+00:00",
+  "scope": "Local primary-source and mapping evidence; no raw observations; online inaccessible sources are explicit in PRIOR_ART.md",
+  "sha256": {
+    "local/contribution_v0.2/sources/edge_paper.pdf": "a7f8a647ad277fdcacb0e361b3ce95107bfb849a8111ac314d7841bf31d75fd9",
+    "local/comparator_admission_20261017/replacements/edge_main.ipynb": "46bf5121bf6c2a4420d41f3914b23e0ccebc424891265c56f24386fb67ab07a0",
+    "local/comparator_admission_20261017/replacements/edge_LICENSE": "b0556c5f19a24cc2d42c4d09affc4b8bf72516c48349577a0bda115e718b4208",
+    "baselines/casper/artifacts/casper_corrected_vor_v1.1.pdf": "323efce849d75e16833f166983a7387b6d8f86760ce889fe4918ff2f775be186",
+    "baselines/casper/artifacts/source_snapshot/notebooks/casper.ipynb": "3f1beff113c904473cb554aa79edde7af31d777c4731eb93ba900e3aa4a5fea0",
+    "local/comparator_admission_20261017/twine/qub_public_pdf.pdf": "02f446e7c62d22289209a2667c411322cce0c1a134e8a1b9ac9b333fe3ce5012",
+    "baselines/twine/artifacts/source_snapshot/scripts/training.ipynb": "3bcaa5264946a6448a129ed952836b7db236cc67a206bdacc7f0db24219379ad",
+    "local/comparator_admission_20261017/replacements/moderntcn_paper.pdf": "2e1681606501b715185e9ffa78dbda9ba2e829799e1ed4cea29fa5c1f8f13944",
+    "local/comparator_admission_20261017/replacements/moderntcn_exp.py": "f1a5adc278411bb1e97ad2071539496800da4d71fced8b2a49fd76cd95b3e012",
+    "local/comparator_admission_20261017/replacements/moderntcn_data.py": "bf7b34261a5befae85513bd577c2a58375c7e7a6e916673c14c41906b489e102",
+    "local/comparator_admission_20261017/replacements/moderntcn_LICENSE": "62c172f180a9c70514e597a2e3bd22f12d3eb6eb2af1cbd79c83d4292a749115",
+    "docs/BASELINE_LIMITATION_DOSSIER_V0.2.md": "eca17d0e83edb1d8075ee5c47ddfa73216ce62c819d52978125c0b35007996f7",
+    "docs/literature/TWINE_ADMISSION_2026-10-17.md": "b9c3d083b3bac43e5445042884aefb02a8ed66436b36239daa5a51851098e4bb",
+    "docs/literature/CASPER_ADMISSION_2026-10-17.md": "81d1d45c56cd4ad688825fbf1a479a494374a685bec39399e53c2622763bf641",
+    "docs/literature/REPLACEMENT_COMPARATORS_2026-10-17.md": "34b3d7c4d99028ba13239afbfcc465f1a30ef3ef6110f2bb96678ec94787ecb5",
+    "local/recovery_v0.5/sources/ayankoso_pdf.pdf": "4ff02dafb4d46972f02e4bd5486b5e61461f11e9e214ea636a0046641fb67701",
+    "local/recovery_v0.5/sources/kaisar_author.html": "a747764568be8285a40d0b5a1f7466e01cf841ceed45536c782bfa83b7b2d040",
+    "local/recovery_v0.5/sources/ayankoso_pdf.txt": "566838a99b653cea6c1065818b1d01a3ed87e58c387bf55ca0ba5e82007960d2",
+    "local/recovery_v0.5/sources/kaisar_crossref.json": "c57a5a82727efb3cdc98c3168283949ae730a771755b4674fff01602522c7ec5",
+    "local/recovery_v0.5/sources/edge_crossref.json": "2f82afe34361536a15aedbe518c14de05da1a55a3e1836c5d8415f5d7c936e1a",
+    "local/recovery_v0.5/sources/retrievals.json": "235c249d4985d8968c43199f4dccc2220e3e2bb972138b79a3b598e1d319e0b4",
+    "local/recovery_v0.5/sources/catboost_crossref.json": "3b252325a95a956e6952d6cd5b35b25edb26daa0ae1f76e25ec2bb8f0daeea01",
+    "baselines/catboost/artifacts/source_snapshot/final_multi_run.py": "c38ca2c84a1dbd73f822d4d713bbca7dbecdee54f80c7b88f2b76375e61385ca"
+  }
+}

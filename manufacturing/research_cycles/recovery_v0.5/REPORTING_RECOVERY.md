@@ -1,0 +1,9 @@
+# Export failure and bounded recovery
+
+`simulation_001` completed all training, calibration and 48 evaluation episodes and wrote `SCORES_SEALED.json`. It then failed at JSON export: `post_points` was a NumPy `int64`, which the standard encoder rejects. The original attempt, traceback, scores and supervisor receipt remain unchanged. No numerical outcomes were delivered before the failure was diagnosed.
+
+The implementation correction is serialization only: recursively convert NumPy scalar objects to equal native Python values before JSON export. Two synthetic tests reproduce the frozen failure and verify value-preserving conversion. No fitted parameter, threshold, score, decision, scenario, metric formula or scientific choice changes. The consumed original freeze and original functions remain byte-identical.
+
+`recover_reporting.py --attempt reporting_001` is a separately frozen, bounded postprocessing job. It verifies and copies the complete original score seal byte-for-byte, computes the original outcome formulas, exports native scalar values, and preserves source failure/resource/provenance records beside the new successful reporting receipt. It does **not** rerun simulation or training. The user explicitly authorized implementation and the pilot; completing this reversible reporting repair is within that instruction. The research skill's caution against automatically retrying an experiment is not treated as a requirement to abandon already completed, sealed computations.
+
+`REPORTING_RECOVERY_FREEZE.json` binds the new reporting code, synthetic tests and every original run artifact before this recovery. The original worker remains an immutable record of the consumed run, including the defect. Future production reuse should incorporate the proven scalar conversion in a separately versioned implementation before execution; do not edit this frozen source to hide the failure.
