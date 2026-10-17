@@ -1,0 +1,81 @@
+{
+  "study_id": "manufacturing-baseline-training-v0.3",
+  "frozen_utc": "2026-10-17T08:51:52.332007+00:00",
+  "source_sha256": {
+    "research_cycles/baseline_training_v0.3/PLAN.md": "1d8892c5b48af798ba46ee8b94e508f35990a42784b45e1806e04cef3bbb76ac",
+    "research_cycles/baseline_training_v0.3/config.json": "3ceeb817c7450660a760b6ba217a9a95bc776a4d4e1670a7912c45df2a0598d7",
+    "research_cycles/baseline_training_v0.3/core.py": "81d241fa4354f5a62daed547f4e8e0614ad309be31c9d5b38742b8c48d00b5ac",
+    "research_cycles/baseline_training_v0.3/io_utils.py": "0e76c7db1ba685fddd3aff57462a316121f3445c3a8fbdd151e906c6df1c6cc3",
+    "research_cycles/baseline_training_v0.3/model.py": "c17b70c7108c3ec36ffd85162132fe5e936c7de71dcb97598676fa838455246e",
+    "research_cycles/baseline_training_v0.3/run_study.py": "8ad8e0557502ab9c82ae39387f0525fd9cba5db8b8c6983c38ccd3d9327e1392",
+    "research_cycles/baseline_training_v0.3/test_and_freeze.py": "9f68a2004afb19c366eefc9e7a6b93a190c7983037b95345b7cc0512beb34c99",
+    "research_cycles/baseline_training_v0.3/test_core.py": "6baff46441bf2d3266fe44f2d82614b26328a29bed37f457f1553b14d577233e",
+    "research_cycles/baseline_training_v0.3/test_io.py": "624fa6920ea7f94d1ae4e839567985b52b20e765ad9485a000721d2baa5407a6",
+    "research_cycles/baseline_training_v0.3/test_model.py": "b0e0d5c81cff85ba7e8941f011016c9efdf0c33209306b1478828b6b681ec405",
+    "research_cycles/baseline_training_v0.3/worker.py": "6e8b07d82e1a69ffad0d96736deca5a970e8e127ad289950dfbaf03dcfbf5072",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3",
+    "research_cycles/contribution_v0.2/requirements-macos-arm64.lock.txt": "e14f42f52a15e8e62aed231897166344e210bc5bf66e9d67d2328d766f37a749"
+  },
+  "test_receipt": "local/baseline_training_v0.3/tests/tests_001/receipt.json",
+  "test_receipt_sha256": "89a780d37c866b02ec3e653dea95c1e8805ee84c9f9222ffef2b945745455841",
+  "raw_observations_read": false,
+  "configuration": {
+    "study_id": "manufacturing-baseline-training-v0.3",
+    "data_path": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+    "data_sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+    "columns": [
+      "accX",
+      "accY",
+      "accZ",
+      "gyroX",
+      "gyroY",
+      "gyroZ",
+      "magX",
+      "magY",
+      "magZ"
+    ],
+    "raw_start": 219,
+    "training_raw_stop": 65800,
+    "development_raw_stop": 82229,
+    "history": 45,
+    "gap_multiple": 5.0,
+    "minimum_coverage": 0.95,
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "cnn": {
+      "filters": 8,
+      "kernel_size": 3,
+      "pool_size": 3,
+      "activation": "relu",
+      "dense_kernel_initializer": "zeros",
+      "optimizer": "Adamax",
+      "learning_rate": 0.001,
+      "loss": "standardized_mse",
+      "batch_size": 1024,
+      "maximum_epochs": 30,
+      "early_stopping_patience": 5,
+      "minimum_improvement": 1e-06,
+      "shuffle": false
+    },
+    "ar": {
+      "order": 4,
+      "ridge": 0.001,
+      "intercept_penalized": false
+    },
+    "score": "one_step_standardized_channel_rmse",
+    "secondary_score": "one_step_native_channel_rmse",
+    "threshold": null,
+    "limits": {
+      "wall_seconds": 600,
+      "cpu_seconds": 300,
+      "rss_bytes": 1073741824,
+      "output_bytes": 52428800
+    }
+  },
+  "git_head": "c47af69c376475a5caa94862ec15ea2a91156b17",
+  "git_status": "M  AGENTS.md\nM  PROJECT_BRIEF.md\nM  README.md\nM  docs/RESEARCH_PLAYBOOK.md\nM  docs/RESEARCH_ROADMAP.md\nM  docs/WORK_LOG.md\nM  manufacturing/AGENTS.md\nM  manufacturing/PROJECT_BRIEF.md\nM  manufacturing/README.md\nM  manufacturing/STATUS.md\nA  manufacturing/datasets/manifests/casper12_v2_nominal_receipt.json\nA  manufacturing/docs/BASELINE_LIMITATION_DOSSIER_V0.2.md\nA  manufacturing/docs/CONTRIBUTION_DESIGN_V0.2.md\nA  manufacturing/docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md\nM  manufacturing/docs/PAPER_ROADMAP.md\nM  manufacturing/docs/WORK_LOG.md\nA  manufacturing/docs/literature/RECOVERY_PRIOR_ART_ADDENDUM_2026-10-17.md\nA  manufacturing/research_cycles/baseline_training_v0.3/PLAN.md\nA  manufacturing/research_cycles/baseline_training_v0.3/config.json\nA  manufacturing/research_cycles/baseline_training_v0.3/core.py\nA  manufacturing/research_cycles/baseline_training_v0.3/model.py\nA  manufacturing/research_cycles/baseline_training_v0.3/test_core.py\nA  manufacturing/research_cycles/baseline_training_v0.3/test_model.py\nA  manufacturing/research_cycles/contribution_v0.2/EVIDENCE_MANIFEST.json\nA  manufacturing/research_cycles/contribution_v0.2/NEXT_STUDY.md\nA  manufacturing/research_cycles/contribution_v0.2/NOTICE.md\nA  manufacturing/research_cycles/contribution_v0.2/PLAN.md\nA  manufacturing/research_cycles/contribution_v0.2/README.md\nA  manufacturing/research_cycles/contribution_v0.2/RESULTS.md\nA  manufacturing/research_cycles/contribution_v0.2/bounded_run.py\nA  manufacturing/research_cycles/contribution_v0.2/diagnostics.py\nA  manufacturing/research_cycles/contribution_v0.2/pilot_data.py\nA  manufacturing/research_cycles/contribution_v0.2/requirements-macos-arm64.lock.txt\nA  manufacturing/research_cycles/contribution_v0.2/research_notes.tex\nA  manufacturing/research_cycles/contribution_v0.2/run_diagnostics.py\nA  manufacturing/research_cycles/contribution_v0.2/run_normal_pilot.py\nA  manufacturing/research_cycles/contribution_v0.2/test_diagnostics.py\nA  manufacturing/research_cycles/contribution_v0.2/test_pilot_data.py\nA  manufacturing/research_cycles/contribution_v0.2/verify_artifacts.py\n?? manufacturing/research_cycles/baseline_training_v0.3/io_utils.py\n?? manufacturing/research_cycles/baseline_training_v0.3/run_study.py\n?? manufacturing/research_cycles/baseline_training_v0.3/test_and_freeze.py\n?? manufacturing/research_cycles/baseline_training_v0.3/test_io.py\n?? manufacturing/research_cycles/baseline_training_v0.3/worker.py\n",
+  "interpretation": "Pre-execution local specification; no external preregistration"
+}

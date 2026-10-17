@@ -216,3 +216,25 @@ Added the reusable [writing/fresh-evidence procedure](RESEARCH_PLAYBOOK.md#writi
 ### 2026-10-17 — SHARED-031 — Manufacturing PDF preparation completed
 
 Manufacturing [MFG-023](../manufacturing/docs/WORK_LOG.md) compiled and inspected the [18-page draft PDF](../manufacturing/output/pdf/correction-evidence-casper-study.pdf). Tooling/cache and PDF inspection environment are project-local; final build offline, no system package change. Preserved the original results and exposed-holdout status. Updated shared manufacturing pointers and the reusable PDF build/review procedure. Author approval/declarations and independent evidence remain pending. No sibling project changes, training, raw-data access, public release or assistant-issued Git commit/push.
+
+### 2026-10-17 — SHARED-032 — Preserve original-contribution ambition after feasibility work
+
+The user corrected manufacturing's destination: identify baseline limitations and develop a defensible original improvement, rather than finish at a case-study paper. [MFG-024](../manufacturing/docs/WORK_LOG.md) and the [superseding direction](../manufacturing/docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md) preserve the completed experiment/PDF as preliminary internal evidence and reopen contribution selection. No paper baseline has been reproduced; our observer's weak results are not evidence that the paper baselines fail.
+
+Updated shared instructions, brief, roadmap and README. Added a reusable playbook procedure separating technical feasibility completion from the intended contribution, verified source defects from empirical failures, and evaluation corrections from algorithmic novelty. This discipline applies across sectors; water/grid files, evidence and completion states remain unchanged. Next manufacturing milestone is a baseline limitation and feasible reproduction dossier; independent evidence must serve the resulting question. Original frozen experiment identities and PDF remain unchanged. No raw-data access, training, publication or assistant-issued commit/push.
+
+
+### 2026-10-17 — SHARED-033 — Source correctness before contribution claims
+
+Manufacturing [MFG-025](../manufacturing/docs/WORK_LOG.md) completes bounded CASPER/successor source diagnostics, 18 synthetic tests, released-model execution and one normal-only compact-CNN pilot (8,192 training / 2,048 development targets). One public nominal file was acquired under provider-listed terms; no new attack evidence is admitted. Two failed diagnostic attempts and setup failures remain visible. Original 52 source/configuration identities, 133 frozen inputs, three freeze/completion records and PDF remain unchanged.
+
+The user has no physical testbed and selected public datasets plus clearly labelled simulation. A recovery-observer candidate and LaTeX research notes were written, but close prior art prevents admitting the generic mechanism as novel. Full paper reproduction, method-level cyber weakness, independent comparison and contribution manuscript remain unfinished. Shared instructions/pointers and the playbook distinguish source correctness, artifact compatibility, partial reimplementation, paper reproduction and original contribution. These procedures transfer; manufacturing data, outcomes and completion do not transfer to water or grids.
+
+No sibling files, shared skill package or system packages changed. No paid compute, lengthy training, external contact, upload/publication or assistant-issued Git mutation. See [the cycle](../manufacturing/research_cycles/contribution_v0.2/README.md) for exact commands, preserved failures, hashes and next scientific gates.
+
+
+### 2026-10-17 — SHARED-034 — Trained-reference pipeline completed
+
+Manufacturing [MFG-026](../manufacturing/docs/WORK_LOG.md) implemented and ran the [v0.3 baseline pipeline](../manufacturing/research_cycles/baseline_training_v0.3/README.md): three CNN seeds, 65,536 normal training / 16,384 development targets, normal-only checkpoint selection, AR/persistence controls, learning curves and reusable saved models. 25 synthetic tests and 410 fresh-process checks passed; one accepted training attempt took 57.851 s, with no failures/retries. AR was strongest on normal prediction; all findings and scope are retained.
+
+Refreshed shared manufacturing pointers and the playbook with source/config/test freezing, correct per-epoch loss measurement, equal target support, all-seed reporting, inference-only checkpoint semantics and fresh-process verification. Existing evidence and exposed-holdout history remain unchanged. Water/grid models, permissions, files and outcomes are not affected. The plotting environment is project-local and separate from the unchanged training environment. No paid compute, public release, external contacts or assistant-issued commit/push.

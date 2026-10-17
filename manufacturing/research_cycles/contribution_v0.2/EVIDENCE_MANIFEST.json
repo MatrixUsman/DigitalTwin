@@ -1,0 +1,1279 @@
+{
+  "schema": "manufacturing-contribution-evidence-v0.2",
+  "created_utc": "2026-10-17T08:17:59.635586+00:00",
+  "record_type": "post-run artifact readback, not preregistration or independent reviewer",
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-reproduction-v02/bin/python",
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/research_cycles/contribution_v0.2/verify_artifacts.py"
+  ],
+  "checks": [
+    {
+      "name": "old_source:configs/casper_right_arm_campaign_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:configs/casper_right_arm_contract_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:configs/casper_right_arm_controls_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:configs/casper_right_arm_evaluation_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:configs/casper_right_arm_observer_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:configs/casper_right_arm_pilot_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:configs/casper_right_arm_score_extension_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_source:pyproject.toml",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/acquire_casper_v3.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/audit_casper_annotation_lineage.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/audit_casper_controller_schema.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/inspect_casper_alignment.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/profile_casper_v3.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/run_bounded_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/run_campaign.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/run_control_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/run_observer_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/run_score_extension.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/run_synthetic_tests.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:scripts/verify_casper_release.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/campaign.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/campaign_data.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/campaign_models.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/contract.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/control_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/controls.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/data.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/metrics.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/observer.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/observer_scores.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/observer_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/pilot.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/replay.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/score_extension.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:src/mfg_twin/velocity.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_campaign.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_contract.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_control_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_controls.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_data.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_integration.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_metrics.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_observer.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_observer_scores.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_observer_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_pilot_entry.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_score_extension.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_supervisor.py",
+      "passed": true
+    },
+    {
+      "name": "old_source:tests/test_velocity.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_contract_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_controls_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_evaluation_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_observer_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_pilot_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/BOUNDED_PILOT_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/COMPARISON_ROSTER_DECISION.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/EVALUATION_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/FINAL_TEST_PROTECTION.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/METRIC_DEFINITIONS.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/OBSERVER_VALIDATION_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/SIMPLE_CONTROLS_PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/CONTROLS_V0.1_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/OBSERVER_ARTIFACTS_V0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/OBSERVER_V0.1_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/PILOT_V0.1_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/SELECTED_CONTROLS_V0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.001.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/run.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins32.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/velocity_zmax.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/run.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/velocity_zmax_pilot_20261016T192422_101078Z/run.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:local/control_study_attempts/casper_right_arm_controls_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:local/observer_study_attempts/casper_right_arm_observer_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:local/pilot_attempts/casper_right_arm_pilot_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:pyproject.toml",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/acquire_casper_v3.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/audit_casper_annotation_lineage.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/audit_casper_controller_schema.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/inspect_casper_alignment.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/profile_casper_v3.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/run_bounded_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/run_control_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/run_observer_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/run_synthetic_tests.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:scripts/verify_casper_release.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/contract.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/control_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/controls.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/data.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/metrics.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/observer.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/observer_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/pilot.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/replay.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:src/mfg_twin/velocity.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_contract.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_control_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_controls.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_data.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_integration.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_metrics.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_observer.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_observer_study.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_pilot_entry.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_supervisor.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:tests/test_velocity.py",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_score_extension_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/SCORE_EXTENSION_PLAN_V0.1.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/synchronized_residual.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/synchronized_evidence.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/development_index.jsonl",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer_results.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.001.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.001.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.1.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.1.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.001.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.1.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.1.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/candidate_results.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/control_specification.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/development_index.jsonl",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/diagnostics.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/progress.jsonl",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/resolved_config.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/selected_artifacts.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/source_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/specification_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/synthetic_test_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins32.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins64.model.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins64.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/tracked_workspace.patch",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/training_standardizer.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/velocity_zmax.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/worker.log",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/worker_started.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/diagnostics.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/free_running_residual.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/input_references.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer_specification.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/progress.jsonl",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/resolved_config.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/source_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/specification_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/synthetic_test_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/tracked_workspace.patch",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/unconstrained_residual.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/worker.log",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/worker_started.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/run.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-C.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-K.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-L.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-R.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-RC.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-Rv.scores.f64",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/development_index.jsonl",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/diagnostics.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/immutable_model_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/input_provenance.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/progress.jsonl",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/resolved_config.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/score_extension_results.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/score_extension_specification.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/source_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/specification_snapshot.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/synthetic_test_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/tracked_workspace.patch",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/worker.log",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/worker_started.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:configs/casper_right_arm_campaign_v0.1.json",
+      "passed": true
+    },
+    {
+      "name": "old_input:docs/CAMPAIGN_FREEZE_AND_CALIBRATION_PLAN_V0.1.md",
+      "passed": true
+    },
+    {
+      "name": "old_input:experiments/SCORE_EXTENSION_ARTIFACTS_V0.1.json",
+      "passed": true
+    },
+    {
+      "name": "MODEL_SELECTION_FREEZE_V0.1.json",
+      "passed": true
+    },
+    {
+      "name": "FINAL_TEST_FREEZE_RECORD.json",
+      "passed": true
+    },
+    {
+      "name": "FINAL_CAMPAIGN_V0.1_RECORD.json",
+      "passed": true
+    },
+    {
+      "name": "old_pdf_unchanged",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/run_diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/bounded_run.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:local/comparator_admission_20261017/replacements/edge_main.ipynb",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/PLAN.md",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/run_normal_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/pilot_data.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/bounded_run.py",
+      "passed": true
+    },
+    {
+      "name": "run_source:research_cycles/contribution_v0.2/requirements-macos-arm64.lock.txt",
+      "passed": true
+    },
+    {
+      "name": "run_source:src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_paper.pdf",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_readme.md",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_datasets_readme.md",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_models_readme.md",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_notebooks_readme.md",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_main.cpp",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_model.cc",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_LICENSE",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_cnn.tflite",
+      "passed": true
+    },
+    {
+      "name": "source_download:edge_lstm.tflite",
+      "passed": true
+    },
+    {
+      "name": "nominal_file_sha256",
+      "passed": true
+    },
+    {
+      "name": "nominal_file_size",
+      "passed": true
+    },
+    {
+      "name": "nominal_read_only",
+      "passed": true
+    },
+    {
+      "name": "nominal_archive_sha256",
+      "passed": true
+    },
+    {
+      "name": "pilot_model_sha256",
+      "passed": true
+    },
+    {
+      "name": "pilot_indices",
+      "passed": true
+    },
+    {
+      "name": "pilot_scores_finite",
+      "passed": true
+    },
+    {
+      "name": "pilot_scores_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "pilot_score_mse_agrees",
+      "passed": true
+    },
+    {
+      "name": "pilot_scaler_valid",
+      "passed": true
+    },
+    {
+      "name": "pilot_no_threshold_or_attack_metric",
+      "passed": true
+    },
+    {
+      "name": "pilot_no_final_access",
+      "passed": true
+    },
+    {
+      "name": "pilot_internal_fit_immutability",
+      "passed": true
+    },
+    {
+      "name": "diagnostics_003:completed",
+      "passed": true
+    },
+    {
+      "name": "diagnostics_003:wall_cap",
+      "passed": true
+    },
+    {
+      "name": "diagnostics_003:cpu_cap",
+      "passed": true
+    },
+    {
+      "name": "diagnostics_003:sampled_memory_cap",
+      "passed": true
+    },
+    {
+      "name": "diagnostics_003:actual_output_cap",
+      "passed": true
+    },
+    {
+      "name": "normal_pilot_001:completed",
+      "passed": true
+    },
+    {
+      "name": "normal_pilot_001:wall_cap",
+      "passed": true
+    },
+    {
+      "name": "normal_pilot_001:cpu_cap",
+      "passed": true
+    },
+    {
+      "name": "normal_pilot_001:sampled_memory_cap",
+      "passed": true
+    },
+    {
+      "name": "normal_pilot_001:actual_output_cap",
+      "passed": true
+    },
+    {
+      "name": "recorded_18_synthetic_tests_passed",
+      "passed": true
+    },
+    {
+      "name": "all_failed_attempts_preserved",
+      "passed": true
+    }
+  ],
+  "passed": 237,
+  "total": 237,
+  "checks_all_passed": true,
+  "artifact_sha256": {
+    "datasets/manifests/casper12_v2_nominal_receipt.json": "95d563f3da259d59c8c843035891e1a08fecc57570c630d1fff07810c715ec5c",
+    "docs/BASELINE_LIMITATION_DOSSIER_V0.2.md": "eca17d0e83edb1d8075ee5c47ddfa73216ce62c819d52978125c0b35007996f7",
+    "docs/CONTRIBUTION_DESIGN_V0.2.md": "4be5a5a79d954f6b95c24f1ed15d34855914811b8ecddf61fc7cb05371ad7247",
+    "docs/literature/RECOVERY_PRIOR_ART_ADDENDUM_2026-10-17.md": "d0bd58f6f0a2277016923af077d72a7cb48d964875ab8fd621d08bbccbd81f08",
+    "local/contribution_v0.2/document_checks.json": "82db4702d0a78202fcfbac05789759551ee2bea3fc498a1eec01426aa7766107",
+    "local/contribution_v0.2/download_nominal.py": "0f62c16cedbab5f5d80991ed6139f8743258ede95b5bdb83039ddcc6d62bb4f5",
+    "local/contribution_v0.2/environment_install.log": "6c350be5f6ba6d2cb7c43bf4ddcaee4ed2f91ad23b0d2e255d806bb2ab0a06ff",
+    "local/contribution_v0.2/environment_install_before_venv_complete.log": "81e17478dfa60996869255b9e2fa472e9e2d3201d864eaf0f548b61651620bfe",
+    "local/contribution_v0.2/fetch_data_metadata.py": "af8fee10b579b17f9b4abf0753d0d23f0b6d93fd912844299a03184f2d143c82",
+    "local/contribution_v0.2/fetch_sources.py": "395b83c96893a26ebb1b931dc36124c0a88ebad162d5817c0187dccd593b5a0d",
+    "local/contribution_v0.2/hardware_snapshot.json": "973626e8a58a953ab2488cacf05d6ad7d9ba86381cfced0812bf51543a41d1cf",
+    "local/contribution_v0.2/hardware_snapshot_authorized.json": "3dba741186c506434a26dadba6264185c5137b839b98a14a6867b5dbe4d7a633",
+    "local/contribution_v0.2/nominal_prefix_profile.json": "e7cf352929f4d25458566598e3980603198f19ebe431c32a3f20e92383b72d78",
+    "local/contribution_v0.2/nominal_receipt.json": "3d14d23c37edcfca9ed1e8c726c800cbac16e9bdc29d099af01ff9f9fed984c2",
+    "local/contribution_v0.2/runs/diagnostics_001/failure_record.json": "7a075d7e94536479067b47e1bbea6d8aade785fae46f3a1f1158741bf00f5693",
+    "local/contribution_v0.2/runs/diagnostics_002/supervisor.json": "5b31ff95c811381b8d8ee5330413e2937d563f136519e8b6979690b0427df8c4",
+    "local/contribution_v0.2/runs/diagnostics_002/worker.log": "28ee02dead52490a4c1439ff6d1d8f332daae187d43880fa0910f9b33aa4a1ab",
+    "local/contribution_v0.2/runs/diagnostics_003/diagnostics.json": "32932fac3be257a8277c57c18da0440b273b8901a9d73f8113464147e6757b14",
+    "local/contribution_v0.2/runs/diagnostics_003/source_diagnostics.json": "00e6e98272fcf3bdd07ae65900b4e5ad86f16ef4f9060a7294e369534ae2bc3e",
+    "local/contribution_v0.2/runs/diagnostics_003/supervisor.json": "3e3a352dba04b1c4dc893e29764a9e272b716af6005b97468c03db5cb4317c37",
+    "local/contribution_v0.2/runs/diagnostics_003/worker.log": "95ebc13eb30933627acec833e02aa6ac12221ae5fd793786fbdf7045a6efe82d",
+    "local/contribution_v0.2/runs/normal_pilot_001/pilot_artifacts.npz": "2a50aff34ea5f9bdae7a1c85361caea846a42da963a34f4a0702a7a71ad116cb",
+    "local/contribution_v0.2/runs/normal_pilot_001/pilot_cnn.keras": "689792938bba171ad6ae7e18c1052f90c83a08f92539f50793a66eb4cff7e939",
+    "local/contribution_v0.2/runs/normal_pilot_001/pilot_summary.json": "9bb5d10756357759f8d9d5741c3b3fc27dad48e01b98b5fe46fac0e4f3e723f4",
+    "local/contribution_v0.2/runs/normal_pilot_001/supervisor.json": "5282e958e0977fa7138682ff92cc6e73be002841e5d63f537839255354fd00d3",
+    "local/contribution_v0.2/runs/normal_pilot_001/worker.log": "f80f27263a66a91f7006c3101e09d9cf362bafcd30a541a3f27954f6105ae6b8",
+    "local/contribution_v0.2/sources/casper12_files.json": "c87c489c21e15ae12cb312b3c33005fd837b9df76eef6c7a7a54437b83323442",
+    "local/contribution_v0.2/sources/casper12_view.json": "1245f95ccb59e9a3452545f19cec0f83b9c0ac595e0bff6c2405a3e37e170d78",
+    "local/contribution_v0.2/sources/dataset_metadata_retrievals.json": "8819aa45a0db4036704ec7b00c446d952e01c9ff13e09f08ca9fa02b1889d60d",
+    "local/contribution_v0.2/sources/edge_LICENSE": "b0556c5f19a24cc2d42c4d09affc4b8bf72516c48349577a0bda115e718b4208",
+    "local/contribution_v0.2/sources/edge_cnn.tflite": "99ce626b0db5f2acd63237107407859cc99914ecd51fc0062b158f93e4236c41",
+    "local/contribution_v0.2/sources/edge_datasets_readme.md": "10a17ee91d2f5dd8e3eec9e9d115a241a1408091462982c9038cd1f517e58479",
+    "local/contribution_v0.2/sources/edge_lstm.tflite": "f858b4fc91bab6d624dd734245c58f44b301d131822b214076cb2402224a0c39",
+    "local/contribution_v0.2/sources/edge_main.cpp": "323c6fd3e809616e6950a53507939d14a9706a53ae43222f7fbafe39c86f87df",
+    "local/contribution_v0.2/sources/edge_model.cc": "5c42ae9287853e2eadafc0ef15133ed8f8dc281b006e7df7bef092f35419a638",
+    "local/contribution_v0.2/sources/edge_models_readme.md": "190f0e914b468ef258b4d70ae038cfaf359cc96154d8dce8078f43c840986637",
+    "local/contribution_v0.2/sources/edge_notebooks_readme.md": "bb23e5cfd8cc27cc6cc6eb95d4108152391338a67df24f4030a403f56bca7e12",
+    "local/contribution_v0.2/sources/edge_paper.pdf": "a7f8a647ad277fdcacb0e361b3ce95107bfb849a8111ac314d7841bf31d75fd9",
+    "local/contribution_v0.2/sources/edge_paper.txt": "8d29979d6b836346fa558115e3565701007f83e1e2a6d075e1f70d2d934c1672",
+    "local/contribution_v0.2/sources/edge_readme.md": "51e060a9a7a5d9b7b4be444769b5687bc4a5015788d963cf396d9e52105b887d",
+    "local/contribution_v0.2/sources/edge_requirements.txt": "291faec9a2d4a6312e0e8fe3ae4f775b09496ff0929fd7ba511b8d96ed00badf",
+    "local/contribution_v0.2/sources/retrievals.json": "86d3dd8bdf406b9dcc5bd68edbeca10ed9dbf8eb8249c060be99ddd5a0f8d739",
+    "local/contribution_v0.2/sources/retrievals_sandbox_failure.json": "8be8d3eb5a322b6bd9fafb35e94f1432b1ff537eb456c46dcfb6b3b6232d3bfa",
+    "local/contribution_v0.2/synthetic_tests.log": "6f2759ed0d5ccbb6589f2b573b804eaf095f933c97017c54a71a492991b146ce",
+    "local/contribution_v0.2/synthetic_tests_v2.log": "20a53fe47bbef976441c3072dc97e809eb1be0f7a26ab8ca95d2c18444309141",
+    "research_cycles/contribution_v0.2/NEXT_STUDY.md": "a303cb6432f7344fd22403a24a4388ebebf8c6f3e49c54a194a55b8d40d4931d",
+    "research_cycles/contribution_v0.2/NOTICE.md": "3c1c648d1c4dce4bef0ebdad2f27ad97bc5566687f646a01821781a248668e2d",
+    "research_cycles/contribution_v0.2/PLAN.md": "39660db76c82a06e4b20bdbca1d641977d28f5c22fd07dd9a87c9d9b030152eb",
+    "research_cycles/contribution_v0.2/README.md": "05f7e1e791d58e93ab48a18a8cbb32c22eb2b701c7c9192832181082599a9760",
+    "research_cycles/contribution_v0.2/RESULTS.md": "1f5e405efc069aa5cdbf4dc871724a2e60a85ad25520b1d1afdf9943024e722b",
+    "research_cycles/contribution_v0.2/bounded_run.py": "b3c0cc48365440bee0e8ff5f3124ed6bd196e312be65515351ba252b0f3a2219",
+    "research_cycles/contribution_v0.2/diagnostics.py": "adc564dda88f111edffa2e3a003d2aa81ca924596ddd14154278226868558502",
+    "research_cycles/contribution_v0.2/pilot_data.py": "115ec4f8fa6d41a999b2f3a3d55f2f9fd57037884ab5b85f1f4268cf4b9e4e6f",
+    "research_cycles/contribution_v0.2/requirements-macos-arm64.lock.txt": "e14f42f52a15e8e62aed231897166344e210bc5bf66e9d67d2328d766f37a749",
+    "research_cycles/contribution_v0.2/research_notes.tex": "1b26d373b8945a5cf2138c5ac00f8141d89e913d7b5d521397b6b18ad902f622",
+    "research_cycles/contribution_v0.2/run_diagnostics.py": "cfafc90337e71a400e78c5ccf1b4c89eade25ad476fd85535edff5d5fa0eb8cb",
+    "research_cycles/contribution_v0.2/run_normal_pilot.py": "bf3af8195493e0938eb402659c3b3e458a4f432bffc8bfae3aab1d5c49021d3a",
+    "research_cycles/contribution_v0.2/test_diagnostics.py": "923c6e2d94d71e60a21a08069870536b097e4b0622ce9e99f9519474315e9043",
+    "research_cycles/contribution_v0.2/test_pilot_data.py": "2fdee32fd59685f68fa521dbbaffe9aec0cd9572e787e75c19d49f009299ed3e",
+    "research_cycles/contribution_v0.2/verify_artifacts.py": "2f2cc2310d7ead9d78371a3e00137235766414853da05a6d00de8759dc88667c"
+  },
+  "data_receipt": {
+    "requested_url": "https://www.kaggle.com/api/v1/datasets/download/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2/IMU_10Hz.csv?datasetVersionNumber=2",
+    "started_utc": "2026-10-17T07:51:48.524418+00:00",
+    "expected_uncompressed_bytes": 135748396,
+    "permission_basis": "Public author-linked listing; provider metadata licenseName MIT; user authorized public data. No redistribution.",
+    "http_status": 200,
+    "payload_bytes": 34025861,
+    "payload_sha256": "2170155ed4075db46889e78054486efd36cc1dd917ab395f486e01cf893c4184",
+    "status": "received",
+    "file": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+    "bytes": 135748396,
+    "sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+    "measurements_inspected": false,
+    "anomaly_files_received": false,
+    "finished_utc": "2026-10-17T07:51:53.600268+00:00"
+  },
+  "synthetic_diagnostics": {
+    "evidence_kind": "synthetic software diagnostics, not benchmark results",
+    "D1": {
+      "observed": "ValueError",
+      "message": "operands could not be broadcast together with shapes (170,9) (155,9) ",
+      "predictions": 170,
+      "hardcoded_targets": 155,
+      "source_history": 30,
+      "source_target_offset": 45
+    },
+    "D2": {
+      "synthetic_perfect_future_predictions": true,
+      "scoring_windows": 111,
+      "upstream_l2_window_score_min": 905.6075308874148,
+      "upstream_l2_window_score_max": 905.6075308874148,
+      "correct_future_rmse_max": 0.0,
+      "offset_rows": 45,
+      "source_norm": "sqrt(sum), not root mean square"
+    },
+    "D3": {
+      "reads": [
+        "rmse_per_row_eq",
+        "rmse_per_row_ew",
+        "rmse_per_row_ha",
+        "rmse_per_row_hp",
+        "rmse_per_row_mf",
+        "rmse_per_row_test"
+      ],
+      "cell281_writes": [
+        "rmse_per_window",
+        "rmse_per_window_eq",
+        "rmse_per_window_ew",
+        "rmse_per_window_ha",
+        "rmse_per_window_hp",
+        "rmse_per_window_mf"
+      ],
+      "score_unchanged_when_lstm_window_scores_change": true,
+      "boundary": "Saved sequential code path; paper-producing execution unknown"
+    },
+    "D4": {
+      "a_notebook_rmse": 3.0,
+      "b_notebook_rmse": 1.1,
+      "a_embedded_sum_abs": 9.0,
+      "b_embedded_sum_abs": 9.9,
+      "ordering_reverses": true
+    },
+    "D5": [
+      {
+        "name": "edge_cnn.tflite",
+        "sha256": "99ce626b0db5f2acd63237107407859cc99914ecd51fc0062b158f93e4236c41",
+        "input_shape": [
+          1,
+          45,
+          9
+        ],
+        "output_shape": [
+          1,
+          1,
+          9
+        ],
+        "input_dtype": "<class 'numpy.float32'>",
+        "output_dtype": "<class 'numpy.float32'>",
+        "bytes": 8772,
+        "runs": [
+          {
+            "seed": 17,
+            "synthetic": true,
+            "finite": true,
+            "repeat_equal_without_reset": true,
+            "repeat_max_absolute_change": 0.0,
+            "reset_max_absolute_change": 0.0,
+            "fresh_interpreter_max_absolute_change": 0.0,
+            "input_sha256": "8bc3e988011154ceb5d9e7e6543a7ed1e33fff7748481d243ed59923960105b9",
+            "output_sha256": "abf0ad41533ded48c34cffa7af502ce761573601909a292f8875e89f9fca3e75"
+          },
+          {
+            "seed": 42,
+            "synthetic": true,
+            "finite": true,
+            "repeat_equal_without_reset": true,
+            "repeat_max_absolute_change": 0.0,
+            "reset_max_absolute_change": 0.0,
+            "fresh_interpreter_max_absolute_change": 0.0,
+            "input_sha256": "eb92840ee7c2083217338b5dfab09e9cacde861c021306b68983e61d8cb557ad",
+            "output_sha256": "a8872f0b12274678283104f95c44cea491cd6626574afd0b6558a9fd603c41c3"
+          },
+          {
+            "seed": 2026,
+            "synthetic": true,
+            "finite": true,
+            "repeat_equal_without_reset": true,
+            "repeat_max_absolute_change": 0.0,
+            "reset_max_absolute_change": 0.0,
+            "fresh_interpreter_max_absolute_change": 0.0,
+            "input_sha256": "d104584b33ad2e92532931f64adff64e32afb5172acf5e6f098adb138ad9e1f2",
+            "output_sha256": "97cde5b33990da7dad1638f63909323a1febfd94184e07b5c20e14212f8d4a8d"
+          }
+        ]
+      },
+      {
+        "name": "edge_lstm.tflite",
+        "sha256": "f858b4fc91bab6d624dd734245c58f44b301d131822b214076cb2402224a0c39",
+        "input_shape": [
+          1,
+          45,
+          9
+        ],
+        "output_shape": [
+          1,
+          1,
+          9
+        ],
+        "input_dtype": "<class 'numpy.float32'>",
+        "output_dtype": "<class 'numpy.float32'>",
+        "bytes": 9608,
+        "runs": [
+          {
+            "seed": 17,
+            "synthetic": true,
+            "finite": true,
+            "repeat_equal_without_reset": false,
+            "repeat_max_absolute_change": 0.027297943830490112,
+            "reset_max_absolute_change": 0.0,
+            "fresh_interpreter_max_absolute_change": 0.0,
+            "input_sha256": "8bc3e988011154ceb5d9e7e6543a7ed1e33fff7748481d243ed59923960105b9",
+            "output_sha256": "28d48ffe2abca664d76b9a9d2532035ee02f79e9f0d4a69ab15f8ece03cb44e9"
+          },
+          {
+            "seed": 42,
+            "synthetic": true,
+            "finite": true,
+            "repeat_equal_without_reset": false,
+            "repeat_max_absolute_change": 0.028300032019615173,
+            "reset_max_absolute_change": 0.0,
+            "fresh_interpreter_max_absolute_change": 0.0,
+            "input_sha256": "eb92840ee7c2083217338b5dfab09e9cacde861c021306b68983e61d8cb557ad",
+            "output_sha256": "90637e630c7213e0ae8d8dc99a8b471ac80db2f48a92f5babee23c7f7734cc7c"
+          },
+          {
+            "seed": 2026,
+            "synthetic": true,
+            "finite": true,
+            "repeat_equal_without_reset": false,
+            "repeat_max_absolute_change": 0.02499927580356598,
+            "reset_max_absolute_change": 0.0,
+            "fresh_interpreter_max_absolute_change": 0.0,
+            "input_sha256": "d104584b33ad2e92532931f64adff64e32afb5172acf5e6f098adb138ad9e1f2",
+            "output_sha256": "9605315611a7755519bbeba172531650a1485d70c3fec8f4f6dfff1e74b94f0a"
+          }
+        ]
+      }
+    ]
+  },
+  "normal_pilot": {
+    "status": "successful normal-only feasibility pilot; not paper reproduction",
+    "synthetic": false,
+    "attack_metrics": null,
+    "threshold": null,
+    "final_test_opened": false,
+    "dataset_sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+    "numeric_row_origin": 219,
+    "training_raw_range": [
+      219,
+      8456
+    ],
+    "development_raw_range": [
+      8456,
+      10549
+    ],
+    "training_target_range": [
+      264,
+      8456
+    ],
+    "development_target_range": [
+      8501,
+      10549
+    ],
+    "history": 45,
+    "train_targets": 8192,
+    "dev_targets": 2048,
+    "epochs": 1,
+    "batch_size": 256,
+    "shuffle": false,
+    "seed": 17,
+    "parameters": 1369,
+    "dev_standardized_mse": 0.819239616394043,
+    "dev_persistence_standardized_mse": 0.12468351423740387,
+    "dev_zero_standardized_mse": 0.9077731370925903,
+    "finite_scores": 2048,
+    "weights_unchanged_during_development": true,
+    "weights_sha256": "fd7264a309665eb415bf1cb536ffafc9e1a25f9259eafdb04be5f7c935ec9885",
+    "scaler_unchanged_during_development": true,
+    "model_file_sha256": "689792938bba171ad6ae7e18c1052f90c83a08f92539f50793a66eb4cff7e939",
+    "start_utc": "2026-10-17T07:56:42.142241+00:00",
+    "end_utc": "2026-10-17T07:56:45.639443+00:00",
+    "wall_seconds": 3.4972171670524403,
+    "usage": {
+      "user_cpu_seconds": 1.991851,
+      "system_cpu_seconds": 0.5297,
+      "process_cpu_seconds": 2.521551,
+      "peak_rss_bytes": 537001984,
+      "ru_maxrss_native_unit": "bytes",
+      "source": "getrusage(RUSAGE_SELF)"
+    },
+    "interpreter": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "tensorflow": "2.16.2",
+    "command": [
+      "/Users/matrixusman/CUI/DigitalTwin/manufacturing/research_cycles/contribution_v0.2/run_normal_pilot.py",
+      "--output",
+      "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/contribution_v0.2/runs/normal_pilot_001"
+    ],
+    "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+    "git_head": "c47af69c376475a5caa94862ec15ea2a91156b17",
+    "limitations": [
+      "One seed/epoch on a prefix; no published score reproduction",
+      "No paper checkpoint or training-scaler lineage",
+      "Clock units/acquisition versus arrival semantics not independently established",
+      "No attack or physical-generalization evidence"
+    ]
+  },
+  "pipeline_state": {
+    "baseline_source_audit": "bounded completed; table/run lineage remains unresolved",
+    "limitation_reproduction": "specific source defects and model-state behavior reproduced; method-level cyber weakness not demonstrated",
+    "improvement": "candidate equations/design only; not implemented or admitted as novel",
+    "fair_test": "synthetic software checks and one normal feasibility pilot completed; full comparison not run",
+    "writing": "research notes only; contribution results and final title/venue not established",
+    "physical_testbed_access": false,
+    "permitted_future_evidence": [
+      "public datasets after admission",
+      "clearly labelled simulation"
+    ]
+  },
+  "boundaries": [
+    "No raw observations parsed during this readback; only new nominal bytes hashed",
+    "Saved fit-immutability fields are checked, not independently replayed",
+    "RSS is monitored, not an instantaneous ceiling",
+    "No claim of paper reproduction, novelty, physical generalization or journal readiness"
+  ]
+}

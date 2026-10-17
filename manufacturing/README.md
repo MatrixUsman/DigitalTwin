@@ -2,6 +2,10 @@
 
 Owner: **Haiqa Mushtaq**. Project ID: `manufacturing`. Academic digital-twin cybersecurity research for manufacturing processes; titles and contributions remain provisional.
 
+**Current result:** [three-seed CNN baseline training is complete](research_cycles/baseline_training_v0.3/RESULTS.md): 65,536 training / 16,384 development targets, all model artifacts saved, 25 synthetic tests and 410 readback checks passed. [Learning curves](output/baseline_training_v0.3/learning_curves.png) show the measured training progress and strong AR control. The next experiment investigates a specific method limitation using these saved references.
+
+**Research direction:** [original contribution through baseline investigation and improvement](docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md). The completed CASPER experiment/PDF is a preliminary internal report. The new [v0.2 cycle](research_cycles/contribution_v0.2/README.md) provides a source/test dossier, 18 synthetic checks, released-model execution, a public nominal-file receipt and one small normal-only CNN pilot. [Actual results](research_cycles/contribution_v0.2/RESULTS.md) and [candidate design](docs/CONTRIBUTION_DESIGN_V0.2.md) distinguish partial reproduction from an unproved contribution. Public data and labelled simulation are the selected evidence route. Full benchmark reproduction, novelty and the intended paper remain unfinished.
+
 Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AGENTS.md](AGENTS.md), together with the [shared rules](../AGENTS.md). This folder is independent of its siblings. Normal-only development and the eleven-method protected final campaign are complete. The [joint report](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) records weak detection and a small correction-score gain; no paper baseline has been reproduced.
 
 | Location | Purpose |
@@ -10,7 +14,8 @@ Start with [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [STATUS.md](STATUS.md), and [AG
 | [docs/WORK_LOG.md](docs/WORK_LOG.md) | Dated work history, checks, failures, decisions, and next steps |
 | [docs/DATA_AND_BASELINE_STUDY.md](docs/DATA_AND_BASELINE_STUDY.md) | Start here: received materials, findings and a practical reading sequence |
 | [docs/PAPER_CODE_TRACEABILITY.md](docs/PAPER_CODE_TRACEABILITY.md) | Paper-reading coverage and method-to-author-code connections for all three candidates |
-| [docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) | Current claim, close-prior-art overlap, falsification and single-acquisition limits |
+| [docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md](docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md) | Current destination, audited baseline issues, candidate questions and sequence toward an original contribution |
+| [docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md](docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md) | Historical preliminary-study claim, prior-art overlap, falsification and single-acquisition limits |
 | [docs/COMPARISON_ROSTER_DECISION.md](docs/COMPARISON_ROSTER_DECISION.md) | Historical eleven-variant design; subsequent implementation recorded in score-extension report |
 | [docs/INDEPENDENT_EVIDENCE_PLAN.md](docs/INDEPENDENT_EVIDENCE_PLAN.md) | Separate fault/benign-source admission and requirements for broader cyber evidence |
 | [docs/COMPARATOR_ADMISSION.md](docs/COMPARATOR_ADMISSION.md) | Current comparator designations, information-access compatibility and remaining implementation gates |

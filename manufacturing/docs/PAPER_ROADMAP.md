@@ -1,5 +1,22 @@
 # Manufacturing paper roadmap: evidence, experiments and submission
 
+## Current destination and sequence — user correction after PDF delivery
+
+The intended paper requires an **original digital-twin cybersecurity contribution** grounded in baseline limitations and fair evidence. The completed CASPER case study is retained as preliminary internal work. Its completion does not complete the intended paper. The [current contribution direction](ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md) supersedes the narrow-study destination and old next-action wording in the historical lifecycle record below.
+
+**Execution update:** the [v0.3 trained-reference milestone](../research_cycles/baseline_training_v0.3/RESULTS.md) is complete: three seeded CNNs, AR/persistence controls, normal-only checkpoint selection, saved artifacts and learning curves, 25 synthetic tests and 410 artifact checks. Next use the saved references in a predeclared exploratory limitation experiment. The CNNs reached the fixed 30-epoch cap; any further training budget is decided before intervention outcomes.
+
+1. **Bounded audit completed:** [CASPER/successor dossier](BASELINE_LIMITATION_DOSSIER_V0.2.md), synthetic defect tests, released-model execution and a normal-only CNN pilot are recorded in [v0.2 results](../research_cycles/contribution_v0.2/RESULTS.md). Paper-table/run correspondence remains incomplete; algorithmic cyber limitations remain unmeasured.
+2. Choose one feasible task, trust boundary and compatible recent comparison set; resolve each method's reproduction or explicitly modified implementation route.
+3. Reproduce a baseline and demonstrate the selected limitation using an explicitly exploratory/development protocol.
+4. Define a mechanism that addresses that limitation and compare it with the closest prior methods; abandon unsupported novelty claims.
+5. Admit fresh independent evidence suited to the security question, then freeze the new comparisons/calibration/final protocol.
+6. Test the improvement and ablations fairly, preserve negative findings, and write the intended paper around what is actually established.
+
+The subsequent user request authorized the bounded v0.2 work above. Its [candidate design](CONTRIBUTION_DESIGN_V0.2.md) and LaTeX notes are not an implemented or novel contribution. The user has no physical testbed and selected public datasets plus clearly labelled simulation. Next resolve close recovery prior art and the corrected baseline execution contract before full experiments. The exposed CASPER outcomes remain exploratory; physical-fault datasets are not automatic replacements for cyber evidence. The final paper's title is open; the existing PDF title belongs to the preliminary report.
+
+## Historical lifecycle record for the completed preliminary study
+
 ## Material Passport
 
 - Project / owner: manufacturing / Haiqa Mushtaq; project ownership is not a final authorship decision.
@@ -8,7 +25,7 @@
 - Version: `manufacturing-paper-roadmap-v0.1`.
 - Status: **current lifecycle plan, grounded in completed artifacts; future work remains unexecuted**.
 
-This is the main lifecycle roadmap for this paper. Use [STATUS.md](../STATUS.md) for the short current handoff and [WORK_LOG.md](WORK_LOG.md) for what actually happened. Earlier reproduction proposals remain useful historical/source notes; they do not override the selected right-arm study or the current software status. The frozen data/evaluation specifications retain their original bytes and planning-date readiness fields.
+This section records the earlier lifecycle and its actual completion states. Use the corrected sequence above and [STATUS.md](../STATUS.md) for the current handoff; [WORK_LOG.md](WORK_LOG.md) records what happened. The frozen data/evaluation specifications retain their original bytes and planning-date readiness fields.
 
 ## Where we actually are
 
@@ -298,7 +315,7 @@ Writing notes can proceed throughout the project. A results section and contribu
 
 Acceptance and publication timing are editorial outcomes, not milestones we can guarantee. Maintain factual records of later citations/use; do not manufacture impact or endorsements.
 
-## What we do next, and what can run in parallel
+## Earlier next-action plan — superseded by the current sequence above
 
 **Immediate sequence:** preserve the complete final artifacts and negative/mixed findings → authors read/explain the prepared LaTeX draft and complete declarations → audit the proposed independent source before a new study. No large neural run is needed to fill a quota.
 

@@ -1,0 +1,54 @@
+{
+  "schema": "casper12-v2-training-access-v0.3",
+  "record_type": "subsequent authorized normal-only prefix access; earlier receipt unchanged",
+  "data_sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+  "start_utc": "2026-10-17T08:52:45.845044+00:00",
+  "end_utc": "2026-10-17T08:53:43.397896+00:00",
+  "access": {
+    "attack_files": [],
+    "calibration_access": false,
+    "final_access": false,
+    "identity_hash_reads_whole_nominal_file": true,
+    "maximum_parsed_numeric_rows": 82229,
+    "path": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+    "selected_rows": [
+      219,
+      82229
+    ],
+    "utc": "2026-10-17T08:52:48.827314+00:00"
+  },
+  "population": {
+    "clock_unit": "unresolved",
+    "development": {
+      "coverage": 1.0,
+      "eligible_targets": 16384,
+      "excluded_local_endpoints": [],
+      "excluded_targets": 0,
+      "large_gap_transitions": 0,
+      "nonpositive_transitions": 0,
+      "potential_targets": 16384
+    },
+    "development_indices_sha256": "7784ab1205a089c7ec0a2edf0dc33fee5a6bd5ec487b6aac764d65c25741628e",
+    "development_values_sha256": "bda8ebc803a643474b8a672949bbd6ee33184604481414f79058a5ea6cb27b7d",
+    "maximum_gap_native": 490000000.0,
+    "median_training_increment_native": 98000000.0,
+    "training": {
+      "coverage": 1.0,
+      "eligible_targets": 65536,
+      "excluded_local_endpoints": [],
+      "excluded_targets": 0,
+      "large_gap_transitions": 0,
+      "nonpositive_transitions": 0,
+      "potential_targets": 65536
+    },
+    "training_indices_sha256": "06a0a32363529ff8c90394963ee7b33b4afbd1026430ae46a39c8c4bf93f45af",
+    "training_values_sha256": "e015a95d7b1128294be179839404df8b24e067783f180bc4e858957b0b048e1a"
+  },
+  "dataset_changed": false,
+  "new_attack_data_acquired": false,
+  "source_receipts": {
+    "local/baseline_training_v0.3/runs/training_001/data_access.json": "0fe1a4117e8635f7ce9d9619493a4b786982bc90fe06e87a9cdf94358eb21c66",
+    "local/baseline_training_v0.3/runs/training_001/population.json": "9a7a81ffabfd485382e61dea445239c1fec79f4292c336279bf15eec10a56c70",
+    "local/baseline_training_v0.3/runs/training_001/summary.json": "13298eb0d117e2c91be4cc2273ce3673784297a5c5990d318f50ac3ad44a5a9b"
+  }
+}

@@ -1,13 +1,51 @@
 # Manufacturing status
 
+**Current result:** the [compact CNN baseline pipeline](research_cycles/baseline_training_v0.3/README.md) is implemented, tested and executed. Three CNN seeds each completed 30 epochs on 65,536 normal training targets and scored 16,384 chronological development targets. The selected models, scaler, AR control, predictions and learning curves are saved and verified.
+
+## Current handoff — baseline training v0.3, 17 October 2026
+
+| Item | Actual outcome |
+|---|---|
+| Trained models | CNN seeds 17,42,2026; epoch 30 selected for each; all retained |
+| Controls | Training mean, persistence and fitted multivariate AR(4), same eligible endpoints |
+| Normal-development MSE | CNN mean **0.105364**; persistence **0.124758**; AR(4) **0.071310** |
+| Coverage | 65,536 training / 16,384 development; 100% eligible under the frozen gap rule |
+| Validation | 25 synthetic tests; **410/410** fresh-process artifact checks; every saved CNN prediction reproduced exactly |
+| Resources | 57.851 s supervised wall; 56.526 s worker CPU; 520.16 MiB sampled peak RSS; all caps passed |
+| Outcomes preserved | All seeds, learning curves, controls and costs. No training failures/retries |
+| Data access | Nominal prefix only; raw bytes unchanged; no calibration, attack or final-test access |
+
+See the [complete result report](research_cycles/baseline_training_v0.3/RESULTS.md), [source/configuration freeze](research_cycles/baseline_training_v0.3/FREEZE.json) and [figure](output/baseline_training_v0.3/learning_curves.png). The implementation follows the compact published architecture with explicitly documented protocol choices. CNN curves were still improving at the 30-epoch cap. AR is the strongest normal predictor and stays in the next comparison.
+
+**Next:** specify and execute an exploratory limitation experiment using these saved predictors and simple controls, examining brief versus persistent motion deviations. Declare any additional training budget before looking at intervention outcomes. The user's original-contribution objective and public-data/labelled-simulation route remain active; the earlier CASPER holdout stays exposed. Models and prior studies are preserved independently.
+
+## Completed v0.2 source investigation — historical handoff
+
+| Requested stage | Actual outcome |
+|---|---|
+| Investigate baseline limitations | [Dossier](docs/BASELINE_LIMITATION_DOSSIER_V0.2.md) connects manuscript/code claims to exact tests; original table/checkpoint/scaler lineage remains incomplete |
+| Reproduce the limitation | Specific target/variable/score discrepancies and released-model state behavior reproduced. **No method-level cyber weakness demonstrated yet** |
+| Design an improvement | [Constrained recovery candidate](docs/CONTRIBUTION_DESIGN_V0.2.md) specified; not implemented or admitted as novel. Close prior art overlaps its main ingredients |
+| Test fairly | 18 synthetic tests and one normal-only pilot: 8,192 training targets, 2,048 finite aligned development scores, 3.8355 s supervised wall. No attack calibration/evaluation or full comparison |
+| Write contribution paper | [Source-backed LaTeX notes](research_cycles/contribution_v0.2/research_notes.tex) written; contribution results, final title and venue remain pending. Notes have not been compiled to PDF |
+| New data | One author-linked provider-v2 nominal `IMU_10Hz.csv` acquired and hashed; bounded prefix inspected. No successor disturbance observations acquired; no whole-release or independent-cyber admission |
+| Evidence route | User confirms no physical testbed: use public datasets and clearly labelled simulation. No simulator has been implemented in this cycle |
+| Validation | [237/237 saved-artifact checks](research_cycles/contribution_v0.2/EVIDENCE_MANIFEST.json) passed, including original frozen artifacts/PDF. Two failed diagnostic attempts and setup failures preserved |
+
+**Historical next action at the v0.2 handoff:** resolve the close recovery prior art and exact baseline training/preprocessing/state policy; demonstrate an algorithmic limitation with corrected comparators under a separately specified exploratory protocol. The generic twin/recovery gate is not accepted as novelty. Full training needs a concrete bounded plan; lengthy runs retain approval requirements. The [results](research_cycles/contribution_v0.2/RESULTS.md) and work log preserve all outcomes. No sibling project changed scientifically.
+
+## Completed v0.1 preliminary study — historical context
+
+The following records describe the earlier experiment and its handoff. They do not negate the separate v0.2 data receipt, neural pilot or source-code execution above. Its frozen contracts, input identities and exposed-holdout status remain unchanged.
+
 As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing remains active while water waits for iTrust. The [protected final campaign and joint analysis](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) are complete: **eleven deterministic methods, 897,119 finite scores each, all eight event outcomes**, one accepted scoring attempt and one accepted delayed-label evaluation. No failures or retries. The saved-result arithmetic audit passed. The correction-score gain is small and absolute detection is poor; this single-acquisition study does not establish a general detector or novel digital twin. The holdout is now exposed.
 
 | Item | Actual state |
 |---|---|
-| Stage | Final campaign complete; LaTeX technical draft and local reproducibility package prepared; PDF compiled and visually checked; author review/declarations pending |
+| Stage | Preliminary campaign/report complete; original-contribution selection reopened; baseline limitation/reproduction planning is next |
 | Recommended setting | Industrial robotic arms; original CASPER pick-and-place collection |
-| Title / question | Provisional “Correction Evidence in Robotic Motion Monitoring: A Controlled CASPER Study”; same-filter R versus R+C, with classical surprise/energy and direct-velocity explanations |
-| Contribution / breadth decision | Narrow scope selected; phase tracking, surprise and tracking/detection trade-offs are established. One acquisition/eight dependent intervals does not support cross-robot/task/cyber generalization |
+| Title / question | Intended contribution paper: not selected. “Correction Evidence in Robotic Motion Monitoring: A Controlled CASPER Study” names only the preserved preliminary report |
+| Contribution / breadth decision | Original digital-twin security contribution remains the objective; no verified baseline failure or new mechanism yet. One acquisition/eight dependent intervals cannot establish broader generalization |
 | Core comparison design | Eleven deterministic variants, one run each, actual fitted references/configurations frozen; all eleven calibrated. ModernTCN/independent alignment remain conditional on broader claims |
 | Independent evidence | voraus-AD and NIST screened as separate physical-fault/benign routes; no new dataset received/admitted, no new cyber ground truth |
 | Selected threat / inputs | Command/application speed manipulation with truthful monitoring telemetry/time assumed; twelve right-arm joint-position/velocity channels plus relative-time context |
@@ -57,11 +95,15 @@ As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing remains activ
 
 ## Next bounded action
 
+Prepare the **baseline limitation and improvement-opportunity dossier** in the [corrected sequence](docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md), starting with CASPER and its closest successor. Establish what is a verified code/protocol issue, what is an untested assumption, and what would require a reproduced failure. Select a common scientific task before choosing three experimental comparators. Any new method needs a close-prior-art argument and suitable fresh confirmatory evidence; source admission follows that question. Merely fixing splits/thresholds or renaming the existing observer does not establish a novel twin.
+
+The following records describe the completed preliminary study, not the destination of the intended contribution paper.
+
 Stages 12–15 of the [complete paper roadmap](docs/PAPER_ROADMAP.md) are complete for the frozen within-recording study. Preserve the [selection freeze](experiments/MODEL_SELECTION_FREEZE_V0.1.json), immutable [pre-execution freeze](experiments/FINAL_TEST_FREEZE_RECORD.json), [actual completion record](experiments/FINAL_CAMPAIGN_V0.1_RECORD.json), all scores/thresholds/manifests and consumed attempts. No scientific choices changed after freezing.
 
-The [LaTeX manuscript and package](manuscript/README.md), [findings explanation](docs/FINDINGS_EXPLAINED_V0.1.md) and [post-exposure independent-evidence plan](docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md) are prepared. Next: both authors review and explain the draft, complete declarations, and undertake a bounded source-specific admission audit before any independent-data experiment. Author understanding has not been attested. The [18-page PDF](output/pdf/correction-evidence-casper-study.pdf) is now compiled and visually checked using a project-local compiler; see the [build report](manuscript/PDF_BUILD_REPORT.md). O-RC overlaps all eight events, but its sparse point recall and high normal episode rate prevent calling that reliable attack recognition. The primary pair tests correction evidence; both retain progression. Isolated per-method cost and latency quantiles are unavailable, so the report does not claim a measured compute advantage.
+The [LaTeX manuscript and package](manuscript/README.md), [findings explanation](docs/FINDINGS_EXPLAINED_V0.1.md) and [post-exposure independent-evidence plan](docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md) are preserved as preliminary records. Author understanding has not been attested. The [18-page PDF](output/pdf/correction-evidence-casper-study.pdf) is compiled and visually checked; see the [build report](manuscript/PDF_BUILD_REPORT.md). O-RC overlaps all eight events, but its sparse point recall and high normal episode rate prevent calling that reliable attack recognition. The primary pair tests correction evidence; both retain progression. Isolated per-method cost and latency quantiles are unavailable, so the report does not claim a measured compute advantage.
 
-The original final holdout cannot become fresh confirmation through a rerun or reshuffle. Outcome-motivated changes are exploratory and must be declared as such. Prior plans/reports remain historical evidence; the new completion record supersedes their readiness fields without rewriting frozen inputs. Researcher comprehension and source-specific independent-evidence admission remain separate; no new dataset, generalization claim or publication is admitted.
+The original final holdout cannot become fresh confirmation through a rerun or reshuffle. Outcome-motivated changes are exploratory and must be declared as such. Prior plans/reports remain historical evidence; the completion record supersedes their readiness fields without rewriting frozen inputs. Researcher comprehension and source-specific independent-evidence admission remain separate; no new dataset, generalization claim or publication is admitted. The later writing/PDF entries below are historical milestones; their proposed next-source order is superseded by the baseline-first direction above.
 
 ## Evidence and persistent records
 

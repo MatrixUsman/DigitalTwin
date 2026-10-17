@@ -8,6 +8,16 @@ Apply the confirmed [publication, writing and title standards](PUBLICATION_STAND
 
 ## Start and finish every session
 
+### Preserve the intended contribution while learning from feasibility work
+
+**Planning correction applied in manufacturing, 17 October 2026; no new scientific contribution validated.** See the [post-PDF decision](../manufacturing/docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md).
+
+1. Record the intended paper's contribution objective separately from each pilot's completion criterion. A loader, negative experiment or well-formatted report does not fulfill an original-method objective.
+2. Before proposing an extension, connect a baseline claim to its manuscript, code/configuration, assumptions and a fair test. Distinguish a verified implementation/protocol issue from a measured method failure; reproducing our own controls does not reproduce another paper.
+3. Demonstrate the relevant limitation, check close prior art and specify why the proposed change should address it. Fixing leakage or adding a familiar component is not automatically algorithmic novelty. Keep common inputs and supervision fair.
+4. If current results support only a narrow feasibility report, preserve and label that report, then return to contribution selection. Do not silently redefine it as the user's intended final paper. A revised mechanism needs suitable independent evidence and a new prospective protocol after holdout exposure.
+5. Update mutable briefs/status/roadmaps with an explicit superseding decision; retain old results and consumed scientific specifications. Select additional datasets for the proposed claim, not merely because they are accessible. Reuse this discipline in the other sectors without copying their question, methods or completion state.
+
 For a contribution/evidence-scope milestone, use the procedure below before committing to expensive experiments. Manufacturing has executed this **research/design procedure**, not a broad empirical validation.
 
 ### Reconciling a proposed contribution with prior art and evidence breadth
@@ -318,3 +328,34 @@ Expected artifacts: source-backed LaTeX, generated plots/tables, complete aggreg
 **Executed in manufacturing, 17 October 2026:** [PDF build report](../manufacturing/manuscript/PDF_BUILD_REPORT.md). For another project's authorized PDF request, inspect existing tooling first; use an isolated compiler/cache and verify its official release identity if a download is necessary. Compile with shell escape disabled and preserve failures. Bind pre/post source hashes before accepting the PDF. A static syntax check cannot replace compilation.
 
 Render every page, inspect equations, references, accents, plots, margins and dense appendix tables, and correct only formatting unless a scientific edit is explicitly warranted and recorded. Rebuild and inspect the changed output. Preserve exact result-table bytes and experiment bindings. Keep build/render helpers, dependencies, source/PDF hashes and a clearly scoped visual-review record; distinguish assistant layout inspection from author approval or scientific validation. Never upload a manuscript merely to avoid installing a local compiler. The manufacturing compiler/parameters do not impose scientific choices on the other projects.
+
+
+## Auditing baseline execution before claiming an original improvement
+
+Status: **executed for a bounded manufacturing source/artifact audit and nominal pilot**, not a complete paper reproduction. See [contribution_v0.2](../manufacturing/research_cycles/contribution_v0.2/README.md). Apply separately to each sector.
+
+1. Pin paper version, author revision, notebook cells/branches, model artifacts, deployment code and permissions. Repository visibility and a shared dataset name do not establish an executable experiment. A successor's license does not automatically cover its predecessor.
+2. Map each claim to an assumption and a falsifiable check. Separate target alignment, stale variables and norm/state inconsistencies from algorithmic limitations. Run minimal synthetic fixtures on audited licensed snippets before expensive fitting. Never infer the published run order from notebook cell order alone.
+3. Validate released model shapes, finite outputs and state policy. For recurrent artifacts, compare continuous calls, explicit reset and a fresh interpreter. A runtime state/reset repair may be essential but is not algorithmic novelty.
+4. Reconcile data release, input modality, preprocessing, training, score aggregation and inference semantics. Use a new isolated environment with exact versions; disclose that it is not necessarily the authors' environment. Never execute held-out-label threshold optimization as the common protocol.
+5. Start with one bounded normal-only pilot. Preserve every failed attempt, source/runtime fix and resource measurement. Retain simple-control losses even when they are stronger. A tiny one-epoch run measures feasibility, not converged superiority.
+6. Audit the closest methodological prior art before turning repairs or a gate into a novelty claim. Reject generic novelty where set-based observers, recovery rules, alignment or sequential tests already establish the ingredient. State the remaining unknown, not an invented gap.
+7. Use public observations and simulation for their supported roles. Physical disturbances are not automatically cyberattacks; a simulated model is not automatically a validated asset twin. Freeze acquisition/scenario groups and equal information before final evaluation. Keep exposed outcomes exploratory.
+8. Preserve an actual pipeline state: source audit, code-path reproduction, artifact compatibility, modified implementation, full paper reproduction and established contribution are different milestones. Source-backed notes can be written early; original-contribution results require evidence.
+
+Expected artifacts: source/assumption/test dossier, rights/version receipts, synthetic tests, isolated lock, named attempt/failure ledger, immutable raw-file hashes, normal-pilot report, close-prior-art decision, candidate protocol, honest LaTeX notes and saved-artifact checks. Verify the previous experiment's identities remain unchanged. Do not transfer any sector's hashes, parameters, data permissions, measurements or success status to another sector.
+
+
+## Turning a successful pilot into a trained reference
+
+Status: **executed and verified in manufacturing v0.3**. [Protocol and results](../manufacturing/research_cycles/baseline_training_v0.3/README.md). Reuse the procedure in other sectors after checking their own inputs, chronology and claim.
+
+1. Resolve the exact architecture and disclose differences between manuscript, notebook and chosen implementation. Freeze input support, preprocessing, gap/warmup rules, finite training budget and normal-only checkpoint selection before expanded data access.
+2. Test loaders and coordinates with synthetic data, including excluded future rows and gap boundaries. Confirm development changes cannot affect fitted transforms or training examples. Fit all methods on the same permitted information and evaluate on identical target coordinates.
+3. Keep all declared seeds and strong simple controls. Use post-epoch full-population prediction losses for learning curves; do not average cumulative framework batch metrics as though they were independent epoch losses. Record when a model reaches its epoch cap rather than a plateau.
+4. Preserve best inference weights and configuration/scaler identities. If optimizer state is omitted, label the checkpoint inference-only and do not silently resume it as a complete optimizer checkpoint. Save all normal losses, failures, costs and source/runtime provenance.
+5. Enforce one concrete resource budget and preserve the named attempt. A fresh process should reproduce saved predictions and independently recompute scores, selection decisions and control semantics. Verify earlier scientific artifacts remain unchanged.
+6. Generate figures/tables only from saved results; retain the strongest ordinary control. Distinguish standardized and native-channel errors where channel units differ. Seed variation is computational variation, not new independent systems.
+7. Move next to a specified limitation experiment using the trained references. Any further normal training budget is decided before inspecting intervention outcomes. Keep calibration, final evaluation and novelty claims tied to their own evidence.
+
+Expected artifacts: source/config/test freeze, all fitted checkpoints, transformations, control coefficients, aligned predictions/scores, full learning curves, bounded resource receipts, fresh-process verification, result-derived figures and an actionable handoff. Manufacturing counts/parameters/results never transfer automatically to another project.

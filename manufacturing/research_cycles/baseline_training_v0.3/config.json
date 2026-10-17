@@ -1,0 +1,33 @@
+{
+  "study_id": "manufacturing-baseline-training-v0.3",
+  "data_path": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+  "data_sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+  "columns": ["accX", "accY", "accZ", "gyroX", "gyroY", "gyroZ", "magX", "magY", "magZ"],
+  "raw_start": 219,
+  "training_raw_stop": 65800,
+  "development_raw_stop": 82229,
+  "history": 45,
+  "gap_multiple": 5.0,
+  "minimum_coverage": 0.95,
+  "seeds": [17, 42, 2026],
+  "cnn": {
+    "filters": 8,
+    "kernel_size": 3,
+    "pool_size": 3,
+    "activation": "relu",
+    "dense_kernel_initializer": "zeros",
+    "optimizer": "Adamax",
+    "learning_rate": 0.001,
+    "loss": "standardized_mse",
+    "batch_size": 1024,
+    "maximum_epochs": 30,
+    "early_stopping_patience": 5,
+    "minimum_improvement": 0.000001,
+    "shuffle": false
+  },
+  "ar": {"order": 4, "ridge": 0.001, "intercept_penalized": false},
+  "score": "one_step_standardized_channel_rmse",
+  "secondary_score": "one_step_native_channel_rmse",
+  "threshold": null,
+  "limits": {"wall_seconds": 600, "cpu_seconds": 300, "rss_bytes": 1073741824, "output_bytes": 52428800}
+}

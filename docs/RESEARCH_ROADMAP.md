@@ -2,6 +2,8 @@
 
 Status: staged portfolio plan. Manufacturing has completed **all eleven frozen final runs and joint analysis**, after 324 synthetic tests and normal calibration. The small correction-score gain accompanies poor absolute detection. Its holdout is exposed; no paper reproduction, established novelty or validated physical twin follows. Updated 2026-10-17.
 
+**Current manufacturing destination:** the user clarified after PDF delivery that the intended paper must establish an original contribution through baseline limitations and improvements. The [corrected direction](../manufacturing/docs/ORIGINAL_CONTRIBUTION_DIRECTION_V0.1.md) places baseline diagnosis/reproduction before further mechanism selection and evidence acquisition. The completed case study/PDF remains preliminary internal work. Technical completion of that study does not complete the intended contribution paper.
+
 ## Working order
 
 Cycle through **water → manufacturing → smart grids** for evidence and data feasibility first. A project waiting for provider approval can remain pending while another receives its audit. Once a project satisfies its own prerequisites, implement and run its baseline in a bounded session. Do not launch all three training jobs together on the shared machine.
@@ -23,7 +25,7 @@ Writing notes starts in Stage 1. Results sections and superiority claims require
 ## Immediate next tasks
 
 1. **Water / Muhammad Usman:** use the COMSATS student-email route for an authorized SWaT/WADI request, then identify releases. In parallel, read CAROTS and audit remaining preprocessing/device issues. The assistant has not submitted a request.
-2. **Manufacturing / Haiqa Mushtaq:** Stages 12–15 of the [paper roadmap](../manufacturing/docs/PAPER_ROADMAP.md) are complete: actual freeze/calibration, all eleven protected final runs, delayed joint evaluation and saved-result audit. [Report](../manufacturing/docs/FINAL_CAMPAIGN_REPORT_V0.1.md). Preserve the weak/mixed findings. The [LaTeX technical draft/package](../manufacturing/manuscript/README.md), [findings explanation](../manufacturing/docs/FINDINGS_EXPLAINED_V0.1.md) and [post-exposure evidence plan](../manufacturing/docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md) are prepared. The PDF is now compiled and visually checked. Next complete author comprehension/declarations and audit one independent source before any broader or redesigned experiment. No three-paper reproduction ranking, additional dataset admission or broad cyber generalization is established; outcome-informed redesign is exploratory.
+2. **Manufacturing / Haiqa Mushtaq:** [v0.3 baseline training](../manufacturing/research_cycles/baseline_training_v0.3/RESULTS.md) is complete: three seeded CNNs, normal-only checkpoint selection, AR/persistence controls, learning curves and saved models. 25 synthetic tests and 410 artifact checks passed. Next execute a separately specified exploratory limitation experiment using these references; retain the stronger AR control and decide any additional training budget before intervention outcomes. Public data and labelled simulation are the evidence route. The old exposed CASPER campaign/PDF and all prior receipts remain unchanged.
 3. **Smart grids / Muhammad Usman Sanghla:** choose the electrical system and observation type; verify which leads provide attack recordings versus only simulation cases. Audit recent twin-based comparators and their code/protocol.
 
 ## Preventing accidental duplication

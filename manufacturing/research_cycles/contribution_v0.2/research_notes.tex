@@ -1,0 +1,94 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[hidelinks]{hyperref}
+\title{Baseline Correctness and Recovery Assumptions in Robotic Motion Monitoring}
+\author{Research notes for Muhammad Usman and Haiqa Mushtaq}
+\date{17 October 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Internal working notes, not the intended contribution paper.}
+These notes distinguish measured implementation findings from an untested research hypothesis. No new detection algorithm, paper-level benchmark reproduction, or novelty claim is established. The earlier CASPER holdout is exposed. The authors' intended order has been supplied; their contributions, affiliations, declarations and approval remain pending.
+
+\section{Problem and baseline connection}
+CASPER monitors industrial robot motion using externally collected inertial measurements~\cite{casper}. Its edge-computing successor studies compact predictors and on-device inference~\cite{edge}. Their input modality differs from the controller measurements used in our earlier preliminary experiment. A controller-input observer cannot therefore be described as a faithful reproduction of either method.
+
+A prospective question is whether a motion reference can recover synchronization after uncertain measurements without accepting unauthorized execution changes as normal progression. This question assumes a protected observation channel and justified information about permitted motion. Motion measurements alone cannot establish malicious intent when an authorized command, a fault and an unauthorized command produce identical observations.
+
+\section{Source and artifact diagnostics}
+We inspected the successor repository at revision \texttt{41b907749b7e5882319690a627a251e93fa99982}. Its MIT grant permits the identified source snippets used in our diagnostic harness; that grant is not transferred to the original CASPER repository. Notebook cell numbers below are zero-based JSON indices.
+
+The saved 30-step CNN branch is inconsistent with the 45-row target offset in cell 245. With 200 synthetic observations, that path produces 170 predictions and 155 targets and raises a shape error. In a separate 45-step-output branch, cell 281 scores future predictions against input-origin observations. A synthetic perfect future forecast of a unit ramp receives a score of 905.6075 from that function, whereas correctly aligned future RMSE is zero. Cell 283 also reads row-score variables rather than the newly produced window scores. These observations identify specific saved-code defects; the notebook execution order that produced each published table is unknown.
+
+Notebook channel RMSE and firmware absolute-error sums are different statistics. For residual vectors $(9,0,\ldots,0)$ and $(1.1,\ldots,1.1)$, RMSE ranks the former higher, while the absolute-error sum ranks the latter higher. This establishes a score-semantics discrepancy, not a measured loss in robot detection accuracy.
+
+Both released TensorFlow Lite models loaded in our CPU runtime with input shape $(1,45,9)$ and output shape $(1,1,9)$. The CNN repeated identically on three synthetic fixtures. The LSTM changed output on repeated calls without resetting its variables; resetting reproduced fresh-interpreter output. Stateful inference needs an explicit policy. A reset fix is not a novel detector. Eighteen synthetic software tests passed. None is a robot benchmark result.
+
+\section{Normal-only feasibility experiment}
+We obtained only the nominal \texttt{IMU\_10Hz.csv} from provider release 2 of the author-linked CASPER-1-and-2 collection~\cite{data}. Its SHA-256 is recorded in the companion manifest. The raw file is unchanged and excluded from Git. No disturbance file was obtained or inspected.
+
+The independent compact CNN uses a 45-observation history, two eight-filter convolution layers with kernel size three, max-pooling by three, and a nine-output dense layer. It contains 1,369 parameters. We fitted one epoch with Adamax, learning rate 0.001, batch size 256, seed 17, and no shuffling. The split precedes window construction. Means and standard deviations use training observations only; development cannot update them.
+
+Training rows $[219,8456)$ yield 8,192 targets. Separate development rows $[8456,10549)$ yield 2,048 targets. All intervals exclude the header and are zero-based and half-open. The 2,048 development scores were finite, and fitted weights and transformations remained unchanged. No threshold, attack metric or final-test access occurred.
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Predictor & Normal-development standardized MSE\\
+\midrule
+One-epoch compact CNN & 0.819240\\
+Last-value persistence & 0.124684\\
+Zero predictor & 0.907773\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Persistence is stronger on this prefix. The limited training budget does not support a conclusion about the converged published method. The pilot consumed 3.8355 seconds of supervised wall time, 2.5216 seconds of worker CPU time and 538,066,944 bytes of sampled peak RSS. These are laptop feasibility measurements, not edge-device latency. All failed diagnostic attempts are preserved in the companion result report.
+
+\section{Candidate mechanism and novelty boundary}
+One design candidate represents task mode, phase and phase velocity as $z=(m,\phi,v)$ and propagates a set of permitted nominal states. For frozen observation map $h$, transition $F$, permitted context $u_t$, and validated time increment $\Delta t_t$, a possible update is
+\begin{align}
+S^-_t &= \{F(z,u_t,\Delta t_t): z\in S_{t-1},\ \text{permitted bounds}\},\\
+g_t &= \min_{z\in S^-_t} d_R(y_t,h(z))-\epsilon,\\
+S_t &= \{z\in S^-_t:d_R(y_t,h(z))\leq\epsilon\}.
+\end{align}
+The discrepancy is emitted before correction. An empty feasible set would retain an inconsistency while a separate candidate follows observations. Recovery would require a specified permissible path and a justified synchronization anchor. If reference uncertainty becomes too broad, the monitor would abstain and report that loss of coverage.
+
+These equations are not a new contribution: set-intersection attack tests already exist~\cite{setfilter}. A recently located institutional record also describes twin-based recovery, but its final version, exact publication date and full equations remain unresolved in our audit. The companion prior-art addendum records that lead and its access limits. The generic combination is not admitted as novel. A distinct recovery condition and an empirical advantage over ordinary constrained observers would have to be established before this becomes a contribution paper.
+
+\section{Prospective evidence and falsification}
+The researchers have no physical testbed access. Public observations and clearly labelled simulation are the feasible evidence sources. The exposed original recording is exploratory. Public physical disturbances can test motion sensitivity but cannot be relabelled as cyberattacks. Simulation must specify its plant, command channel, sensor model, parameter mismatch, trusted context and limitations; a noise-perturbed trace is not a validated robot digital twin.
+
+Future comparisons must first correct baseline target alignment, score semantics and inference-state policies. They should include persistence, autoregression, periodic alignment, corrected neural predictors, ordinary constrained observers and sequential residual alarms. Every method receives the same permitted information. If recovery uses a trusted marker, relevant controls receive it too. Calibration uses normal data only; final scenario groups are declared before outcome inspection. Misses, persistent alarms, uncertain coverage, false readmissions and computational cost all remain visible.
+
+The proposed mechanism should be rejected if ordinary controls explain its advantage, if it requires unavailable privileged context, if uncertainty absorbs the hard cases, or if close prior work already supplies the same rule. Full baseline reproduction, a method-level cyber limitation, a validated simulator, comparative results and a contribution-paper abstract/conclusion remain unfinished.
+
+\section{Reproducibility and declarations}
+The companion \texttt{EVIDENCE\_MANIFEST.json} binds source hashes, test logs, run receipts and stored artifacts. The environment is project-local Python 3.12.15 with TensorFlow 2.16.2; all resolved dependencies are recorded. No system packages, original frozen experiment inputs or old manuscript results were changed. Public data/code retain their provider-specific terms; no redistribution or publication is authorized by these notes.
+
+\paragraph{Data availability.} Provider URLs and hashes are documented; raw observations and fitted artifacts remain local. No claim of a public reproducibility release is made.
+\paragraph{Ethics and scope.} This cycle contains offline public-data analysis and synthetic software tests. No physical robot intervention, human-participant study or live deployment occurred.
+\paragraph{Contributions, funding and conflicts.} Pending author confirmation; no declarations are inferred.
+\paragraph{AI assistance.} Codex assisted with source discovery, code, diagnostics and drafting. Researchers must verify the argument and evidence; venue-specific disclosure remains pending venue selection.
+
+\begin{thebibliography}{9}
+\bibitem{casper} H. Kayan, R. Heartfield, O. Rana, P. Burnap and C. Perera.
+CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms.
+\emph{ACM Transactions on Internet of Things}, 5(3), article 18, 2024.
+\href{https://doi.org/10.1145/3670414}{doi:10.1145/3670414}.
+Corrected VOR V1.1, 5 February 2025.
+\bibitem{edge} H. Kayan, R. Heartfield, O. Rana, P. Burnap and C. Perera.
+Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing.
+\emph{IEEE Internet of Things Journal}, 12(15), 29696--29712, 2025.
+\href{https://doi.org/10.1109/JIOT.2025.3569780}{doi:10.1109/JIOT.2025.3569780}.
+\bibitem{data} H. Kayan. Industrial Robotic Arm -- IMU Data (CASPER 1 \& 2).
+Kaggle, provider version 2, 1 September 2024.
+\url{https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2}.
+Only the nominal file was obtained in this cycle.
+\bibitem{setfilter} M. Rahimifard, A. M. Moradi Sizkouhi and R. R. Selmic.
+Cyberattack Detection for Nonlinear Leader-Following Multi-Agent Systems Using Set-Membership Fuzzy Filtering.
+Author preprint, 30 March 2022.
+\href{https://doi.org/10.48550/arXiv.2203.16715}{doi:10.48550/arXiv.2203.16715}.
+Older methodological background, not a recent-baseline admission.
+\end{thebibliography}
+\end{document}

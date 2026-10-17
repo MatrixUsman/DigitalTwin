@@ -1,0 +1,103 @@
+{
+  "schema": "casper12-v2-nominal-receipt-v0.1",
+  "record_type": "receipt and bounded prefix audit, not whole-release admission",
+  "provider_title": "Industrial Robotic Arm - IMU Data (CASPER 1 & 2)",
+  "provider_ref": "hkayan/industrial-robotic-arm-imu-data-casper-1-and-2",
+  "provider_version": 2,
+  "provider_version_date": "2024-09-01T09:55:44.95Z",
+  "provider_license_label": "MIT",
+  "permission_basis": "Public author-linked listing; provider metadata licenseName MIT; user authorized public data. No redistribution.",
+  "dataset_url": "https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2",
+  "received_file": {
+    "file": "datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+    "bytes": 135748396,
+    "sha256": "1221df9be80c229969f3f21f820837e68ad28f4ccb3949bf4013f00d6d69d62c",
+    "started_utc": "2026-10-17T07:51:48.524418+00:00",
+    "finished_utc": "2026-10-17T07:51:53.600268+00:00"
+  },
+  "preserved_compressed_payload": {
+    "file": "datasets/raw/casper12/v2/nominal/IMU_10Hz.download",
+    "bytes": 34025861,
+    "sha256": "2170155ed4075db46889e78054486efd36cc1dd917ab395f486e01cf893c4184"
+  },
+  "full_release_received": false,
+  "anomaly_files_received": false,
+  "independent_cyber_evidence_admitted": false,
+  "unchanged_read_only_raw": true,
+  "whole_file_hashed": true,
+  "whole_file_parsed": false,
+  "prefix_profile": {
+    "source": "manufacturing/datasets/raw/casper12/v2/nominal/IMU_10Hz.csv",
+    "prefix_rows_read": 11000,
+    "columns": [
+      "name",
+      "time",
+      "accX",
+      "accY",
+      "accZ",
+      "gyroX",
+      "gyroY",
+      "gyroZ",
+      "magX",
+      "magY",
+      "magZ"
+    ],
+    "dtypes": {
+      "name": "object",
+      "time": "int64",
+      "accX": "float64",
+      "accY": "float64",
+      "accZ": "float64",
+      "gyroX": "float64",
+      "gyroY": "float64",
+      "gyroZ": "float64",
+      "magX": "float64",
+      "magY": "float64",
+      "magZ": "float64"
+    },
+    "nulls": {
+      "name": 0,
+      "time": 0,
+      "accX": 0,
+      "accY": 0,
+      "accZ": 0,
+      "gyroX": 0,
+      "gyroY": 0,
+      "gyroZ": 0,
+      "magX": 0,
+      "magY": 0,
+      "magZ": 0
+    },
+    "measurement_values_exported": false,
+    "whole_recording_profiled": false,
+    "timestamp_prefix": {
+      "monotonic_increasing": true,
+      "duplicate_count": 0,
+      "delta_counts": {
+        "98000000.0": 4336,
+        "97000000.0": 4115,
+        "146000000.0": 772,
+        "49000000.0": 525,
+        "99000000.0": 218,
+        "147000000.0": 215,
+        "145000000.0": 186,
+        "96000000.0": 166
+      },
+      "unit": "nanoseconds suggested by author code; no independent clock calibration"
+    }
+  },
+  "use": "Initial nominal prefix used by contribution_v0.2 normal-only feasibility pilot; not a final population",
+  "open_issues": [
+    "acquisition versus arrival timestamps and units",
+    "whole-recording row count and clock behavior",
+    "run/task boundaries and acquisition independence",
+    "anomaly annotation lineage",
+    "published checkpoint/scaler/run correspondence"
+  ],
+  "source_receipt_sha256": {
+    "local/contribution_v0.2/nominal_receipt.json": "3d14d23c37edcfca9ed1e8c726c800cbac16e9bdc29d099af01ff9f9fed984c2",
+    "local/contribution_v0.2/sources/casper12_view.json": "1245f95ccb59e9a3452545f19cec0f83b9c0ac595e0bff6c2405a3e37e170d78",
+    "local/contribution_v0.2/sources/casper12_files.json": "c87c489c21e15ae12cb312b3c33005fd837b9df76eef6c7a7a54437b83323442",
+    "local/contribution_v0.2/nominal_prefix_profile.json": "e7cf352929f4d25458566598e3980603198f19ebe431c32a3f20e92383b72d78"
+  }
+}
