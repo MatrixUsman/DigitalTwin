@@ -1,0 +1,4839 @@
+{
+  "utc": "2026-10-17T19:29:10.523568+00:00",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "scope": "editorial and saved-artifact consistency; not independent replication",
+  "checks_passed": 1177,
+  "preserved": {
+    "residual_twin_v0.13": {
+      "manifest_sha256": "25a27508402677f5dae5128ccf515c1e6fca7266ee542a65dfb9ab1fcf55b1f2",
+      "bindings": 303
+    },
+    "attack_audit_v0.14": {
+      "manifest_sha256": "987d8904dda988c7ccd51d61a5e52cf8e162e8f0156286aad89c385813b785dc",
+      "bindings": 757
+    },
+    "evidence_admission_v0.15": {
+      "manifest_sha256": "dff21adcaf8f6697061e463068d9e50b97e342430973ec3731cb4982b109724a",
+      "bindings": 34
+    }
+  },
+  "pdfs": {
+    "main": {
+      "file": "output/pdf/AFTER-Muhammad-Usman-v1.3.pdf",
+      "sha256": "3b68a6e97504cf5a202d29011880341914f39bc2df3a7da00c9798bd07a82f5c",
+      "pages": 11,
+      "text_bounds": [
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.8
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.8
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.8
+        ]
+      ]
+    },
+    "supplement": {
+      "file": "output/pdf/AFTER-Muhammad-Usman-v1.3-supplement.pdf",
+      "sha256": "300486db8f2b234e62b8ecc2ada658d60c12eaade7c7d6b76b5d09ea4987c1ba",
+      "pages": 12,
+      "text_bounds": [
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.8
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.8
+        ],
+        [
+          61.2,
+          550.8
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.81
+        ],
+        [
+          61.2,
+          550.8
+        ]
+      ]
+    }
+  },
+  "conclusion_words_approx": 76,
+  "checks": [
+    {
+      "check": "residual_twin_v0.13 manifest identity",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/commissioning_v0.9/runs/normal_002/fit_Q1_arx_08_1e-07.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/commissioning_v0.9/runs/normal_002/fit_Q2_arx_16_1e-07.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/commissioning_v0.9/runs/normal_002/fit_Q3_arx_32_1e-07.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/commissioning_v0.9/runs/normal_002/selection.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_00.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_02.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_03.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_04.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_05.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_06.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_07.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_08.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_09.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_10.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_11.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_12.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_13.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_00.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_02.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_03.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_04.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_05.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_06.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_07.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_08.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_09.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_10.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_11.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_12.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_13.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_00.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_02.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_03.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_04.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_05.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_06.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_07.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_08.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_09.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_10.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_11.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_12.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_13.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q1_0.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q1_1.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q1_2.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q2_0.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q2_1.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q2_2.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q3_0.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q3_1.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/recovery_v0.8/runs/confirmation_002/train_Q3_2.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/completed_handoff/AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/completed_handoff/STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/completed_handoff/docs/TEACHER_REVIEW_ACTIONS_V0.13.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/completed_handoff/docs/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/SCORES_SEALED.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/SELECTION_SEALED.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/access.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/base_Q1.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/base_Q2.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/base_Q3.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q1_linear.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q2_linear.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q3_linear.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/candidates.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_linear_0_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_linear_0_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_linear_0_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_linear_0_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_linear_0_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_linear_0_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/launch.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/outcomes.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/selection.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/summary.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/runs/pilot_001/worker.log",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/PRIOR_ART.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/config.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/io13.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/model.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/receipt.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/run.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/stderr.txt",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/stdout.txt",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/test_model.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/verify.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding local/residual_twin_v0.13/tests/attempt_001/worker.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/common9.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/metrics9.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/models.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/noise_diagnostic.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/normal_io.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/package.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/present.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/run.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/run_reporting_fix.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/verify.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/worker.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/commissioning_v0.9/worker_reporting_fix.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/config_access_audit.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/core.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/numerical_audit.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/package.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/present.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/run.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/support.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/verify.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.6/worker.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/package.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/present.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_common.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_core.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_freeze.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_run.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_test.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_verify.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.7/v7_worker.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/common.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/launch_retry.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/mechanism.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/metrics8.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/normal_admission.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/package.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/present.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/run.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/simulation.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/verify.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/recovery_v0.8/worker.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/HARDWARE.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/MODEL_PROPOSAL.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/PRESENTATION.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/PRIOR_ART.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/README.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/REPORTING_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/config.json",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/io13.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/model.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/normal_reference_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/normal_reference_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/package.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/present.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/run.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/test_model.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/verify.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding research_cycles/residual_twin_v0.13/worker.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/campaign.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/campaign_data.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/campaign_models.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/contract.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/control_study.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/controls.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/data.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/observer.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/observer_scores.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/observer_study.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/pilot.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/replay.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/score_extension.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "check": "residual_twin_v0.13 binding src/mfg_twin/velocity.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 manifest identity",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/completed_handoff/AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/completed_handoff/STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/completed_handoff/docs/TEACHER_REVIEW_ACTIONS_V0.13.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/completed_handoff/docs/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/CALIBRATION_SEALED.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/SCORES_SEALED.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/access.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q1_00.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q1_01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q1_02.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q1_03.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q1_04.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q2_00.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q2_01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q2_02.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q2_03.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q2_04.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q3_00.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q3_01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q3_02.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q3_03.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/calibration_Q3_04.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/catalog.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/launch.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/outcomes.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q1_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_N14_Q3_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q1_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q2_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_O14_Q3_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q1_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q2_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/score_P14_Q3_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/summary.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/timings.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/training_statistic_Q1.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/training_statistic_Q2.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/training_statistic_Q3.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q1_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_N14_Q3_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q1_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q2_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_O14_Q3_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q1_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q2_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_17_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_2026_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_brief_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_hold.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/truth_P14_Q3_42_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/runs/audit_001/worker.log",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/NOVELTY_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/audit_core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/config.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/evaluation.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/io14.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/receipt.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/stderr.txt",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/stdout.txt",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/test_audit.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/attack_audit_v0.14/tests/attempt_001/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/commissioning_v0.9/runs/normal_002/fit_Q1_arx_08_1e-07.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/commissioning_v0.9/runs/normal_002/fit_Q2_arx_16_1e-07.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/commissioning_v0.9/runs/normal_002/fit_Q3_arx_32_1e-07.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/commissioning_v0.9/runs/normal_002/selection.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_00.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_02.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_03.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_04.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_05.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_06.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_07.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_08.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_09.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_10.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_11.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_12.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q1_13.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_00.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_02.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_03.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_04.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_05.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_06.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_07.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_08.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_09.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_10.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_11.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_12.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q2_13.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_00.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_02.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_03.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_04.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_05.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_06.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_07.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_08.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_09.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_10.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_11.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_12.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/cal_Q3_13.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q1_0.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q1_1.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q1_2.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q2_0.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q2_1.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q2_2.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q3_0.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q3_1.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/recovery_v0.8/runs/confirmation_002/train_Q3_2.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/completed_handoff/AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/completed_handoff/STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/completed_handoff/docs/TEACHER_REVIEW_ACTIONS_V0.13.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/completed_handoff/docs/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/SCORES_SEALED.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/SELECTION_SEALED.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/access.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/base_Q1.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/base_Q2.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/base_Q3.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q1_linear.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q2_linear.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q3_linear.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/calibration_Q3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/candidates.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_linear_0_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_linear_0_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_32_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q1_rbf_64_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_linear_0_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_linear_0_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_32_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q2_rbf_64_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_linear_0_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_linear_0_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_32_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_0.5_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_0.5_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_1.0_0.001.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/fit_Q3_rbf_64_1.0_0.01.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/launch.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_L13_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q2_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_17_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_17_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_17_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_2026_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_2026_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_2026_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_42_authorized_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_42_authorized_slow.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q3_42_normal.npz",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/outcomes.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/selection.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/summary.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/runs/pilot_001/worker.log",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/PRIOR_ART.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/config.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/io13.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/model.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/receipt.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/stderr.txt",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/stdout.txt",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/test_model.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding local/residual_twin_v0.13/tests/attempt_001/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/CONTRIBUTION_DECISION.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/DESCRIPTIVE_DIAGNOSTICS.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/NOVELTY_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/PRESENTATION.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/README.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/audit_core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/comparison.png",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/config.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/evaluation.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/events.csv",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/io14.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/package.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/present.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/reference_trace.png",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/reference_trace.svg",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/strata.csv",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/summary.csv",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/test_audit.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/attack_audit_v0.14/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/common9.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/metrics9.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/models.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/noise_diagnostic.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/normal_io.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/package.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/present.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/run_reporting_fix.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/commissioning_v0.9/worker_reporting_fix.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/config_access_audit.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/numerical_audit.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/package.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/present.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/support.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.6/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/package.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/present.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_common.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_test.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.7/v7_worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/common.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/launch_retry.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/mechanism.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/metrics8.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/normal_admission.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/package.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/present.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/simulation.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/recovery_v0.8/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/HARDWARE.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/MODEL_PROPOSAL.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/PRESENTATION.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/PRIOR_ART.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/README.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/REPORTING_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/config.json",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/freeze.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/io13.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/model.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/normal_reference_comparison.png",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/normal_reference_comparison.svg",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/package.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/present.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/run.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/test_model.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/verify.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding research_cycles/residual_twin_v0.13/worker.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/campaign.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/campaign_data.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/campaign_models.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/contract.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/control_study.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/controls.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/data.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/observer.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/observer_scores.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/observer_study.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/pilot.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/replay.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/score_extension.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "check": "attack_audit_v0.14 binding src/mfg_twin/velocity.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 manifest identity",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding research_cycles/evidence_admission_v0.15/inspect_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding research_cycles/evidence_admission_v0.15/fetch_sources.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding research_cycles/evidence_admission_v0.15/download_data.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding research_cycles/evidence_admission_v0.15/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding research_cycles/evidence_admission_v0.15/DECISION.md",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding research_cycles/evidence_admission_v0.15/check_source_concerns.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/SYNTHETIC_SOURCE_CHECKS.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/DATA_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/METADATA_AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/EPISODE_METADATA.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_dataset_info.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_manuscript.pdf",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_dataset_README.md",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_README.md",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus_manuscript.pdf",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus_commit.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus_publication.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_dataset_tree.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_tree.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus_manuscript.txt",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/ADDITIONAL_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_LICENSE",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/factory_commit.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/coupling_layers.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/graph_inn.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/configuration.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/normalizing_flow.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/README.md",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/voraus_ad.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/train.py",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding local/evidence_admission_v0.15/sources/voraus/LICENSE.txt",
+      "passed": true
+    },
+    {
+      "check": "evidence_admission_v0.15 binding datasets/raw/voraus_ad/voraus-ad-dataset-100hz.parquet",
+      "passed": true
+    },
+    {
+      "check": "prior manuscript source unchanged",
+      "passed": true
+    },
+    {
+      "check": "prior manuscript PDF unchanged",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/attack_audit_v0.14/runs/audit_001/summary.json",
+      "passed": true
+    },
+    {
+      "check": "presentation source research_cycles/attack_audit_v0.14/config.json",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/residual_twin_v0.13/runs/pilot_001/selection.json",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/residual_twin_v0.13/runs/pilot_001/summary.json",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/attack_audit_v0.14/runs/audit_001/score_N14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/attack_audit_v0.14/runs/audit_001/truth_N14_Q2_17_persistent_offset.npz",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/attack_audit_v0.14/runs/audit_001/calibration.json",
+      "passed": true
+    },
+    {
+      "check": "presentation source local/residual_twin_v0.13/runs/pilot_001/base_Q2.npz",
+      "passed": true
+    },
+    {
+      "check": "presentation output figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation output figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation output figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation output figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation output figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation output figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "presentation output generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged attack",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged metrics",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged normal",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged normal_all",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged imu",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged noise",
+      "passed": true
+    },
+    {
+      "check": "older table unchanged window",
+      "passed": true
+    },
+    {
+      "check": "exactly 20 cited bibliography entries",
+      "passed": true
+    },
+    {
+      "check": "recent cited versions 18/20",
+      "passed": true
+    },
+    {
+      "check": "failed primary explicit",
+      "passed": true
+    },
+    {
+      "check": "all registered methods visible",
+      "passed": true
+    },
+    {
+      "check": "frozen primary remains failed",
+      "passed": true
+    },
+    {
+      "check": "candidate counts match prose",
+      "passed": true
+    },
+    {
+      "check": "correct denominator statements",
+      "passed": true
+    },
+    {
+      "check": "main build success",
+      "passed": true
+    },
+    {
+      "check": "main PDF build identity",
+      "passed": true
+    },
+    {
+      "check": "main no unresolved or overfull TeX diagnostics",
+      "passed": true
+    },
+    {
+      "check": "main page count",
+      "passed": true
+    },
+    {
+      "check": "main sole PDF byline",
+      "passed": true
+    },
+    {
+      "check": "main extracted pages align",
+      "passed": true
+    },
+    {
+      "check": "main page 1 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 2 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 3 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 4 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 5 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 6 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 7 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 8 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 9 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 10 text within page",
+      "passed": true
+    },
+    {
+      "check": "main page 11 text within page",
+      "passed": true
+    },
+    {
+      "check": "main no unresolved markers",
+      "passed": true
+    },
+    {
+      "check": "supplement build success",
+      "passed": true
+    },
+    {
+      "check": "supplement PDF build identity",
+      "passed": true
+    },
+    {
+      "check": "supplement no unresolved or overfull TeX diagnostics",
+      "passed": true
+    },
+    {
+      "check": "supplement page count",
+      "passed": true
+    },
+    {
+      "check": "supplement sole PDF byline",
+      "passed": true
+    },
+    {
+      "check": "supplement extracted pages align",
+      "passed": true
+    },
+    {
+      "check": "supplement page 1 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 2 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 3 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 4 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 5 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 6 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 7 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 8 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 9 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 10 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 11 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement page 12 text within page",
+      "passed": true
+    },
+    {
+      "check": "supplement no unresolved markers",
+      "passed": true
+    },
+    {
+      "check": "short conclusion",
+      "passed": true
+    },
+    {
+      "check": "no training in asset renderer",
+      "passed": true
+    }
+  ]
+}

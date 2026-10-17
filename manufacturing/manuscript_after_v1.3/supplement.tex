@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\hypersetup{pdftitle={AFTER: Supplementary material},pdfauthor={Muhammad Usman}}
+\DeclareMathSizes{10}{10}{8}{6}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\newtheorem{proposition}{Proposition}
+\newenvironment{proof}{\par\noindent\textit{Proof.}\ }{\hfill\textit{Q.E.D.}\par}
+\title{AFTER: Supplementary Material\\\large Digital Twins for Cyberattack and Recovery Monitoring in Industrial Robots}
+\author{Muhammad Usman}
+\date{}
+\begin{document}
+\maketitle
+This supplement preserves derivations, earlier experimental detail, complete comparison tables and source-admission records supporting manuscript revision 1.3. All attack/recovery observations are synthetic. The common-input IMU experiment is real-data normal prediction. The newly received voraus-AD file has undergone metadata verification only. No experiment was rerun to produce this revision.
+
+\section{Conditional return bounds}
+Let $x_t^0$ denote the uncorrupted same-plant state, $r_t$ its reference, and $y_t=x_t+n_t$ the measurement. For positive training scales, define $\|v\|_s=\max_j|v_j|/s_j$, physical deviation $d_t=\|x_t-x_t^0\|_s$ and observed discrepancy $c_t=\|y_t-r_t\|_s$. The following bounds are conditional geometric arguments, not new interval-observer theory. In particular, the empirical allowance used in the earlier experiment does not establish their assumptions.
+\input{sections/bounds}
+
+\section{Plant and command specification}\label{sec:simulation}
+\input{sections/plant}
+For phase $\theta(t)$, amplitudes $(a_1,a_2)$ and offset $\phi$, the approved positions are
+\begin{align}
+q_1^c&=a_1\sin\theta+0.025\sin(2.3\theta),\\
+q_2^c&=a_2\sin(\theta+\phi)+0.018\sin(1.7\theta).
+\end{align}
+Velocities are analytic derivatives under the causal time-warp rate. The final audit uses task N14 with $\theta=0.49t$, amplitudes $(0.28,0.37)$ and phase 0.93; O14 with $\theta=0.43t+0.008t^2$, amplitudes $(0.33,0.31)$ and phase 0.72; and P14 with $\theta=0.94t+0.18\sin(0.31t)$, amplitudes $(0.35,0.38)$ and phase 1.14. Corruption starts at index 347 and ends before 653, except the eight-sample brief offset. Joint-1 offset is 0.11 rad and slowdown rate is 0.72. Authorized changes update the approved path; unauthorized changes do not. The model state does not reset at those indices.
+
+Commissioning uses rates 0.35, 0.7 and 1.1, amplitudes $(0.22+0.04i,0.34-0.025i)$ and phase $0.5+0.3i$ for $i=0,1,2$, covering unchanged, authorized-offset and authorized-slowdown conditions. The earlier 19 normal episodes use rate $0.32+0.047i$, amplitudes $(0.23+0.012(i\bmod7),0.29+0.013(i\bmod9))$ and phase $0.4+0.06(i\bmod11)$. Later studies reuse nine for development, five for calibration and five as archived checks; the archived checks are not new independent data. Source configurations retain every earlier task and condition.
+
+The final interface excludes true states, attack schedules, executed malicious commands and actual plant parameters from inference settings. Earlier E1 code received a broader episode dictionary; source inspection and restricted-input replays support its actual information use, but that interface itself did not enforce isolation. Missing approved-command history makes command-dependent E1 monitors unknown for the rest of an episode. Those observations remain in coverage and missed-event denominators. The final seven-condition audit does not include the missing-context condition.
+
+\section{Earlier results and full final metrics}
+\subsection{E1: original recovery comparison}
+E1 comprises 216 episodes and 13 methods, with 237,600 eligible points and 135 intervention events. Twenty-seven events have missing command context. Nineteen clean episodes provide 20,900 eligible calibration points; the principal state-machine threshold search allows at most 209 alarmed points on this finite population. This differs from the final audit's point-quantile calibration. The additional constant episode band uses rank 19 of 19 episode maxima; shifted tasks do not establish exchangeability or conformal coverage. Matched-entry ablations preserve their own realized alarm burdens.
+\begin{table}[htbp]\centering\small
+\caption{E1 attack and recovery outcomes, retained from the saved presentation. Clearance counts condition on detected events with measured return.}
+\setlength{\tabcolsep}{3pt}\input{generated/attack}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{E1 additional metrics. Unknown states remain eligible, cannot count as detections, and receive AP score $-1$, below valid nonnegative scores.}
+\setlength{\tabcolsep}{3pt}\input{generated/metrics}
+\end{table}
+\subsection{E2: normal commissioning}
+The finite grid contains ARX orders 4, 8, 16 and 32 and finite impulse response lengths 16, 32 and 64, each with ridge $10^{-7}$, $10^{-5}$ or $10^{-3}$, on three plants: 63 fits. Fitting and selection precede 81 new normal episodes. The selected orders are 8, 16 and 32 with ridge $10^{-7}$. Table~\ref{tab:normalall} retains distinct prediction roles. Forced-latch probes measure normal clearance feasibility, not post-attack recovery. The hard-plant reductions in empirical allowance do not establish a probabilistic or deterministic error bound.
+\begin{table}[htbp]\centering\small
+\caption{E2 complete normal-reference comparison. Each row has 29,700 eligible observations and 108 forced-latch probes. Selected reference and selected ARX are identical and appear once.}\label{tab:normalall}
+\setlength{\tabcolsep}{4pt}\input{generated/normal_all}
+\end{table}
+\subsection{E5: complete additional metrics and plant strata}
+The following tables complement the main paper's complete 17-method audit. Alarm starts per hour use the total eligible duration of wholly benign episodes. Their high frequency for point rules reflects repeated short excursions; the metric should be read alongside occupancy. No unknown-state denominator trimming is applied to this audit. All 189 episodes and 3,213 outcomes are retained.
+\begin{table}[htbp]\centering\small
+\caption{Final audit: unadjusted point precision/recall, benign occupancy, alarm starts per benign hour and missed events.}
+\input{generated/extended}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Primary base-dual versus RBF-dual comparison by plant. Every plant has 29,700 benign points and 36 attack events.}
+\setlength{\tabcolsep}{4pt}\input{generated/strata}
+\end{table}
+\clearpage
+\input{sections/imu_reference}
+
+\section{Reproducibility, resources and preserved failures}
+The local experiment records are E1: \path{recovery_v0.8}; E2: \path{commissioning_v0.9}; E3: \path{casper_convergence_v0.11}; E4: \path{return_bound_v0.12}; and E5: \path{residual_twin_v0.13} followed by \path{attack_audit_v0.14}. Each has source/configuration identities, fitted artifacts where applicable, dependencies, commands, logs, outcomes and verification records. Their split and threshold policies are version-specific and must not be substituted for one another. Later outcome-informed design remains exploratory relative to earlier exposed evidence.
+
+Python 3.12.15 and NumPy 1.26.4 are recorded for the research environment; the IMU fits additionally use TensorFlow 2.16.2. Presentation uses Matplotlib 3.10.0. The workstation is macOS/arm64. The IMU run recorded 18 logical processors; subsequent restricted hardware probes failed and do not supply a verified RAM specification. No GPU result or hardware deployment latency is claimed. The source package records exact interpreter paths and commands without redistributing raw recordings.
+
+E1 consumed 229.20 seconds supervised wall time, 228.07 seconds worker CPU and 167.25 MiB sampled peak memory. E2 consumed 14.75 seconds wall, 14.30 seconds CPU and 113.97 MiB sampled memory. E1's initial launch failed before worker initialization because process monitoring was blocked. E2's first attempt stopped on a reporting-key collision after selection and before fresh generation; a separately recorded repair preserved byte-identical fits and selection. Both failures remain in the experimental record. E5's final audit has no failed run or retry.
+
+The final audit's limits were 120 seconds wall, 90 seconds worker CPU, 1 GiB monitored resident memory and 128 MiB output. Its measured peak from worker \texttt{getrusage} was 99.53 MiB, compared with 90.17 MiB sampled by the supervisor. The shared implementation caches references and scores across variants, so dividing total time by 17 is not a valid per-method benchmark. The manuscript does not infer real-time guarantees from this bounded local run.
+
+The final audit freeze has SHA-256
+\begin{center}\small\url{b48a0c3927b465559a8f7b372c2d26ed7148642c97d2435de83995a0ad3be021}.\end{center}
+The sealed result package has SHA-256
+\begin{center}\small\url{987d8904dda988c7ccd51d61a5e52cf8e162e8f0156286aad89c385813b785dc}.\end{center}
+These identities bind provenance, not scientific validity. The revision's asset receipt binds each generated table and figure to saved inputs. Raw observations, vendor manuscripts and private environments are excluded from the editable manuscript archive.
+
+\section{Independent data and published-comparator admission}
+\subsection{voraus-AD and MVT-Flow}
+The original source is \url{https://media.vorausrobotik.com/voraus-ad-dataset-100hz.parquet}, linked by the author repository \url{https://github.com/vorausrobotik/voraus-ad-dataset}. The file has 1,115,942,833 bytes and SHA-256
+\begin{center}\small\url{c90ab1c78af52651b954d41787f7e89d750f0a128b57600b0e5ceec22621f704}.\end{center}
+The dataset is CC BY-NC-SA 4.0; the inspected code has a separate MIT license. The primary paper is published in IEEE Transactions on Robotics, volume 40 (2024), pages 438--451, DOI \url{10.1109/TRO.2023.3332224}. Its first arXiv version is dated 8 November 2023.
+
+Metadata-only inspection finds 2,321,690 rows, 137 columns and 2,122 execution identifiers. Labels and settings are constant within each execution. Setting 72 (PRE\_A) supplies all 948 original training executions; the test contains 419 normal and 755 anomalous executions. Per-execution time starts at zero, increases strictly, and has increments from 0.00845194 to 0.01211095 seconds. The largest train and test executions both contain 1,164 rows. These relative times do not establish absolute acquisition order. No process-signal development or test scoring has occurred.
+
+The code revision is
+\begin{center}\small\url{a91a86a642d23df58833b792a53de01edfd81abe}.\end{center}
+The manuscript describes MVT-Flow, whose code fits the standardizer on normal training data and evaluates a full-execution likelihood. Symmetric temporal convolutions and full-execution scoring make this an offline comparator. Defaults include four coupling blocks, clamp 1.2, width scale two, Adam learning rate $8\times10^{-4}$, batch size 32 and 70 epochs. The test AUROC is computed each epoch, but the inspected code saves the fixed final epoch; this alone does not prove test-based checkpoint selection.
+
+Three discrepancies require explicit treatment. The training loss uses $\|z\|^2-\log|J|$, while the paper and per-sample scoring function use $\tfrac12\|z\|^2-\log|J|$; this changes the relative weighting. The paper describes three convolutions, while the default released block constructs two. A truncation assignment in test padding is overwritten, although the received original release has no test execution longer than the maximum training length, so no effect on that release has been demonstrated. Static inspection and synthetic arithmetic support these observations. They do not establish that the published results used this exact code revision or are invalid.
+
+The source is admitted for a separate real-robot fault/reference study. MVT-Flow is eligible for author-code evaluation under a disclosed protocol, but faithful reproduction remains unresolved until objective, architecture and runtime correspondence are established. Any modified implementation must retain a separate designation. The original test signal values remain unopened. A new partition and feature contract is required before fitting.
+
+\subsection{FactoryNet release boundaries}
+The current manuscript is arXiv:2605.09081v5, dated 8 October 2026; its record reports acceptance at AI4Physics and FMSD workshops associated with ICML 2026, not verified main-conference publication. The author data repository is \url{https://huggingface.co/datasets/Forgis/FactoryNet}, inspected at revision \url{3bea3cfc10545d898604f93170108576fd46d518}. Code was inspected at \url{https://github.com/Forgis-Labs/factorynet}, revision \url{651f066d97b704f0824687f1086eeb8f0422a8f3}. No FactoryNet observations were downloaded.
+
+The pinned data card reports 56,591 executions, including 14,847 real and 41,744 simulated. These are author-reported counts, not locally verified observations. The card says its available synthetic snapshot contains the older Isaac Sim 4.5 campaign while the advertised Isaac Sim 5.1 campaign is still uploading. The repository also contains an older description and does not establish a complete mapping to every current-paper experiment. This prevents a blanket claim that the latest full experiment is immediately reproducible.
+
+The corpus includes new recordings and imported voraus-AD, AURSAD and CNC sources. Imported recordings cannot be counted again as independent acquisitions. Context contains fault labels and must not enter a detector indiscriminately. Available signals and missing channels differ by embodiment. Dataset subsets and repository code have distinct licenses. Trusted-command provenance, attack semantics and physical-return annotations are not established by a setpoint field alone. Admission therefore remains partial and no FactoryNet performance is reported.
+
+\clearpage
+\input{sections/return_bound}
+\end{document}

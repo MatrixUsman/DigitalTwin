@@ -1,0 +1,28 @@
+All observations in the attack and recovery simulations are synthetic. The separate IMU prediction study uses a received public nominal recording and is described independently in Supplement~\ref{app:imu}. The simulated plant is a horizontal two-joint point-mass arm governed by
+\begin{equation}
+ M(q)\ddot q+C(q,\dot q)+B\dot q=\tau.
+\end{equation}
+Writing $a=m_2l_1l_2$ and $d=m_2l_2^2$,
+\begin{align}
+ M(q)&=\begin{bmatrix}(m_1+m_2)l_1^2+d+2a\cos q_2&d+a\cos q_2\\d+a\cos q_2&d\end{bmatrix},\\
+ C(q,\dot q)&=a\sin q_2\begin{bmatrix}-2\dot q_1\dot q_2-\dot q_2^2\\\dot q_1^2\end{bmatrix}.
+\end{align}
+A proportional--derivative (PD) controller requests componentwise saturated torque
+\begin{equation}
+ \tau^*=\operatorname{clip}\{K_p(q^c-q)+K_d(\dot q^c-\dot q),-20,20\},
+\end{equation}
+with $K_p=\operatorname{diag}(18,12)$ and $K_d=\operatorname{diag}(4,3)$. Where actuator lag is present, $\dot\tau=(\tau^*-\tau)/T_a$. Nominal masses are $(1,0.8)$ kg, lengths $(0.5,0.4)$ m, and damping coefficients $(0.08,0.06)$. The nominal physics reference retains these parameters; Table~\ref{tab:plants} specifies the actual plants.
+
+\begin{table}[htbp]\centering\small
+\caption{Simulated plant configurations. Mass and damping entries multiply the nominal values; noise multiplies the stated sensor standard deviations.}\label{tab:plants}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lcccrr}\toprule
+Plant & Mass factors & Damping factors & Lengths (m) & Lag (s) & Noise\\\midrule
+Q1 & (1.10,0.86) & (0.80,1.20) & (0.48,0.42) & 0 & 1.0\\
+Q2 & (0.88,1.15) & (1.30,0.85) & (0.53,0.37) & 0.03 & 1.0\\
+Q3 & (1.16,1.06) & (0.90,1.40) & (0.46,0.43) & 0.06 & 1.5\\\bottomrule
+\end{tabular}
+\end{table}
+
+Position and velocity measurements have independent, zero-mean Gaussian noise with standard deviations of 0.0005 rad and 0.002 rad/s before applying the plant multiplier. Each episode contains 1,200 observations at 50 Hz. We integrate with fourth-order Runge--Kutta, using eight substeps per observation, and check a short trajectory with actuator lag against a separate SciPy integration. That check supports numerical consistency. Physical fidelity remains limited: the model excludes gravity, contact, flexibility and thermal effects, and has not been validated against measurements from a real robot.
+

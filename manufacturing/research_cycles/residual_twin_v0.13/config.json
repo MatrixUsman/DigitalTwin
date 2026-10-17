@@ -1,0 +1,24 @@
+{
+  "study_id": "manufacturing-residual-twin-v0.13",
+  "warmup": 100,
+  "command_lags": [1, 4, 16, 32],
+  "basis_counts": [32, 64],
+  "width_factors": [0.5, 1.0],
+  "ridges": [0.001, 0.01],
+  "development_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+  "calibration_indices": [9, 10, 11, 12, 13],
+  "seeds": [17, 42, 2026],
+  "normal_conditions": ["normal", "authorized_offset", "authorized_slow"],
+  "tasks": [
+    {"id":"K13","kind":"multisine8","amplitude":[0.30,0.36],"frequency":0.58,"phase":1.05},
+    {"id":"L13","kind":"chirp8","amplitude":[0.32,0.35],"frequency":0.42,"phase":0.95},
+    {"id":"M13","kind":"modulated8","amplitude":[0.29,0.39],"frequency":0.89,"phase":0.65}
+  ],
+  "entry_quantile": 0.99,
+  "return_tolerance": 0.1,
+  "return_windows": [5, 41],
+  "dwell": 10,
+  "probe_indices": [100, 320, 620, 900],
+  "probe_horizon": 250,
+  "limits": {"wall_seconds":120,"cpu_seconds":90,"rss_bytes":1073741824,"output_bytes":52428800}
+}

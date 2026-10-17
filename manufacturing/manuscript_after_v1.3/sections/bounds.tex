@@ -1,0 +1,27 @@
+\subsection{Conditional error bounds}
+\begin{proposition}
+If $\|x_t^0-r_t\|_s\le b_t$ and $\|n_t\|_s\le\eta_t$, then
+\begin{equation}
+ \max(0,c_t-b_t-\eta_t)\le d_t\le c_t+b_t+\eta_t.
+ \label{eq:bound}
+\end{equation}
+\end{proposition}
+\begin{proof}
+Write $x_t-x_t^0=(y_t-r_t)-n_t-(x_t^0-r_t)$ and apply the triangle and reverse triangle inequalities. Aligned scalar errors attain the extremes, so scalar allowances alone do not generally permit tighter bounds.
+\end{proof}
+
+A sufficient return condition at tolerance $\delta$ is $c_t+b_t+\eta_t\le\delta$. This gives a simple feasibility test before any alarm experiment.
+\begin{proposition}
+Suppose reference and measurement errors lie in coordinate boxes with half-widths $b_{t,j}$ and $\eta_{t,j}$. Return within $\delta$ holds for every pair in those boxes exactly when
+\begin{equation}
+ \max_j\frac{|y_{t,j}-r_{t,j}|+b_{t,j}+\eta_{t,j}}{s_j}\le\delta.
+ \label{eq:box}
+\end{equation}
+If $b_{t,j}+\eta_{t,j}>\delta s_j$ in any coordinate, no observation can satisfy this condition.
+\end{proposition}
+\begin{proof}
+In each coordinate, the two admissible errors can align against the measured displacement. Their summed magnitude attains the triangle-inequality bound. The observed absolute displacement is nonnegative, yielding the infeasibility statement.
+\end{proof}
+
+These statements are conditional geometric facts. The simulated sensors have unbounded Gaussian noise, and the experiment uses an empirical discrepancy allowance rather than a verified deterministic enclosure. Specifically, the tested rule requires $c_t+b\le\delta$, where $b$ is the largest observed normal discrepancy. It is a heuristic motivated by the upper-bound form, not an implementation of a proven safety certificate. Because $b$ contains both model error and noise, interpreting it as pure reference uncertainty would be incorrect. A dwell period cannot restore feasibility when $b>\delta$.
+

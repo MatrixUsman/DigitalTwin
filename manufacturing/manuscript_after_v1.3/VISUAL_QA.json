@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-17T19:31:16.479702+00:00",
+  "reviewer": "Codex, same authoring session; not independent human review",
+  "render": "Poppler pdftoppm, 100 dpi PNG",
+  "documents": {
+    "main": {
+      "pdf_sha256": "3b68a6e97504cf5a202d29011880341914f39bc2df3a7da00c9798bd07a82f5c",
+      "pages": 11,
+      "page_renders": {
+        "page-01.png": "5bace709d9b6fe84e8d69833bd62fa97fa1d1611ded5a9ad6eb0b9bcc1bb9836",
+        "page-02.png": "80b9c339121facc03868620c132958d6c31c5679df20b77312934db2a8d264a8",
+        "page-03.png": "325c3826c100f4258b01f06f92b53bfe4bfdefc0df9713afe0ca1477c0962012",
+        "page-04.png": "ff36b5ef3603cd9498d97c8cc57ca550da42f58cc15ca1908875c417340be58a",
+        "page-05.png": "97d56491e353ac34d2034793fb055e43b9df5af8b5380974d2d450b32b3a68f6",
+        "page-06.png": "ba9df41b0aa75b76e70b6db0892bf8f757254c652ce5ff2f734705cef8bcfd4c",
+        "page-07.png": "52d02f3e07d50f04238261d5ed4ced6065c909611305d808683b7baba97a07a6",
+        "page-08.png": "1acd414d2144b1460b67059d495c26abdcb6f9006b47e7f0641e70340e344756",
+        "page-09.png": "57eb8d001fe0582fea2cb0af09b046a396316ec2223d6eea337859f8c09921b6",
+        "page-10.png": "138c60b09d12c754441188ad11f3657362bd8eb65c3fc1c8f179b52fdad449db",
+        "page-11.png": "37167b68cc413c460ac58092070fda00faf97cffe49b11cd446d0e2215a41989"
+      },
+      "all_pages_visually_reviewed": true
+    },
+    "supplement": {
+      "pdf_sha256": "300486db8f2b234e62b8ecc2ada658d60c12eaade7c7d6b76b5d09ea4987c1ba",
+      "pages": 12,
+      "page_renders": {
+        "page-01.png": "afb0624bda24185ae9e980b6e005b79f8dac31617e8da02f7771a071e9c6c4c4",
+        "page-02.png": "be6292f0ea3e7fd6f7d37b26b2c82bbd93ccdcbf664feec9863f4408bb4f9657",
+        "page-03.png": "b5926cd9918db9eb1378be48c2557af1a7170bb0e9ef3b1bcdec8776646b67d9",
+        "page-04.png": "0a96d58de9cb8557dd9a026d65113dbef6e7d7859fb48223e458f5f33491c292",
+        "page-05.png": "e479efe4107f5c09fccee41220d6eac049756e0aa78cf24d1192dd4fd591c6b2",
+        "page-06.png": "19db02418acbc23e2b3afbf62afe181d05c1dee4a31923193ae8e6200d2096ed",
+        "page-07.png": "cc85df122836beca441e3b6163a31979090f2ac733714c759b19707b49d7335d",
+        "page-08.png": "b7952ab4c01ec91aa58a4471df18d9c3fe195104083e19243b1f509c1e3fa5fb",
+        "page-09.png": "0696907a96d09679693fe88a9ddef5beb624bf2bdae61292bab1ff2d1650a1be",
+        "page-10.png": "6a19a4602c976254e599318e3c7861107a26fa3574df80c21722940af86a7b2a",
+        "page-11.png": "3f317ef2efaf98e862521404965f95e5b3dd8e4c2bfd8d391a63782cbe798307",
+        "page-12.png": "b3e9dc73ab392a2eb6352b1f7078d71aa6708608969f7e8a6ef17129f15f46df"
+      },
+      "all_pages_visually_reviewed": true
+    }
+  },
+  "changes": "Corrected clipped lower model boxes and clarified alarm-state level labels. Latest main pages 4 and 9 re-inspected; remaining nine main render hashes unchanged. All twelve supplement pages inspected.",
+  "findings": "No remaining clipped content, overlapping text, missing glyphs, unresolved references or illegible tables/figures observed."
+}

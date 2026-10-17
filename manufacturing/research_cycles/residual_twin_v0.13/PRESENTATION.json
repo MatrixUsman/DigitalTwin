@@ -1,0 +1,17 @@
+{
+  "interpreter": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-plots-v03/bin/python",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.0",
+  "input_sha256": {
+    "summary.json": "9e847829087e040a8d9572c9eab4b2f73880876e0ef4943b128bc7dcd06b7c32",
+    "selection.json": "ca8676ffd6ef5fd69e715eead3424b66a6aea36cff5190653abe111ad145e5c8",
+    "candidates.json": "962cda2bb0abf8957386a6d4072f8b5521a2698f5f47c00d32c82903168463f2",
+    "supervisor.json": "cf72bbf39319e08ef3688d3aa0fe5f4e2fa896d719edf9425d90b77e2c05da37"
+  },
+  "outputs": {
+    "RESULTS.md": "36924081b262eef08ff996fcdbcf2bceae650a2bea7fcd7302aa29099ae17def",
+    "metrics.csv": "c07181a02f7ae95da89e855c4aa9206ec99b19893152d158fbce81ffa5219373",
+    "normal_reference_comparison.png": "8cba612617f839dc62727914e35d4ebfc743f4c4eae9e66028bc4fafede3942c",
+    "normal_reference_comparison.svg": "85524fd6c97e14ad6522d869e6fcbbb180e490d9a5cac7d221e1287ae06ba463"
+  }
+}

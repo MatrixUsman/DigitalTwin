@@ -1,0 +1,17 @@
+{
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "1.26.4",
+  "matplotlib": "3.10.0",
+  "verified_run_sha256": "2f1369b5eb55e915b33f277d834ad826bfb04a41ee16b2a6fd903290bcc65aa0",
+  "outputs": {
+    "RESULTS.md": "15b84e0a36bf384cda979fd6ff493766373f0b575f0a485509623615e3d92f50",
+    "summary.csv": "3435c94b23aa140c35a4caca32f109436056f1a29f1b74e6dae4bc64e2f936e4",
+    "events.csv": "2cb3b9d9c526700b02bb9a28acf641d3cc4741bb42c03de4630b70af7e00f984",
+    "strata.csv": "41b084d873b61d7eba14e5a56990af06c49ff17f082b3376a17f808f4a3ba1ef",
+    "DESCRIPTIVE_DIAGNOSTICS.json": "3add645f00e28a4ef430e2acf94117116c2a532af47d97b850de1bdcaf1fa0e8",
+    "comparison.png": "4996b83ed4892c8a94413da8350a00d2ab52ee3c9f2279d7556df658bdf9c383",
+    "comparison.svg": "776d8885bc2e4d75b8e47f1c71f84b74774cd7f3e7f731c4933ea0f094fa0122",
+    "reference_trace.png": "3715148b706c231b5f7c8e4a2845495aa51a30b22544b2b871e475502038bd83",
+    "reference_trace.svg": "f7372d4eed137616f7572ced5cca4885a02078f9f0c8c824b5ffc7faf545a901"
+  }
+}
