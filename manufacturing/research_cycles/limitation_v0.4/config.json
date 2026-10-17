@@ -1,0 +1,20 @@
+{
+  "study_id": "manufacturing-limitation-v0.4",
+  "source_run": "local/baseline_training_v0.3/runs/training_001",
+  "models": ["mean", "persistence", "ar4", "cnn_seed17", "cnn_seed42", "cnn_seed2026"],
+  "scores": ["point", "mean45", "mean450", "cusum"],
+  "design_stop": 4096,
+  "calibration_stop": 8192,
+  "evaluation_stop": 16384,
+  "threshold_quantile": 0.99,
+  "durations": [5, 45, 450],
+  "onsets": [8576, 9600, 10624, 11648, 12672, 13696, 14720],
+  "hold_fractions": [0.25, 0.5, 1.0],
+  "playback_rates": [0.75, 0.5, 0.25],
+  "gyro_x_biases": [0.5, 1.0, 2.0],
+  "cusum_drift": 1.5,
+  "cusum_increment_cap": 25.0,
+  "history": 45,
+  "post_window": 512,
+  "limits": {"wall_seconds": 600, "cpu_seconds": 300, "rss_bytes": 1073741824, "output_bytes": 52428800}
+}
