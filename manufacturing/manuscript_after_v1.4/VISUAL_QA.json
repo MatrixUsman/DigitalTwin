@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-17T20:13:03.241936+00:00",
+  "pdf": "output/pdf/AFTER-Muhammad-Usman-v1.4.pdf",
+  "pdf_sha256": "f068f7e7371c616239d04b16b2fd0665b680e304de09c3aa4c1d2313055639ec",
+  "pages": 15,
+  "inspection": "All 15 pages inspected visually; final bibliography-only revision changes pages 14 and 15, both re-inspected. Pages 1\u201313 are byte-identical renders to the inspected prior build.",
+  "checks": [
+    "Readable 10-point body in two columns; headings distinguish nine main sections and three internal appendices.",
+    "All seven scientific figures have legible labels and captions, with synthetic/real-data scope explicit.",
+    "Tables preserve all final methods, all CNN seeds, prior-study controls and diagnostic groups.",
+    "Equations, source hashes and links remain inside the page; no missing glyphs or unresolved citations observed.",
+    "Reference spacing repaired using ragged-right bibliography; final columns balanced with one explicit column break.",
+    "No separate supplementary PDF produced."
+  ],
+  "changed_after_initial_review": [
+    "page-14.png",
+    "page-15.png"
+  ],
+  "render_sha256": {
+    "local/manuscript_after_v1.4/render_007/page-01.png": "734a6d72e13a292acb95631a5ed15bae26957741397894b90d264f644c875a55",
+    "local/manuscript_after_v1.4/render_007/page-02.png": "9c621c2e1a788a14e07c9cdcad5c46546eb2096ac78851d725c110b0a11745ca",
+    "local/manuscript_after_v1.4/render_007/page-03.png": "bdbb8e44fac7b0c35b78c1a17d33f0ed951cb779451c5161b85e0a38c76d81d7",
+    "local/manuscript_after_v1.4/render_007/page-04.png": "26463262976438281dfcb6f5df231c137744452a8a3f9ec14997e01bda8b3298",
+    "local/manuscript_after_v1.4/render_007/page-05.png": "5d4b93ac4e9a66cd7d5c94acf4b283adcbc0d51ae8dbfc35541bf2dc05caea19",
+    "local/manuscript_after_v1.4/render_007/page-06.png": "8b5b7db9084f777d24879a8c679ebb2f75b29df7abb0892286a5df709c031095",
+    "local/manuscript_after_v1.4/render_007/page-07.png": "7227a88b5faee32cfbeb9366585ac1fb021103ac1437266aed68d042f4e9eaa1",
+    "local/manuscript_after_v1.4/render_007/page-08.png": "78c614afd9d4ffa61e5c28f287562f60f4f652378ee19732f13f1ca60d9115f4",
+    "local/manuscript_after_v1.4/render_007/page-09.png": "8772f5a8d7c2d8c34beb4c5865f70deaa9a308c954efabbe67de9bcaed0d2d88",
+    "local/manuscript_after_v1.4/render_007/page-10.png": "4577f32fd39e92f8a20364c1750e8c727af0aeacb7e0956d235d3cd68f6d06da",
+    "local/manuscript_after_v1.4/render_007/page-11.png": "f6aaa720e984246d59209a48a9ff60150ed8b124ecf69177e8c7fd5e8038f17a",
+    "local/manuscript_after_v1.4/render_007/page-12.png": "9f522b762b0c8f950ee3bd802c6d6a20698f879fb3c3444a30855ebc99437d65",
+    "local/manuscript_after_v1.4/render_007/page-13.png": "b905d84579951492d8dd995a8b4ed1f1716d99f8e1cd9e78c60a506fbac31e55",
+    "local/manuscript_after_v1.4/render_007/page-14.png": "dd7a855263511e5a4b902f5d3562db9f2865f78f676dc38047a3722bb1304e89",
+    "local/manuscript_after_v1.4/render_007/page-15.png": "30fcdc0a068157748a8a7e3819640b2d55b99d10de6fa6fb39f51d398dc19120"
+  },
+  "reviewer_scope": "Same-assistant visual QA, not external human or independent scientific review."
+}

@@ -1,5 +1,8 @@
 # Teacher review and model-first revision record
 
+**Single-paper update, 18 October 2026:** The user's later request uses `bxae132.pdf` as a structural exemplar and explicitly overrides separate supplementary delivery. [Revision 1.4](../manuscript_after_v1.4/REVIEW_RESPONSE.md) integrates the supporting material into one 15-page article with seven figures, detailed methods/experiments/metrics/baselines, two algorithms and all prior outcomes. The [mapping](../manuscript_after_v1.4/STRUCTURE_MAPPING.md) records which example sections apply. Scientific findings and unresolved novelty/reproduction/author approval are unchanged. No separate revised supplement was produced.
+
+
 **Editorial update, 18 October 2026:** [Revision 1.3 response](../manuscript_after_v1.3/REVIEW_RESPONSE.md) completes the 11-page main article, separate supplement, 20-reference expansion, model/experiments/baselines/splits/metrics/optimization/ablations/cost sections and short conclusion. Independent original voraus-AD/MVT-Flow source admission is complete at the documented metadata/static-code level. The candidate improvement and novelty gates remain failed/unresolved; faithful compatible paper-level reproduction and author approval remain open. The following v0.13/v0.14 entries are historical and are not silently rewritten.
 
 

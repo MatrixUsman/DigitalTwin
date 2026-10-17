@@ -1,0 +1,571 @@
+{
+  "utc": "2026-10-17T20:32:23.833046+00:00",
+  "scope": "Title-only local editorial verification, not new scientific validation",
+  "passed": true,
+  "checks": 140,
+  "pages": 15,
+  "pdf_sha256": "fd93a66a35eeb324476e2b2ca6a48f3c446737a22d167175c83d55df6bbe1ca1",
+  "underfull_diagnostics": 7,
+  "details": [
+    {
+      "check": "base manifest preserved",
+      "passed": true
+    },
+    {
+      "check": "base binding: local/manuscript_after_v1.4/completed_handoff/AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: local/manuscript_after_v1.4/completed_handoff/STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: local/manuscript_after_v1.4/completed_handoff/docs/TEACHER_REVIEW_ACTIONS_V0.13.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: local/manuscript_after_v1.4/completed_handoff/docs/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/ASSET_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/BASE_IDENTITY.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/CLAIM_LEDGER.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/MAIN_BUILD_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/README.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/REFERENCE_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/REFERENCE_INDEX.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/REVIEW_RESPONSE.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/SOURCE_ARCHIVE.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/STRUCTURE_MAPPING.md",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/VISUAL_QA.json",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/assemble_revision.py",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/audit.py",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generate_assets.py",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/main.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/package.py",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/references.bib",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/references.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/render_references.py",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: manuscript_after_v1.4/sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "base binding: output/AFTER-Muhammad-Usman-v1.4-latex.zip",
+      "passed": true
+    },
+    {
+      "check": "base binding: output/pdf/AFTER-Muhammad-Usman-v1.4.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: REFERENCE_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: references.bib",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: ASSET_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: CLAIM_LEDGER.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: REFERENCE_INDEX.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: references.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged source: figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "only authorized main-text replacements",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: main.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: references.bib",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: references.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source preserved: sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "PDF matches build receipt",
+      "passed": true
+    },
+    {
+      "check": "15 pages including appendices and references",
+      "passed": true
+    },
+    {
+      "check": "PDF title metadata",
+      "passed": true
+    },
+    {
+      "check": "sole requested author metadata",
+      "passed": true
+    },
+    {
+      "check": "visible selected title",
+      "passed": true
+    },
+    {
+      "check": "visible requested byline",
+      "passed": true
+    },
+    {
+      "check": "no build issue: Overfull",
+      "passed": true
+    },
+    {
+      "check": "no build issue: undefined",
+      "passed": true
+    },
+    {
+      "check": "no build issue: Missing character",
+      "passed": true
+    },
+    {
+      "check": "no build issue: ! LaTeX Error",
+      "passed": true
+    },
+    {
+      "check": "20 bibliography entries preserved",
+      "passed": true
+    },
+    {
+      "check": "only pages 1 and 2 changed in render",
+      "passed": true
+    }
+  ]
+}

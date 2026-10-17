@@ -1183,3 +1183,69 @@ manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v
 The first command records the earlier metadata audit, not permission to repeat or broaden observation access. Download commands/receipts and their initial sandbox DNS limitation, approved network escalation and PyArrow restricted-hardware warnings are preserved in the source-admission files. No paid compute, lengthy training, publication, external message or sibling-project change occurred. Existing shared playbook procedures cover this work; root instructions and skills remain unchanged.
 
 **Next bounded scientific action:** specify permitted features, original-training development/calibration partitions and paper-to-code discrepancy handling for the admitted voraus-AD/MVT-Flow offline track; keep original test signals protected until the contract and bounded compatibility pilot are fixed. No additional detector component is authorized merely by finishing the editorial revision. A distinctive worthwhile contribution, compatible published-method reproduction and author review remain unresolved; the teacher response does not claim otherwise.
+
+
+### 2026-10-18 — MFG-045 — Teacher-exemplar structure, one paper and saved-result graphs
+
+The user supplied `/Users/matrixusman/Downloads/bxae132.pdf` and requested comparable structure and explanatory detail. During work the user required **one paper with no separate supplement** and additional graphs. Applied the shared academic-research-suite writing workflow inline and the PDF skill. Read/extracted and visually inspected all 12 exemplar pages; the original file remains unchanged (SHA-256 `fb6189471fcaaca2c2f929727e86f13a196aa9ef919fbcb4b02c9ba688b7ab84`). Its structure is documented in `manuscript_after_v1.4/STRUCTURE_MAPPING.md`; no biomedical content, performance claims or copyrighted figures were imported.
+
+Created isolated `manuscript_after_v1.4/` from the preserved revision 1.3. The final **15-page, single PDF** uses nine main sections: Introduction, Literature Review, Methods, Experiments, Evaluation Metrics, Comparison Methods and Baselines, Results, Discussion and Conclusion. It includes explicit model/state/trust definitions, ARX/RBF equations/objective, two fitting/replay algorithms, data/feature boundaries, preprocessing and chronology, finite tuning/stopping/calibration, five validation studies, all 17 final methods, component effects, costs, short conclusion and in-paper appendices. Earlier supporting derivations, IMU study, full earlier tables, residual diagnostic and source identities are integrated. The title stays provisional and the byline stays Muhammad Usman; no new authorship facts were inferred.
+
+Seven figures include three new saved-result presentations: all 30 correction candidates, detection/benign/recovery contrasts, and matched RBF component removals. `FIGURE_VALUES.json` stores each new plotted value; `ASSET_RECEIPT.json` binds nine input sources and 21 generated/retained outputs. All old generated table bytes and the retained IMU/uncertainty plots are unchanged. No fitting, simulation, new observations, thresholds or measurements were generated. All claims and the failed primary decision remain unchanged.
+
+Final PDF: `output/pdf/AFTER-Muhammad-Usman-v1.4.pdf`, SHA-256 `f068f7e7371c616239d04b16b2fd0665b680e304de09c3aa4c1d2313055639ec`, 268,139 bytes. Source ZIP: `output/AFTER-Muhammad-Usman-v1.4-latex.zip`. `AUDIT.json` records **1,338 passing checks**, including all 303/757/34 bindings in v0.13/v0.14/v0.15 and all 49 prior-revision bindings. All 20 cited keys match the unchanged BibTeX sources; 18 cited publication versions are 2024–2026. The earlier reference-verification limits remain explicit; this task did not claim a new literature search.
+
+All 15 final pages were inspected. Final bibliography spacing/column balance changed only pages 14–15, both re-inspected; renders of pages 1–13 match the already inspected build exactly. No overfull boxes, unresolved references or missing glyphs remain. Seven underfull-line diagnostics were visually reviewed. `VISUAL_QA.json` binds the final renders. This is same-assistant review, not independent scientific replication or human approval.
+
+Preserved failures/repairs: first offline build lacked the 10-point class file; second lacked a square-symbol font. Existing cached typography replaced them without downloads/packages. Early 19/17/16-page drafts were condensed/relaid out to 15 pages. A malformed read-only tool expression, a duplicate-target patch and a paragraph-selection helper failed; resulting state was inspected and corrected. The first audit incorrectly counted the preamble's section-command definition as a content heading; limiting its parser to the document body resolved it without changing the paper. Build attempts remain in ignored `local/manuscript_after_v1.4/pdf_build/`. The initial artifact-operation marker expected two PDFs before the user's one-paper correction; actual final delivery is one PDF.
+
+Exact commands from `/Users/matrixusman/CUI/DigitalTwin`:
+
+```sh
+pdftotext -layout '/Users/matrixusman/Downloads/bxae132.pdf' manufacturing/local/manuscript_after_v1.4/reference/bxae132.txt
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.4/assemble_revision.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.4/render_references.py
+manufacturing/.venv-plots-v03/bin/python manufacturing/manuscript_after_v1.4/generate_assets.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.4/build_pdf.py --document main
+pdftoppm -r 110 -png manufacturing/output/pdf/AFTER-Muhammad-Usman-v1.4.pdf manufacturing/local/manuscript_after_v1.4/render_007/page
+manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.4/audit.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.4/package.py
+```
+
+The final package manifest and archive receipt record actual file hashes after this handoff. Repeated builds were editorial only. No raw signal inspection, dataset upload, external message, paid compute, lengthy training, publication, system installation, Git staging/commit/push or sibling-project mutation occurred. Shared playbook changes record only the reusable adaptation procedure.
+
+**Next bounded action:** author/teacher review of the integrated manuscript. Scientific work remains the permitted-feature and split contract plus paper/code discrepancy decision for the separate admitted voraus-AD/MVT-Flow track before a bounded compatibility pilot. Its original test signals remain unopened. A worthwhile distinct contribution, compatible full published-method reproduction and human approval remain unresolved; structural polish does not establish them.
+
+
+Final packaging check: all 40 archived source/asset files pass CRC and exact-byte checks, and every LaTeX input/figure reference resolves inside the archive. It contains one document and no raw dataset, example PDF or separate supplement. Final Git status showed several revision files already staged by an actor outside this task's recorded Git commands; this assistant issued only read-only Git commands and left that index state intact. Package receipts and handoff snapshots were refreshed after this observation.
+
+
+### 2026-10-18 — MFG-046 — Model-specific title options
+
+The user requested an improved title in the style of the teacher's supplied article. Used the academic-research-suite writing guidance, current manuscript/evidence and shared publication standards. Saved three distinct options in `docs/TITLE_OPTIONS_V1.4.md`: architecture-centered (recommended ARX–RBF motion modeling), digital-twin context, and motion-model-mismatch problem. The recommendation names implemented components and the detection/recovery task without asserting a successful improvement or validated physical twin.
+
+A limited web collision screen returned no matching title in its leads; this is explicitly not uniqueness proof or a novelty audit. No new external technical claim was admitted. The researcher has not selected a replacement, so the sealed v1.4 LaTeX/PDF/ZIP and experiment packages remain unchanged. Refreshed status only; no training, data access, external contact, publishing, Git write or sibling change. Next: apply the chosen wording in a separate title-only manuscript revision and verify title/metadata/layout/package consistency. No new scientific result is implied.
+
+
+### 2026-10-18 — MFG-047 — Selected title applied to the integrated PDF
+
+The user requested the PDF with the recommended title. Applied **ARX–RBF Motion Modeling for Cyberattack Detection and Recovery Monitoring in Industrial Robots** to visible title and PDF metadata in a separate `manuscript_arx_rbf_v1.5/` source package. Removed only the obsolete “AFTER names the investigation” clause; its scientific caveat remains. All other manuscript text and scientific assets are unchanged. Used the existing academic-research-suite writing guidance and PDF skill for this bounded editorial task.
+
+Built offline with the existing Tectonic/compiler cache. Output `output/pdf/ARX-RBF-Muhammad-Usman-v1.5.pdf` has 15 pages, 268,033 bytes and SHA256 `fd93a66a35eeb324476e2b2ca6a48f3c446737a22d167175c83d55df6bbe1ca1`. All 57 prior-package bindings remain intact; 140 title/source/build checks pass. Rendered all 15 pages: pages 1–2 were visually inspected; pages 3–15 have identical PNG bytes to the prior inspected final renders. No overfull boxes, unresolved references or missing glyphs; seven inherited underfull diagnostics remain visually acceptable. The source archive contains 39 files, passes CRC/exact-byte checks and resolves every input/figure dependency; it excludes raw data, the teacher PDF and any separate supplement.
+
+One packaging attempt failed before archive creation because the dependency collector appended `.tex` to a name already ending in `.tex`. Corrected suffix handling; no manuscript or PDF change. The failure and repair are recorded in `SOURCE_ARCHIVE.json`. No compiler failure occurred. `BASE_IDENTITY.json`, `MAIN_BUILD_RECEIPT.json`, `AUDIT.json`, `VISUAL_QA.json`, `SOURCE_ARCHIVE.json` and `PACKAGE_MANIFEST.json` preserve the revision evidence.
+
+Commands from `/Users/matrixusman/CUI/DigitalTwin/manufacturing`:
+
+```sh
+.venv-reproduction-v02/bin/python manuscript_arx_rbf_v1.5/build_pdf.py --document main
+.venv-pdf/bin/python manuscript_arx_rbf_v1.5/audit.py
+```
+
+Rendering from the workspace root:
+
+```sh
+pdftoppm -r 110 -png manufacturing/output/pdf/ARX-RBF-Muhammad-Usman-v1.5.pdf manufacturing/local/manuscript_arx_rbf_v1.5/render_001/page
+```
+
+Refreshed project status, instructions and title-choice record. No training, simulation, raw-data access, system-package modification, external contact, publishing, Git write or sibling-project mutation. Scientific findings and human-approval requirements are unchanged. Next bounded editorial action: author/teacher review of this selected-title version. Scientific next action remains the separately scoped voraus-AD/MVT-Flow permitted-feature/split and implementation contract before a compatibility pilot.

@@ -1,0 +1,10 @@
+{
+  "previous_manifest": "manuscript_after_v1.3/PACKAGE_MANIFEST.json",
+  "previous_manifest_sha256": "6fa9018044e3d3ec281133ce5050d43ab620f35f979fa7bd2387a779a7599138",
+  "exemplar_sha256": "fb6189471fcaaca2c2f929727e86f13a196aa9ef919fbcb4b02c9ba688b7ab84",
+  "exemplar_filename": "bxae132.pdf",
+  "exemplar_bytes": 981612,
+  "head": "58087d561fa4708b7cf644e67e989e5059eda4f2",
+  "initial_git_status": "clean before creation of manuscript_after_v1.4; verified by git status --short",
+  "scope": "Single-paper structural/detail revision and saved-result plots; no new experiments. User superseded the initially planned two-PDF output with one PDF."
+}

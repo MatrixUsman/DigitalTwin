@@ -1,0 +1,83 @@
+\section{Methods}\label{sec:methods}
+\subsection{State, information and threat model}
+Let $x_t=(q_1,q_2,\dot q_1,\dot q_2)$ be the physical state and $x_t^0$ the state of the same plant under the complete approved command history without corruption. The monitor observes $y_t=x_t+n_t$ and approved position/velocity commands $u_t$. Its maintained state comprises predicted-state and command histories, residual buffers, an alarm bit and a return counter. The evaluator alone receives $x_t$, $x_t^0$ and the corruption schedule. Figure~\ref{fig:model} shows this information boundary.
+
+The attacker changes commands delivered downstream of a protected command copy. Clean commissioning data, the first 100 initialization observations and that copy are trusted. Measurements contain noise, but adversarial sensor forgery is outside this experiment. Once initialized, the protected reference consumes no new measured state. This prevents corrupted motion from changing its predicted history or fitted parameters. It is conditional on the protected inputs, and does not address compromise of both commands and telemetry.
+
+The reference estimates the response to approved commands, initialized from the clean prefix and synchronized through command timing. It is an empirical motion reference, without online parameter adaptation or validated industrial physical fidelity.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=0.82\textwidth]{figures/model.pdf}
+\caption{Tested reference and alarm model. Clean data determine the frozen recurrence, correction and threshold. Approved commands drive the reference after initialization. Measurements determine residuals and alarm state, without updating the reference. Counterfactual physical return is restricted to evaluation.}\label{fig:model}
+\end{figure*}
+
+\subsection{Stable command-driven reference}
+The base is a clean-data autoregressive model with exogenous inputs (ARX). In its fitted coordinates,
+\begin{align}
+ b_t&=a+\sum_{k=1}^{p}A_k b_{t-k}+\sum_{k=1}^{p}B_k u_{t-k},\label{eq:base}\\
+ r_t^0&=\mu+s\odot b_t .
+\end{align}
+Commands retain their recorded physical coordinates. Training supplies state location $\mu$ and positive scales $s$; constant or nonfinite state channels are rejected. After initialization, Equation~\ref{eq:base} uses predicted states in its own history. The plant-specific orders are 8, 16 and 32 for Q1--Q3, and each selected companion matrix has spectral radius below one. Stability concerns this fitted linear recurrence; it does not establish bounded physical error under arbitrary commands or guarantee transfer to a different robot.
+
+The following control instead uses measured history to predict the next observation. This changes the reference target while retaining the available channels.
+
+\subsection{Training-only residual correction}
+A correction estimates systematic normal residuals without feeding them back into the ARX recurrence. Its feature vector is
+\begin{align}
+ f_t&=[r_t^0,u_{t-1},u_{t-4},u_{t-16},u_{t-32}],\\
+ z_t&=(f_t-\mu_f)/s_f,\label{eq:features}
+\end{align}
+with 20 dimensions. The feature means and scales use training observations only; a feature scale at or below $10^{-12}$ is replaced by one. This is distinct from rejecting a constant physical-state scale. Farthest-point selection in standardized training space deterministically chooses $K$ centers $c_i$, starting from the observation closest to the origin. The bandwidth $h$ equals a selected multiplier times the median positive center distance.
+
+The radial basis functions (RBFs) and corrected output are
+\begin{align}
+ \phi_i(z)&=\exp\{-\|z-c_i\|_2^2/(2h^2)\},\\
+ r_t&=r_t^0+s\odot W^T[\phi_1(z_t),\ldots,\phi_K(z_t),1]^T.\label{eq:rbf}
+\end{align}
+The four-output coefficient matrix minimizes
+\begin{equation}
+ N^{-1}\|\Phi W-E\|_F^2+\lambda\|W_{1:K,:}\|_F^2,\label{eq:fit}
+\end{equation}
+where $E$ contains standardized clean residuals. The intercept is unpenalized, and nonfinite fits are rejected. A linear correction uses the same 20 standardized features and objective, providing a direct nonlinearity control. RBF heads contain $4(K+1)$ coefficients: 132 for 32 centers and 260 for 64 centers. These counts exclude stored centers, feature statistics and the base ARX. The linear head contains 84 coefficients.
+
+Bounded activations and fixed weights bound correction magnitude, not physical prediction error. Weights, centers, scales and thresholds remain frozen during evaluation.
+
+\subsection{Entry score and alarm-clearance state}
+Define $e_t=(y_t-r_t)/s$ and $a_t=\max_j|e_{t,j}|$. Strict exceedance $a_t>\tau$ raises an alarm and resets its return counter. At other eligible points, the candidate checks
+\begin{equation}
+ g_t=\mathrm I\!\left\{\|\bar e_t(5)\|_\infty\le0.1\ \land\
+ \|\bar e_t(41)\|_\infty\le0.1\right\},\label{eq:gate}
+\end{equation}
+where $\bar e_t(m)=m^{-1}\sum_{k=0}^{m-1}e_{t-k}$. Ten consecutive qualifying points clear an active alarm; a new entry exceedance has priority. The windows contain 0.10 and 0.82 seconds of samples at 50 Hz, and the dwell contains 0.20 seconds. Only complete windows after the initialization prefix are eligible. Signed means can cancel oscillatory deviations, so the gate measures agreement with the reference rather than certifying physical return.
+
+Invalid history resets the evidence streak and cannot clear an active alarm; the implemented known-state mask then remains false. The final campaign admits complete finite episodes, so missing-data behavior is software-tested only. Algorithm~\ref{alg:replay} specifies the causal order.
+
+\begin{table*}[t]\centering
+\caption{Algorithm 1: normal-only fitting, selection and freezing.}
+\label{alg:fit}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.055\textwidth}>{\raggedright\arraybackslash}p{0.88\textwidth}}\toprule
+Input & Separate clean training, development and calibration episodes; declared candidate grid and tie-break rule.\\\midrule
+1 & Fit training-only state statistics and candidate ARX references; reject invalid or unstable candidates. Preserve each candidate outcome.\\
+2 & Generate free-running training predictions from clean initial histories. Construct the 20-dimensional features and fit their statistics and centers on training only.\\
+3 & Solve the ridge objectives. Evaluate each frozen candidate on the same normal-development episodes, keeping episode boundaries intact.\\
+4 & Within the linear and RBF roles separately, select by worst-episode residual $q_{.99}$, then mean RMSE, coefficient count and identifier. Preserve the chosen artifact without refitting on development.\\
+5 & Score the separate normal-calibration population. Set the fixed entry threshold to ascending rank 5,445 of 5,500 scores.\\
+6 & Seal models, transforms, thresholds, methods, seeds, inputs, code, budgets and criteria before generating the new evaluation conditions.\\\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[t]\centering
+\caption{Algorithm 2: prospective monitoring of one episode.}\label{alg:replay}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.12\columnwidth}>{\raggedright\arraybackslash}p{0.76\columnwidth}}\toprule
+Input & Frozen model and threshold; clean 100-point prefix; approved commands and current measurements.\\\midrule
+1 & Initialize predicted history from the prefix; set alarm and evidence counter to zero.\\
+2 & Predict $b_t$ from earlier predicted states and commands; compute $r_t$ using the frozen correction.\\
+3 & Read $y_t$, calculate $e_t,a_t$, and update the complete residual windows. No label or future measurement is read.\\
+4 & If history is invalid, reset the streak and retain alarm state. Otherwise, an entry exceedance raises alarm and resets the streak.\\
+5 & If alarm is active without an exceedance, increment the streak when $g_t=1$, otherwise reset it. Clear after the declared dwell.\\
+6 & Save score, validity and alarm at index $t$. Advance predicted history, leaving fitted parameters fixed. Continue across attack boundaries.\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Physical return and uncertainty}
+The evaluator measures $d_t=\max_j|x_{t,j}-x_{t,j}^0|/s_j$. Reference/noise bounds $b_t,\eta_t$ would give $d_t\le a_t+b_t+\eta_t$. Sufficient return requires $a_t+b_t+\eta_t\le\delta$, which is infeasible when the allowance exceeds the tolerance. Empirical maxima under Gaussian noise are not deterministic bounds. Appendix~\ref{app:uncertainty} develops this limitation and the window diagnostic.

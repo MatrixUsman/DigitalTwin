@@ -1,0 +1,28 @@
+\section{Earlier comparisons and full final metrics}\label{app:earlier}
+
+\subsection{E1: original recovery comparison}
+E1 comprises 216 episodes and 13 methods, with 237,600 eligible points and 135 intervention events. Twenty-seven events have missing command context. Nineteen clean episodes provide 20,900 eligible calibration points; the principal state-machine threshold search allows at most 209 alarmed points on this finite population. This differs from the final audit's point-quantile calibration. The additional constant episode band uses rank 19 of 19 episode maxima; shifted tasks do not establish exchangeability or conformal coverage. Matched-entry ablations preserve their own realized alarm burdens.
+\begin{table*}[t]\centering
+\caption{E1 attack and recovery outcomes, retained from the saved presentation. Clearance counts condition on detected events with measured return.}
+\setlength{\tabcolsep}{3pt}\input{generated/attack}
+\end{table*}
+\begin{table*}[t]\centering
+\caption{E1 additional metrics. Unknown states remain eligible, cannot count as detections, and receive AP score $-1$, below valid nonnegative scores.}
+\setlength{\tabcolsep}{3pt}\input{generated/metrics}
+\end{table*}
+\subsection{E2: normal commissioning}
+The finite grid contains ARX orders 4, 8, 16 and 32 and finite impulse response lengths 16, 32 and 64, each with ridge $10^{-7}$, $10^{-5}$ or $10^{-3}$, on three plants: 63 fits. Fitting and selection precede 81 new normal episodes. The selected orders are 8, 16 and 32 with ridge $10^{-7}$. Table~\ref{tab:normalall} retains distinct prediction roles. Forced-latch probes measure normal clearance feasibility, not post-attack recovery. The hard-plant reductions in empirical allowance do not establish a probabilistic or deterministic error bound.
+\begin{table*}[t]\centering
+\caption{E2 complete normal-reference comparison. Each row has 29,700 eligible observations and 108 forced-latch probes. Selected reference and selected ARX are identical and appear once.}\label{tab:normalall}
+\setlength{\tabcolsep}{4pt}\input{generated/normal_all}
+\end{table*}
+\subsection{E5: complete additional metrics and plant strata}
+The following tables complement the complete 17-method audit in Table~\ref{tab:audit}. Alarm starts per hour use the total eligible duration of wholly benign episodes. Their high frequency for point rules reflects repeated short excursions; the metric should be read alongside occupancy. No unknown-state denominator trimming is applied to this audit. All 189 episodes and 3,213 outcomes are retained.
+\begin{table*}[t]\centering
+\caption{Final audit: unadjusted point precision/recall, benign occupancy, alarm starts per benign hour and missed events.}
+\input{generated/extended}
+\end{table*}
+\begin{table*}[t]\centering
+\caption{Primary base-dual versus RBF-dual comparison by plant. Every plant has 29,700 benign points and 36 attack events.}
+\setlength{\tabcolsep}{4pt}\input{generated/strata}
+\end{table*}

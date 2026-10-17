@@ -276,3 +276,8 @@ Updated the shared playbook with paired-plant recovery truth, normal-only cleara
 Manufacturing [MFG-035](../manufacturing/docs/WORK_LOG.md) completed normal-only commissioning study v0.9: 63 candidate fits, fifteen archived checks and 81 fresh normal episodes; 23 tests and 10,293 verification checks passed. Longer ordinary ARX references improve accuracy, but the full clearing-feasibility gate fails. A separately labelled Gaussian noise calculation diagnoses the maximum-plus-discrepancy construction under stated assumptions. No attack experiment or new-method novelty established.
 
 Updated the shared playbook with finite model selection, equal initialization, normal-only clearance diagnostics, noise/reference-error separation and preserved reporting repairs. No completion or results transfer to water/grids; their files remain untouched. No system installation, paid compute, publication, external contact or assistant Git mutation. Existing manuscripts and provisional title stay unchanged.
+
+
+### 2026-10-18 — SHARED-041 — Reusable exemplar-to-manuscript revision procedure
+
+Manufacturing [MFG-045](../manufacturing/docs/WORK_LOG.md) records the user's teacher-PDF adaptation, subsequent one-paper instruction and added saved-result graphs. Added a shared playbook procedure for structural mapping, evidence-preserving expansion, single-document page limits, source-bound plots and rendered-page QA. The procedure's validation is editorial; no scientific completion or result transfers to water or smart grids. Their files remain unchanged. The shared skill package remains pinned and unmodified.

@@ -1,0 +1,15 @@
+\section{Comparison Methods and Baselines}\label{sec:comparators}
+\subsection{Protected references and component removals}
+The final roster compares base ARX, linear correction and RBF correction under matched inputs. Point rules directly threshold $a_t$. Return rules retain alarm using a one-point residual condition, the 41-point window, or the 5/41 dual window, generally with ten-point dwell. The no-dwell variant requires one qualifying point. Base long versus base dual and RBF long versus RBF dual isolate the short window; RBF dual versus its no-dwell variant isolates persistence. Base dual versus RBF dual is the primary correction comparison. Every variant keeps its declared entry score, threshold and support.
+
+The RBF-following ablation applies the correction trained on free-running features to measured-history predictions without refitting. It tests that disclosed assembly, not an optimally fitted following model. Table~\ref{tab:audit} retains all 17 methods.
+
+\subsection{Ordinary prediction and accumulation controls}
+Persistence predicts the last measured state. The causal rolling mean predicts from the preceding 21 observations, excluding the current target. A one-sided CUSUM uses $G_t=\max(0,G_{t-1}+a_t-k)$, with $k$ equal to the training-score mean plus its standard deviation. Its calibrated statistic has no reset on alarm in this registered implementation. Its persistence is therefore a deliberate comparator behavior, not a claim that all CUSUM schemes cannot recover. All controls use identical eligible episode support and cannot access labels or truth.
+
+The IMU controls are training mean, persistence and AR(4), alongside the CNNs specified in Section~\ref{sec:experiments}. AR fits standardized channels with ridge $10^{-3}$ on mean normal equations, leaving its intercept unpenalized. Deterministic controls run once and neural models use all three seeds.
+
+\subsection{Published-method correspondence}
+CASPER and its successor motivate the CNN architectures, but E3 uses independent implementations, a different normal-only protocol and a provider release whose original-run correspondence is unresolved. It is not a reproduction of their complete attack detectors. Their external IMU inputs also differ from the joint telemetry and protected commands in E5. Published headline metrics are not inserted into our measured ranking.
+
+MVT-Flow is a public author-code candidate for a separate offline real-robot study. Full-execution likelihood, symmetric temporal convolutions and unresolved released-code objective/layer correspondence prevent immediate admission as an online recovery comparator. ModernTCN, iTransformer and TimeMixer remain architectural background. No execution result is attributed to any unrun method. This separation makes the scientific gap explicit: the present controls test mechanism behavior, while a compatible full published-baseline reproduction remains unfinished.

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-17T20:32:54.655589+00:00",
+  "pdf_sha256": "fd93a66a35eeb324476e2b2ca6a48f3c446737a22d167175c83d55df6bbe1ca1",
+  "pages": 15,
+  "render_command": "pdftoppm -r 110 -png manufacturing/output/pdf/ARX-RBF-Muhammad-Usman-v1.5.pdf manufacturing/local/manuscript_arx_rbf_v1.5/render_001/page",
+  "inspection": "Pages 1 and 2 visually inspected at full rendered size; title, byline, text, headings and column flow are legible without overlap or clipping. Pages 3\u201315 are byte-identical PNGs to the previously inspected final v1.4 renders.",
+  "comparison": {
+    "base_render": "manufacturing/local/manuscript_after_v1.4/render_007",
+    "changed_pages": [
+      1,
+      2
+    ],
+    "identical_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "png_sha256": {
+      "page-01.png": "e22cd5d7f64496294ff904e8670850bd302bb67778648b5f847d01edef0491e1",
+      "page-02.png": "59c85819cf1baa7ddf6b3895627a68e9941ad6c685d97e14d3028c032cd30b2a",
+      "page-03.png": "bdbb8e44fac7b0c35b78c1a17d33f0ed951cb779451c5161b85e0a38c76d81d7",
+      "page-04.png": "26463262976438281dfcb6f5df231c137744452a8a3f9ec14997e01bda8b3298",
+      "page-05.png": "5d4b93ac4e9a66cd7d5c94acf4b283adcbc0d51ae8dbfc35541bf2dc05caea19",
+      "page-06.png": "8b5b7db9084f777d24879a8c679ebb2f75b29df7abb0892286a5df709c031095",
+      "page-07.png": "7227a88b5faee32cfbeb9366585ac1fb021103ac1437266aed68d042f4e9eaa1",
+      "page-08.png": "78c614afd9d4ffa61e5c28f287562f60f4f652378ee19732f13f1ca60d9115f4",
+      "page-09.png": "8772f5a8d7c2d8c34beb4c5865f70deaa9a308c954efabbe67de9bcaed0d2d88",
+      "page-10.png": "4577f32fd39e92f8a20364c1750e8c727af0aeacb7e0956d235d3cd68f6d06da",
+      "page-11.png": "f6aaa720e984246d59209a48a9ff60150ed8b124ecf69177e8c7fd5e8038f17a",
+      "page-12.png": "9f522b762b0c8f950ee3bd802c6d6a20698f879fb3c3444a30855ebc99437d65",
+      "page-13.png": "b905d84579951492d8dd995a8b4ed1f1716d99f8e1cd9e78c60a506fbac31e55",
+      "page-14.png": "dd7a855263511e5a4b902f5d3562db9f2865f78f676dc38047a3722bb1304e89",
+      "page-15.png": "30fcdc0a068157748a8a7e3819640b2d55b99d10de6fa6fb39f51d398dc19120"
+    }
+  },
+  "outcome": "pass"
+}
