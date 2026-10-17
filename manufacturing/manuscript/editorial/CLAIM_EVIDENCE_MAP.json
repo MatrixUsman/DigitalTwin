@@ -26,7 +26,7 @@
     {
       "id": "P01",
       "file": "sections/appendix.tex",
-      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "file_sha256": "e25e9bde0f7b1aaa597df0b36b1c93ebdb270d1e4cc2bd0dc7557962b51506f1",
       "span_sha256": "47ae691e697cb9cc54ccbe8f2ebf0f71c8c057de0e67bf82a47e797e53ce4f04",
       "first_line": 4,
       "summary": "All row ranges are zero-based data-row indices excluding the header. The original right-arm SHA-256 is \\begin{quote}\\small\\path{181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334}.\\end{quote} The selection freeze is \\begin{quote}\\small\\path{3b3f6",
@@ -52,7 +52,7 @@
     {
       "id": "P02",
       "file": "sections/appendix.tex",
-      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "file_sha256": "e25e9bde0f7b1aaa597df0b36b1c93ebdb270d1e4cc2bd0dc7557962b51506f1",
       "span_sha256": "86e05e6475937a7ead0202316368214a8a5ba59db99cc4119f52efab8650b62a",
       "first_line": 13,
       "summary": "The protected scoring run began at 06:21:17.705600 UTC on 17 October 2026 and was accepted at 06:25:51.061961 UTC. Label joining began at 06:26:30.415287 UTC, after all streams sealed; evaluation completed at 06:27:12.073582 UTC. The source checksum matched be",
@@ -78,7 +78,7 @@
     {
       "id": "P03",
       "file": "sections/appendix.tex",
-      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "file_sha256": "e25e9bde0f7b1aaa597df0b36b1c93ebdb270d1e4cc2bd0dc7557962b51506f1",
       "span_sha256": "9c27feb1494cc81fd422f0753cd49873253c4c64aa491d36fdc1130c37ea996f",
       "first_line": 26,
       "summary": "Table~\\ref{tab:selection} retains every declared ordinary candidate. Template and autoregression objectives are mean standardized prediction MSE; the velocity score is a different quantity and is not a cross-family objective. Its singleton is retained without ",
@@ -114,8 +114,8 @@
     {
       "id": "P04",
       "file": "sections/appendix.tex",
-      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
-      "span_sha256": "6bdb2e76e00262e68659ac31693c839ea5cc65bb0258dfbf93c233cebe707e39",
+      "file_sha256": "e25e9bde0f7b1aaa597df0b36b1c93ebdb270d1e4cc2bd0dc7557962b51506f1",
+      "span_sha256": "8a52d246a1ed4d3071002e35c33d561ba0d5c8568b20341652c0a863112447e0",
       "first_line": 39,
       "summary": "Table~\\ref{tab:counts} preserves all confusion counts and protected-normal alarm counts. Mixed counts use 682,646 observations; normal point counts use 214,473 eligible observations. All normal boundary-censoring counts were zero in this campaign. All eight ev",
       "evidence": [
@@ -140,9 +140,9 @@
     {
       "id": "P05",
       "file": "sections/appendix.tex",
-      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "file_sha256": "e25e9bde0f7b1aaa597df0b36b1c93ebdb270d1e4cc2bd0dc7557962b51506f1",
       "span_sha256": "3259c6bd00bde0f2613d00f5528dab2a2403798a344d1426af4a1e91de5ff348",
-      "first_line": 51,
+      "first_line": 57,
       "summary": "Table~\\ref{tab:recovery} reports all eight scheduled-zero intervals following successive events. Columns Z1--Z7 end at the next event start; Z8 ends at the recording's end. Entries are alarm observations divided by eligible observations. These intervals are no",
       "evidence": [
         {
@@ -166,9 +166,9 @@
     {
       "id": "P06",
       "file": "sections/appendix.tex",
-      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "file_sha256": "e25e9bde0f7b1aaa597df0b36b1c93ebdb270d1e4cc2bd0dc7557962b51506f1",
       "span_sha256": "965c0c0e8f8dc9907e64e154d778249b7bfb92de98b76b181798a85fddf43722",
-      "first_line": 60,
+      "first_line": 66,
       "summary": "The manuscript package's \\path{editorial/CLAIM_EVIDENCE_MAP.json} maps named claim groups to primary-source locations or exact experiment/configuration records. \\path{editorial/references.json} records source versions and access limits; \\path{references.bib} a",
       "evidence": [
         {
@@ -576,7 +576,7 @@
     {
       "id": "E01",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "4c490afa7120e456452f5f5fe8067d1095dad0556f0040f245b510115b344814",
       "first_line": 4,
       "summary": "Table~\\ref{tab:splits} defines zero-based data rows excluding the header, with half-open ranges. Splitting precedes history construction. A new segment begins when $\\Delta t\\leq0$ or $\\Delta t>0.075$ seconds. Each partition starts independently, except that fi",
@@ -607,7 +607,7 @@
     {
       "id": "E02",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "2563e1fb758b6b22c79b1fc22cf1c41c7f29d7760c19d170c5e34d051a88b596",
       "first_line": 19,
       "summary": "Seven ordinary candidates were declared: one velocity control, two templates with 32/64 bins, and four autoregressions crossing orders 1/4 with ridge values 0.001/0.1. Template and autoregression selection separately minimized normal-development prediction mea",
@@ -638,7 +638,7 @@
     {
       "id": "E03",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "0014db0e10cca96c4ac68585725e5797163b8dc2a35255498abed7b331047d33",
       "first_line": 23,
       "summary": "The complete eleven-method roster, fitted artifacts, transformations, initialization, formulas, budgets and reporting rules were locally frozen before calibration. These records are prospective experiment records, not an externally registered study or independ",
@@ -669,7 +669,7 @@
     {
       "id": "E04",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "f5d6a801900aeab0a43f6125baedf6cb2421ec795ab24151b73c2d9d75e2846f",
       "first_line": 31,
       "summary": "The mixed population contains 345,602 schedule-positive and 337,044 schedule-zero observations. Unadjusted precision, recall and F1 use counts of true positives (TP), false positives (FP), false negatives (FN) and true negatives (TN). Average precision (AP) gr",
@@ -700,7 +700,7 @@
     {
       "id": "E05",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "0fe8c2a027a6bfe4387ddb0e6ed31bf1c0cc80ad17e9fde1dc05e4971ce1d8cd",
       "first_line": 35,
       "summary": "Protected-normal burden comprises the fraction of eligible points alarmed and the number of contiguous alarm episodes per eligible native-time hour. Exposure sums adjacent eligible timestamp differences within a continuous segment; it does not substitute a nom",
@@ -731,7 +731,7 @@
     {
       "id": "E06",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "3359220867c7909594abd946082122fab0c87f250a4551e5c5025eddb0ed0444",
       "first_line": 38,
       "summary": "An event-overlap hit requires an alarm on at least one eligible positive point. A fresh onset requires the start of a new alarm episode within the interval; an alarm already active at the boundary can overlap without being fresh. Delay is measured from the rec",
@@ -762,7 +762,7 @@
     {
       "id": "E07",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
       "span_sha256": "34f456d8ba24f1cd6112ef5352e46138117228e7c7dbbe1fbdd0b62c0d0c83e3",
       "first_line": 41,
       "summary": "All eleven methods are deterministic and ran once, with no stochastic seed. The policy seeds 17, 42 and 2026 were reserved for stochastic methods; none was admitted. Final feature replay saved all aligned scores and hashes without parsing labels. The delayed e",
@@ -793,10 +793,10 @@
     {
       "id": "E08",
       "file": "sections/evaluation.tex",
-      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
-      "span_sha256": "40b5f25b3b88f3f988c607522bf64f0b2e8576bc4e202a70c7f8a9cffa2609a5",
+      "file_sha256": "53608b0a6e6d5bdfb17c52a2ef8b64b28d1a19c49cda1b67d716468dfe7d6ecc",
+      "span_sha256": "6407e4da285eb5a447fcdbacc509e3e7d33d90bc66514987b9b1f77900b44818",
       "first_line": 45,
-      "summary": "The implementation was covered by 324 synthetic software tests. The same 52 source/configuration identities and 133 frozen input bindings remained unchanged during the campaign. A separate saved-result audit recomputed metric, episode, event and recovery arith",
+      "summary": "The implementation was covered by 324 synthetic software tests. The same 52 source and configuration identities and 133 frozen input bindings remained unchanged during the campaign. A separate saved-result audit recomputed metric, episode, event and recovery a",
       "evidence": [
         {
           "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
@@ -1593,7 +1593,7 @@
     {
       "id": "R01",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "cdbf3903232363d6cb780f0874b0d1b319a0e96c1806b39ffc9e98ba3a782ecb",
       "first_line": 4,
       "summary": "Every method produced 897,119 finite eligible final scores: 214,473 in the protected normal slice and 682,646 in the mixed slice. Eligible coverage is 100\\%. Raw final coverage is 99.829967\\%; the only 1,528 exclusions are the common initial warmup. No missing",
@@ -1614,7 +1614,7 @@
     {
       "id": "R02",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "655a909f2a79c9da07a0d04235dc7b98d67be5a923f40ef0709688c567449050",
       "first_line": 8,
       "summary": "Earlier normal-only checks supported a recurring 38-second reference and prospective state synchronization, but did not establish accurate latent phase. The synchronized observer's development one-step MSE was \\ObserverMSE, compared with \\ARMSE\\ for the ordina",
@@ -1645,7 +1645,7 @@
     {
       "id": "R03",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "89799b3008c295e9853fc31f7239ccbd43ef6cb270c7b51500069853ff333185",
       "first_line": 11,
       "summary": "Table~\\ref{tab:results} shows all declared methods in their frozen order. \\method{O-RC} achieved F1 \\RCFone\\ and point recall \\RCRecallPct\\%. Its protected-normal point alarm fraction was \\RCNormalPct\\%, with \\RCEpisodes\\ episodes or \\RCEpisodeRate\\ episodes p",
@@ -1666,7 +1666,7 @@
     {
       "id": "R04",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "6b95eef0becc03bacba18d1800d830de52a7f1865d198f1588566fdcb162db04",
       "first_line": 25,
       "summary": "The primary \\method{O-RC} minus \\method{O-R} contrast increased F1 by \\FoneGain. It added 122 true-positive points while removing 32 mixed false-positive points, 27 protected-normal alarm points and ten protected-normal episodes. Normal episode rate decreased ",
@@ -1692,7 +1692,7 @@
     {
       "id": "R05",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "8868d19ce23493560cff9290b535b825162c6968fb3786bd92179c1c96552a6d",
       "first_line": 28,
       "summary": "The ordinary \\method{AR-4} achieved F1 \\ARFone\\ and AP \\ARAP, both above \\method{O-RC}, with slightly fewer normal alarm points (2,109 versus 2,132). It produced 1,302 normal episodes, or \\AREpisodeRate/hour, compared with 554 for \\method{O-RC}. The fixed temp",
@@ -1713,7 +1713,7 @@
     {
       "id": "R06",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "22e199d3f37d8bae88c8809a7cbc9fc21142d2ac0790d6156fbe0c31d74cb04e",
       "first_line": 31,
       "summary": "Mixed positive prevalence was \\PrevalencePct\\%. The constant tied-score AP reference is that prevalence; observed AP ranged from 0.490596 to 0.507711. Values near this reference do not establish useful broad ranking separation. This reference is arithmetic, no",
@@ -1734,7 +1734,7 @@
     {
       "id": "R07",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "369c5092b84fa1d2caffcd8ff69c81fbe145ff573fcfd21fed7b78d6dd2b9992",
       "first_line": 34,
       "summary": "Correction-only \\method{O-C} and KL surprise \\method{O-K} had slightly higher F1 than \\method{O-RC}, but 342.76 and 349.47 normal episodes/hour, respectively. The energy score \\method{O-L}, velocity residual \\method{O-Rv}, free-running and unconstrained-follow",
@@ -1755,7 +1755,7 @@
     {
       "id": "R08",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "7c124a93ff0264f98c61d7bbcc902aa250e283a86f9354eaef15b6e0646d2588",
       "first_line": 38,
       "summary": "No method had an alarm already active at any of the eight event starts. In this recording, every overlap hit therefore also had a fresh onset. \\method{O-R}, \\method{O-L}, \\method{O-Rv}, \\method{O-Follow}, \\method{O-Free} and \\method{V-Z} missed event 5 entirel",
@@ -1781,7 +1781,7 @@
     {
       "id": "R09",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "0cdfcd92d6e796857bd5b639b2109d3fdaf756b434d31932269e76a44c9c0170",
       "first_line": 47,
       "summary": "\\method{O-RC} first alarmed 9.20 seconds after the event-5 schedule flag. On the seven events both primary methods hit, five first-alarm delays were identical; \\method{O-RC} was 2.05 seconds later on event 6 and approximately 0.05 seconds later on event 7. It ",
@@ -1812,7 +1812,7 @@
     {
       "id": "R10",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "832885b401effa3fec9cd758c9c188de77bf8968107f9c517b5355c6c0fe0fa5",
       "first_line": 50,
       "summary": "Each scheduled interval contains more than 43,000 positive observations. Any one alarm suffices for an overlap hit. \\method{O-RC}'s eight hits therefore coexist with 342,559 false-negative positive observations, frequent normal episodes and AP near the prevale",
@@ -1833,8 +1833,8 @@
     {
       "id": "R11",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
-      "span_sha256": "e872cb05a0c69c760cdb935e583344d90c971679906fcab36b295ca6a3e1d290",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
+      "span_sha256": "e7ecbbfd1b904bac626fa6d886a1f73b446fc8a6bd021122c5468f77e942be62",
       "first_line": 53,
       "summary": "Table~\\ref{tab:resources} reports the whole-worker measurements. Both phases stayed within their frozen caps: scoring 900 seconds wall/600 seconds CPU and evaluation 1,800/1,200 seconds; both allowed 1 GiB worker resident memory and 256 MiB output. The hardwar",
       "evidence": [
@@ -1864,7 +1864,7 @@
     {
       "id": "R12",
       "file": "sections/results.tex",
-      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "file_sha256": "6dbe5bc3bacb4c18d1a5fc98429121009d13bb665d4e21819902dd01b630adf3",
       "span_sha256": "cba77272e0889e2a8dc982b02f9157a49457d78d5a1eab9baee28f6a0f040ebb",
       "first_line": 62,
       "summary": "Per-method processing costs, initialization/parsing decomposition and per-record latency quantiles were not instrumented. The recorded whole-roster execution is locally feasible under its limits, but cannot determine whether the correction term's small gain ha",

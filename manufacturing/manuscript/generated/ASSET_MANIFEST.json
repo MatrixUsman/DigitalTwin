@@ -1,6 +1,6 @@
 {
   "kind": "deterministic_manuscript_asset_manifest",
-  "generator_sha256": "6ad46314314e556bd8f09320b0c7c478b819b282a454616ccdd4da191e2e84e4",
+  "generator_sha256": "5a82b5bfc752e2db793f72c5ec50ff27fb3cbaba29713a39c3a651ed5c2151f3",
   "source_manifest_sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
   "reference_register_sha256": "16f67a36a33a9ca3d6455f08ade1f1da259c3f6bebafdb7dbfa80053b669e221",
   "inputs": {
@@ -21,12 +21,12 @@
     "generated/thresholds.tex": "07aedf7f6873ad0568d9d30acd97d196f5e62c5e56871ea3c563b2b7023aa1e9",
     "generated/resources.tex": "cd8c91ac7d4fcdf391b2b9091c32e1c72ae9fa6dbf764798cedcd0823b69cb9a",
     "generated/values.tex": "11d9575f27b5191ec6bb1cdf8eebbad6840cef3c5c9a6d14de0aac56f0594e74",
-    "figures/operating_tradeoffs.tex": "d9555403587b72903d17f2396f84867cdd0334ba91db93d862e9146d384eec95",
-    "figures/event_point_coverage.tex": "7945a3a37c206add045c7569cf43a7cbc7627339c39a0f70303d2801dc646d77",
+    "figures/operating_tradeoffs.tex": "28e274a8c730a4d0e518c50f6bdce01b7d74988ffa42c41dad86b28e76827245",
+    "figures/event_point_coverage.tex": "7ae19664aa1684d854963048cb727356ca5b721d8e7e1f69eae80804aebf4c0e",
     "references.bib": "2c7ea611cce1758158cad7761ac5237af8a49f1c76075d13fdffb0f5fefd8527",
     "generated/references.tex": "ae3f2493a606af7af5436706e3058d9e804069e52906811d94dcf7338a13580f"
   },
   "raw_observations_used": false,
   "models_run": false,
-  "figure_format": "PGFPlots source; PDF rendering deferred"
+  "figure_format": "PGFPlots source; compiled PDF and visual QA recorded separately"
 }

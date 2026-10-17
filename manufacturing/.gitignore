@@ -1,0 +1,2 @@
+# PDF compilation/raster previews are local intermediates; final PDF is output/pdf/.
+/tmp/pdfs/

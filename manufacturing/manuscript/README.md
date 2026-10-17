@@ -25,16 +25,20 @@ From `manufacturing/`, using the existing isolated interpreter:
 
 Without `--check`, `build_assets.py` regenerates the presentation files from the saved JSON. After an intentional prose edit, review the affected claim span/evidence and update the registry before accepting a new check; never silently replace a result. See [reproduction levels](reproducibility/README.md) and [commands/dependencies](reproducibility/REPRODUCE.md).
 
-## PDF stage, deferred
+## PDF build and review
 
-No TeX compiler is installed on the inspected PATH. This deliverable has **not been compiled or visually checked**. Static syntax/citation checks cannot establish page quality or even successful TeX compilation. When a project-local or approved TeX installation is available, run from this folder:
+The [18-page PDF](../output/pdf/correction-evidence-casper-study.pdf) has been compiled and visually inspected. [PDF_BUILD_REPORT.md](PDF_BUILD_REPORT.md) records the exact source/output identities, isolated tooling, fixes and review limits. This is a working draft; author declarations remain pending.
+
+The pinned Tectonic 0.17.0 compiler and TeX cache are in ignored `local/pdf_build_v0.1/`; the separate `.venv-pdf/` contains rendering/inspection dependencies. No system package was installed. From `manufacturing/`, rebuild using the cached resources without network access:
 
 ```sh
-pdflatex -halt-on-error -interaction=nonstopmode main.tex
-pdflatex -halt-on-error -interaction=nonstopmode main.tex
+.venv/bin/python manuscript/tools/build_pdf.py
+.venv-pdf/bin/python manuscript/tools/inspect_pdf.py
 ```
 
-The main file directly inputs the generated numbered bibliography; no BibTeX run is required. `references.bib` is a companion for later venue conversion. Packages used include `lmodern`, `geometry`, `amsmath`, `amssymb`, `booktabs`, `graphicx`, `microtype`, `xcolor`, `pgfplots` with `groupplots`, `hyperref` and `xurl`. Compile without shell escape. Then check missing references/glyphs, overfull boxes, figure/table legibility, float placement and every rendered page. Do not treat the unrendered plots as publication-ready figures.
+A changed PDF needs a new page inspection. Initial resource downloads require the explicit `--allow-resource-downloads` option and appropriate network access. The compiler runs with `--untrusted` and shell escape disabled. Source hashes are checked before and after compilation. The inspected PDF is not an independent scientific review or a submission-ready declaration.
+
+The main file directly inputs the generated numbered bibliography; no BibTeX run is required. `references.bib` is a companion for venue conversion. Unicode font support is selected for XeTeX; a pdfLaTeX branch remains in the source but has not been compiled here. The original static-package receipt and writing passport are historical; the separate PDF receipts record this completed stage.
 
 ## What still needs people or new evidence
 

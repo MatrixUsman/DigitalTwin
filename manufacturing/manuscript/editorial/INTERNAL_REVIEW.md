@@ -21,3 +21,7 @@
 ## Before a submission decision
 
 Authors should answer the findings worksheet, check equations against the saved implementation, review source claims and complete declarations. Compile/render the PDF and inspect every page. Decide whether a focused negative/mixed case study is a sufficient contribution for a suitable venue. If broader claims are intended, first admit independent evidence using the post-exposure plan; do not redesign on CASPER and label its same holdout confirmatory. No journal acceptance, publication permission or new data acquisition follows from this internal review.
+
+## Subsequent PDF stage
+
+The user subsequently requested PDF generation. The [PDF build report](../PDF_BUILD_REPORT.md) supersedes the compilation/layout-pending entry above: the source now compiles using an isolated pinned compiler, with every rendered page inspected. The earlier review remains a historical record. Author/venue/scientific review requirements remain unresolved.

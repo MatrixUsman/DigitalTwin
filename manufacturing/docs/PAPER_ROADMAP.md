@@ -40,7 +40,7 @@ The scope is one right-arm pick-and-place recording, with truthful telemetry/tim
 | 13. Calibration and final-release preparation | Completed | Eleven valid thresholds from 160,473 endpoints/rank 158,869; sealed scores, access/failure records, tested delayed join and actual final freeze |
 | 14. Protected final campaign | Completed once | 11/11 methods, 897,119 scores each; scoring/evaluation accepted, zero failures; fixed models/thresholds and continuous state |
 | 15. Analysis and interpretation | Completed for the declared case study | All methods, 88 event and 88 recovery outcomes, false alarms/coverage and cost limits audited; weak/mixed findings preserved |
-| 16. Manuscript and reproducibility package | Technical draft/package prepared; author and PDF review pending | LaTeX, complete generated outcomes, claim/source map and independent-evidence plan; no submission-ready claim |
+| 16. Manuscript and reproducibility package | Technical draft/package prepared; author review pending; PDF compiled and checked | LaTeX, complete generated outcomes, claim/source map and independent-evidence plan; no submission-ready claim |
 | 17. Venue review and submission | Not started | No selected journal, approved submission or acceptance |
 | 18. Peer review and publication | Future, outcome uncertain | Depends on submission and editorial decisions |
 
@@ -281,7 +281,7 @@ Writing notes can proceed throughout the project. A results section and contribu
 **Completion evidence:** an internally reviewed manuscript whose claims, tables and figures trace to primary sources or actual runs, plus a reproducibility package that does not redistribute restricted material.
 
 
-**Current evidence:** [draft/build guide](../manuscript/README.md), [internal review](../manuscript/editorial/INTERNAL_REVIEW.md), [findings explained](FINDINGS_EXPLAINED_V0.1.md), and [fresh-evidence plan](POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). Working title selected, but collision/venue fit remains unverified. Intended author order supplied; remaining author facts and comprehension are pending. No TeX compiler was available, so figures/pages are not visually validated. These open items prevent marking the whole stage complete. No source/model/result changed.
+**Current evidence:** [draft/build guide](../manuscript/README.md), [internal review](../manuscript/editorial/INTERNAL_REVIEW.md), [findings explained](FINDINGS_EXPLAINED_V0.1.md), and [fresh-evidence plan](POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). Working title selected, but collision/venue fit remains unverified. Intended author order supplied; remaining author facts and comprehension are pending. A project-local compiler now produces the [PDF](../output/pdf/correction-evidence-casper-study.pdf), and all 18 pages have been visually inspected. These open items prevent marking the whole stage complete. No source/model/result changed.
 
 ## 17–18. Choose a venue, submit, revise and preserve the scholarly record
 
@@ -300,10 +300,12 @@ Acceptance and publication timing are editorial outcomes, not milestones we can 
 
 ## What we do next, and what can run in parallel
 
-**Immediate sequence:** preserve the complete final artifacts and negative/mixed findings → authors read/explain the prepared LaTeX draft and complete declarations → compile/visually inspect the PDF when a TeX environment is available → audit the proposed independent source before a new study. No large neural run is needed to fill a quota.
+**Immediate sequence:** preserve the complete final artifacts and negative/mixed findings → authors read/explain the prepared LaTeX draft and complete declarations → audit the proposed independent source before a new study. No large neural run is needed to fill a quota.
 
 **Parallel work:** researcher learning, missing-source follow-up, contribution records and source-specific independent-evidence admission. ModernTCN/causal alignment become necessary if broader competitive claims are revived; they remain conditional now.
 
 **Do not reopen:** model/threshold selection for the frozen campaign, its consumed attempts, or its confirmatory status. The final slices are exposed; any newly authorized outcome-informed exploration must be clearly labelled and cannot convert this same recording into fresh confirmation. Heavy training and submission/publication retain approval requirements.
 
 The supported nominal representation is an empirical observer. Its narrowly defined scoring comparison is complete, with a small effect and poor absolute detection. Established novelty and general digital-twin benefit remain unproved. Additional faults or benign variation would extend evidence in separate tracks, not establish cross-robot cybersecurity by themselves.
+
+PDF stage completed on 17 October 2026: [build and visual-review report](../manuscript/PDF_BUILD_REPORT.md). Historical drafting/test receipts remain unchanged; current author and independent-evidence requirements still apply.

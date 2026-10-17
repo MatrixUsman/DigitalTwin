@@ -5,7 +5,7 @@ Start here. This workspace supports three separate academic papers. The owners a
 | Owner | Project | Current position |
 |---|---|---|
 | **Muhammad Usman** | [Water infrastructure](water/README.md) | Existing literature audit preserved; SWaT/WADI access and releases unresolved; CAROTS is the conditional first baseline |
-| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Final study and LaTeX technical draft complete; author/PDF review and independent-source admission pending; no established novelty |
+| **Haiqa Mushtaq** | [Smart manufacturing](manufacturing/README.md) | Final study and LaTeX technical draft complete; author review and independent-source admission pending; PDF built; no established novelty |
 | **Muhammad Usman Sanghla** | [Smart grids](smart_grids/README.md) | Initial scoping and source screening; no selected dataset pair or approved baseline |
 
 No project has reproduced a paper baseline. Manufacturing has completed [final evaluation and analysis](manufacturing/docs/FINAL_CAMPAIGN_REPORT_V0.1.md) of its own controls/empirical observer on one CASPER recording. The small correction-score gain does not establish strong detection or general superiority. Working titles and research questions remain provisional.
@@ -43,4 +43,4 @@ Planned order: **water → manufacturing → smart grids**, one bounded mileston
 
 The installed [research skill](.agents/skills/academic-research-suite/SKILL.md) stays at the root. Its source material is shared; generated research notes and state belong to the active project. [Installation provenance](docs/RESEARCH_SKILL_SETUP.md) and the [original machine audit](docs/WORKSPACE_AUDIT.md) are shared references.
 
-Manufacturing writing milestone: [LaTeX manuscript/package](manufacturing/manuscript/README.md), [findings explanation](manufacturing/docs/FINDINGS_EXPLAINED_V0.1.md) and [post-exposure independent-evidence plan](manufacturing/docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). This is a local draft with pending author declarations and PDF validation; the original weak findings remain unchanged.
+Manufacturing writing milestone: [LaTeX manuscript/package](manufacturing/manuscript/README.md), [findings explanation](manufacturing/docs/FINDINGS_EXPLAINED_V0.1.md) and [post-exposure independent-evidence plan](manufacturing/docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). This is a local draft with pending author declarations; PDF compilation and visual checks are complete; the original weak findings remain unchanged.

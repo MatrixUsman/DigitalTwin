@@ -1,7 +1,12 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
 \usepackage[margin=25mm]{geometry}
 \usepackage{amsmath,amssymb,booktabs,array,graphicx}
 \usepackage{microtype}
@@ -20,7 +25,7 @@
 \date{Working draft --- 17 October 2026}
 \begin{document}
 \maketitle
-\noindent\textbf{Draft status.} Author names follow the order supplied for this project. Affiliations, contribution roles, funding, conflicts and approval by both authors remain unconfirmed. This local draft has not been submitted, externally reviewed or PDF-validated.
+\noindent\textbf{Draft status.} Author names follow the order supplied for this project. Affiliations, contribution roles, funding, conflicts and approval by both authors remain unconfirmed. This working draft awaits author review and has not been submitted or externally reviewed.
 \input{sections/abstract}
 \noindent\textbf{Keywords:} robotic motion monitoring; anomaly detection; phase observer; correction evidence; CASPER; evaluation methodology.
 \input{sections/introduction}

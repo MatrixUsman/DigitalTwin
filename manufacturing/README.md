@@ -61,4 +61,4 @@ See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential mileston
 
 ## Manuscript and next evidence
 
-The [LaTeX draft and local package](manuscript/README.md) report the frozen study. Read [what the findings mean](docs/FINDINGS_EXPLAINED_V0.1.md), then the [independent-evidence plan](docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). Author review/declarations and PDF compilation are pending. The next scientific action is a source-specific admission audit, not a redesigned-model run on the exposed CASPER holdout.
+The [LaTeX draft and local package](manuscript/README.md) report the frozen study. Read [what the findings mean](docs/FINDINGS_EXPLAINED_V0.1.md), then the [independent-evidence plan](docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). PDF compilation and visual review are complete; author review/declarations are pending. The next scientific action is a source-specific admission audit, not a redesigned-model run on the exposed CASPER holdout.
