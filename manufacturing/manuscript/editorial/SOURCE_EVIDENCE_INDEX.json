@@ -1,0 +1,119 @@
+{
+  "casper2024": {
+    "path": "editorial/source_notes/CASPER_ADMISSION_2026-10-17.md",
+    "sha256": "81d1d45c56cd4ad688825fbf1a479a494374a685bec39399e53c2622763bf641",
+    "locator": "Sections 6.4.2–6.4.5; front matter and data collection description",
+    "url": "https://iotgarage.net/publications/pdfs/Kayan2024a.pdf",
+    "version": "Corrected version of record V1.1, 5 February 2025; original publication August 2024",
+    "scope": "Publisher identity and author-hosted corrected full manuscript verified; no performance reproduced",
+    "original_project_path": "../docs/literature/CASPER_ADMISSION_2026-10-17.md"
+  },
+  "casperdata": {
+    "path": "editorial/source_notes/casper_v3_receipt.json",
+    "sha256": "9c9bbc1b6a957fdbe2acebbca7c5df4f2517d2136b6b0cd29e4d0682e66b6e3a",
+    "locator": "Pinned provider metadata and local dataset receipt; right_arm.csv hash",
+    "url": "https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-anomaly-detection",
+    "version": "Provider version 3, 11 February 2023; received 16 October 2026",
+    "scope": "Provider identity/license and received byte identity audited; latest download route is not guaranteed version-pinned",
+    "original_project_path": "../datasets/manifests/casper_v3_receipt.json"
+  },
+  "edge2025": {
+    "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+    "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+    "locator": "Sections V–VI; external IMU, segmentation and prediction",
+    "url": "https://iotgarage.net/publications/pdfs/Kayan2025a.pdf",
+    "version": "Author manuscript; publisher issue 1 August 2025; first-online day unverified",
+    "scope": "Author full manuscript and publisher-deposited metadata verified; template header is not publication date",
+    "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+  },
+  "twine2026": {
+    "path": "editorial/source_notes/TWINE_ADMISSION_2026-10-17.md",
+    "sha256": "b9c3d083b3bac43e5445042884aefb02a8ed66436b36239daa5a51851098e4bb",
+    "locator": "Accepted manuscript p.16 and Algorithm 2, supervised random-forest training and 80/20 split",
+    "url": "https://pureadmin.qub.ac.uk/ws/files/689658736/TWINE.pdf",
+    "version": "QUB accepted manuscript; journal issue July 2026",
+    "scope": "Local accepted manuscript SHA 02f446e7c62d22289209a2667c411322cce0c1a134e8a1b9ac9b333fe3ce5012 and Crossref verified; current browser refetch unavailable; VOR not inspected",
+    "original_project_path": "../docs/literature/TWINE_ADMISSION_2026-10-17.md"
+  },
+  "willsky1976": {
+    "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+    "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+    "locator": "Section II equations 4–10; Section III pp.603–604",
+    "url": "https://willsky.lids.mit.edu/publ_pdfs/15_pub_AUTO.pdf",
+    "version": "Published survey; foundational background outside recent-baseline window",
+    "scope": "Author-hosted full manuscript and publication metadata verified",
+    "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+  },
+  "campbell2017": {
+    "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+    "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+    "locator": "Section 3, joint phase/phase-velocity/trajectory state and filtering",
+    "url": "https://proceedings.mlr.press/v78/campbell17a.html",
+    "version": "PMLR conference version; DOI not verified",
+    "scope": "Official proceedings metadata and saved full manuscript verified",
+    "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+  },
+  "clark2020": {
+    "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+    "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+    "locator": "Section III, periodic representation and phase inference",
+    "url": "https://arxiv.org/abs/2005.13139v1",
+    "version": "ICRA metadata; method inspected in author preprint v1, 27 May 2020",
+    "scope": "Publisher-deposited metadata and full author manuscript verified; version distinction retained",
+    "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+  },
+  "park2016": {
+    "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+    "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+    "locator": "Sections III–IV, HMM progress distribution and progress-dependent threshold",
+    "url": "https://pidipidi.github.io/pdf/ICRA16_2378_FI.pdf",
+    "version": "Author manuscript for ICRA 2016; foundational background",
+    "scope": "Author source, full manuscript and publisher-deposited metadata verified",
+    "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+  },
+  "itti2005": {
+    "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+    "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+    "locator": "Section 1 equations 1–2, posterior-to-prior KL",
+    "url": "https://papers.neurips.cc/paper_files/paper/2005/hash/0172d289da48c48de8c5ebf3de9f7ee1-Abstract.html",
+    "version": "Official NIPS 2005 conference record; author 2006 proceedings citation is not mixed into this entry; DOI not verified",
+    "scope": "Official proceedings metadata and full-paper definition verified",
+    "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+  },
+  "xu2022": {
+    "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+    "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+    "locator": "Sections 3.1–3.2 and Appendix E.2, reconstruction/discrepancy scoring",
+    "url": "https://arxiv.org/abs/2110.02642v5",
+    "version": "Author manuscript v5, 29 June 2022; ICLR-related work, citation explicitly identifies inspected arXiv version",
+    "scope": "arXiv version identity and manuscript verified; OpenReview browser challenge persists",
+    "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+  },
+  "arp2022": {
+    "path": "editorial/source_notes/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+    "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+    "locator": "Section 2 and evaluation recommendations, sampling/label bias and comparisons",
+    "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+    "version": "Official 2022 proceedings; DOI not verified",
+    "scope": "Official proceedings bibliography and manuscript verified",
+    "original_project_path": "../docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md"
+  },
+  "voraus2024": {
+    "path": "editorial/source_notes/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md",
+    "sha256": "36a05595ea92105be157bc9d15108c3f331c6ac4ed86e61b8e55a47c1ca0c1aa",
+    "locator": "Sections III-A–F, Table II; author repository README and loader",
+    "url": "https://arxiv.org/abs/2311.04765",
+    "version": "Journal volume 2024, institution reports online 13 November 2023; author preprint v1 inspected",
+    "scope": "Manuscript/provider metadata verified; no data bytes received or new dataset admitted",
+    "original_project_path": "../docs/literature/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md"
+  },
+  "nistdata": {
+    "path": "editorial/source_notes/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md",
+    "sha256": "36a05595ea92105be157bc9d15108c3f331c6ac4ed86e61b8e55a47c1ca0c1aa",
+    "locator": "Provider CSV table and controller-variable description",
+    "url": "https://www.nist.gov/el/intelligent-systems-division-73500/degradation-measurement-robot-arm-position-accuracy",
+    "version": "Provider page accessed 17 October 2026; page/catalogue dates are not claimed as acquisition dates",
+    "scope": "Official provider metadata verified; original CSVs not downloaded or inspected",
+    "original_project_path": "../docs/literature/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md"
+  }
+}

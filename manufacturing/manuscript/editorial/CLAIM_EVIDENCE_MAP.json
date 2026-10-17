@@ -1,0 +1,1886 @@
+{
+  "kind": "local_draft_claim_group_traceability",
+  "coverage_limit": "All explicit claim markers are registered; group coverage is not proof of exhaustive semantic extraction or correctness. Inline same-context review, not independent peer review.",
+  "claims": [
+    {
+      "id": "AB01",
+      "file": "sections/abstract.tex",
+      "file_sha256": "eb658e8f3c468dcd5930378eb42d40cecf34c2ba412bace2ba5dee684ea29b70",
+      "span_sha256": "4eb23bcc78ddecc9faba1e8aa661e68afed40d9f720a37fa4c803f038e84eb9b",
+      "first_line": 3,
+      "summary": "Does the evidence in a motion observer's measurement correction improve anomaly detection beyond its prospective residual? We examine this question on one original CASPER right-arm recording containing eight scheduled speed-intervention intervals. An empirical",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "methods; eligible_rows_per_method; timing_scope"
+        }
+      ],
+      "standing": "availability/scope declaration; human-dependent fields explicitly pending"
+    },
+    {
+      "id": "P01",
+      "file": "sections/appendix.tex",
+      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "span_sha256": "47ae691e697cb9cc54ccbe8f2ebf0f71c8c057de0e67bf82a47e797e53ce4f04",
+      "first_line": 4,
+      "summary": "All row ranges are zero-based data-row indices excluding the header. The original right-arm SHA-256 is \\begin{quote}\\small\\path{181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334}.\\end{quote} The selection freeze is \\begin{quote}\\small\\path{3b3f6",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "pre_execution_freeze; model_selection_freeze; run_matrix; timestamps; resource_receipts"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "entries and original dependency inventory"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "P02",
+      "file": "sections/appendix.tex",
+      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "span_sha256": "86e05e6475937a7ead0202316368214a8a5ba59db99cc4119f52efab8650b62a",
+      "first_line": 13,
+      "summary": "The protected scoring run began at 06:21:17.705600 UTC on 17 October 2026 and was accepted at 06:25:51.061961 UTC. Label joining began at 06:26:30.415287 UTC, after all streams sealed; evaluation completed at 06:27:12.073582 UTC. The source checksum matched be",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "pre_execution_freeze; model_selection_freeze; run_matrix; timestamps; resource_receipts"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "entries and original dependency inventory"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "P03",
+      "file": "sections/appendix.tex",
+      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "span_sha256": "9c27feb1494cc81fd422f0753cd49873253c4c64aa491d36fdc1130c37ea996f",
+      "first_line": 26,
+      "summary": "Table~\\ref{tab:selection} retains every declared ordinary candidate. Template and autoregression objectives are mean standardized prediction MSE; the velocity score is a different quantity and is not a cross-family objective. Its singleton is retained without ",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "pre_execution_freeze; model_selection_freeze; run_matrix; timestamps; resource_receipts"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "entries and original dependency inventory"
+        },
+        {
+          "path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+          "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+          "locator": "candidates; selection"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix/*/threshold"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "P04",
+      "file": "sections/appendix.tex",
+      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "span_sha256": "6bdb2e76e00262e68659ac31693c839ea5cc65bb0258dfbf93c233cebe707e39",
+      "first_line": 39,
+      "summary": "Table~\\ref{tab:counts} preserves all confusion counts and protected-normal alarm counts. Mixed counts use 682,646 observations; normal point counts use 214,473 eligible observations. All normal boundary-censoring counts were zero in this campaign. All eight ev",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "pre_execution_freeze; model_selection_freeze; run_matrix; timestamps; resource_receipts"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "entries and original dependency inventory"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "P05",
+      "file": "sections/appendix.tex",
+      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "span_sha256": "3259c6bd00bde0f2613d00f5528dab2a2403798a344d1426af4a1e91de5ff348",
+      "first_line": 51,
+      "summary": "Table~\\ref{tab:recovery} reports all eight scheduled-zero intervals following successive events. Columns Z1--Z7 end at the next event start; Z8 ends at the recording's end. Entries are alarm observations divided by eligible observations. These intervals are no",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "pre_execution_freeze; model_selection_freeze; run_matrix; timestamps; resource_receipts"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "entries and original dependency inventory"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "P06",
+      "file": "sections/appendix.tex",
+      "file_sha256": "a2ef40a2576674568d4c5a6656baa9843ddfde23c6cb429ce8be4ca555303c49",
+      "span_sha256": "965c0c0e8f8dc9907e64e154d778249b7bfb92de98b76b181798a85fddf43722",
+      "first_line": 60,
+      "summary": "The manuscript package's \\path{editorial/CLAIM_EVIDENCE_MAP.json} maps named claim groups to primary-source locations or exact experiment/configuration records. \\path{editorial/references.json} records source versions and access limits; \\path{references.bib} a",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "pre_execution_freeze; model_selection_freeze; run_matrix; timestamps; resource_receipts"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "entries and original dependency inventory"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "C01",
+      "file": "sections/conclusion.tex",
+      "file_sha256": "cf769f80616c5127a53167136b9cea38a7d19b8ed0f89c5dba7b3d608f96089e",
+      "span_sha256": "33e10368dd8423cd5af2dd5fd88f4d8835ecbee363d6d02f47063524948357b3",
+      "first_line": 3,
+      "summary": "This controlled CASPER study found a small descriptive benefit from adding correction discrepancy to an empirical motion observer's residual: F1 increased from \\RFone\\ to \\RCFone\\ with slightly fewer normal alarms. Absolute detection remained weak. The correct",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "A01",
+      "file": "sections/declarations.tex",
+      "file_sha256": "5238bf8dc6fb895e120d5d8591653ab16f8297cc967ae60c116eb6a1a47127e5",
+      "span_sha256": "3420fad58f3a333d5891c241f4390f55fb2c90ad6cdc7be75eb89d07548d3b1d",
+      "first_line": 3,
+      "summary": "The original CASPER provider and version are identified in Section~\\ref{sec:data} and the data receipt~\\cite{casperdata}. The provider metadata inspected at acquisition stated CC BY-SA 4.0. The original dataset is not redistributed in this manuscript package. ",
+      "evidence": [
+        {
+          "path": "editorial/WRITING_RECORD.json",
+          "sha256": "5e979f74f214225a4edf47a337ff5ff1d051c2d62f4ed49313316c74382a259e",
+          "locator": "author_order_user_supplied; pending fields; AI assistance; scope"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "included/excluded materials; distribution_approved"
+        },
+        {
+          "reference_key": "casperdata",
+          "path": "editorial/source_notes/casper_v3_receipt.json",
+          "sha256": "9c9bbc1b6a957fdbe2acebbca7c5df4f2517d2136b6b0cd29e4d0682e66b6e3a",
+          "locator": "Pinned provider metadata and local dataset receipt; right_arm.csv hash",
+          "url": "https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-anomaly-detection",
+          "version": "Provider version 3, 11 February 2023; received 16 October 2026",
+          "scope": "Provider identity/license and received byte identity audited; latest download route is not guaranteed version-pinned",
+          "original_project_path": "../datasets/manifests/casper_v3_receipt.json"
+        }
+      ],
+      "standing": "availability/scope declaration; human-dependent fields explicitly pending"
+    },
+    {
+      "id": "A02",
+      "file": "sections/declarations.tex",
+      "file_sha256": "5238bf8dc6fb895e120d5d8591653ab16f8297cc967ae60c116eb6a1a47127e5",
+      "span_sha256": "996a07a3dd31a96d9d048af52f89e649e3ee99b88f26c1c5541a86ec5f9d4951",
+      "first_line": 7,
+      "summary": "A local draft package contains the exact 52 tested source/configuration files, historical scientific specifications, frozen aggregate results, a deterministic table/figure generator, the bibliography and verification scripts. No upstream vendor code or third-p",
+      "evidence": [
+        {
+          "path": "editorial/WRITING_RECORD.json",
+          "sha256": "5e979f74f214225a4edf47a337ff5ff1d051c2d62f4ed49313316c74382a259e",
+          "locator": "author_order_user_supplied; pending fields; AI assistance; scope"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "included/excluded materials; distribution_approved"
+        }
+      ],
+      "standing": "availability/scope declaration; human-dependent fields explicitly pending"
+    },
+    {
+      "id": "A03",
+      "file": "sections/declarations.tex",
+      "file_sha256": "5238bf8dc6fb895e120d5d8591653ab16f8297cc967ae60c116eb6a1a47127e5",
+      "span_sha256": "67786fcc13b8c38690de1b8473cce9578be3eeedae28e05572b4e5b94fdc6e29",
+      "first_line": 11,
+      "summary": "The requested author order is Muhammad Usman, then Haiqa Mushtaq. Individual conceptualization, methodology, software, validation, formal analysis, data curation and writing roles are \\pending{each author's actual Contributor Roles Taxonomy (CRediT) contributi",
+      "evidence": [
+        {
+          "path": "editorial/WRITING_RECORD.json",
+          "sha256": "5e979f74f214225a4edf47a337ff5ff1d051c2d62f4ed49313316c74382a259e",
+          "locator": "author_order_user_supplied; pending fields; AI assistance; scope"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "included/excluded materials; distribution_approved"
+        }
+      ],
+      "standing": "availability/scope declaration; human-dependent fields explicitly pending"
+    },
+    {
+      "id": "A04",
+      "file": "sections/declarations.tex",
+      "file_sha256": "5238bf8dc6fb895e120d5d8591653ab16f8297cc967ae60c116eb6a1a47127e5",
+      "span_sha256": "a467500b60ca544cff427c3bfaa02b2ad41869de6bf439fae79deabe9c1e9247",
+      "first_line": 18,
+      "summary": "This work analyzes an existing robot dataset; no new human-participant recruitment or physical robot intervention was conducted by this study. No institutional exemption or ethics approval is claimed. Any applicable institutional determination remains \\pending",
+      "evidence": [
+        {
+          "path": "editorial/WRITING_RECORD.json",
+          "sha256": "5e979f74f214225a4edf47a337ff5ff1d051c2d62f4ed49313316c74382a259e",
+          "locator": "author_order_user_supplied; pending fields; AI assistance; scope"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "included/excluded materials; distribution_approved"
+        }
+      ],
+      "standing": "availability/scope declaration; human-dependent fields explicitly pending"
+    },
+    {
+      "id": "A05",
+      "file": "sections/declarations.tex",
+      "file_sha256": "5238bf8dc6fb895e120d5d8591653ab16f8297cc967ae60c116eb6a1a47127e5",
+      "span_sha256": "f3f2bcc352aac7f36aa7e9078d5221ac656a9d9a8c412d4bd73d7bca1ff61b61",
+      "first_line": 22,
+      "summary": "Artificial intelligence (AI) assistance through OpenAI Codex was used for research planning, primary-source checks, software implementation and tests, experiment orchestration, result analysis, manuscript drafting and reproducibility checks. The reported numer",
+      "evidence": [
+        {
+          "path": "editorial/WRITING_RECORD.json",
+          "sha256": "5e979f74f214225a4edf47a337ff5ff1d051c2d62f4ed49313316c74382a259e",
+          "locator": "author_order_user_supplied; pending fields; AI assistance; scope"
+        },
+        {
+          "path": "reproducibility/SOURCE_MANIFEST.json",
+          "sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+          "locator": "included/excluded materials; distribution_approved"
+        }
+      ],
+      "standing": "availability/scope declaration; human-dependent fields explicitly pending"
+    },
+    {
+      "id": "L01",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "2bedd3126e0c5057d166df7580d131cb23350289827536987e2ae09543fd9922",
+      "first_line": 4,
+      "summary": "The narrow hypothesis receives limited descriptive support: at the frozen operating rule, adding the correction term increased F1 slightly and reduced normal alarm counts. It also added one event hit. That finding does not establish strong detection. The low p",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "L02",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "15ffd376ed2549396c7dc1760c09630d976cb9eb0649f38eab4dfb124c8746bd",
+      "first_line": 8,
+      "summary": "The experiment cannot attribute the small gain to progression itself. Both primary outputs share nominal propagation, measurement correction and state history. Moreover, velocity measurements can retain direct speed evidence even after position is aligned: if ",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        }
+      ],
+      "standing": "implementation-linked algebra and explicitly labelled interpretation; not a novelty theorem"
+    },
+    {
+      "id": "L03",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "2af51aa0674dc2c0f2a9f4df19846200d425a5df8b04aba4eb702275896220a5",
+      "first_line": 11,
+      "summary": "The observer's uncertainty is also part of the interpretation. A mixture mean can poorly represent several plausible phases, as Equation~\\eqref{eq:mixtureidentity} shows. The normal-development ambiguity and substantially better one-step autoregression suggest",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "normal_partition_diagnostics/check_scores/components/synchronized"
+        },
+        {
+          "path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+          "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+          "locator": "selection/ar/selection_value"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "L04",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "102e50f1fc8fce5b29a3c8ff47349c4109602d6e0cd13510d8d93949a66ae572",
+      "first_line": 14,
+      "summary": "The study contains one task recording with eight dependent intervention intervals. It supplies within-recording descriptions, not a sample of robots, factories, tasks or attack campaigns. We do not use an ordinary row bootstrap, treat intervals as independent ",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "L05",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "e27bc142db7854a89b6cdbb808bdc4faabbed71eeb1c7731d33043d888be548f",
+      "first_line": 24,
+      "summary": "The original final holdout is now exposed. A new score, threshold, persistence rule, input choice or preferred method motivated by these outcomes must be described as exploratory. Repeating or reshuffling the same recording does not create a new confirmation s",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "F01",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "7ebc5887e4207b01a0c43346b1ca09367f9bcc59f17088c1e815fce135c93238",
+      "first_line": 28,
+      "summary": "Two public sources motivate a next admission audit rather than an immediate broader claim. The voraus-AD study provides separately collected robot executions with joint-state measurements and physical anomalies~\\cite{voraus2024}. It could test whether a motion",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        },
+        {
+          "reference_key": "voraus2024",
+          "path": "editorial/source_notes/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md",
+          "sha256": "36a05595ea92105be157bc9d15108c3f331c6ac4ed86e61b8e55a47c1ca0c1aa",
+          "locator": "Sections III-A–F, Table II; author repository README and loader",
+          "url": "https://arxiv.org/abs/2311.04765",
+          "version": "Journal volume 2024, institution reports online 13 November 2023; author preprint v1 inspected",
+          "scope": "Manuscript/provider metadata verified; no data bytes received or new dataset admitted",
+          "original_project_path": "../docs/literature/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md"
+        },
+        {
+          "reference_key": "nistdata",
+          "path": "editorial/source_notes/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md",
+          "sha256": "36a05595ea92105be157bc9d15108c3f331c6ac4ed86e61b8e55a47c1ca0c1aa",
+          "locator": "Provider CSV table and controller-variable description",
+          "url": "https://www.nist.gov/el/intelligent-systems-division-73500/degradation-measurement-robot-arm-position-accuracy",
+          "version": "Provider page accessed 17 October 2026; page/catalogue dates are not claimed as acquisition dates",
+          "scope": "Official provider metadata verified; original CSVs not downloaded or inspected",
+          "original_project_path": "../docs/literature/INDEPENDENT_EVIDENCE_SCREEN_2026-10-17.md"
+        }
+      ],
+      "standing": "post-exposure proposal, not executed or independently confirmed"
+    },
+    {
+      "id": "F02",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "98ba19df77a12dd620b74b3b5d13a5464508b092f128c9c82c643ea04ba964ac",
+      "first_line": 31,
+      "summary": "A future protocol must establish acquisition/session groups, original file identities, units, clock continuity and annotation provenance before fixing whole-group training, development, calibration and final assignments. CASPER's period, fitted scaler, 1,528-r",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        },
+        {
+          "path": "editorial/source_notes/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md",
+          "sha256": "ac73c4a188626ff8903ac7464272391e997972c7f7c6ec5aa40f65114f6c01cf",
+          "locator": "stages A–E; proposed only"
+        }
+      ],
+      "standing": "post-exposure proposal, not executed or independently confirmed"
+    },
+    {
+      "id": "F03",
+      "file": "sections/discussion.tex",
+      "file_sha256": "e8b5a8d433f06cccf0850b67b8bbab7f18574a3dacdb19091eab846fd040269f",
+      "span_sha256": "d7bf8f6b5b80f86f444a6f8a0a154d0264c74a44f733d05f475a5a97d72aa07a",
+      "first_line": 34,
+      "summary": "A stronger cybersecurity question requires repeated acquisitions with documented authorized and unauthorized command changes, truthful monitoring, and trusted context that makes the distinction observable. Fault recordings alone cannot supply that evidence. No",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; claims; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "single-acquisition claim boundary"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "holdout_now_exposed; future_outcome_driven_redesign"
+        },
+        {
+          "path": "editorial/source_notes/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md",
+          "sha256": "ac73c4a188626ff8903ac7464272391e997972c7f7c6ec5aa40f65114f6c01cf",
+          "locator": "cybersecurity-specific extension; no admitted lab access"
+        }
+      ],
+      "standing": "post-exposure proposal, not executed or independently confirmed"
+    },
+    {
+      "id": "E01",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "4c490afa7120e456452f5f5fe8067d1095dad0556f0040f245b510115b344814",
+      "first_line": 4,
+      "summary": "Table~\\ref{tab:splits} defines zero-based data rows excluding the header, with half-open ranges. Splitting precedes history construction. A new segment begins when $\\Delta t\\leq0$ or $\\Delta t>0.075$ seconds. Each partition starts independently, except that fi",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E02",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "2563e1fb758b6b22c79b1fc22cf1c41c7f29d7760c19d170c5e34d051a88b596",
+      "first_line": 19,
+      "summary": "Seven ordinary candidates were declared: one velocity control, two templates with 32/64 bins, and four autoregressions crossing orders 1/4 with ridge values 0.001/0.1. Template and autoregression selection separately minimized normal-development prediction mea",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E03",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "0014db0e10cca96c4ac68585725e5797163b8dc2a35255498abed7b331047d33",
+      "first_line": 23,
+      "summary": "The complete eleven-method roster, fitted artifacts, transformations, initialization, formulas, budgets and reporting rules were locally frozen before calibration. These records are prospective experiment records, not an externally registered study or independ",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E04",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "f5d6a801900aeab0a43f6125baedf6cb2421ec795ab24151b73c2d9d75e2846f",
+      "first_line": 31,
+      "summary": "The mixed population contains 345,602 schedule-positive and 337,044 schedule-zero observations. Unadjusted precision, recall and F1 use counts of true positives (TP), false positives (FP), false negatives (FN) and true negatives (TN). Average precision (AP) gr",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E05",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "0fe8c2a027a6bfe4387ddb0e6ed31bf1c0cc80ad17e9fde1dc05e4971ce1d8cd",
+      "first_line": 35,
+      "summary": "Protected-normal burden comprises the fraction of eligible points alarmed and the number of contiguous alarm episodes per eligible native-time hour. Exposure sums adjacent eligible timestamp differences within a continuous segment; it does not substitute a nom",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E06",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "3359220867c7909594abd946082122fab0c87f250a4551e5c5025eddb0ed0444",
+      "first_line": 38,
+      "summary": "An event-overlap hit requires an alarm on at least one eligible positive point. A fresh onset requires the start of a new alarm episode within the interval; an alarm already active at the boundary can overlap without being fresh. Delay is measured from the rec",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E07",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "34f456d8ba24f1cd6112ef5352e46138117228e7c7dbbe1fbdd0b62c0d0c83e3",
+      "first_line": 41,
+      "summary": "All eleven methods are deterministic and ran once, with no stochastic seed. The policy seeds 17, 42 and 2026 were reserved for stochastic methods; none was admitted. Final feature replay saved all aligned scores and hashes without parsing labels. The delayed e",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "E08",
+      "file": "sections/evaluation.tex",
+      "file_sha256": "15cc86bcabd2eb93a191ac33f6dbf78a991638491646d16d1f1243ac828122df",
+      "span_sha256": "40b5f25b3b88f3f988c607522bf64f0b2e8576bc4e202a70c7f8a9cffa2609a5",
+      "first_line": 45,
+      "summary": "The implementation was covered by 324 synthetic software tests. The same 52 source/configuration identities and 133 frozen input bindings remained unchanged during the campaign. A separate saved-result audit recomputed metric, episode, event and recovery arith",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+          "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+          "locator": "fixed partitions and metric definitions"
+        },
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+          "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+          "locator": "roster, resource bounds and calibration"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+          "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+          "locator": "point_metrics, event and episode rules"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "run_matrix; audit; chronological event timestamps"
+        },
+        {
+          "path": "reproducibility/inputs/SOFTWARE_TEST_REPORT_CAMPAIGN_V0.1.json",
+          "sha256": "615a6568a514a40b44c11c6497fef973fcf134cfc9a9d655ec04ff0597c74777",
+          "locator": "tests_run; success; scope"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "audit; frozen_source_files_verified; frozen_input_bindings_verified"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "I01",
+      "file": "sections/introduction.tex",
+      "file_sha256": "ee84d7a6b71c474f30c36e2dd2d3553ba270fd8ce0de3cb6decac79cf08fac98",
+      "span_sha256": "66881b7c8cbce5819306b13e87920a81f5efda619a6156cfcd43f6aaa8077abb",
+      "first_line": 4,
+      "summary": "A motion monitor for a repetitive robot must account for where the robot is in its task. The same joint position can be expected at one stage and inconsistent with another. Existing robot-monitoring studies use temporal alignment, prediction or execution progr",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "Decision and admitted independent controls"
+        },
+        {
+          "reference_key": "casper2024",
+          "path": "editorial/source_notes/CASPER_ADMISSION_2026-10-17.md",
+          "sha256": "81d1d45c56cd4ad688825fbf1a479a494374a685bec39399e53c2622763bf641",
+          "locator": "Sections 6.4.2–6.4.5; front matter and data collection description",
+          "url": "https://iotgarage.net/publications/pdfs/Kayan2024a.pdf",
+          "version": "Corrected version of record V1.1, 5 February 2025; original publication August 2024",
+          "scope": "Publisher identity and author-hosted corrected full manuscript verified; no performance reproduced",
+          "original_project_path": "../docs/literature/CASPER_ADMISSION_2026-10-17.md"
+        },
+        {
+          "reference_key": "park2016",
+          "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+          "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+          "locator": "Sections III–IV, HMM progress distribution and progress-dependent threshold",
+          "url": "https://pidipidi.github.io/pdf/ICRA16_2378_FI.pdf",
+          "version": "Author manuscript for ICRA 2016; foundational background",
+          "scope": "Author source, full manuscript and publisher-deposited metadata verified",
+          "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+        },
+        {
+          "reference_key": "campbell2017",
+          "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+          "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+          "locator": "Section 3, joint phase/phase-velocity/trajectory state and filtering",
+          "url": "https://proceedings.mlr.press/v78/campbell17a.html",
+          "version": "PMLR conference version; DOI not verified",
+          "scope": "Official proceedings metadata and saved full manuscript verified",
+          "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "I02",
+      "file": "sections/introduction.tex",
+      "file_sha256": "ee84d7a6b71c474f30c36e2dd2d3553ba270fd8ce0de3cb6decac79cf08fac98",
+      "span_sha256": "e94b0e3975c6053782436c05a7382ba9276ce22e120538cf1a4b771585c54b84",
+      "first_line": 7,
+      "summary": "Prediction and correction serve different purposes. A predictor estimates the next observation from available history. A measurement update then changes the state estimate to account for the new observation. Innovation-based failure detection and the relations",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "Decision and admitted independent controls"
+        },
+        {
+          "reference_key": "willsky1976",
+          "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+          "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+          "locator": "Section II equations 4–10; Section III pp.603–604",
+          "url": "https://willsky.lids.mit.edu/publ_pdfs/15_pub_AUTO.pdf",
+          "version": "Published survey; foundational background outside recent-baseline window",
+          "scope": "Author-hosted full manuscript and publication metadata verified",
+          "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+        },
+        {
+          "reference_key": "itti2005",
+          "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+          "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+          "locator": "Section 1 equations 1–2, posterior-to-prior KL",
+          "url": "https://papers.neurips.cc/paper_files/paper/2005/hash/0172d289da48c48de8c5ebf3de9f7ee1-Abstract.html",
+          "version": "Official NIPS 2005 conference record; author 2006 proceedings citation is not mixed into this entry; DOI not verified",
+          "scope": "Official proceedings metadata and full-paper definition verified",
+          "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "I03",
+      "file": "sections/introduction.tex",
+      "file_sha256": "ee84d7a6b71c474f30c36e2dd2d3553ba270fd8ce0de3cb6decac79cf08fac98",
+      "span_sha256": "f4a0c0d42a5733986752125cc675ad14a421269712af4e989af8f8313da7f23b",
+      "first_line": 10,
+      "summary": "We examine that question on the original CASPER right-arm recording using joint positions, joint velocities and relative elapsed time. A fixed empirical phase observer supplies a prospective residual and a Jensen--Shannon correction discrepancy. The primary co",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "Decision and admitted independent controls"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "I04",
+      "file": "sections/introduction.tex",
+      "file_sha256": "ee84d7a6b71c474f30c36e2dd2d3553ba270fd8ce0de3cb6decac79cf08fac98",
+      "span_sha256": "d8c06b5e4f947a9b8c0b08bae3a7c75f0222b07e6036376bc2cf6492425bbfc9",
+      "first_line": 13,
+      "summary": "The study provides three bounded outputs: an explicit same-observer comparison with classical surprise and ordinary controls; a complete chronological evaluation that separates normal calibration from final outcomes; and a reproducible record of the resulting ",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "Decision and admitted independent controls"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "I05",
+      "file": "sections/introduction.tex",
+      "file_sha256": "ee84d7a6b71c474f30c36e2dd2d3553ba270fd8ce0de3cb6decac79cf08fac98",
+      "span_sha256": "6f130f59292cf41bcfe99c92dc2194eb9815aaa9e4777efa9ea0df20d435f5f3",
+      "first_line": 16,
+      "summary": "The findings support only a small correction-score effect. Absolute detection is weak, and simple controls match or exceed several observer outcomes. Reporting this result requires more than counting event hits. A detector that alarms often during normal motio",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "Decision and admitted independent controls"
+        },
+        {
+          "reference_key": "arp2022",
+          "path": "editorial/source_notes/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+          "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+          "locator": "Section 2 and evaluation recommendations, sampling/label bias and comparisons",
+          "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+          "version": "Official 2022 proceedings; DOI not verified",
+          "scope": "Official proceedings bibliography and manuscript verified",
+          "original_project_path": "../docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "M01",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "24b7d0f2f08b497b75e36a86fa754a7d097f85891ee44a1d10c49141cec7a81f",
+      "first_line": 4,
+      "summary": "Let $x_t=(q_t,\\dot q_t)\\in\\mathbb R^{12}$. Training-only population moments give \\begin{equation} z_{t,j}=\\frac{x_{t,j}-\\mu_j}{\\sigma_j},\\qquad \\sigma_j^2=\\frac{1}{n_{\\rm fit}}\\sum_{t\\in\\mathcal T}(x_{t,j}-\\mu_j)^2. \\label{eq:scale} \\end{equation} Moments are ",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M02",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "129ee8870480b93a8ff03bb50eb4c71f13e9abd4641171a888cfa865e5e33edb",
+      "first_line": 14,
+      "summary": "The periodic reference comprises $B=32$ standardized mean vectors $m_k$ and a training-estimated period $T=38$ seconds. Period estimation samples every twentieth observation from the first eligible training segment, up to 10,000 observations. It examines mean ",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "period estimation and template construction"
+        },
+        {
+          "path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+          "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+          "locator": "candidates; selection/template"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M03",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "9d42cac657871283b7c48a2b1e6b642c1c3b3e9b0ee7039d1b05f42ea521c483",
+      "first_line": 17,
+      "summary": "The dynamic state is a categorical distribution over the $B$ phase bins. Each segment begins uniformly. Given previous posterior $p^+_{t-1}$ and native $\\Delta t$, define the circular shift operator $\\mathcal S_\\delta$ by linearly distributing probability betw",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M04",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "ec8a7394011d2006cf69446b7fc513248fadd0465f38c3804035d26bebf7069d",
+      "first_line": 28,
+      "summary": "Before the current measurement influences state, the observer predicts \\begin{equation} \\widehat z_t=\\sum_{k=0}^{B-1}p^-_t(k)m_k,\\qquad R_t=\\frac{1}{12}\\|z_t-\\widehat z_t\\|_2^2. \\label{eq:residual} \\end{equation} The current observation then supplies template ",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M05",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "43c45ee578a25078671b71573aaca36ecdaee1a48cecd3aa67594dd1ac4e066a",
+      "first_line": 44,
+      "summary": "With $u_t=(p^-_t+p^+_t)/2$, correction evidence is \\begin{equation} C_t=\\tfrac12\\mathrm{KL}(p^-_t\\|u_t)+\\tfrac12\\mathrm{KL}(p^+_t\\|u_t). \\label{eq:js} \\end{equation} Natural logarithms are used; zero-mass terms contribute zero. The statistic lies in $[0,\\log 2",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M06",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "bdd9679e54bca385f571f5436c4be278f11f7a783a6aa4263b34dc9592850089",
+      "first_line": 52,
+      "summary": "Training-only mean residual and correction values are $a=\\FitA$ and $b=\\FitB$. The primary scores are \\begin{equation} S_{\\mathrm{O-R},t}=R_t/a,\\qquad S_{\\mathrm{O-RC},t}=R_t/a+C_t/b. \\label{eq:primary} \\end{equation} Both scores use exactly the same prior, po",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M07",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "d52336a5bd416d3e028456e9295225ea228491d4a7f247bd3183f515d12e0c0e",
+      "first_line": 62,
+      "summary": "Four explanatory outputs use that same observer: \\method{O-C} is raw $C_t$; \\method{O-K} is $\\mathrm{KL}(p^+_t\\|p^-_t)$; \\method{O-L} is the predictive mixture energy $-\\log Z_t$; and \\method{O-Rv} is the mean standardized squared residual restricted to the si",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "M08",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "14c367151e2476f1fd1a6c8ffb3988a0d9f6059a2e85e9ce95bd9157accfbb6f",
+      "first_line": 65,
+      "summary": "The energy and KL outputs are related by the direct identity \\begin{equation} -\\log Z_t=\\mathrm{KL}(p^+_t\\|p^-_t)+\\sum_k p^+_t(k)e_t(k), \\label{eq:energyidentity} \\end{equation} for positive prior support. Also, \\begin{equation} \\sum_k p^-_t(k)D_t(k)=R_t+ \\fra",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        }
+      ],
+      "standing": "implementation-linked algebra and explicitly labelled interpretation; not a novelty theorem"
+    },
+    {
+      "id": "M09",
+      "file": "sections/methods.tex",
+      "file_sha256": "0a089cb600ae45581a700e4e84110c7850feb8bf241c13cc6f81fc48d2e03164",
+      "span_sha256": "c396577d6ccd70ac2c810c5984933708144a37299608e1ab766962ca7ad48775",
+      "first_line": 79,
+      "summary": "\\method{V-Z} takes the maximum absolute training-standardized deviation across joint velocities. \\method{T-32} predicts from the fixed 32-bin template. Its warmup chooses the minimum cumulative-loss integer phase offset, with the smallest offset breaking ties;",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+          "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+          "locator": "phase propagation, predictive_step, correction and training statistics"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+          "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+          "locator": "component scores and divergence calculations"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+          "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+          "locator": "training and scoring controls"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "fitted_observer_configuration; training_normalizers"
+        },
+        {
+          "path": "reproducibility/snapshot/src/mfg_twin/velocity.py",
+          "sha256": "080f6d09440f2605b1e636925d92791bb67391abead0c22b79d6fad3fc40f61a",
+          "locator": "mean/standard deviation fitting and scoring"
+        },
+        {
+          "path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+          "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+          "locator": "candidates; selection/ar"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "D01",
+      "file": "sections/problem_data.tex",
+      "file_sha256": "0a2c15558fb460cbdc77280bd2b4ce2d53c00e7ca39adeb7d4ebb5fa878daf51",
+      "span_sha256": "c10433ff3644502d5de3260a32c65716b5bbb400149a0e222255d23d2c8c7c21",
+      "first_line": 4,
+      "summary": "At observation index $t$, the monitor receives six actual joint positions $q_t$, six actual joint velocities $\\dot q_t$, and elapsed native time $\\Delta t$. Positions and velocities are interpreted in radians and radians per second, respectively, following the",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_contract_v0.1.json",
+          "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+          "locator": "feature, annotation and split contract"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+          "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291",
+          "locator": "Observation and adversary scope"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "D02",
+      "file": "sections/problem_data.tex",
+      "file_sha256": "0a2c15558fb460cbdc77280bd2b4ce2d53c00e7ca39adeb7d4ebb5fa878daf51",
+      "span_sha256": "e74a95ccc8c8a1d732ef446a4748fe915e1935fad4c5a1f7ec5493c8ca44e874",
+      "first_line": 8,
+      "summary": "The restricted adversary alters the command/application path governing motion speed while the monitoring telemetry and its clock remain truthful. The dataset does not establish authenticated telemetry or resistance to compromised controller firmware. The study",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_contract_v0.1.json",
+          "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+          "locator": "feature, annotation and split contract"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+          "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291",
+          "locator": "Observation and adversary scope"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "D03",
+      "file": "sections/problem_data.tex",
+      "file_sha256": "0a2c15558fb460cbdc77280bd2b4ce2d53c00e7ca39adeb7d4ebb5fa878daf51",
+      "span_sha256": "7c5c2e613f8278dfbe28172f4228ee1d8404cb13b79c0cd10b35358095afa2ca",
+      "first_line": 11,
+      "summary": "We use the original CASPER provider collection, version 3, rather than the separate later ``CASPER 1 \\& 2'' listing~\\cite{casperdata}. The selected original file is \\texttt{dataset/right\\_arm.csv}, containing 1,762,650 data rows. Its byte size is 1,978,193,094",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_contract_v0.1.json",
+          "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+          "locator": "feature, annotation and split contract"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+          "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291",
+          "locator": "Observation and adversary scope"
+        },
+        {
+          "reference_key": "casperdata",
+          "path": "editorial/source_notes/casper_v3_receipt.json",
+          "sha256": "9c9bbc1b6a957fdbe2acebbca7c5df4f2517d2136b6b0cd29e4d0682e66b6e3a",
+          "locator": "Pinned provider metadata and local dataset receipt; right_arm.csv hash",
+          "url": "https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-anomaly-detection",
+          "version": "Provider version 3, 11 February 2023; received 16 October 2026",
+          "scope": "Provider identity/license and received byte identity audited; latest download route is not guaranteed version-pinned",
+          "original_project_path": "../datasets/manifests/casper_v3_receipt.json"
+        },
+        {
+          "reference_key": "casper2024",
+          "path": "editorial/source_notes/CASPER_ADMISSION_2026-10-17.md",
+          "sha256": "81d1d45c56cd4ad688825fbf1a479a494374a685bec39399e53c2622763bf641",
+          "locator": "Sections 6.4.2–6.4.5; front matter and data collection description",
+          "url": "https://iotgarage.net/publications/pdfs/Kayan2024a.pdf",
+          "version": "Corrected version of record V1.1, 5 February 2025; original publication August 2024",
+          "scope": "Publisher identity and author-hosted corrected full manuscript verified; no performance reproduced",
+          "original_project_path": "../docs/literature/CASPER_ADMISSION_2026-10-17.md"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "D04",
+      "file": "sections/problem_data.tex",
+      "file_sha256": "0a2c15558fb460cbdc77280bd2b4ce2d53c00e7ca39adeb7d4ebb5fa878daf51",
+      "span_sha256": "889f913b5ef7ba3d139994c582e49d6fed2b542f48fdcf19e9f95d03e379aeb1",
+      "first_line": 15,
+      "summary": "Local schema and annotation audits established twelve selected joint-state channels, native controller timing and eight contiguous positive flag intervals. The flags describe a scheduled intervention program. They are not independently measured physical-impact",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_contract_v0.1.json",
+          "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+          "locator": "feature, annotation and split contract"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+          "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291",
+          "locator": "Observation and adversary scope"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "D05",
+      "file": "sections/problem_data.tex",
+      "file_sha256": "0a2c15558fb460cbdc77280bd2b4ce2d53c00e7ca39adeb7d4ebb5fa878daf51",
+      "span_sha256": "9650966d19078dd528756107abc250e45affe67059ad175bfe6f5d0310664c64",
+      "first_line": 18,
+      "summary": "This is one repetitive pick-and-place acquisition. The eight scheduled intervals, millions of samples and repeated motion cycles are dependent observations from that acquisition. The dataset provides no independent labels for legitimate changeovers, attack int",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/configs/casper_right_arm_contract_v0.1.json",
+          "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+          "locator": "feature, annotation and split contract"
+        },
+        {
+          "path": "reproducibility/snapshot/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+          "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291",
+          "locator": "Observation and adversary scope"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "W01",
+      "file": "sections/related_work.tex",
+      "file_sha256": "35009a4daae5c2ecb239f07ca23b939a2715be2cb4e7d8e7e6608e6d0501ea08",
+      "span_sha256": "7e14302e50c44ac6afc4e3e9e537b6a1d9afd9f972c66199d159b04a5d150769",
+      "first_line": 4,
+      "summary": "CASPER uses an external inertial measurement unit (IMU), periodic/statistical references and learned next-observation predictors to detect altered arm motion~\\cite{casper2024}. Its later edge-computing study combines task segmentation with prediction on extern",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "separate modality/supervision tracks and designations"
+        },
+        {
+          "reference_key": "casper2024",
+          "path": "editorial/source_notes/CASPER_ADMISSION_2026-10-17.md",
+          "sha256": "81d1d45c56cd4ad688825fbf1a479a494374a685bec39399e53c2622763bf641",
+          "locator": "Sections 6.4.2–6.4.5; front matter and data collection description",
+          "url": "https://iotgarage.net/publications/pdfs/Kayan2024a.pdf",
+          "version": "Corrected version of record V1.1, 5 February 2025; original publication August 2024",
+          "scope": "Publisher identity and author-hosted corrected full manuscript verified; no performance reproduced",
+          "original_project_path": "../docs/literature/CASPER_ADMISSION_2026-10-17.md"
+        },
+        {
+          "reference_key": "edge2025",
+          "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+          "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+          "locator": "Sections V–VI; external IMU, segmentation and prediction",
+          "url": "https://iotgarage.net/publications/pdfs/Kayan2025a.pdf",
+          "version": "Author manuscript; publisher issue 1 August 2025; first-online day unverified",
+          "scope": "Author full manuscript and publisher-deposited metadata verified; template header is not publication date",
+          "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "W02",
+      "file": "sections/related_work.tex",
+      "file_sha256": "35009a4daae5c2ecb239f07ca23b939a2715be2cb4e7d8e7e6608e6d0501ea08",
+      "span_sha256": "32e60aa7819f976044c2d538c04334080bc13eb33154e8ee4da485eb862692c0",
+      "first_line": 8,
+      "summary": "TWINE describes a digital-twin and explainable-learning framework using a supervised random-forest classifier. Its accepted manuscript specifies an 80/20 train--test split using \\texttt{train\\_test\\_split} and labelled training examples~\\cite{twine2026}. Our f",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "separate modality/supervision tracks and designations"
+        },
+        {
+          "reference_key": "twine2026",
+          "path": "editorial/source_notes/TWINE_ADMISSION_2026-10-17.md",
+          "sha256": "b9c3d083b3bac43e5445042884aefb02a8ed66436b36239daa5a51851098e4bb",
+          "locator": "Accepted manuscript p.16 and Algorithm 2, supervised random-forest training and 80/20 split",
+          "url": "https://pureadmin.qub.ac.uk/ws/files/689658736/TWINE.pdf",
+          "version": "QUB accepted manuscript; journal issue July 2026",
+          "scope": "Local accepted manuscript SHA 02f446e7c62d22289209a2667c411322cce0c1a134e8a1b9ac9b333fe3ce5012 and Crossref verified; current browser refetch unavailable; VOR not inspected",
+          "original_project_path": "../docs/literature/TWINE_ADMISSION_2026-10-17.md"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "W03",
+      "file": "sections/related_work.tex",
+      "file_sha256": "35009a4daae5c2ecb239f07ca23b939a2715be2cb4e7d8e7e6608e6d0501ea08",
+      "span_sha256": "bec98da8aebeccd418ae7b4ea1a3f7c37b70c1aafd318d0f145e37a672e34f02",
+      "first_line": 11,
+      "summary": "Bayesian Interaction Primitives jointly infer phase, phase velocity and trajectory state~\\cite{campbell2017}. Periodic Interaction Primitives address repeated motion through periodic representations and observation-conditioned inference~\\cite{clark2020}. Park ",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "separate modality/supervision tracks and designations"
+        },
+        {
+          "reference_key": "campbell2017",
+          "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+          "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+          "locator": "Section 3, joint phase/phase-velocity/trajectory state and filtering",
+          "url": "https://proceedings.mlr.press/v78/campbell17a.html",
+          "version": "PMLR conference version; DOI not verified",
+          "scope": "Official proceedings metadata and saved full manuscript verified",
+          "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+        },
+        {
+          "reference_key": "clark2020",
+          "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+          "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+          "locator": "Section III, periodic representation and phase inference",
+          "url": "https://arxiv.org/abs/2005.13139v1",
+          "version": "ICRA metadata; method inspected in author preprint v1, 27 May 2020",
+          "scope": "Publisher-deposited metadata and full author manuscript verified; version distinction retained",
+          "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+        },
+        {
+          "reference_key": "park2016",
+          "path": "editorial/source_notes/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md",
+          "sha256": "153b3f8f317156bb56d93115150fa57538eeffb31631a4c8ff9da1b3c44d8804",
+          "locator": "Sections III–IV, HMM progress distribution and progress-dependent threshold",
+          "url": "https://pidipidi.github.io/pdf/ICRA16_2378_FI.pdf",
+          "version": "Author manuscript for ICRA 2016; foundational background",
+          "scope": "Author source, full manuscript and publisher-deposited metadata verified",
+          "original_project_path": "../docs/literature/PERIODIC_ALIGNMENT_PRIOR_ART_2026-10-17.md"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "W04",
+      "file": "sections/related_work.tex",
+      "file_sha256": "35009a4daae5c2ecb239f07ca23b939a2715be2cb4e7d8e7e6608e6d0501ea08",
+      "span_sha256": "2d13cfdd5fe3b265a5741388a82757c907ad689b2dc8493ee3601156c926cfaf",
+      "first_line": 15,
+      "summary": "Classical innovation monitoring separates prediction error from state correction~\\cite{willsky1976}. Bayesian surprise measures posterior-to-prior Kullback--Leibler (KL) divergence~\\cite{itti2005}. Anomaly Transformer combines reconstruction error with a discr",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "separate modality/supervision tracks and designations"
+        },
+        {
+          "reference_key": "willsky1976",
+          "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+          "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+          "locator": "Section II equations 4–10; Section III pp.603–604",
+          "url": "https://willsky.lids.mit.edu/publ_pdfs/15_pub_AUTO.pdf",
+          "version": "Published survey; foundational background outside recent-baseline window",
+          "scope": "Author-hosted full manuscript and publication metadata verified",
+          "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+        },
+        {
+          "reference_key": "itti2005",
+          "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+          "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+          "locator": "Section 1 equations 1–2, posterior-to-prior KL",
+          "url": "https://papers.neurips.cc/paper_files/paper/2005/hash/0172d289da48c48de8c5ebf3de9f7ee1-Abstract.html",
+          "version": "Official NIPS 2005 conference record; author 2006 proceedings citation is not mixed into this entry; DOI not verified",
+          "scope": "Official proceedings metadata and full-paper definition verified",
+          "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+        },
+        {
+          "reference_key": "xu2022",
+          "path": "editorial/source_notes/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md",
+          "sha256": "99135e063abce2ac0a183c2d3d85863f80cde4fb568e5581be17db98b73d9a16",
+          "locator": "Sections 3.1–3.2 and Appendix E.2, reconstruction/discrepancy scoring",
+          "url": "https://arxiv.org/abs/2110.02642v5",
+          "version": "Author manuscript v5, 29 June 2022; ICLR-related work, citation explicitly identifies inspected arXiv version",
+          "scope": "arXiv version identity and manuscript verified; OpenReview browser challenge persists",
+          "original_project_path": "../docs/literature/INNOVATION_SYNCHRONIZATION_PRIOR_ART_2026-10-17.md"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "W05",
+      "file": "sections/related_work.tex",
+      "file_sha256": "35009a4daae5c2ecb239f07ca23b939a2715be2cb4e7d8e7e6608e6d0501ea08",
+      "span_sha256": "e2bf987ebdeabdcfafa2987770b37bf46b09fada2262efc6b32610fe225c8c0b",
+      "first_line": 19,
+      "summary": "Our comparison set is defined by the narrow scientific question. It contains a matched residual/correction pair, explanatory scores from the same observer, two state-update variants and three ordinary controls. It does not establish competitive performance aga",
+      "evidence": [
+        {
+          "path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+          "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+          "locator": "separate modality/supervision tracks and designations"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R01",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "cdbf3903232363d6cb780f0874b0d1b319a0e96c1806b39ffc9e98ba3a782ecb",
+      "first_line": 4,
+      "summary": "Every method produced 897,119 finite eligible final scores: 214,473 in the protected normal slice and 682,646 in the mixed slice. Eligible coverage is 100\\%. Raw final coverage is 99.829967\\%; the only 1,528 exclusions are the common initial warmup. No missing",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R02",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "655a909f2a79c9da07a0d04235dc7b98d67be5a923f40ef0709688c567449050",
+      "first_line": 8,
+      "summary": "Earlier normal-only checks supported a recurring 38-second reference and prospective state synchronization, but did not establish accurate latent phase. The synchronized observer's development one-step MSE was \\ObserverMSE, compared with \\ARMSE\\ for the ordina",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        },
+        {
+          "path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+          "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+          "locator": "normal_partition_diagnostics/check_scores/components/synchronized; validation; fitted_observer_configuration"
+        },
+        {
+          "path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+          "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+          "locator": "selection/ar/selection_value"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R03",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "89799b3008c295e9853fc31f7239ccbd43ef6cb270c7b51500069853ff333185",
+      "first_line": 11,
+      "summary": "Table~\\ref{tab:results} shows all declared methods in their frozen order. \\method{O-RC} achieved F1 \\RCFone\\ and point recall \\RCRecallPct\\%. Its protected-normal point alarm fraction was \\RCNormalPct\\%, with \\RCEpisodes\\ episodes or \\RCEpisodeRate\\ episodes p",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R04",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "6b95eef0becc03bacba18d1800d830de52a7f1865d198f1588566fdcb162db04",
+      "first_line": 25,
+      "summary": "The primary \\method{O-RC} minus \\method{O-R} contrast increased F1 by \\FoneGain. It added 122 true-positive points while removing 32 mixed false-positive points, 27 protected-normal alarm points and ten protected-normal episodes. Normal episode rate decreased ",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary/O-RC; summary/O-R; paired_contrast"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R05",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "8868d19ce23493560cff9290b535b825162c6968fb3786bd92179c1c96552a6d",
+      "first_line": 28,
+      "summary": "The ordinary \\method{AR-4} achieved F1 \\ARFone\\ and AP \\ARAP, both above \\method{O-RC}, with slightly fewer normal alarm points (2,109 versus 2,132). It produced 1,302 normal episodes, or \\AREpisodeRate/hour, compared with 554 for \\method{O-RC}. The fixed temp",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R06",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "22e199d3f37d8bae88c8809a7cbc9fc21142d2ac0790d6156fbe0c31d74cb04e",
+      "first_line": 31,
+      "summary": "Mixed positive prevalence was \\PrevalencePct\\%. The constant tied-score AP reference is that prevalence; observed AP ranged from 0.490596 to 0.507711. Values near this reference do not establish useful broad ranking separation. This reference is arithmetic, no",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "R07",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "369c5092b84fa1d2caffcd8ff69c81fbe145ff573fcfd21fed7b78d6dd2b9992",
+      "first_line": 34,
+      "summary": "Correction-only \\method{O-C} and KL surprise \\method{O-K} had slightly higher F1 than \\method{O-RC}, but 342.76 and 349.47 normal episodes/hour, respectively. The energy score \\method{O-L}, velocity residual \\method{O-Rv}, free-running and unconstrained-follow",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "R08",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "7c124a93ff0264f98c61d7bbcc902aa250e283a86f9354eaef15b6e0646d2588",
+      "first_line": 38,
+      "summary": "No method had an alarm already active at any of the eight event starts. In this recording, every overlap hit therefore also had a fresh onset. \\method{O-R}, \\method{O-L}, \\method{O-Rv}, \\method{O-Follow}, \\method{O-Free} and \\method{V-Z} missed event 5 entirel",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "event_outcomes_without_episode_lists/*/pre_existing_alarm; summary/*/event_overlap_hits"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R09",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "0cdfcd92d6e796857bd5b639b2109d3fdaf756b434d31932269e76a44c9c0170",
+      "first_line": 47,
+      "summary": "\\method{O-RC} first alarmed 9.20 seconds after the event-5 schedule flag. On the seven events both primary methods hit, five first-alarm delays were identical; \\method{O-RC} was 2.05 seconds later on event 6 and approximately 0.05 seconds later on event 7. It ",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "paired_event_delay_changes"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary/O-R*/fresh_delay_summary"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R10",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "832885b401effa3fec9cd758c9c188de77bf8968107f9c517b5355c6c0fe0fa5",
+      "first_line": 50,
+      "summary": "Each scheduled interval contains more than 43,000 positive observations. Any one alarm suffices for an overlap hit. \\method{O-RC}'s eight hits therefore coexist with 342,559 false-negative positive observations, frequent normal episodes and AP near the prevale",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    },
+    {
+      "id": "R11",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "e872cb05a0c69c760cdb935e583344d90c971679906fcab36b295ca6a3e1d290",
+      "first_line": 53,
+      "summary": "Table~\\ref{tab:resources} reports the whole-worker measurements. Both phases stayed within their frozen caps: scoring 900 seconds wall/600 seconds CPU and evaluation 1,800/1,200 seconds; both allowed 1 GiB worker resident memory and 256 MiB output. The hardwar",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        },
+        {
+          "path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+          "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+          "locator": "hardware_sysctl; python; installed_distributions"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts"
+        }
+      ],
+      "standing": "source/artifact-linked draft claim; author verification pending"
+    },
+    {
+      "id": "R12",
+      "file": "sections/results.tex",
+      "file_sha256": "23807588b66ba0dd6a6a225ee98c265f25b8e58e859c29a4f0c5097756f430cd",
+      "span_sha256": "cba77272e0889e2a8dc982b02f9157a49457d78d5a1eab9baee28f6a0f040ebb",
+      "first_line": 62,
+      "summary": "Per-method processing costs, initialization/parsing decomposition and per-record latency quantiles were not instrumented. The recorded whole-roster execution is locally feasible under its limits, but cannot determine whether the correction term's small gain ha",
+      "evidence": [
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+          "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+          "locator": "summary; paired_contrast; event_outcomes_without_episode_lists; recovery"
+        },
+        {
+          "path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+          "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+          "locator": "resource_receipts; per_method_cost_available; paired_event_delay_changes"
+        }
+      ],
+      "standing": "interpretation bounded by the cited observations; no causal/generalization proof"
+    }
+  ]
+}

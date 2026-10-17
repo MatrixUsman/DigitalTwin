@@ -1,0 +1,35 @@
+# Proper source names, familiar computing abbreviations, units and explicit method IDs.
+CASPER
+TWINE
+NIST
+CPU
+GPU
+RSS
+SHA
+DOI
+JSON
+PDF
+UTC
+KL
+O-R
+O-RC
+O-C
+O-K
+O-L
+O-Rv
+O-Follow
+O-Free
+V-Z
+T-32
+AR-4
+MISS
+# Binary units, method/source/licence fragments and company proper name.
+GiB
+MiB
+AR
+RC
+AD
+CC
+BY
+SA
+OpenAI

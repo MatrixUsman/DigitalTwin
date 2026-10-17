@@ -1,0 +1,34 @@
+\section{Interpretation, limitations and independent evidence}
+\label{sec:discussion}
+% claim: L01
+\subsection{What correction evidence contributed}
+The narrow hypothesis receives limited descriptive support: at the frozen operating rule, adding the correction term increased F1 slightly and reduced normal alarm counts. It also added one event hit. That finding does not establish strong detection. The low positive-point recall and frequent normal episodes remain central, and ordinary controls offer comparable or stronger outcomes on several measures. The evidence does not warrant describing the method as a generally superior detector or a validated digital twin.
+
+% claim: L02
+The experiment cannot attribute the small gain to progression itself. Both primary outputs share nominal propagation, measurement correction and state history. Moreover, velocity measurements can retain direct speed evidence even after position is aligned: if $q(t)=q_0(\phi(t))$, then $\dot q(t)=q'_0(\phi(t))\dot\phi(t)$. Aligning $q$ need not remove the velocity-amplitude change. The similarity of direct-velocity and observer residual outcomes is consistent with that alternative explanation, but does not establish it causally. A different feature or alignment ablation prompted by this result would be a new exploratory analysis.
+
+% claim: L03
+The observer's uncertainty is also part of the interpretation. A mixture mean can poorly represent several plausible phases, as Equation~\eqref{eq:mixtureidentity} shows. The normal-development ambiguity and substantially better one-step autoregression suggest that the observer is not an especially accurate predictor for these inputs. A correction statistic might partly compensate for limitations of its residual representation. No independent phase truth, posterior-coverage calibration or causal mechanism experiment resolves that explanation here.
+
+% claim: L04
+\subsection{Limits of the evidence}
+\paragraph{One acquisition.} The study contains one task recording with eight dependent intervention intervals. It supplies within-recording descriptions, not a sample of robots, factories, tasks or attack campaigns. We do not use an ordinary row bootstrap, treat intervals as independent deployments, or construct significance claims from deterministic repeated computation. No confidence interval is offered for a cross-robot population that was not sampled.
+
+\paragraph{Ground truth and trust.} Schedule flags provide reproducible scoring boundaries but do not establish exact physical onset, malicious intent, trusted command provenance or healthy recovery. Truthful monitoring telemetry is an assumption. No result transfers to an adversary who consistently forges all monitored channels, nor establishes separation between faults, benign speed changes and attacks.
+
+\paragraph{Development and model scope.} The same normal-development partition selected template resolution and supported observer diagnostics. That reuse is disclosed. The reference is an empirical collection of joint means, not a mechanically constrained model. Its inferred phase need not be unique, and the mean of possible states need not lie on a physically realizable trajectory. The free-running comparison is affected by numerical diffusion. Eleven methods do not constitute eleven independently reproduced recent papers or comprehensive detector benchmarking.
+
+\paragraph{Operating rule and cost.} The normal-calibrated 99th percentile was fixed for the study; other alarm budgets, persistence rules and application utilities were not compared. We cannot infer an operationally acceptable false-alarm rate from this percentile. Per-method latency and computational overhead are unavailable. The scalar traces and current results cannot establish real-time transport, actuator safety or prevention of physical harm.
+
+% claim: L05
+\subsection{Planning fresh evidence after exposure}
+The original final holdout is now exposed. A new score, threshold, persistence rule, input choice or preferred method motivated by these outcomes must be described as exploratory. Repeating or reshuffling the same recording does not create a new confirmation set. The local reproducibility package preserves the original outcome and separates future design decisions from it.
+
+% claim: F01
+Two public sources motivate a next admission audit rather than an immediate broader claim. The voraus-AD study provides separately collected robot executions with joint-state measurements and physical anomalies~\cite{voraus2024}. It could test whether a motion-only procedure applies to variable executions on another platform. It does not supply cyberattack intent. NIST's robot position-accuracy resource documents controller recordings under speed, payload and temperature conditions~\cite{nistdata}; these may support a benign-condition challenge after file and condition semantics are verified. Different condition files are not proof of recorded within-run changeovers. Neither source has been downloaded or admitted to this study.
+
+% claim: F02
+A future protocol must establish acquisition/session groups, original file identities, units, clock continuity and annotation provenance before fixing whole-group training, development, calibration and final assignments. CASPER's period, fitted scaler, 1,528-row warmup and gap rule cannot simply transfer. Source-specific refitting would test applicability, not zero-shot cross-robot transfer. Any newly developed model must be selected without new final outcomes; only a frozen model tested on genuinely reserved independent recordings could support a new confirmatory claim.
+
+% claim: F03
+A stronger cybersecurity question requires repeated acquisitions with documented authorized and unauthorized command changes, truthful monitoring, and trusted context that makes the distinction observable. Fault recordings alone cannot supply that evidence. No suitable laboratory access or independent cyber recording is assumed. The companion post-exposure evidence plan specifies admission gates, permitted claims and stopping decisions; it is a proposal, not an executed experiment or external preregistration.

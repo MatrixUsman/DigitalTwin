@@ -4,9 +4,9 @@ As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing remains activ
 
 | Item | Actual state |
 |---|---|
-| Stage | Protected final campaign and joint analysis complete; every declared run accounted for and artifacts preserved |
+| Stage | Final campaign complete; LaTeX technical draft and local reproducibility package prepared; author review/declarations and PDF rendering pending |
 | Recommended setting | Industrial robotic arms; original CASPER pick-and-place collection |
-| Title / question | Provisional “Correction Evidence in Robotic Motion Monitoring: A CASPER Case Study”; same-filter R versus R+C, with classical surprise/energy and direct-velocity explanations |
+| Title / question | Provisional “Correction Evidence in Robotic Motion Monitoring: A Controlled CASPER Study”; same-filter R versus R+C, with classical surprise/energy and direct-velocity explanations |
 | Contribution / breadth decision | Narrow scope selected; phase tracking, surprise and tracking/detection trade-offs are established. One acquisition/eight dependent intervals does not support cross-robot/task/cyber generalization |
 | Core comparison design | Eleven deterministic variants, one run each, actual fitted references/configurations frozen; all eleven calibrated. ModernTCN/independent alignment remain conditional on broader claims |
 | Independent evidence | voraus-AD and NIST screened as separate physical-fault/benign routes; no new dataset received/admitted, no new cyber ground truth |
@@ -59,7 +59,7 @@ As of **17 October 2026**. Owner: **Haiqa Mushtaq**. Manufacturing remains activ
 
 Stages 12–15 of the [complete paper roadmap](docs/PAPER_ROADMAP.md) are complete for the frozen within-recording study. Preserve the [selection freeze](experiments/MODEL_SELECTION_FREEZE_V0.1.json), immutable [pre-execution freeze](experiments/FINAL_TEST_FREEZE_RECORD.json), [actual completion record](experiments/FINAL_CAMPAIGN_V0.1_RECORD.json), all scores/thresholds/manifests and consumed attempts. No scientific choices changed after freezing.
 
-Next: prepare an author-understood methods/results/limitations draft and decide what independent evidence would be required for any broader or redesigned study. O-RC overlaps all eight events, but its sparse point recall and high normal episode rate prevent calling that reliable attack recognition. The primary pair tests correction evidence; both retain progression. Isolated per-method cost and latency quantiles are unavailable, so the report does not claim a measured compute advantage.
+The [LaTeX manuscript and package](manuscript/README.md), [findings explanation](docs/FINDINGS_EXPLAINED_V0.1.md) and [post-exposure independent-evidence plan](docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md) are prepared. Next: both authors review and explain the draft, complete declarations, and undertake a bounded source-specific admission audit before any independent-data experiment. Author understanding has not been attested. PDF compilation/rendering is deferred because no TeX compiler was available. O-RC overlaps all eight events, but its sparse point recall and high normal episode rate prevent calling that reliable attack recognition. The primary pair tests correction evidence; both retain progression. Isolated per-method cost and latency quantiles are unavailable, so the report does not claim a measured compute advantage.
 
 The original final holdout cannot become fresh confirmation through a rerun or reshuffle. Outcome-motivated changes are exploratory and must be declared as such. Prior plans/reports remain historical evidence; the new completion record supersedes their readiness fields without rewriting frozen inputs. Researcher comprehension and source-specific independent-evidence admission remain separate; no new dataset, generalization claim or publication is admitted.
 
@@ -90,3 +90,7 @@ The original final holdout cannot become fresh confirmation through a rerun or r
 - [Open data](docs/literature/OPEN_DATASET_SCREEN_2026-10-16.md), [comparator manuscripts/code](docs/literature/COMPARATOR_SCREEN_2026-10-16.md), [twin methods](docs/literature/TWIN_METHOD_SCREEN_2026-10-16.md).
 - [Access/receipt checklist](docs/DATASET_ACCESS_CHECKLIST.md), [proposed reproduction plan](docs/REPRODUCTION_PLAN.md), [work log](docs/WORK_LOG.md).
 - [Shared publication standards](../docs/PUBLICATION_STANDARDS.md) and [repeatable playbook](../docs/RESEARCH_PLAYBOOK.md) remain in force. No title, venue, authorship or publication outcome is finalized.
+
+## Manuscript handoff — 17 October 2026
+
+Intended author order confirmed by the user: **Muhammad Usman; Haiqa Mushtaq**. Affiliations, actual roles, funding/conflicts, corresponding author and both-author approval remain pending. The draft maps 65 marked claim groups to evidence and includes 13 verified/source-qualified references; all eleven methods and all event/recovery outcomes remain visible. Offline presentation checks passed; no raw observations opened, no new model run, no new data, no independent reproduction or submission. The next evidence candidate is voraus-AD for a separately scoped physical-anomaly study; NIST is a benign-condition route. Neither is received/admitted, and neither alone establishes cyber intent. See [internal review](manuscript/editorial/INTERNAL_REVIEW.md).

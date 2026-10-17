@@ -8,7 +8,7 @@
   "article_type": "single-acquisition empirical case study",
   "target_venue": null,
   "review_target_status": "field-general; venue not selected",
-  "citation_style": "numbered, BibTeX unsrt with generated DOI-visible bibliography fallback",
+  "citation_style": "numbered DOI-visible generated bibliography; companion BibTeX for venue conversion",
   "word_target": "approximately 4500-6000 main-text words; not a venue requirement",
   "style_profile": null,
   "author_order_user_supplied": [
@@ -28,6 +28,6 @@
   "new_training_or_test_replay_authorized_by_this_task": false,
   "independent_evidence_plan": "post-outcome prospective plan; no new data acquisition or admission",
   "pre_registration": "local prospective freezes, not external preregistration or independent blinding",
-  "compilation_status": "no TeX compiler available; static validation planned, PDF visual QA deferred",
+  "compilation_status": "No TeX compiler available; static package validation passed; PDF compilation/visual QA deferred",
   "publication_status": "local draft; no upload/submission authorized"
 }

@@ -1,0 +1,60 @@
+\section{Exact identity and completed execution}
+\label{app:identity}
+% claim: P01
+All row ranges are zero-based data-row indices excluding the header. The original right-arm SHA-256 is
+\begin{quote}\small\path{181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334}.\end{quote}
+The selection freeze is
+\begin{quote}\small\path{3b3f62ad323fec96aa5940ea081b668286829064a90225293e4790256baa3b36},\end{quote}
+and the immutable pre-execution final freeze is
+\begin{quote}\small\path{1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d}.\end{quote}
+The latter retains historical not-started fields; actual completion is in the separate completion record. Experiment code was recorded at Git revision \path{b207e0758c1dd90fbd09d3aa4de943a11d7f08cb} with dirty-worktree patches and exact file snapshots. That revision alone is insufficient to reconstruct the executed bytes. The package binds the full tested file inventory instead of treating the manuscript's later repository revision as the experimental version.
+
+% claim: P02
+The protected scoring run began at 06:21:17.705600 UTC on 17 October 2026 and was accepted at 06:25:51.061961 UTC. Label joining began at 06:26:30.415287 UTC, after all streams sealed; evaluation completed at 06:27:12.073582 UTC. The source checksum matched before and after both phases. Logical access and attempt records provide procedural protection, not an operating-system lock or an independent data custodian. Historical completed commands, from the manufacturing project directory, are:
+\begin{verbatim}
+.venv/bin/python scripts/run_campaign.py --check-final
+.venv/bin/python scripts/run_campaign.py --score-final
+.venv/bin/python scripts/run_campaign.py --evaluate-final \
+  --score-run experiments/runs/\
+campaign_v0.1_score-final_2026-10-17T062117.703085_0000
+\end{verbatim}
+These commands document consumed attempts. They are not instructions to remove ledgers or rerun the exposed campaign in place. The reproduction guide specifies fresh-workspace and artifact requirements separately.
+
+\section{Candidate selection and frozen thresholds}
+\label{app:selection}
+% claim: P03
+Table~\ref{tab:selection} retains every declared ordinary candidate. Template and autoregression objectives are mean standardized prediction MSE; the velocity score is a different quantity and is not a cross-family objective. Its singleton is retained without selection. Exact ties follow the declared order. The observer's fixed mixing rate, training-only bandwidth and mean scales are specified in Section~\ref{sec:methods}. There were no neural checkpoints or attack-selected seeds.
+\begin{table}[htbp]\centering\small
+\caption{All normal-development candidate outcomes; differently defined family scores must not be ranked together.}\label{tab:selection}
+\input{generated/selection}
+\end{table}
+\begin{table}[htbp]\centering\small
+\caption{Thresholds fixed by the same rank rule. Digits reflect stored binary64 values, not physical measurement precision.}\label{tab:thresholds}
+\input{generated/thresholds}
+\end{table}
+
+\section{Complete counts, event delays and recovery intervals}
+\label{app:events}
+% claim: P04
+Table~\ref{tab:counts} preserves all confusion counts and protected-normal alarm counts. Mixed counts use 682,646 observations; normal point counts use 214,473 eligible observations. All normal boundary-censoring counts were zero in this campaign. All eight event intervals were fully eligible. Their half-open rows are $[1080004,1123205)$, $[1166405,1209605)$, $[1252805,1296005)$, $[1339205,1382405)$, $[1425606,1468806)$, $[1512006,1555206)$, $[1598406,1641606)$ and $[1684806,1728007)$.
+
+\begin{table}[htbp]\centering\small
+\caption{Mixed confusion counts and separate protected-normal burden.}\label{tab:counts}
+\resizebox{\textwidth}{!}{\input{generated/confusion}}
+\end{table}
+\begin{table}[htbp]\centering\scriptsize
+\caption{All schedule-relative delays in seconds. Each observed overlap was also a fresh onset here; MISS remains undefined, not zero. Native-time values are rounded only for presentation.}\label{tab:delays}
+\resizebox{\textwidth}{!}{\input{generated/event_delays}}
+\end{table}
+
+% claim: P05
+Table~\ref{tab:recovery} reports all eight scheduled-zero intervals following successive events. Columns Z1--Z7 end at the next event start; Z8 ends at the recording's end. Entries are alarm observations divided by eligible observations. These intervals are not independently certified recovery states. Full start/end rows, native exposure, episode rates and censoring are retained in the aggregate JSON, so the table does not replace the detailed record.
+\begin{table}[htbp]\centering\scriptsize
+\caption{All scheduled-zero intervals: alarm points / eligible points.}\label{tab:recovery}
+\resizebox{\textwidth}{!}{\input{generated/recovery}}
+\end{table}
+
+\section{Artifact regeneration and claim traceability}
+\label{app:package}
+% claim: P06
+The manuscript package's \path{editorial/CLAIM_EVIDENCE_MAP.json} maps named claim groups to primary-source locations or exact experiment/configuration records. \path{editorial/references.json} records source versions and access limits; \path{references.bib} and the DOI-visible bibliography are generated from that register. \path{generated/ASSET_MANIFEST.json} binds every generated table, numerical macro and PGFPlots figure to the saved inputs and generator. No figure uses raw trajectories or newly tuned outputs. The verifier checks source identities, citation keys, cross-references, complete method/event coverage and deterministic regeneration. These checks do not substitute for author comprehension, external peer review or visual PDF inspection.

@@ -40,7 +40,7 @@ The scope is one right-arm pick-and-place recording, with truthful telemetry/tim
 | 13. Calibration and final-release preparation | Completed | Eleven valid thresholds from 160,473 endpoints/rank 158,869; sealed scores, access/failure records, tested delayed join and actual final freeze |
 | 14. Protected final campaign | Completed once | 11/11 methods, 897,119 scores each; scoring/evaluation accepted, zero failures; fixed models/thresholds and continuous state |
 | 15. Analysis and interpretation | Completed for the declared case study | All methods, 88 event and 88 recovery outcomes, false alarms/coverage and cost limits audited; weak/mixed findings preserved |
-| 16. Manuscript and reproducibility package | Not completed | Existing notes are source material, not a finished paper |
+| 16. Manuscript and reproducibility package | Technical draft/package prepared; author and PDF review pending | LaTeX, complete generated outcomes, claim/source map and independent-evidence plan; no submission-ready claim |
 | 17. Venue review and submission | Not started | No selected journal, approved submission or acceptance |
 | 18. Peer review and publication | Future, outcome uncertain | Depends on submission and editorial decisions |
 
@@ -264,20 +264,24 @@ If the twin adds little beyond velocity/template controls, say so. If detection 
 
 Writing notes can proceed throughout the project. A results section and contribution claims require actual results.
 
-- [ ] Draft the problem, why synchronization matters, and the restricted threat model from verified sources.
-- [ ] Organize related work by scientific role and distinguish close prior art from peripheral architecture papers.
-- [ ] Document dataset release, annotations, assumptions, split/support rules and permissions.
-- [ ] Write the exact method, equations/pseudocode, state flow and ablation logic.
-- [ ] Describe selection/calibration/final separation and all implementation deviations.
-- [ ] Generate tables/figures directly from frozen result artifacts; retain the generating scripts and source hashes.
-- [ ] Explain negative results, uncertainty, single-acquisition limits and unsupported generalizations.
-- [ ] Write the abstract and conclusion after the evidence is settled.
+- [x] Draft the problem, why synchronization matters, and the restricted threat model from verified sources.
+- [x] Organize related work by scientific role and distinguish close prior art from peripheral architecture papers.
+- [x] Document dataset release, annotations, assumptions, split/support rules and permissions.
+- [x] Write the exact method, equations/pseudocode, state flow and ablation logic.
+- [x] Describe selection/calibration/final separation and all implementation deviations.
+- [x] Generate tables/figures directly from frozen result artifacts; retain the generating scripts and source hashes.
+- [x] Explain negative results, uncertainty, single-acquisition limits and unsupported generalizations.
+- [x] Write the abstract and conclusion after the evidence is settled.
 - [ ] Develop title candidates that describe the demonstrated contribution; check collisions and retain “digital twin” only if justified.
 - [ ] Make the authors explain/revise the manuscript in their own precise voice; avoid filler without concealing required AI-assistance disclosure.
-- [ ] Prepare code/config/environment/command documentation and an authorized data-access recipe. Review permissions before distributing data, PDFs, author figures or model artifacts.
+- [x] Prepare exact source/configuration copies, environment/command documentation and an authorized data-access recipe; explicitly separate verified presentation regeneration from unperformed full-study reproduction.
+- [ ] Complete distribution permissions/code licensing review before publishing any package.
 - [ ] Confirm actual contributions, author order, funding/conflicts and availability/disclosure statements.
 
 **Completion evidence:** an internally reviewed manuscript whose claims, tables and figures trace to primary sources or actual runs, plus a reproducibility package that does not redistribute restricted material.
+
+
+**Current evidence:** [draft/build guide](../manuscript/README.md), [internal review](../manuscript/editorial/INTERNAL_REVIEW.md), [findings explained](FINDINGS_EXPLAINED_V0.1.md), and [fresh-evidence plan](POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). Working title selected, but collision/venue fit remains unverified. Intended author order supplied; remaining author facts and comprehension are pending. No TeX compiler was available, so figures/pages are not visually validated. These open items prevent marking the whole stage complete. No source/model/result changed.
 
 ## 17–18. Choose a venue, submit, revise and preserve the scholarly record
 
@@ -296,7 +300,7 @@ Acceptance and publication timing are editorial outcomes, not milestones we can 
 
 ## What we do next, and what can run in parallel
 
-**Immediate sequence:** preserve the complete final artifacts and negative/mixed findings → make the researchers explain the methods, metrics and limitations → draft the supported results/methods/limitations → separately decide what independent evidence and comparisons a broader or redesigned study would require. No large neural run is needed to fill a quota.
+**Immediate sequence:** preserve the complete final artifacts and negative/mixed findings → authors read/explain the prepared LaTeX draft and complete declarations → compile/visually inspect the PDF when a TeX environment is available → audit the proposed independent source before a new study. No large neural run is needed to fill a quota.
 
 **Parallel work:** researcher learning, missing-source follow-up, contribution records and source-specific independent-evidence admission. ModernTCN/causal alignment become necessary if broader competitive claims are revived; they remain conditional now.
 

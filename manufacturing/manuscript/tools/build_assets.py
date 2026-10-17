@@ -63,7 +63,7 @@ def main():
  output['figures/event_point_coverage.tex']='\n'.join(fig)+'\n'
  refs=json.loads((ROOT/'editorial/references.json').read_text());bib=[];bb=[r'\begin{thebibliography}{99}']
  for x in refs:
-  fields={'author':' and '.join(x['authors']),'title':'{'+x['title']+'}','year':x.get('year'),'journal' if x['type']=='article' else 'booktitle' if x['type']=='inproceedings' else 'howpublished':x['venue'],'volume':x.get('volume'),'number':x.get('number'),'pages':x.get('pages'),'doi':x.get('doi'),'url':x['url'],'note':x['version']}
+  fields={'author':x['bibtex_author'],'title':'{'+x['title']+'}','year':x.get('year'),'journal' if x['type']=='article' else 'booktitle' if x['type']=='inproceedings' else 'howpublished':x['venue'],'volume':x.get('volume'),'number':x.get('number'),'pages':x.get('pages'),'doi':x.get('doi'),'url':x['url'],'note':x['version']}
   bib.append('@'+x['type']+'{'+x['key']+',\n'+',\n'.join('  '+k+' = {'+v+'}' for k,v in fields.items() if v)+'\n}\n')
   text=esc(', '.join(x['authors']))+'. '+esc(x['title'])+'. \\emph{'+esc(x['venue'])+'}'
   if x.get('volume'):text+=', '+esc(x['volume'])+('('+esc(x['number'])+')' if x.get('number') else '')

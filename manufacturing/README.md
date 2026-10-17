@@ -58,3 +58,7 @@ The [current comparison decision](docs/COMPARATOR_ADMISSION.md) keeps CASPER's e
 Run future commands from `manufacturing/`; its local `.venv/`, fitted preprocessing, data, and results must not depend on sibling-project state. Dataset authorization is checked per user, not inferred from folder ownership. The [shared research skill](../.agents/skills/academic-research-suite/SKILL.md) remains at the workspace root; its generated state belongs here.
 
 See the [portfolio roadmap](../docs/RESEARCH_ROADMAP.md) for sequential milestones. The essential normal-only controls are fitted and selected. The empirical observer and matched ablations are now tested on normal data. Next: prepare an author-understood methods/results/limitations draft and a separate independent-evidence plan. See the [final report](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) and [completion record](experiments/FINAL_CAMPAIGN_V0.1_RECORD.json). No additional dataset is admitted or physical twin validated. Final outcomes have been exposed; future outcome-driven changes are exploratory and require fresh evidence for a new confirmatory claim.
+
+## Manuscript and next evidence
+
+The [LaTeX draft and local package](manuscript/README.md) report the frozen study. Read [what the findings mean](docs/FINDINGS_EXPLAINED_V0.1.md), then the [independent-evidence plan](docs/POST_EXPOSURE_INDEPENDENT_EVIDENCE_PLAN_V0.1.md). Author review/declarations and PDF compilation are pending. The next scientific action is a source-specific admission audit, not a redesigned-model run on the exposed CASPER holdout.

@@ -1,0 +1,51 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "manufacturing/manuscript/editorial/phase5_abstract/abstract.md",
+  "input_sha256": "79f5b59115b4c3ef53b72b37038947599b1ad4adb4000e7c5ca7792ec539eec0",
+  "status": "checked",
+  "allowlist": {
+    "default": 29,
+    "user": [
+      "AR-4",
+      "CASPER",
+      "CPU",
+      "DOI",
+      "GPU",
+      "JSON",
+      "KL",
+      "MISS",
+      "NIST",
+      "O-C",
+      "O-Follow",
+      "O-Free",
+      "O-K",
+      "O-L",
+      "O-R",
+      "O-RC",
+      "O-Rv",
+      "PDF",
+      "RSS",
+      "SHA",
+      "T-32",
+      "TWINE",
+      "UTC",
+      "V-Z"
+    ]
+  },
+  "coverage": {
+    "body": "not_requested",
+    "abstract_en": "checked",
+    "abstract_zh": "not_requested"
+  },
+  "scope_lines": {
+    "abstract_en": [
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [],
+  "findings": []
+}
