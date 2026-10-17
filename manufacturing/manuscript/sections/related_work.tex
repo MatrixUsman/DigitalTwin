@@ -1,0 +1,19 @@
+\section{Related work and comparison scope}
+\label{sec:related}
+% claim: W01
+\paragraph{Robot monitoring and digital-twin frameworks.}
+CASPER uses an external inertial measurement unit (IMU), periodic/statistical references and learned next-observation predictors to detect altered arm motion~\cite{casper2024}. Its later edge-computing study combines task segmentation with prediction on external IMU signals~\cite{edge2025}. Our controller-input experiment changes the observation and trust boundary. Consequently, published scores from those experiments are not entries in our numerical comparison, and our implementations are not called CASPER reproductions.
+
+% claim: W02
+TWINE describes a digital-twin and explainable-learning framework using a supervised random-forest classifier. Its accepted manuscript specifies an 80/20 train--test split using \texttt{train\_test\_split} and labelled training examples~\cite{twine2026}. Our fit and model-selection partitions contain normal observations only and are chronological. Moving TWINE into this task would change its supervision and input protocol; retaining attack-labelled training would instead change ours. We therefore treat it as related framework work rather than an admitted normal-only comparator. We do not reproduce its cloud deployment or make a standards-compliance claim for our observer.
+
+% claim: W03
+\paragraph{Phase, alignment and prospective prediction.}
+Bayesian Interaction Primitives jointly infer phase, phase velocity and trajectory state~\cite{campbell2017}. Periodic Interaction Primitives address repeated motion through periodic representations and observation-conditioned inference~\cite{clark2020}. Park et al. use a hidden Markov model (HMM) with a distribution over execution progress and a progress-dependent anomaly threshold~\cite{park2016}. These works establish that phase-aware monitoring and state correction are not new by themselves. Their platforms, modalities and tasks differ from the present recording. We neither import their reported performance nor claim superiority over implementations that were not run.
+
+% claim: W04
+\paragraph{Residual and distributional evidence.}
+Classical innovation monitoring separates prediction error from state correction~\cite{willsky1976}. Bayesian surprise measures posterior-to-prior Kullback--Leibler (KL) divergence~\cite{itti2005}. Anomaly Transformer combines reconstruction error with a discrepancy between attention associations~\cite{xu2022}; those associations are not our phase probabilities. These precedents motivate retaining KL surprise and predictive mixture energy alongside the chosen Jensen--Shannon statistic. They also preclude a generic novelty claim based on combining error and discrepancy.
+
+% claim: W05
+Our comparison set is defined by the narrow scientific question. It contains a matched residual/correction pair, explanatory scores from the same observer, two state-update variants and three ordinary controls. It does not establish competitive performance against the full recent neural-detection literature. The project's recent-paper screen covered 16 October 2023 through 16 October 2026; older references here are methodological foundations, not recent experimental baselines. Source versions, manuscript-access gaps and paper-to-code decisions are recorded in the accompanying reference and comparator registers.

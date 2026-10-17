@@ -1,0 +1,33 @@
+{
+  "kind": "bounded_manuscript_material_passport_and_configuration",
+  "created_at": "2026-10-17T06:48:44.534443+00:00",
+  "project": "manufacturing",
+  "skill": "academic-research-suite / academic-paper; inline scoped drafting, citation and format checks",
+  "output": "LaTeX source and local reproducibility package; PDF deferred",
+  "language": "English",
+  "article_type": "single-acquisition empirical case study",
+  "target_venue": null,
+  "review_target_status": "field-general; venue not selected",
+  "citation_style": "numbered, BibTeX unsrt with generated DOI-visible bibliography fallback",
+  "word_target": "approximately 4500-6000 main-text words; not a venue requirement",
+  "style_profile": null,
+  "author_order_user_supplied": [
+    "Muhammad Usman",
+    "Haiqa Mushtaq"
+  ],
+  "affiliations": null,
+  "credit_roles": null,
+  "funding": null,
+  "conflicts": null,
+  "all_author_final_approval": null,
+  "human_reading_attestation": null,
+  "ai_assistance": "research planning, source audit, code, experiment orchestration, analysis, manuscript drafting and checks; author verification pending",
+  "method_claim": "small within-recording correction-score comparison; no validated physical twin, novel estimator or general cyber superiority",
+  "source_boundary": "verified primary sources, pinned local manuscripts and fixed experiment records; prior chat alone is not evidence",
+  "final_holdout_exposed": true,
+  "new_training_or_test_replay_authorized_by_this_task": false,
+  "independent_evidence_plan": "post-outcome prospective plan; no new data acquisition or admission",
+  "pre_registration": "local prospective freezes, not external preregistration or independent blinding",
+  "compilation_status": "no TeX compiler available; static validation planned, PDF visual QA deferred",
+  "publication_status": "local draft; no upload/submission authorized"
+}

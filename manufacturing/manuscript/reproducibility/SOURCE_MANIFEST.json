@@ -1,0 +1,977 @@
+{
+  "kind": "local_draft_reproducibility_source_manifest",
+  "frozen_source_count": 52,
+  "source_identity_basis": "exact content hashes plus experiment revision/dirty source snapshots, not current Git HEAD alone",
+  "experiment_git_head": "b207e0758c1dd90fbd09d3aa4de943a11d7f08cb",
+  "entries": [
+    {
+      "original_path": "configs/casper_right_arm_campaign_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_campaign_v0.1.json",
+      "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "configs/casper_right_arm_contract_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_contract_v0.1.json",
+      "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "configs/casper_right_arm_controls_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_controls_v0.1.json",
+      "sha256": "00e20b3ec3dab586c2ae14e5e8ab60c59648d91b154130fccfa7c95f92cb518a",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "configs/casper_right_arm_evaluation_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_evaluation_v0.1.json",
+      "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "configs/casper_right_arm_observer_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_observer_v0.1.json",
+      "sha256": "0d28264c8621aa9e772d72ad1ef5cd87734eef5f2c583982c5381b14ab8a7277",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "configs/casper_right_arm_pilot_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_pilot_v0.1.json",
+      "sha256": "5df7c1e6f279aebe482099fe9dfeaeba1eb241df47ce9a93137fbfcbb95870dc",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "configs/casper_right_arm_score_extension_v0.1.json",
+      "bundled_path": "reproducibility/snapshot/configs/casper_right_arm_score_extension_v0.1.json",
+      "sha256": "57876f77ce2f447b127766246d91e0775a1e15de2996946b210adc4ed3fe0497",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "pyproject.toml",
+      "bundled_path": "reproducibility/snapshot/pyproject.toml",
+      "sha256": "776f1287caa6c98e708fd8300d429f671f8b02e7b08a7ec1d8e832ce8a0ecfe6",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/acquire_casper_v3.py",
+      "bundled_path": "reproducibility/snapshot/scripts/acquire_casper_v3.py",
+      "sha256": "2089666e9d7c1884a84c363acebb47f624239eb2c0cc4df5d021e620570c43f8",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/audit_casper_annotation_lineage.py",
+      "bundled_path": "reproducibility/snapshot/scripts/audit_casper_annotation_lineage.py",
+      "sha256": "ee1311663ed2f4911618212ab8f01361a54c5843150a3a526dfa79d17a91db22",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/audit_casper_controller_schema.py",
+      "bundled_path": "reproducibility/snapshot/scripts/audit_casper_controller_schema.py",
+      "sha256": "40fddda47b5b06a9cf4e139a4c1a63e814b7c532795c8c29c16b8e13089936ba",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/inspect_casper_alignment.py",
+      "bundled_path": "reproducibility/snapshot/scripts/inspect_casper_alignment.py",
+      "sha256": "384deae0a45c04defc0dd2506ecbd3c9cbde6ded152d0e17a0b2df8d5fbd5220",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/profile_casper_v3.py",
+      "bundled_path": "reproducibility/snapshot/scripts/profile_casper_v3.py",
+      "sha256": "406db7edda919da3718bb1febbfff4e3e2fca5764daf61168cd7ae6fdeeb37d1",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/run_bounded_pilot.py",
+      "bundled_path": "reproducibility/snapshot/scripts/run_bounded_pilot.py",
+      "sha256": "1bc9b8ace64a0331e3f4526dc455184baccc2b8b0b2d4b309e3fcd9d00d749fd",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/run_campaign.py",
+      "bundled_path": "reproducibility/snapshot/scripts/run_campaign.py",
+      "sha256": "6754d48c029987366cc6c8b50ac8b098743c76f47503cca23a33747126cdd2bf",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/run_control_study.py",
+      "bundled_path": "reproducibility/snapshot/scripts/run_control_study.py",
+      "sha256": "edaf60ab31bb0ef428317bf3c2317fd67fbef09281e12bbdaceab4673df7e979",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/run_observer_study.py",
+      "bundled_path": "reproducibility/snapshot/scripts/run_observer_study.py",
+      "sha256": "c7e9030d55996ed31b03bbd8d6ccaaca4eb25f13b8af0ef319e2a54f9bd1b8a1",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/run_score_extension.py",
+      "bundled_path": "reproducibility/snapshot/scripts/run_score_extension.py",
+      "sha256": "8e8d08d383d61c33985877dced11517ac42a7a0e7b9ec1e1ade9f63c555e1851",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/run_synthetic_tests.py",
+      "bundled_path": "reproducibility/snapshot/scripts/run_synthetic_tests.py",
+      "sha256": "a3a0cdd353915db23387dd3797dfa0682b9d0f7e72b89261043882e7bec7529e",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "scripts/verify_casper_release.py",
+      "bundled_path": "reproducibility/snapshot/scripts/verify_casper_release.py",
+      "sha256": "fb0855a23d13380a3a55bbf2cde559db27656342e13ec4b7ffbe3884105b0f66",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/__init__.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/__init__.py",
+      "sha256": "3fd7d875a6a364c297b94b5f7422bf3bb155d5dd4f940d06e586c903a587effa",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/campaign.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/campaign.py",
+      "sha256": "4a8facce532f1d155301b6a2ff8893e14dd3a4c4ecef5624f5d3a761955cfcba",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/campaign_data.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/campaign_data.py",
+      "sha256": "9f4a747b689b1f5ba87142c0cf48c3b78673cea946624f7b3823df36be526295",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/campaign_models.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/campaign_models.py",
+      "sha256": "0ed8d224d0e137fe7437255bdb0e170ffcde7d512e448ac9327f2d9cb412fe6d",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/contract.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/contract.py",
+      "sha256": "06938cbea7d636e6554c0c718250fe27fdad21f455b5b97b0926e1dcf13bfae8",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/control_study.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/control_study.py",
+      "sha256": "2b314496a591f438a63e7a434620e41c2e7e3641568e015bf71f572ad2f8073d",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/controls.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/controls.py",
+      "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/data.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/data.py",
+      "sha256": "82e56d653ac9ff048fd85951e3370ae4c33f9c73edc940c682cbe66c2e85c7a6",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/metrics.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/metrics.py",
+      "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/observer.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/observer.py",
+      "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/observer_scores.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/observer_scores.py",
+      "sha256": "77368325ab51636fdab06c8a12e85d1ed3d18467cc0e043aff6ecc64856df485",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/observer_study.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/observer_study.py",
+      "sha256": "e4915941d0d33826744ac0f3906c6f49af0e12c1c4a0d5ac6bf7bfb8da21dcf3",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/pilot.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/pilot.py",
+      "sha256": "54efce773af65aec2e295d183c294a8867e7c8d1c28695e18c00fd807e2d9740",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/replay.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/replay.py",
+      "sha256": "fa42201b7bb5aa833f56205ba0e4fc689bddf3a439eb0c427271c7671f81d822",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/score_extension.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/score_extension.py",
+      "sha256": "3514aa06c9a60da7e6a853b000a4d8f3a691e3be41d816c5ae293c0af6934481",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/supervisor.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/supervisor.py",
+      "sha256": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "src/mfg_twin/velocity.py",
+      "bundled_path": "reproducibility/snapshot/src/mfg_twin/velocity.py",
+      "sha256": "080f6d09440f2605b1e636925d92791bb67391abead0c22b79d6fad3fc40f61a",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_campaign.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_campaign.py",
+      "sha256": "f282fbbb794b038c8fdf3219b7ea6275ae333538c381a73d466148a8e02b7a24",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_contract.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_contract.py",
+      "sha256": "14808f358cf72c60ac7fb8daf126c910f9452b3d5e66e67d934896566857730e",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_control_study.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_control_study.py",
+      "sha256": "54566ee4984fc03bb39973e977f763bdf443de92718e3fb423a6b9edd22618a6",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_controls.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_controls.py",
+      "sha256": "98ba3100c29be752207e856f74d360d102fd9d329561d808ea67788b0047d34b",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_data.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_data.py",
+      "sha256": "63417cd3003fcd221f3e315867ee17a111fac39f56714684b2cba174011c3787",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_integration.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_integration.py",
+      "sha256": "d39831210678fee6195cb5a1e0c75c1345e3ef2f6f1fe470f83e966a96deb22d",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_metrics.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_metrics.py",
+      "sha256": "2ccf8fa15f28785a6aa7255b8baf854935cfa2687569861c8567011dace56dac",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_observer.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_observer.py",
+      "sha256": "cad7a14a89f9fc029fbb838b883e86afa60db19d474ca7243fd115732aae006d",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_observer_scores.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_observer_scores.py",
+      "sha256": "49e51d6a4a24a68152ef10be8041261b9eabd7bf7f7624c5258370471724bc68",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_observer_study.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_observer_study.py",
+      "sha256": "a0605ddd0cdb75cbee49a50b579baf697c7ccd04d0c0c810cdc8cc36a56a2abb",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_pilot.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_pilot.py",
+      "sha256": "42ad86508c65d04d1c941f69483e77617633b581b3d09b988babb2896183df49",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_pilot_entry.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_pilot_entry.py",
+      "sha256": "7928de4726ab92032ae9e813ad1865c3ff70b62d128969c50ef5e503a7ec0179",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_score_extension.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_score_extension.py",
+      "sha256": "9aa63994cc0909785c0bab7128697e2c4ca003e088ae0d7dba76d8038d343d9e",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_supervisor.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_supervisor.py",
+      "sha256": "7da9a980348f61d33eca5bbb391bd7b513caa16ba31c7926f53e07fa4215bb51",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "tests/test_velocity.py",
+      "bundled_path": "reproducibility/snapshot/tests/test_velocity.py",
+      "sha256": "78dc8a7b4a840e713b9db28c39933c616c60c8ec21de1d5c02c2715842c2e7f9",
+      "role": "exact tested source/configuration"
+    },
+    {
+      "original_path": "docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md",
+      "bundled_path": "reproducibility/snapshot/docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md",
+      "sha256": "83bbcd1cf7e0bb99dfa2d8e9f6c5154ef1641f6f67878992845810586eb78f82",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/BOUNDED_PILOT_PLAN.md",
+      "bundled_path": "reproducibility/snapshot/docs/BOUNDED_PILOT_PLAN.md",
+      "sha256": "8984a9c209741b3b9c1393919d70dda7c0d240fc35617ec65d1e3fdd9105d76e",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/COMPARISON_ROSTER_DECISION.md",
+      "bundled_path": "reproducibility/snapshot/docs/COMPARISON_ROSTER_DECISION.md",
+      "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+      "bundled_path": "reproducibility/snapshot/docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+      "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/EVALUATION_PROTOCOL.md",
+      "bundled_path": "reproducibility/snapshot/docs/EVALUATION_PROTOCOL.md",
+      "sha256": "3d9197b7699e88a5238168eabe74e19f8404d1e6ee9f90a7276c9472c0386f3f",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/FINAL_TEST_PROTECTION.md",
+      "bundled_path": "reproducibility/snapshot/docs/FINAL_TEST_PROTECTION.md",
+      "sha256": "1365121f48b3dece4cce91c1d0cdcd556b9faaf5abfbedd2b3098db3fa007aca",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/METRIC_DEFINITIONS.md",
+      "bundled_path": "reproducibility/snapshot/docs/METRIC_DEFINITIONS.md",
+      "sha256": "f69d3f5fd78a99322c6f34a81f5165e12bf55fde1ffa73dec08c940454df997e",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/OBSERVER_VALIDATION_PLAN.md",
+      "bundled_path": "reproducibility/snapshot/docs/OBSERVER_VALIDATION_PLAN.md",
+      "sha256": "32826aa937d2c5126f1813a98b727e5e8769781fd4e7b59909912986e32017f0",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+      "bundled_path": "reproducibility/snapshot/docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+      "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/SIMPLE_CONTROLS_PLAN.md",
+      "bundled_path": "reproducibility/snapshot/docs/SIMPLE_CONTROLS_PLAN.md",
+      "sha256": "4830a4297ff31f753c84f8dc1c5dfe1f91d3b26f3cda85fc0378ec5d706cd59e",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/SCORE_EXTENSION_PLAN_V0.1.md",
+      "bundled_path": "reproducibility/snapshot/docs/SCORE_EXTENSION_PLAN_V0.1.md",
+      "sha256": "a5754c9ddb4b18e89c08677b7c661e6993a6b67205418a3cd9df96393234b359",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "docs/CAMPAIGN_FREEZE_AND_CALIBRATION_PLAN_V0.1.md",
+      "bundled_path": "reproducibility/snapshot/docs/CAMPAIGN_FREEZE_AND_CALIBRATION_PLAN_V0.1.md",
+      "sha256": "4936447de63212cd91d77951772688dba3e30af6e3018e867c23ce17093c8932",
+      "role": "frozen historical scientific specification"
+    },
+    {
+      "original_path": "experiments/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+      "bundled_path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json",
+      "sha256": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    },
+    {
+      "original_path": "experiments/FINAL_CAMPAIGN_V0.1_RECORD.json",
+      "bundled_path": "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json",
+      "sha256": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    },
+    {
+      "original_path": "experiments/MODEL_SELECTION_FREEZE_V0.1.json",
+      "bundled_path": "reproducibility/inputs/MODEL_SELECTION_FREEZE_V0.1.json",
+      "sha256": "3b3f62ad323fec96aa5940ea081b668286829064a90225293e4790256baa3b36",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    },
+    {
+      "original_path": "experiments/FINAL_TEST_FREEZE_RECORD.json",
+      "bundled_path": "reproducibility/inputs/FINAL_TEST_FREEZE_RECORD.json",
+      "sha256": "1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    },
+    {
+      "original_path": "experiments/CONTROLS_V0.1_SUMMARY.json",
+      "bundled_path": "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json",
+      "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    },
+    {
+      "original_path": "experiments/OBSERVER_V0.1_SUMMARY.json",
+      "bundled_path": "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json",
+      "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    },
+    {
+      "original_path": "experiments/SOFTWARE_TEST_REPORT_CAMPAIGN_V0.1.json",
+      "bundled_path": "reproducibility/inputs/SOFTWARE_TEST_REPORT_CAMPAIGN_V0.1.json",
+      "sha256": "615a6568a514a40b44c11c6497fef973fcf134cfc9a9d655ec04ff0597c74777",
+      "role": "recorded result/provenance; historical flags retain their original stage meaning"
+    }
+  ],
+  "unbundled_dependencies": [
+    {
+      "path": "configs/casper_right_arm_contract_v0.1.json",
+      "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25"
+    },
+    {
+      "path": "configs/casper_right_arm_controls_v0.1.json",
+      "sha256": "00e20b3ec3dab586c2ae14e5e8ab60c59648d91b154130fccfa7c95f92cb518a"
+    },
+    {
+      "path": "configs/casper_right_arm_evaluation_v0.1.json",
+      "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0"
+    },
+    {
+      "path": "configs/casper_right_arm_observer_v0.1.json",
+      "sha256": "0d28264c8621aa9e772d72ad1ef5cd87734eef5f2c583982c5381b14ab8a7277"
+    },
+    {
+      "path": "configs/casper_right_arm_pilot_v0.1.json",
+      "sha256": "5df7c1e6f279aebe482099fe9dfeaeba1eb241df47ce9a93137fbfcbb95870dc"
+    },
+    {
+      "path": "docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md",
+      "sha256": "83bbcd1cf7e0bb99dfa2d8e9f6c5154ef1641f6f67878992845810586eb78f82"
+    },
+    {
+      "path": "docs/BOUNDED_PILOT_PLAN.md",
+      "sha256": "8984a9c209741b3b9c1393919d70dda7c0d240fc35617ec65d1e3fdd9105d76e"
+    },
+    {
+      "path": "docs/COMPARISON_ROSTER_DECISION.md",
+      "sha256": "79f36c0fee66bf4c75bc70b4deda8ccb7165ac63d9a977e95c0af67dedfbbe7a"
+    },
+    {
+      "path": "docs/CONTRIBUTION_AND_EVIDENCE_SCOPE.md",
+      "sha256": "5b9f225f22436361df42b8d25417785776de2c860f78b96becd6455fd7a2c138"
+    },
+    {
+      "path": "docs/EVALUATION_PROTOCOL.md",
+      "sha256": "3d9197b7699e88a5238168eabe74e19f8404d1e6ee9f90a7276c9472c0386f3f"
+    },
+    {
+      "path": "docs/FINAL_TEST_PROTECTION.md",
+      "sha256": "1365121f48b3dece4cce91c1d0cdcd556b9faaf5abfbedd2b3098db3fa007aca"
+    },
+    {
+      "path": "docs/METRIC_DEFINITIONS.md",
+      "sha256": "f69d3f5fd78a99322c6f34a81f5165e12bf55fde1ffa73dec08c940454df997e"
+    },
+    {
+      "path": "docs/OBSERVER_VALIDATION_PLAN.md",
+      "sha256": "32826aa937d2c5126f1813a98b727e5e8769781fd4e7b59909912986e32017f0"
+    },
+    {
+      "path": "docs/RESEARCH_QUESTION_AND_THREAT_MODEL.md",
+      "sha256": "c16601ffe811ce63126eebb3cac7be6d9fb3f98cf531c95ce10234d16e62a291"
+    },
+    {
+      "path": "docs/SIMPLE_CONTROLS_PLAN.md",
+      "sha256": "4830a4297ff31f753c84f8dc1c5dfe1f91d3b26f3cda85fc0378ec5d706cd59e"
+    },
+    {
+      "path": "experiments/CONTROLS_V0.1_SUMMARY.json",
+      "sha256": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2"
+    },
+    {
+      "path": "experiments/OBSERVER_ARTIFACTS_V0.1.json",
+      "sha256": "1f435b1ebf76116e617ae74617b41bdfb150200624dee6253042bfb49be4c557",
+      "bytes": 3156
+    },
+    {
+      "path": "experiments/OBSERVER_V0.1_SUMMARY.json",
+      "sha256": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d"
+    },
+    {
+      "path": "experiments/PILOT_V0.1_SUMMARY.json",
+      "sha256": "b43cf24cdb94d58d2aeff0e4d7735c1d349135701c228a4c6e4e3176c9465331"
+    },
+    {
+      "path": "experiments/SELECTED_CONTROLS_V0.1.json",
+      "sha256": "652e5b9e608f32fc5bed182fd182661d4f1713b9d4fa0bb712798a1451920eff",
+      "bytes": 3008
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.001.model.json",
+      "sha256": "f18d2191e41fbda1dc433caac4de2669aef794b41fa01e5ded445be471feaada"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/run.json",
+      "sha256": "a1ccb3c5d00ae2653765978cbc83ba2a6e65a54a621bf5ac216582c8c3ad65a6"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins32.model.json",
+      "sha256": "f46cd8248eb09013f0d3b28b5a4505c0f64c7ce3719c58bda9cfe79a7bd52cea"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/velocity_zmax.model.json",
+      "sha256": "6ab61aac8025ebac4424a9b6f29fc9c27e62b285e9e28fa23d777fda7c924aa2"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer.model.json",
+      "sha256": "28a9376bc93945adc783f7cd11354393fab070d0306081372891df7292977767"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/run.json",
+      "sha256": "7e28d3955f244058f3ce4767ed90b8f9362b727f69bd7c11d5f5328a4fe53fc0"
+    },
+    {
+      "path": "experiments/runs/velocity_zmax_pilot_20261016T192422_101078Z/run.json",
+      "sha256": "94f0f5db16491b696742469aabbc3e57b69ce907efe20011143c6fd06f52d6a9"
+    },
+    {
+      "path": "local/control_study_attempts/casper_right_arm_controls_v0.1.json",
+      "sha256": "6e03fa9e1178dda90375182b43e096b8933aae22dfdd629e73934fdce4763be5"
+    },
+    {
+      "path": "local/observer_study_attempts/casper_right_arm_observer_v0.1.json",
+      "sha256": "d946c6ef971d55eeef1786c65a5127a00a60d23cee97bb3ebe18970638dae44e"
+    },
+    {
+      "path": "local/pilot_attempts/casper_right_arm_pilot_v0.1.json",
+      "sha256": "933258307441bc16c6ec436fe6329ae7b45385f0b003269bd1cda6ab7473f9c1"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "776f1287caa6c98e708fd8300d429f671f8b02e7b08a7ec1d8e832ce8a0ecfe6"
+    },
+    {
+      "path": "scripts/acquire_casper_v3.py",
+      "sha256": "2089666e9d7c1884a84c363acebb47f624239eb2c0cc4df5d021e620570c43f8"
+    },
+    {
+      "path": "scripts/audit_casper_annotation_lineage.py",
+      "sha256": "ee1311663ed2f4911618212ab8f01361a54c5843150a3a526dfa79d17a91db22"
+    },
+    {
+      "path": "scripts/audit_casper_controller_schema.py",
+      "sha256": "40fddda47b5b06a9cf4e139a4c1a63e814b7c532795c8c29c16b8e13089936ba"
+    },
+    {
+      "path": "scripts/inspect_casper_alignment.py",
+      "sha256": "384deae0a45c04defc0dd2506ecbd3c9cbde6ded152d0e17a0b2df8d5fbd5220"
+    },
+    {
+      "path": "scripts/profile_casper_v3.py",
+      "sha256": "406db7edda919da3718bb1febbfff4e3e2fca5764daf61168cd7ae6fdeeb37d1"
+    },
+    {
+      "path": "scripts/run_bounded_pilot.py",
+      "sha256": "1bc9b8ace64a0331e3f4526dc455184baccc2b8b0b2d4b309e3fcd9d00d749fd"
+    },
+    {
+      "path": "scripts/run_control_study.py",
+      "sha256": "edaf60ab31bb0ef428317bf3c2317fd67fbef09281e12bbdaceab4673df7e979"
+    },
+    {
+      "path": "scripts/run_observer_study.py",
+      "sha256": "c7e9030d55996ed31b03bbd8d6ccaaca4eb25f13b8af0ef319e2a54f9bd1b8a1"
+    },
+    {
+      "path": "scripts/run_synthetic_tests.py",
+      "sha256": "a3a0cdd353915db23387dd3797dfa0682b9d0f7e72b89261043882e7bec7529e"
+    },
+    {
+      "path": "scripts/verify_casper_release.py",
+      "sha256": "fb0855a23d13380a3a55bbf2cde559db27656342e13ec4b7ffbe3884105b0f66"
+    },
+    {
+      "path": "src/mfg_twin/__init__.py",
+      "sha256": "3fd7d875a6a364c297b94b5f7422bf3bb155d5dd4f940d06e586c903a587effa"
+    },
+    {
+      "path": "src/mfg_twin/contract.py",
+      "sha256": "06938cbea7d636e6554c0c718250fe27fdad21f455b5b97b0926e1dcf13bfae8"
+    },
+    {
+      "path": "src/mfg_twin/control_study.py",
+      "sha256": "2b314496a591f438a63e7a434620e41c2e7e3641568e015bf71f572ad2f8073d"
+    },
+    {
+      "path": "src/mfg_twin/controls.py",
+      "sha256": "b42d317f84e2ca32f92cede539f240a6fc5b2d0b085311109920cd99f27d0dd8"
+    },
+    {
+      "path": "src/mfg_twin/data.py",
+      "sha256": "82e56d653ac9ff048fd85951e3370ae4c33f9c73edc940c682cbe66c2e85c7a6"
+    },
+    {
+      "path": "src/mfg_twin/metrics.py",
+      "sha256": "c305d30c04ea85fe35275f1e7aa213b2bb20d138e8f7e2a1a3c036f323d3ee43"
+    },
+    {
+      "path": "src/mfg_twin/observer.py",
+      "sha256": "24edf88ec86b18119a3bf62433e45f192c41f0092e76079904b2978f81c73972"
+    },
+    {
+      "path": "src/mfg_twin/observer_study.py",
+      "sha256": "e4915941d0d33826744ac0f3906c6f49af0e12c1c4a0d5ac6bf7bfb8da21dcf3"
+    },
+    {
+      "path": "src/mfg_twin/pilot.py",
+      "sha256": "54efce773af65aec2e295d183c294a8867e7c8d1c28695e18c00fd807e2d9740"
+    },
+    {
+      "path": "src/mfg_twin/replay.py",
+      "sha256": "fa42201b7bb5aa833f56205ba0e4fc689bddf3a439eb0c427271c7671f81d822"
+    },
+    {
+      "path": "src/mfg_twin/supervisor.py",
+      "sha256": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3"
+    },
+    {
+      "path": "src/mfg_twin/velocity.py",
+      "sha256": "080f6d09440f2605b1e636925d92791bb67391abead0c22b79d6fad3fc40f61a"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "sha256": "14808f358cf72c60ac7fb8daf126c910f9452b3d5e66e67d934896566857730e"
+    },
+    {
+      "path": "tests/test_control_study.py",
+      "sha256": "54566ee4984fc03bb39973e977f763bdf443de92718e3fb423a6b9edd22618a6"
+    },
+    {
+      "path": "tests/test_controls.py",
+      "sha256": "98ba3100c29be752207e856f74d360d102fd9d329561d808ea67788b0047d34b"
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "63417cd3003fcd221f3e315867ee17a111fac39f56714684b2cba174011c3787"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "sha256": "d39831210678fee6195cb5a1e0c75c1345e3ef2f6f1fe470f83e966a96deb22d"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "sha256": "2ccf8fa15f28785a6aa7255b8baf854935cfa2687569861c8567011dace56dac"
+    },
+    {
+      "path": "tests/test_observer.py",
+      "sha256": "cad7a14a89f9fc029fbb838b883e86afa60db19d474ca7243fd115732aae006d"
+    },
+    {
+      "path": "tests/test_observer_study.py",
+      "sha256": "a0605ddd0cdb75cbee49a50b579baf697c7ccd04d0c0c810cdc8cc36a56a2abb"
+    },
+    {
+      "path": "tests/test_pilot.py",
+      "sha256": "42ad86508c65d04d1c941f69483e77617633b581b3d09b988babb2896183df49"
+    },
+    {
+      "path": "tests/test_pilot_entry.py",
+      "sha256": "7928de4726ab92032ae9e813ad1865c3ff70b62d128969c50ef5e503a7ec0179"
+    },
+    {
+      "path": "tests/test_supervisor.py",
+      "sha256": "7da9a980348f61d33eca5bbb391bd7b513caa16ba31c7926f53e07fa4215bb51"
+    },
+    {
+      "path": "tests/test_velocity.py",
+      "sha256": "78dc8a7b4a840e713b9db28c39933c616c60c8ec21de1d5c02c2715842c2e7f9"
+    },
+    {
+      "path": "configs/casper_right_arm_score_extension_v0.1.json",
+      "sha256": "57876f77ce2f447b127766246d91e0775a1e15de2996946b210adc4ed3fe0497"
+    },
+    {
+      "path": "docs/SCORE_EXTENSION_PLAN_V0.1.md",
+      "sha256": "a5754c9ddb4b18e89c08677b7c661e6993a6b67205418a3cd9df96393234b359"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/synchronized_residual.scores.f64",
+      "sha256": "aeac99c18828d9cd6686941cdde725d2c07038ae13ca2118c6301a64968e7dba"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/synchronized_evidence.scores.f64",
+      "sha256": "b150d02208d2bd71f05d2a5734a4f143dddd2b85a364d2d8548e733d82c69f5b"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/development_index.jsonl",
+      "sha256": "fa3eeb7abebcc439c861de44e5fbf5c692845acbea0bf2d6d7a9c8ad7df62f00"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer_results.json",
+      "sha256": "27efd84e073c7dd167c72a60f5c0b8695a63aae673b7b188b14ae3af23986318"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.001.model.json",
+      "sha256": "bad83b5a339019c58738eb92607d3d0b46c7767fc978d62d19b27bf281a40358"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.001.scores.f64",
+      "sha256": "0eb0f7513ccee93743618e97ef89ddcc5bfb7ff5408027e511b04e52171152d5"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.1.model.json",
+      "sha256": "41cef186d3a91ddea1a55a494175f2e28a933334cf1be47f1f11c1fc4f43f1b7"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p1_ridge0.1.scores.f64",
+      "sha256": "008a87514deb5d1b589caf3c79a4961cac8340224102aacf9857950546d86efd"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.001.scores.f64",
+      "sha256": "a458cfad377614742a46bad081f58231f0968fe6c08368c9315a08054712c5d0"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.1.model.json",
+      "sha256": "71a2e264a64ae3e0b694dab2d67455f24d922fd0b0cb3093df5833610a9b312b"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/ar_p4_ridge0.1.scores.f64",
+      "sha256": "b62c9bc1c2cf9ad09fb4a8282d1411359f021beaea751b350a821371ac95c444"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/candidate_results.json",
+      "sha256": "365c12a66bee56e8a473933a4d4dd91cd5d63e8fcf5a976ad56812a938a66178"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/control_specification.json",
+      "sha256": "00e20b3ec3dab586c2ae14e5e8ab60c59648d91b154130fccfa7c95f92cb518a"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/development_index.jsonl",
+      "sha256": "fa3eeb7abebcc439c861de44e5fbf5c692845acbea0bf2d6d7a9c8ad7df62f00"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/diagnostics.json",
+      "sha256": "6207783fdc2d0b71a620c19e4ee050a4549a16a69a004ea9010e1a3cf58c2ac9"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/progress.jsonl",
+      "sha256": "d4759bf0bdea965234600b990532b7c4c43fcd40e31df54025e2655072263a29"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/resolved_config.json",
+      "sha256": "e7949c135ad98d32c21ae348079f5bf4905d9caaa58d3ccf19618167119d6b9e"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/selected_artifacts.json",
+      "sha256": "abad82cf3bc305cf1f48a30877c626be458ce810e672f9ad65535e7548cb0482"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/source_snapshot.json",
+      "sha256": "eb18a029a0302e7bc92c7be9b47d2757d685df3dcb59c2c9ef3a58191fae9f7b"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/specification_snapshot.json",
+      "sha256": "dc3d116dbb57a54b0c966289cd5981ef17efb8d64e64725e78c201c7dd0eec8d"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/synthetic_test_receipt.json",
+      "sha256": "ca56662de1daae37175871bfcaaf728e77367260b070702f82e13fad3073f87f"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins32.scores.f64",
+      "sha256": "f76f82ffc6edf6a84a593491ce779720486309e2bff36cdf14deb991901f1540"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins64.model.json",
+      "sha256": "105aa58250f77f0ca75288793d0540944ab095b767c25376b0433580991cb68f"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/template_bins64.scores.f64",
+      "sha256": "fb0a879a139cc1443038a00316fa8fe78f83049a30d3ecce857ff96a6dd91f65"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/tracked_workspace.patch",
+      "sha256": "57e701a54583b51c2a771d08935db3a8b377a0811c3bdcaaada745d4e7e5def5"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/training_standardizer.json",
+      "sha256": "09fd3447861735d7dceb0393963d09e26986b5894edc7b461025fa6bb87dccb0"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/velocity_zmax.scores.f64",
+      "sha256": "b03369d42215f42c0e751e63f9006132507c693c6857fad0e9defecfa8a90a87"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/worker.log",
+      "sha256": "3485cf7a1e99931869be401585e5a28b6f5101463fc05a832d6ddfbd03bb3253"
+    },
+    {
+      "path": "experiments/runs/normal_controls_v0.1_20261016T195243_137443Z/worker_started.json",
+      "sha256": "9f94713d7b96b660e1fff3230d6203a4cfbf924bedf29b4e7a3198baf667fc13"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/diagnostics.json",
+      "sha256": "4370c5b8bc4f1652cd70bb945d046f95bfae3669c97379543027e22a6420f1f1"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/free_running_residual.scores.f64",
+      "sha256": "806ec6443b9cefc74e646fe395289767a5d5aef1f090566f914b27d4bf9fa646"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/input_references.json",
+      "sha256": "90eec7e16058f12fdcea9c874343ffb1941ac939649686c09aabb9cbaf98de56"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/observer_specification.json",
+      "sha256": "0d28264c8621aa9e772d72ad1ef5cd87734eef5f2c583982c5381b14ab8a7277"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/progress.jsonl",
+      "sha256": "9669adf9c68e6604a3b1dcba0f80c4ef0ffb4a81087222ca4099797c5abeda58"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/resolved_config.json",
+      "sha256": "234abd2701a57e59a2be0560f9b4c7dbff008d27f76d06fc0ef60ebcfc44e802"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/source_snapshot.json",
+      "sha256": "c2970a16105529ce59a09e3575f58041b5940ce84343f812ea0f2571bf2aac51"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/specification_snapshot.json",
+      "sha256": "c039c761c5523aa062f8da37525f95c36ac25109834e7c2f9c5684a69bd05373"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/synthetic_test_receipt.json",
+      "sha256": "e0e2666d5dbfedb81976783ea67e3e31857d5f4f2e83e8cae739de315311b209"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/tracked_workspace.patch",
+      "sha256": "df54ed39dd10ac6decd35aa8a95451e391e92716fea5247eb5c3df327187718b"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/unconstrained_residual.scores.f64",
+      "sha256": "9a50aee259e37bef563280f3952b0e91b15fb682ca83b986373704ec51cefa6a"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/worker.log",
+      "sha256": "9e823652c2e95854786f3ceb79eecc3986752d67d135abe59cc3c305fea315ca"
+    },
+    {
+      "path": "experiments/runs/normal_observer_v0.1_20261016T201310_830939Z/worker_started.json",
+      "sha256": "f4a6371465656c794980d2f2ff93808102b8b4643c2293f032dc3bac1d25e649"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/run.json",
+      "sha256": "222c7dab492be668641d7f53772476e92a902f4ee257d5dd68ec8bb951897900"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-C.scores.f64",
+      "sha256": "72fafc0e47af6f4906dd242435efa13e8b2b54079b11c46c59096677efbd541d"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-K.scores.f64",
+      "sha256": "e5be362cfc68b154e9481b59ee2c34821a99901fe557ab66e0663e7a029f742b"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-L.scores.f64",
+      "sha256": "5c22a3e73ef7101ed1991d26a3c6247e0b59be4fe883688d0a8a6f384bd280e4"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-R.scores.f64",
+      "sha256": "aeac99c18828d9cd6686941cdde725d2c07038ae13ca2118c6301a64968e7dba"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-RC.scores.f64",
+      "sha256": "b150d02208d2bd71f05d2a5734a4f143dddd2b85a364d2d8548e733d82c69f5b"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/O-Rv.scores.f64",
+      "sha256": "82deb68595fb138b265c45a65b71b41589bfaa556e9ad5e60d3fed74ba50ac69"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/development_index.jsonl",
+      "sha256": "fa3eeb7abebcc439c861de44e5fbf5c692845acbea0bf2d6d7a9c8ad7df62f00"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/diagnostics.json",
+      "sha256": "4758109f1d7204e336a568384af3d0470af7dc8c263105e9516464c8a884a6d1"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/immutable_model_snapshot.json",
+      "sha256": "c8bd75979ec8a59e6c1a7a0af04f8762a0109de52df757f2a04b32478bc93daf"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/input_provenance.json",
+      "sha256": "0886b0ed84669650000e11df8da1a0c90c231b3779b349dd929fd28fe53c5ca4"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/progress.jsonl",
+      "sha256": "5eddcb7b45ff94a0e6239c975139ce53af464e3696c6b30a865057927402588d"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/resolved_config.json",
+      "sha256": "a09c89c220a9af1e9ef99360f0440ee5495c729d808ad445155584b27197ca91"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/score_extension_results.json",
+      "sha256": "e71f9df0bbd648cac7936c6c33bdbde312d38164427102b953dd7ba442ade581"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/score_extension_specification.json",
+      "sha256": "57876f77ce2f447b127766246d91e0775a1e15de2996946b210adc4ed3fe0497"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/source_snapshot.json",
+      "sha256": "9c3b2a65cda8e33f9b76425d34928b1b5c05b4ec715002b8cd39452346f6c6ef"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/specification_snapshot.json",
+      "sha256": "31b334ea45d4a41bc4368e19e3ec033ad716ab4438bbd8bb6e874b6fcdccd5d7"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/synthetic_test_receipt.json",
+      "sha256": "7329b62b0e2ed09632219cfe658248c3b8c3568c7fe20b9fcd2bc6c4cf31dd10"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/tracked_workspace.patch",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/worker.log",
+      "sha256": "52c9fb408589039352521714e6fe6fbfde4714bbf59dc1bd861ee6c1fe85bd30"
+    },
+    {
+      "path": "experiments/runs/normal_score_extension_v0.1_20261017T055148_216862Z/worker_started.json",
+      "sha256": "3a6eb4fc375fd938f2d3d93df8c5d8d5116bfc630b3d88ba7aefaba6e8a23399"
+    },
+    {
+      "path": "configs/casper_right_arm_campaign_v0.1.json",
+      "sha256": "6939856ed18aada1f43a7ac9d31794dddf92e37c7ab26c1d41ba5d672aeaf911",
+      "bytes": 7465
+    },
+    {
+      "path": "docs/CAMPAIGN_FREEZE_AND_CALIBRATION_PLAN_V0.1.md",
+      "sha256": "4936447de63212cd91d77951772688dba3e30af6e3018e867c23ce17093c8932",
+      "bytes": 6166
+    },
+    {
+      "path": "experiments/SCORE_EXTENSION_ARTIFACTS_V0.1.json",
+      "sha256": "fd6be424714dbe1f6f6c26c188af2ad2a860bbc628be4181bc9c26b1584bc72b",
+      "bytes": 4144
+    }
+  ],
+  "raw_datasets_included": false,
+  "vendor_code_or_manuscripts_included": false,
+  "row_level_scores_included": false,
+  "distribution_approved": false
+}

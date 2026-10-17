@@ -1,0 +1,87 @@
+\section{Empirical observer and comparison methods}
+\label{sec:methods}
+% claim: M01
+\subsection{Training-only reference and scaling}
+Let $x_t=(q_t,\dot q_t)\in\mathbb R^{12}$. Training-only population moments give
+\begin{equation}
+ z_{t,j}=\frac{x_{t,j}-\mu_j}{\sigma_j},\qquad
+ \sigma_j^2=\frac{1}{n_{\rm fit}}\sum_{t\in\mathcal T}(x_{t,j}-\mu_j)^2.
+ \label{eq:scale}
+\end{equation}
+Moments are accumulated using Welford's algorithm. Constant or nonfinite channels fail admission; no clipping, imputation, resampling or future-looking interpolation is used. All reference/parameter fitting uses the 536,946 eligible training targets. Warmup observations can initialize causal state but are excluded from those fitting targets.
+
+% claim: M02
+The periodic reference comprises $B=32$ standardized mean vectors $m_k$ and a training-estimated period $T=38$ seconds. Period estimation samples every twentieth observation from the first eligible training segment, up to 10,000 observations. It examines mean squared twelve-channel differences for lags 1--121; candidates 2--120 must be local minima. Minimum objective, then smaller lag, breaks ties. The selected lag is converted using actual elapsed-time differences. For each candidate bin count, a bootstrap clock template initializes a fixed phase offset from each segment's warmup, after which eligible training endpoints produce the final bin means. Empty bins or missing admissible periods fail. Appendix~\ref{app:selection} records the finite configuration search; no final outcome selected the period or bins.
+
+% claim: M03
+\subsection{Phase propagation and measurement correction}
+The dynamic state is a categorical distribution over the $B$ phase bins. Each segment begins uniformly. Given previous posterior $p^+_{t-1}$ and native $\Delta t$, define the circular shift operator $\mathcal S_\delta$ by linearly distributing probability between adjacent bins for a forward displacement $\delta=B\Delta t/T$. The prior is
+\begin{equation}
+ p^-_t=(1-\epsilon_t)\mathcal S_{B\Delta t/T}p^+_{t-1}
+       +\epsilon_t\frac{\mathbf 1}{B},\quad
+ \epsilon_t=1-\exp(-0.02\Delta t).
+ \label{eq:prior}
+\end{equation}
+This is a fixed empirical transition, not an identified robot-dynamics equation. Repeated fractional shifts introduce numerical diffusion.
+
+% claim: M04
+Before the current measurement influences state, the observer predicts
+\begin{equation}
+ \widehat z_t=\sum_{k=0}^{B-1}p^-_t(k)m_k,\qquad
+ R_t=\frac{1}{12}\|z_t-\widehat z_t\|_2^2.
+ \label{eq:residual}
+\end{equation}
+The current observation then supplies template distances and a tentative posterior:
+\begin{align}
+ D_t(k)&=\frac{1}{12}\|z_t-m_k\|_2^2,\quad e_t(k)=\frac{D_t(k)}{2\tau},\\
+ Z_t&=\sum_k p^-_t(k)\exp[-e_t(k)],\quad
+ p^+_t(k)=\frac{p^-_t(k)\exp[-e_t(k)]}{Z_t}.
+ \label{eq:posterior}
+\end{align}
+Normalization is computed stably in log space. The bandwidth is the larger of $10^{-8}$ and the training mean of $\min_k D_t(k)$; its fitted value is $\tau=\FitTau$. These radial-basis weights are a pseudo-likelihood, not a calibrated model of physical sensor noise.
+
+% claim: M05
+With $u_t=(p^-_t+p^+_t)/2$, correction evidence is
+\begin{equation}
+ C_t=\tfrac12\mathrm{KL}(p^-_t\|u_t)+\tfrac12\mathrm{KL}(p^+_t\|u_t).
+ \label{eq:js}
+\end{equation}
+Natural logarithms are used; zero-mass terms contribute zero. The statistic lies in $[0,\log 2]$ apart from numerical tolerance. It measures unsigned belief redistribution, not physical phase error, speed or attack probability. All scores are emitted before the tentative posterior is committed. No score changes the fitted reference, bandwidth, normalizer or threshold.
+
+% claim: M06
+\subsection{Primary contrast and explanatory scores}
+Training-only mean residual and correction values are $a=\FitA$ and $b=\FitB$. The primary scores are
+\begin{equation}
+ S_{\mathrm{O-R},t}=R_t/a,\qquad
+ S_{\mathrm{O-RC},t}=R_t/a+C_t/b.
+ \label{eq:primary}
+\end{equation}
+Both scores use exactly the same prior, posterior, prediction and subsequent state trajectory. Removing $C_t/b$ does not remove progression or measurement correction from the observer. The sum has equal coefficients after training-mean scaling; no fusion-weight search was performed.
+
+% claim: M07
+Four explanatory outputs use that same observer: \method{O-C} is raw $C_t$; \method{O-K} is $\mathrm{KL}(p^+_t\|p^-_t)$; \method{O-L} is the predictive mixture energy $-\log Z_t$; and \method{O-Rv} is the mean standardized squared residual restricted to the six velocity channels. The last output still obtains its state from all twelve channels. Two auxiliary update policies retain $R_t/a$: \method{O-Follow} uses likelihood-only phase correction after warmup, while \method{O-Free} omits measurement correction after warmup but keeps nominal propagation and mixing. All three policies share ordinary correction during initialization. The free-running distribution's diffusion limits what this comparison says about fixed references.
+
+% claim: M08
+The energy and KL outputs are related by the direct identity
+\begin{equation}
+ -\log Z_t=\mathrm{KL}(p^+_t\|p^-_t)+\sum_k p^+_t(k)e_t(k),
+ \label{eq:energyidentity}
+\end{equation}
+for positive prior support. Also,
+\begin{equation}
+ \sum_k p^-_t(k)D_t(k)=R_t+
+ \frac1{12}\sum_k p^-_t(k)\|m_k-\widehat z_t\|_2^2.
+ \label{eq:mixtureidentity}
+\end{equation}
+These algebraic decompositions motivate conventional controls and ambiguity analysis; they are not claimed as new theorems. Jensen--Shannon discrepancy has no identical KL decomposition. Equally poor likelihoods can leave a posterior unchanged, whereas an informative normal measurement can change it substantially.
+
+% claim: M09
+\subsection{Ordinary controls}
+\method{V-Z} takes the maximum absolute training-standardized deviation across joint velocities. \method{T-32} predicts from the fixed 32-bin template. Its warmup chooses the minimum cumulative-loss integer phase offset, with the smallest offset breaking ties; thereafter only elapsed time advances the phase. It makes no current-observation phase adjustment.
+
+\method{AR-4} is a separate autoregression for each standardized channel,
+\begin{equation}
+ \widehat z_{t,j}=\alpha_j+\sum_{\ell=1}^{4}\beta_{j,\ell}z_{t-\ell,j}.
+ \label{eq:ar}
+\end{equation}
+Training minimizes mean squared prediction error plus $0.001\sum_\ell\beta_{j,\ell}^2$, with an unpenalized intercept. Its score is mean twelve-channel squared residual. The current sample enters history only after scoring. This is teacher-forced one-step monitoring, not autonomous simulation or a cross-channel vector autoregression. Singular/nonfinite fits fail rather than trigger altered regularization. These controls are our implementations; none is a claimed faithful reproduction of a cited paper.

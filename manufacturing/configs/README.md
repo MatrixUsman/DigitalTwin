@@ -1,5 +1,7 @@
 # Configurations — Smart manufacturing
 
+**Current status:** [all eleven frozen final methods completed](../docs/FINAL_CAMPAIGN_REPORT_V0.1.md), with no configuration changes after calibration. Earlier readiness language below belongs to historical specifications, whose hashes remain unchanged. Actual execution/access/outcomes live in the separate [completion record](../experiments/FINAL_CAMPAIGN_V0.1_RECORD.json); the final holdout is exposed.
+
 The [right-arm contract v0.1](casper_right_arm_contract_v0.1.json) defines dataset identity, recorded schedule annotations, twelve permitted joint-state channels, relative-time use, chronological row ranges, gap/warmup policy and normal-only calibration. Its [explanation](../docs/ANNOTATION_FEATURE_SPLIT_CONTRACT.md) records assumptions and limits. It is frozen for **design review**, not an executable model configuration or training admission.
 
 The [evaluation policy v0.1](casper_right_arm_evaluation_v0.1.json) references the unchanged data contract and fixes common support/counts, calibration rank/ties, metrics, missing-score admission, seeds and final protection. Read its [protocol](../docs/EVALUATION_PROTOCOL.md). This is planning metadata, not executable enforcement. Its document hashes identify the reviewed versions; changing those specifications requires a versioned reconciliation.
@@ -19,4 +21,4 @@ The separately versioned [observer v0.1](casper_right_arm_observer_v0.1.json) an
 
 The [score extension v0.1](casper_right_arm_score_extension_v0.1.json) and [bound plan](../docs/SCORE_EXTENSION_PLAN_V0.1.md) were executed once with no fitting. They bind the frozen observer, development-only support, six score definitions, exact historical parity, 66 preserved dependencies and four resource caps. Preserve bytes and the consumed attempt. See the [actual report](../docs/SCORE_EXTENSION_REPORT_V0.1.md); this configuration does not admit calibration/final access.
 
-`casper_right_arm_campaign_v0.1.json` is the consumed scientific/execution specification for actual eleven-method freezing and threshold-only calibration. Preserve its hash. It also fixes future final scoring/evaluation budgets and rules; those final runs have not executed. Old planning fields remain historical. [Report](../docs/CAMPAIGN_FREEZE_AND_CALIBRATION_REPORT_V0.1.md).
+`casper_right_arm_campaign_v0.1.json` is the consumed scientific/execution specification for actual eleven-method freezing, threshold-only calibration and final budgets/rules. Preserve its hash. Final scoring/evaluation have now completed under the later explicit user authorization. Old planning/preparation-only fields remain historical; [actual execution report](../docs/FINAL_CAMPAIGN_REPORT_V0.1.md).

@@ -65,6 +65,8 @@ The original final holdout cannot become fresh confirmation through a rerun or r
 
 ## Evidence and persistent records
 
+- [Complete final report](docs/FINAL_CAMPAIGN_REPORT_V0.1.md), [actual completion and hashes](experiments/FINAL_CAMPAIGN_V0.1_RECORD.json), [all-method summary](experiments/FINAL_CAMPAIGN_V0.1_SUMMARY.json), [metric CSV](experiments/FINAL_CAMPAIGN_V0.1_METRICS.csv), [88 event outcomes](experiments/FINAL_CAMPAIGN_V0.1_EVENTS.csv), [88 recovery outcomes](experiments/FINAL_CAMPAIGN_V0.1_RECOVERY.csv).
+
 - [Freeze/calibration report](docs/CAMPAIGN_FREEZE_AND_CALIBRATION_REPORT_V0.1.md), [selection freeze](experiments/MODEL_SELECTION_FREEZE_V0.1.json), [actual final freeze](experiments/FINAL_TEST_FREEZE_RECORD.json), [safe summary](experiments/CAMPAIGN_CALIBRATION_V0.1_SUMMARY.json), [324-test report](experiments/SOFTWARE_TEST_REPORT_CAMPAIGN_V0.1.json).
 
 - [Score-extension report](docs/SCORE_EXTENSION_REPORT_V0.1.md), [frozen plan](docs/SCORE_EXTENSION_PLAN_V0.1.md), [295-test report](experiments/SOFTWARE_TEST_REPORT_SCORE_EXTENSION_V0.1.json), [safe summary](experiments/SCORE_EXTENSION_V0.1_SUMMARY.json), [extension artifact registry](experiments/SCORE_EXTENSION_ARTIFACTS_V0.1.json).
@@ -78,7 +80,7 @@ The original final holdout cannot become fresh confirmation through a rerun or r
 
 - [Pilot report](docs/PILOT_REPORT.md), [safe run summary](experiments/PILOT_V0.1_SUMMARY.json), [150-test report](experiments/SOFTWARE_TEST_REPORT_PILOT_V0.1.json), [historical 83-test foundation](docs/SOFTWARE_VALIDATION.md), [environment](docs/ENVIRONMENT.md), [historical pilot plan](docs/BOUNDED_PILOT_PLAN.md), [pilot JSON](configs/casper_right_arm_pilot_v0.1.json).
 - [Evaluation protocol](docs/EVALUATION_PROTOCOL.md), [metric formulas](docs/METRIC_DEFINITIONS.md), [final-test protection](docs/FINAL_TEST_PROTECTION.md), [evaluation JSON](configs/casper_right_arm_evaluation_v0.1.json), [actual final freeze](experiments/FINAL_TEST_FREEZE_RECORD.json).
-- [Evaluation design review and dispositions](docs/EVALUATION_PROTOCOL_REVIEW.md); metadata/arithmetic checks passed, foundational software is now synthetic-tested; model-specific and production final-runner validation remain pending.
+- [Evaluation design review and dispositions](docs/EVALUATION_PROTOCOL_REVIEW.md) is historical; subsequent model-specific tests and the complete final campaign are recorded in the joint report above.
 - [Current comparator admission decision](docs/COMPARATOR_ADMISSION.md), [admission rules](docs/BASELINE_SELECTION_CRITERIA.md), [historical selection screen](docs/BASELINE_SELECTION_REPORT.md), [literature register](docs/LITERATURE_EVIDENCE.md).
 - [Received-file identity](docs/CASPER_DATASET_IDENTITY.md), [receipt manifest](datasets/manifests/casper_v3_receipt.json), [manuscript/code collection](docs/MANUSCRIPT_COLLECTION_AUDIT.md), [proposed protocol](docs/COMPARISON_PROTOCOL.md).
 - [Current release/hash/clock register](docs/DATASET_IDENTITY_REGISTER.md), [consolidated manifest](datasets/manifests/casper_v3_identity.json), [checksum file](datasets/manifests/casper_v3.sha256), [label/time review](docs/CASPER_LABEL_TIME_AUDIT.md), [paper-specific dataset correspondence](docs/BASELINE_DATASET_CORRESPONDENCE.md).

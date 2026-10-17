@@ -1,0 +1,32 @@
+{
+  "kind": "deterministic_manuscript_asset_manifest",
+  "generator_sha256": "93ca4f326ba3febbf88c1ba7046d4eb9428f0852ab720c5976e9e3551cc575e2",
+  "source_manifest_sha256": "9e38e54b31a4f8a398ae59d05e1916717fdf6852d7176c78285f7d98735420ff",
+  "reference_register_sha256": "ec6f1a2cd714339bf2aade31748f7824a7bc9c0c5caebdba3d85b85c61edc255",
+  "inputs": {
+    "reproducibility/inputs/CONTROLS_V0.1_SUMMARY.json": "bc1b3c1149ea710a3c47756f949f476ef3c155dab866a7c64109fc31659eeaf2",
+    "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_RECORD.json": "fcfbae0dabf8ecdb7f2136d49b1f077ebceefab0bd5a47e4490835c215504090",
+    "reproducibility/inputs/FINAL_CAMPAIGN_V0.1_SUMMARY.json": "9730afc3913655f2864079ca9634bb4e743ed211a45f59a0a82a7590f6c0c42d",
+    "reproducibility/inputs/FINAL_TEST_FREEZE_RECORD.json": "1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d",
+    "reproducibility/inputs/MODEL_SELECTION_FREEZE_V0.1.json": "3b3f62ad323fec96aa5940ea081b668286829064a90225293e4790256baa3b36",
+    "reproducibility/inputs/OBSERVER_V0.1_SUMMARY.json": "ecd82104b3cc99f8e9358d3ab4c80f8fbf96afda387ff131259c4282a6568b9d",
+    "reproducibility/inputs/SOFTWARE_TEST_REPORT_CAMPAIGN_V0.1.json": "615a6568a514a40b44c11c6497fef973fcf134cfc9a9d655ec04ff0597c74777"
+  },
+  "assets": {
+    "generated/main_results.tex": "ee576b7fe9bfe785366d2d0f43a02e8c33f5b0184e46c7f523776c37b8be8ccc",
+    "generated/confusion.tex": "610ca8baad1e4bbd689ef0666f1e22ce53119f4d1f61ec6fac41624f7f0ff637",
+    "generated/event_delays.tex": "6221eb110ce3f5af0692b506c7780fd7b90544b705dac5e5b783fac14d30353d",
+    "generated/recovery.tex": "e18ec1383a2e313d0725bcc085616f0a46103c0efdc97da206e92dd10b548909",
+    "generated/selection.tex": "b6fa604638c4675ff8f3b9deb610f5f917f3dab960b6714daf0974bfdee10154",
+    "generated/thresholds.tex": "07aedf7f6873ad0568d9d30acd97d196f5e62c5e56871ea3c563b2b7023aa1e9",
+    "generated/resources.tex": "cd8c91ac7d4fcdf391b2b9091c32e1c72ae9fa6dbf764798cedcd0823b69cb9a",
+    "generated/values.tex": "11d9575f27b5191ec6bb1cdf8eebbad6840cef3c5c9a6d14de0aac56f0594e74",
+    "figures/operating_tradeoffs.tex": "d9555403587b72903d17f2396f84867cdd0334ba91db93d862e9146d384eec95",
+    "figures/event_point_coverage.tex": "7945a3a37c206add045c7569cf43a7cbc7627339c39a0f70303d2801dc646d77",
+    "references.bib": "075b0ebdc3fd5ec6c0e5aa14278748b21484831c8205c11ce5ca53d81a55530e",
+    "generated/references.tex": "ae3f2493a606af7af5436706e3058d9e804069e52906811d94dcf7338a13580f"
+  },
+  "raw_observations_used": false,
+  "models_run": false,
+  "figure_format": "PGFPlots source; PDF rendering deferred"
+}

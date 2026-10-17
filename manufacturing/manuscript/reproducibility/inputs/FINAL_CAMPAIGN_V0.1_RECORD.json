@@ -1,0 +1,433 @@
+{
+  "kind": "actual_final_campaign_completion_record",
+  "status": "complete_joint_evaluation_audited",
+  "recorded_at_utc": "2026-10-17T06:33:06.271712+00:00",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "operator": "Codex assistant",
+  "execution_authorization": {
+    "path": "experiments/FINAL_CAMPAIGN_EXECUTION_AUTHORIZATION_V0.1.json",
+    "sha256": "2bb1565af2570f0a73480c39d0b9525b9ab2ab9ddc8d9eff4531add09c7ab419",
+    "bytes": 1497
+  },
+  "pre_execution_freeze": {
+    "path": "experiments/FINAL_TEST_FREEZE_RECORD.json",
+    "sha256": "1fd7767bdcd4e5203de7180f9e78cb6d82e35c2d7e2b5564821634fedf295a1d",
+    "bytes": 8519
+  },
+  "model_selection_freeze": {
+    "path": "experiments/MODEL_SELECTION_FREEZE_V0.1.json",
+    "sha256": "3b3f62ad323fec96aa5940ea081b668286829064a90225293e4790256baa3b36",
+    "bytes": 44921
+  },
+  "campaign_started_at": "2026-10-17T06:21:17.705600+00:00",
+  "all_scores_accepted_at": "2026-10-17T06:25:51.061961+00:00",
+  "label_join_started_at": "2026-10-17T06:26:30.415287+00:00",
+  "first_outcome_write_intent_at": "2026-10-17T06:26:42.693518+00:00",
+  "outcome_time_semantics": "Conservative exposure ledger immediately before first local metric artifact write; not a human-read attestation.",
+  "all_declared_evaluation_completed_at": "2026-10-17T06:27:12.073582+00:00",
+  "joint_analysis_only_after_all_methods_terminal": true,
+  "methods": [
+    "O-R",
+    "O-RC",
+    "O-C",
+    "O-K",
+    "O-L",
+    "O-Rv",
+    "O-Follow",
+    "O-Free",
+    "V-Z",
+    "T-32",
+    "AR-4"
+  ],
+  "stochastic_runs": [],
+  "declared_stochastic_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "deterministic_runs_each": 1,
+  "model_parameter_threshold_or_score_changes": false,
+  "fit_calls": 0,
+  "automatic_retries": false,
+  "actual_failed_final_attempts": [],
+  "final_source_rows": [
+    864003,
+    1762650
+  ],
+  "raw_rows": 898647,
+  "eligible_rows_per_method": 897119,
+  "warmup_exclusions": 1528,
+  "mixed_positive_rows": 345602,
+  "mixed_zero_rows": 337044,
+  "mixed_positive_prevalence": 0.5062682561679114,
+  "run_matrix": [
+    {
+      "method": "O-R",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 13.985559778490424,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-R.scores.f64",
+        "sha256": "06f6394da751bf149fef0df2aecca2f80778128e208f1f27e4a970070a180894",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-R.metrics.json",
+        "sha256": "4ddafb6fe4ca622c06328ac7bb3e78b39f290adbc94a4a435b86f77dc204869f",
+        "bytes": 11879
+      }
+    },
+    {
+      "method": "O-RC",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 16.463814217165016,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-RC.scores.f64",
+        "sha256": "c74e8e7fbf9b015a061d31ff71fb562bb4b9eb0d14325deabca9b2c9bdaa3ebc",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-RC.metrics.json",
+        "sha256": "9ec8f402f78afda349ffb9d77fe12f32b4a3c19094a05dc4d7da271a7ced0d73",
+        "bytes": 11866
+      }
+    },
+    {
+      "method": "O-C",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 0.015377372026598208,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-C.scores.f64",
+        "sha256": "da4b655accc56d43f8e4265eb0116040a9e0690f57dcf6d6f7500aa3da176881",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-C.metrics.json",
+        "sha256": "6fc6703b14fd353b49f8d667e6370f112df371f28baa63582ae730114bebc9a8",
+        "bytes": 11896
+      }
+    },
+    {
+      "method": "O-K",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 0.05635036542503125,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-K.scores.f64",
+        "sha256": "7682b2fe863d2f14a1f92859266561b8b62c754cda91e680e36889bf8c71dd42",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-K.metrics.json",
+        "sha256": "a4e8c903e2d7c9cd79b77ac64d14a07465f544ac5a8bd3728df95b6bb9dc6dd0",
+        "bytes": 11899
+      }
+    },
+    {
+      "method": "O-L",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 7.215389156567541,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-L.scores.f64",
+        "sha256": "c15dfa62e2b7694aaa8fe1abead62b2c3d6429dff71d44810d67a82102905c1e",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-L.metrics.json",
+        "sha256": "7e108c1912ac602d4c4c20f1ca8e31a0e12b0d5952b7a94fd92532bfd3d26c0a",
+        "bytes": 11881
+      }
+    },
+    {
+      "method": "O-Rv",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 9.30218041641827,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-Rv.scores.f64",
+        "sha256": "81b3ffd95aee991dbd948d77330e9885f0bfae582716bdc2b8531f6ca0333f0a",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-Rv.metrics.json",
+        "sha256": "96e5f729b26dba0a2ac9a8d0513c7b681d597e4032a32d85500ee08c48e201eb",
+        "bytes": 11877
+      }
+    },
+    {
+      "method": "O-Follow",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 14.83928194200882,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-Follow.scores.f64",
+        "sha256": "1c94a11d39e7a026ec04eea175d6d1850b39a43a5e4b4fccf95074670242576d",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-Follow.metrics.json",
+        "sha256": "697fedfd5399aa3930646d3cd3127d9ae8c03a713a92f14a8cb921f063a99d61",
+        "bytes": 11879
+      }
+    },
+    {
+      "method": "O-Free",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 23.009252694772172,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/O-Free.scores.f64",
+        "sha256": "71d4491e2de0d2376fb58128ca822be670e3e28100c78718608f50c251d9259c",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/O-Free.metrics.json",
+        "sha256": "65d4e8acb8969160add05307140e9987101dedc4dca6f03db188523043e7e803",
+        "bytes": 11852
+      }
+    },
+    {
+      "method": "V-Z",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 6.570120518167795,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/V-Z.scores.f64",
+        "sha256": "233ce8b3d21258314e1125ba6e2633dcf207c3912a99d2694f2c191b27eb6f7d",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/V-Z.metrics.json",
+        "sha256": "bd75b0b67429922ae851eb3ec2771077422328bb5973eb8a2573102577449e35",
+        "bytes": 11851
+      }
+    },
+    {
+      "method": "T-32",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 4.9056682511855545,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/T-32.scores.f64",
+        "sha256": "5ec7b4d2385ee8d90668ad2314999dc271faf2660402e88387ec4fe2a8a90f2a",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/T-32.metrics.json",
+        "sha256": "358d5e3e80174c590e585459fb0ab65664801a11d0759a2168f3cd474923187e",
+        "bytes": 11909
+      }
+    },
+    {
+      "method": "AR-4",
+      "seed": null,
+      "replicate": 1,
+      "score_status": "accepted",
+      "evaluation_status": "accepted",
+      "eligible_scores": 897119,
+      "threshold": 0.03677493527896336,
+      "score_artifact": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/AR-4.scores.f64",
+        "sha256": "412ce55e0f01fbe0092cf04076ab487331301cfea5092fa9f2318d65e0a27f44",
+        "bytes": 7176952
+      },
+      "metrics_artifact": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/AR-4.metrics.json",
+        "sha256": "617e98619e03a4c9e6a2aff879c135e9f45397719ee6dc370e1b62c7e5ec9a3e",
+        "bytes": 11939
+      }
+    }
+  ],
+  "score_seal": {
+    "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/score_seal.json",
+    "sha256": "d2552a93d34f2329bd8afc7314cfcdbe160c793ef878640896fc6daae4f4b07f",
+    "bytes": 2806
+  },
+  "coordinates": {
+    "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/index.jsonl",
+    "sha256": "b8c5f52fb392d2467ed06a7b2ba5e64b3852272196ca5f4d80702944e36738a9",
+    "bytes": 28262773
+  },
+  "resource_receipts": {
+    "score-final": {
+      "run": {
+        "path": "experiments/runs/campaign_v0.1_score-final_2026-10-17T062117.703085_0000/run.json",
+        "sha256": "d201971ea12f472ff38feabbe41a53efcc89aca0046c9bf3388a5ebeeebab521",
+        "bytes": 6438
+      },
+      "wall_seconds": 270.88994858402293,
+      "peak_rss_bytes": 150142976,
+      "process_cpu_seconds": 270.51961800000004,
+      "ru_maxrss_native_unit": "bytes",
+      "source": "getrusage(RUSAGE_SELF)",
+      "system_cpu_seconds": 1.570331,
+      "user_cpu_seconds": 268.949287,
+      "total_output_bytes": 107287438,
+      "limits": {
+        "cpu_seconds": 600,
+        "output_bytes": 268435456,
+        "poll_seconds": 0.25,
+        "rss_bytes": 1073741824,
+        "wall_seconds": 900
+      }
+    },
+    "evaluate-final": {
+      "run": {
+        "path": "experiments/runs/campaign_v0.1_evaluate-final_2026-10-17T062627.210253_0000/run.json",
+        "sha256": "cfac9bc0b58223a554c2bbf170eefa6a0da1f7ffb75f82e56600280f623c251f",
+        "bytes": 6215
+      },
+      "wall_seconds": 44.77823412499856,
+      "peak_rss_bytes": 946339840,
+      "process_cpu_seconds": 44.659981,
+      "ru_maxrss_native_unit": "bytes",
+      "source": "getrusage(RUSAGE_SELF)",
+      "system_cpu_seconds": 0.96465,
+      "user_cpu_seconds": 43.695331,
+      "total_output_bytes": 197221,
+      "limits": {
+        "cpu_seconds": 1200,
+        "output_bytes": 268435456,
+        "poll_seconds": 0.25,
+        "rss_bytes": 1073741824,
+        "wall_seconds": 1800
+      }
+    }
+  },
+  "frozen_source_files_verified": 52,
+  "frozen_input_bindings_verified": 133,
+  "audit": {
+    "receipt": {
+      "path": "local/final_campaign_v0.1/review/saved_results_audit.json",
+      "sha256": "d9c7185672577d860562245d9917bccc4367daa12beafb8aff238a768839bf53",
+      "bytes": 2578400
+    },
+    "supervisor": {
+      "path": "local/final_campaign_v0.1/review/audit_supervisor_receipt.json",
+      "sha256": "8beaa61f9691e29c67b2c5229f15bd369ff7e5eba5e1a61706fc38cb1e489c59",
+      "bytes": 2272
+    },
+    "passed": true,
+    "assertions_including_per_coordinate_checks": 2699097,
+    "synthetic_arithmetic_selfchecks": 7,
+    "raw_source_opened": false,
+    "model_replayed": false,
+    "independent_acquisition_or_external_peer_review": false
+  },
+  "exports": {
+    "all_methods": {
+      "path": "experiments/FINAL_CAMPAIGN_V0.1_METRICS.csv",
+      "sha256": "b1369b7c114422fe0e9571877784e4e3d921ae04063ebe0c7b3e7736b19b76b8",
+      "bytes": 4333
+    },
+    "all_88_event_outcomes": {
+      "path": "experiments/FINAL_CAMPAIGN_V0.1_EVENTS.csv",
+      "sha256": "5531f6b2cc1830690e5af13a5a838bcdcaabd0b67f60100aeb424efc87772c36",
+      "bytes": 8307
+    },
+    "all_88_recovery_slices": {
+      "path": "experiments/FINAL_CAMPAIGN_V0.1_RECOVERY.csv",
+      "sha256": "f680ff376a3b0abba7aa56651b171944c75a416d36435c7c2d270111fc69c995",
+      "bytes": 10984
+    }
+  },
+  "paired_effect": {
+    "contrast": "O-RC minus O-R",
+    "eligible_coverage_difference": 0.0,
+    "interpretation": "Joint descriptive effects; no composite winner or independent-acquisition inference",
+    "mixed_F1_difference": 0.000689011209901752,
+    "normal_episodes_per_hour_difference": -3.3570815770823117,
+    "normal_point_exceedance_difference": -0.00012588997216432876,
+    "seed": null
+  },
+  "paired_event_delay_changes": [
+    {
+      "event": 1,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "0.000"
+    },
+    {
+      "event": 2,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "0.000"
+    },
+    {
+      "event": 3,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "0.000"
+    },
+    {
+      "event": 4,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "0.000"
+    },
+    {
+      "event": 5,
+      "residual_hit": false,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": null
+    },
+    {
+      "event": 6,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "2.05000000000"
+    },
+    {
+      "event": 7,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "0.05000000003"
+    },
+    {
+      "event": 8,
+      "residual_hit": true,
+      "correction_hit": true,
+      "fresh_delay_difference_seconds": "0E-11"
+    }
+  ],
+  "per_method_cost_available": false,
+  "per_record_latency_quantiles_available": false,
+  "timing_scope": "Measured joint whole-worker cost, including source checks, IO, score processing/output and terminal work; not isolated inference or physical detection latency.",
+  "interpretation": "Small descriptive correction-score gain; weak absolute detection and substantial alarm episode burden; no demonstrated general or practically strong digital-twin detector.",
+  "holdout_now_exposed": true,
+  "future_outcome_driven_redesign": "Exploratory; new confirmatory claim requires independent suitable evidence. Exact repeated execution is not an independent experiment."
+}

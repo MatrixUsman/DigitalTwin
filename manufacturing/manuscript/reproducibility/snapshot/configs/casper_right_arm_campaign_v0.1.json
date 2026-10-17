@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "id": "manufacturing-casper-frozen-campaign-v0.1",
+  "methods": [
+    "O-R",
+    "O-RC",
+    "O-C",
+    "O-K",
+    "O-L",
+    "O-Rv",
+    "O-Follow",
+    "O-Free",
+    "V-Z",
+    "T-32",
+    "AR-4"
+  ],
+  "roster": [
+    {
+      "method": "O-R",
+      "formula": "R/a; R = mean squared 12-channel standardized residual against synchronized prior prediction",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "synchronized"
+    },
+    {
+      "method": "O-RC",
+      "formula": "R/a + C/b; C = JS(posterior, prior); same synchronized state and prediction as O-R",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "synchronized"
+    },
+    {
+      "method": "O-C",
+      "formula": "C = JS(posterior, prior), raw natural-log divergence; no further scaling",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "synchronized"
+    },
+    {
+      "method": "O-K",
+      "formula": "KL(synchronized posterior || prior), natural logs, zero posterior terms contribute zero",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "synchronized"
+    },
+    {
+      "method": "O-L",
+      "formula": "-log(sum_k prior_k * exp(-D_k/(2*tau))); stable mixture energy, D_k = mean 12-channel squared distance; not a normalized physical likelihood",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "synchronized"
+    },
+    {
+      "method": "O-Rv",
+      "formula": "Mean squared standardized velocity-only residual against same full synchronized observer prior; no new velocity-only observer",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "synchronized"
+    },
+    {
+      "method": "O-Follow",
+      "formula": "R_unconstrained/a; likelihood-only posterior after common warmup; prior prediction still causal",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "unconstrained"
+    },
+    {
+      "method": "O-Free",
+      "formula": "R_free/a; no measurement correction after common warmup; same nominal propagation/mixing, diffusion caveat",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "observer",
+      "observer_mode": "free_running"
+    },
+    {
+      "method": "V-Z",
+      "formula": "max_j abs((qdot_j - training_mean_j)/training_population_sigma_j)",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "velocity",
+      "observer_mode": null
+    },
+    {
+      "method": "T-32",
+      "formula": "Mean 12-channel standardized squared error to fixed 32-bin template; warmup chooses phase offset then nominal clock only",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "template",
+      "observer_mode": null
+    },
+    {
+      "method": "AR-4",
+      "formula": "Mean 12-channel standardized squared one-step error, separate AR(4) per channel, ridge .001",
+      "seed": null,
+      "stochastic": false,
+      "runs": 1,
+      "artifact_key": "ar",
+      "observer_mode": null
+    }
+  ],
+  "primary_contrast": "O-RC minus O-R; both retain nominal progression; only correction-score term removed",
+  "historical_terminology_correction": "The old evaluation policy says progression-aware/omitted. Later observer/scope decisions replaced that with same-state residual versus residual-plus-correction. No claim of removing progression from O-R.",
+  "stochastic_seeds_if_a_later_version_admits_stochastic_methods": [
+    17,
+    42,
+    2026
+  ],
+  "implementation_designation": "Independent deterministic controls and empirical observer, not faithful reproductions of CASPER/TWINE/CatBoost, and not validated physical twin",
+  "normal_selection": {
+    "candidate_grid": "velocity singleton; template bins 32/64; AR orders 1/4 x ridge .001/.1; seven deterministic candidates",
+    "objective": "template and AR separately minimize normal-development mean standardized prediction MSE; stable declared candidate order breaks exact ties",
+    "checkpoints": "Closed-form/train-only references; no epoch checkpoints, no train+development refit",
+    "observer": "Reuse selected 32-bin training template, period 38 s. Mixing .02 fixed. tau=max(train mean nearest-template distance,1e-8). a and b from train-only mean residual and JS. No tau/mixing/score-weight search.",
+    "extension": "Four explanatory scores prescribed by prior-art review before calibration, no new fitting/selection",
+    "failure_policy": "Every original candidate, success/failure, and selected artifact remains in source study records"
+  },
+  "preprocessing": "Training-only Welford population moments; q then qdot; no clipping, imputation, resampling or lookahead. Constant/nonfinite channels fail. Frozen scaler shared by template/AR/observer; V-Z uses velocity moments.",
+  "initialization": "Each partition starts fresh. Common 1528 preceding observations; resets only dt<=0 or >.075s. Observer uniform prior at start/break. Template minimizes cumulative warmup phase-offset loss then fixes offset. AR warmup fills four past samples. No reset at final report or event boundaries.",
+  "adaptation": "State correction only; no fitted parameter, residual-normalizer or threshold updates",
+  "calibration": {
+    "partition": "normal_calibration",
+    "count": 160473,
+    "rank": 158869,
+    "quantile": "99/100 nearest rank",
+    "alarm": "score > threshold"
+  },
+  "calibration_choices_forbidden": [
+    "model",
+    "seed",
+    "fusion",
+    "percentile",
+    "checkpoint",
+    "persistence",
+    "cooldown"
+  ],
+  "reporting": "All eleven deterministic methods, complete masks, unadjusted mixed confusion/P/R/F1/AP, held-out-normal point and episode burden/exposure, all eight event outcomes with misses and censored delays, every zero recovery interval, coverage and actual compute; no posthoc composite winner, confidence interval or significance claim",
+  "phase_budgets": {
+    "calibrate": {
+      "wall_seconds": 600,
+      "cpu_seconds": 300,
+      "rss_bytes": 1073741824,
+      "output_bytes": 52428800,
+      "poll_seconds": 0.25
+    },
+    "score-final": {
+      "wall_seconds": 900,
+      "cpu_seconds": 600,
+      "rss_bytes": 1073741824,
+      "output_bytes": 268435456,
+      "poll_seconds": 0.25
+    },
+    "evaluate-final": {
+      "wall_seconds": 1800,
+      "cpu_seconds": 1200,
+      "rss_bytes": 1073741824,
+      "output_bytes": 268435456,
+      "poll_seconds": 0.25
+    }
+  },
+  "authorization_this_step": [
+    "freeze",
+    "synthetic tests",
+    "calibrate",
+    "prepare-final",
+    "check-final"
+  ],
+  "final_execution_this_step": false,
+  "automatic_retries": false,
+  "full_final_source_open_in_preflight": false,
+  "delayed_join": "Final feature scoring never interprets labels. All eleven streams and coordinates must seal, supervisor succeed, manifests/hashes validate, then separate evaluate-final may open labels.",
+  "protection": "Procedural interfaces and logical append-only access/attempt records; no OS blinding or independent custodian",
+  "documentation": "docs/CAMPAIGN_FREEZE_AND_CALIBRATION_PLAN_V0.1.md"
+}

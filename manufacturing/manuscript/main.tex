@@ -1,0 +1,40 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\setlength{\emergencystretch}{2em}
+\newcommand{\method}[1]{\textsf{#1}}
+\newcommand{\pending}[1]{\textcolor{red!65!black}{[Author confirmation pending: #1]}}
+\input{generated/values}
+\title{Correction Evidence in Robotic Motion Monitoring:\\A Controlled CASPER Study}
+\author{Muhammad Usman \and Haiqa Mushtaq}
+\date{Working draft --- 17 October 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Draft status.} Author names follow the order supplied for this project. Affiliations, contribution roles, funding, conflicts and approval by both authors remain unconfirmed. This local draft has not been submitted, externally reviewed or PDF-validated.
+\input{sections/abstract}
+\noindent\textbf{Keywords:} robotic motion monitoring; anomaly detection; phase observer; correction evidence; CASPER; evaluation methodology.
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/problem_data}
+\input{sections/methods}
+\input{sections/evaluation}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+\input{sections/declarations}
+\clearpage
+\appendix
+\input{sections/appendix}
+\clearpage
+\input{generated/references}
+\end{document}

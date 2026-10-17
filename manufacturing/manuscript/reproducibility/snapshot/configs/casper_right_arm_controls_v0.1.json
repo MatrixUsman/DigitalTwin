@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "study_id": "manufacturing-casper-right-arm-controls-v0.1",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "date": "2026-10-17",
+  "date_timezone": "Asia/Karachi",
+  "status": "declared_before_real_fitting",
+  "authorization": "User explicitly requested tested simple controls fitted using normal-only selection and selected artifacts for later calibration; no calibration/final execution",
+  "documentation": "docs/SIMPLE_CONTROLS_PLAN.md",
+  "data_contract": {
+    "path": "configs/casper_right_arm_contract_v0.1.json",
+    "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25"
+  },
+  "evaluation_policy": {
+    "path": "configs/casper_right_arm_evaluation_v0.1.json",
+    "sha256": "f7cc91ce98701bfe02725e57684db6850ee15696f22de6507328abb9ba9041f0"
+  },
+  "dataset": {
+    "source_file": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+    "source_sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+    "source_bytes": 1978193094,
+    "provider_version": 3,
+    "index_convention": "zero-based data rows excluding header; half-open ranges",
+    "other_members_allowed": false
+  },
+  "access": {
+    "fit": {
+      "parent_partition": "training",
+      "rows_half_open": [
+        0,
+        540002
+      ],
+      "raw_rows": 540002,
+      "eligible_intervals_half_open": [
+        [
+          1528,
+          16571
+        ],
+        [
+          18099,
+          540002
+        ]
+      ],
+      "expected_eligible_rows": 536946
+    },
+    "check_scores": {
+      "parent_partition": "development",
+      "rows_half_open": [
+        540002,
+        702002
+      ],
+      "raw_rows": 162000,
+      "eligible_intervals_half_open": [
+        [
+          541530,
+          702002
+        ]
+      ],
+      "expected_eligible_rows": 160472
+    },
+    "calibration_access": false,
+    "protected_final_access": false,
+    "labels_available_to_model": false,
+    "raw_row_read_stop_exclusive": 702002,
+    "sequential_positioning_prefix_traversal": "allowed for record positioning only; do not fit, retain or report skipped feature values; count traversal separately",
+    "consume_record_at_stop": false,
+    "automatic_subset_expansion": false,
+    "whole_source_integrity_hash_allowed": true,
+    "whole_source_hash_purpose": "byte identity only; no protected feature parsing or statistics"
+  },
+  "continuity": {
+    "common_warmup_preceding_observations": 1528,
+    "gap_rule": "delta_seconds <= 0 or delta_seconds > 0.075",
+    "expected_fit_gap_restart_rows": [
+      16571
+    ],
+    "separate_development_initialization": true,
+    "unexpected_gap_invalid_input_or_support": "stop_with_diagnostic_no_mask_revision",
+    "imputation": false
+  },
+  "models": {
+    "velocity": {
+      "id": "velocity_zmax"
+    },
+    "ar": {
+      "orders": [
+        1,
+        4
+      ],
+      "ridges": [
+        0.001,
+        0.1
+      ],
+      "intercept_penalized": false,
+      "ridge_scaling": "mean_squared_loss_plus_lambda_sum_squared_slopes"
+    },
+    "template": {
+      "bins": [
+        32,
+        64
+      ],
+      "initialization": 1528,
+      "period_estimation": {
+        "stride": 20,
+        "min_lag": 2,
+        "max_lag": 120,
+        "max_observations": 20000,
+        "eligible_only": true,
+        "min_sample_multiplier": 4,
+        "first_continuous_segment_only": true,
+        "period_seconds": "mean_actual_relative_time_difference_at_selected_lag",
+        "local_minimum_rule": "compute_lags_1_through_121; candidates_2_through_120_not_greater_than_either_neighbor_and_strictly_less_than_at_least_one",
+        "selection_rule": "minimum_lag_difference_MSE_then_smaller_lag",
+        "insufficient_samples_or_no_minimum": "fail_no_fallback"
+      },
+      "phase_bins": "piecewise_constant_floor_modulo_period; no_interpolation",
+      "warmup_alignment": "argmin_total_standardized_12_channel_SSE_over_1528_past_warmup_observations_then_smallest_integer_bin_offset",
+      "training_alignment": "bootstrap_from_first_continuous_eligible_prefix_then_align_each_training_segment_before_fitting_final_bins",
+      "unoccupied_bin": "fail_no_interpolation_or_fallback",
+      "post_warmup_phase": "frozen_bin_offset_plus_cumulative_native_dt; no_measurement_correction"
+    }
+  },
+  "candidate_order": [
+    "velocity_zmax",
+    "template_bins32",
+    "template_bins64",
+    "ar_p1_ridge0.001",
+    "ar_p1_ridge0.1",
+    "ar_p4_ridge0.001",
+    "ar_p4_ridge0.1"
+  ],
+  "selection": {
+    "method": "within_family_minimum_normal_development_prediction_MSE",
+    "objective": "mean_12_train_standardized_squared_prediction_residual_over_all_160472_eligible_development_endpoints",
+    "families": [
+      "velocity",
+      "template",
+      "ar"
+    ],
+    "velocity": "singleton_no_configuration_search_mean_score_diagnostic_only",
+    "tie_break": "exact_equal_objective_then_declared_candidate_order",
+    "normal_transforms_fit": "all_and_only_536946_eligible_training_endpoints",
+    "training_targets": "common_eligible_endpoints_warmup_may_initialize_past_state",
+    "all_candidates_required": true,
+    "candidate_failure": "record_failure_no_silent_drop_or_replacement_no_complete_study_admission",
+    "stochastic": false,
+    "seed": null,
+    "declared_attempts": 1,
+    "automatic_retry": false,
+    "refit_on_development": false,
+    "threshold_computed": false,
+    "normal_development_loss_is_attack_performance": false
+  },
+  "resource_limits": {
+    "status": "must_be_enforced_and_measured_by_tested_supervisor_for_this_separate_study",
+    "device": "cpu",
+    "worker_processes": 1,
+    "computation_threads": 1,
+    "wall_timeout_seconds": 600,
+    "worker_cpu_limit_seconds": 300,
+    "monitored_RSS_abort_bytes": 1073741824,
+    "RSS_poll_interval_seconds_maximum": 1,
+    "instantaneous_RSS_ceiling_guaranteed": false,
+    "output_limit_bytes": 52428800,
+    "network_allowed": false,
+    "GPU_or_MPS_allowed": false,
+    "concurrent_experiment_allowed": false,
+    "limits_auto_extend": false,
+    "requires_tested_supervisor_before_execution": true
+  },
+  "forbidden_outputs": [
+    "calibrated_threshold",
+    "attack_precision_recall_F1_or_AP",
+    "event_detection_or_delay",
+    "final_normal_alarm_burden",
+    "benchmark_superiority_or_twin_claim"
+  ],
+  "artifacts": {
+    "fit_references": "immutable_JSON_per_candidate",
+    "development_scores": "aligned_float64_per_candidate_with_shared_coordinates_local_only",
+    "selected_models": "three_references_with_input_code_config_and_artifact_hashes",
+    "all_candidates_and_failures": "retain",
+    "final_test_freeze": "unchanged_pending",
+    "old_pilot_v0.1": "preserve_no_replay"
+  },
+  "execution": {
+    "working_directory": "manufacturing",
+    "entry_command": ".venv/bin/python scripts/run_control_study.py --execute --test-receipt <new_matching_receipt>",
+    "dependencies": "Python standard library only",
+    "one_worker": true,
+    "no_network": true,
+    "runtime_fields": "record_actual_values_in_run_manifest_not_here"
+  },
+  "limitations": [
+    "one_robot_recording_and_one_task",
+    "fixed_template_period_may_be_harmonic_or_subharmonic",
+    "normal_development_MSE_does_not_establish_attack_sensitivity",
+    "controls_are_not_digital_twins_or_paper_reproductions",
+    "no_CNN_in_this_first_essential_control_suite"
+  ],
+  "documentation_sha256": "4830a4297ff31f753c84f8dc1c5dfe1f91d3b26f3cda85fc0378ec5d706cd59e"
+}

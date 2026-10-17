@@ -1,0 +1,15 @@
+{
+  "kind": "synthetic_software_validation_not_benchmark",
+  "success": true,
+  "tests_run": 324,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "duration_seconds": 5.888506292016245,
+  "source_count": 52,
+  "receipt_path": "local/software_validation/20261017T061203_982829Z/receipt.json",
+  "receipt_sha256": "43608d58d75251dc2be31991100143059787fe1ff43a0216d8096b122d57aa8c",
+  "raw_dataset_opened": false,
+  "trained_models": false,
+  "coverage": "Existing 295 tests plus 29 synthetic campaign cases; threshold arithmetic, complete alignment, causal API parity, label separation, failure/admission and one-attempt behavior."
+}

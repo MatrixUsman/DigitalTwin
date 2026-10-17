@@ -1,0 +1,18 @@
+\section{Problem, threat model and data}
+\label{sec:data}
+% claim: D01
+\subsection{Observation and trust boundary}
+At observation index $t$, the monitor receives six actual joint positions $q_t$, six actual joint velocities $\dot q_t$, and elapsed native time $\Delta t$. Positions and velocities are interpreted in radians and radians per second, respectively, following the audited controller-field mapping. The model cannot use labels, source-row identifiers, absolute clock values, commanded targets, safety status, current, torque, other-arm channels, network traffic or external IMU measurements. Source coordinates remain available to the evaluator for alignment. The velocity control intentionally uses only the six-velocity subset of the shared information budget.
+
+% claim: D02
+The restricted adversary alters the command/application path governing motion speed while the monitoring telemetry and its clock remain truthful. The dataset does not establish authenticated telemetry or resistance to compromised controller firmware. The study asks whether scheduled speed interventions produce detectable deviations under this assumption. It does not identify the adversary's entry point, infer malicious intent, distinguish faults from authorized changes, or demonstrate mitigation. If authorized and unauthorized actions produce identical permitted observation histories, a detector using only those histories cannot distinguish them. That is an input-identifiability limit, not an empirical failure rate estimated here.
+
+% claim: D03
+\subsection{Release identity and annotation meaning}
+We use the original CASPER provider collection, version 3, rather than the separate later ``CASPER 1 \& 2'' listing~\cite{casperdata}. The selected original file is \texttt{dataset/right\_arm.csv}, containing 1,762,650 data rows. Its byte size is 1,978,193,094 and its SHA-256 identity is given in Appendix~\ref{app:identity}. The file was retained unchanged. Our right-arm route is distinct from the externally sensed detection experiment described in the CASPER paper~\cite{casper2024}.
+
+% claim: D04
+Local schema and annotation audits established twelve selected joint-state channels, native controller timing and eight contiguous positive flag intervals. The flags describe a scheduled intervention program. They are not independently measured physical-impact onsets, and a zero flag after an intervention is not proof of complete physical recovery. Matched capture-source inspection indicates that the same flag was written to both arm logs while the right-arm speed changed; the left arm therefore does not supply a second independent attacked robot. Cross-device synchronization with the IMU or packet trace was not established and is unnecessary for this single-stream analysis.
+
+% claim: D05
+This is one repetitive pick-and-place acquisition. The eight scheduled intervals, millions of samples and repeated motion cycles are dependent observations from that acquisition. The dataset provides no independent labels for legitimate changeovers, attack intent or corresponding mechanical faults within our admitted track. We retain these limitations when interpreting every detection count. No other dataset or synthetic attack was added to the final comparison.

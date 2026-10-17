@@ -1,0 +1,45 @@
+\section{Evaluation design and execution}
+\label{sec:evaluation}
+% claim: E01
+\subsection{Chronological partitions and common support}
+Table~\ref{tab:splits} defines zero-based data rows excluding the header, with half-open ranges. Splitting precedes history construction. A new segment begins when $\Delta t\leq0$ or $\Delta t>0.075$ seconds. Each partition starts independently, except that final normal and mixed slices are two reporting regions of one continuous replay. Every method excludes the same first 1,528 observations after a segment start; no method-specific denominator is trimmed. Training contains a restart at row 16,571. Final replay contains one initial warmup and no later resets.
+
+\begin{table}[htbp]\centering\small
+\caption{Frozen populations. The mixed slice continues the final-normal state.}\label{tab:splits}
+\begin{tabular}{lrrr}\toprule
+Purpose & Raw rows $[a,b)$ & Raw count & Eligible count\\\midrule
+Training & $[0,540002)$ & 540,002 & 536,946\\
+Normal development & $[540002,702002)$ & 162,000 & 160,472\\
+Normal calibration & $[702002,864003)$ & 162,001 & 160,473\\
+Protected normal & $[864003,1080004)$ & 216,001 & 214,473\\
+Protected mixed & $[1080004,1762650)$ & 682,646 & 682,646\\\bottomrule
+\end{tabular}\end{table}
+
+% claim: E02
+\subsection{Selection, freezing and threshold calibration}
+Seven ordinary candidates were declared: one velocity control, two templates with 32/64 bins, and four autoregressions crossing orders 1/4 with ridge values 0.001/0.1. Template and autoregression selection separately minimized normal-development prediction mean squared error (MSE), with declared candidate order resolving ties. No cross-family winner was selected. The 32-bin template and order-4, ridge-0.001 autoregression were retained without refitting on development. The observer reused the selected template and the same normal development for internal checks; this reuse is disclosed rather than described as independent validation. Its mixing rate and scoring definitions had no outcome-driven sweep.
+
+% claim: E03
+The complete eleven-method roster, fitted artifacts, transformations, initialization, formulas, budgets and reporting rules were locally frozen before calibration. These records are prospective experiment records, not an externally registered study or independently blinded protocol. Each method then received the same 160,473 eligible normal-calibration scores. For ascending scores $s_{(i)}$, the fixed operating point is
+\begin{equation}
+ \theta=s_{(158869)},\qquad A_t=\mathbf 1[S_t>\theta],
+ \label{eq:threshold}
+\end{equation}
+where $158869=\lceil0.99\times160473\rceil$. Strict exceedance handles ties. Calibration sets thresholds only; it cannot choose a model, seed, combination, percentile, persistence rule or checkpoint. This empirical quantile does not guarantee a future 1\% false-alarm rate.
+
+% claim: E04
+\subsection{Outcome definitions}
+The mixed population contains 345,602 schedule-positive and 337,044 schedule-zero observations. Unadjusted precision, recall and F1 use the ordinary TP/FP/FN/TN counts. Average precision (AP) groups equal scores, evaluates precision after each whole tie group enters, and sums precision times recall increments. There is no point adjustment or test-optimized threshold. Undefined quantities are retained as undefined rather than replaced by a favorable number. Mixed prevalence is reported because it affects precision and the constant-score AP reference.
+
+% claim: E05
+Protected-normal burden comprises the fraction of eligible points alarmed and the number of contiguous alarm episodes per eligible native-time hour. Exposure sums adjacent eligible timestamp differences within a continuous segment; it does not substitute a nominal sample count for elapsed time. Episodes crossing report boundaries or warmup are explicitly classified. Schedule-zero mixed intervals are reported separately from the held-out normal population and are not assumed to be certified recovery.
+
+% claim: E06
+An event-overlap hit requires an alarm on at least one eligible positive point. A fresh onset requires the start of a new alarm episode within the interval; an alarm already active at the boundary can overlap without being fresh. Delay is measured from the recorded flag onset to the first qualifying alarm. Misses retain null delays and remain in the eight-event denominator. Detected-only summaries explicitly state the number detected. No attack boundary initializes phase or changes a score, threshold or state. There is no cooldown or persistence filter.
+
+% claim: E07
+\subsection{Protected execution and integrity checks}
+All eleven methods are deterministic and ran once, with no stochastic seed. The policy seeds 17, 42 and 2026 were reserved for stochastic methods; none was admitted. Final feature replay saved all aligned scores and hashes without parsing labels. The delayed evaluator was admitted only after the complete score seal and accepted resource-supervisor receipt. Joint outcomes were inspected after every evaluation completed. One scoring attempt and one evaluation attempt succeeded; there were no failed final attempts or retries.
+
+% claim: E08
+The implementation was covered by 324 synthetic software tests. The same 52 source/configuration identities and 133 frozen input bindings remained unchanged during the campaign. A separate saved-result audit recomputed metric, episode, event and recovery arithmetic, with seven hand-checkable synthetic examples preceding it. Its millions of coordinate assertions are software checks, not independent experiments. It did not reopen raw observations or replay a detector. Original-label verification belonged to the evaluator; the supplemental arithmetic audit reconstructed labels from the frozen schedule and was not independent reannotation.

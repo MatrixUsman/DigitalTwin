@@ -12,7 +12,7 @@ This is the main lifecycle roadmap for this paper. Use [STATUS.md](../STATUS.md)
 
 ## Where we actually are
 
-We have an audited dataset, selected feasibility question, frozen evaluation protocol, **324 passing synthetic tests**, preserved pilot/control/observer/score-extension studies, an actual eleven-method model freeze and completed normal calibration. The [freeze/calibration report](CAMPAIGN_FREEZE_AND_CALIBRATION_REPORT_V0.1.md) records every fitted artifact, threshold and run. Final admission passes without opening raw observations. We have **not reproduced a paper baseline or measured final attack-detection performance**. Observer limitations, strong AR and single-acquisition scope remain unchanged.
+We have an audited dataset, selected feasibility question, frozen evaluation protocol, **324 passing synthetic tests**, preserved normal-only studies, an actual eleven-method model freeze/calibration and a **completed protected final campaign and joint analysis**. The [final report](FINAL_CAMPAIGN_REPORT_V0.1.md) records every method, all eight event outcomes, false alarms, coverage, resources and the saved-result audit. The correction-score gain is small; absolute detection is poor and ordinary controls match or exceed several outcomes. No paper baseline has been reproduced or general digital-twin benefit established. The holdout is exposed.
 
 Working title: **“Correction Evidence in Robotic Motion Monitoring: A CASPER Case Study.”** It remains provisional and follows the [scope decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md). The question is:
 
@@ -29,17 +29,17 @@ The scope is one right-arm pick-and-place recording, with truthful telemetry/tim
 | 2. Literature and comparator admission | Decisions recorded; implementation gates remain | Two original learning manuscripts available/AI-audited; [explicit designations](COMPARATOR_ADMISSION.md); no admitted three-paper ranking |
 | 3. Data identity and suitability | Completed audit, with scientific limitations | Original CASPER v3 received; hashes/schema/labels/clocks recorded |
 | 4. Research question and threat model | Selected for feasibility | Novelty and twin usefulness unproved |
-| 5. Evaluation rules | Defined and bound to actual artifacts | Model selection and calibration complete; final execution not run |
+| 5. Evaluation rules | Defined and executed without scientific changes | Model selection/calibration, continuous final replay and delayed joint evaluation complete |
 | 6. Loader and metric foundation | Implemented and tested | Expanded 324-test suite; loader exercised on complete training/development as well as the earlier pilot prefixes |
 | 7. First control and bounded runner | Implemented and tested | Welford velocity control, supervision, access/provenance and failure checks |
 | 8. Real-data feasibility pilot | Completed, one accepted attempt | 46,944 fitted / 18,472 scored; immutable reference; 8.626 s supervised wall, 27.94 MiB peak RSS |
 | 9. Full normal-only controls | Completed for essential controls | Seven candidates; selected velocity, 32-bin template and AR(4) ridge 0.001; CNN deferred |
 | 10. Observer and matched ablations | Completed within empirical-observer scope | 7/7 normal checks; prospective prediction/synchronization and uncertainty evaluated; physical-twin claim unsupported |
-| 11. Contribution and evidence scope | Design decision complete; empirical contribution unproved | Narrow single-acquisition score audit; prior-art overlap, eleven-variant design and independent-source needs recorded |
+| 11. Contribution and evidence scope | Scope decision and narrow empirical analysis complete | Small correction-score effect, poor detection; novelty and broader generalization unsupported |
 | 12. Model-selection freeze | Completed before calibration | Eleven deterministic methods, four fitted references, 52 tested source/configuration identities, 133 saved input bindings and complete run matrix |
 | 13. Calibration and final-release preparation | Completed | Eleven valid thresholds from 160,473 endpoints/rank 158,869; sealed scores, access/failure records, tested delayed join and actual final freeze |
-| 14. Protected final campaign | Not run | No final scores or outcomes |
-| 15. Analysis and interpretation | Normal-only feasibility interpreted; final analysis pending | Observer limitations and strong simple predictors recorded; no attack outcomes |
+| 14. Protected final campaign | Completed once | 11/11 methods, 897,119 scores each; scoring/evaluation accepted, zero failures; fixed models/thresholds and continuous state |
+| 15. Analysis and interpretation | Completed for the declared case study | All methods, 88 event and 88 recovery outcomes, false alarms/coverage and cost limits audited; weak/mixed findings preserved |
 | 16. Manuscript and reproducibility package | Not completed | Existing notes are source material, not a finished paper |
 | 17. Venue review and submission | Not started | No selected journal, approved submission or acceptance |
 | 18. Peer review and publication | Future, outcome uncertain | Depends on submission and editorial decisions |
@@ -206,7 +206,7 @@ The [contribution decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [comparison des
 
 **Go/no-go:** do not spend a large training budget on an indistinct mechanism or unsupported claim. If simple controls explain the task or prior art already establishes the proposed contribution, narrow/revise the question. Negative findings may be useful; neither a negative nor positive finding guarantees publication.
 
-**Complete here:** scope revision, close-prior-art comparison, scientific roster design and independent-source investigation. The subsequent [four-score implementation](SCORE_EXTENSION_REPORT_V0.1.md) is also complete. **Still pending:** measured contribution, independent dataset/protocol admission and final execution readiness. The uncompleted independent-evidence freeze is a future source-specific gate, not a claim that metadata screening supplies new observations.
+**Complete here:** scope revision, close-prior-art comparison, scientific roster design and independent-source investigation. The subsequent four-score implementation and [final empirical analysis](FINAL_CAMPAIGN_REPORT_V0.1.md) are also complete. **Still pending:** established novelty, independent dataset/protocol admission and evidence for broader claims. The uncompleted independent-evidence freeze is a future source-specific gate, not a claim that metadata screening supplies new observations.
 
 ## 12. Freeze the selected model comparison before calibration
 
@@ -232,29 +232,31 @@ The [contribution decision](CONTRIBUTION_AND_EVIDENCE_SCOPE.md), [comparison des
 - [x] Implement/test final-source admission, complete output alignment, access ledger, terminal failure handling, and label joining only after all campaign outputs are saved/hashed.
 - [x] Fill the actual final-freeze record with completed prerequisites; keep approvals, timestamps and hashes factual.
 
-**Completed:** all eleven thresholds and the [actual final freeze](../experiments/FINAL_TEST_FREEZE_RECORD.json) passed readback/admission. **324 tests** include 29 synthetic campaign cases. A guarded metadata preflight opened no raw data. Final full-size execution remains unmeasured and unrun. The empirical 99th-percentile rule is not a guarantee of a future 1% false-positive rate.
+**Completed:** all eleven thresholds and the [actual final freeze](../experiments/FINAL_TEST_FREEZE_RECORD.json) passed readback/admission. **324 tests** include 29 synthetic campaign cases. A guarded metadata preflight opened no raw data. Subsequent full-size execution/resources are recorded below. The empirical 99th-percentile rule is not a guarantee of a future 1% false-positive rate.
 
 ## 14. Execute the protected final campaign once as declared
 
-- [ ] Replay protected normal and mixed slices continuously, with no label-driven resets.
-- [ ] Hold model parameters, nominal references, residual normalization and thresholds fixed; only the declared dynamic state may evolve.
-- [ ] Run every declared method/seed under the frozen scope. Sequential execution is acceptable; inspecting one result to redesign later methods is not.
-- [ ] Save/hash aligned scores and terminal failure records before joining labels or releasing scientific outcomes.
-- [ ] Account for every registered run, including failures; do not discard bad seeds or shrink support.
-- [ ] Record accidental early exposure, technical retries and any deviations.
+- [x] Replay protected normal and mixed slices continuously, with no label-driven resets.
+- [x] Hold model parameters, nominal references, residual normalization and thresholds fixed; only the declared dynamic state may evolve.
+- [x] Run every declared method/seed under the frozen scope; no early result used to redesign later methods.
+- [x] Save/hash aligned scores and terminal status records before joining labels or releasing scientific outcomes.
+- [x] Account for every registered run; eleven deterministic methods completed, zero failed final attempts, no support trimming.
+- [x] Record actual access/release, retries and deviations: one accepted attempt per phase, no retries or early individual result inspection.
 
-**Completion evidence:** a complete campaign artifact/status matrix and the full report. Lengthy/paid runs and publication retain explicit approval requirements; this roadmap does not launch them.
+**Completed:** [actual campaign record](../experiments/FINAL_CAMPAIGN_V0.1_RECORD.json) and [joint report](FINAL_CAMPAIGN_REPORT_V0.1.md). All eleven streams sealed before labels. Scoring took 270.890 s / 143.19 MiB peak RSS; evaluation 44.778 s / 902.50 MiB, within frozen caps. Original freeze and all attempts remain preserved. This completion does not authorize new training or publication.
 
 ## 15. Analyze the evidence, including failures and trade-offs
 
-- [ ] Verify unadjusted TP/FP/FN/TN, precision/recall/F1 and tied-score average precision on the mixed population.
-- [ ] Report protected-normal point exceedance, observed episodes/hour, native-time exposure and coverage together.
-- [ ] Show all eight interval outcomes, misses, pre-existing alarms, fresh onsets and schedule-relative delay; keep recovery behavior visible.
-- [ ] Compare R versus R+C (additional correction evidence) and all mandatory controls without a new composite winner or a better-looking threshold.
-- [ ] Report every seed and descriptive paired summaries. Do not turn correlated rows, intervals or seeds into independent-plant significance claims.
-- [ ] Separate parsing, fitting, calibration and processing costs; do not present them as live deployment latency.
-- [ ] Inspect final plots/failure cases only after release, as analysis; do not use them to tune the claimed final model.
-- [ ] Record whether the hypothesis is supported, contradicted, or only partly supported, and under which assumptions.
+- [x] Verify unadjusted TP/FP/FN/TN, precision/recall/F1 and tied-score average precision on the mixed population.
+- [x] Report protected-normal point exceedance, observed episodes/hour, native-time exposure and coverage together.
+- [x] Show all eight interval outcomes, misses, pre-existing alarms, fresh onsets and schedule-relative delay; retain all recovery slices.
+- [x] Compare R versus R+C (additional correction evidence) and all mandatory controls without a new composite winner or a better-looking threshold.
+- [x] Report every declared run and descriptive paired summaries. All methods deterministic; no stochastic variation or independent-plant significance claims.
+- [x] Report measured whole-phase costs separately from detection delay, with the finer cost limitation explicit: no per-method, parsing/setup decomposition or per-record latency quantiles were instrumented.
+- [x] Inspect event/failure tables only after joint release, as analysis; no outcome-driven model changes. No new plots were needed for the complete tabular report.
+- [x] Record the limited conclusion: correction evidence helped slightly in this recording, but detection remained weak and progression's isolated benefit was not established.
+
+**Completed:** the saved-score audit recomputed all declared metrics/events and passed; full records are in the [report](FINAL_CAMPAIGN_REPORT_V0.1.md). O-RC F1 0.017292 versus O-R 0.016603, with only 0.8805% point recall and 185.98 normal episodes/hour. AR-4 had higher F1/AP but more episodes; T-32 had the largest F1 with higher point false alarms. Eight event hits alone do not establish useful detection. These findings do not resolve independent-evidence or novelty limitations.
 
 If the twin adds little beyond velocity/template controls, say so. If detection improves while normal alarms increase, report the trade-off. Outcome-informed redesign is exploratory; reusing or reshuffling this holdout does not create fresh confirmation. Bug corrections retain the original outputs and correction history.
 
@@ -294,10 +296,10 @@ Acceptance and publication timing are editorial outcomes, not milestones we can 
 
 ## What we do next, and what can run in parallel
 
-**Immediate sequence:** preserve completed normal studies, selection freeze and calibration → explicitly scope the protected final scoring run under its frozen budget → seal all eleven complete streams → separately join labels and evaluate every declared method. No large neural run is needed to fill a quota. Calibration does not reopen scientific choices; later changes must be explicitly versioned and assessed for compromised separation.
+**Immediate sequence:** preserve the complete final artifacts and negative/mixed findings → make the researchers explain the methods, metrics and limitations → draft the supported results/methods/limitations → separately decide what independent evidence and comparisons a broader or redesigned study would require. No large neural run is needed to fill a quota.
 
 **Parallel work:** researcher learning, missing-source follow-up, contribution records and source-specific independent-evidence admission. ModernTCN/causal alignment become necessary if broader competitive claims are revived; they remain conditional now.
 
-**Keep closed:** calibration for model selection, both final slices for exploratory development, invented results, heavy training without a concrete measured plan, and submission/publication without approval.
+**Do not reopen:** model/threshold selection for the frozen campaign, its consumed attempts, or its confirmatory status. The final slices are exposed; any newly authorized outcome-informed exploration must be clearly labelled and cannot convert this same recording into fresh confirmation. Heavy training and submission/publication retain approval requirements.
 
-The supported nominal representation is an empirical observer. The next experiment must test the narrowly defined scoring question against its ordinary alternatives; an empirical contribution remains unproved. Additional faults or benign variation would extend evidence in separate tracks, not establish cross-robot cybersecurity by themselves.
+The supported nominal representation is an empirical observer. Its narrowly defined scoring comparison is complete, with a small effect and poor absolute detection. Established novelty and general digital-twin benefit remain unproved. Additional faults or benign variation would extend evidence in separate tracks, not establish cross-robot cybersecurity by themselves.

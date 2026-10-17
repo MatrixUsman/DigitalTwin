@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "evaluation_id": "manufacturing-casper-right-arm-evaluation-v0.1",
+  "project": "manufacturing",
+  "owner": "Haiqa Mushtaq",
+  "created_at_utc": "2026-10-16T18:39:10.523096+00:00",
+  "status": "specified_not_implemented_or_executed",
+  "authorizes_training_or_final_execution": false,
+  "path_base": "manufacturing project root",
+  "data_contract": {
+    "path": "configs/casper_right_arm_contract_v0.1.json",
+    "sha256": "3e88c87761b16aa808af188b8419fa48c3ef938a68441c70d1ba05467a779a25"
+  },
+  "documentation": [
+    {
+      "path": "docs/EVALUATION_PROTOCOL.md",
+      "sha256": "3d9197b7699e88a5238168eabe74e19f8404d1e6ee9f90a7276c9472c0386f3f"
+    },
+    {
+      "path": "docs/METRIC_DEFINITIONS.md",
+      "sha256": "f69d3f5fd78a99322c6f34a81f5165e12bf55fde1ffa73dec08c940454df997e"
+    },
+    {
+      "path": "docs/FINAL_TEST_PROTECTION.md",
+      "sha256": "1365121f48b3dece4cce91c1d0cdcd556b9faaf5abfbedd2b3098db3fa007aca"
+    }
+  ],
+  "dataset": {
+    "release_key": "original-casper-v3:sha256:07f2daf948c8244c396c7b4d2fe4c475880a3a6577f982fc1738b5379b0e5409",
+    "provider_version": 3,
+    "source_file": "datasets/raw/casper/v3/original/dataset/right_arm.csv",
+    "source_bytes": 1978193094,
+    "source_sha256": "181662e25de09c1f4ed05e0877a65c40225752d6f54575ddb1cdf8a0cf29a334",
+    "data_rows": 1762650,
+    "index_convention": "zero-based data rows excluding header; all ranges half-open",
+    "csv_record_one_based": "data_row + 2",
+    "other_dataset_members_permitted": false,
+    "physical_subject": "right UR3e arm in the original repetitive pick-and-place collection"
+  },
+  "annotation_version": "recorded-controller-schedule-v0.1",
+  "populations": {
+    "training": {
+      "rows_half_open": [
+        0,
+        540002
+      ],
+      "raw_rows": 540002,
+      "expected_eligible_intervals_half_open": [
+        [
+          1528,
+          16571
+        ],
+        [
+          18099,
+          540002
+        ]
+      ],
+      "expected_eligible_rows": 536946
+    },
+    "development": {
+      "rows_half_open": [
+        540002,
+        702002
+      ],
+      "raw_rows": 162000,
+      "expected_eligible_intervals_half_open": [
+        [
+          541530,
+          702002
+        ]
+      ],
+      "expected_eligible_rows": 160472
+    },
+    "normal_calibration": {
+      "rows_half_open": [
+        702002,
+        864003
+      ],
+      "raw_rows": 162001,
+      "expected_eligible_intervals_half_open": [
+        [
+          703530,
+          864003
+        ]
+      ],
+      "expected_eligible_rows": 160473
+    },
+    "held_out_normal": {
+      "rows_half_open": [
+        864003,
+        1080004
+      ],
+      "raw_rows": 216001,
+      "expected_eligible_intervals_half_open": [
+        [
+          865531,
+          1080004
+        ]
+      ],
+      "expected_eligible_rows": 214473
+    },
+    "mixed_final": {
+      "rows_half_open": [
+        1080004,
+        1762650
+      ],
+      "raw_rows": 682646,
+      "expected_eligible_intervals_half_open": [
+        [
+          1080004,
+          1762650
+        ]
+      ],
+      "expected_eligible_rows": 682646
+    },
+    "final_replay": {
+      "rows_half_open": [
+        864003,
+        1762650
+      ],
+      "raw_rows": 898647,
+      "expected_eligible_intervals_half_open": [
+        [
+          865531,
+          1762650
+        ]
+      ],
+      "expected_eligible_rows": 897119
+    }
+  },
+  "mixed_label_counts": {
+    "positive": 345602,
+    "zero": 337044
+  },
+  "positive_event_count": 8,
+  "common_mask": {
+    "status": "metadata_ranges_only_not_materialized",
+    "warmup_preceding_observations": 1528,
+    "gap_rule": "delta_seconds <= 0 or delta_seconds > 0.075",
+    "gap_restart_rows": [
+      16571
+    ],
+    "no_imputation": true,
+    "reset_at_partition_start_or_observed_break_only": true,
+    "no_reset_at_final_reporting_or_label_boundaries": true,
+    "input_discrepancy": "block admission; investigate against immutable source evidence",
+    "model_history_requiring_more_warmup": "new common policy version before calibration and final outcomes"
+  },
+  "fit_and_selection": {
+    "fitted_transform_and_parameter_partition": "training",
+    "selection_partition": "development",
+    "selection_objective": null,
+    "finite_candidate_grid": null,
+    "model_specific_specification_status": "pending_before_pilot",
+    "freeze_roster_and_selected_artifacts_before_calibration": true,
+    "no_train_plus_development_refit_in_this_plan": true,
+    "final_data_or_labels_for_selection": false
+  },
+  "calibration": {
+    "partition": "normal_calibration",
+    "purpose": "threshold_only",
+    "score_orientation": "larger_is_more_anomalous",
+    "quantile_numerator": 99,
+    "quantile_denominator": 100,
+    "rank_one_based": "(99*m + 99)//100",
+    "expected_m": 160473,
+    "expected_rank_one_based": 158869,
+    "expected_max_strict_exceedances": 1604,
+    "threshold": "ascending_scores[rank_one_based-1]",
+    "alarm": "score > threshold",
+    "ties": "equal_threshold_is_not_alarm; no interpolation, jitter or randomization",
+    "independent_threshold_for_each_frozen_model_seed": true,
+    "invalid_empty_or_incomplete_scores": "fail_calibration_no_threshold",
+    "future_false_alarm_guarantee": false,
+    "online_parameter_residual_or_threshold_updates": false
+  },
+  "score_admission": {
+    "required": "one finite correctly aligned score at every structurally eligible endpoint",
+    "partitions": [
+      "development",
+      "normal_calibration",
+      "final_replay"
+    ],
+    "unexpected_missing_nonfinite_duplicate_or_misaligned": "fail_comparative_admission_preserve_status_and_coverage",
+    "intersection_trimming_or_imputation": false,
+    "finite_subset_diagnostics_label": "diagnostic_incomplete_run"
+  },
+  "metrics": {
+    "primary_population": "mixed_final",
+    "primary_joint": [
+      "TP",
+      "FP",
+      "FN",
+      "TN",
+      "positive_precision",
+      "positive_recall",
+      "positive_F1",
+      "held_out_normal_point_exceedance",
+      "held_out_normal_observed_episodes_per_eligible_hour",
+      "coverage"
+    ],
+    "supporting_required": [
+      "tie_grouped_noninterpolated_average_precision",
+      "all_eight_event_overlap_and_fresh_onset_outcomes",
+      "schedule_relative_delays_with_misses",
+      "mixed_zero_and_recovery_burden",
+      "computational_cost"
+    ],
+    "positive_class": 1,
+    "point_adjustment": false,
+    "window_majority_labels": false,
+    "test_threshold_search": false,
+    "metric_zero_denominator": "NA_for_each_metric_own_denominator",
+    "exposure": "sum native time differences over adjacent eligible finite endpoints within same report slice and stream segment",
+    "episode_report_boundaries_reset_state": false,
+    "delay_reference": "recorded_schedule_flag_not_verified_physical_onset",
+    "post_threshold_persistence_or_cooldown": false
+  },
+  "replication": {
+    "pilot_seed": 42,
+    "pilot_access": [
+      "training",
+      "development"
+    ],
+    "stochastic_final_seeds": [
+      17,
+      42,
+      2026
+    ],
+    "deterministic_controls_runs": 1,
+    "paired_seeds_for_matched_variants": true,
+    "report_all_runs_and_failures": true,
+    "summary": [
+      "unweighted_mean",
+      "median",
+      "minimum",
+      "maximum"
+    ],
+    "any_undefined_replicate_metric": "aggregate_NA_with_reason_and_defined_count",
+    "failed_replicates": "no_success_only_comparative_aggregate",
+    "no_best_seed_pooling_or_posthoc_ensemble": true,
+    "interpretation": "computational_variability_on_one_acquisition_not_independent_plants",
+    "confidence_intervals_and_significance_tests": "not_planned"
+  },
+  "scientific_contrast": {
+    "primary": "progression-aware twin versus otherwise matched progression-omitted variant",
+    "mandatory_controls": [
+      "simple joint-velocity deviation detector",
+      "normal-trajectory template control"
+    ],
+    "paired_difference": "progression_aware_minus_progression_omitted",
+    "joint_effects": [
+      "F1",
+      "normal_point_exceedance",
+      "normal_episodes_per_eligible_hour",
+      "coverage"
+    ],
+    "posthoc_composite_winner": false,
+    "exact_model_roster": null
+  },
+  "final_protection": {
+    "protected_rows_half_open": [
+      864003,
+      1762650
+    ],
+    "status": "prospective_procedure_no_OS_enforcement_or_blinding",
+    "prior_exposure": "metadata_schema_labels_timestamps_boundary_records_and_author_results; no_our_model_outcomes",
+    "final_feature_distribution_or_score_use_for_development": false,
+    "separate_evaluator_interface_status": "planned_not_implemented",
+    "hash_all_campaign_scores_before_label_join_and_outcome_release": true,
+    "freeze_record": "experiments/FINAL_TEST_FREEZE_RECORD.json",
+    "post_reveal_scientific_changes": "exploratory; same_holdout_is_not_fresh_confirmation",
+    "terminal_run_matrix_before_reveal": "all declared runs complete or recorded failed; failure artifacts retained"
+  },
+  "readiness": {
+    "rules_defined": true,
+    "loader_implemented": false,
+    "metric_implementation_tested": false,
+    "model_specs_frozen": false,
+    "pilot_completed": false,
+    "calibrated": false,
+    "final_evaluated": false
+  }
+}
