@@ -914,3 +914,26 @@ Next: define a causal noise-aware return decision that separates model bias, sen
 
 
 MFG-035 closing integrity correction: packaging detected that `docs/PAPER_ROADMAP.md`, although a handoff document, was inherited as a live-path binding from the v0.8 package. Restored its exact pre-edit bytes and saved the current roadmap separately as `docs/PAPER_ROADMAP_V0.9.md`; current status links to that version. The original freeze/manifest was not rewritten. The failed packaging diagnostic is retained. Final packaging verifies all eleven scientific source/spec files, 1,521 prior/input bindings, both run/selection seals, unchanged prior manuscript/title files, complete outcome coverage, figure/table source hashes, local links and scoped whitespace. Packaging command: `manufacturing/.venv-reproduction-v02/bin/python manufacturing/research_cycles/commissioning_v0.9/package.py`. Future mutable status/log snapshots are archived inside the new package so ordinary later updates do not require modifying its manifest.
+
+### 2026-10-17 — MFG-036 — One consolidated, polished manuscript and PDF
+
+The user explicitly requested one finished PDF instead of further research handoffs. Applied the academic-research-suite writing workflow and PDF skill to an editorial consolidation of completed recovery v0.8 and commissioning v0.9. No experiment, model fitting, new simulation, raw-data analysis or holdout access occurred.
+
+Created `manuscript_after_v1.0/` and `output/pdf/AFTER-manuscript.pdf`: 14 pages, six tables, two vector figures, seven cited references, editable LaTeX, a claim/evidence ledger and reference-access audit. Rewrote abstract/introduction/discussion/conclusion around the measured clearance obstruction, matched controls, clean-data reference improvements and conditional Gaussian noise calculation. Retained all thirteen attack-study methods and all distinct normal-reference roles, missed events and failed primary/admission criteria. Clarified that return timestamps use the evaluator's retrospective window start and timely clearance includes alarms already inactive; early-clear counts therefore remain necessary. Full paper-level reproductions, original-detector novelty and author declarations/approval are not manufactured by this draft. The existing AFTER title remains proposed.
+
+Primary checks refreshed the official RSS FAIL-Detect author list/DOI, RESCUE preprint identity, the Huddersfield hybrid-twin abstract/metadata and the published Classens institutional manuscript's metadata/method scope. CASPER DOI access returned 403; prior verified manuscript/code evidence was retained. Unresolved RAPIO/FDI leads were omitted from this manuscript rather than treated as complete comparators. No new author contact or public release.
+
+Presentation generation initially stopped on a multiline f-string syntax error before outputs; corrected the string. First offline PDF build failed on an uncached 7-point math font. Used the existing cached 8-point subscript size, with no installation/download. Later build attempts tightened metric wording and kept the final normal table before declarations. Four build attempts and their logs remain in ignored local storage. The first text audit warned that optional pypdf fontTools was unavailable; switched text extraction to existing Poppler while retaining pypdf page/metadata checks. No scientific file changed.
+
+Final offline build: SHA256 `0774be042dd95721c31091f6c16b0c2cec36c27979ebd5f8c7dbab4e03795994`, 14 pages. Every page was rendered and visually inspected, with changed-page comparisons after edits. No clipped tables, unresolved references, missing visible glyphs or TeX box warnings remained. The editorial audit passed 1,929 checks, including all eleven v0.9 scientific source hashes, 1,521 prior/input bindings and 301 preserved package files. These are integrity/arithmetic checks, not an independent peer review or additional scientific validation.
+
+Commands from workspace root:
+
+```sh
+manufacturing/.venv-plots-v03/bin/python manufacturing/manuscript_after_v1.0/present.py
+manufacturing/.venv-reproduction-v02/bin/python manufacturing/manuscript_after_v1.0/build_pdf.py
+pdftoppm -scale-to 1400 -png manufacturing/output/pdf/AFTER-manuscript.pdf manufacturing/local/manuscript_after_v1.0/qa/delivery
+manufacturing/.venv-pdf/bin/python manufacturing/manuscript_after_v1.0/audit.py
+```
+
+Current deliverable: one complete polished author-review/submission draft. The original contribution objective remains active; actual evidence still does not establish a successful novel detector. Next is author and scientific review of this consolidated manuscript, with declarations confirmed before submission. Prior PDFs, raw data, consumed scientific packages, sibling projects and system packages remain unchanged. No publishing, upload, paid compute, external messages or assistant-issued Git mutation. Existing shared playbook already covers this editorial/reproducibility procedure; no root changes were needed.

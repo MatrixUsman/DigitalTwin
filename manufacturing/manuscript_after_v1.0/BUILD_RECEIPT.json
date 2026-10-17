@@ -1,0 +1,37 @@
+{
+  "started_utc": "2026-10-17T12:42:40.568601+00:00",
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/pdf_build_v0.1/bin/tectonic",
+    "--untrusted",
+    "--keep-logs",
+    "--keep-intermediates",
+    "--outdir",
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/manuscript_after_v1.0/pdf_build/attempt_004",
+    "--only-cached",
+    "main.tex"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/manuscript_after_v1.0",
+  "compiler_sha256": "b52b5a730e2b0b33087304f7720f649603953f270a6b1c88bb031e1ae01f7f9c",
+  "compiler_version": "Tectonic 0.17.0",
+  "offline": true,
+  "source_sha256": {
+    "build_pdf.py": "f36ccb72ba9cb090b35422c88abf0e1f0d1e7e199595b46b24d38c0f666b50ee",
+    "figures/commissioning.pdf": "148c5adde098a1a3a9d6e535d09e189a29edc580960b968a07b756aa6b71d59c",
+    "figures/recovery.pdf": "d43b832b4c5ba327804d63160c2b020a76d2997f857ce101576bcfe41cba6397",
+    "generated/attack.tex": "f35a9544bc20a4da52d90424068bdc053b00a8f91074b55f54bf16377e979f65",
+    "generated/metrics.tex": "b1469ffdf4198aac15f1817486cc2311ead7bf41f7d1a3128a981db8478bdc70",
+    "generated/noise.tex": "6bb65a0446f10aadd7f9b723446d87aca7a18924be39158ab491edb60f5c50eb",
+    "generated/normal.tex": "878a82e85ac9811ecb7a407c70317912861c8a2383a41705b17d9cefb5da47f4",
+    "generated/normal_all.tex": "3c9c746441ac88847a09594cab3d15ddc4a4e03ec60a02c0d26054164e5c9098",
+    "main.tex": "c2582fad1e10329bf0bed470603e4a369c25f7449fc2642ba8f3f45e78a2c784",
+    "present.py": "cf9bc0dbc7be3e4563748d28ab9bdaf360d60cde8a2d6f6f7782e6884ca8810d"
+  },
+  "attempt": "local/manuscript_after_v1.0/pdf_build/attempt_004",
+  "returncode": 0,
+  "completed_utc": "2026-10-17T12:42:41.077007+00:00",
+  "sources_unchanged": true,
+  "pdf": "output/pdf/AFTER-manuscript.pdf",
+  "pdf_sha256": "0774be042dd95721c31091f6c16b0c2cec36c27979ebd5f8c7dbab4e03795994",
+  "bytes": 138563,
+  "visual_review": "Pending separate rendered-page inspection"
+}

@@ -1,0 +1,21 @@
+{
+  "source_sha256": {
+    "local/recovery_v0.8/runs/confirmation_002/aggregate.json": "49b5a7cf778af1d308b29e4ed85c08a9b08ae49f52784d698627298266b4f857",
+    "local/commissioning_v0.9/runs/normal_002/fresh_summary.json": "65377ee112babdb6eab5e98395078cb87dc1a8c0b7a316936177d88ff672aa36",
+    "research_cycles/commissioning_v0.9/NOISE_DIAGNOSTIC.json": "b1f9817be10073b8e92204e6bcebe3ca24b8c17210a763b2d511b07495159b97"
+  },
+  "outputs": {
+    "figures/commissioning.pdf": "148c5adde098a1a3a9d6e535d09e189a29edc580960b968a07b756aa6b71d59c",
+    "figures/commissioning.png": "89fcd5eea64eaa3ac4bc43c0c6c6c2afb4af59a17b42a561d5d16bbd780af7f8",
+    "figures/recovery.pdf": "d43b832b4c5ba327804d63160c2b020a76d2997f857ce101576bcfe41cba6397",
+    "figures/recovery.png": "2d9768e11ba412f27e223e1dabd6079b64320cda1112ab6b3c2f4208d1393ee6",
+    "generated/attack.tex": "f35a9544bc20a4da52d90424068bdc053b00a8f91074b55f54bf16377e979f65",
+    "generated/metrics.tex": "b1469ffdf4198aac15f1817486cc2311ead7bf41f7d1a3128a981db8478bdc70",
+    "generated/noise.tex": "6bb65a0446f10aadd7f9b723446d87aca7a18924be39158ab491edb60f5c50eb",
+    "generated/normal.tex": "878a82e85ac9811ecb7a407c70317912861c8a2383a41705b17d9cefb5da47f4",
+    "generated/normal_all.tex": "3c9c746441ac88847a09594cab3d15ddc4a4e03ec60a02c0d26054164e5c9098"
+  },
+  "generator_sha256": "cf9bc0dbc7be3e4563748d28ab9bdaf360d60cde8a2d6f6f7782e6884ca8810d",
+  "new_experiments": false,
+  "excluded_duplicate_role": "selected_arx equals selected_reference on all plants"
+}

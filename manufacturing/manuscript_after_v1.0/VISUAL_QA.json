@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T12:45:14.481597+00:00",
+  "pdf_sha256": "0774be042dd95721c31091f6c16b0c2cec36c27979ebd5f8c7dbab4e03795994",
+  "pages": 14,
+  "visual_review": "All pages 1-14 inspected as renders. Changed pages re-inspected after wording and float placement edits; final pages 1-11 pixel-identical to inspected previous renders, final pages 12-14 inspected individually.",
+  "checks": [
+    "tables and figure labels legible",
+    "no clipping or overlap",
+    "all equations visible",
+    "citations and page numbers resolved",
+    "normal-reference table precedes declarations",
+    "six tables and two vector figures"
+  ],
+  "limitations": "Editorial QA, not independent scientific peer review; author declarations and approval pending."
+}

@@ -1,5 +1,11 @@
 # Manufacturing status
 
+## Current manuscript — consolidated AFTER draft, 17 October 2026
+
+Delivered one polished [14-page PDF](output/pdf/AFTER-manuscript.pdf), with [editable LaTeX and audit package](manuscript_after_v1.0/README.md). It consolidates recovery v0.8 and commissioning v0.9 into a single argument, with six source-generated tables, two vector figures, complete comparison roles, explicit metric definitions, the conditional noise derivation and seven cited sources. All pages were rendered and inspected. Offline build and 1,929 editorial integrity/arithmetic checks passed, preserving eleven scientific source files, 1,521 prior/input bindings and the 301-file v0.9 package. No new fit, simulation, attack evaluation or raw-data analysis ran.
+
+This completes the requested writing/polishing deliverable, not the original successful novel-detector objective. The candidate failure and stronger matched control remain visible. The PDF is an author-review/submission draft; contribution/comparator adequacy, factual declarations and both-author approval remain unresolved. AFTER remains the current proposed title. Prior manuscripts, frozen studies and sibling projects are unchanged. Nothing was uploaded, submitted or published. Next action is author/scientific review of this one consolidated draft; further experiments require their own scoped protocol.
+
 ## Current science — normal-only reference study v0.9, 17 October 2026
 
 [Completed](research_cycles/commissioning_v0.9/RESULTS.md): 63 ordinary ARX/FIR candidate fits, fifteen archived normal checks, 81 fresh normal episodes and 576 role outcomes. Twenty-three synthetic tests and 10,293 verification checks passed. The first worker stopped on a reporting-key collision before fresh generation; the separately recorded fix reproduced every fit and selection unchanged. Completed run: 14.748 s wall, 14.296 s CPU, 113.97 MiB sampled RSS, 28.02 MiB outputs. No new attack experiment or raw dataset observation.
