@@ -1,0 +1,98 @@
+\section{Experiments}\label{sec:experiments}
+\subsection{Datasets and experimental populations}
+The study separates simulated attack/recovery evaluation, real-data normal prediction and admission of future public evidence (Table~\ref{tab:data}). They answer different questions and are not pooled into one performance ranking. Five linked studies document the development sequence (Table~\ref{tab:studies}). Later choices use earlier outcomes as development; the earlier studies do not become independent confirmations of those choices.
+
+\begin{table*}[t]\centering
+\caption{Data and information boundaries. Counts identify the populations actually used or admitted. New public-data receipt is not an additional experiment.}\label{tab:data}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.23\textwidth}>{\raggedright\arraybackslash}p{0.26\textwidth}>{\raggedright\arraybackslash}p{0.23\textwidth}}\toprule
+Source & Population & Permitted model information & Status and interpretation\\\midrule
+Two-joint simulation, E5 & 3 training, 9 development and 5 calibration episodes per plant; 81 fresh normal and 189 audit episodes & Noisy joint position/velocity and protected approved commands; clean initialization & Synthetic, with evaluator-only command intervals and same-plant physical-return truth.\\
+CASPER provider-v2 nominal IMU, E3 & 8,192 common training and 2,048 development targets; nine channels & Past causally filtered accelerometer, gyroscope and magnetometer observations & Real nominal prediction; no attack evaluation, unresolved paper-release and clock correspondence.\\
+voraus-AD original 100 Hz release & 2,122 executions; original split 948 training / 1,174 test & No process signals admitted to modeling yet & Metadata verified only; normal/fault labels, no established cyber or physical-return labels.\\
+FactoryNet & Author-reported mixed real/synthetic corpus & No observations downloaded & Partially admitted source; imported sources are not new independent acquisitions.\\\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Physical simulator and command construction}
+The plant is a horizontal two-joint point-mass arm:
+\begin{equation}
+ M(q)\ddot q+C(q,\dot q)+B\dot q=\tau.\label{eq:plant}
+\end{equation}
+For $a=m_2l_1l_2$ and $d=m_2l_2^2$, its inertia entries are $M_{11}=(m_1+m_2)l_1^2+d+2a\cos q_2$, $M_{12}=M_{21}=d+a\cos q_2$, and $M_{22}=d$. The Coriolis vector is $a\sin q_2[-2\dot q_1\dot q_2-\dot q_2^2,\dot q_1^2]^T$. A proportional--derivative controller requests
+\begin{equation}
+ \tau^*=\operatorname{clip}\{K_p(q^c-q)+K_d(\dot q^c-\dot q),-20,20\},
+\end{equation}
+with diagonal gains $(18,12)$ and $(4,3)$. With actuator lag, $\dot\tau=(\tau^*-\tau)/T_a$. Nominal masses are $(1,0.8)$ kg, lengths $(0.5,0.4)$ m and damping $(0.08,0.06)$; Table~\ref{tab:plants} defines the actual plants. Position and velocity noise are independent zero-mean Gaussian with standard deviations 0.0005 rad and 0.002 rad/s before the plant multiplier.
+
+\begin{table*}[t]\centering
+\caption{Fixed simulated plants. Mass and damping factors multiply the nominal values; noise multiplies both sensor standard deviations.}\label{tab:plants}
+\begin{tabular}{lcccrr}\toprule
+Plant & Mass factors & Damping factors & Lengths (m) & Lag (s) & Noise\\\midrule
+Q1 & (1.10,0.86) & (0.80,1.20) & (0.48,0.42) & 0 & 1.0\\
+Q2 & (0.88,1.15) & (1.30,0.85) & (0.53,0.37) & 0.03 & 1.0\\
+Q3 & (1.16,1.06) & (0.90,1.40) & (0.46,0.43) & 0.06 & 1.5\\\bottomrule
+\end{tabular}
+\end{table*}
+
+Sampling is 50 Hz with eight fourth-order Runge--Kutta substeps per sample. A separate short integration check supports numerical consistency, not fidelity to an industrial robot. Gravity, contact, flexibility and thermal effects are absent. Approved positions are
+\begin{align}
+ q_1^c&=a_1\sin\theta+0.025\sin(2.3\theta),\\
+ q_2^c&=a_2\sin(\theta+\phi)+0.018\sin(1.7\theta),
+\end{align}
+with analytic velocities under the causal time warp. The final tasks are N14: $\theta=0.49t$, amplitudes $(0.28,0.37)$, phase 0.93; O14: $\theta=0.43t+0.008t^2$, amplitudes $(0.33,0.31)$, phase 0.72; and P14: $\theta=0.94t+0.18\sin(0.31t)$, amplitudes $(0.35,0.38)$, phase 1.14.
+
+The final audit crosses these three tasks, three existing plants, seeds 17, 42 and 2026, and seven conditions: ordinary operation, authorized offset, authorized slowdown, brief unauthorized offset, persistent offset, hold and slowdown. There are 81 wholly benign and 108 attack episodes. Each contains 1,200 samples, including the clean 100-point initialization. Corruption begins at index 347 and ends before 653, except the eight-point brief offset. Offset magnitude is 0.11 rad on joint 1; slowdown rate is 0.72. Authorized changes update the approved command, while attacks change only the delivered command. Truth and schedule remain outside the inference interface.
+
+\subsubsection{Real nominal recording and independent sources}
+The separate IMU study uses the provider-v2 nominal \texttt{IMU\_10Hz.csv}, with accelerometer, gyroscope and magnetometer axes. It differs from the original CASPER-v3 archive. Exact correspondence to the published runs, timestamp units and acquisition-versus-arrival timing remain unresolved. We report sample-based prediction errors, not physical-time attack delays inferred from the filename.
+
+voraus-AD metadata and original splits were verified, but its process signals remain unopened~\cite{voraus}. FactoryNet remains source-audited only~\cite{factory}. Appendix~\ref{app:provenance} records hashes, permissions, source overlap and code-admission issues; neither source contributes measured model results here.
+
+\subsection{Preprocessing, chronology and calibration}
+\subsubsection{Synthetic commissioning and held-out conditions}
+Three clean commissioning episodes per plant fit the base and corrections. Their rates are 0.35, 0.7 and 1.1, with amplitudes $(0.22+0.04i,0.34-0.025i)$ and phase $0.5+0.3i$ for $i=0,1,2$, covering unchanged, authorized-offset and authorized-slowdown motion. The earlier normal episode bank uses rate $0.32+0.047i$, amplitudes $(0.23+0.012(i\bmod7),0.29+0.013(i\bmod9))$ and phase $0.4+0.06(i\bmod11)$. Indices 0--8 select configurations and 9--13 calibrate. Five remaining archived checks are not new independent data.
+
+Transforms, centers and regression coefficients use training only. Each episode retains its own initialization and history; windows never cross episode or split boundaries. After selection, each reference has 5,500 eligible calibration scores. The ascending score at rank $\lceil0.99(5500)\rceil=5445$ fixes its threshold. Strict exceedance handles ties. Calibration cannot choose models, seeds or a better percentile. Equal point-score quantiles do not equalize a stateful rule's alarm occupancy or guarantee future 1\% false alarms.
+
+The candidate check uses 81 new normal combinations based on tasks K13, L13 and M13. The attack audit freezes the fits, thresholds and 17-method roster before generating N14, O14 and P14. The tasks are new; the simulator and plants are reused. All resulting conditions are now exposed.
+
+\subsubsection{Chronological IMU partitions}
+Zero-indexed training rows $[219,9185)$ precede development rows $[9185,12007)$. Splitting occurs before the trailing width-20 median filter, training scaling and history creation. Each partition loses 19 filter warmup observations. Timestamps must increase strictly, with no gap exceeding five times the training median increment. Constant or nonfinite training channels are rejected.
+
+All predictors share 8,192 training and 2,048 development targets after 755 history observations. Development targets are raw rows 9959--12006 inclusive. A later 755-residual aggregation has 1,294 aligned endpoints. The compact CNN uses only its 45-point history, but receives the same eligible target rows. These data were used for checkpoint selection and cannot serve as independent final evaluation.
+
+\subsection{Experimental setup and optimization procedure}
+\subsubsection{Finite model search}
+The earlier reference search comprises ARX orders 4, 8, 16 and 32 and finite impulse response lengths 16, 32 and 64, crossed with ridge penalties $10^{-7},10^{-5},10^{-3}$ on each plant: 63 fits. Stable ARX orders 8, 16 and 32 with ridge $10^{-7}$ are inherited by the correction study.
+
+The correction grid has eight RBF settings per plant: $K\in\{32,64\}$, width multiplier in $\{0.5,1\}$ and ridge in $\{0.001,0.01\}$. Two linear penalties use the same feature inputs, giving 30 fits overall. Within each correction role, selection minimizes the worst episode's 99th-percentile standardized residual, then mean episode RMSE, head coefficient count and identifier. All candidates and failures remain recorded. ``Optimal parameters'' here means selected within this finite normal-development procedure, not a global optimum or a choice based on final attacks.
+
+\subsubsection{Neural training and stopping}
+The independent CASPER-style CNN has four valid one-dimensional convolutions, each with 32 filters, kernel five and ReLU. Width-three pooling follows each pair; flattening and a nine-output dense layer give 39,977 parameters for 755-point history. The Edge-style CNN has two valid convolutions with eight filters and kernel three, width-three pooling, and a nine-output dense layer: 1,369 parameters for 45-point history. Both use zero-initialized output heads, disclosed as an implementation choice.
+
+Adamax uses learning rate $10^{-3}$ and batches of 64 in chronological order without shuffling. A normal-development improvement greater than $10^{-6}$ selects a checkpoint; patience is five epochs and the cap is 100. Seeds 17, 42 and 2026 start afresh without optimizer transfer. Per-fit CPU admission is 240 seconds, with total limits of 1,200 seconds wall and 900 seconds CPU.
+
+\subsubsection{Five-fold chronological validation of ARX--RBF}
+After the original audit, we perform a retrospective normal-prediction check on the nine existing commissioning episodes. Each has 1,200 observations and is divided into six consecutive 200-point blocks. In fold $k\in\{1,\ldots,5\}$, training uses $[0,200k)$ in each episode. The following block supplies 100 known-normal observations for state initialization and 100 scored targets, at $[200k+100,200(k+1))$. Windows never cross a split or episode boundary. Each plant combines the training prefixes of its three episodes; all three plants therefore contribute 900 scored observations per fold.
+
+Both the ARX control and ARX--RBF refit their means, scales, coefficients and correction features using only that fold's training prefixes. Orders, centers, widths and ridge penalties retain the earlier settings. Validation measurements cannot change fitted parameters. Unstable or nonfinite fits would remain recorded as failures with zero coverage. No thresholds or attack metrics are computed. Because these settings and commissioning data were used previously, this is a developmental stability check, not nested cross-validation or independent confirmation. Expanding training prefixes overlap, and each validation trajectory has its own 100-point initialization.
+
+\subsubsection{Recent author-code forecasting runs}
+ModernTCN, iTransformer and TimeMixer use their original model classes with 96 past IMU observations and a one-step, nine-channel forecast. All receive the same 8,192 training and 2,048 development targets as E3, with its unchanged training-only scaler and causal preprocessing. Model-defined normalization uses the observed input window only; no future covariates or current target enter the predictor. The original CNNs retain their disclosed 755- and 45-point histories.
+
+Transferred settings follow the authors' ETTh1 examples: ModernTCN has one 64-wide block, kernels 51/5, patch size eight, stride four and dropout 0.3; iTransformer has two 256-wide layers, eight heads and feed-forward width 256; TimeMixer has two layers, width 16, feed-forward width 32 and three average-downsampling levels. Adam rates are $10^{-4}$, $10^{-4}$ and $10^{-2}$ respectively. Batches of 64 follow chronological order. Each of seeds 17, 42 and 2026 starts afresh; normal-development MSE selects checkpoints with tolerance $10^{-6}$, patience five and a ceiling of 100 epochs. Each seed has a 150-second CPU admission budget, reserving the estimated cost of the next epoch. Actual stopping and coverage are reported, rather than treating a budget-limited fit as converged. Compatibility pilots allow at most two epochs and do not select hyperparameters.
+
+\subsubsection{Execution environment and validation sequence}
+Runs use macOS/arm64, Python 3.12.15 and NumPy 1.26.4; the independently implemented CNNs use TensorFlow 2.16.2. The recent author-code study uses PyTorch 2.5.1 on an Apple M5 Pro with 24 GB RAM, one Torch CPU thread and deterministic algorithms. No GPU benchmark is reported. Inference outputs are sealed before joint label evaluation. Exact execution records and failures are retained.
+
+\begin{table*}[t]\centering
+\caption{Five original studies and their comparison roles. They are a development sequence, not five independent robot datasets.}\label{tab:studies}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.04\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.29\textwidth}>{\raggedright\arraybackslash}p{0.34\textwidth}}\toprule
+ID & Question & Evidence & Declared outcome\\\midrule
+E1 & Recovery under mismatch & 216 synthetic episodes; 13 rules & Uncertainty allowance reduces alarms but prevents many clears.\\
+E2 & Clean reference accuracy & 63 fits; 81 fresh normal episodes & Better fitting improves allowances; overall feasibility still fails.\\
+E3 & Common-input prediction & Nominal CASPER IMU prefix; nine outcomes & AR(4) has lowest development MSE; compact CNN reaches its epoch cap.\\
+E4 & Window uncertainty & 36 synthetic residual traces; six rules & Required normal feasibility holds on 20/36 traces.\\
+E5 & Candidate and components & 30 fits; 81 normal and 189 audit episodes & Nonlinear dual-window candidate fails its declared advantage criterion.\\\bottomrule
+\end{tabular}
+\end{table*}

@@ -281,3 +281,8 @@ Updated the shared playbook with finite model selection, equal initialization, n
 ### 2026-10-18 — SHARED-041 — Reusable exemplar-to-manuscript revision procedure
 
 Manufacturing [MFG-045](../manufacturing/docs/WORK_LOG.md) records the user's teacher-PDF adaptation, subsequent one-paper instruction and added saved-result graphs. Added a shared playbook procedure for structural mapping, evidence-preserving expansion, single-document page limits, source-bound plots and rendered-page QA. The procedure's validation is editorial; no scientific completion or result transfers to water or smart grids. Their files remain unchanged. The shared skill package remains pinned and unmodified.
+
+
+### 2026-10-18 — Shared procedure update: chronological validation and author-code execution
+
+Added the reusable procedure “Add chronological validation and recent author-code comparisons” to `RESEARCH_PLAYBOOK.md`, based on the actually completed manufacturing v0.16/v0.17 studies and MFG-048/MFG-049 records. It covers temporal fold isolation, author-code/task correspondence, pilot-derived budgets, actual stopping, saved-checkpoint replay and separate comparison tracks. Its validated status applies to workflow/software execution, not general detector efficacy. Water and smart-grid completion, evidence and files are unchanged; no scientific results were copied into those projects. No publication or Git push was performed.

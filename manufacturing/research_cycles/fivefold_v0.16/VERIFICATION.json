@@ -1,0 +1,42 @@
+{
+  "checks": 109,
+  "passed": true,
+  "folds": [
+    {
+      "fold": 1,
+      "arx_rmse": 0.22418076408336818,
+      "arx_rbf_rmse": 0.22455135031508114,
+      "targets": 900
+    },
+    {
+      "fold": 2,
+      "arx_rmse": 0.01150052966879808,
+      "arx_rbf_rmse": 0.01152120835558819,
+      "targets": 900
+    },
+    {
+      "fold": 3,
+      "arx_rmse": 0.012051898534189847,
+      "arx_rbf_rmse": 0.012074568695114135,
+      "targets": 900
+    },
+    {
+      "fold": 4,
+      "arx_rmse": 0.011103479856976482,
+      "arx_rbf_rmse": 0.011086374242718057,
+      "targets": 900
+    },
+    {
+      "fold": 5,
+      "arx_rmse": 0.01094037052063464,
+      "arx_rbf_rmse": 0.01093739353486989,
+      "targets": 900
+    }
+  ],
+  "improved_plant_folds": 5,
+  "total_plant_folds": 15,
+  "summary_sha256": "9f4ed237eb4934b203a4a8df5eaaf776f6423e7dae6e62b753a8936bc49581ba",
+  "output_seal_sha256": "5869a8fdd3c6c944a59a4da5d167be172f4c8f4b5eeaddc956fbefae91729fcf",
+  "scope": "saved scores recomputed, no model refit",
+  "reporting_repair": "Initial report JSON export rejected a numpy.int64 count; converted only that scalar to Python int. Scientific artifacts unchanged."
+}

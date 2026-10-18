@@ -1,0 +1,266 @@
+{
+  "tuning": [
+    {
+      "plant": "Q1",
+      "candidate": "rbf_32_0.5_0.001",
+      "worst_q99": 0.03823601937624604,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_32_0.5_0.01",
+      "worst_q99": 0.037952967712983676,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_32_1.0_0.001",
+      "worst_q99": 0.03782500309346563,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_32_1.0_0.01",
+      "worst_q99": 0.03767195896317865,
+      "selected_within_role": true
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_64_0.5_0.001",
+      "worst_q99": 0.038409880408017925,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_64_0.5_0.01",
+      "worst_q99": 0.038113266483482275,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_64_1.0_0.001",
+      "worst_q99": 0.03784843586240093,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "rbf_64_1.0_0.01",
+      "worst_q99": 0.03770713845095989,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "linear_0_1.0_0.001",
+      "worst_q99": 0.03788014890285616,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q1",
+      "candidate": "linear_0_1.0_0.01",
+      "worst_q99": 0.03783653138422963,
+      "selected_within_role": true
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_32_0.5_0.001",
+      "worst_q99": 0.042379663284490915,
+      "selected_within_role": true
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_32_0.5_0.01",
+      "worst_q99": 0.04243589583765913,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_32_1.0_0.001",
+      "worst_q99": 0.04269404588049081,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_32_1.0_0.01",
+      "worst_q99": 0.04272176570832035,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_64_0.5_0.001",
+      "worst_q99": 0.04295098139497662,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_64_0.5_0.01",
+      "worst_q99": 0.04268208766348348,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_64_1.0_0.001",
+      "worst_q99": 0.04257551889221839,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "rbf_64_1.0_0.01",
+      "worst_q99": 0.04274937192242591,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "linear_0_1.0_0.001",
+      "worst_q99": 0.04280915917107991,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q2",
+      "candidate": "linear_0_1.0_0.01",
+      "worst_q99": 0.04268451008040379,
+      "selected_within_role": true
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_32_0.5_0.001",
+      "worst_q99": 0.06622481606918383,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_32_0.5_0.01",
+      "worst_q99": 0.06501269365481806,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_32_1.0_0.001",
+      "worst_q99": 0.06453036990165478,
+      "selected_within_role": true
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_32_1.0_0.01",
+      "worst_q99": 0.06455351754533971,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_64_0.5_0.001",
+      "worst_q99": 0.06630364716798574,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_64_0.5_0.01",
+      "worst_q99": 0.06541400634599256,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_64_1.0_0.001",
+      "worst_q99": 0.06458904550597289,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "rbf_64_1.0_0.01",
+      "worst_q99": 0.06454296784153009,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "linear_0_1.0_0.001",
+      "worst_q99": 0.06494497005380577,
+      "selected_within_role": false
+    },
+    {
+      "plant": "Q3",
+      "candidate": "linear_0_1.0_0.01",
+      "worst_q99": 0.06483128333557985,
+      "selected_within_role": true
+    }
+  ],
+  "tradeoffs": [
+    {
+      "method": "base_dual",
+      "f1": 0.6380776245151678,
+      "benign_fraction": 8.031425364758698,
+      "gap_points": 2
+    },
+    {
+      "method": "rbf_dual",
+      "f1": 0.6407338597306085,
+      "benign_fraction": 7.869809203142536,
+      "gap_points": 3
+    },
+    {
+      "method": "rbf_dual_nodwell",
+      "f1": 0.76439161829687,
+      "benign_fraction": 1.3411896745230079,
+      "gap_points": 1
+    },
+    {
+      "method": "following_point",
+      "f1": 0.9202483551107404,
+      "benign_fraction": 0.9730639730639731,
+      "gap_points": 6692
+    },
+    {
+      "method": "following_dual",
+      "f1": 0.7069706543705349,
+      "benign_fraction": 8.56902356902357,
+      "gap_points": 2970
+    },
+    {
+      "method": "persistence_point",
+      "f1": 0.033347257031467556,
+      "benign_fraction": 0.5914702581369248,
+      "gap_points": 15742
+    },
+    {
+      "method": "mean21_point",
+      "f1": 0.008153048453423923,
+      "benign_fraction": 0.09427609427609428,
+      "gap_points": 11545
+    },
+    {
+      "method": "base_cusum",
+      "f1": 0.4198342334997792,
+      "benign_fraction": 0.9618406285072952,
+      "gap_points": 0
+    }
+  ],
+  "ablations": [
+    {
+      "method": "rbf_point",
+      "benign_alarms": 835,
+      "premature": 14,
+      "gap_points": 39
+    },
+    {
+      "method": "rbf_return1",
+      "benign_alarms": 6652,
+      "premature": 1,
+      "gap_points": 3
+    },
+    {
+      "method": "rbf_long",
+      "benign_alarms": 7012,
+      "premature": 1,
+      "gap_points": 3
+    },
+    {
+      "method": "rbf_dual",
+      "benign_alarms": 7012,
+      "premature": 1,
+      "gap_points": 3
+    },
+    {
+      "method": "rbf_dual_nodwell",
+      "benign_alarms": 1195,
+      "premature": 1,
+      "gap_points": 1
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "utc_recorded": "2026-10-18T06:51:40.766643+00:00",
+  "user_reply": "what u reccommend do it",
+  "scope": "Assistant recommended the exact prepared bounded local full study; user authorized proceeding. Three models, seeds 17/42/2026, 30 min wall/24 min CPU overall, 1 GiB monitored RSS, 150 MiB outputs, normal-only, no paid compute.",
+  "freeze_sha256": "629dd714528bacc18569a9c38ba04307ac35adbe794aa5e9c5a29b2dd4218c95",
+  "command": ".venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/run.py --phase full"
+}

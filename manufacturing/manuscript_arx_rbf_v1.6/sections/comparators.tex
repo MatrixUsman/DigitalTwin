@@ -1,0 +1,30 @@
+\section{Comparison Methods and Baselines}\label{sec:comparators}
+\subsection{Protected references and component removals}
+The final roster compares base ARX, linear correction and RBF correction under matched inputs. Point rules directly threshold $a_t$. Return rules retain alarm using a one-point residual condition, the 41-point window, or the 5/41 dual window, generally with ten-point dwell. The no-dwell variant requires one qualifying point. Base long versus base dual and RBF long versus RBF dual isolate the short window; RBF dual versus its no-dwell variant isolates persistence. Base dual versus RBF dual is the primary correction comparison. Every variant keeps its declared entry score, threshold and support.
+
+The RBF-following ablation applies the correction trained on free-running features to measured-history predictions without refitting. It tests that disclosed assembly, not an optimally fitted following model. Table~\ref{tab:audit} retains all 17 methods.
+
+\subsection{Ordinary prediction and accumulation controls}
+Persistence predicts the last measured state. The causal rolling mean predicts from the preceding 21 observations, excluding the current target. A one-sided CUSUM uses $G_t=\max(0,G_{t-1}+a_t-k)$, with $k$ equal to the training-score mean plus its standard deviation. Its calibrated statistic has no reset on alarm in this registered implementation. Its persistence is therefore a deliberate comparator behavior, not a claim that all CUSUM schemes cannot recover. All controls use identical eligible episode support and cannot access labels or truth.
+
+The IMU controls are training mean, persistence and AR(4), alongside the CNNs specified in Section~\ref{sec:experiments}. AR fits standardized channels with ridge $10^{-3}$ on mean normal equations, leaving its intercept unpenalized. Deterministic controls run once and neural models use all three seeds.
+
+\subsection{Recent published methods and correspondence}
+The recent-paper comparison window is 16 October 2023--16 October 2026, with preference for 2024--2026. Table~\ref{tab:recent} separates executed architectural transfers from an unexecuted candidate. Publication recency does not establish comparability or a current state-of-the-art ranking. Classical AR, persistence, rolling means and CUSUM remain explanatory controls. The two older mathematical references support observer and uncertainty background; they are not recent detector baselines.
+
+\begin{table*}[t]\centering
+\caption{Recent published methods: dates, actual execution and scope. No published headline score is substituted for a measured result.}\label{tab:recent}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.31\textwidth}}\toprule
+Method & Publication & Execution here & Interpretation\\\midrule
+CASPER~\cite{casper} & ACM TIOT, 2024 & Independent CNN implementation & Normal IMU prediction; complete attack detector not reproduced.\\
+Edge CNN~\cite{edge} & IEEE IoT J., 2025 & Independent compact CNN & Same IMU targets; bounded training and modified protocol.\\
+ModernTCN~\cite{moderntcn} & ICLR, 2024 & Author model code & Convolutional forecast transferred to normal IMU prediction.\\
+iTransformer~\cite{itransformer} & ICLR, 2024 & Author model code & Inverted-attention forecast on the same normal targets.\\
+TimeMixer~\cite{timemixer} & ICLR, 2024 & Author model code & Multiscale mixing on the same normal targets.\\
+MVT-Flow~\cite{voraus} & IEEE T-RO, 2024; preprint Nov. 2023 & Source/data audit only & Whole-execution fault score; separate offline candidate, no measured ranking.\\\bottomrule
+\end{tabular}
+\end{table*}
+
+CASPER and its successor motivate the CNN architectures, but E3 uses independent implementations, a different normal-only protocol and a provider release whose original-run correspondence is unresolved. It is not a reproduction of their complete attack detectors. Their external IMU inputs also differ from the joint telemetry and protected commands in E5. Published headline metrics are not inserted into our measured ranking.
+
+The three recent forecasters execute unchanged author model sources under our past-only prediction adapter, preprocessing, horizon and training budget. They test a different question from the protected command-driven reference and are not pooled into its attack/recovery ranking. MVT-Flow remains a candidate for a separate offline real-robot study: full-execution likelihood, symmetric temporal convolutions and unresolved objective/layer correspondence prevent immediate admission as an online recovery comparator. A compatible complete published-detector reproduction remains unfinished.

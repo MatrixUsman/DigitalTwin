@@ -1,0 +1,7 @@
+{
+  "command": "../../.venv-reproduction-v02/bin/python -m unittest -v test_core",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/research_cycles/fivefold_v0.16",
+  "passed": 5,
+  "fixtures": "synthetic",
+  "initial_launch_error": "A prior invocation used one excess ../ path component and did not start Python; corrected command passed."
+}

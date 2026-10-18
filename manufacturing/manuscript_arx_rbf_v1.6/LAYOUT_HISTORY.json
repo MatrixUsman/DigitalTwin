@@ -1,0 +1,51 @@
+{
+  "scope": "Backfilled from actual recorded build/audit outputs; no experiment reruns",
+  "attempts": [
+    {
+      "attempt": "001",
+      "pages": 16,
+      "note": "Initial expanded draft"
+    },
+    {
+      "attempt": "002",
+      "pages": 16,
+      "note": "First layout adjustment"
+    },
+    {
+      "attempt": "003",
+      "pages": 15,
+      "note": "Provisional draft before complete forecast results"
+    },
+    {
+      "attempt": "004",
+      "pages": 16,
+      "audit_checks": 495,
+      "only_failed_check": "at most 15 pages"
+    },
+    {
+      "attempt": "005",
+      "pages": 16,
+      "audit_checks": 495,
+      "only_failed_check": "at most 15 pages"
+    },
+    {
+      "attempt": "006",
+      "status": "compiler failure",
+      "reason": "offline cache lacks lmroman9-regular; no final PDF replaced"
+    },
+    {
+      "attempt": "007",
+      "pages": 15,
+      "audit_checks": 495,
+      "passed": true,
+      "note": "Used available 9.6pt reference type; all pages inspected"
+    },
+    {
+      "attempt": "008",
+      "pages": 15,
+      "audit_checks": 495,
+      "passed": true,
+      "note": "Widened new table columns and clarified E3 curve caption; changed pages 8\u20139 re-inspected"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-18T07:18:23.010432+00:00",
+  "passed": true,
+  "reviewer": "same assistant; no independent human review claimed",
+  "pdf_sha256": "7340da1c62f2c894f0e6a64d63f9d4c56adb62595ff61015fa7f60703331716e",
+  "pages": 15,
+  "render_command": "pdftoppm -r 110 -png output/pdf/ARX-RBF-Muhammad-Usman-v1.6.pdf local/manuscript_arx_rbf_v1.6/render_008/page",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "inspection": "All 15 pages of attempt_007 visually inspected. Final pages 1, 8 and 9 re-inspected; only 8 and 9 differ from the fully inspected render. No clipped text, overlapping elements, missing glyphs or broken tables observed. Reference type remains legible; new table spacing was widened. Seven underfull diagnostics inspected.",
+  "final_changed_pages": [
+    8,
+    9
+  ],
+  "render_sha256": {
+    "local/manuscript_arx_rbf_v1.6/render_008/page-01.png": "3a96752e44c74a9a08e99a0cee4a089857cd0f95e7efe979ecb1843bb4250c90",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-02.png": "4a5e5afce187444383154ac72e7bce3b234359cb4f21e4387a39acb23b7ec3cc",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-03.png": "60823de05a7eb254d36017b71657c026e0fb65a5f5ada3f656e60a3ddc76047e",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-04.png": "235d0488c9676f0c4234a46cc31ecb369e6789306f3983ab95512ebb03c6d8c8",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-05.png": "850d26a23eff8f8d6ec5623a5a95a5e618796f7e9e4d2425c67c0fe5a5fc9aec",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-06.png": "20d24e0227017e8c4159973b429be28d3eecb53d4f81f123f18fb504187582a0",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-07.png": "cc26f446dfdb048ec45c36c91cadf0622f4f1e385cfd6f672bdf801b0d200761",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-08.png": "07643439362358ad87b47bf6d7a02c2c69aea122b614cb66c7f9619fa9404fe4",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-09.png": "9e2d7582e172e75a85da65ee52633b18f6e7d771e29b46798866ffe936fbe186",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-10.png": "6a021cd0256bbba2362d6f16b6520c808714d90d4e6d37389a00f26c152fb9a9",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-11.png": "98e892571fda9505c120746333b41539fc166d4cf41b9bf427e1d5fcdbbc35f5",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-12.png": "4506d013e1fd19dd64c6859661f40a1c5333447fa4a420f5dd8c60b9a622a517",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-13.png": "4e8f1eac90d15f0055e56bb1cc51466bf9e1b871340f022e280c107a1a3ab838",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-14.png": "daa379073a15a85dcb8b73f3cc92531c6902d0608cabe1192320b8a692860086",
+    "local/manuscript_arx_rbf_v1.6/render_008/page-15.png": "d00c73c6c943f6429ede47fa075f779879013b56aaa2f13bff90e94959f2010f"
+  }
+}

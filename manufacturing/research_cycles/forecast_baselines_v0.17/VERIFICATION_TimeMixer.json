@@ -1,0 +1,458 @@
+{
+  "utc": "2026-10-18T07:13:13.693325+00:00",
+  "method": "TimeMixer",
+  "passed": true,
+  "scope": "Saved outputs and exact inference replay; no fitting, new selection, calibration or final access",
+  "command": [
+    "research_cycles/forecast_baselines_v0.17/verify.py",
+    "--method",
+    "TimeMixer"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "python": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-forecast-v016/bin/python",
+  "checks": 105,
+  "details": [
+    {
+      "check": "sealed output: access.json",
+      "passed": true
+    },
+    {
+      "check": "sealed output: launch.json",
+      "passed": true
+    },
+    {
+      "check": "sealed output: provenance.json",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "sealed output: seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "sealed output: summary.json",
+      "passed": true
+    },
+    {
+      "check": "completed once",
+      "passed": true
+    },
+    {
+      "check": "dependency lock matches actual worker",
+      "passed": true
+    },
+    {
+      "check": "resolved configuration matches frozen adapter",
+      "passed": true
+    },
+    {
+      "check": "upstream provenance matches freeze",
+      "passed": true
+    },
+    {
+      "check": "prepared source matches worker",
+      "passed": true
+    },
+    {
+      "check": "normal derived access only",
+      "passed": true
+    },
+    {
+      "check": "all seeds",
+      "passed": true
+    },
+    {
+      "check": "no attacks or calibration",
+      "passed": true
+    },
+    {
+      "check": "wall bound",
+      "passed": true
+    },
+    {
+      "check": "sampled memory bound",
+      "passed": true
+    },
+    {
+      "check": "output bound",
+      "passed": true
+    },
+    {
+      "check": "17: score identity",
+      "passed": true
+    },
+    {
+      "check": "17: weight identity",
+      "passed": true
+    },
+    {
+      "check": "17: target identity",
+      "passed": true
+    },
+    {
+      "check": "17: raw-row identity",
+      "passed": true
+    },
+    {
+      "check": "17: full coverage",
+      "passed": true
+    },
+    {
+      "check": "17: finite predictions",
+      "passed": true
+    },
+    {
+      "check": "17: score arithmetic",
+      "passed": true
+    },
+    {
+      "check": "17: MSE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "17: MAE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "17: native score arithmetic",
+      "passed": true
+    },
+    {
+      "check": "17: channel RMSE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "17: complete epoch log",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 1 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 2 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 3 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 4 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 5 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 6 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 7 selection",
+      "passed": true
+    },
+    {
+      "check": "17: epoch 8 selection",
+      "passed": true
+    },
+    {
+      "check": "17: selected checkpoint",
+      "passed": true
+    },
+    {
+      "check": "17: complete epoch count",
+      "passed": true
+    },
+    {
+      "check": "17: stopping disclosed",
+      "passed": true
+    },
+    {
+      "check": "17: parameter count",
+      "passed": true
+    },
+    {
+      "check": "17: exact checkpoint replay",
+      "passed": true
+    },
+    {
+      "check": "17: evaluation preserves fitted state",
+      "passed": true
+    },
+    {
+      "check": "42: score identity",
+      "passed": true
+    },
+    {
+      "check": "42: weight identity",
+      "passed": true
+    },
+    {
+      "check": "42: target identity",
+      "passed": true
+    },
+    {
+      "check": "42: raw-row identity",
+      "passed": true
+    },
+    {
+      "check": "42: full coverage",
+      "passed": true
+    },
+    {
+      "check": "42: finite predictions",
+      "passed": true
+    },
+    {
+      "check": "42: score arithmetic",
+      "passed": true
+    },
+    {
+      "check": "42: MSE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "42: MAE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "42: native score arithmetic",
+      "passed": true
+    },
+    {
+      "check": "42: channel RMSE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "42: complete epoch log",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 1 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 2 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 3 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 4 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 5 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 6 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 7 selection",
+      "passed": true
+    },
+    {
+      "check": "42: epoch 8 selection",
+      "passed": true
+    },
+    {
+      "check": "42: selected checkpoint",
+      "passed": true
+    },
+    {
+      "check": "42: complete epoch count",
+      "passed": true
+    },
+    {
+      "check": "42: stopping disclosed",
+      "passed": true
+    },
+    {
+      "check": "42: parameter count",
+      "passed": true
+    },
+    {
+      "check": "42: exact checkpoint replay",
+      "passed": true
+    },
+    {
+      "check": "42: evaluation preserves fitted state",
+      "passed": true
+    },
+    {
+      "check": "2026: score identity",
+      "passed": true
+    },
+    {
+      "check": "2026: weight identity",
+      "passed": true
+    },
+    {
+      "check": "2026: target identity",
+      "passed": true
+    },
+    {
+      "check": "2026: raw-row identity",
+      "passed": true
+    },
+    {
+      "check": "2026: full coverage",
+      "passed": true
+    },
+    {
+      "check": "2026: finite predictions",
+      "passed": true
+    },
+    {
+      "check": "2026: score arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026: MSE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026: MAE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026: native score arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026: channel RMSE arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026: complete epoch log",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 1 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 2 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 3 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 4 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 5 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 6 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 7 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: epoch 8 selection",
+      "passed": true
+    },
+    {
+      "check": "2026: selected checkpoint",
+      "passed": true
+    },
+    {
+      "check": "2026: complete epoch count",
+      "passed": true
+    },
+    {
+      "check": "2026: stopping disclosed",
+      "passed": true
+    },
+    {
+      "check": "2026: parameter count",
+      "passed": true
+    },
+    {
+      "check": "2026: exact checkpoint replay",
+      "passed": true
+    },
+    {
+      "check": "2026: evaluation preserves fitted state",
+      "passed": true
+    }
+  ],
+  "replay": [
+    {
+      "seed": 17,
+      "exact_predictions": true,
+      "targets": 2048
+    },
+    {
+      "seed": 42,
+      "exact_predictions": true,
+      "targets": 2048
+    },
+    {
+      "seed": 2026,
+      "exact_predictions": true,
+      "targets": 2048
+    }
+  ],
+  "wall_seconds": 5.15493883297313,
+  "source_sha256": "5911d97907eb827ab4245a0dffb71e1adaf50556a01f0b5f178891c17af40b35",
+  "freeze_sha256": "629dd714528bacc18569a9c38ba04307ac35adbe794aa5e9c5a29b2dd4218c95",
+  "summary_sha256": "acd216a531a42fe438552675b34df8c9f26ad7ad70f901180e47d96a90427664",
+  "seal_sha256": "8dd7b200e58397fd4aa075024e2c8b802d5ca0ba968d7f40ba9a3c2aa6f19ee9"
+}

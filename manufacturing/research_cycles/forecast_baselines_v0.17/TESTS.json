@@ -1,0 +1,25 @@
+{
+  "scope": "synthetic only",
+  "methods": {
+    "ModernTCN": {
+      "passed": true,
+      "parameters": 173861
+    },
+    "iTransformer": {
+      "passed": true,
+      "parameters": 817153
+    },
+    "TimeMixer": {
+      "passed": true,
+      "parameters": 58033
+    }
+  },
+  "checks": [
+    "past-only alignment",
+    "finite forward/backward",
+    "no eval mutation",
+    "exact reload parity"
+  ],
+  "pip_check": "No broken requirements found",
+  "command": ".venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/test_adapter.py METHOD"
+}

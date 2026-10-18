@@ -1,0 +1,1992 @@
+{
+  "utc": "2026-10-18T07:17:19.646028+00:00",
+  "scope": "Same-assistant integrity and arithmetic checks, not independent scientific replication",
+  "passed": true,
+  "checks": 495,
+  "pages": 15,
+  "conclusion_words": 183,
+  "pdf_sha256": "7340da1c62f2c894f0e6a64d63f9d4c56adb62595ff61015fa7f60703331716e",
+  "underfull_diagnostics": 7,
+  "details": [
+    {
+      "check": "preserved base-manifest identity",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: local/manuscript_arx_rbf_v1.5/completed_handoff/AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: local/manuscript_arx_rbf_v1.5/completed_handoff/STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: local/manuscript_arx_rbf_v1.5/completed_handoff/docs/TITLE_OPTIONS_V1.4.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: local/manuscript_arx_rbf_v1.5/completed_handoff/docs/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/ASSET_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/BASE_IDENTITY.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/CLAIM_LEDGER.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/MAIN_BUILD_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/README.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/REFERENCE_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/REFERENCE_INDEX.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/SOURCE_ARCHIVE.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/VISUAL_QA.json",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/audit.py",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/main.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/references.bib",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/references.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: manuscript_arx_rbf_v1.5/sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: output/ARX-RBF-Muhammad-Usman-v1.5-latex.zip",
+      "passed": true
+    },
+    {
+      "check": "manuscript_arx_rbf_v1.5/PACKAGE_MANIFEST.json: output/pdf/ARX-RBF-Muhammad-Usman-v1.5.pdf",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_001/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_001/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold1_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold1_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold2_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold2_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold3_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold3_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold4_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold4_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold4_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold4_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold5_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold5_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold5_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q1_fold5_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold1_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold1_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold2_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold2_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold3_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold3_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold4_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold4_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold4_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold4_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold5_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold5_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold5_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q2_fold5_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold1_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold1_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold2_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold2_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold3_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold3_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold4_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold4_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold4_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold4_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold5_base.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold5_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold5_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/Q3_fold5_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: local/fivefold_v0.16/runs/validation_002/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/REPAIR_FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/TESTS.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/core.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/resume.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/fivefold_v0.16/PACKAGE_MANIFEST.json: research_cycles/fivefold_v0.16/verify.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/exp/exp_ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/exp/exp_classification.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-classification/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/exp/exp_anomaly_detection.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/metrics_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-detection/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/exp/exp_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/layers/RevIN_mask.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/metrics_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-imputation/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/exp/exp_short_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/ModernTCN/ModernTCN-short-term/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/exp_anomaly_detection.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/exp_classification.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/exp_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/exp_long_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/exp/exp_short_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/AutoCorrelation.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/Autoformer_EncDec.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/Conv_Blocks.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/DWT_Decomposition.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/Embed.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/FourierCorrelation.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/SelfAttention_Family.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/StandardNorm.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/Transformer_EncDec.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/layers/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/models/TimeMixer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/models/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/data_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/TimeMixer/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/experiments/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/experiments/exp_long_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/experiments/exp_long_term_forecasting_partial.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/layers/Embed.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/layers/SelfAttention_Family.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/layers/Transformer_EncDec.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/layers/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/Flashformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/Flowformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/Informer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/Reformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/Transformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/iFlashformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/iFlowformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/iInformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/iReformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/model/iTransformer.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/utils/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: baselines/vendor/iTransformer/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/casper_convergence_v0.11/runs/pilot_001/prepared.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/CAMPAIGN.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/ModernTCN/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/TimeMixer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/full_001/iTransformer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/CAMPAIGN.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/ModernTCN/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/TimeMixer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/access.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: local/forecast_baselines_v0.17/pilot_001/iTransformer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/casper_convergence_v0.11/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/HARDWARE.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/PILOT_REPORT.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/RUN_AUTHORIZATION.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/TESTS.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/VERIFICATION_ModernTCN.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/VERIFICATION_TimeMixer.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/VERIFICATION_iTransformer.json",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/adapter.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/report.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/requirements-macos-arm64.txt",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/run.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/test_adapter.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/verify.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: research_cycles/forecast_baselines_v0.17/worker.py",
+      "passed": true
+    },
+    {
+      "check": "research_cycles/forecast_baselines_v0.17/PACKAGE_MANIFEST.json: src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior scientific asset generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior source sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior source sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior source sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior source sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved prior source references.bib",
+      "passed": true
+    },
+    {
+      "check": "five-fold verification passed",
+      "passed": true
+    },
+    {
+      "check": "five-fold table row 1",
+      "passed": true
+    },
+    {
+      "check": "five-fold table row 2",
+      "passed": true
+    },
+    {
+      "check": "five-fold table row 3",
+      "passed": true
+    },
+    {
+      "check": "five-fold table row 4",
+      "passed": true
+    },
+    {
+      "check": "five-fold table row 5",
+      "passed": true
+    },
+    {
+      "check": "complete verified forecast study",
+      "passed": true
+    },
+    {
+      "check": "forecast generation source bound",
+      "passed": true
+    },
+    {
+      "check": "forecast table bound",
+      "passed": true
+    },
+    {
+      "check": "forecast table row ModernTCN17",
+      "passed": true
+    },
+    {
+      "check": "forecast table row ModernTCN42",
+      "passed": true
+    },
+    {
+      "check": "forecast table row ModernTCN2026",
+      "passed": true
+    },
+    {
+      "check": "forecast table row iTransformer17",
+      "passed": true
+    },
+    {
+      "check": "forecast table row iTransformer42",
+      "passed": true
+    },
+    {
+      "check": "forecast table row iTransformer2026",
+      "passed": true
+    },
+    {
+      "check": "forecast table row TimeMixer17",
+      "passed": true
+    },
+    {
+      "check": "forecast table row TimeMixer42",
+      "passed": true
+    },
+    {
+      "check": "forecast table row TimeMixer2026",
+      "passed": true
+    },
+    {
+      "check": "compiled source audit.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source integrate_forecasts.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source main.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source package.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source references.bib",
+      "passed": true
+    },
+    {
+      "check": "compiled source references.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "PDF hash",
+      "passed": true
+    },
+    {
+      "check": "at most 15 pages",
+      "passed": true
+    },
+    {
+      "check": "selected title metadata",
+      "passed": true
+    },
+    {
+      "check": "sole requested author metadata",
+      "passed": true
+    },
+    {
+      "check": "requested visible byline",
+      "passed": true
+    },
+    {
+      "check": "no build issue Overfull",
+      "passed": true
+    },
+    {
+      "check": "no build issue undefined",
+      "passed": true
+    },
+    {
+      "check": "no build issue Missing character",
+      "passed": true
+    },
+    {
+      "check": "no build issue ! LaTeX Error",
+      "passed": true
+    },
+    {
+      "check": "20 references and complete citation match",
+      "passed": true
+    },
+    {
+      "check": "bibliography recency count preserved",
+      "passed": true
+    },
+    {
+      "check": "no obsolete no-transformer statement",
+      "passed": true
+    },
+    {
+      "check": "stopping types disclosed",
+      "passed": true
+    },
+    {
+      "check": "retrospective validation disclosed",
+      "passed": true
+    },
+    {
+      "check": "negative attack result preserved",
+      "passed": true
+    },
+    {
+      "check": "unexecuted MVT-Flow distinguished",
+      "passed": true
+    },
+    {
+      "check": "AI assistance disclosure preserved",
+      "passed": true
+    },
+    {
+      "check": "expanded concise conclusion",
+      "passed": true
+    }
+  ]
+}

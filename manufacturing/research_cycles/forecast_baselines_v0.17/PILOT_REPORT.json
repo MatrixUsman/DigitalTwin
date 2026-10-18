@@ -1,0 +1,198 @@
+{
+  "scope": "author-code compatibility pilots on already-exposed normal development; not benchmark convergence",
+  "passed": true,
+  "checks": 33,
+  "rows": [
+    {
+      "method": "ModernTCN",
+      "cpu_seconds": 37.425861000000005,
+      "epochs": 1,
+      "history": [
+        {
+          "cpu_seconds": 33.323864,
+          "development_mse": 0.060777319763621634,
+          "epoch": 1,
+          "selected": true,
+          "training_mse_during_updates": 0.23891508152883034
+        }
+      ],
+      "native_channel_rmse": [
+        0.31088659964772314,
+        0.6366413168807368,
+        0.04150009180200244,
+        6.249125254991295,
+        1.9489507527207146,
+        4.2578801241930035,
+        1.2227515604618873,
+        3.5322946901839067,
+        4.454637217049706
+      ],
+      "parameters": 173861,
+      "scores_sha256": "5bdf378d140fea87772d39d96fcb7e07ae7d85ab4fcc2d4d5f2fb6ef5e03ac53",
+      "seed": 17,
+      "selected_epoch": 1,
+      "standardized_mae": 0.15263439932147405,
+      "standardized_mse": 0.060777319763621634,
+      "stopping_reason": "declared_cpu_admission",
+      "targets": 2048,
+      "wall_seconds": 37.70617029198911,
+      "weights_sha256": "ca8268c05e2b36a34d8b1cb907447e76759a3330d6bbdac5a3c30b7f2d20bab0",
+      "supervisor": {
+        "attempts": 1,
+        "limits": {
+          "cpu_seconds": 90,
+          "output_bytes": 52428800,
+          "poll_seconds": 0.25,
+          "rss_bytes": 1073741824,
+          "wall_seconds": 120
+        },
+        "maximum_rss_poll_start_gap_seconds": 0.25117491697892547,
+        "output_bytes": 889689,
+        "parent_reserve_bytes": 1048576,
+        "reason": "completed",
+        "returncode": 0,
+        "rss_is_instantaneous_ceiling": false,
+        "rss_samples": 156,
+        "rss_source": "/bin/ps rss (1024-byte units)",
+        "sampled_peak_rss_bytes": 334839808,
+        "status": "completed",
+        "wall_seconds": 39.12629691697657,
+        "worker_log_bytes": 55,
+        "worker_usage": null,
+        "worker_usage_note": "caller must attach worker getrusage receipt when available"
+      }
+    },
+    {
+      "method": "iTransformer",
+      "cpu_seconds": 59.103593999999994,
+      "epochs": 2,
+      "history": [
+        {
+          "cpu_seconds": 26.726802,
+          "development_mse": 0.058232211343620666,
+          "epoch": 1,
+          "selected": true,
+          "training_mse_during_updates": 0.1671917070634663
+        },
+        {
+          "cpu_seconds": 27.103967000000004,
+          "development_mse": 0.031622998497955836,
+          "epoch": 2,
+          "selected": true,
+          "training_mse_during_updates": 0.07394770422979491
+        }
+      ],
+      "native_channel_rmse": [
+        0.23834502125793333,
+        0.45106730146413254,
+        0.03285573924632288,
+        4.1633272375135215,
+        1.3662806433337782,
+        3.1822399785614706,
+        0.9131396585707549,
+        2.1294803123486497,
+        2.5667327673478475
+      ],
+      "parameters": 817153,
+      "scores_sha256": "e74ee8ff153dff704be95f0c81c3b7b8132726bad8a204eae8db5538f358dc62",
+      "seed": 17,
+      "selected_epoch": 2,
+      "standardized_mae": 0.10017017933376035,
+      "standardized_mse": 0.031622998497955836,
+      "stopping_reason": "maximum_epochs",
+      "targets": 2048,
+      "wall_seconds": 59.34834454092197,
+      "weights_sha256": "e2cd270d4c7381755b57d447be4d5cf5e810ce88a00517cd925585e088c6f84a",
+      "supervisor": {
+        "attempts": 1,
+        "limits": {
+          "cpu_seconds": 90,
+          "output_bytes": 52428800,
+          "poll_seconds": 0.25,
+          "rss_bytes": 1073741824,
+          "wall_seconds": 120
+        },
+        "maximum_rss_poll_start_gap_seconds": 0.2511384169338271,
+        "output_bytes": 3439249,
+        "parent_reserve_bytes": 1048576,
+        "reason": "completed",
+        "returncode": 0,
+        "rss_is_instantaneous_ceiling": false,
+        "rss_samples": 241,
+        "rss_source": "/bin/ps rss (1024-byte units)",
+        "sampled_peak_rss_bytes": 312770560,
+        "status": "completed",
+        "wall_seconds": 60.264788041007705,
+        "worker_log_bytes": 118,
+        "worker_usage": null,
+        "worker_usage_note": "caller must attach worker getrusage receipt when available"
+      }
+    },
+    {
+      "method": "TimeMixer",
+      "cpu_seconds": 34.678793,
+      "epochs": 2,
+      "history": [
+        {
+          "cpu_seconds": 16.724154000000002,
+          "development_mse": 0.05281230466580741,
+          "epoch": 1,
+          "selected": true,
+          "training_mse_during_updates": 0.1502086227410473
+        },
+        {
+          "cpu_seconds": 16.010804999999998,
+          "development_mse": 0.02619521075453542,
+          "epoch": 2,
+          "selected": true,
+          "training_mse_during_updates": 0.04042125724663492
+        }
+      ],
+      "native_channel_rmse": [
+        0.21114610411796841,
+        0.4051107822300793,
+        0.02733463092932318,
+        3.269111049343896,
+        1.1705941259335433,
+        2.666853550976144,
+        0.9266119100503655,
+        2.673212509352562,
+        3.9360675209977214
+      ],
+      "parameters": 58033,
+      "scores_sha256": "ba913adb5a713f3b06a29e44082412e895eec013d1d50e0cf7df0c934c2abf5f",
+      "seed": 17,
+      "selected_epoch": 2,
+      "standardized_mae": 0.10826207060872796,
+      "standardized_mse": 0.02619521075453542,
+      "stopping_reason": "maximum_epochs",
+      "targets": 2048,
+      "wall_seconds": 34.884704916970804,
+      "weights_sha256": "6d4eb350b320b9243492c7076211438e7256f987e441a0882fed56ba78a40442",
+      "supervisor": {
+        "attempts": 1,
+        "limits": {
+          "cpu_seconds": 90,
+          "output_bytes": 52428800,
+          "poll_seconds": 0.25,
+          "rss_bytes": 1073741824,
+          "wall_seconds": 120
+        },
+        "maximum_rss_poll_start_gap_seconds": 0.2511807919945568,
+        "output_bytes": 735961,
+        "parent_reserve_bytes": 1048576,
+        "reason": "completed",
+        "returncode": 0,
+        "rss_is_instantaneous_ceiling": false,
+        "rss_samples": 143,
+        "rss_source": "/bin/ps rss (1024-byte units)",
+        "sampled_peak_rss_bytes": 486998016,
+        "status": "completed",
+        "wall_seconds": 35.79845533403568,
+        "worker_log_bytes": 112,
+        "worker_usage": null,
+        "worker_usage_note": "caller must attach worker getrusage receipt when available"
+      }
+    }
+  ]
+}

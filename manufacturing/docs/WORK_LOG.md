@@ -1249,3 +1249,56 @@ pdftoppm -r 110 -png manufacturing/output/pdf/ARX-RBF-Muhammad-Usman-v1.5.pdf ma
 ```
 
 Refreshed project status, instructions and title-choice record. No training, simulation, raw-data access, system-package modification, external contact, publishing, Git write or sibling-project mutation. Scientific findings and human-approval requirements are unchanged. Next bounded editorial action: author/teacher review of this selected-title version. Scientific next action remains the separately scoped voraus-AD/MVT-Flow permitted-feature/split and implementation contract before a compatibility pilot.
+
+
+### 2026-10-18 — MFG-048 — Five-fold validation and recent author-code execution, progress record
+
+The user clarified that “fivefold” means five-fold cross-validation, requested a longer conclusion and recent comparison papers, then explicitly requested executing the recent methods. Applied the academic-research-suite experiment/writing workflows inline and the PDF skill. No multi-agent or independent-review claim is made.
+
+Completed `research_cycles/fivefold_v0.16/`: five expanding chronological folds on nine existing synthetic commissioning episodes, three plants, 15 plant–fold fits and 4,500 targets per method. All five synthetic tests and 109 saved-artifact checks pass. ARX–RBF improves pooled RMSE in two of five folds and five of fifteen plant–fold pairs. This is retrospective normal-only validation with settings selected in previous development, not nested validation or new attack confirmation. `RESULTS.md` and the 80-binding package preserve the exact boundaries, coefficients and failures. The first process-monitor-denied attempt and unchanged-code resumption remain visible; no raw data or new final outcomes were opened.
+
+Prepared `research_cycles/forecast_baselines_v0.17/` for ModernTCN, iTransformer and TimeMixer using unmodified official model sources at pinned commits, a separate `.venv-forecast-v016/`, and the original sealed v0.11 normal IMU prepared arrays. Three synthetic model tests and 33 pilot-artifact checks passed. Each model receives the same 8,192 training and 2,048 development targets; architectures use 96 historical points. This is author-code execution under a modified forecasting protocol, not a reproduction of published attack results. MVT-Flow remains a separate unexecuted offline track.
+
+The user responded “what u reccommend do it” to the concrete 30-minute wall / 24-minute CPU / 1 GiB sampled RSS / 150 MiB total output, no-paid-compute proposal. Recommended and started that exact frozen study; `RUN_AUTHORIZATION.json` binds the authorization to `FREEZE.json`. The full command from `/Users/matrixusman/CUI/DigitalTwin/manufacturing` is:
+
+```sh
+.venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/run.py --phase full
+```
+
+At this progress entry ModernTCN has completed all three seeds and iTransformer is running. No full-campaign completion is asserted yet. Per-seed CPU admission is 150 seconds; all seeds and stopping reasons must be reported. ModernTCN remains improving at its budget stop. No architecture or learning-rate change followed the pilots. The system process monitor required sandbox escalation; it was allowed, not rejected.
+
+Created an unsealed `manuscript_arx_rbf_v1.6/` working revision preserving the sealed v1.5 package. Added measured five-fold methods/results, explicit recent-method execution labels, and an expanded conclusion. The current draft PDF is provisional until the study, arithmetic/checkpoint verification, final layout and all-page visual inspection complete. No manuscript submission or publication occurred. Next: finish the declared runs, verify saved artifacts and checkpoints, incorporate every outcome, then build and seal the single-paper revision.
+
+
+### 2026-10-18 — MFG-049 — Approved author-code study completed; integrated revision 1.6
+
+Completed the exact approved full command recorded in MFG-048. All three methods and seeds 17, 42 and 2026 finished once, without a failed scientific run or post-pilot configuration change. ModernTCN completed four epochs per seed; iTransformer five; TimeMixer eight. All nine stopped at the declared CPU admission limit. The selected epochs, every epoch loss, all checkpoints and scores remain recorded; no convergence or favorable-seed claim is made.
+
+Measured standardized normal-development MSE ranges are ModernTCN 0.012207–0.013543, iTransformer 0.020031–0.023680, and TimeMixer 0.011629–0.015218. All runs cover the same 2,048 targets. The existing AR(4) control remains lower at 0.006074, under its separately disclosed history/fitting procedure. These measurements do not establish an attack-detection ranking, full paper reproduction or general architectural superiority.
+
+The full campaign used **1208.167 seconds wall, 1199.209 seconds summed worker CPU, 521.44 MiB maximum sampled RSS and 14.48 MiB monitored outputs**. Every approved cap was respected. A read-only hardware refresh records Apple M5 Pro, 18 logical processors and 24 GB RAM; machine serial/UUID values are omitted from the saved receipt. Each model used one Torch CPU thread. No paid compute was used. The only new environment is `.venv-forecast-v016/`; its dependency lock matches actual worker provenance.
+
+All **294 saved-artifact and exact checkpoint-replay checks** pass. Every saved model reproduces all saved predictions exactly, with fitted state unchanged during evaluation. Checks also cover source hashes, configurations, licenses/revisions, actual dependencies, target/raw-row identity, finite coverage, MSE/MAE/native-score arithmetic, checkpoint selection and resource accounting. The three pre-run synthetic model tests and 33 pilot checks remain separate. The 264-binding v0.17 package manifest is `36ee858da74aa92bfce0fa56844135c0086a55146eb325a5975ebda1f151c065`. The 80-binding five-fold package and all prior scientific/manuscript packages remain unchanged. Verification performs inference only; the training command is consumed and refuses to overwrite its output directory.
+
+Created the completed **15-page single-paper revision 1.6**, retaining the selected ARX–RBF title and requested Muhammad Usman byline. Added the full nine-run recent-author-code table, training details/costs, chronological five-fold methods/results, explicit publication/execution correspondence and a 183-word conclusion. There are 20 references (18 cited versions in 2024–2026), seven plotted figures, all existing attack outcomes and in-paper supporting sections. No separate supplement. The failed primary attack-improvement criterion, unsupported short-window effect, disclosure and pending human approval remain explicit. No new simulated or real attack outcome was opened.
+
+Final PDF: `output/pdf/ARX-RBF-Muhammad-Usman-v1.6.pdf`, 276,192 bytes, SHA-256 `7340da1c62f2c894f0e6a64d63f9d4c56adb62595ff61015fa7f60703331716e`. The final audit passes **495 checks**. All 15 pages were visually inspected; after final table-spacing/caption adjustment, pages 8–9 were re-inspected and the other 13 page images are identical. No overfull boxes, unresolved citations or missing glyphs remain; seven underfull diagnostics were visually acceptable. All previous table/figure data and core methods/metrics/derivations are unchanged.
+
+Preserved failures and repairs: the v0.16 monitor-denied run and separately frozen infrastructure repair are documented in its report. Initial package installation encountered sandbox DNS failure; installation into the new environment succeeded after network permission. Full author-code runs had no failures. Editorial builds 004 and 005 were 16 pages and failed only the page-cap audit. Build 006 could not find an uncached 9-point font; using available font resources at 9.6 points completed offline, without a system installation. Repeated prose and spacing were tightened without deleting results or references. `LAYOUT_HISTORY.json` and all build attempts preserve these events. No automated approval rejection occurred.
+
+Commands from `/Users/matrixusman/CUI/DigitalTwin/manufacturing`, in addition to the consumed training command in MFG-048:
+
+```sh
+.venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/verify.py --method ModernTCN
+.venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/verify.py --method iTransformer
+.venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/verify.py --method TimeMixer
+.venv-forecast-v016/bin/python research_cycles/forecast_baselines_v0.17/report.py
+.venv-reproduction-v02/bin/python manuscript_arx_rbf_v1.6/integrate_forecasts.py
+.venv-reproduction-v02/bin/python manuscript_arx_rbf_v1.6/build_pdf.py --document main
+.venv-pdf/bin/python manuscript_arx_rbf_v1.6/audit.py
+pdftoppm -r 110 -png output/pdf/ARX-RBF-Muhammad-Usman-v1.6.pdf local/manuscript_arx_rbf_v1.6/render_008/page
+```
+
+The source archive and final manuscript manifest are generated after this handoff, with actual CRC/byte/dependency checks in `SOURCE_ARCHIVE.json`. This is same-assistant verification, not independent peer review. No original voraus-AD process signals or test outcomes, raw CASPER data, calibration/test attacks, water or grid data were opened in this task. No dataset upload, external message, publication, Git staging/commit/push or sibling-project mutation occurred. Existing index entries were left untouched.
+
+**Next bounded action:** author/teacher review of the actual new comparisons. A larger training study would need a concrete convergence/resource proposal and approval; the current budget-limited runs cannot settle architecture superiority. The separate scientific route remains the voraus-AD/MVT-Flow permitted-feature/split and implementation-correspondence contract before a bounded compatibility pilot. Do not consume its original test or redesign from exposed attack outcomes without a new protocol. A worthwhile distinct contribution and human submission approval remain unresolved.

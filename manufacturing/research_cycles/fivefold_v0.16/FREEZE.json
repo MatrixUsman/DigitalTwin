@@ -1,0 +1,69 @@
+{
+  "utc": "2026-10-18T06:42:55.560647+00:00",
+  "sources": {
+    "research_cycles/fivefold_v0.16/run.py": "36f5ad6e766947fafd563bb13661242ac2533f94c4917c800f759cc1444c6938",
+    "research_cycles/fivefold_v0.16/test_core.py": "db7e0a57195f6ba63bcafc78edfbdcdceede824b07050e75aff7652f3b535382",
+    "research_cycles/fivefold_v0.16/core.py": "9a6e3246935060d0bd9bfbce1394581bd775f41f9a984e99a257d88ad81609b0",
+    "research_cycles/fivefold_v0.16/PLAN.md": "45872a69b0c23be98d7ff3e63d6e262e56f6e4a02a7a1370b9e7f24be0765460",
+    "research_cycles/fivefold_v0.16/TESTS.json": "7f2c93506311b6a631afde3af00aee2021704acb012ef1ea6b715e662eff28fa",
+    "research_cycles/commissioning_v0.9/models.py": "1272ea5ec4fcf789a79846106be4ff295b221855468ad58fe3dfe2b4a1e3e2d8",
+    "research_cycles/residual_twin_v0.13/model.py": "adf8fb95d252ecb02be9226dc9d6efd7d2ba27e6699a84e2bf8dffea323bfd2d",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3"
+  },
+  "inputs": {
+    "local/recovery_v0.8/runs/confirmation_002/train_Q1_0.npz": "8353eef5c4bfe0959c32ff0036c5fe0376b79d7baa53846caf24c8a083776bd8",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q1_1.npz": "2e759a9f2b709738d78f387c8e2e1d9e8dca7cbaaf37718eb19599387b5e7e67",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q1_2.npz": "93d60afb11b1df0601710801169ee758a694332ba09b0f170fc6292f705aa3be",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q2_0.npz": "b19977248641fa4505202a63efec416efa109567e0a2930e991bf09183902b8b",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q2_1.npz": "516039426b6f36c5cbfc4ccda4a79310de0f070899b59444f3fc4f5f9eb4ddc2",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q2_2.npz": "31d7330032fac19dd4dd67b266edc4fa4fd437e23fd0a984a7f6ac3ceee9a329",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q3_0.npz": "707e9c916db22a3ea20568701d214ba291a05ca22f6d5ed3ba18150902d141b4",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q3_1.npz": "534489111ed1b1b39060de52675a69315d24816e2cb75c306fa85b139bf811a6",
+    "local/recovery_v0.8/runs/confirmation_002/train_Q3_2.npz": "6021bc56c48be53467d748475c193fab5d5f042929ec7a9ae82b3c2c4879f5e5",
+    "local/residual_twin_v0.13/runs/pilot_001/selection.json": "ca8676ffd6ef5fd69e715eead3424b66a6aea36cff5190653abe111ad145e5c8",
+    "research_cycles/recovery_v0.8/FREEZE.json": "86685c3c3dd209ff93f29422fe3f521dc8798556681dae5fd04de81ce8f7234b"
+  },
+  "limits": {
+    "wall_seconds": 120,
+    "cpu_seconds": 90,
+    "rss_bytes": 1073741824,
+    "output_bytes": 52428800
+  },
+  "configuration": {
+    "folds": 5,
+    "block": 200,
+    "warmup": 100,
+    "orders": [
+      8,
+      16,
+      32
+    ],
+    "arx_ridge": 1e-07,
+    "rbf_centers": 32,
+    "widths": [
+      1,
+      0.5,
+      1
+    ],
+    "rbf_ridges": [
+      0.01,
+      0.001,
+      0.001
+    ],
+    "selection": "fixed historical settings; retrospective normal development",
+    "thresholds": null,
+    "attacks": false
+  },
+  "hardware": {
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "logical_cpu_count": 18,
+    "cpu_model_and_ram": "sysctl refresh denied by sandbox; not inferred",
+    "prior_record": "research_cycles/residual_twin_v0.13/HARDWARE.json"
+  },
+  "git_revision": "c64f91f09a86964a7b70a5424aa9fcb975f830ca",
+  "git_status": "?? manufacturing/research_cycles/fivefold_v0.16/\n",
+  "pre_execution_failures": [
+    "Hardware sysctl denied before freeze writing. Subsequent runner entry failed on missing freeze before creating an output directory or launching any worker. Repaired metadata collection only; no scientific run repeated."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "resume_sha256": "c15a0f74d9f18b5f3343f066407ff9f6c2a7f04e8e984a197b86e4d065810f34",
+  "original_freeze_sha256": "71591e470fc2d88a79a3f930fe70cba94cc030872d0c5d802df51859b1f3f4b9",
+  "failure_receipt_sha256": "287d5adfee78d54f47e49f72990219b759d94993041c676a4f64ed9be97d403a",
+  "reason": "Sandbox denied /bin/ps before any scientific output. Preserve attempt and resume identical frozen worker with required process-monitor permission in new directory. No scientific setting changed."
+}
