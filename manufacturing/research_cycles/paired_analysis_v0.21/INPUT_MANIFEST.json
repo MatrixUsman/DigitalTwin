@@ -1,0 +1,47 @@
+{
+  "scope": "Post-final descriptive saved-outcome analysis, no selection or new experiment",
+  "files": {
+    "outcomes.json": {
+      "original_path": "local/context_recovery_v0.19/final_001/outcomes.json",
+      "sha256": "19df9960e668f5a0564e250655ae4486da7e129011f6b65c2c5e3275ac63754b",
+      "bytes": 2756846,
+      "synthetic_outcomes_or_source": true
+    },
+    "results.json": {
+      "original_path": "local/context_recovery_v0.19/final_001/results.json",
+      "sha256": "c96bb96a36b760fb77825b28b24d97ab55bc491c15162f8de41abe6f4506371b",
+      "bytes": 210785,
+      "synthetic_outcomes_or_source": true
+    },
+    "catalog.json": {
+      "original_path": "local/context_recovery_v0.19/final_001/catalog.json",
+      "sha256": "cf7d3dd672222c9bfb14a89adce2902404d5c81925468ce6ca722fcb7ce627ca",
+      "bytes": 44427,
+      "synthetic_outcomes_or_source": true
+    },
+    "config.json": {
+      "original_path": "research_cycles/context_recovery_v0.19/config.json",
+      "sha256": "4280fc46946d32e4fb283cb24000320fc722155c26eb925e509a1c1a40b1a03d",
+      "bytes": 955,
+      "synthetic_outcomes_or_source": true
+    },
+    "evaluation.py": {
+      "original_path": "research_cycles/attack_audit_v0.14/evaluation.py",
+      "sha256": "b5f5058b6f373fdc7daf725c36fd5d8ca8f488d043035ded28d0b350ace5cc85",
+      "bytes": 5413,
+      "synthetic_outcomes_or_source": true
+    },
+    "mechanism19.py": {
+      "original_path": "research_cycles/context_recovery_v0.19/mechanism19.py",
+      "sha256": "336555c9eadc3b32526ff8302a19532a264ca09a8d1ebe9b05026996d52732f9",
+      "bytes": 7709,
+      "synthetic_outcomes_or_source": true
+    },
+    "CLEAN_EXTRACTION_RECEIPT.json": {
+      "original_path": "reproducibility_v1.7/CLEAN_EXTRACTION_RECEIPT.json",
+      "sha256": "4c640ddb1d3104478cc2a503edb74f2086e08c3f017dd587ae1e632122a77aa5",
+      "bytes": 3516,
+      "synthetic_outcomes_or_source": true
+    }
+  }
+}

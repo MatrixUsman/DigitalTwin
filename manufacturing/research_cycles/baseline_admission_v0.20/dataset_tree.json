@@ -1,0 +1,230 @@
+[
+  {
+    "type": "directory",
+    "oid": "2569a79c6b7255620e80faa6b2113b8704f2ffa0",
+    "size": 0,
+    "path": "g1_mimic_dance102"
+  },
+  {
+    "type": "directory",
+    "oid": "473169293845419495d13774474e27cd838a1a23",
+    "size": 0,
+    "path": "g1_mimic_gangnam"
+  },
+  {
+    "type": "directory",
+    "oid": "ecb0bbdfba51bb3dc23be4340ee1f4e2b46ceac4",
+    "size": 0,
+    "path": "g1_velocity"
+  },
+  {
+    "type": "directory",
+    "oid": "7e5db837641415a5da74df003336dd56650b71c8",
+    "size": 0,
+    "path": "g1_velocity_real"
+  },
+  {
+    "type": "file",
+    "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+    "size": 2504,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "8f277968b732b8c821a66605ad439da9046f7d04",
+    "size": 7728,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "c395d1d86ec28de7c17799ae28c3d6a7a33fcc04",
+    "size": 226039630,
+    "lfs": {
+      "oid": "a5bee40517ae8ce32440252f6c84d8fd362fd475d4b09d02dd08112c53f2cfe7",
+      "size": 226039630,
+      "pointerSize": 134
+    },
+    "xetHash": "e27af5ba3bcbf6e29f6fc8dd1e134e5b1e30a190e68d6b6f895c22ff57e1f457",
+    "path": "g1_mimic_dance102/calibration.npz"
+  },
+  {
+    "type": "file",
+    "oid": "7785b1510318f1f1b3bacb73eb83e967998b5f79",
+    "size": 578,
+    "path": "g1_mimic_dance102/metadata.json"
+  },
+  {
+    "type": "file",
+    "oid": "bec24e3313e6dfe0cf92c28ccaff86a6cccea5b7",
+    "size": 494202781,
+    "lfs": {
+      "oid": "ed1f6bd1bbb646b9fcb89ed65e96a206351e87c625a14d497350910ec3b4bc39",
+      "size": 494202781,
+      "pointerSize": 134
+    },
+    "xetHash": "87d9b01a2751e3b5a89b636701e3ea579ac20abd1eee701a99da3f4ff3f34835",
+    "path": "g1_mimic_dance102/test.npz"
+  },
+  {
+    "type": "file",
+    "oid": "c3954cbef9df28a314a409d59533d642c07b6db7",
+    "size": 423580019,
+    "lfs": {
+      "oid": "815a234d60865745355f7e53ca03f574c4a3539251e1e43442ec6d875643f8ab",
+      "size": 423580019,
+      "pointerSize": 134
+    },
+    "xetHash": "9146c9ea775e5eeec7170e9f79628f597f7ebb52be55f716481e0d4db8441810",
+    "path": "g1_mimic_dance102/train.npz"
+  },
+  {
+    "type": "file",
+    "oid": "6f129a01724f280f7c21c7b5a0d9d542cff338b2",
+    "size": 105825024,
+    "lfs": {
+      "oid": "fca7de1782b9ac211641c8fbca2d781a48ba4a8aea23780e1228a19ffb28614c",
+      "size": 105825024,
+      "pointerSize": 134
+    },
+    "xetHash": "0961a7f1f151f2b097ac18721d7b141c23994b91d49fb7dbb63ff5b1f46b5c41",
+    "path": "g1_mimic_dance102/train_small.npz"
+  },
+  {
+    "type": "file",
+    "oid": "f83e58b9561c5ac45c428211f6494b9d83b9ae6e",
+    "size": 208834247,
+    "lfs": {
+      "oid": "b54c7321da926975c15f88597179b4146b7c91292fb7dd5f1b1c77d702adf045",
+      "size": 208834247,
+      "pointerSize": 134
+    },
+    "xetHash": "86257c466e0c1d0afdf92128a2c5d75d763292b84f980d01ed3bbf96020e9ff7",
+    "path": "g1_mimic_gangnam/calibration.npz"
+  },
+  {
+    "type": "file",
+    "oid": "4e24a05718822165498fae47f2ea0c7caa64c43a",
+    "size": 735,
+    "path": "g1_mimic_gangnam/metadata.json"
+  },
+  {
+    "type": "file",
+    "oid": "aa802d9f5f6111864be76c31afede4fa8c07b0a2",
+    "size": 540247560,
+    "lfs": {
+      "oid": "fae49b01f27c51b5a754a8b766e5f2cdd524ce19837388bf981f5d63b540603c",
+      "size": 540247560,
+      "pointerSize": 134
+    },
+    "xetHash": "c1f332ae8ced698683745daa79964965df35a8122d32829ac873adc9a7b3da3a",
+    "path": "g1_mimic_gangnam/test.npz"
+  },
+  {
+    "type": "file",
+    "oid": "53543a364a6b2c69a0ff8fb758c610f77c36af29",
+    "size": 424378982,
+    "lfs": {
+      "oid": "1a96f0313c95d9becf6694eb603fac84cb4db1948815ccabae48c470fc951e4b",
+      "size": 424378982,
+      "pointerSize": 134
+    },
+    "xetHash": "3fd2b08fea33a78ee6fe5355fe3341035dfab93547039e3767f3df4a6a9a89eb",
+    "path": "g1_mimic_gangnam/train.npz"
+  },
+  {
+    "type": "file",
+    "oid": "3de561efc7f05e491adbeaadbb915ccb4b424756",
+    "size": 106137206,
+    "lfs": {
+      "oid": "6b6926b07759f6ac756cdb01cdce1177c99427de7f989cbab74d03bbf9c20554",
+      "size": 106137206,
+      "pointerSize": 134
+    },
+    "xetHash": "d5906f682e09451fb496202c9a9315eb6b1b542f229e7b01f9a6a1d11eb94cba",
+    "path": "g1_mimic_gangnam/train_small.npz"
+  },
+  {
+    "type": "file",
+    "oid": "e33a530df18cf2d120ac0f1bacc16e1bb62060ab",
+    "size": 38435113,
+    "lfs": {
+      "oid": "382d0120c0842d4753414f798433c4c4b3228a3fac3c0ba8ccebd6c138cf5139",
+      "size": 38435113,
+      "pointerSize": 133
+    },
+    "xetHash": "caff565ad9c778ae9a966075559c24e8658baf3539df98f13828e984978d405f",
+    "path": "g1_velocity/calibration.npz"
+  },
+  {
+    "type": "file",
+    "oid": "82a28b1fe4d931af30de7ab3c79b1f2c72f34a0f",
+    "size": 594,
+    "path": "g1_velocity/metadata.json"
+  },
+  {
+    "type": "file",
+    "oid": "5835f938754e2e48eba3d3e78f27cc665bfd9388",
+    "size": 129363718,
+    "lfs": {
+      "oid": "0e02b9aee18a42440d2492fd7dede6eceb9f4c2441e4c4f61965c8b3604ea7ae",
+      "size": 129363718,
+      "pointerSize": 134
+    },
+    "xetHash": "f4c918978ac1227eeb80e17463e26c5e8341425f3cd8f0be076bda6d5d5c4b48",
+    "path": "g1_velocity/test.npz"
+  },
+  {
+    "type": "file",
+    "oid": "ced81920f035c977467a52e04c95cdd0f15a48a2",
+    "size": 259809455,
+    "lfs": {
+      "oid": "d04b7561cdbc892e3c52dea4bf1a4b9a41c25610285afb1e92dd4f19f8b9e10c",
+      "size": 259809455,
+      "pointerSize": 134
+    },
+    "xetHash": "8a4686cb66bb4e91f8e4174de5063764388b9b8ecf58c7516af5d9fbbd8f09e3",
+    "path": "g1_velocity/train.npz"
+  },
+  {
+    "type": "file",
+    "oid": "ee7d94eefaa770c72643315f80d1f3be8b10792d",
+    "size": 63515936,
+    "lfs": {
+      "oid": "363a04f7a339b46f347003bc91246d0e3106f4aaf4084fbee9130791b4c85859",
+      "size": 63515936,
+      "pointerSize": 133
+    },
+    "xetHash": "c93358d5af0b631ca23bc016af2486c81db405efb36e53124e30764b8a7a3605",
+    "path": "g1_velocity/train_small.npz"
+  },
+  {
+    "type": "file",
+    "oid": "aa1dde40cf7d6246883198de319cc23204d4f448",
+    "size": 1596078,
+    "lfs": {
+      "oid": "851a058c09346f1245cf3a97015b547bdd032cc497c4abbba657406e75800997",
+      "size": 1596078,
+      "pointerSize": 132
+    },
+    "xetHash": "be1386558b4dd166601861bd5add1c731e4d33dba50d19f560988514b013c655",
+    "path": "g1_velocity_real/calibration.npz"
+  },
+  {
+    "type": "file",
+    "oid": "fcd23737d059c6a73125f84827c925d555e14574",
+    "size": 951,
+    "path": "g1_velocity_real/metadata.json"
+  },
+  {
+    "type": "file",
+    "oid": "fe92eac81f87c6788019c29be92543c26c59e5cf",
+    "size": 49509222,
+    "lfs": {
+      "oid": "315dcb6cf0d2cedc00b322ca63e9314bc4659f58a33510d7515b13ce137b6112",
+      "size": 49509222,
+      "pointerSize": 133
+    },
+    "xetHash": "8281072f0a160e3dddaa03825652dce98fcfdde32d20b8b65b7615f82359a679",
+    "path": "g1_velocity_real/test.npz"
+  }
+]

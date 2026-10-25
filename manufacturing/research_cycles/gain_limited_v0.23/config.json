@@ -1,0 +1,20 @@
+{
+  "study": "manufacturing-gain-limited-normal-feasibility-v0.23",
+  "plant": "Q1", "model_seed": 17, "warmup": 100,
+  "fit_task": "K13", "development_task": "M13",
+  "conditions": ["normal", "authorized_offset", "authorized_slow"],
+  "episode_seeds": [17, 42, 2026],
+  "reference": {"kind": "command_only_fir", "lags": 16, "ridge": 0.001},
+  "normalization": {"fit": "K13 eligible rows only", "std_floor": 0.000001},
+  "context": "normalized protected command at t-1 and its first difference; 8 features",
+  "tanh": {"width": 8, "kappa": [0.25, 0.5, 0.75], "rho": [0.25, 0.75], "epochs": 40, "learning_rate": 0.01, "weight_decay": 0.0001, "window": 96, "burnin": 48, "scored_stride": 48, "dtype": "float32", "projection_slack": 0.000001},
+  "fir": {"lags": 5, "ridge": 0.001, "max_iterations": 5000, "projected_gradient_tolerance": 0.0000001},
+  "kalman": {"model": "independent residual random walk", "process_measurement_ratios": [0.01, 0.1, 1.0, 10.0]},
+  "score_scale": 1.0, "quantile": 0.99,
+  "primary_radius": "minimum of valid gain and amplitude-cap sufficient radii using empirical Edev and development score threshold",
+  "radius_gain": "(Edev + tau_dev)/(1 - K) for certified K < 1",
+  "radius_cap": "Edev + tau_dev + 2*C for certified correction amplitude cap C",
+  "admission": {"radius_relative_reduction": 0.05, "rmse_relative_reduction": 0.02, "max_episode_rmse_relative_increase": 0.05, "max_condition_rmse_relative_increase": 0.05, "same_budget_fir_radius_strictly_lower": true, "same_budget_fir_rmse_not_higher": true, "linear_solver_must_converge": true, "underfit_last_quarter_epoch_improvement": 0.01, "operational_tolerance": null, "fresh_attack_admission": false},
+  "limits": {"wall_seconds": 120, "cpu_seconds": 90, "rss_bytes": 1073741824, "output_bytes": 52428800},
+  "synthetic_runtime_limits": {"wall_seconds": 45, "cpu_seconds": 30, "rss_bytes": 1073741824, "output_bytes": 5242880}
+}

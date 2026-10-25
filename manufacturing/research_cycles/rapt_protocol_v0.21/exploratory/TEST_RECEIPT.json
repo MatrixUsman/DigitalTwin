@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-18T22:15:17.549077+00:00",
+  "command": ".venv-forecast-v016/bin/python -m unittest discover -s research_cycles/rapt_protocol_v0.21/exploratory -p 'test_*.py' -v",
+  "cwd": "manufacturing",
+  "tests": 6,
+  "seconds": 1.397,
+  "status": "passed",
+  "synthetic": true
+}

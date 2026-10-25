@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-18T21:38:23.153780+00:00",
+  "scope": "Local completed reviewer archive, inventory, tooling and clean-extraction receipts; no external release",
+  "files": 12,
+  "sha256": {
+    "reproducibility_v1.7/ALLOWLIST.json": "4ec46a8a1beb8bf3d8e1f922c62bf9bbca64cd782acbffe30150362b6132228c",
+    "reproducibility_v1.7/BUILD_RECEIPT.json": "e4dfb9a2cf50bdfc8a288b1c93dea4c90a59b46480d678be3895b8d11841f264",
+    "reproducibility_v1.7/CLEAN_EXTRACTION_RECEIPT.json": "4c640ddb1d3104478cc2a503edb74f2086e08c3f017dd587ae1e632122a77aa5",
+    "reproducibility_v1.7/INVENTORY.json": "244f31fe6373e4932dbbdca9283e90a15638604521e64943de5a2b851e1a8fd6",
+    "reproducibility_v1.7/PACKAGING_REPAIRS.md": "4236e5760c22df4466f0b7d39829d7b5d25df01a6259b8b7665b68839c04a66e",
+    "reproducibility_v1.7/README.md": "75ebeb82508e3ddd79f366888338175a214239d74ec461567fc4e2b04b0a8d4d",
+    "reproducibility_v1.7/build_package.py": "b1119710877befa0aba5a4cad0acb703a38fb9b2e161769b35ce61a9291353b8",
+    "reproducibility_v1.7/manufacturing-reviewer-v1.7.zip": "9f538cc8bf7b1ca877bb1c87a1614a608c9fde756c0d13cc397b26076ea86c33",
+    "reproducibility_v1.7/portable_replay.py": "13eece995e176892b0a37c4690dd9374ac55a672fae9a312816fd333e04815e5",
+    "reproducibility_v1.7/replay_tables.py": "7b4e46caf1fd77c29ec50e106625c972aff39bcafd5066b6de3036fc2c3cf2fe",
+    "reproducibility_v1.7/test_package.py": "56d58082a17ad176df272c7e4a7e514bde988ab1b0a087a10bb9ce651f5d74a7",
+    "reproducibility_v1.7/validate_archive.py": "5c5e4a4d09486c8e05d37791d516410568fb574045bbca057b2f406c93054711"
+  }
+}

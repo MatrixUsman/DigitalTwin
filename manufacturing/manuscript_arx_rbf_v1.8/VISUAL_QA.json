@@ -1,0 +1,155 @@
+{
+  "utc": "2026-10-24T08:34:16.329825+00:00",
+  "pdf": "output/pdf/ARX-RBF-Muhammad-Usman-v1.8.pdf",
+  "pdf_sha256": "2d3ded7dfc8f50d8a2ff34fc7aca1405aee3e83b4d21782981eb675f72a10f5d",
+  "build_attempt": "attempt_006",
+  "pages": 19,
+  "figures": 6,
+  "references": 28,
+  "render_command": "pdftoppm -r 105 -png output/pdf/ARX-RBF-Muhammad-Usman-v1.8.pdf local/manuscript_arx_rbf_v1.8/render_006/page",
+  "cwd": "manufacturing",
+  "page_reviews": [
+    {
+      "page": 1,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-01.png",
+      "sha256": "c8ecbf31ab6365b7c865c568126216b8dd9cdddfbf4e7dc9d94942cb76b201a5",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 2,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-02.png",
+      "sha256": "ab4974461a3417a0efb9411e95e386228205c10d74fd2575d172aaeb020ab25d",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 3,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-03.png",
+      "sha256": "650a4772754106dbc59298d7eab60768e2b538e730fdcf4cc4467823d1485926",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 4,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-04.png",
+      "sha256": "033289c0d365b4895ff02305f3ceab76639a4d7a21b0075f48b820d0143e8af9",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 5,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-05.png",
+      "sha256": "82a3e449affe9aabe1c97c27b9b578f13b5310b9a8c5c711a1e5c43f6fb79111",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 6,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-06.png",
+      "sha256": "cca31a57ef5f31a9149c48e3afe6e196dee1ccf6224ba252d5251d52d53c64ad",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 7,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-07.png",
+      "sha256": "913e087f1c474aab2f84e32e63678edeef0a2c25bbf1202fc75aa6605edcab45",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 8,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-08.png",
+      "sha256": "2c51be162ed7e5cc52f16f064f0b99d624f2d0269d7f3b3f7f9a8701d3a44379",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 9,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-09.png",
+      "sha256": "34260a89035b38fca98a51e675a74be3bf9ab831f5290f1db114246a29c3696d",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 10,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-10.png",
+      "sha256": "8265dbb6e7e0104dc99fc4388e444c29781ee2ddf9585870a778309657e4eb95",
+      "review": "Separate mechanism agent visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 11,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-11.png",
+      "sha256": "736da5ded33505181b8b1b6dee9b19571f298c9208a021349c35e4c8312896cc",
+      "review": "Root visually inspected this final render_006 page",
+      "pass": true
+    },
+    {
+      "page": 12,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-12.png",
+      "sha256": "b97ac4fd564c4ccfc4aa674b65b80c2c5eb9ff190272d0b35d7cb7b56e3c16f5",
+      "review": "Root visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 13,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-13.png",
+      "sha256": "08a940c97e442bcb31689b5a435d5a9a040502a30560ad763e11bfa59ac21518",
+      "review": "Root visually inspected render_004; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 14,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-14.png",
+      "sha256": "800824dc7fa9622d9229bad310812dcdb6478df178dc65e4105d4a0e1d44f979",
+      "review": "Root visually inspected this final render_006 page",
+      "pass": true
+    },
+    {
+      "page": 15,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-15.png",
+      "sha256": "decc59ec273535d9126f7df628f5f0291bcc6f03115b5d7bfb03ab000b5e24f8",
+      "review": "Root visually inspected render_005; render_006 PNG is byte-identical",
+      "pass": true
+    },
+    {
+      "page": 16,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-16.png",
+      "sha256": "706e8000dcec5e9f9bdba785088eeeec84873ab6e169d047c725b8c3382445a5",
+      "review": "Root visually inspected this final render_006 page",
+      "pass": true
+    },
+    {
+      "page": 17,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-17.png",
+      "sha256": "e03628d6216bed6a8dec03cee2d88e4714ad2c280d6ebec2fd368d57636284b2",
+      "review": "Root visually inspected this final render_006 page",
+      "pass": true
+    },
+    {
+      "page": 18,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-18.png",
+      "sha256": "044818f57f545e2f0ba0b3380318df0afc4225b44424151c7d68b863e041cede",
+      "review": "Root visually inspected this final render_006 page",
+      "pass": true
+    },
+    {
+      "page": 19,
+      "render": "local/manuscript_arx_rbf_v1.8/render_006/page-19.png",
+      "sha256": "01bcac22efd4d8971e39e3b3f5f3a87a0f0959ea6f908afcb711eb9de37ef85d",
+      "review": "Root visually inspected this final render_006 page",
+      "pass": true
+    }
+  ],
+  "repairs": [
+    "Figure 2 copied PDF crop bounds enlarged without changing its drawing stream.",
+    "Figure 3 legend moved clear of values; all 16 source values preserved.",
+    "New figures 5 and 6 labels/legends enlarged without changing data.",
+    "References compacted without dropping citations; final document is 19 pages."
+  ],
+  "outstanding_layout_defects": [],
+  "scope": "AI visual/editorial inspection, not human author approval or scientific readiness",
+  "passed": true
+}

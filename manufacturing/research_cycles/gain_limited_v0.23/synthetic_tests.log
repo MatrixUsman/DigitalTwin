@@ -1,0 +1,21 @@
+test_admission_equality_failure_and_ties (test_models23.Tests.test_admission_equality_failure_and_ties) ... ok
+test_causal_prefix_and_reset (test_models23.Tests.test_causal_prefix_and_reset) ... ok
+test_context_branch_has_zero_observation_gain (test_models23.Tests.test_context_branch_has_zero_observation_gain) ... ok
+test_equal_cap_clips_only_observation_branch (test_models23.Tests.test_equal_cap_clips_only_observation_branch) ... ok
+test_fading_memory_inequality (test_models23.Tests.test_fading_memory_inequality) ... ok
+test_independent_batch_states (test_models23.Tests.test_independent_batch_states) ... ok
+test_invalid_inputs_block (test_models23.Tests.test_invalid_inputs_block) ... ok
+test_kalman_score_before_update (test_models23.Tests.test_kalman_score_before_update) ... ok
+test_l1_projection_and_fir_gain (test_models23.Tests.test_l1_projection_and_fir_gain) ... ok
+test_nonfinite_metrics_and_weights_block (test_models23.Tests.test_nonfinite_metrics_and_weights_block) ... ok
+test_plateau_gain_and_cap_floors (test_models23.Tests.test_plateau_gain_and_cap_floors) ... ok
+test_prior_larger_offset_requires_history_bound (test_models23.Tests.test_prior_larger_offset_requires_history_bound) ... ok
+test_projected_weight_certificate (test_models23.Tests.test_projected_weight_certificate) ... ok
+test_radius_formulas_quantile (test_models23.Tests.test_radius_formulas_quantile) ... ok
+test_reference_uses_only_preceding_commands (test_models23.Tests.test_reference_uses_only_preceding_commands) ... ok
+test_training_window_coverage (test_models23.Tests.test_training_window_coverage) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.055s
+
+OK

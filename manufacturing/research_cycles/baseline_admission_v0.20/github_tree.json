@@ -1,0 +1,882 @@
+{
+  "sha": "d745668ffdb0e26877b1de4c9b2126af7bda5b03",
+  "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/d745668ffdb0e26877b1de4c9b2126af7bda5b03",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52679ab7a919731988087c5c85eefa9b652c2ce2",
+      "size": 340,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/52679ab7a919731988087c5c85eefa9b652c2ce2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c32608c995f32f2314b5e0be7ee16afc9c6ab32b",
+      "size": 1527,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/c32608c995f32f2314b5e0be7ee16afc9c6ab32b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf6dc71623d8956d2f4fd32de0b7e4b448f57b7",
+      "size": 10851,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/acf6dc71623d8956d2f4fd32de0b7e4b448f57b7"
+    },
+    {
+      "path": "checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0eaa82a6e8e47a194788f366e7c142a7486eea43",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/0eaa82a6e8e47a194788f366e7c142a7486eea43"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bf03675c396c9736786dd78af00a1c4e4b4a61a",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/2bf03675c396c9736786dd78af00a1c4e4b4a61a"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/calibration.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb57117b54fbfbe4e754acbcaa0a008de7fdd394",
+      "size": 3165,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/cb57117b54fbfbe4e754acbcaa0a008de7fdd394"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/calibration.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78dc8ecea0a4ad9c637962f6079cee2e32835a6d",
+      "size": 11756,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/78dc8ecea0a4ad9c637962f6079cee2e32835a6d"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d194acdd795d71ec16483dc23c485dacd2d11d75",
+      "size": 3714,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/d194acdd795d71ec16483dc23c485dacd2d11d75"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/deploy_config.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b5780694e23f1e22d3a8bc19f7e89a95f29938",
+      "size": 81,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/81b5780694e23f1e22d3a8bc19f7e89a95f29938"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/model.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd4d0fdb503edd9a19e7d530acd3d4b0a155e5c",
+      "size": 10786897,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/0bd4d0fdb503edd9a19e7d530acd3d4b0a155e5c"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/obs_stats.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9c968c0bee1fa86a8ae010f3d9658890cd2fc7",
+      "size": 4521,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6c9c968c0bee1fa86a8ae010f3d9658890cd2fc7"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/obs_stats.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6a196bf421c972b730fd35d331aaea852eee4cb",
+      "size": 12817,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/e6a196bf421c972b730fd35d331aaea852eee4cb"
+    },
+    {
+      "path": "checkpoints/g1_29dof_velocity/rapt.onnx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2be90e085f05c1733cb197ff32cc519c72ab851",
+      "size": 10825020,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/c2be90e085f05c1733cb197ff32cc519c72ab851"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0fcc34e55b1b99570e34a270926dc402f940a8b",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/e0fcc34e55b1b99570e34a270926dc402f940a8b"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf56c8280ba339a7e8887d10e13ebdcdb1a8878",
+      "size": 821,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/ddf56c8280ba339a7e8887d10e13ebdcdb1a8878"
+    },
+    {
+      "path": "data/sample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "571a2c70076a7de5899b8aee123ebd4c74dc7d8e",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/571a2c70076a7de5899b8aee123ebd4c74dc7d8e"
+    },
+    {
+      "path": "data/sample/eval.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb815c0bf4f1a177158cfcee5f829e9164e4b29",
+      "size": 1098316,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/adb815c0bf4f1a177158cfcee5f829e9164e4b29"
+    },
+    {
+      "path": "data/sample/train.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a7664dc30e74d5689734b04ac39ec400902b5e",
+      "size": 2297696,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/84a7664dc30e74d5689734b04ac39ec400902b5e"
+    },
+    {
+      "path": "datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1c354f71cce37c8185ccac1507fe952f5102660",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/f1c354f71cce37c8185ccac1507fe952f5102660"
+    },
+    {
+      "path": "datasets/DATASET_CARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f277968b732b8c821a66605ad439da9046f7d04",
+      "size": 7728,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/8f277968b732b8c821a66605ad439da9046f7d04"
+    },
+    {
+      "path": "deploy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "359854a99c98303d21fecf8c3078f44535960848",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/359854a99c98303d21fecf8c3078f44535960848"
+    },
+    {
+      "path": "deploy/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ec495ba057c22fb32647697c0b0cdc3b78fd8e",
+      "size": 3965,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/10ec495ba057c22fb32647697c0b0cdc3b78fd8e"
+    },
+    {
+      "path": "deploy/cpp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de81eeadbe04a5501efd74e7c9b9326dc6d72bb5",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/de81eeadbe04a5501efd74e7c9b9326dc6d72bb5"
+    },
+    {
+      "path": "deploy/cpp/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eeb4cbe025cb180e7a756bc2cbc6c1006bee1c5",
+      "size": 1343,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/9eeb4cbe025cb180e7a756bc2cbc6c1006bee1c5"
+    },
+    {
+      "path": "deploy/cpp/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772ff5398765d2c732bbfe0c74820813b18fa826",
+      "size": 2787,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/772ff5398765d2c732bbfe0c74820813b18fa826"
+    },
+    {
+      "path": "deploy/cpp/rapt_monitor.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647254b4e8ad2e5fc6594543c670236221e9d55f",
+      "size": 7815,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/647254b4e8ad2e5fc6594543c670236221e9d55f"
+    },
+    {
+      "path": "deploy/cpp/reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4aec043fa4067f43a9f0265e090c388f3fc03863",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/4aec043fa4067f43a9f0265e090c388f3fc03863"
+    },
+    {
+      "path": "deploy/cpp/reference/anomaly_detector_fdm.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba5f8196b0147d0b2e9480b97d0f10e79b6e11c",
+      "size": 38572,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/cba5f8196b0147d0b2e9480b97d0f10e79b6e11c"
+    },
+    {
+      "path": "deploy/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd4b37de69bf1136b355316a559be00153d9a36c",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/bd4b37de69bf1136b355316a559be00153d9a36c"
+    },
+    {
+      "path": "deploy/python/rapt_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82b7f8af482bbc9e804f054f3bbd42ed7c5fe10c",
+      "size": 4416,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/82b7f8af482bbc9e804f054f3bbd42ed7c5fe10c"
+    },
+    {
+      "path": "deploy/python/replay_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6868b38074ea3715d482460505aa2036bd207a3e",
+      "size": 1912,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6868b38074ea3715d482460505aa2036bd207a3e"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48f4a58cbba150c790cb8504db51bbb64b99b683",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/48f4a58cbba150c790cb8504db51bbb64b99b683"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs/clips",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "baa36186a412d6b3febf918bec6d306df02849f1",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/baa36186a412d6b3febf918bec6d306df02849f1"
+    },
+    {
+      "path": "docs/clips/collision.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dfc37321e66f6bfeae9c5078fc9dc737db7c5f6",
+      "size": 779739,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/5dfc37321e66f6bfeae9c5078fc9dc737db7c5f6"
+    },
+    {
+      "path": "docs/clips/deformable.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09b3f8363d8b6f9cb66df76d782e1a47414ef949",
+      "size": 449907,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/09b3f8363d8b6f9cb66df76d782e1a47414ef949"
+    },
+    {
+      "path": "docs/clips/nominal.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "746f0b91c0e346a2f24141fdb171103e3d66267b",
+      "size": 2288209,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/746f0b91c0e346a2f24141fdb171103e3d66267b"
+    },
+    {
+      "path": "docs/clips/payload_saliency.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93c5da9239d01c2c083d6db7037504177754dadb",
+      "size": 1294893,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/93c5da9239d01c2c083d6db7037504177754dadb"
+    },
+    {
+      "path": "docs/clips/recovery.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d7e402bee88e286d363277565fb4dd2244be9f",
+      "size": 1423158,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/95d7e402bee88e286d363277565fb4dd2244be9f"
+    },
+    {
+      "path": "docs/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ce2337d8e57466d25ed37fce838bab21da3db8a",
+      "size": 15727,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6ce2337d8e57466d25ed37fce838bab21da3db8a"
+    },
+    {
+      "path": "docs/method_figure.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e0df7f3c1fee61270833949e5696737c0ee3dc7",
+      "size": 144327,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/5e0df7f3c1fee61270833949e5696737c0ee3dc7"
+    },
+    {
+      "path": "docs/method_figure.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad27cc69b1d9a688bfb860f24845d37d1322be08",
+      "size": 1344553,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/ad27cc69b1d9a688bfb860f24845d37d1322be08"
+    },
+    {
+      "path": "docs/rapt_fig1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09cddd0751bd6365e928bf7feea96eef8fdd16ae",
+      "size": 744549,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/09cddd0751bd6365e928bf7feea96eef8fdd16ae"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "484265dd0773962e657dd6ceb8b4f92d9d0bb49f",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/484265dd0773962e657dd6ceb8b4f92d9d0bb49f"
+    },
+    {
+      "path": "examples/quickstart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5261ec707823a85aaf40c612c239611ac833378c",
+      "size": 3071,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/5261ec707823a85aaf40c612c239611ac833378c"
+    },
+    {
+      "path": "pixi.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2135caed6ee0f8322714b6f318b6945c12a89e99",
+      "size": 960,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/2135caed6ee0f8322714b6f318b6945c12a89e99"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a192642f75506b9f433799267b303ad29602d6",
+      "size": 654,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/76a192642f75506b9f433799267b303ad29602d6"
+    },
+    {
+      "path": "rapt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30620377d1b440d95a6d57cded75d82ba4c4a6a2",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/30620377d1b440d95a6d57cded75d82ba4c4a6a2"
+    },
+    {
+      "path": "rapt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ffadb50340b49b79b6482e89b745fb09add0d2d",
+      "size": 1821,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/1ffadb50340b49b79b6482e89b745fb09add0d2d"
+    },
+    {
+      "path": "rapt/checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbd3047176e74f719bc2a97f2a9eb93f96f0efc",
+      "size": 7849,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6fbd3047176e74f719bc2a97f2a9eb93f96f0efc"
+    },
+    {
+      "path": "rapt/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d8b3e52b7768ee72dcf17d59ccc192df76f0f40",
+      "size": 2856,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/9d8b3e52b7768ee72dcf17d59ccc192df76f0f40"
+    },
+    {
+      "path": "rapt/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ac9ac8112faaa976e56fd80956585447503d8c",
+      "size": 11384,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/54ac9ac8112faaa976e56fd80956585447503d8c"
+    },
+    {
+      "path": "rapt/detector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c598a48280272de88d3065c0813be1655d69cf4a",
+      "size": 10379,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/c598a48280272de88d3065c0813be1655d69cf4a"
+    },
+    {
+      "path": "rapt/diagnosis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4c0906a4796c04b1a96001bb2cb2624f025352f",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/c4c0906a4796c04b1a96001bb2cb2624f025352f"
+    },
+    {
+      "path": "rapt/diagnosis/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246001e54ffcf974e0b8c4a0a8afc16758c34e41",
+      "size": 556,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/246001e54ffcf974e0b8c4a0a8afc16758c34e41"
+    },
+    {
+      "path": "rapt/diagnosis/llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e0f4bb42431db92030a4d2f54de6f406273194",
+      "size": 4863,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/55e0f4bb42431db92030a4d2f54de6f406273194"
+    },
+    {
+      "path": "rapt/diagnosis/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e36a5b34b9bfab3d1f6c83975776eb68203e3f1",
+      "size": 3813,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/3e36a5b34b9bfab3d1f6c83975776eb68203e3f1"
+    },
+    {
+      "path": "rapt/diagnosis/render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2584a71267f215be2a890d4517eb4044de83e6f4",
+      "size": 3394,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/2584a71267f215be2a890d4517eb4044de83e6f4"
+    },
+    {
+      "path": "rapt/diagnosis/taxonomy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe3c80232f3f7aa1bdeb4e331ebe8a318633a91",
+      "size": 1367,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/afe3c80232f3f7aa1bdeb4e331ebe8a318633a91"
+    },
+    {
+      "path": "rapt/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85428148dd659bd92265da27718cdb86e19ba0d9",
+      "size": 3477,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/85428148dd659bd92265da27718cdb86e19ba0d9"
+    },
+    {
+      "path": "rapt/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f1ad71d0323a4cd9244381d7b72e171862e49f",
+      "size": 4985,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/d3f1ad71d0323a4cd9244381d7b72e171862e49f"
+    },
+    {
+      "path": "rapt/onnx_export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8112b22c26cfff41dfc6aa701848b69112901d33",
+      "size": 2521,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/8112b22c26cfff41dfc6aa701848b69112901d33"
+    },
+    {
+      "path": "rapt/saliency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd912aee9b0922c058f6e8c2d1e600a9ade7e91",
+      "size": 4718,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/fcd912aee9b0922c058f6e8c2d1e600a9ade7e91"
+    },
+    {
+      "path": "rapt/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59da71b91b2a0bd6566d89c89c3cd54ffefd7f9",
+      "size": 4322,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/b59da71b91b2a0bd6566d89c89c3cd54ffefd7f9"
+    },
+    {
+      "path": "reproduce",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7cb14f89711012fbe43f90f994efcf65d5ad559",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/a7cb14f89711012fbe43f90f994efcf65d5ad559"
+    },
+    {
+      "path": "reproduce/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "516cbd911e6ad48a401edf9c11240a0507273650",
+      "size": 3666,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/516cbd911e6ad48a401edf9c11240a0507273650"
+    },
+    {
+      "path": "reproduce/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "reproduce/baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2deb08f0576b29b50dfd395a5b0e6adc3060e466",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/2deb08f0576b29b50dfd395a5b0e6adc3060e466"
+    },
+    {
+      "path": "reproduce/baselines/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2453a8a9b77bff231d1953467b02e64b9d68cb1e",
+      "size": 210,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/2453a8a9b77bff231d1953467b02e64b9d68cb1e"
+    },
+    {
+      "path": "reproduce/baselines/deep_svdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672435dc2ae979d1f3dcd96dba3bfdebb6bfabc6",
+      "size": 3028,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/672435dc2ae979d1f3dcd96dba3bfdebb6bfabc6"
+    },
+    {
+      "path": "reproduce/baselines/isolation_forest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d47222639e6b15802eea5206c99c69e79247e960",
+      "size": 756,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/d47222639e6b15802eea5206c99c69e79247e960"
+    },
+    {
+      "path": "reproduce/baselines/lstm_vae.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef081be3a0918315b85349074e4cb0668ffbbfda",
+      "size": 4753,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/ef081be3a0918315b85349074e4cb0668ffbbfda"
+    },
+    {
+      "path": "reproduce/isaaclab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18660faaa39fde939483a9b4ecba6b59da029482",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/18660faaa39fde939483a9b4ecba6b59da029482"
+    },
+    {
+      "path": "reproduce/isaaclab/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a791bd902e6b1859ee3d0da5f41fbe21d9d1b20",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/6a791bd902e6b1859ee3d0da5f41fbe21d9d1b20"
+    },
+    {
+      "path": "reproduce/isaaclab/analysis/analyze_feature_importance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d51f5e8e8074fff382942a32cc3a1e51c5f93f1",
+      "size": 5113,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/2d51f5e8e8074fff382942a32cc3a1e51c5f93f1"
+    },
+    {
+      "path": "reproduce/isaaclab/analysis/collate_ablation_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b5a72ca0b2558fcb9bf967d431d31c541cacd9",
+      "size": 5898,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/f9b5a72ca0b2558fcb9bf967d431d31c541cacd9"
+    },
+    {
+      "path": "reproduce/isaaclab/analysis/rank_taguchi_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14af4a22cbb1ba7a3af7e597fff70d2d5db6f0b",
+      "size": 4457,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/c14af4a22cbb1ba7a3af7e597fff70d2d5db6f0b"
+    },
+    {
+      "path": "reproduce/isaaclab/cli_args.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047a94d49863beb9b62a884895b0edb36c18aa8a",
+      "size": 3869,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/047a94d49863beb9b62a884895b0edb36c18aa8a"
+    },
+    {
+      "path": "reproduce/isaaclab/collect_and_train_lstmvae.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a85a92f4ec9a5a0be73b7fa47b34e37c52f04727",
+      "size": 28208,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/a85a92f4ec9a5a0be73b7fa47b34e37c52f04727"
+    },
+    {
+      "path": "reproduce/isaaclab/collect_and_train_patchad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77887c9c4a763f6910859c0d634c5013f9779187",
+      "size": 14703,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/77887c9c4a763f6910859c0d634c5013f9779187"
+    },
+    {
+      "path": "reproduce/isaaclab/collect_and_train_rapt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e451aeca1ee248df725e1273abde0519f6468952",
+      "size": 32297,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/e451aeca1ee248df725e1273abde0519f6468952"
+    },
+    {
+      "path": "reproduce/isaaclab/collect_rapt_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fb33e8661855dfb84b39856adc2819d34e27c63",
+      "size": 20754,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/2fb33e8661855dfb84b39856adc2819d34e27c63"
+    },
+    {
+      "path": "reproduce/isaaclab/export_to_onnx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "476a42956515e41ba273bc95094138ae922b040a",
+      "size": 9627,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/476a42956515e41ba273bc95094138ae922b040a"
+    },
+    {
+      "path": "reproduce/isaaclab/forest_and_range_experiment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e55e3c5f3019f944f48c619ccb3126875d41a0de",
+      "size": 92592,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/e55e3c5f3019f944f48c619ccb3126875d41a0de"
+    },
+    {
+      "path": "reproduce/isaaclab/ood_injection_lib.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df9d1dacc4878cc35743e0303465d9fd82207d8",
+      "size": 48079,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/5df9d1dacc4878cc35743e0303465d9fd82207d8"
+    },
+    {
+      "path": "reproduce/isaaclab/play_with_rapt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fe8fc552c6ddbe95f78838a1b14bef37dfe1605",
+      "size": 124631,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/0fe8fc552c6ddbe95f78838a1b14bef37dfe1605"
+    },
+    {
+      "path": "reproduce/isaaclab/svdd_and_range_experiment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c9096cfe0e738dcfb26a8aa7d2f067a13d61b7",
+      "size": 105027,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/f0c9096cfe0e738dcfb26a8aa7d2f067a13d61b7"
+    },
+    {
+      "path": "reproduce/isaaclab/sweeps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8729861d86628b955fc90f3bf53501e957e3b6c3",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/8729861d86628b955fc90f3bf53501e957e3b6c3"
+    },
+    {
+      "path": "reproduce/isaaclab/sweeps/run_taguchi_ablation.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f8d7b671933f788eb16878fd8a26dc70354dd3a",
+      "size": 6946,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/8f8d7b671933f788eb16878fd8a26dc70354dd3a"
+    },
+    {
+      "path": "reproduce/isaaclab/sweeps/train_fdm_exp.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "518543cafaf509ba16775bff9f2c2fe136074119",
+      "size": 4586,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/518543cafaf509ba16775bff9f2c2fe136074119"
+    },
+    {
+      "path": "reproduce/ood_injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c99a3f827a308a6b750aee023a6f9ead5a285ca",
+      "size": 4799,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6c99a3f827a308a6b750aee023a6f9ead5a285ca"
+    },
+    {
+      "path": "reproduce/realworld",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50ec7784dbada29867f70624a34a2e8200dd5ed5",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/50ec7784dbada29867f70624a34a2e8200dd5ed5"
+    },
+    {
+      "path": "reproduce/realworld/test_real_world_iso.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbae653ab148f3352078cf8c0f058a5a7f41f312",
+      "size": 15710,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/fbae653ab148f3352078cf8c0f058a5a7f41f312"
+    },
+    {
+      "path": "reproduce/realworld/test_real_world_lstm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f67a15410e04976d98f5dd804fc36cea93589e6",
+      "size": 15951,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6f67a15410e04976d98f5dd804fc36cea93589e6"
+    },
+    {
+      "path": "reproduce/realworld/test_real_world_patchad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a493267fc4cfb441540e446052f9332d78e9686",
+      "size": 19066,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/4a493267fc4cfb441540e446052f9332d78e9686"
+    },
+    {
+      "path": "reproduce/realworld/test_real_world_rapt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3663f36dcd10532218d51b5843c93c5b30c922c3",
+      "size": 65734,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/3663f36dcd10532218d51b5843c93c5b30c922c3"
+    },
+    {
+      "path": "reproduce/realworld/test_real_world_svdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95537c557b60db0dc1900f5f952f9fbb2824b742",
+      "size": 17721,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/95537c557b60db0dc1900f5f952f9fbb2824b742"
+    },
+    {
+      "path": "reproduce/run_baselines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cc3f4d4ae60f3f237daf8f0bfd34a05c0c4a704",
+      "size": 3588,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/4cc3f4d4ae60f3f237daf8f0bfd34a05c0c4a704"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ccc6216f6385fc161b9db9c35813a144522fa9e2",
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/trees/ccc6216f6385fc161b9db9c35813a144522fa9e2"
+    },
+    {
+      "path": "scripts/attribute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d15ba98354271fdde4c4c4b096e6831a112e17b5",
+      "size": 3682,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/d15ba98354271fdde4c4c4b096e6831a112e17b5"
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b54a091a510e75c3c30e759e2d3b8b75ed28325",
+      "size": 5323,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/6b54a091a510e75c3c30e759e2d3b8b75ed28325"
+    },
+    {
+      "path": "scripts/calibrate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afd1bd59328f06fffffde32149640a192e8b9309",
+      "size": 3616,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/afd1bd59328f06fffffde32149640a192e8b9309"
+    },
+    {
+      "path": "scripts/convert_legacy_checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1ede0ac8ee6854429988609ae00c39a858dfe42",
+      "size": 8261,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/c1ede0ac8ee6854429988609ae00c39a858dfe42"
+    },
+    {
+      "path": "scripts/detect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8938c762ebf261f527152e9f447e1eb452952289",
+      "size": 3337,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/8938c762ebf261f527152e9f447e1eb452952289"
+    },
+    {
+      "path": "scripts/diagnose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b3eaac15c0acf597da06863a9d48c7c8e0d4e6a",
+      "size": 5000,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/5b3eaac15c0acf597da06863a9d48c7c8e0d4e6a"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bffb4fbe5ff0634b642a5bd4632c263f7e0ad81a",
+      "size": 4936,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/bffb4fbe5ff0634b642a5bd4632c263f7e0ad81a"
+    },
+    {
+      "path": "scripts/evaluate_paper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da61e74f9b951d0abd657e06b3fb69e5eac4c3c0",
+      "size": 9145,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/da61e74f9b951d0abd657e06b3fb69e5eac4c3c0"
+    },
+    {
+      "path": "scripts/export_onnx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75d5654c4e634e0d19b8371522e3bfaf212a2fd",
+      "size": 1293,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/d75d5654c4e634e0d19b8371522e3bfaf212a2fd"
+    },
+    {
+      "path": "scripts/import_deploy_logs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8058fdc9c184af0d45c2eb2d6da1ff807b0684d",
+      "size": 3514,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/e8058fdc9c184af0d45c2eb2d6da1ff807b0684d"
+    },
+    {
+      "path": "scripts/make_synthetic_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9d41d5ab50c246cb4f967880b2c25b49a6f29e",
+      "size": 4519,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/ca9d41d5ab50c246cb4f967880b2c25b49a6f29e"
+    },
+    {
+      "path": "scripts/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f4732315d7819b7d0265d8d83098872a94b05d",
+      "size": 4970,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/45f4732315d7819b7d0265d8d83098872a94b05d"
+    },
+    {
+      "path": "scripts/upload_datasets_hf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40edc319487dcb30f4723b414ecb9d63e94a24c9",
+      "size": 1898,
+      "url": "https://api.github.com/repos/csiro-robotics/RAPT/git/blobs/40edc319487dcb30f4723b414ecb9d63e94a24c9"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,92 @@
+{
+  "utc": "2026-10-18T21:37:50.546354+00:00",
+  "status": "passed",
+  "archive": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/reproducibility_v1.7/manufacturing-reviewer-v1.7.zip",
+  "archive_sha256": "9f538cc8bf7b1ca877bb1c87a1614a608c9fde756c0d13cc397b26076ea86c33",
+  "scope": "Clean extraction, identities, synthetic fixtures and saved-result arithmetic only",
+  "raw_dataset_access": false,
+  "physics_or_training_rerun": false,
+  "new_environment_installation": false,
+  "commands": [
+    {
+      "name": "package",
+      "command": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-I",
+        "reproducibility_v1.7/test_package.py",
+        "--verify-root",
+        "."
+      ],
+      "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/reviewer_package_v1.7/clean_extract_002/extracted/manufacturing",
+      "returncode": 0,
+      "log": "package.log",
+      "log_sha256": "1596aa84102e6348e2ac2f94450f27ef4a0a728d7837ced68be924f91f335359",
+      "synthetic_tests": 8
+    },
+    {
+      "name": "tables",
+      "command": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-I",
+        "reproducibility_v1.7/replay_tables.py",
+        "--output",
+        "reviewer_tables"
+      ],
+      "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/reviewer_package_v1.7/clean_extract_002/extracted/manufacturing",
+      "returncode": 0,
+      "log": "tables.log",
+      "log_sha256": "0bc873b28d1082315766a4f4172557a7a6657d7a2ac4c284b8b8e05515e3d496"
+    },
+    {
+      "name": "synthetic_v018",
+      "command": [
+        "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-reproduction-v02/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research_cycles/review_extension_v0.18",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/reviewer_package_v1.7/clean_extract_002/extracted/manufacturing",
+      "returncode": 0,
+      "log": "synthetic_v018.log",
+      "log_sha256": "dd09619e4ef4e602926d05e1987dda6463eecaeeaad71c5f3547102fa2d839ab",
+      "synthetic_tests": 12
+    },
+    {
+      "name": "synthetic_v019",
+      "command": [
+        "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-reproduction-v02/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research_cycles/context_recovery_v0.19",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/reviewer_package_v1.7/clean_extract_002/extracted/manufacturing",
+      "returncode": 0,
+      "log": "synthetic_v019.log",
+      "log_sha256": "e00956aee1e0405cd47697b9f925121341686e905130626cb3ae43b2ce3a2951",
+      "synthetic_tests": 12
+    }
+  ],
+  "seals": {
+    "research_cycles/review_extension_v0.18/FREEZE.json": 400,
+    "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json": 20,
+    "research_cycles/context_recovery_v0.19/FINAL_FREEZE.json": 133,
+    "research_cycles/context_recovery_v0.19/PACKAGE_MANIFEST.json": 494,
+    "manuscript_arx_rbf_v1.7/PACKAGE_MANIFEST.json": 64
+  },
+  "archive_members": 1449,
+  "extracted_root": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/local/reviewer_package_v1.7/clean_extract_002/extracted/manufacturing",
+  "table_checks": 13170,
+  "table_receipt_sha256": "0bc873b28d1082315766a4f4172557a7a6657d7a2ac4c284b8b8e05515e3d496",
+  "allowlisted_files": 1448,
+  "wall_seconds": 1.3607202080020215
+}

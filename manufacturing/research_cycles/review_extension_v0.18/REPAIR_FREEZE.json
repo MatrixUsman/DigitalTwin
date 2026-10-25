@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-18T20:55:59.839267+00:00",
+  "reason": "Sandbox denied /bin/ps before scientific execution; retry identical frozen worker with monitoring enabled. First empty failed attempt preserved. No settings/source/input changes.",
+  "sha256": {
+    "manufacturing/research_cycles/review_extension_v0.18/resume.py": "bcbf889bd65abecf5b4716ec006db24967edf90bb328a6d6a56ff40a5890c665",
+    "manufacturing/research_cycles/review_extension_v0.18/FREEZE.json": "3ebf64acc116c2ce0adb1c6fdf35e36ee22cb2672fad5ba67e2b836412b6cca4",
+    "manufacturing/research_cycles/review_extension_v0.18/runs/replay_001/supervisor.json": "8a9e693c383d406b097a1d404f90701b3d9c2ae70d134d2666b5008ef70cf5a8"
+  }
+}

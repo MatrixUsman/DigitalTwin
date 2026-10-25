@@ -1,0 +1,418 @@
+{
+  "utc": "2026-10-24T08:44:28.919116+00:00",
+  "group": "B",
+  "numbers": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "scope": "Fresh online existence and bibliographic metadata verification only; not claim support, full-text reading, retraction screening, reproduction or journal-readiness approval.",
+  "checker": "recovery_theory separate AI agent using web browsing primary source records; no external-model verification or API verification scripts",
+  "skill": "academic-research-suite academic-paper citation-check guidance, narrowed to parent-authorized scope",
+  "source_files_sha256": {
+    "manuscript_arx_rbf_v1.8/references.tex": "f239342fb3dc579bcb40aea3f4b3e9f5dc8c06842ac8cce2d943c35a4c6d4da2",
+    "manuscript_arx_rbf_v1.8/references.bib": "22adf0dc9b3cd4c6bdefea0cb7ffa8b28d24089bbec1a07714493bf3373055e4",
+    "research_cycles/reference_audit_v0.24/INTAKE.json": "bbe4c154ce25bfdb1ba76bfb95fa7d4c5fe90654d698aeab886ac46fde7641ae"
+  },
+  "summary": {
+    "references_checked": 9,
+    "verified_real": 9,
+    "required_metadata_corrections": 0,
+    "unverified_existence": 0,
+    "direct_primary_record_verified": 8,
+    "indexed_primary_metadata_only": 1,
+    "indexed_primary_only_key": "interval",
+    "sealed_manuscript_modified": false
+  },
+  "references": [
+    {
+      "number": 10,
+      "key": "factory",
+      "verified_fields": {
+        "title": "FactoryNet: A Large-Scale Dataset toward Industrial Time-Series Foundation Models",
+        "authors": [
+          "Jonas Petersen",
+          "Pratik Jawahar",
+          "Riccardo Maggioni",
+          "Alexandre Huou",
+          "Karim Othman",
+          "Camilla Mazzoleni",
+          "Matteo Cozzi",
+          "Marek Gajewski",
+          "Davide Paloschi",
+          "Gian-Alessandro Lombardi",
+          "Matei C. Ignuta-Ciuncanu",
+          "Lior Porath",
+          "Federico Martelli",
+          "Philipp Christian Petersen"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint",
+        "arxiv_id": "2605.09081",
+        "cited_version": "v5",
+        "version_date": "2026-10-08",
+        "version_timestamp_utc": "2026-10-08T21:18:53Z",
+        "first_submission": "2026-05-09",
+        "doi": "10.48550/arXiv.2605.09081"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.09081v5",
+          "source_type": "official arXiv version record, directly opened",
+          "actual_observation": "Title, all14authors and submission history directly visible; v5 is8October2026; first submission9May2026. Comments report acceptance at AI4Physics and FMSD, ICML2026."
+        }
+      ],
+      "limitations": [
+        "The workshop acceptance statement is author-supplied arXiv metadata, not independently checked proceedings; do not describe this as an ICML main-conference paper. The current reference appropriately says preprint."
+      ],
+      "optional_enhancements": [
+        "May add the arXiv DOI; the exact version URL already identifies the cited preprint."
+      ],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Jonas Petersen, Pratik Jawahar, Riccardo Maggioni, et al. {FactoryNet: A Large-Scale Dataset toward Industrial Time-Series Foundation Models}. \\emph{arXiv preprint}, 2026. Preprint, version 5, 8 October 2026; arXiv:2605.09081. \\url{https://arxiv.org/abs/2605.09081v5}.",
+      "checked_reference_number": 10
+    },
+    {
+      "number": 11,
+      "key": "moderntcn",
+      "verified_fields": {
+        "title": "ModernTCN: A Modern Pure Convolution Structure for General Time Series Analysis",
+        "authors": [
+          "Donghao Luo",
+          "Xue Wang"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations 2024",
+        "openreview_id": "vpJMJerXHU"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/86b1437c1e4c3b3c4debff98234a67e7-Abstract-Conference.html",
+          "source_type": "official ICLR proceedings record, directly opened",
+          "actual_observation": "Exact title, DongHao Luo and Xue Wang, and ICLR2024 Conference designation visible."
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/86b1437c1e4c3b3c4debff98234a67e7-Paper-Conference.pdf",
+          "source_type": "official proceedings PDF, indexed header",
+          "actual_observation": "Search-indexed first page names Donghao Luo and Xue Wang and states publication as an ICLR2024 conference paper; direct PDF retrieval exceeded tool size limit."
+        },
+        {
+          "url": "https://github.com/luodhhh/ModernTCN/blob/main/README.md",
+          "source_type": "author implementation record, fresh indexed result",
+          "actual_observation": "Author README associates this exact title with the manuscript OpenReview ID vpJMJerXHU and ICLR2024."
+        }
+      ],
+      "limitations": [
+        "OpenReview forum directly requested but returned browser-verification challenge. Official proceedings independently establish identity and venue. No numbered volume/pages/DOI claimed by the manuscript."
+      ],
+      "optional_enhancements": [
+        "The official proceedings link can be supplied as an alternative when OpenReview is blocked; original URL is not shown to be wrong."
+      ],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Donghao Luo, Xue Wang. {ModernTCN: A Modern Pure Convolution Structure for General Time Series Analysis}. \\emph{International Conference on Learning Representations}, 2024. \\url{https://openreview.net/forum?id=vpJMJerXHU}.",
+      "checked_reference_number": 11
+    },
+    {
+      "number": 12,
+      "key": "itransformer",
+      "verified_fields": {
+        "title": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+        "authors": [
+          "Yong Liu",
+          "Tengge Hu",
+          "Haoran Zhang",
+          "Haixu Wu",
+          "Shiyu Wang",
+          "Lintao Ma",
+          "Mingsheng Long"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations 2024",
+        "openreview_id": "JePfAI8fah"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/2ea18fdc667e0ef2ad82b2b4d65147ad-Abstract-Conference.html",
+          "source_type": "official ICLR proceedings record, directly opened",
+          "actual_observation": "Exact title, all7authors in order and ICLR2024 Conference designation visible."
+        },
+        {
+          "url": "https://iclr.cc/virtual/2024/papers.html?filter=topic",
+          "source_type": "official ICLR program, fresh indexed result",
+          "actual_observation": "Lists the exact iTransformer title among ICLR2024 papers."
+        }
+      ],
+      "limitations": [
+        "Direct OpenReview forum returned browser-verification challenge. Venue/title/authors verified in the official proceedings; this is not a full-text or code audit."
+      ],
+      "optional_enhancements": [
+        "May supply the official proceedings URL as an access alternative."
+      ],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Yong Liu, Tengge Hu, Haoran Zhang, et al. {iTransformer: Inverted Transformers Are Effective for Time Series Forecasting}. \\emph{International Conference on Learning Representations}, 2024. \\url{https://openreview.net/forum?id=JePfAI8fah}.",
+      "checked_reference_number": 12
+    },
+    {
+      "number": 13,
+      "key": "timemixer",
+      "verified_fields": {
+        "title": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
+        "authors": [
+          "Shiyu Wang",
+          "Haixu Wu",
+          "Xiaoming Shi",
+          "Tengge Hu",
+          "Huakun Luo",
+          "Lintao Ma",
+          "James Y. Zhang",
+          "Jun Zhou"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations 2024",
+        "openreview_id": "7oLshfEIC2"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/a7ac8a21e5a27e7ab31a5f42a0117bdb-Abstract-Conference.html",
+          "source_type": "official ICLR proceedings record, directly opened",
+          "actual_observation": "Title, eight authors and ICLR2024 Conference designation visible; landing page renders James Zhang and JUN ZHOU."
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/a7ac8a21e5a27e7ab31a5f42a0117bdb-Paper-Conference.pdf",
+          "source_type": "official proceedings PDF, directly opened",
+          "actual_observation": "PDF page1 explicitly prints James Y. Zhang and Jun Zhou, confirming the more complete BibTeX spelling; header says published as an ICLR2024 conference paper."
+        },
+        {
+          "url": "https://github.com/kwuking/TimeMixer",
+          "source_type": "author repository, fresh indexed result",
+          "actual_observation": "The authors associate the exact paper with OpenReview ID7oLshfEIC2 and cite the full author list including James Y Zhang."
+        }
+      ],
+      "limitations": [
+        "Direct OpenReview forum returned browser-verification challenge. Landing-page abbreviation is not an error in the manuscript; the official PDF supports its full author spelling."
+      ],
+      "optional_enhancements": [],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Shiyu Wang, Haixu Wu, Xiaoming Shi, et al. {TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting}. \\emph{International Conference on Learning Representations}, 2024. \\url{https://openreview.net/forum?id=7oLshfEIC2}.",
+      "checked_reference_number": 13
+    },
+    {
+      "number": 14,
+      "key": "interval",
+      "verified_fields": {
+        "title": "Observer gain effect in linear interval observer-based fault detection",
+        "authors": [
+          "Jordi Meseguer",
+          "Vicenç Puig",
+          "Teresa Escobet",
+          "Jordi Saludes"
+        ],
+        "year": 2010,
+        "month": "September",
+        "venue": "Journal of Process Control",
+        "volume": "20",
+        "issue": "8",
+        "pages": "944–956",
+        "doi": "10.1016/j.jprocont.2010.06.017"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959152410001289",
+          "source_type": "official Elsevier publisher record, fresh search-indexed retrieval",
+          "actual_observation": "Exact title, four authors including Jordi Saludes, September2010, volume20 issue8, pages944–956 and exact DOI all visible in the publisher result."
+        },
+        {
+          "url": "https://futur.upc.edu/2748744",
+          "source_type": "authors institutional UPC record, fresh search-indexed retrieval",
+          "actual_observation": "UPC independently lists the four authors, journal,09/2010,volume20,number8,pages944–956 and same DOI."
+        }
+      ],
+      "limitations": [
+        "Direct publisher and UPC page requests returned403; the bibliographic verification here uses their freshly retrieved indexed primary records. Same-title2006IFAC/2007CDC conference works also exist but are not the cited2010journal article."
+      ],
+      "optional_enhancements": [],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Jordi Meseguer, Vicen{\\c c} Puig, Teresa Escobet, Jordi Saludes. {Observer gain effect in linear interval observer-based fault detection}. \\emph{Journal of Process Control, 20(8):944--956}, 2010. \\url{https://doi.org/10.1016/j.jprocont.2010.06.017}.",
+      "checked_reference_number": 14
+    },
+    {
+      "number": 15,
+      "key": "fail",
+      "verified_fields": {
+        "title": "Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies",
+        "authors": [
+          "Chen Xu",
+          "Tony Khuong Nguyen",
+          "Emma Dixon",
+          "Christopher Rodriguez",
+          "Patrick Miller",
+          "Robert Lee",
+          "Paarth Shah",
+          "Rares Andrei Ambrus",
+          "Haruki Nishimura",
+          "Masha Itkina"
+        ],
+        "year": 2025,
+        "month": "June",
+        "venue": "Robotics: Science and Systems XXI",
+        "bibtex_booktitle": "Proceedings of Robotics: Science and Systems",
+        "conference_location": "Los Angeles, CA, USA",
+        "doi": "10.15607/RSS.2025.XXI.073",
+        "proceedings_paper": "073"
+      },
+      "sources": [
+        {
+          "url": "https://roboticsproceedings.org/rss21/p073.html",
+          "source_type": "official RSS proceedings, directly opened",
+          "actual_observation": "Exact title, all10authors and official BibTeX visible; the supplied DOI,2025andJune match. The page header identifies RSSXXI."
+        },
+        {
+          "url": "https://www.roboticsproceedings.org/rss21/p073.pdf",
+          "source_type": "official RSS PDF, fresh indexed header",
+          "actual_observation": "Indexed first page prints RSS2025,LosAngeles,June21–25,2025 and the title/authors; direct download exceeded tool size limit."
+        }
+      ],
+      "limitations": [
+        "DOI URL itself was inaccessible to this tool, but its identity is printed in official proceedings BibTeX. Full PDF retrieval was size-limited; not needed for this existence/metadata check."
+      ],
+      "optional_enhancements": [],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Chen Xu, Tony Khuong Nguyen, Emma Dixon, et al. {Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies}. \\emph{Robotics: Science and Systems XXI}, 2025. \\url{https://doi.org/10.15607/RSS.2025.XXI.073}.",
+      "checked_reference_number": 15
+    },
+    {
+      "number": 16,
+      "key": "howard",
+      "verified_fields": {
+        "title": "Time-uniform, nonparametric, nonasymptotic confidence sequences",
+        "authors": [
+          "Steven R. Howard",
+          "Aaditya Ramdas",
+          "Jon McAuliffe",
+          "Jasjeet Sekhon"
+        ],
+        "year": 2021,
+        "month": "April",
+        "venue": "The Annals of Statistics",
+        "volume": "49",
+        "issue": "2",
+        "pages": "1055–1080",
+        "doi": "10.1214/20-AOS1991",
+        "corroborating_arxiv_id": "1810.08240"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1810.08240",
+          "source_type": "official author arXiv record, directly opened",
+          "actual_observation": "Exact title and four authors visible; journal reference explicitly gives Ann.Statist.49(2):1055–1080(April2021), with related DOI10.1214/20-AOS1991."
+        },
+        {
+          "url": "https://www.imstat.org/publications/aos/aos_49_2/aos_49_2.pdf",
+          "source_type": "official IMS publisher issue, fresh indexed article front matter",
+          "actual_observation": "Indexed publisher front matter confirms title, authors,2021,49(2),1055–1080 and DOI."
+        }
+      ],
+      "limitations": [
+        "DOI resolved to ProjectEuclid but returned only an iframe wrapper; direct IMS issue fetch returned502 and NSF copy timed out. Official arXiv journal metadata and publisher-indexed front matter agree. The journal year2021 is not replaced by the arXiv2018submission or2022revision dates."
+      ],
+      "optional_enhancements": [],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "Steven R. Howard, Aaditya Ramdas, Jon McAuliffe, Jasjeet Sekhon. {Time-uniform, nonparametric, nonasymptotic confidence sequences}. \\emph{The Annals of Statistics, 49(2):1055--1080}, 2021. \\url{https://doi.org/10.1214/20-AOS1991}.",
+      "checked_reference_number": 16
+    },
+    {
+      "number": 17,
+      "key": "kaisar",
+      "verified_fields": {
+        "title": "A Digital Twin-Based Cybersecurity Architecture for FDI Anomaly Detection and Isolation in Next Generation Robotic Vehicles",
+        "authors": [
+          "Hunain Kaisar",
+          "Muhammad Rehan",
+          "Ijaz Ahmed",
+          "Muhammad Bilal",
+          "Muhammad Khalid"
+        ],
+        "year": 2026,
+        "venue": "IEEE Open Journal of the Communications Society",
+        "volume": "7",
+        "pages": "12709–12728",
+        "doi": "10.1109/OJCOMS.2026.3739185"
+      },
+      "sources": [
+        {
+          "url": "https://pure.kfupm.edu.sa/en/publications/a-digital-twin-based-cybersecurity-architecture-for-fdi-anomaly-d/",
+          "source_type": "authors institutional KFUPM publication record, directly opened",
+          "actual_observation": "Exact title and all5fullauthor names visible; record identifies peer-reviewed journal article,Published2026,volume7,pages12709–12728 and exactDOI. APA/BibTeX/RIS fields agree."
+        }
+      ],
+      "limitations": [
+        "IEEE DOI could not be opened; no IEEE fulltext or exact online-publication day was independently retrieved. Institutional record supports the citation metadata. Its separate copyright note says2020 while all publication/year fields say2026; that note is not used as a publication date."
+      ],
+      "optional_enhancements": [
+        "Full author names may replace initials in the BibTeX source: Hunain Kaisar; Muhammad Rehan; Ijaz Ahmed; Muhammad Bilal; Muhammad Khalid. Existing initials are correct, so this is optional."
+      ],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "H. Kaisar, M. Rehan, I. Ahmed, M. Bilal, M. Khalid. {A Digital Twin-Based Cybersecurity Architecture for FDI Anomaly Detection and Isolation in Next Generation Robotic Vehicles}. \\emph{IEEE Open Journal of the Communications Society, 7:12709--12728}, 2026. \\url{https://doi.org/10.1109/OJCOMS.2026.3739185}.",
+      "checked_reference_number": 17
+    },
+    {
+      "number": 18,
+      "key": "rescue",
+      "verified_fields": {
+        "title": "RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors",
+        "authors": [
+          "David Ahmedt-Aristizabal",
+          "Abdelwahed Khamis",
+          "Mohammad Ali Armin",
+          "Lars Petersson"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint",
+        "arxiv_id": "2610.13516",
+        "cited_version": "v1",
+        "version_date": "2026-10-09",
+        "version_timestamp_utc": "2026-10-09T12:38:35Z",
+        "arxiv_displayed_doi": "10.48550/arXiv.2610.13516",
+        "doi_registration_note": "arXiv labels DOI pending registration"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.13516v1",
+          "source_type": "official arXiv version record, directly opened",
+          "actual_observation": "Exact title,fourauthors and onlyv1submission timestamp9October2026visible; cited version/date match. Record displays arXiv-issued DOI with pending-registration notice."
+        }
+      ],
+      "limitations": [
+        "Verified as a preprint; no peer-reviewed proceedings/journal venue asserted or independently established. Do not replace the working version URL with a claim that the displayed DOI is already registered."
+      ],
+      "optional_enhancements": [],
+      "existence_verdict": "verified_real",
+      "metadata_verdict": "matches_printed_entry_and_bibtex",
+      "required_corrections": [],
+      "printed_entry_tex": "David Ahmedt-Aristizabal, Abdelwahed Khamis, Mohammad Ali Armin, Lars Petersson. {RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors}. \\emph{arXiv preprint}, 2026. Preprint, version 1, 9 October 2026; arXiv:2610.13516. \\url{https://arxiv.org/abs/2610.13516v1}.",
+      "checked_reference_number": 18
+    }
+  ]
+}

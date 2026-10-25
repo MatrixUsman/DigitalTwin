@@ -1,0 +1,1089 @@
+{
+  "utc": "2026-10-24T11:22:37.749913+00:00",
+  "scope": "Fresh source existence and bibliographic metadata audit; not full claim-support/retraction/replication review",
+  "numbered_sources_verified_real": 28,
+  "unverified_existence": 0,
+  "fabricated_or_nonexistent_identified": 0,
+  "required_substantive_metadata_corrections_identified": 0,
+  "extra_prose_final_ren_doi_verified_real": true,
+  "qualification": "Existence is complete; metadata access limitations and optional version updates remain explicit in per-reference reports.",
+  "preserved_v18_bindings": 108,
+  "all_preserved": true,
+  "missing_citations": [],
+  "unused_references": [],
+  "citation_occurrences": 40,
+  "references": [
+    {
+      "number": 1,
+      "key": "securitysurvey",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Abdul Rehman Qureshi",
+          "Adrián Asensio",
+          "Muhammad Imran",
+          "Jordi Garcia",
+          "Xavi Masip-Bruin"
+        ],
+        "title": "A survey on security enhancing Digital Twins: Models, applications and tools",
+        "venue": "Computer Communications",
+        "year": 2025,
+        "volume": "238",
+        "issue": null,
+        "pages": null,
+        "article_number": "108158",
+        "doi": "10.1016/j.comcom.2025.108158"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S014036642500115X",
+          "source_type": "publisher",
+          "access": "search_index_metadata; direct_open_403",
+          "observed_on": "2026-10-24",
+          "observation": "Fresh publisher-index result lists exact authors/title, volume 238, article 108158 and 1 June 2025."
+        },
+        {
+          "url": "https://upcommons.upc.edu/bitstream/handle/2117/428449/1-s2.0-S014036642500115X-main.pdf?sequence=1",
+          "source_type": "author_institution_published_pdf",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "First page independently confirms all five authors, title, journal, 238 (2025) 108158 and DOI; available online 11 April 2025."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 2,
+      "key": "lifecycle",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Taru Itäpelto",
+          "Mohammed Elhajj",
+          "Marten van Sinderen"
+        ],
+        "title": "Digital twin application in lifecycle security of critical infrastructures: A systematic literature review",
+        "venue": "International Journal of Critical Infrastructure Protection",
+        "year": 2025,
+        "volume": "50",
+        "issue": null,
+        "pages": null,
+        "article_number": "100783",
+        "doi": "10.1016/j.ijcip.2025.100783"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1874548225000447",
+          "source_type": "publisher",
+          "access": "search_index_metadata; direct_open_403",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher-index metadata agrees on authors/title, volume 50, article 100783, September 2025 and DOI."
+        },
+        {
+          "url": "https://research.utwente.nl/en/publications/digital-twin-application-in-lifecycle-security-of-critical-infras/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "University of Twente record explicitly identifies the three authors, full title, journal, volume 50, article 100783, September 2025 and DOI."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 3,
+      "key": "casper",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Hakan Kayan",
+          "Ryan Heartfield",
+          "Omer Rana",
+          "Pete Burnap",
+          "Charith Perera"
+        ],
+        "title": "CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms",
+        "venue": "ACM Transactions on Internet of Things",
+        "year": 2024,
+        "volume": "5",
+        "issue": "3",
+        "pages": "1–36",
+        "article_number": "18",
+        "doi": "10.1145/3670414"
+      },
+      "sources": [
+        {
+          "url": "https://orca.cardiff.ac.uk/id/eprint/165098/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Cardiff confirms work, year, DOI and 36 pages, but its short citation renders article number 18 where a volume would normally appear and expands Burnap to Peter."
+        },
+        {
+          "url": "https://ngcharithperera.gitlab.io/publications/pdfs/Kayan2024a.pdf",
+          "source_type": "author_hosted_corrected_version_of_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "The 36-page PDF first two pages explicitly give all five cited author names, volume 5, issue 3, Article 18, August 2024 and DOI. The footer identifies corrected Version of Record V.1.1, published 5 February 2025."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 4,
+      "key": "edge",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Hakan Kayan",
+          "Ryan Heartfield",
+          "Omer Rana",
+          "Pete Burnap",
+          "Charith Perera"
+        ],
+        "title": "Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing",
+        "venue": "IEEE Internet of Things Journal",
+        "year": 2025,
+        "volume": "12",
+        "issue": "15",
+        "pages": "29696–29712",
+        "article_number": null,
+        "doi": "10.1109/JIOT.2025.3569780"
+      },
+      "sources": [
+        {
+          "url": "https://orca.cardiff.ac.uk/id/eprint/178905/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Cardiff identifies all five authors, exact title, 2025, journal 12(15), pages 29696–29712 and matching DOI; record marks published and accepted 6 May 2025."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 5,
+      "key": "hybrid",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Samuel Ayankoso",
+          "Eric Kaigom",
+          "Hassna Louadah",
+          "Hamidreza Faham",
+          "Fengshou Gu",
+          "Andrew Ball"
+        ],
+        "title": "A Hybrid Digital Twin Scheme for the Condition Monitoring of Industrial Collaborative Robots",
+        "venue": "Procedia Computer Science",
+        "year": 2024,
+        "volume": "232",
+        "issue": null,
+        "pages": "1099–1108",
+        "article_number": null,
+        "doi": "10.1016/j.procs.2024.01.108"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S187705092400108X",
+          "source_type": "publisher",
+          "access": "search_index_metadata; direct_open_403",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher-index record lists all six authors, title, journal, volume 232, pages 1099–1108, 2024 and DOI."
+        },
+        {
+          "url": "https://pure.hud.ac.uk/en/publications/a-hybrid-digital-twin-scheme-for-the-condition-monitoring-of-indu/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Huddersfield confirms all citation fields and publication 20 March 2024; identifies a conference article from ISM 2023, published in the 2024 Procedia volume."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 6,
+      "key": "arp",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Daniel Arp",
+          "Erwin Quiring",
+          "Feargus Pendlebury",
+          "Alexander Warnecke",
+          "Fabio Pierazzi",
+          "Christian Wressnegger",
+          "Lorenzo Cavallaro",
+          "Konrad Rieck"
+        ],
+        "title": "Pitfalls in Machine Learning for Computer Security",
+        "venue": "Communications of the ACM",
+        "year": 2024,
+        "volume": "67",
+        "issue": "11",
+        "pages": "104–112",
+        "article_number": null,
+        "doi": "10.1145/3643456"
+      },
+      "sources": [
+        {
+          "url": "https://publikationen.bibliothek.kit.edu/1000176742",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "KIT lists all eight authors, original DOI, journal 67(11), pages 104–112 and 2024."
+        },
+        {
+          "url": "https://www.mlsec.tu-berlin.de/docs/2024-cacm.pdf",
+          "source_type": "author_institution_published_pdf",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Published PDF first page gives all eight names, exact title, DOI, page 104 and November 2024 volume 67 issue 11; the 9-page document corroborates the page range. It separately identifies the earlier USENIX 2022 original article."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 7,
+      "key": "calibration",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Tinghui Chen",
+          "Weiyi Yang",
+          "Shuai Li",
+          "Xin Luo"
+        ],
+        "title": "Data-Driven Calibration of Industrial Robots: A Comprehensive Survey",
+        "venue": "IEEE/CAA Journal of Automatica Sinica",
+        "year": 2025,
+        "volume": "12",
+        "issue": "8",
+        "pages": "1544–1567",
+        "article_number": null,
+        "doi": "10.1109/JAS.2025.125237"
+      },
+      "sources": [
+        {
+          "url": "https://www.ieee-jas.com/article/doi/10.1109/JAS.2025.125237?pageType=en",
+          "source_type": "journal_publisher",
+          "access": "search_index_metadata; direct_open_timeout",
+          "observed_on": "2026-10-24",
+          "observation": "Journal-index record supplies all four names and exact citation: volume 12, issue 8, pages 1544–1567, August 2025 and DOI."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11131623",
+          "source_type": "publisher",
+          "access": "search_index_metadata",
+          "observed_on": "2026-10-24",
+          "observation": "IEEE-index metadata agrees on title, volume 12 issue 8, pages 1544–1567, DOI and publication 20 August 2025."
+        },
+        {
+          "url": "https://oulu.cris.fi/en/publications/93a5ddcd-ee1d-4ea6-a12f-afe6b33ac30c",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "University of Oulu confirms all four authors, exact title, journal, bibliographic year 2025, volume 12, issue 8, pages 1544–1567 and DOI."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 8,
+      "key": "identification",
+      "existence": "verified_real",
+      "metadata": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Koen Classens",
+          "Rodrigo A. González",
+          "Tom Oomen"
+        ],
+        "title": "Recursive identification of structured systems: An instrumental-variable approach applied to mechanical systems",
+        "venue": "European Journal of Control",
+        "year": 2025,
+        "volume": "84",
+        "issue": null,
+        "pages": null,
+        "article_number": "101238",
+        "doi": "10.1016/j.ejcon.2025.101238"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0947358025000676",
+          "source_type": "publisher",
+          "access": "search_index_metadata",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher-index record gives title, volume 84, July 2025, article 101238 and DOI."
+        },
+        {
+          "url": "https://research.tudelft.nl/en/publications/recursive-identification-of-structured-systems-an-instrumental-va/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "TU Delft confirms all three authors, exact title, journal volume 84, article 101238, 2025 and DOI; marks a final published version available."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 9,
+      "key": "voraus",
+      "existence": "verified_real",
+      "metadata": "verified_with_date_qualification",
+      "verified_fields": {
+        "authors": [
+          "Jan Thieß Brockmann",
+          "Marco Rudolph",
+          "Bodo Rosenhahn",
+          "Bastian Wandt"
+        ],
+        "title": "The voraus-AD Dataset for Anomaly Detection in Robot Applications",
+        "venue": "IEEE Transactions on Robotics",
+        "year": 2024,
+        "volume": "40",
+        "issue": null,
+        "pages": "438–451",
+        "article_number": null,
+        "doi": "10.1109/TRO.2023.3332224"
+      },
+      "sources": [
+        {
+          "url": "https://research.uni-hannover.de/en/publications/the-voraus-ad-dataset-for-anomaly-detection-in-robot-applications/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Hannover confirms identity, four authors, journal volume 40, pages 438–451 and DOI; records early online 13 November 2023 and publication 15 November 2023."
+        },
+        {
+          "url": "https://www.tnt.uni-hannover.de/en/papers/show_bibtex.php?id=1693",
+          "source_type": "author_institution_bibtex",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Author-group BibTeX gives the same work, volume/pages/DOI with year 2023; its first-name encoding is inconsistent with the arXiv spelling."
+        },
+        {
+          "url": "https://staff.gitlab-pages.liu.se/publications/en/liu/isy/cvl/baswa38/",
+          "source_type": "coauthor_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Coauthor Bastian Wandt’s Linköping institutional publication list explicitly cites IEEE Transactions on Robotics 40:438–451 (2024) and the identical DOI."
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.04765",
+          "source_type": "author_deposited_manuscript_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Author-submitted record confirms exact title and the spelling Jan Thieß Brockmann, all four authors, submission 8 November 2023 and acceptance to Transactions on Robotics. It is not used as proof of a 2024 journal issue date."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/document/10315239",
+          "source_type": "publisher",
+          "access": "blocked_javascript_robot_check",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher article route returned a JavaScript robot-verification page; the abstract route returned HTTP 418, so no direct publisher date fields were inspected."
+        }
+      ],
+      "details_file": "GROUP_A.json",
+      "details_sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9"
+    },
+    {
+      "number": 10,
+      "key": "factory",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "FactoryNet: A Large-Scale Dataset toward Industrial Time-Series Foundation Models",
+        "authors": [
+          "Jonas Petersen",
+          "Pratik Jawahar",
+          "Riccardo Maggioni",
+          "Alexandre Huou",
+          "Karim Othman",
+          "Camilla Mazzoleni",
+          "Matteo Cozzi",
+          "Marek Gajewski",
+          "Davide Paloschi",
+          "Gian-Alessandro Lombardi",
+          "Matei C. Ignuta-Ciuncanu",
+          "Lior Porath",
+          "Federico Martelli",
+          "Philipp Christian Petersen"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint",
+        "arxiv_id": "2605.09081",
+        "cited_version": "v5",
+        "version_date": "2026-10-08",
+        "version_timestamp_utc": "2026-10-08T21:18:53Z",
+        "first_submission": "2026-05-09",
+        "doi": "10.48550/arXiv.2605.09081"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.09081v5",
+          "source_type": "official arXiv version record, directly opened",
+          "actual_observation": "Title, all14authors and submission history directly visible; v5 is8October2026; first submission9May2026. Comments report acceptance at AI4Physics and FMSD, ICML2026."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 11,
+      "key": "moderntcn",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "ModernTCN: A Modern Pure Convolution Structure for General Time Series Analysis",
+        "authors": [
+          "Donghao Luo",
+          "Xue Wang"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations 2024",
+        "openreview_id": "vpJMJerXHU"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/86b1437c1e4c3b3c4debff98234a67e7-Abstract-Conference.html",
+          "source_type": "official ICLR proceedings record, directly opened",
+          "actual_observation": "Exact title, DongHao Luo and Xue Wang, and ICLR2024 Conference designation visible."
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/86b1437c1e4c3b3c4debff98234a67e7-Paper-Conference.pdf",
+          "source_type": "official proceedings PDF, indexed header",
+          "actual_observation": "Search-indexed first page names Donghao Luo and Xue Wang and states publication as an ICLR2024 conference paper; direct PDF retrieval exceeded tool size limit."
+        },
+        {
+          "url": "https://github.com/luodhhh/ModernTCN/blob/main/README.md",
+          "source_type": "author implementation record, fresh indexed result",
+          "actual_observation": "Author README associates this exact title with the manuscript OpenReview ID vpJMJerXHU and ICLR2024."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 12,
+      "key": "itransformer",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+        "authors": [
+          "Yong Liu",
+          "Tengge Hu",
+          "Haoran Zhang",
+          "Haixu Wu",
+          "Shiyu Wang",
+          "Lintao Ma",
+          "Mingsheng Long"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations 2024",
+        "openreview_id": "JePfAI8fah"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/2ea18fdc667e0ef2ad82b2b4d65147ad-Abstract-Conference.html",
+          "source_type": "official ICLR proceedings record, directly opened",
+          "actual_observation": "Exact title, all7authors in order and ICLR2024 Conference designation visible."
+        },
+        {
+          "url": "https://iclr.cc/virtual/2024/papers.html?filter=topic",
+          "source_type": "official ICLR program, fresh indexed result",
+          "actual_observation": "Lists the exact iTransformer title among ICLR2024 papers."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 13,
+      "key": "timemixer",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
+        "authors": [
+          "Shiyu Wang",
+          "Haixu Wu",
+          "Xiaoming Shi",
+          "Tengge Hu",
+          "Huakun Luo",
+          "Lintao Ma",
+          "James Y. Zhang",
+          "Jun Zhou"
+        ],
+        "year": 2024,
+        "venue": "International Conference on Learning Representations 2024",
+        "openreview_id": "7oLshfEIC2"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/a7ac8a21e5a27e7ab31a5f42a0117bdb-Abstract-Conference.html",
+          "source_type": "official ICLR proceedings record, directly opened",
+          "actual_observation": "Title, eight authors and ICLR2024 Conference designation visible; landing page renders James Zhang and JUN ZHOU."
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/a7ac8a21e5a27e7ab31a5f42a0117bdb-Paper-Conference.pdf",
+          "source_type": "official proceedings PDF, directly opened",
+          "actual_observation": "PDF page1 explicitly prints James Y. Zhang and Jun Zhou, confirming the more complete BibTeX spelling; header says published as an ICLR2024 conference paper."
+        },
+        {
+          "url": "https://github.com/kwuking/TimeMixer",
+          "source_type": "author repository, fresh indexed result",
+          "actual_observation": "The authors associate the exact paper with OpenReview ID7oLshfEIC2 and cite the full author list including James Y Zhang."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 14,
+      "key": "interval",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "Observer gain effect in linear interval observer-based fault detection",
+        "authors": [
+          "Jordi Meseguer",
+          "Vicenç Puig",
+          "Teresa Escobet",
+          "Jordi Saludes"
+        ],
+        "year": 2010,
+        "month": "September",
+        "venue": "Journal of Process Control",
+        "volume": "20",
+        "issue": "8",
+        "pages": "944–956",
+        "doi": "10.1016/j.jprocont.2010.06.017"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959152410001289",
+          "source_type": "official Elsevier publisher record, fresh search-indexed retrieval",
+          "actual_observation": "Exact title, four authors including Jordi Saludes, September2010, volume20 issue8, pages944–956 and exact DOI all visible in the publisher result."
+        },
+        {
+          "url": "https://futur.upc.edu/2748744",
+          "source_type": "authors institutional UPC record, fresh search-indexed retrieval",
+          "actual_observation": "UPC independently lists the four authors, journal,09/2010,volume20,number8,pages944–956 and same DOI."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 15,
+      "key": "fail",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "Can We Detect Failures Without Failure Data? Uncertainty-Aware Runtime Failure Detection for Imitation Learning Policies",
+        "authors": [
+          "Chen Xu",
+          "Tony Khuong Nguyen",
+          "Emma Dixon",
+          "Christopher Rodriguez",
+          "Patrick Miller",
+          "Robert Lee",
+          "Paarth Shah",
+          "Rares Andrei Ambrus",
+          "Haruki Nishimura",
+          "Masha Itkina"
+        ],
+        "year": 2025,
+        "month": "June",
+        "venue": "Robotics: Science and Systems XXI",
+        "bibtex_booktitle": "Proceedings of Robotics: Science and Systems",
+        "conference_location": "Los Angeles, CA, USA",
+        "doi": "10.15607/RSS.2025.XXI.073",
+        "proceedings_paper": "073"
+      },
+      "sources": [
+        {
+          "url": "https://roboticsproceedings.org/rss21/p073.html",
+          "source_type": "official RSS proceedings, directly opened",
+          "actual_observation": "Exact title, all10authors and official BibTeX visible; the supplied DOI,2025andJune match. The page header identifies RSSXXI."
+        },
+        {
+          "url": "https://www.roboticsproceedings.org/rss21/p073.pdf",
+          "source_type": "official RSS PDF, fresh indexed header",
+          "actual_observation": "Indexed first page prints RSS2025,LosAngeles,June21–25,2025 and the title/authors; direct download exceeded tool size limit."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 16,
+      "key": "howard",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "Time-uniform, nonparametric, nonasymptotic confidence sequences",
+        "authors": [
+          "Steven R. Howard",
+          "Aaditya Ramdas",
+          "Jon McAuliffe",
+          "Jasjeet Sekhon"
+        ],
+        "year": 2021,
+        "month": "April",
+        "venue": "The Annals of Statistics",
+        "volume": "49",
+        "issue": "2",
+        "pages": "1055–1080",
+        "doi": "10.1214/20-AOS1991",
+        "corroborating_arxiv_id": "1810.08240"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1810.08240",
+          "source_type": "official author arXiv record, directly opened",
+          "actual_observation": "Exact title and four authors visible; journal reference explicitly gives Ann.Statist.49(2):1055–1080(April2021), with related DOI10.1214/20-AOS1991."
+        },
+        {
+          "url": "https://www.imstat.org/publications/aos/aos_49_2/aos_49_2.pdf",
+          "source_type": "official IMS publisher issue, fresh indexed article front matter",
+          "actual_observation": "Indexed publisher front matter confirms title, authors,2021,49(2),1055–1080 and DOI."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 17,
+      "key": "kaisar",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "A Digital Twin-Based Cybersecurity Architecture for FDI Anomaly Detection and Isolation in Next Generation Robotic Vehicles",
+        "authors": [
+          "Hunain Kaisar",
+          "Muhammad Rehan",
+          "Ijaz Ahmed",
+          "Muhammad Bilal",
+          "Muhammad Khalid"
+        ],
+        "year": 2026,
+        "venue": "IEEE Open Journal of the Communications Society",
+        "volume": "7",
+        "pages": "12709–12728",
+        "doi": "10.1109/OJCOMS.2026.3739185"
+      },
+      "sources": [
+        {
+          "url": "https://pure.kfupm.edu.sa/en/publications/a-digital-twin-based-cybersecurity-architecture-for-fdi-anomaly-d/",
+          "source_type": "authors institutional KFUPM publication record, directly opened",
+          "actual_observation": "Exact title and all5fullauthor names visible; record identifies peer-reviewed journal article,Published2026,volume7,pages12709–12728 and exactDOI. APA/BibTeX/RIS fields agree."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 18,
+      "key": "rescue",
+      "existence": "verified_real",
+      "metadata": "matches_printed_entry_and_bibtex",
+      "verified_fields": {
+        "title": "RESCUE: Is This Alarm Worth Acting On? Counterfactual Evaluation of VLA Runtime Monitors",
+        "authors": [
+          "David Ahmedt-Aristizabal",
+          "Abdelwahed Khamis",
+          "Mohammad Ali Armin",
+          "Lars Petersson"
+        ],
+        "year": 2026,
+        "venue": "arXiv preprint",
+        "arxiv_id": "2610.13516",
+        "cited_version": "v1",
+        "version_date": "2026-10-09",
+        "version_timestamp_utc": "2026-10-09T12:38:35Z",
+        "arxiv_displayed_doi": "10.48550/arXiv.2610.13516",
+        "doi_registration_note": "arXiv labels DOI pending registration"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.13516v1",
+          "source_type": "official arXiv version record, directly opened",
+          "actual_observation": "Exact title,fourauthors and onlyv1submission timestamp9October2026visible; cited version/date match. Record displays arXiv-issued DOI with pending-registration notice."
+        }
+      ],
+      "details_file": "GROUP_B.json",
+      "details_sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1"
+    },
+    {
+      "number": 19,
+      "key": "inputthreshold",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified_across_publisher_search_record_and_author_institution",
+      "verified_fields": {
+        "authors": [
+          "H. P. Rotstein",
+          "R. Ingvalson",
+          "T. Keviczky",
+          "G. J. Balas"
+        ],
+        "title": "Input-Dependent Threshold Function for an Actuator Fault Detection Filter",
+        "venue": "IFAC Proceedings Volumes",
+        "volume": "38",
+        "issue": "1",
+        "pages": "211–216",
+        "year": 2005,
+        "doi": "10.3182/20050703-6-CZ-1902.01996",
+        "publication_status": "Published conference proceedings article"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1474667016380089",
+          "source_type": "Publisher search result",
+          "observed": "Title, journal, volume38, issue1, pages211–216, year2005 and DOI visible; direct opening returned403."
+        },
+        {
+          "url": "https://www.dcsc.tudelft.nl/~tkeviczky/publications.html",
+          "source_type": "Author institutional publications list, search result",
+          "observed": "Entry C8 identifies same title, four authors in cited order,16thIFAC World Congress, Prague,4–8July2005."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 20,
+      "key": "motionconformal",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified_publication_status_enrichment_available",
+      "verified_fields": {
+        "authors": [
+          "Richard Schubert",
+          "Marvin Loba",
+          "Jasper Sünnemann",
+          "Torben Stolte",
+          "Markus Maurer"
+        ],
+        "title": "Conformal Prediction of Motion Control Performance for an Automated Vehicle in Presence of Actuator Degradations and Failures",
+        "cited_version": "arXiv2404.16500v2",
+        "v1_date": "2024-04-25",
+        "v2_date": "2024-07-29",
+        "arxiv_doi": "10.48550/arXiv.2404.16500",
+        "final_venue": "2024 IEEE27th International Conference on Intelligent Transportation Systems (ITSC)",
+        "final_doi": "10.1109/ITSC58415.2024.10920241",
+        "final_pages": "1778–1785",
+        "conference_dates": "2024-09-24 to2024-09-27",
+        "date_added_ieee": "2025-03-20",
+        "publication_status": "Cited author manuscript verified; final IEEE proceedings record also verified"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.16500v2",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, all five authors, v1/v2 dates, arXivDOI and acceptance comment."
+        },
+        {
+          "url": "https://doi.org/10.1109/ITSC58415.2024.10920241",
+          "source_type": "Publisher IEEE indexed record",
+          "observed": "Title, ITSC2024, conference24–27September2024, added20March2025 and finalDOI."
+        },
+        {
+          "url": "https://www.tu-braunschweig.de/en/ifr/institute/staff/translate-to-english-m-sc-marvin-loba",
+          "source_type": "Author institutional publications page, search result",
+          "observed": "Five-author order and final ITSC2024 citation with pages1778–1785 and sameDOI."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 21,
+      "key": "tsbad",
+      "existence": "verified_real",
+      "metadata": "existence_core_metadata_verified_original_page_range_export_inaccessible",
+      "verified_fields": {
+        "authors": [
+          "Qinghua Liu",
+          "John Paparrizos"
+        ],
+        "title": "The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark",
+        "venue": "Advances in Neural Information Processing Systems",
+        "volume": "37",
+        "track": "Datasets and Benchmarks",
+        "year": 2024,
+        "doi": "10.52202/079017-3437",
+        "pages_current": "108231–108261",
+        "pages_verification": "Not independently confirmed from the original proceedings export in this audit; corroborated by a later NeurIPS paper bibliography.",
+        "publication_status": "Published NeurIPS2024 proceedings"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/c3f3c690b7a99fba16d0efd35cb83b2c-Abstract-Datasets_and_Benchmarks_Track.html",
+          "source_type": "Opened official proceedings record",
+          "observed": "Exact title, two authors, NeurIPS37/2024, track and DOI."
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4b52b3c50110fc10f6a1a86055682ea2-Paper-Conference.pdf",
+          "source_type": "Later official proceedings paper, citation only",
+          "observed": "Search extraction cites the current108231–108261range; corroboration only, not original bibliographic authority."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 22,
+      "key": "vus",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified",
+      "verified_fields": {
+        "authors": [
+          "Paul Boniol",
+          "Ashwin K. Krishna",
+          "Marine Bruel",
+          "Qinghua Liu",
+          "Mingyi Huang",
+          "Themis Palpanas",
+          "Ruey S. Tsay",
+          "Aaron Elmore",
+          "Michael J. Franklin",
+          "John Paparrizos"
+        ],
+        "title": "VUS: effective and efficient accuracy measures for time-series anomaly detection",
+        "venue": "The VLDB Journal",
+        "volume": "34",
+        "issue": "3",
+        "article_number": "32",
+        "year": 2025,
+        "doi": "10.1007/s00778-025-00907-x",
+        "accepted_date": "2025-02-14",
+        "version_of_record_date": "2025-03-27",
+        "publication_status": "Published special issue journal paper"
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00778-025-00907-x",
+          "source_type": "Opened publisher article record",
+          "observed": "All ten authors, title, volume34, article32, DOI, acceptance and version-of-record dates."
+        },
+        {
+          "url": "https://link.springer.com/journal/778/volumes-and-issues/34-3",
+          "source_type": "Opened publisher issue contents",
+          "observed": "Lists VUS in volume34, issue3 as article32."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 23,
+      "key": "rapt",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified",
+      "verified_fields": {
+        "authors": [
+          "Humphrey Munn",
+          "Brendan Tidd",
+          "Peter Bohm",
+          "Marcus Gallagher",
+          "David Howard"
+        ],
+        "title": "RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment",
+        "cited_version": "arXiv2602.01515v2",
+        "v1_date": "2026-02-02",
+        "v2_date": "2026-07-21",
+        "doi": "10.48550/arXiv.2602.01515",
+        "publication_status": "Verified arXiv preprint; peer-reviewed venue not established by inspected record"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2602.01515v2",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact v2 title, five authors, dates and arXiv-issuedDOI; no journal-reference or acceptance field displayed."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 24,
+      "key": "robotactive",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified_publication_status_enrichment_available",
+      "verified_fields": {
+        "authors": [
+          "Gabriele Gualandi",
+          "Alessandro V. Papadopoulos"
+        ],
+        "title": "From Passive Monitoring to Active Defence: Resilient Control of Manipulators Under Cyberattacks",
+        "cited_version": "arXiv2603.13003v2",
+        "v1_date": "2026-03-13",
+        "v2_date": "2026-05-26",
+        "arxiv_doi": "10.48550/arXiv.2603.13003",
+        "final_venue": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+        "conference_dates": "2026-06-01 to2026-06-05",
+        "date_added_ieee": "2026-09-30",
+        "final_record_id": "11697152",
+        "publication_status": "Cited author manuscript verified; final IEEE proceedings record additionally identified",
+        "secondary_only_final_doi": "10.1109/ICRA57385.2026.11697152",
+        "secondary_only_final_pages": "17525–17532"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13003v2",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, authors, v1/v2 dates, arXivDOI and v2 acceptance comment."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11697152",
+          "source_type": "Publisher indexed search result",
+          "observed": "Exact title, published-in ICRA2026, conference1–5June2026 and added30September2026."
+        },
+        {
+          "url": "https://dblp.uni-trier.de/rec/conf/icra/GualandiP26.html",
+          "source_type": "Secondary bibliographic lead only",
+          "observed": "Supplies finalDOI and17525–17532pages, not promoted to primary-verified fields."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 25,
+      "key": "renpreprint",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified",
+      "verified_fields": {
+        "authors": [
+          "Farhad Ghanipoor",
+          "Carlos Murguia",
+          "Giancarlo Ferrari Trecate",
+          "Nathan van de Wouw"
+        ],
+        "title": "Data-Driven Sensor Fault Diagnosis with Proven Guarantees using Incrementally Stable Recurrent Neural Networks",
+        "cited_version": "arXiv2504.19688v1",
+        "version_date": "2025-04-28",
+        "doi": "10.48550/arXiv.2504.19688",
+        "publication_status": "Verified arXiv preprint; distinct final article recorded separately below"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.19688v1",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, author order, v1date and arXivDOI; onlyv1 displayed in submission history."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 26,
+      "key": "iresnet",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified",
+      "verified_fields": {
+        "authors": [
+          "Jens Behrmann",
+          "Will Grathwohl",
+          "Ricky T. Q. Chen",
+          "David Duvenaud",
+          "Joern-Henrik Jacobsen"
+        ],
+        "title": "Invertible Residual Networks",
+        "venue": "Proceedings of the36th International Conference on Machine Learning",
+        "series": "Proceedings of Machine Learning Research",
+        "volume": "97",
+        "pages": "573–582",
+        "year": 2019,
+        "conference_dates": "2019-06-09 to2019-06-15",
+        "doi": null,
+        "doi_status": "NoDOI present in inspected official citation; URL identifies proceedings article.",
+        "publication_status": "Published ICML2019 proceedings"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v97/behrmann19a.html",
+          "source_type": "Opened official PMLR record and embedded BibTeX",
+          "observed": "Title, five authors, conference, series, volume, pages, year and9–15June dates."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 27,
+      "key": "lipschitzauto",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified",
+      "verified_fields": {
+        "authors": [
+          "Young-geun Kim",
+          "Yongchan Kwon",
+          "Hyunwoong Chang",
+          "Myunghee Cho Paik"
+        ],
+        "title": "Lipschitz Continuous Autoencoders in Application to Anomaly Detection",
+        "venue": "Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics",
+        "series": "Proceedings of Machine Learning Research",
+        "volume": "108",
+        "pages": "2507–2517",
+        "year": 2020,
+        "conference_dates": "2020-08-26 to2020-08-28",
+        "doi": null,
+        "doi_status": "NoDOI present in inspected official citation; URL identifies proceedings article.",
+        "publication_status": "Published AISTATS2020 proceedings"
+      },
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v108/kim20c.html",
+          "source_type": "Opened official PMLR record and embedded BibTeX",
+          "observed": "Title, four authors, conference, series, volume, pages, year and26–28August dates."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    },
+    {
+      "number": 28,
+      "key": "diffint",
+      "existence": "verified_real",
+      "metadata": "cited_fields_verified_acceptance_independence_limited",
+      "verified_fields": {
+        "authors": [
+          "Lamine Diop",
+          "Marc Plantevit"
+        ],
+        "title": "Differentiable Interval Bottlenecks for Interpretable Anomaly Detection in Numerical Data",
+        "cited_version": "arXiv2609.03878v1",
+        "version_date": "2026-09-03",
+        "doi": "10.48550/arXiv.2609.03878",
+        "publication_status": "Verified author manuscript; ICDM2026acceptance author-reported"
+      },
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.03878v1",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, two authors, v1date, arXivDOI and ICDM2026acceptance comment."
+        }
+      ],
+      "details_file": "GROUP_C.json",
+      "details_sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f"
+    }
+  ]
+}

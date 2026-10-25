@@ -1,0 +1,482 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "manufacturing/local/manuscript_arx_rbf_v1.8/manuscript.txt",
+  "input_sha256": "3f284c9ac2d2d531d841c44ccfbf9b375b8390cb21ce8861a4ed13cc218ac8fe",
+  "status": "partial",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "not_in_input",
+    "abstract_zh": "not_in_input"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        1,
+        1543
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [
+    {
+      "scope": "body",
+      "line": 203,
+      "acronym": "ARX",
+      "reason": "unconfirmed_definition"
+    }
+  ],
+  "findings": [
+    {
+      "scope": "body",
+      "line": 1,
+      "rule": "defined_after_use",
+      "acronym": "RBF",
+      "expansion": "radial basis functions",
+      "occurrences": 53
+    },
+    {
+      "scope": "body",
+      "line": 20,
+      "rule": "undefined",
+      "acronym": "RMSE",
+      "expansion": null,
+      "occurrences": 20
+    },
+    {
+      "scope": "body",
+      "line": 70,
+      "rule": "undefined",
+      "acronym": "CASPER",
+      "expansion": null,
+      "occurrences": 12
+    },
+    {
+      "scope": "body",
+      "line": 102,
+      "rule": "undefined",
+      "acronym": "FAIL",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 116,
+      "rule": "undefined",
+      "acronym": "EKF",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 119,
+      "rule": "undefined",
+      "acronym": "RESCUE",
+      "expansion": null,
+      "occurrences": 5
+    },
+    {
+      "scope": "body",
+      "line": 134,
+      "rule": "undefined",
+      "acronym": "CNN",
+      "expansion": null,
+      "occurrences": 10
+    },
+    {
+      "scope": "body",
+      "line": 143,
+      "rule": "undefined",
+      "acronym": "AD",
+      "expansion": null,
+      "occurrences": 6
+    },
+    {
+      "scope": "body",
+      "line": 143,
+      "rule": "undefined",
+      "acronym": "TSB",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 145,
+      "rule": "undefined",
+      "acronym": "VUS",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 150,
+      "rule": "undefined",
+      "acronym": "MVT",
+      "expansion": null,
+      "occurrences": 6
+    },
+    {
+      "scope": "body",
+      "line": 168,
+      "rule": "undefined",
+      "acronym": "IMU",
+      "expansion": null,
+      "occurrences": 11
+    },
+    {
+      "scope": "body",
+      "line": 403,
+      "rule": "undefined",
+      "acronym": "ReLU",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 445,
+      "rule": "undefined",
+      "acronym": "ETTh1",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 446,
+      "rule": "undefined",
+      "acronym": "CPU",
+      "expansion": null,
+      "occurrences": 22
+    },
+    {
+      "scope": "body",
+      "line": 453,
+      "rule": "undefined",
+      "acronym": "MSE",
+      "expansion": null,
+      "occurrences": 12
+    },
+    {
+      "scope": "body",
+      "line": 466,
+      "rule": "undefined",
+      "acronym": "GB",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 466,
+      "rule": "undefined",
+      "acronym": "RAM",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 467,
+      "rule": "undefined",
+      "acronym": "GPU",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 485,
+      "rule": "undefined",
+      "acronym": "TP",
+      "expansion": null,
+      "occurrences": 4
+    },
+    {
+      "scope": "body",
+      "line": 487,
+      "rule": "undefined",
+      "acronym": "FN",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 487,
+      "rule": "undefined",
+      "acronym": "FP",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 586,
+      "rule": "undefined",
+      "acronym": "AR",
+      "expansion": null,
+      "occurrences": 6
+    },
+    {
+      "scope": "body",
+      "line": 595,
+      "rule": "undefined",
+      "acronym": "CUSUM",
+      "expansion": null,
+      "occurrences": 7
+    },
+    {
+      "scope": "body",
+      "line": 858,
+      "rule": "undefined",
+      "acronym": "MiB",
+      "expansion": null,
+      "occurrences": 12
+    },
+    {
+      "scope": "body",
+      "line": 876,
+      "rule": "undefined",
+      "acronym": "AI",
+      "expansion": null,
+      "occurrences": 4
+    },
+    {
+      "scope": "body",
+      "line": 954,
+      "rule": "undefined",
+      "acronym": "RAPT",
+      "expansion": null,
+      "occurrences": 4
+    },
+    {
+      "scope": "body",
+      "line": 1089,
+      "rule": "undefined",
+      "acronym": "FIR",
+      "expansion": null,
+      "occurrences": 23
+    },
+    {
+      "scope": "body",
+      "line": 1118,
+      "rule": "undefined",
+      "acronym": "MB",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 1118,
+      "rule": "undefined",
+      "acronym": "RSS",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1119,
+      "rule": "undefined",
+      "acronym": "GiB",
+      "expansion": null,
+      "occurrences": 3
+    },
+    {
+      "scope": "body",
+      "line": 1175,
+      "rule": "undefined",
+      "acronym": "KF",
+      "expansion": null,
+      "occurrences": 4
+    },
+    {
+      "scope": "body",
+      "line": 1257,
+      "rule": "undefined",
+      "acronym": "OpenAI",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1364,
+      "rule": "undefined",
+      "acronym": "MIT",
+      "expansion": null,
+      "occurrences": 3
+    },
+    {
+      "scope": "body",
+      "line": 1370,
+      "rule": "undefined",
+      "acronym": "SHA",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 1377,
+      "rule": "undefined",
+      "acronym": "BY",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1377,
+      "rule": "undefined",
+      "acronym": "CC",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1377,
+      "rule": "undefined",
+      "acronym": "NC",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1377,
+      "rule": "undefined",
+      "acronym": "SA",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1379,
+      "rule": "undefined",
+      "acronym": "PRE",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1435,
+      "rule": "undefined",
+      "acronym": "AUROC",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1449,
+      "rule": "undefined",
+      "acronym": "BSD",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1461,
+      "rule": "undefined",
+      "acronym": "IoT",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1463,
+      "rule": "undefined",
+      "acronym": "ACM",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 1465,
+      "rule": "undefined",
+      "acronym": "FDI",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1466,
+      "rule": "undefined",
+      "acronym": "IEEE",
+      "expansion": null,
+      "occurrences": 5
+    },
+    {
+      "scope": "body",
+      "line": 1472,
+      "rule": "undefined",
+      "acronym": "VLA",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1478,
+      "rule": "undefined",
+      "acronym": "IFAC",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1480,
+      "rule": "undefined",
+      "acronym": "CZ",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1484,
+      "rule": "undefined",
+      "acronym": "CAA",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1485,
+      "rule": "undefined",
+      "acronym": "ITSC",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1497,
+      "rule": "undefined",
+      "acronym": "VLDB",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1511,
+      "rule": "undefined",
+      "acronym": "ICRA",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1524,
+      "rule": "undefined",
+      "acronym": "ICML",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 1524,
+      "rule": "undefined",
+      "acronym": "PMLR",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 1537,
+      "rule": "undefined",
+      "acronym": "ICDM",
+      "expansion": null,
+      "occurrences": 1
+    }
+  ]
+}

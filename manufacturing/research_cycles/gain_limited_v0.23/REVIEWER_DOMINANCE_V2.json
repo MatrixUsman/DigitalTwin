@@ -1,0 +1,148 @@
+{
+  "all_six_candidates_strictly_dominated_on_both_reported_quantities": true,
+  "checks": 41,
+  "classification": "Exploratory post-gate description; not a new advancement criterion or causal attribution",
+  "comparisons": {
+    "tanh_k0.25_r0.25": {
+      "control_radius_relative_reduction": 0.07539809161943434,
+      "control_radius_strictly_lower": true,
+      "control_rmse_relative_reduction": 0.2021907496592501,
+      "control_rmse_strictly_lower": true
+    },
+    "tanh_k0.25_r0.75": {
+      "control_radius_relative_reduction": 0.09768565169723287,
+      "control_radius_strictly_lower": true,
+      "control_rmse_relative_reduction": 0.22936576756650795,
+      "control_rmse_strictly_lower": true
+    },
+    "tanh_k0.5_r0.25": {
+      "control_radius_relative_reduction": 0.15360871200328607,
+      "control_radius_strictly_lower": true,
+      "control_rmse_relative_reduction": 0.10788787254838617,
+      "control_rmse_strictly_lower": true
+    },
+    "tanh_k0.5_r0.75": {
+      "control_radius_relative_reduction": 0.18445847074719368,
+      "control_radius_strictly_lower": true,
+      "control_rmse_relative_reduction": 0.16237228410828486,
+      "control_rmse_strictly_lower": true
+    },
+    "tanh_k0.75_r0.25": {
+      "control_radius_relative_reduction": 0.21873241452050562,
+      "control_radius_strictly_lower": true,
+      "control_rmse_relative_reduction": 0.01478036984241271,
+      "control_rmse_strictly_lower": true
+    },
+    "tanh_k0.75_r0.75": {
+      "control_radius_relative_reduction": 0.2583182974424103,
+      "control_radius_strictly_lower": true,
+      "control_rmse_relative_reduction": 0.0944443948925654,
+      "control_rmse_strictly_lower": true
+    }
+  },
+  "core_imports": false,
+  "output_bindings": {
+    "local/gain_limited_v0.23/normal_001/model_tanh_k0.25_r0.25.npz": "4f131939a24b29b12ffd5cc2037b52c3632fbdd3bf3a7f618199f270c8868602",
+    "local/gain_limited_v0.23/normal_001/model_tanh_k0.25_r0.75.npz": "d5c9c577ef558d88f3fee048a419046ec3653320b960a962ea2315dfd878c699",
+    "local/gain_limited_v0.23/normal_001/model_tanh_k0.5_r0.25.npz": "95a4e224ae2ac5e3b7e042ff0392a5af1503e134718e177fc633031649e10fc3",
+    "local/gain_limited_v0.23/normal_001/model_tanh_k0.5_r0.75.npz": "09a844566f9bb93bfcc1bea178c7f36b3015eb4c47d2b57eba01ad9a5f37eef2",
+    "local/gain_limited_v0.23/normal_001/model_tanh_k0.75_r0.25.npz": "f3d19f03915e10fae29e986b2aa1a49bacfc6a48a09116dea76d6c7159d7658e",
+    "local/gain_limited_v0.23/normal_001/model_tanh_k0.75_r0.75.npz": "77bee64923e3a10636817315912fe41ca2283140566895ed4d5f3b052d8573b1",
+    "local/gain_limited_v0.23/normal_001/model_unconstrained_fir.npz": "6ac231cb671a560056822a01c91929ebb2feeb6539aae258c10ec1365fac0aaa",
+    "local/gain_limited_v0.23/normal_001/prediction_saturated_fir_cap0.25.npz": "f6cdf0e0887ec029ac5cba9fd7c3a89e05bc06dd29c4fde77d6f8bd6ffbc819d",
+    "local/gain_limited_v0.23/normal_001/prediction_tanh_k0.25_r0.25.npz": "b9df88e35f7b591f7bbb0cd72e62008331816edcbd101149e4ad5ea39719d547",
+    "local/gain_limited_v0.23/normal_001/prediction_tanh_k0.25_r0.75.npz": "650e1a0465cb9dfdce4eb9093573f34bb97d67832936ff4dc41dd8f7c9e4a0cb",
+    "local/gain_limited_v0.23/normal_001/prediction_tanh_k0.5_r0.25.npz": "880ddf2349146fdaf26a5b27253ff92d8367b0f9c6054a2a4d744fa4044df4f7",
+    "local/gain_limited_v0.23/normal_001/prediction_tanh_k0.5_r0.75.npz": "fe671a827c5425d5bd812d9e3b9afe50d57959f3aef4b7d66e6454db686019d7",
+    "local/gain_limited_v0.23/normal_001/prediction_tanh_k0.75_r0.25.npz": "d496db574ec51dfb608f86c44063b71beb7191ea9c3147033bb519feece4e9bb",
+    "local/gain_limited_v0.23/normal_001/prediction_tanh_k0.75_r0.75.npz": "7f78b4f8db12e0e12a0a8e0c63f9d5fc4f36690e2c4983cb5278fa8292eedfec"
+  },
+  "primary_audit_sha256": "3541c6e87e858cfffaf2b9902af7f4f2851b8124a53be68adeed4a20ad32c602",
+  "raw_signal_array_access": false,
+  "script_sha256": "c99e9aa01732d598b89754ad817d058493d7689af6878e77865a709184b8fb3e",
+  "stats": {
+    "saturated_fir_cap0.25": {
+      "C": 0.25,
+      "Edev": 2.2631364367391402,
+      "K": 1.69379891707519,
+      "active_radius": "cap",
+      "cap_radius": 3.416710767229535,
+      "gain_radius": null,
+      "primary_radius": 3.416710767229535,
+      "rmse": 0.08247178315007776,
+      "tau_dev": 0.6535743304903949
+    },
+    "tanh_k0.25_r0.25": {
+      "C": 0.2499997690320015,
+      "Edev": 2.3750370710188435,
+      "K": 0.24999945176183916,
+      "active_radius": "cap",
+      "cap_radius": 3.6953317273743056,
+      "gain_radius": 4.260439804766159,
+      "primary_radius": 3.6953317273743056,
+      "rmse": 0.1033728088698564,
+      "tau_dev": 0.8202951182914591
+    },
+    "tanh_k0.25_r0.75": {
+      "C": 0.24999976716935635,
+      "Edev": 2.447024550943999,
+      "K": 0.24999879114708684,
+      "active_radius": "cap",
+      "cap_radius": 3.7866080414838694,
+      "gain_radius": 4.382137613047116,
+      "primary_radius": 3.7866080414838694,
+      "rmse": 0.10701806340687742,
+      "tau_dev": 0.8395839562011576
+    },
+    "tanh_k0.5_r0.25": {
+      "C": 0.4999995604157448,
+      "Edev": 2.2580819389538176,
+      "K": 0.49999893208419055,
+      "active_radius": "cap",
+      "cap_radius": 4.036798128341322,
+      "gain_radius": 6.07358504286469,
+      "primary_radius": 4.036798128341322,
+      "rmse": 0.09244553527779595,
+      "tau_dev": 0.7787170685560144
+    },
+    "tanh_k0.5_r0.75": {
+      "C": 0.4999995306134224,
+      "Edev": 2.386331465750365,
+      "K": 0.4999975934698857,
+      "active_radius": "cap",
+      "cap_radius": 4.189499424216818,
+      "gain_radius": 6.378970023613026,
+      "primary_radius": 4.189499424216818,
+      "rmse": 0.09845875630115773,
+      "tau_dev": 0.803168897239608
+    },
+    "tanh_k0.75_r0.25": {
+      "C": 0.7499991878867149,
+      "Edev": 2.1515542826370604,
+      "K": 0.7499982211752437,
+      "active_radius": "cap",
+      "cap_radius": 4.37329134182953,
+      "gain_radius": 11.493090087451707,
+      "primary_radius": 4.37329134182953,
+      "rmse": 0.08370903362622432,
+      "tau_dev": 0.7217386834190398
+    },
+    "tanh_k0.75_r0.75": {
+      "C": 0.74999925121665,
+      "Edev": 2.337072548180251,
+      "K": 0.7499963566774319,
+      "active_radius": "cap",
+      "cap_radius": 4.606707642169771,
+      "gain_radius": 12.426655461688727,
+      "primary_radius": 4.606707642169771,
+      "rmse": 0.09107312978344755,
+      "tau_dev": 0.7696365915562198
+    }
+  },
+  "status": "passed",
+  "supersedes": "REVIEWER_DOMINANCE.json: ambiguous metadata field corrected; numeric findings unchanged",
+  "training": false,
+  "utc": "2026-10-24T08:18:03.969310+00:00",
+  "verified_gate_unchanged": true,
+  "verified_primary_gate_passed": false
+}

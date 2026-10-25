@@ -1,0 +1,61 @@
+{
+  "utc": "2026-10-24T11:38:04.746187+00:00",
+  "project": "manufacturing",
+  "path_base": "manufacturing",
+  "files": 13,
+  "bindings": {
+    "research_cycles/reference_audit_v0.24/FINAL_CHECKS.json": {
+      "sha256": "cbab455fbf2337818012141711df29fad1bceea03ebba13316957f4f43818e36",
+      "bytes": 327
+    },
+    "research_cycles/reference_audit_v0.24/GROUP_A.json": {
+      "sha256": "ea1b7e21e49ddb298724d07d9856796b0c06222c0a7a06527119e9a83e637fa9",
+      "bytes": 27279
+    },
+    "research_cycles/reference_audit_v0.24/GROUP_A.md": {
+      "sha256": "98888ff388393a0b5c7bba0e29b54da9835763ecb26050145675e2b4b90ec519",
+      "bytes": 13456
+    },
+    "research_cycles/reference_audit_v0.24/GROUP_B.json": {
+      "sha256": "8cf914bcab48fbe68192445cf37547d77fe6cbd7da6d7526027242613f16faa1",
+      "bytes": 20604
+    },
+    "research_cycles/reference_audit_v0.24/GROUP_B.md": {
+      "sha256": "f708f68c062f9c03d8d92355ec8a2afb692d0d38366cb91491050641e6d8b0fc",
+      "bytes": 12677
+    },
+    "research_cycles/reference_audit_v0.24/GROUP_C.json": {
+      "sha256": "f4823b729dd82ea801d8a0ce3e5295fac3e237b4bf43ce9089ac206b8207570f",
+      "bytes": 31556
+    },
+    "research_cycles/reference_audit_v0.24/GROUP_C.md": {
+      "sha256": "74c5f8279d17fe01347cb04ac37b59084bbf7cb02a0c89c818d4c6509cc4127c",
+      "bytes": 12768
+    },
+    "research_cycles/reference_audit_v0.24/INTAKE.json": {
+      "sha256": "bbe4c154ce25bfdb1ba76bfb95fa7d4c5fe90654d698aeab886ac46fde7641ae",
+      "bytes": 10543
+    },
+    "research_cycles/reference_audit_v0.24/LOCAL_CHECKS.json": {
+      "sha256": "d7d573f253da2ac4e6fd7e60524a7ae6d62ed74edd37673ee6fe50cb55d04890",
+      "bytes": 2511
+    },
+    "research_cycles/reference_audit_v0.24/REPORT.md": {
+      "sha256": "d479bd15d86b3332470f08d5d03ed44e8a84310049f9e38567514df7da927ef4",
+      "bytes": 11701
+    },
+    "research_cycles/reference_audit_v0.24/RESULTS.json": {
+      "sha256": "6d7bdf97927be181ff51f02ad9c61c7e19c22f785b5f8186d8304b1bbaa82dfa",
+      "bytes": 45420
+    },
+    "research_cycles/reference_audit_v0.24/ROOT_CROSSCHECK.json": {
+      "sha256": "4d393fffdd3abd67c3a6fd7972c5200dbc78113f3418e1a3c4a356f823477744",
+      "bytes": 3022
+    },
+    "research_cycles/reference_audit_v0.24/consolidate.py": {
+      "sha256": "03d2cf473dfc6aa79a0af39f0ec6c9ba08b945b182824a0a733be38e8a6f9d67",
+      "bytes": 9463
+    }
+  },
+  "scope": "Reference audit, not manuscript alteration or scientific completion"
+}

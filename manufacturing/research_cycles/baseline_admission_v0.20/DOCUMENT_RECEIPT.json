@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-18T21:53:50.105932+00:00",
+  "files": [
+    {
+      "file": "checkpoint_config.json",
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/checkpoints/g1_29dof_velocity/config.json",
+      "sha256": "07bb23ab98e3aab1285ea399cba0c6eeb7057ea917869a5f5e1a82e5485d18a4",
+      "bytes": 3714
+    },
+    {
+      "file": "g1_velocity_metadata.json",
+      "url": "https://huggingface.co/datasets/hmunn/rapt-g1-ood/resolve/d40fa1f893cc4519d67abff142428ea0f0c4a1eb/g1_velocity/metadata.json",
+      "sha256": "d7ff7698068cd32adc2df14ba397fb549c5c060c57728b4fc1bb4f72e1850eb3",
+      "bytes": 594
+    },
+    {
+      "file": "g1_velocity_real_metadata.json",
+      "url": "https://huggingface.co/datasets/hmunn/rapt-g1-ood/resolve/d40fa1f893cc4519d67abff142428ea0f0c4a1eb/g1_velocity_real/metadata.json",
+      "sha256": "2cd6faa64b596128bc94320f1f3a0825644cbee0b55232fc92481739454abe18",
+      "bytes": 951
+    },
+    {
+      "file": "DATASET_CARD.md",
+      "url": "https://huggingface.co/datasets/hmunn/rapt-g1-ood/resolve/d40fa1f893cc4519d67abff142428ea0f0c4a1eb/README.md",
+      "sha256": "840e16f1ec6ddbca4ac29871db0ca1cfeb08dc1a01fc82d321b81ec9170ad6d8",
+      "bytes": 7728
+    },
+    {
+      "file": "RAPT_v2.html",
+      "url": "https://arxiv.org/html/2602.01515v2",
+      "sha256": "ccee433905d44c5b5c6f32a61cee6fbd6698a9d1aa7a94c5e017f92c097ccc02",
+      "bytes": 128034
+    }
+  ]
+}

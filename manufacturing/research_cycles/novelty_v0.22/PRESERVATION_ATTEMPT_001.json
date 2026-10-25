@@ -1,0 +1,164 @@
+{
+  "utc": "2026-10-24T07:51:37.774602+00:00",
+  "classification": "byte preservation, not scientific validation",
+  "sources": [
+    {
+      "manifest": "manuscript_arx_rbf_v1.6/PACKAGE_MANIFEST.json",
+      "sha256": "761228d9df7f8d371019557bdf5bc71027cd74862dbfbc077815493ea4607820",
+      "bindings_checked": 61
+    },
+    {
+      "manifest": "manuscript_arx_rbf_v1.7/PACKAGE_MANIFEST.json",
+      "sha256": "f2cbab6a2a32856b2d9c679dc74ed56a79aba22da5907cc177dd74c0ecfbe0cc",
+      "bindings_checked": 64
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "sha256": "37744f5cfa53a6eb582a8248d45b193b80bb4b833bfad8ab601c3b875bbc0e45",
+      "bindings_checked": 20
+    },
+    {
+      "manifest": "research_cycles/context_recovery_v0.19/FINAL_FREEZE.json",
+      "sha256": "55f632cbb25d5d76d52cb446c348ab5ae806d13b3cef3ed8f8682c7dca81453e",
+      "bindings_checked": 133
+    },
+    {
+      "manifest": "research_cycles/context_recovery_v0.19/PACKAGE_MANIFEST.json",
+      "sha256": "341c2272d90bb2d97a513e86d28763c2e5779f328af9c7fbbcfc1bd883f8e111",
+      "bindings_checked": 494
+    },
+    {
+      "manifest": "research_cycles/rapt_protocol_v0.21/exploratory/FREEZE.json",
+      "sha256": "35619d5219b2296e141f1262038bff521ba08b8f659d2f4b064fe7098f25ff43",
+      "bindings_checked": 243
+    },
+    {
+      "manifest": "research_cycles/novelty_v0.22/decomposition/PACKAGE_MANIFEST.json",
+      "sha256": "b7c619dfec1b4403e9f7a451feb570733b79ad1f42c669ac832cb8b858bec2a0",
+      "bindings_checked": 63
+    }
+  ],
+  "failures": [
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": ".gitignore",
+      "expected": "637400650411cd4eaf40681601af96eed5b72b298b06e54ed82a3d143938956a",
+      "actual": "0e6696f1e42f58bce9a6fe81ec62e5a64a597116c89010a617b26568ab72d0a4"
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "BOUNDARY_DIAGNOSTIC.json",
+      "expected": "c4f8275229903671ba92112556487a43c7b4c827bd28369228926dd7e7ca4dbd",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "FREEZE.json",
+      "expected": "3ebf64acc116c2ce0adb1c6fdf35e36ee22cb2672fad5ba67e2b836412b6cca4",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "PLAN.md",
+      "expected": "a91d4096165b4593744d217b5063aec077056b6f3a0efde96f48e34b65904ab9",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "README.md",
+      "expected": "5bb518411d2b9c2929521c8747f66b6e0fe1f07b22bf166824ed09d2485c7a17",
+      "actual": "299aadfa9460954b4fadd8fdcdbb395d9c4c80f3ff7b800319d56f4ca6e5a197"
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "REPAIR_FREEZE.json",
+      "expected": "a542898a0dd449f7264bbdbbeeaffe8cb39995701234d77c76b3b65e136eb6ad",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "REPORTING.json",
+      "expected": "adef15952765fd3d5766c4e56e596ad07d7d4493b18b835526f0e3706878b149",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "RESULTS.md",
+      "expected": "c8d2778b4e951d12cd9b1d6cfcd163815ab6789004572ec492b105117f2b464d",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "VERIFICATION.json",
+      "expected": "c60fdef12e4e0c1c7b53fe2750bfa2253e614030d303955808135c2e253f9a5d",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "common.py",
+      "expected": "cd3718f68b8cda9841c92ad06c6daade721cb648b8c89d10ce54cf0473160c7e",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "config.json",
+      "expected": "409c807862bf6a60d1285de5a26270165051b76db3481ab41d836a352e64515c",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "core.py",
+      "expected": "e2dcec89ea462c2004ebe1c0288c2e1cb32b66960aca625c95e790550476db08",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "freeze.py",
+      "expected": "d347b9ed47f142d9eaac7711c6ec50b9c96d07a2d04545d93166379aab8ad9f0",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "present.py",
+      "expected": "e8bc08e12e7c9c440eb6aa01d3170d77efe24c4c4c865c5d713bc5b9ae5410ee",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "reproduce.py",
+      "expected": "3abf9c26db73e275d146bb3633deae6bb2c337874266455e55557988755093f6",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "resume.py",
+      "expected": "bcbf889bd65abecf5b4716ec006db24967edf90bb328a6d6a56ff40a5890c665",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "run.py",
+      "expected": "8bfc401eab83adcf6fa69315be4fc0424660efe6f86031fda4a181fb64d0caaa",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "test_replay.py",
+      "expected": "d42894e62506c71332ceaa223ddd632bbc3f06637946c0769f5bfb57e749f01b",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "verify.py",
+      "expected": "d63f3dcc2b038908a963b2cfc66ef24232369a25fc2657e63b2009d02675ba9a",
+      "actual": null
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "path": "worker.py",
+      "expected": "d4eda2348b75860e5748646129516925f55fdf683c022ffbcefef026b8d9a506",
+      "actual": null
+    }
+  ],
+  "all_match": false
+}

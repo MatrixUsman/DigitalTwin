@@ -286,3 +286,26 @@ Manufacturing [MFG-045](../manufacturing/docs/WORK_LOG.md) records the user's te
 ### 2026-10-18 — Shared procedure update: chronological validation and author-code execution
 
 Added the reusable procedure “Add chronological validation and recent author-code comparisons” to `RESEARCH_PLAYBOOK.md`, based on the actually completed manufacturing v0.16/v0.17 studies and MFG-048/MFG-049 records. It covers temporal fold isolation, author-code/task correspondence, pilot-derived budgets, actual stopping, saved-checkpoint replay and separate comparison tracks. Its validated status applies to workflow/software execution, not general detector efficacy. Water and smart-grid completion, evidence and files are unchanged; no scientific results were copied into those projects. No publication or Git push was performed.
+
+
+### 2026-10-19 — Shared procedure update: matched controls and finite improvement studies
+
+Added the playbook procedure “Matched diagnostic controls and a finite improvement investigation” from manufacturing MFG-051 and its completed v0.18/v0.19 evidence. It records verified implementation-versus-reporting distinctions, exact saved-prediction ablations, source-version qualifications, finite normal-only selection, fresh-condition freezing, preserved resource admissions, independent arithmetic and recurrence-aware diagnosis. The primary improvement failed; this validates execution procedure, not detector efficacy or originality. Local archive preparation and final manuscript receipts remain in manufacturing's own handoff. No completion, data or findings transfer to water or smart grids, and neither sibling project was modified. The shared skill remains unchanged.
+
+### 2026-10-19 — Shared procedure update: paired effects and normal information-quality admission
+
+Added “Test observation information before another alarm-state extension,” based on completed manufacturing v0.21 paired reporting and normal-only representation feasibility. It covers uncertainty-state versus implementation diagnosis, episode-paired differences and missingness, channel provenance, task-separated normal partitions, selection before calibration, ordinary-estimator controls, prospective normal gates and failure-preserving termination before fresh attacks. Manufacturing's coupled estimator lost to ordinary Kalman filtering; no scientific success transfers to water or grids. The paired-table addendum is locally replayable without private data or extra dependencies. The existing manuscript/reviewer package and all prior failures remain unchanged. No sibling files, shared skill package, system environment, Git index or publication state were changed.
+
+### 2026-10-24 — Shared procedure update: mechanism-level novelty challenge
+
+Added “Challenge a proposed mechanism before calling it novel” from manufacturing's v0.22 research/design investigation. It records version-specific gap verification, coordinate-equivalence counterexamples, complete mean/variance/history information paths, upper-versus-lower sensitivity and pointwise-versus-energy distinctions, ordinary linear/saturation controls and explicit candidate rejection rules. The procedure was applied; an original method or successful improvement was not established. Project-specific findings and any exploratory numerical work belong to manufacturing/MFG-057. Water and smart grids, their data and readiness are unchanged; the pinned skill and Git index remain untouched.
+
+
+### 2026-10-24 — Shared procedure update: constrained correction controls and failure-preserving handoff
+
+Added the playbook procedure “Test a constrained learned correction against its strongest ordinary controls” from manufacturing MFG-058/v0.23. It covers complete gain/cap accounting, equal-information linear/context/clipping controls, normal-only freezes, synthetic runtime estimates, independent saved-model replay, preserved failure gates and manuscript/archive QA. The finite candidate failed; only execution/review procedure is validated. Manufacturing's scientific result and v1.8 manuscript remain project-local. Water and smart-grid data, files and readiness are unchanged; no shared skill, system environment or Git index mutation occurred. No publication or contact was performed.
+
+
+### 2026-10-24 — Shared procedure update: sealed-manuscript reference verification
+
+Added the playbook procedure “Verify the references in a sealed manuscript” from manufacturing's user-requested v0.24 audit. It separates real-source identification from exact metadata, publication status, full claim support and retraction clearance; handles publisher blocks through explicit primary-source alternatives; and preserves the delivered manuscript. Source findings and completion remain manufacturing-only. No sibling files, shared skill, system environment, Git index or publication state changed.

@@ -1,0 +1,10 @@
+{
+  "study_id": "manufacturing-review-extension-v0.18",
+  "warmup": 100,
+  "dt": 0.02,
+  "return_tolerance": 0.1,
+  "dwell": 10,
+  "recovery_horizon": 250,
+  "extra_method": "base_dual_nodwell",
+  "limits": {"wall_seconds": 300, "cpu_seconds": 180, "rss_bytes": 1073741824, "output_bytes": 104857600}
+}

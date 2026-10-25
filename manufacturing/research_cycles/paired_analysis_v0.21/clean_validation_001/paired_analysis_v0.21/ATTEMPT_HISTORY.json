@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempt": "results_001",
+      "status": "failed_before_output",
+      "synthetic_tests": "7 passed, 1 error",
+      "cause": "Analysis schema reused candidate/comparator for method identifiers and nested numeric summaries, causing TypeError: dict() got multiple values for keyword argument candidate.",
+      "source_sha256": "dbc22356c6d27915e8fee33b9bb036eccce0fc820184400987a63956a61499bb",
+      "changes_required": "Rename nested numerical summaries candidate_values/comparator_values; no original scientific input modified.",
+      "partial_outputs": []
+    },
+    {
+      "attempt": "results_002",
+      "status": "passed",
+      "synthetic_tests": 8,
+      "replay_checks": 6189,
+      "reporting_change": "Nested summaries renamed candidate_values/comparator_values; method identities remain candidate/comparator.",
+      "original_scientific_inputs_changed": false
+    }
+  ]
+}

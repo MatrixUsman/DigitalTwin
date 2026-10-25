@@ -1,0 +1,38 @@
+{
+  "checks": 6189,
+  "descriptive_effect_rows": 1167,
+  "episode_pairs": 648,
+  "final_outcomes_exposed_before_analysis": true,
+  "group_contrasts": 267,
+  "input_manifest_sha256": "2a646bacd66ac3d04bcd3b6c0820cb9f07329908c6a7de38b91195ea9b72c0dc",
+  "original_outcomes": 2376,
+  "original_primary": {
+    "clauses": {
+      "base_delay_cost": false,
+      "base_fresh_not_lower": true,
+      "base_joint_not_lower": false,
+      "base_outside_not_worse": false,
+      "matched_hysteresis_delay_cost": true,
+      "matched_hysteresis_fresh_not_lower": true,
+      "matched_hysteresis_joint_not_lower": true,
+      "matched_hysteresis_outside_not_worse": true,
+      "occupancy_20pct": true,
+      "recovery_component_gain": true,
+      "starts_10pct": true
+    },
+    "novelty_established": false,
+    "passed": false,
+    "relative_reductions": {
+      "benign_alarms": 0.9921313962031617,
+      "starts": 0.971864711164322
+    }
+  },
+  "original_primary_unchanged": true,
+  "outputs": {
+    "episode_pairs.csv": "27b97602bf5c7baecd4085a9160e0c5ecebf7331a54d329e181b162c7b16d557",
+    "paired.json": "54f6b67efcdb86285a88854ed92cac3fb8fcaef15dd8dd178cedffe971d504de",
+    "paired_effects.csv": "2b03453176cae5207341ffd48b830f6b6939f964962303f20680a21e3eac58c6"
+  },
+  "source_sha256": "559f89dacd47d8c20fc5438282f0231ac0b889771ac3b297f296626b2ba6e824",
+  "status": "passed"
+}

@@ -1,0 +1,1162 @@
+{
+  "utc": "2026-10-24T08:28:59.759306+00:00",
+  "classification": "manuscript consistency and byte identity; not scientific or author approval",
+  "passed": true,
+  "checks": 288,
+  "pages": 19,
+  "pdf_sha256": "2d3ded7dfc8f50d8a2ff34fc7aca1405aee3e83b4d21782981eb675f72a10f5d",
+  "details": [
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/AUTHOR_ACTIONS.md",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/BASE_IDENTITY.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/CLAIM_LEDGER.md",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/MAIN_BUILD_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/NEW_EVIDENCE_ASSETS.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/README.md",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/RECENCY_AND_CORRESPONDENCE.md",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/REFERENCE_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/REFERENCE_INDEX.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/REVISION_RESPONSE.md",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/SOURCE_ARCHIVE.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/VISUAL_QA.json",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/audit.py",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/integrate_context.py",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/integrate_review.py",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/main.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/package.py",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/references.bib",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/references.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/context_experiment.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/context_method.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/context_results.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 manuscript_arx_rbf_v1.7/sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 output/ARX-RBF-Muhammad-Usman-v1.7-latex.zip",
+      "passed": true
+    },
+    {
+      "check": "preserved v1.7 output/pdf/ARX-RBF-Muhammad-Usman-v1.7.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/main.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/references.bib",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/references.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/context_experiment.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/context_method.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/context_results.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "copied-source origin manuscript_arx_rbf_v1.7/sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset model.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "historical trace drawing stream preserved",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged matched-figure part score_exceedances",
+      "passed": true
+    },
+    {
+      "check": "unchanged matched-figure part retained_with_clearance_evidence",
+      "passed": true
+    },
+    {
+      "check": "unchanged matched-figure part retained_without_clearance_evidence",
+      "passed": true
+    },
+    {
+      "check": "unchanged matched-figure hourly starts",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset audit.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset imu.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset selection.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset extended.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset noise.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset normal.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset attack.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset strata.tex",
+      "passed": true
+    },
+    {
+      "check": "retained old numerical asset window.tex",
+      "passed": true
+    },
+    {
+      "check": "28 unique cited references",
+      "passed": true
+    },
+    {
+      "check": "unique manuscript labels",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/methods",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/experiments",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/metrics",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/comparators",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/results",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/conditional_prediction",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/gain_method",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/gain_results",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/discussion",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/uncertainty",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/earlier_results",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/provenance",
+      "passed": true
+    },
+    {
+      "check": "input exists references",
+      "passed": true
+    },
+    {
+      "check": "figure exists figures/score_decomposition.pdf",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/context_final",
+      "passed": true
+    },
+    {
+      "check": "figure exists figures/context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/timing_review",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/strata_review",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/context_experiment",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/gain_pilot",
+      "passed": true
+    },
+    {
+      "check": "figure exists figures/gain_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/context_method",
+      "passed": true
+    },
+    {
+      "check": "figure exists figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/forecast",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/fivefold",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "input exists generated/matched_review",
+      "passed": true
+    },
+    {
+      "check": "input exists sections/context_results",
+      "passed": true
+    },
+    {
+      "check": "figure exists figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "figure exists figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "no unresolved placeholder TODO",
+      "passed": true
+    },
+    {
+      "check": "no unresolved placeholder TBD",
+      "passed": true
+    },
+    {
+      "check": "no unresolved placeholder PLACEHOLDER",
+      "passed": true
+    },
+    {
+      "check": "no unresolved placeholder INSERT RESULT",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification OpenAI Codex assisted",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification not presented as a new theorem",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification not evidence of an open gap",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification already exposed",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification 5,175",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification 70,800",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification 518,400",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification 3.2055",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification 2.0123",
+      "passed": true
+    },
+    {
+      "check": "required evidence or qualification The primary criterion therefore fails",
+      "passed": true
+    },
+    {
+      "check": "asset receipt exists DIAGNOSTIC_ASSETS.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset research_cycles/novelty_v0.22/decomposition/STRATA.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/figures/score_decomposition.pdf",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/DIAGNOSTIC_FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/integrate_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "asset receipt exists PILOT_ASSETS.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/methods.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/FINAL_ADMISSION.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/result.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset research_cycles/gain_limited_v0.23/config.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset research_cycles/gain_limited_v0.23/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset research_cycles/gain_limited_v0.23/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "verified asset research_cycles/gain_limited_v0.23/REVIEW_RELEASE.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/generated/gain_pilot.tex",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/figures/gain_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/PILOT_FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/integrate_pilot.py",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_context_r0.25.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_context_r0.75.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_tanh_k0.25_r0.25.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_tanh_k0.25_r0.75.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_tanh_k0.5_r0.25.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_tanh_k0.5_r0.75.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_tanh_k0.75_r0.25.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_tanh_k0.75_r0.75.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset local/gain_limited_v0.23/normal_001/history_unconstrained_tanh.json",
+      "passed": true
+    },
+    {
+      "check": "asset receipt exists TRACE_LAYOUT_REPAIR.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.7/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/repair_trace_bounds.py",
+      "passed": true
+    },
+    {
+      "check": "asset receipt exists MATCHED_LAYOUT_REPAIR.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset research_cycles/review_extension_v0.18/REPORTING.json",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.8/repair_matched_layout.py",
+      "passed": true
+    },
+    {
+      "check": "verified asset manuscript_arx_rbf_v1.7/figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "all eight persistent channels plotted",
+      "passed": true
+    },
+    {
+      "check": "compiled source audit.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/gain_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/score_decomposition.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/gain_pilot.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source integrate_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source integrate_pilot.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source main.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source references.bib",
+      "passed": true
+    },
+    {
+      "check": "compiled source references.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source repair_matched_layout.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source repair_trace_bounds.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/conditional_prediction.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/context_experiment.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/context_method.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/context_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/gain_method.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/gain_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "PDF identity",
+      "passed": true
+    },
+    {
+      "check": "title preserved",
+      "passed": true
+    },
+    {
+      "check": "user-selected byline preserved",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue Overfull",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue undefined",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue Missing character",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue ! LaTeX Error",
+      "passed": true
+    },
+    {
+      "check": "PDF text nonempty",
+      "passed": true
+    },
+    {
+      "check": "one integrated document",
+      "passed": true
+    },
+    {
+      "check": "human approval not invented",
+      "passed": true
+    }
+  ]
+}

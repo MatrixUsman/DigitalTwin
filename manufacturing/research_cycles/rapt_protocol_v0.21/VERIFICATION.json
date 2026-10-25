@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-18T22:08:55.953180+00:00",
+  "checks": 192,
+  "status": "passed",
+  "normal_only": true,
+  "command": [
+    "research_cycles/rapt_protocol_v0.21/verify.py"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "freeze_sha256": "5ba9e79111fddb84587831af91636b87c54509566069a4ec5e90b3b0e11c138a",
+  "output_bindings": {
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/SELECTION_SEALED.json": "39be01c461399390ef17ced5512305c7d72e1a1d2036598dd889a76ec36bb93c",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/access.json": "89d3c7e9faf75ddd1619fa0e36a149301de6abe073c6ebd77f5c3bc714d7efd3",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/calibration.json": "93417f47d4b4a3f17dab489d32eafb873425d10edd7551fefd06dc73c6deef48",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/calibration_population.json": "7ead906f29a379e79bf844242809490ec27629b1d90c355491ff22466a3751e6",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/config.json": "5e4efc9e1b9e04612a2ee2a0eb9ae6db5f942b3a7c8ed408013f2179cb2cbcf8",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/history.json": "e0fbf5bd555c3e1ec85f9f8dce877b8745f018ae4d3d38b15e23e50ff031222d",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/model.pt": "ba8d7d0a29a9f436704147e98f954df73836b5395289f16a941e3db226441949",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/normal_development_scores.npz": "2a00456fff2cf856d6ad63b83d4adaef43e65ce187540cce6d6839e36a965a6f",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/obs_stats.json": "faf4ba36811cc88facace860f9eca6e9070efba36f32767d0b609e408578b3fd",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/provenance.json": "1851a17f2a4b5dd849279a372c0d395cc9b8770f69661faae613220dae6707bb",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/result.json": "54aaec6661df6ca2199a8ed30cd707dea378277a54b87f9ed55864dab1078fbd",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/selection.json": "9e371270d3c5ac33f1dfdbe9b4c527c3c545ee3fe7b168666a9469a55cb8e67a",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/supervisor.json": "77b70edd1d8f64a30ece5638d9eb6d48f885c1f6a0a5ec645de6d848b2ab80e4",
+    "local/rapt_protocol_v0.21/raw_Q1_seed17_001/worker.log": "6d1226dcd3bdd9f6e468326599b8e7aefc5608e8bdd2ece9c762c539ecde22b3"
+  },
+  "raw_source_access": [
+    "synthetic K13",
+    "synthetic M13",
+    "synthetic L13"
+  ],
+  "training_performed": false,
+  "final_test_access": false
+}

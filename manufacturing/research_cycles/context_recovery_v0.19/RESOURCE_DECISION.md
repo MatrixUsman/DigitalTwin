@@ -1,0 +1,11 @@
+# Resource admission and preserved failures
+
+Scientific settings and criteria were fixed in PLAN.md/config.json before development. The normal-only development succeeded once and selected memory40. The first simulator pilot produced finite trajectories with maximum integration-refinement differences of2.03e-7 and4.99e-7, but failed its initial cost gate: the un-cached, doubled physics extrapolation estimated464.79s against a250s admission threshold. No final observation was generated.
+
+The separate resource_check_001 reused those saved benign observations, checked actual command-only cache reuse, and measured prediction/decision/compression. Its conservative estimate was174.88s, but full intermediate storage was estimated at306,071,168bytes, above250MiB. This second admission also failed without generating final data. Both attempts and receipts remain preserved.
+
+The compact export adapter retains every reference used by an admitted method—base, RBF and following—and every score, observation, command, alarm, interval and evaluator truth. It omits four unused reference-role arrays, without changing any calculation. Six pilot export comparisons verified36 exact array identities; the revised storage estimate was221,503,928bytes, within the unchanged250MiB cap. The scientific worker and original failed admissions were not rewritten. A first compact-admission import probe failed before execution because historical code changed the module search path; explicit module loading fixed the new adapter before it was frozen. This is a packaging correction, not a changed candidate.
+
+FINAL_FREEZE.json binds the same candidate,216conditions, seeds, selection and criterion, plus the compact adapter and measured resource admission. The runtime caps remain600s wall,300sCPU,1GiB sampledRSS and250MiB outputs. Final evaluation uses run_final.py. The older generic run.py/freeze.py final path is preserved as historical preparation and must not be used to bypass the failed pilot gate. Final score verification reconstructs full inference and checks exact used references and all scores before checking decisions/metrics.
+
+The added admission scripts perform only existing-benign-data checks. They do not change the scientific decision rule, inspect final labels, expand compute limits, or establish a more favorable result.

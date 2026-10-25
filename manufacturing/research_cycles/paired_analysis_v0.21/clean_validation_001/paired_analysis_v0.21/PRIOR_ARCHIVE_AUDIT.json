@@ -1,0 +1,13 @@
+{
+  "scope": "Current byte-identity audit of previously clean-verified archive; its full tests are not repeated",
+  "archive_relative_path": "reproducibility_v1.7/manufacturing-reviewer-v1.7.zip",
+  "archive_bytes": 323169116,
+  "sha256": "9f538cc8bf7b1ca877bb1c87a1614a608c9fde756c0d13cc397b26076ea86c33",
+  "expected_sha256": "9f538cc8bf7b1ca877bb1c87a1614a608c9fde756c0d13cc397b26076ea86c33",
+  "prior_clean_extraction_status": "passed",
+  "prior_checks": 13170,
+  "prior_clean_receipt_sha256": "4c640ddb1d3104478cc2a503edb74f2086e08c3f017dd587ae1e632122a77aa5",
+  "full_retraining_previously_verified": false,
+  "new_prior_archive_replay": false,
+  "publication": false
+}

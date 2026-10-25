@@ -1,0 +1,38 @@
+{
+  "admitted": true,
+  "bindings": {
+    "research_cycles/gain_limited_v0.23/INDEPENDENT_PROTOCOL_REVIEW.md": "e965265fdecc8ce0c6fe3578769f8901e7fb14d80e8890fc97bf09841fc7c445",
+    "research_cycles/gain_limited_v0.23/INPUT_MANIFEST.json": "dbf5f44a01261f3e928757f798506df5375ef2d22b0a08bc597a50b03b292ae9",
+    "research_cycles/gain_limited_v0.23/PROTOCOL.md": "7b12247611d25c01a1afb349a277e9211ad4e66f2c9fe1fd84b6f59eaaddf269",
+    "research_cycles/gain_limited_v0.23/RUNTIME_ADMISSION.json": "7c965901887ac5d4a85802bf4af4dce98658c127aca895f80a3680c7db00087f",
+    "research_cycles/gain_limited_v0.23/TEST_RECEIPT.json": "3e18636a8bd390a838fba785c4bcd60e21c295a1f0b4fd877528ed5dbc2311a4",
+    "research_cycles/gain_limited_v0.23/admit_data.py": "ce809e2acb366dde38c05f4282e6ab2d0313509f041ecc00dd52b071ab5b9591",
+    "research_cycles/gain_limited_v0.23/config.json": "9acfcf0c9479d09ff0120f80d3f049682db3c2abb7e2dbbea4249b99954d21ba",
+    "research_cycles/gain_limited_v0.23/data23.py": "590c328ec18996665ec4d00bb6ba9d15646ceb6dd630fa0dc99d1e0d3a97b43f",
+    "research_cycles/gain_limited_v0.23/freeze.py": "cc88a43458426bd7b2ec52cdf59b40830d88dd664240296c5ef3f044ad8d38dc",
+    "research_cycles/gain_limited_v0.23/models23.py": "ce2e9e49b48244bcfd6c46295f3ca523b932d307123a5e75224063f681e014ce",
+    "research_cycles/gain_limited_v0.23/pilot23.py": "4591a53d221575fb7a24b3c32fbe25ee534a289685f7e098a7d35948a1de6dd4",
+    "research_cycles/gain_limited_v0.23/run.py": "2334b49e522773d904fad86e3016e875214a331e38002646ffa38edfbf0895b0",
+    "research_cycles/gain_limited_v0.23/runtime.py": "64dfebfd1c36e59b467cd3e1a60f69efe410b42ee1e505d0fdf0a251b9b28005",
+    "research_cycles/gain_limited_v0.23/runtime_worker.py": "959b4f81ecad5369ae8bf1db2b4682b7e44ecdc816365f7029cce8697e8d3fec",
+    "research_cycles/gain_limited_v0.23/test_models23.py": "76b03beea4ebb01cb007b0499dc9a66a817e6de015dd7929ee9a8ec83fd6acd4",
+    "research_cycles/gain_limited_v0.23/worker.py": "7e723dfcba605d6b3ac6d3b290ae07f0c8cc6c051850d85e612db4911ecd24a3",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3"
+  },
+  "normal_input_hashes_verified": 18,
+  "normal_signal_arrays_loaded_by_reviewer": false,
+  "remaining_limits": [
+    "No new theorem or novelty established",
+    "No physical operational tolerance established",
+    "Actual floating-point bound not verified with interval arithmetic",
+    "Normal development selection remains exploratory",
+    "Underfit flag narrows a failed configured-budget interpretation",
+    "No fresh attacks or final calibration authorized"
+  ],
+  "reviewer": "recovery_theory separate AI agent; shared context; not human peer review",
+  "scope": "One frozen normal-only feasibility pilot; root GO required; no attack/calibration admission",
+  "source_test_bindings_verified": 11,
+  "synthetic_test_exit_code": 0,
+  "tests_independently_rerun": 16,
+  "utc": "2026-10-24T08:13:23.626214+00:00"
+}

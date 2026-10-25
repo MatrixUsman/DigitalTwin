@@ -1,0 +1,518 @@
+{
+  "audit_id": "manufacturing-reference-audit-v0.24-group-C",
+  "checked_utc": "2026-10-24T08:46:35.973257+00:00",
+  "scope": "Fresh online existence and bibliographic verification of references19–28 and extra finalREN DOI; no scientific claim-support audit.",
+  "reviewer": "prior_art subagent",
+  "source_hashes_sha256": {
+    "manufacturing/manuscript_arx_rbf_v1.8/references.tex": "f239342fb3dc579bcb40aea3f4b3e9f5dc8c06842ac8cce2d943c35a4c6d4da2",
+    "manufacturing/manuscript_arx_rbf_v1.8/references.bib": "22adf0dc9b3cd4c6bdefea0cb7ffa8b28d24089bbec1a07714493bf3373055e4",
+    "manufacturing/manuscript_arx_rbf_v1.8/main.tex": "aeccddfa802ffa7be13b14bdbc774f54a42c1df919e0dabc043e4cf063716d4b",
+    "manufacturing/manuscript_arx_rbf_v1.8/PACKAGE_MANIFEST.json": "402910bd147b08abfa520f9b89b5d3489a40699cf1bf23b60b7340e9ec287648"
+  },
+  "summary": {
+    "numbered_references": 10,
+    "existence_verified": 10,
+    "fabricated_or_nonexistent_identified": 0,
+    "hard_factual_corrections_identified": 0,
+    "publication_status_enrichment": [
+      "motionconformal",
+      "robotactive"
+    ],
+    "primary_metadata_completeness_limit": [
+      "tsbad original-source page range export unavailable; current range corroborated in another official proceedings bibliography"
+    ],
+    "extra_final_ren_existence_verified": true
+  },
+  "records": [
+    {
+      "number": 19,
+      "key": "inputthreshold",
+      "current": {
+        "printed_entry_tex": "H. P. Rotstein, R. Ingvalson, T. Keviczky, G. J. Balas. {Input-Dependent Threshold Function for an Actuator Fault Detection Filter}. \\emph{IFAC Proceedings Volumes, 38(1):211--216}, 2005. \\url{https://doi.org/10.3182/20050703-6-CZ-1902.01996}.",
+        "bibtex_entry": "@inproceedings{inputthreshold,\n author={Rotstein, H. P. and Ingvalson, R. and Keviczky, T. and Balas, G. J.},\n title={{Input-Dependent Threshold Function for an Actuator Fault Detection Filter}},\n booktitle={IFAC Proceedings Volumes}, volume={38}, number={1}, pages={211--216}, year={2005},\n doi={10.3182/20050703-6-CZ-1902.01996}}"
+      },
+      "verified": {
+        "authors": [
+          "H. P. Rotstein",
+          "R. Ingvalson",
+          "T. Keviczky",
+          "G. J. Balas"
+        ],
+        "title": "Input-Dependent Threshold Function for an Actuator Fault Detection Filter",
+        "venue": "IFAC Proceedings Volumes",
+        "volume": "38",
+        "issue": "1",
+        "pages": "211–216",
+        "year": 2005,
+        "doi": "10.3182/20050703-6-CZ-1902.01996",
+        "publication_status": "Published conference proceedings article"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified_across_publisher_search_record_and_author_institution",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1474667016380089",
+          "source_type": "Publisher search result",
+          "observed": "Title, journal, volume38, issue1, pages211–216, year2005 and DOI visible; direct opening returned403."
+        },
+        {
+          "url": "https://www.dcsc.tudelft.nl/~tkeviczky/publications.html",
+          "source_type": "Author institutional publications list, search result",
+          "observed": "Entry C8 identifies same title, four authors in cited order,16thIFAC World Congress, Prague,4–8July2005."
+        }
+      ],
+      "observations": "Publisher and author institution independently identify the same paper. No metadata contradiction found.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "DOI resolver failed and direct ScienceDirect page returned403. Publisher-indexed search text, rather than an opened full page, supplied venue/pages/DOI. Full text not needed or re-reviewed for this audit."
+      ]
+    },
+    {
+      "number": 20,
+      "key": "motionconformal",
+      "current": {
+        "printed_entry_tex": "R. Schubert, M. Loba, J. S\\\"unnemann, T. Stolte, M. Maurer. {Conformal Prediction of Motion Control Performance for an Automated Vehicle in Presence of Actuator Degradations and Failures}. Accepted for IEEE ITSC 2024; consulted author manuscript, version 2, 29 July 2024. \\url{https://arxiv.org/abs/2404.16500v2}.",
+        "bibtex_entry": "@misc{motionconformal,\n author={Schubert, Richard and Loba, Marvin and S{\\\"u}nnemann, Jasper and Stolte, Torben and Maurer, Markus},\n title={{Conformal Prediction of Motion Control Performance for an Automated Vehicle in Presence of Actuator Degradations and Failures}},\n year={2024}, note={Accepted for IEEE ITSC 2024; consulted author manuscript v2, 29 July 2024},\n eprint={2404.16500}, archivePrefix={arXiv}, url={https://arxiv.org/abs/2404.16500v2}}\n\n% Primary metadata checked 2026-10-24. Cite the exact inspected versions.\n% Ghanipoor 2025 v1 is deliberately separate from Automatica 2026 final.\n% No final-journal theorem claim is supported by renpreprint."
+      },
+      "verified": {
+        "authors": [
+          "Richard Schubert",
+          "Marvin Loba",
+          "Jasper Sünnemann",
+          "Torben Stolte",
+          "Markus Maurer"
+        ],
+        "title": "Conformal Prediction of Motion Control Performance for an Automated Vehicle in Presence of Actuator Degradations and Failures",
+        "cited_version": "arXiv2404.16500v2",
+        "v1_date": "2024-04-25",
+        "v2_date": "2024-07-29",
+        "arxiv_doi": "10.48550/arXiv.2404.16500",
+        "final_venue": "2024 IEEE27th International Conference on Intelligent Transportation Systems (ITSC)",
+        "final_doi": "10.1109/ITSC58415.2024.10920241",
+        "final_pages": "1778–1785",
+        "conference_dates": "2024-09-24 to2024-09-27",
+        "date_added_ieee": "2025-03-20",
+        "publication_status": "Cited author manuscript verified; final IEEE proceedings record also verified"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified_publication_status_enrichment_available",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.16500v2",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, all five authors, v1/v2 dates, arXivDOI and acceptance comment."
+        },
+        {
+          "url": "https://doi.org/10.1109/ITSC58415.2024.10920241",
+          "source_type": "Publisher IEEE indexed record",
+          "observed": "Title, ITSC2024, conference24–27September2024, added20March2025 and finalDOI."
+        },
+        {
+          "url": "https://www.tu-braunschweig.de/en/ifr/institute/staff/translate-to-english-m-sc-marvin-loba",
+          "source_type": "Author institutional publications page, search result",
+          "observed": "Five-author order and final ITSC2024 citation with pages1778–1785 and sameDOI."
+        }
+      ],
+      "observations": "The existing version-specific citation is accurate. It is now possible to distinguish the inspected arXivv2 from the already published proceedings record.",
+      "correction": "Optional bibliographic enrichment: add the final IEEE DOI and publication status while retaining consulted arXivv2 and its29July2024date. Do not silently claim final full text was inspected.",
+      "access_limits": [
+        "Final pages confirmed on author institutional list; IEEE extracted record did not display page range. No final-paper claim audit undertaken."
+      ]
+    },
+    {
+      "number": 21,
+      "key": "tsbad",
+      "current": {
+        "printed_entry_tex": "Qinghua Liu, John Paparrizos. {The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark}. \\emph{Advances in Neural Information Processing Systems 37, 108231--108261}, 2024. \\url{https://doi.org/10.52202/079017-3437}.",
+        "bibtex_entry": "@inproceedings{tsbad,\n author={Liu, Qinghua and Paparrizos, John},\n title={{The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark}},\n year={2024},\n doi={10.52202/079017-3437},\n pages={108231--108261},\n booktitle={Advances in Neural Information Processing Systems 37}}"
+      },
+      "verified": {
+        "authors": [
+          "Qinghua Liu",
+          "John Paparrizos"
+        ],
+        "title": "The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark",
+        "venue": "Advances in Neural Information Processing Systems",
+        "volume": "37",
+        "track": "Datasets and Benchmarks",
+        "year": 2024,
+        "doi": "10.52202/079017-3437",
+        "pages_current": "108231–108261",
+        "pages_verification": "Not independently confirmed from the original proceedings export in this audit; corroborated by a later NeurIPS paper bibliography.",
+        "publication_status": "Published NeurIPS2024 proceedings"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "existence_core_metadata_verified_original_page_range_export_inaccessible",
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/c3f3c690b7a99fba16d0efd35cb83b2c-Abstract-Datasets_and_Benchmarks_Track.html",
+          "source_type": "Opened official proceedings record",
+          "observed": "Exact title, two authors, NeurIPS37/2024, track and DOI."
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/4b52b3c50110fc10f6a1a86055682ea2-Paper-Conference.pdf",
+          "source_type": "Later official proceedings paper, citation only",
+          "observed": "Search extraction cites the current108231–108261range; corroboration only, not original bibliographic authority."
+        }
+      ],
+      "observations": "The exact work and DOI are verified. Its original BibTeX link could not be fetched, so the existing page range is retained as corroborated rather than fully reverified.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "Official BibTeX link returned an internal error. Two attempted BibTeX URL forms were also inaccessible. This audit does not mark original-source page-range verification complete."
+      ]
+    },
+    {
+      "number": 22,
+      "key": "vus",
+      "current": {
+        "printed_entry_tex": "Paul Boniol, Ashwin K. Krishna, Marine Bruel, et al. {VUS: effective and efficient accuracy measures for time-series anomaly detection}. \\emph{The VLDB Journal, 34(3)}, 2025. Article 32. \\url{https://doi.org/10.1007/s00778-025-00907-x}.",
+        "bibtex_entry": "@article{vus,\n author={Boniol, Paul and Krishna, Ashwin K. and Bruel, Marine and Liu, Qinghua and Huang, Mingyi and Palpanas, Themis and Tsay, Ruey S. and Elmore, Aaron and Franklin, Michael J. and Paparrizos, John},\n title={{VUS: effective and efficient accuracy measures for time-series anomaly detection}},\n journal={The VLDB Journal},\n year={2025},\n doi={10.1007/s00778-025-00907-x},\n volume={34},\n number={3},\n note={Article 32}}"
+      },
+      "verified": {
+        "authors": [
+          "Paul Boniol",
+          "Ashwin K. Krishna",
+          "Marine Bruel",
+          "Qinghua Liu",
+          "Mingyi Huang",
+          "Themis Palpanas",
+          "Ruey S. Tsay",
+          "Aaron Elmore",
+          "Michael J. Franklin",
+          "John Paparrizos"
+        ],
+        "title": "VUS: effective and efficient accuracy measures for time-series anomaly detection",
+        "venue": "The VLDB Journal",
+        "volume": "34",
+        "issue": "3",
+        "article_number": "32",
+        "year": 2025,
+        "doi": "10.1007/s00778-025-00907-x",
+        "accepted_date": "2025-02-14",
+        "version_of_record_date": "2025-03-27",
+        "publication_status": "Published special issue journal paper"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified",
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00778-025-00907-x",
+          "source_type": "Opened publisher article record",
+          "observed": "All ten authors, title, volume34, article32, DOI, acceptance and version-of-record dates."
+        },
+        {
+          "url": "https://link.springer.com/journal/778/volumes-and-issues/34-3",
+          "source_type": "Opened publisher issue contents",
+          "observed": "Lists VUS in volume34, issue3 as article32."
+        }
+      ],
+      "observations": "The printed abbreviated author list and complete BibTeX list agree with publisher metadata.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "Publisher full article is subscription content. Public metadata were sufficient for this audit."
+      ]
+    },
+    {
+      "number": 23,
+      "key": "rapt",
+      "current": {
+        "printed_entry_tex": "H.~Munn, B.~Tidd, P.~Bohm, M.~Gallagher, and D.~Howard,\n``RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment,''\narXiv:2602.01515v2, preprint, 21 July 2026.\n\\url{https://arxiv.org/abs/2602.01515v2}.",
+        "bibtex_entry": "@misc{rapt,\n  author = {Munn, Humphrey and Tidd, Brendan and Bohm, Peter and Gallagher, Marcus and Howard, David},\n  title = {{RAPT}: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment},\n  year = {2026},\n  month = jul,\n  date = {2026-07-21},\n  eprint = {2602.01515v2},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  doi = {10.48550/arXiv.2602.01515},\n  url = {https://arxiv.org/abs/2602.01515v2},\n  note = {Preprint, version 2, 21 July 2026; first posted 2 February 2026}\n}"
+      },
+      "verified": {
+        "authors": [
+          "Humphrey Munn",
+          "Brendan Tidd",
+          "Peter Bohm",
+          "Marcus Gallagher",
+          "David Howard"
+        ],
+        "title": "RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment",
+        "cited_version": "arXiv2602.01515v2",
+        "v1_date": "2026-02-02",
+        "v2_date": "2026-07-21",
+        "doi": "10.48550/arXiv.2602.01515",
+        "publication_status": "Verified arXiv preprint; peer-reviewed venue not established by inspected record"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2602.01515v2",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact v2 title, five authors, dates and arXiv-issuedDOI; no journal-reference or acceptance field displayed."
+        }
+      ],
+      "observations": "Current citation precisely identifies v2. Limited acceptance-status search did not establish a venue; that is not proof that no other publication exists.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "No peer-reviewed venue independently established. No full-text claims re-reviewed."
+      ]
+    },
+    {
+      "number": 24,
+      "key": "robotactive",
+      "current": {
+        "printed_entry_tex": "G.~Gualandi and A.~V.~Papadopoulos,\n``From Passive Monitoring to Active Defence: Resilient Control of Manipulators Under Cyberattacks,''\narXiv:2603.13003v2, 26 May 2026; ICRA 2026 acceptance author-reported.\n\\url{https://arxiv.org/abs/2603.13003v2}.",
+        "bibtex_entry": "@misc{robotactive,\n  author = {Gualandi, Gabriele and Papadopoulos, Alessandro V.},\n  title = {From Passive Monitoring to Active Defence: Resilient Control of Manipulators Under Cyberattacks},\n  year = {2026},\n  month = may,\n  date = {2026-05-26},\n  eprint = {2603.13003v2},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  doi = {10.48550/arXiv.2603.13003},\n  url = {https://arxiv.org/abs/2603.13003v2},\n  note = {Author manuscript, version 2, 26 May 2026; first posted 13 March 2026. Author metadata report acceptance at ICRA 2026; final proceedings version not inspected}\n}"
+      },
+      "verified": {
+        "authors": [
+          "Gabriele Gualandi",
+          "Alessandro V. Papadopoulos"
+        ],
+        "title": "From Passive Monitoring to Active Defence: Resilient Control of Manipulators Under Cyberattacks",
+        "cited_version": "arXiv2603.13003v2",
+        "v1_date": "2026-03-13",
+        "v2_date": "2026-05-26",
+        "arxiv_doi": "10.48550/arXiv.2603.13003",
+        "final_venue": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+        "conference_dates": "2026-06-01 to2026-06-05",
+        "date_added_ieee": "2026-09-30",
+        "final_record_id": "11697152",
+        "publication_status": "Cited author manuscript verified; final IEEE proceedings record additionally identified",
+        "secondary_only_final_doi": "10.1109/ICRA57385.2026.11697152",
+        "secondary_only_final_pages": "17525–17532"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified_publication_status_enrichment_available",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.13003v2",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, authors, v1/v2 dates, arXivDOI and v2 acceptance comment."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11697152",
+          "source_type": "Publisher indexed search result",
+          "observed": "Exact title, published-in ICRA2026, conference1–5June2026 and added30September2026."
+        },
+        {
+          "url": "https://dblp.uni-trier.de/rec/conf/icra/GualandiP26.html",
+          "source_type": "Secondary bibliographic lead only",
+          "observed": "Supplies finalDOI and17525–17532pages, not promoted to primary-verified fields."
+        }
+      ],
+      "observations": "Acceptance remains accurately reported as author metadata in the cited arXivv2, but the present audit found stronger publisher evidence that proceedings publication exists.",
+      "correction": "Optional status enrichment: acknowledge verified IEEE ICRA2026 proceedings record while retaining inspected arXivv2. Confirm finalDOI/pages from primary export before adding those fields; do not infer final full-text identity.",
+      "access_limits": [
+        "Direct IEEE page returned418; DOI resolver was inaccessible. FinalDOI and pages were visible only in secondaryDBLP. Final proceedings equations not inspected."
+      ]
+    },
+    {
+      "number": 25,
+      "key": "renpreprint",
+      "current": {
+        "printed_entry_tex": "F.~Ghanipoor, C.~Murguia, G.~Ferrari Trecate, and N.~van de Wouw,\n``Data-Driven Sensor Fault Diagnosis with Proven Guarantees using Incrementally Stable Recurrent Neural Networks,''\narXiv:2504.19688v1, preprint, 28 April 2025.\n\\url{https://arxiv.org/abs/2504.19688v1}.",
+        "bibtex_entry": "@misc{renpreprint,\n  author = {Ghanipoor, Farhad and Murguia, Carlos and {Ferrari Trecate}, Giancarlo and van de Wouw, Nathan},\n  title = {Data-Driven Sensor Fault Diagnosis with Proven Guarantees using Incrementally Stable Recurrent Neural Networks},\n  year = {2025},\n  month = apr,\n  date = {2025-04-28},\n  eprint = {2504.19688v1},\n  archivePrefix = {arXiv},\n  primaryClass = {eess.SY},\n  doi = {10.48550/arXiv.2504.19688},\n  url = {https://arxiv.org/abs/2504.19688v1},\n  note = {Preprint, version 1, 28 April 2025. This citation identifies the inspected preprint, not the differently titled Automatica 2026 final article}\n}"
+      },
+      "verified": {
+        "authors": [
+          "Farhad Ghanipoor",
+          "Carlos Murguia",
+          "Giancarlo Ferrari Trecate",
+          "Nathan van de Wouw"
+        ],
+        "title": "Data-Driven Sensor Fault Diagnosis with Proven Guarantees using Incrementally Stable Recurrent Neural Networks",
+        "cited_version": "arXiv2504.19688v1",
+        "version_date": "2025-04-28",
+        "doi": "10.48550/arXiv.2504.19688",
+        "publication_status": "Verified arXiv preprint; distinct final article recorded separately below"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2504.19688v1",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, author order, v1date and arXivDOI; onlyv1 displayed in submission history."
+        }
+      ],
+      "observations": "The current deliberate preprint citation matches its record. The final2026title and author order differ, so merging their metadata would be incorrect.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "No inference about final2026equations or guarantees follows from this bibliographic verification."
+      ]
+    },
+    {
+      "number": 26,
+      "key": "iresnet",
+      "current": {
+        "printed_entry_tex": "J.~Behrmann, W.~Grathwohl, R.~T.~Q.~Chen, D.~Duvenaud, and J.-H.~Jacobsen,\n``Invertible Residual Networks,'' in \\emph{Proc. ICML},\nPMLR, vol.~97, pp.~573--582, 2019.\n\\url{https://proceedings.mlr.press/v97/behrmann19a.html}.",
+        "bibtex_entry": "@inproceedings{iresnet,\n  author = {Behrmann, Jens and Grathwohl, Will and Chen, Ricky T. Q. and Duvenaud, David and Jacobsen, Joern-Henrik},\n  title = {Invertible Residual Networks},\n  booktitle = {Proceedings of the 36th International Conference on Machine Learning},\n  series = {Proceedings of Machine Learning Research},\n  volume = {97},\n  pages = {573--582},\n  year = {2019},\n  month = jun,\n  publisher = {PMLR},\n  url = {https://proceedings.mlr.press/v97/behrmann19a.html},\n  note = {Peer-reviewed proceedings, 9--15 June 2019; final paper and supplementary proof inspected}\n}"
+      },
+      "verified": {
+        "authors": [
+          "Jens Behrmann",
+          "Will Grathwohl",
+          "Ricky T. Q. Chen",
+          "David Duvenaud",
+          "Joern-Henrik Jacobsen"
+        ],
+        "title": "Invertible Residual Networks",
+        "venue": "Proceedings of the36th International Conference on Machine Learning",
+        "series": "Proceedings of Machine Learning Research",
+        "volume": "97",
+        "pages": "573–582",
+        "year": 2019,
+        "conference_dates": "2019-06-09 to2019-06-15",
+        "doi": null,
+        "doi_status": "NoDOI present in inspected official citation; URL identifies proceedings article.",
+        "publication_status": "Published ICML2019 proceedings"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified",
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v97/behrmann19a.html",
+          "source_type": "Opened official PMLR record and embedded BibTeX",
+          "observed": "Title, five authors, conference, series, volume, pages, year and9–15June dates."
+        }
+      ],
+      "observations": "The current printed citation and BibTeX metadata agree with PMLR. DOI absence is not a defect when the official source gives a stable proceedingsURL.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "This fresh audit checked metadata, not the historic note that a supplementary proof had been inspected."
+      ]
+    },
+    {
+      "number": 27,
+      "key": "lipschitzauto",
+      "current": {
+        "printed_entry_tex": "Y.-g.~Kim, Y.~Kwon, H.~Chang, and M.~C.~Paik,\n``Lipschitz Continuous Autoencoders in Application to Anomaly Detection,''\nin \\emph{Proc. AISTATS}, PMLR, vol.~108, pp.~2507--2517, 2020.\n\\url{https://proceedings.mlr.press/v108/kim20c.html}.",
+        "bibtex_entry": "@inproceedings{lipschitzauto,\n  author = {Kim, Young-geun and Kwon, Yongchan and Chang, Hyunwoong and Paik, Myunghee Cho},\n  title = {Lipschitz Continuous Autoencoders in Application to Anomaly Detection},\n  booktitle = {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},\n  series = {Proceedings of Machine Learning Research},\n  volume = {108},\n  pages = {2507--2517},\n  year = {2020},\n  month = aug,\n  publisher = {PMLR},\n  url = {https://proceedings.mlr.press/v108/kim20c.html},\n  note = {Peer-reviewed proceedings, 26--28 August 2020; final paper inspected}\n}"
+      },
+      "verified": {
+        "authors": [
+          "Young-geun Kim",
+          "Yongchan Kwon",
+          "Hyunwoong Chang",
+          "Myunghee Cho Paik"
+        ],
+        "title": "Lipschitz Continuous Autoencoders in Application to Anomaly Detection",
+        "venue": "Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics",
+        "series": "Proceedings of Machine Learning Research",
+        "volume": "108",
+        "pages": "2507–2517",
+        "year": 2020,
+        "conference_dates": "2020-08-26 to2020-08-28",
+        "doi": null,
+        "doi_status": "NoDOI present in inspected official citation; URL identifies proceedings article.",
+        "publication_status": "Published AISTATS2020 proceedings"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified",
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v108/kim20c.html",
+          "source_type": "Opened official PMLR record and embedded BibTeX",
+          "observed": "Title, four authors, conference, series, volume, pages, year and26–28August dates."
+        }
+      ],
+      "observations": "The current citation matches official proceedings metadata, including spelling and date.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "This fresh audit checked metadata, not the historic full-text-inspection note."
+      ]
+    },
+    {
+      "number": 28,
+      "key": "diffint",
+      "current": {
+        "printed_entry_tex": "L.~Diop and M.~Plantevit,\n``Differentiable Interval Bottlenecks for Interpretable Anomaly Detection in Numerical Data,''\narXiv:2609.03878v1, 3 September 2026; ICDM 2026 acceptance author-reported.\n\\url{https://arxiv.org/abs/2609.03878v1}.",
+        "bibtex_entry": "@misc{diffint,\n  author = {Diop, Lamine and Plantevit, Marc},\n  title = {Differentiable Interval Bottlenecks for Interpretable Anomaly Detection in Numerical Data},\n  year = {2026},\n  month = sep,\n  date = {2026-09-03},\n  eprint = {2609.03878v1},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.LG},\n  doi = {10.48550/arXiv.2609.03878},\n  url = {https://arxiv.org/abs/2609.03878v1},\n  note = {Author manuscript, version 1, 3 September 2026. Author metadata report acceptance at ICDM 2026; final proceedings version not inspected}\n}"
+      },
+      "verified": {
+        "authors": [
+          "Lamine Diop",
+          "Marc Plantevit"
+        ],
+        "title": "Differentiable Interval Bottlenecks for Interpretable Anomaly Detection in Numerical Data",
+        "cited_version": "arXiv2609.03878v1",
+        "version_date": "2026-09-03",
+        "doi": "10.48550/arXiv.2609.03878",
+        "publication_status": "Verified author manuscript; ICDM2026acceptance author-reported"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "cited_fields_verified_acceptance_independence_limited",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.03878v1",
+          "source_type": "Opened arXiv record",
+          "observed": "Exact title, two authors, v1date, arXivDOI and ICDM2026acceptance comment."
+        }
+      ],
+      "observations": "Current wording correctly limits acceptance evidence to the author-reported arXiv comment. A limited exact-title conference-domain search supplied no independent final record.",
+      "correction": "No factual correction identified for the explicitly cited source version.",
+      "access_limits": [
+        "Final conference proceedings, DOI and page range not independently verified. Search nonreturn is not evidence of nonexistence."
+      ]
+    }
+  ],
+  "extra_records": [
+    {
+      "number": null,
+      "key": "ren_final_prose_doi",
+      "current": {
+        "doi": "10.1016/j.automatica.2026.113096",
+        "location": "v1.8 prose, explicitly distinguished from inspected2025preprint"
+      },
+      "verified": {
+        "authors": [
+          "Farhad Ghanipoor",
+          "Giancarlo Ferrari Trecate",
+          "Nathan van de Wouw",
+          "Carlos Murguia"
+        ],
+        "title": "Provably robust data-driven sensor fault diagnosis using incrementally stable recurrent equilibrium networks",
+        "venue": "Automatica",
+        "volume": "191",
+        "article_number": "113096",
+        "issue_date": "2026-09",
+        "year": 2026,
+        "doi": "10.1016/j.automatica.2026.113096",
+        "publication_status": "Published journal brief paper/short communication"
+      },
+      "existence_status": "verified_real",
+      "metadata_status": "core_metadata_verified_via_publisher_search_and_author_institution",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0005109826002803",
+          "source_type": "Publisher indexed search result",
+          "observed": "Exact final title, altered author order, Automatica191, September2026,113096 andDOI."
+        },
+        {
+          "url": "https://www.epfl.ch/labs/decode/dependable-control-and-decision-group/publications/",
+          "source_type": "Author lab institutional publication list, search result",
+          "observed": "Corroborates title, altered author order, journal, volume, year andDOI."
+        }
+      ],
+      "observations": "Real final article; title and author order differ from renpreprint. Bibliographic existence does not resolve prior full-equation access limitation.",
+      "correction": "No factual DOI correction identified. Preserve explicit version distinction.",
+      "access_limits": [
+        "No final full equations or equivalence to the arXivpreprint established in this metadata-only audit."
+      ]
+    }
+  ],
+  "queries_and_access": {
+    "method": "web browsing of primary records; ordinary web search; no external model or verification API scripts",
+    "queries": [
+      "\"10.3182/20050703-6-CZ-1902.01996\"",
+      "\"Conformal Prediction of Motion Control Performance\" IEEE DOI",
+      "\"The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark\" site:neurips.cc",
+      "\"Input-Dependent Threshold Function\" Rotstein Ingvalson Keviczky Balas",
+      "\"Input-Dependent Threshold Function\" site:umn.edu",
+      "\"The Elephant in the Room\" \"108231\" site:neurips.cc",
+      "\"10.1016/j.automatica.2026.113096\"",
+      "\"From Passive Monitoring to Active Defence\" \"ICRA\"",
+      "\"11697152\" \"10.1109\" site:ieeexplore.ieee.org",
+      "\"Differentiable Interval Bottlenecks\" site:icdm2026.org",
+      "\"RAPT\" \"Humphrey Munn\" \"accepted\""
+    ],
+    "notes": [
+      "Direct sourceURLs are retained per record. Search-indexed publisher excerpts are explicitly distinguished from successful page opens.",
+      "The first batch result in this resumed audit was truncated before inspection; no result depends on that unseen batch. Sources used were subsequently opened or searched and read.",
+      "No assertion that unavailable pages or unreturned search results prove absence."
+    ]
+  }
+}

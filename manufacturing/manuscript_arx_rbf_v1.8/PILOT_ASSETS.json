@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-24T08:28:57.500932+00:00",
+  "command": ".venv-plots-v03/bin/python manuscript_arx_rbf_v1.8/integrate_pilot.py",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "training": false,
+  "new_observations": false,
+  "sha256": {
+    "local/gain_limited_v0.23/normal_001/methods.json": "2ae0f52dd50aa3f01273c6d48029dbb01f40b4d2f693c6955f7a5ebaabcfdb78",
+    "local/gain_limited_v0.23/normal_001/FINAL_ADMISSION.json": "e2c84eab775ce8d8b65e638af0c25f690f30c6703587262b8d9d709a819801e2",
+    "local/gain_limited_v0.23/normal_001/result.json": "da9acd3cb7c77bfa39a335924da2bd3468d6c63331b189f7d409dff7c6b17e5b",
+    "local/gain_limited_v0.23/normal_001/supervisor.json": "fe7f7d1bbda35c6128fa9600177efecd604b91ff26ed757abb8321b58a58b9f0",
+    "research_cycles/gain_limited_v0.23/config.json": "9acfcf0c9479d09ff0120f80d3f049682db3c2abb7e2dbbea4249b99954d21ba",
+    "research_cycles/gain_limited_v0.23/FREEZE.json": "f5234ec8563babca1fa97305d5ca38c05390c14e3d6f0d1ba3b0b4a07886141b",
+    "research_cycles/gain_limited_v0.23/PROTOCOL.md": "7b12247611d25c01a1afb349a277e9211ad4e66f2c9fe1fd84b6f59eaaddf269",
+    "research_cycles/gain_limited_v0.23/REVIEW_RELEASE.json": "d8525825126d53f4fe076d418294c5637cc4f6ea10aa02577fb2846badfc39d8",
+    "manuscript_arx_rbf_v1.8/generated/gain_pilot.tex": "824340a46339abb779d1f7ffe6b8f0157cc70ad9d7d45b0f2e231f04bd7dd5dc",
+    "manuscript_arx_rbf_v1.8/figures/gain_feasibility.pdf": "dde68cb400724a8ec7549f5a664e29f162dc2bfb78bfae7e6144cfaf16fb901e",
+    "manuscript_arx_rbf_v1.8/PILOT_FIGURE_VALUES.json": "38c291c5a635ad486422784eb0c8add785a3cffd25efa46e1b0ff43e561adea5",
+    "manuscript_arx_rbf_v1.8/integrate_pilot.py": "f969bba4e5ad83a039dbcacd05f670d9812eda6a71e1dc487b9c5374ec26236d",
+    "local/gain_limited_v0.23/normal_001/history_context_r0.25.json": "a2d04299034d606024b7f8c2c09e2741cd5a909a99f49a1adfa798e242b49e36",
+    "local/gain_limited_v0.23/normal_001/history_context_r0.75.json": "877c2e711fce484aa0ea56da99b8be93e2fee0fd80b295dbd26763ea710bffe8",
+    "local/gain_limited_v0.23/normal_001/history_tanh_k0.25_r0.25.json": "8c338af14b630bc5fef835170398e033cdbda0c97be1cfb7a283c54306958e5a",
+    "local/gain_limited_v0.23/normal_001/history_tanh_k0.25_r0.75.json": "0848e35f97ff058990363e8a97c0403aee7cb4840916ed3672c2c7c3ca57893e",
+    "local/gain_limited_v0.23/normal_001/history_tanh_k0.5_r0.25.json": "6cdfe0de41e3da97d02bfc2477f296024f2bc98baa9bb36dc78266219d7f131f",
+    "local/gain_limited_v0.23/normal_001/history_tanh_k0.5_r0.75.json": "e5529bbe14ed90520282df985f86f9bb853b7fd70de4858dc1d0628827f5650a",
+    "local/gain_limited_v0.23/normal_001/history_tanh_k0.75_r0.25.json": "20ddf933fa6b8314001229b0d22a2642e7a2926b2aaa05009e5ddc421e28c920",
+    "local/gain_limited_v0.23/normal_001/history_tanh_k0.75_r0.75.json": "ba15a0ba7f4d5a96668cf10db5103962afabfd2df595f7981fd82f292f19d823",
+    "local/gain_limited_v0.23/normal_001/history_unconstrained_tanh.json": "0e29602b859955d258eff3b08ef384f6f79ef526d58aa0d11680f8c1d5268519"
+  }
+}

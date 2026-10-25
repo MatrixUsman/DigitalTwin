@@ -1,0 +1,166 @@
+{
+  "classification": "exploratory arithmetic decomposition, not causal risk attribution",
+  "all_retained_source_strata": 48,
+  "displayed_prespecified_condition_strata": [
+    {
+      "task": "L19",
+      "condition": "persistent_offset",
+      "channel": "q1",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": 1.983793500709993,
+      "mean_variance_contribution": 0.07361573944188127,
+      "mean_delta_log_score": 2.0574092323145585,
+      "first_positive_counts": [
+        132,
+        132,
+        132
+      ],
+      "last_positive_counts": [
+        132,
+        132,
+        132
+      ]
+    },
+    {
+      "task": "L19",
+      "condition": "persistent_offset",
+      "channel": "q2",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": -1.1050003074047927,
+      "mean_variance_contribution": 0.05678484355560472,
+      "mean_delta_log_score": -1.048215463121225,
+      "first_positive_counts": [
+        132,
+        132,
+        132
+      ],
+      "last_positive_counts": [
+        132,
+        132,
+        132
+      ]
+    },
+    {
+      "task": "L19",
+      "condition": "persistent_offset",
+      "channel": "v1",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": -3.2054748796423755,
+      "mean_variance_contribution": -0.14295463369350228,
+      "mean_delta_log_score": -3.348429513043483,
+      "first_positive_counts": [
+        132,
+        132,
+        132
+      ],
+      "last_positive_counts": [
+        132,
+        132,
+        132
+      ]
+    },
+    {
+      "task": "L19",
+      "condition": "persistent_offset",
+      "channel": "v2",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": 1.0476459910045062,
+      "mean_variance_contribution": 0.1174393765854113,
+      "mean_delta_log_score": 1.165085370632317,
+      "first_positive_counts": [
+        132,
+        132,
+        132
+      ],
+      "last_positive_counts": [
+        132,
+        132,
+        132
+      ]
+    },
+    {
+      "task": "S19",
+      "condition": "persistent_offset",
+      "channel": "q1",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": -3.4825686854268993,
+      "mean_variance_contribution": 0.2897002262267632,
+      "mean_delta_log_score": -3.192868464280251,
+      "first_positive_counts": [
+        117,
+        117,
+        117
+      ],
+      "last_positive_counts": [
+        117,
+        117,
+        117
+      ]
+    },
+    {
+      "task": "S19",
+      "condition": "persistent_offset",
+      "channel": "q2",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": 0.02775175805875015,
+      "mean_variance_contribution": -0.009395584421619585,
+      "mean_delta_log_score": 0.018356167410256957,
+      "first_positive_counts": [
+        117,
+        117,
+        117
+      ],
+      "last_positive_counts": [
+        117,
+        117,
+        117
+      ]
+    },
+    {
+      "task": "S19",
+      "condition": "persistent_offset",
+      "channel": "v1",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": 0.021271393992493042,
+      "mean_variance_contribution": 0.17969065717822139,
+      "mean_delta_log_score": 0.2009620540923779,
+      "first_positive_counts": [
+        117,
+        117,
+        117
+      ],
+      "last_positive_counts": [
+        117,
+        117,
+        117
+      ]
+    },
+    {
+      "task": "S19",
+      "condition": "persistent_offset",
+      "channel": "v2",
+      "episodes": 3,
+      "valid_log_changes": 3,
+      "mean_delta_log_squared_error": -2.214889263293797,
+      "mean_variance_contribution": -0.6444651289203568,
+      "mean_delta_log_score": -2.8593543888471475,
+      "first_positive_counts": [
+        117,
+        117,
+        117
+      ],
+      "last_positive_counts": [
+        117,
+        117,
+        117
+      ]
+    }
+  ]
+}

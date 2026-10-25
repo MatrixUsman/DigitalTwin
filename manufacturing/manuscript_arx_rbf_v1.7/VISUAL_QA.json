@@ -1,0 +1,146 @@
+{
+  "utc": "2026-10-18T21:36:20.281216+00:00",
+  "scope": "Assistant rendered-page visual QA, not human author approval or peer review",
+  "passed": true,
+  "pages": 15,
+  "pdf": "output/pdf/ARX-RBF-Muhammad-Usman-v1.7.pdf",
+  "pdf_sha256": "cb9bd34476d333c8d8cc8aa9cd87950b7d07be470c460abf376051bfa67c7549",
+  "render_command": "pdftoppm -r 110 -png output/pdf/ARX-RBF-Muhammad-Usman-v1.7.pdf local/manuscript_arx_rbf_v1.7/render_final/page",
+  "render_cwd": "manufacturing",
+  "checked": [
+    "All pages individually inspected",
+    "No clipped text, overlapping captions or cropped figures",
+    "Equations, superscripts and subscripts legible",
+    "All eleven fresh methods and original seventeen retained",
+    "Reference list and citation links render",
+    "One paper; no separate manuscript supplement",
+    "Fifteen-page limit satisfied"
+  ],
+  "repairs": [
+    "Replaced crowded inline short-window maximum with equivalent prose inequality",
+    "Removed project-conversation wording from conclusion",
+    "Corrected M13 and F1 typography plus caption spacing"
+  ],
+  "page_reviews": [
+    {
+      "page": 1,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-01.png",
+      "sha256": "d42553ec5370e466f58f8ede515b0ec6dc7c2398e17070bb93b16c39675c3743",
+      "visually_inspected": true,
+      "review_basis": "Final attempt 013 page individually re-inspected",
+      "passed": true
+    },
+    {
+      "page": 2,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-02.png",
+      "sha256": "3f499603ec1a1befe4f7ac320f97478621edee3dc5dab3c541bb94fd4122027e",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 3,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-03.png",
+      "sha256": "accecc2793684488962897de1bc2b1215906bc29d5eaf209d284e89877d95d0e",
+      "visually_inspected": true,
+      "review_basis": "Final attempt 013 page individually re-inspected",
+      "passed": true
+    },
+    {
+      "page": 4,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-04.png",
+      "sha256": "1ebef13ba13fb04bbb6793d1ac4930db8481987e341ee3eeacc979b5acbd1c08",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 5,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-05.png",
+      "sha256": "5e469eed0c2f1a9254224a6ad8349d5aa643438aed69c0fc765acf96820d5a5d",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 6,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-06.png",
+      "sha256": "fa620d25663cb423225e8d4d0bc3453c5781818810adb1f39858f11d9a399536",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 7,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-07.png",
+      "sha256": "fa5d5744f9c2237eee2e1e35c21378ecd83190aac44b1db5ace50af485ab1009",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 8,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-08.png",
+      "sha256": "d804de5d5e851ba4ab2c4fcfc5d1ef5397a27be088b490337d906ae7d53eafa9",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 9,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-09.png",
+      "sha256": "1ee1c559a4e50fa1bb152121d5bf875697958df441b2a925cd735c83105079d4",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 10,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-10.png",
+      "sha256": "a67cc4fc09e57025e0cf905dae0d780a735d9ef602df5eb1a8fdd68739f43f81",
+      "visually_inspected": true,
+      "review_basis": "Final attempt 013 page individually re-inspected",
+      "passed": true
+    },
+    {
+      "page": 11,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-11.png",
+      "sha256": "bc7629ed9b7b3cf59965c8d288e7305fc224e94bbcd3d49bd3afa2f73da8a9cb",
+      "visually_inspected": true,
+      "review_basis": "Final attempt 013 page individually re-inspected",
+      "passed": true
+    },
+    {
+      "page": 12,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-12.png",
+      "sha256": "2a64151068556e95b779b8b0b7a4f57583e5f43088a668388015440f6d81a566",
+      "visually_inspected": true,
+      "review_basis": "Final attempt 013 page individually re-inspected",
+      "passed": true
+    },
+    {
+      "page": 13,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-13.png",
+      "sha256": "28570b8b576eb565f526ae72f4b62dd4eda958e492c40bf9c3791ca974d96d1e",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 14,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-14.png",
+      "sha256": "f494df70b75fc3d3e47f7dc1da02f741dfde9ffdf2e6345005e0c9450ceeffe7",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    },
+    {
+      "page": 15,
+      "render": "local/manuscript_arx_rbf_v1.7/render_final/page-15.png",
+      "sha256": "fb80d2ebebb3a706d3ed5ea7d67cd17ceedcfef018c0427bb77379cae6b8aaef",
+      "visually_inspected": true,
+      "review_basis": "Identical pixel rendering to individually inspected attempt 012 page",
+      "passed": true
+    }
+  ]
+}

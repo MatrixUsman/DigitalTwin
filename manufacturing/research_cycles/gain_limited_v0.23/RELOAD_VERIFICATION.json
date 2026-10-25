@@ -1,0 +1,79 @@
+{
+  "utc": "2026-10-24T08:16:28.623562+00:00",
+  "completed_utc": "2026-10-24T08:16:28.780707+00:00",
+  "command": [
+    "research_cycles/gain_limited_v0.23/reload_verify.py"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "interpreter": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-analysis-v022/bin/python",
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "torch": "2.5.1",
+  "numpy": "1.26.4",
+  "checks": 146,
+  "models": 9,
+  "exact_prediction_scalars": 388800,
+  "replays": [
+    {
+      "id": "context_r0.25",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "context_r0.75",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "tanh_k0.25_r0.25",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "tanh_k0.25_r0.75",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "tanh_k0.5_r0.25",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "tanh_k0.5_r0.75",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "tanh_k0.75_r0.25",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "tanh_k0.75_r0.75",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    },
+    {
+      "id": "unconstrained_tanh",
+      "scalars": 43200,
+      "exact": true,
+      "maximum_difference": 0.0
+    }
+  ],
+  "wall_seconds": 0.17430429201340303,
+  "cpu_seconds": 0.134054,
+  "training": false,
+  "new_data_access": false,
+  "input_freeze_sha256": "f5234ec8563babca1fa97305d5ca38c05390c14e3d6f0d1ba3b0b4a07886141b",
+  "verifier_sha256": "47e7f679bdfff7f3dcc2838bf4bbaa021a4645c02d6d00852537d6f1e5f63fcd",
+  "independent_implementation": false
+}

@@ -1,0 +1,26 @@
+{
+  "files": 20,
+  "scope": "local executed replay and reproducibility notes; no external release",
+  "sha256": {
+    ".gitignore": "637400650411cd4eaf40681601af96eed5b72b298b06e54ed82a3d143938956a",
+    "BOUNDARY_DIAGNOSTIC.json": "c4f8275229903671ba92112556487a43c7b4c827bd28369228926dd7e7ca4dbd",
+    "FREEZE.json": "3ebf64acc116c2ce0adb1c6fdf35e36ee22cb2672fad5ba67e2b836412b6cca4",
+    "PLAN.md": "a91d4096165b4593744d217b5063aec077056b6f3a0efde96f48e34b65904ab9",
+    "README.md": "5bb518411d2b9c2929521c8747f66b6e0fe1f07b22bf166824ed09d2485c7a17",
+    "REPAIR_FREEZE.json": "a542898a0dd449f7264bbdbbeeaffe8cb39995701234d77c76b3b65e136eb6ad",
+    "REPORTING.json": "adef15952765fd3d5766c4e56e596ad07d7d4493b18b835526f0e3706878b149",
+    "RESULTS.md": "c8d2778b4e951d12cd9b1d6cfcd163815ab6789004572ec492b105117f2b464d",
+    "VERIFICATION.json": "c60fdef12e4e0c1c7b53fe2750bfa2253e614030d303955808135c2e253f9a5d",
+    "common.py": "cd3718f68b8cda9841c92ad06c6daade721cb648b8c89d10ce54cf0473160c7e",
+    "config.json": "409c807862bf6a60d1285de5a26270165051b76db3481ab41d836a352e64515c",
+    "core.py": "e2dcec89ea462c2004ebe1c0288c2e1cb32b66960aca625c95e790550476db08",
+    "freeze.py": "d347b9ed47f142d9eaac7711c6ec50b9c96d07a2d04545d93166379aab8ad9f0",
+    "present.py": "e8bc08e12e7c9c440eb6aa01d3170d77efe24c4c4c865c5d713bc5b9ae5410ee",
+    "reproduce.py": "3abf9c26db73e275d146bb3633deae6bb2c337874266455e55557988755093f6",
+    "resume.py": "bcbf889bd65abecf5b4716ec006db24967edf90bb328a6d6a56ff40a5890c665",
+    "run.py": "8bfc401eab83adcf6fa69315be4fc0424660efe6f86031fda4a181fb64d0caaa",
+    "test_replay.py": "d42894e62506c71332ceaa223ddd632bbc3f06637946c0769f5bfb57e749f01b",
+    "verify.py": "d63f3dcc2b038908a963b2cfc66ef24232369a25fc2657e63b2009d02675ba9a",
+    "worker.py": "d4eda2348b75860e5748646129516925f55fdf683c022ffbcefef026b8d9a506"
+  }
+}

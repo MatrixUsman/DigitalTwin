@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-24T08:11:41.931409+00:00",
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-analysis-v022/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "research_cycles/gain_limited_v0.23",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "status": "passed",
+  "returncode": 0,
+  "seconds": 1.0548618330067256,
+  "tests": 16,
+  "synthetic": true,
+  "bindings": {
+    "research_cycles/gain_limited_v0.23/worker.py": "7e723dfcba605d6b3ac6d3b290ae07f0c8cc6c051850d85e612db4911ecd24a3",
+    "research_cycles/gain_limited_v0.23/models23.py": "ce2e9e49b48244bcfd6c46295f3ca523b932d307123a5e75224063f681e014ce",
+    "research_cycles/gain_limited_v0.23/run.py": "2334b49e522773d904fad86e3016e875214a331e38002646ffa38edfbf0895b0",
+    "research_cycles/gain_limited_v0.23/runtime_worker.py": "959b4f81ecad5369ae8bf1db2b4682b7e44ecdc816365f7029cce8697e8d3fec",
+    "research_cycles/gain_limited_v0.23/test_models23.py": "76b03beea4ebb01cb007b0499dc9a66a817e6de015dd7929ee9a8ec83fd6acd4",
+    "research_cycles/gain_limited_v0.23/admit_data.py": "ce809e2acb366dde38c05f4282e6ab2d0313509f041ecc00dd52b071ab5b9591",
+    "research_cycles/gain_limited_v0.23/runtime.py": "64dfebfd1c36e59b467cd3e1a60f69efe410b42ee1e505d0fdf0a251b9b28005",
+    "research_cycles/gain_limited_v0.23/pilot23.py": "4591a53d221575fb7a24b3c32fbe25ee534a289685f7e098a7d35948a1de6dd4",
+    "research_cycles/gain_limited_v0.23/data23.py": "590c328ec18996665ec4d00bb6ba9d15646ceb6dd630fa0dc99d1e0d3a97b43f",
+    "research_cycles/gain_limited_v0.23/freeze.py": "cc88a43458426bd7b2ec52cdf59b40830d88dd664240296c5ef3f044ad8d38dc",
+    "research_cycles/gain_limited_v0.23/config.json": "9acfcf0c9479d09ff0120f80d3f049682db3c2abb7e2dbbea4249b99954d21ba"
+  }
+}

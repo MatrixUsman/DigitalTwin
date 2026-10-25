@@ -1,0 +1,962 @@
+[
+  {
+    "task": "L19",
+    "condition": "normal",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.08885125411541066,
+    "mean_variance_contribution": -0.0021275293490308953,
+    "mean_delta_log_score": -0.09097878415440118,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "normal",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.04486958389243142,
+    "mean_variance_contribution": -0.007199676589103514,
+    "mean_delta_log_score": 0.037669908793649974,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "normal",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.20872648690382953,
+    "mean_variance_contribution": -0.002060997149365177,
+    "mean_delta_log_score": 0.20666548938456955,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "normal",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.01641665702664256,
+    "mean_variance_contribution": 0.007680013624288273,
+    "mean_delta_log_score": -0.008736642812351961,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "authorized_changes",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.23856815281603985,
+    "mean_variance_contribution": -0.004153547825786437,
+    "mean_delta_log_score": -0.2427217015809694,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "authorized_changes",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.02160950788897213,
+    "mean_variance_contribution": -0.008951274257595157,
+    "mean_delta_log_score": 0.012658234152207515,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "authorized_changes",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.250422070420169,
+    "mean_variance_contribution": 0.0024481530378093197,
+    "mean_delta_log_score": 0.2528702239292722,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "authorized_changes",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.06057209645251508,
+    "mean_variance_contribution": 0.019931163356802523,
+    "mean_delta_log_score": -0.04064093423517388,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "brief_offset",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -1.2254005794334857,
+    "mean_variance_contribution": -0.15884833865695538,
+    "mean_delta_log_score": -1.384248915180127,
+    "first_positive_counts": [
+      3,
+      3,
+      3
+    ],
+    "last_positive_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "brief_offset",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -1.2031452737214334,
+    "mean_variance_contribution": -0.11650649706522624,
+    "mean_delta_log_score": -1.3196517753725299,
+    "first_positive_counts": [
+      3,
+      3,
+      3
+    ],
+    "last_positive_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "brief_offset",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 1.6744403475561942,
+    "mean_variance_contribution": -0.03865117496914339,
+    "mean_delta_log_score": 1.6357891801166902,
+    "first_positive_counts": [
+      3,
+      3,
+      3
+    ],
+    "last_positive_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "brief_offset",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.2663393722373862,
+    "mean_variance_contribution": -0.024750431378682453,
+    "mean_delta_log_score": -0.2910898301758474,
+    "first_positive_counts": [
+      3,
+      3,
+      3
+    ],
+    "last_positive_counts": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "persistent_offset",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 1.983793500709993,
+    "mean_variance_contribution": 0.07361573944188127,
+    "mean_delta_log_score": 2.0574092323145585,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "persistent_offset",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -1.1050003074047927,
+    "mean_variance_contribution": 0.05678484355560472,
+    "mean_delta_log_score": -1.048215463121225,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "persistent_offset",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -3.2054748796423755,
+    "mean_variance_contribution": -0.14295463369350228,
+    "mean_delta_log_score": -3.348429513043483,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "persistent_offset",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 1.0476459910045062,
+    "mean_variance_contribution": 0.1174393765854113,
+    "mean_delta_log_score": 1.165085370632317,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "hold",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -1.1919226642571303,
+    "mean_variance_contribution": -0.01580258752360475,
+    "mean_delta_log_score": -1.2077252547937611,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "hold",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.3247482826275386,
+    "mean_variance_contribution": -0.029480068370549322,
+    "mean_delta_log_score": 0.29526822136556213,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "hold",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.34136405668827824,
+    "mean_variance_contribution": 0.0048239869300765,
+    "mean_delta_log_score": -0.3365400688233125,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "hold",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.26043439887907466,
+    "mean_variance_contribution": 0.014152311616473753,
+    "mean_delta_log_score": 0.2745867104039514,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "slow",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.8702681789024628,
+    "mean_variance_contribution": 0.16042664677205698,
+    "mean_delta_log_score": 1.0306948309502861,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "slow",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.3068857904428053,
+    "mean_variance_contribution": -0.14222246408462524,
+    "mean_delta_log_score": -0.4491082582065508,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "slow",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 2.5302392252418766,
+    "mean_variance_contribution": -0.17937040268772794,
+    "mean_delta_log_score": 2.3508688243452887,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "L19",
+    "condition": "slow",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.1340297798386808,
+    "mean_variance_contribution": -0.000562812041754753,
+    "mean_delta_log_score": -0.13459259256472597,
+    "first_positive_counts": [
+      132,
+      132,
+      132
+    ],
+    "last_positive_counts": [
+      132,
+      132,
+      132
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "normal",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.15824515814942064,
+    "mean_variance_contribution": 0.007468805582509989,
+    "mean_delta_log_score": 0.16571396396226468,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "normal",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.001961183104198424,
+    "mean_variance_contribution": 0.008283561663439206,
+    "mean_delta_log_score": 0.006322379971226273,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "normal",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.0463262881347782,
+    "mean_variance_contribution": -0.0034509861940718403,
+    "mean_delta_log_score": 0.04287530260491653,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "normal",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.13881556044233934,
+    "mean_variance_contribution": -0.01328193502911068,
+    "mean_delta_log_score": -0.15209749635868267,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "authorized_changes",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.06146223419111033,
+    "mean_variance_contribution": 0.008040265821467774,
+    "mean_delta_log_score": -0.0534219669706825,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "authorized_changes",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.1334698923557882,
+    "mean_variance_contribution": -0.0007142904249288762,
+    "mean_delta_log_score": 0.13275560208471116,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "authorized_changes",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.2264696750673938,
+    "mean_variance_contribution": 0.013750236155622986,
+    "mean_delta_log_score": -0.21271943704803262,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "authorized_changes",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.07818319703040277,
+    "mean_variance_contribution": -0.011783885874990649,
+    "mean_delta_log_score": -0.08996708198950465,
+    "first_positive_counts": [
+      1475,
+      1475,
+      1475
+    ],
+    "last_positive_counts": [
+      1475,
+      1475,
+      1475
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "brief_offset",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.8778250901896882,
+    "mean_variance_contribution": -0.034810264905293785,
+    "mean_delta_log_score": -0.9126353732067413,
+    "first_positive_counts": [
+      2,
+      2,
+      2
+    ],
+    "last_positive_counts": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "brief_offset",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.658608346224843,
+    "mean_variance_contribution": 0.1296381155649821,
+    "mean_delta_log_score": -0.5289702054331393,
+    "first_positive_counts": [
+      2,
+      2,
+      2
+    ],
+    "last_positive_counts": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "brief_offset",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 2.752273913385539,
+    "mean_variance_contribution": -0.39234089851379395,
+    "mean_delta_log_score": 2.3599329698335723,
+    "first_positive_counts": [
+      2,
+      2,
+      2
+    ],
+    "last_positive_counts": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "brief_offset",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.3167237867684846,
+    "mean_variance_contribution": 0.10989914337793986,
+    "mean_delta_log_score": -0.2068246585780388,
+    "first_positive_counts": [
+      2,
+      2,
+      2
+    ],
+    "last_positive_counts": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "persistent_offset",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -3.4825686854268993,
+    "mean_variance_contribution": 0.2897002262267632,
+    "mean_delta_log_score": -3.192868464280251,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "persistent_offset",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.02775175805875015,
+    "mean_variance_contribution": -0.009395584421619585,
+    "mean_delta_log_score": 0.018356167410256957,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "persistent_offset",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.021271393992493042,
+    "mean_variance_contribution": 0.17969065717822139,
+    "mean_delta_log_score": 0.2009620540923779,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "persistent_offset",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -2.214889263293797,
+    "mean_variance_contribution": -0.6444651289203568,
+    "mean_delta_log_score": -2.8593543888471475,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "hold",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 1.5554913817369467,
+    "mean_variance_contribution": 0.013264604443498454,
+    "mean_delta_log_score": 1.5687559868260408,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "hold",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.6430189548570908,
+    "mean_variance_contribution": 0.011724135135313674,
+    "mean_delta_log_score": 0.6547430895736684,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "hold",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 2.319831536053222,
+    "mean_variance_contribution": -0.013077080419600318,
+    "mean_delta_log_score": 2.3067544574252588,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "hold",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.14526824624613824,
+    "mean_variance_contribution": -0.019822400519650858,
+    "mean_delta_log_score": -0.16509064426526054,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "slow",
+    "channel": "q1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 0.5471722143315754,
+    "mean_variance_contribution": -0.1107851331390209,
+    "mean_delta_log_score": 0.43638708743229354,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "slow",
+    "channel": "q2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -0.44080769095256755,
+    "mean_variance_contribution": -0.04043203745132843,
+    "mean_delta_log_score": -0.4812397235387585,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "slow",
+    "channel": "v1",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": 5.870089126990926,
+    "mean_variance_contribution": 0.22141123157620765,
+    "mean_delta_log_score": 6.09150035163309,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  },
+  {
+    "task": "S19",
+    "condition": "slow",
+    "channel": "v2",
+    "episodes": 3,
+    "valid_log_changes": 3,
+    "mean_delta_log_squared_error": -1.9332932301773085,
+    "mean_variance_contribution": -0.2782877282878951,
+    "mean_delta_log_score": -2.2115809493332494,
+    "first_positive_counts": [
+      117,
+      117,
+      117
+    ],
+    "last_positive_counts": [
+      117,
+      117,
+      117
+    ]
+  }
+]

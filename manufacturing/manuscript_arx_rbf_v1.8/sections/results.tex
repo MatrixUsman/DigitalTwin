@@ -1,0 +1,101 @@
+\section{Results}\label{sec:results}
+\subsection{Parameter selection and normal prediction}
+The 63-fit E2 search selects ARX orders 8, 16 and 32 with ridge $10^{-7}$. Appendix~\ref{app:earlier} summarizes the earlier controls. For the E5 correction, all 30 candidates produce eligible outcomes. Every development criterion, including weaker settings, remains in the recorded candidate matrix. Selection chooses 32 centers on all plants, width multipliers 1, 0.5 and 1, and penalties 0.01, 0.001 and 0.001 for Q1--Q3. All selected linear penalties are 0.01. These are finite normal-development choices, not parameter choices based on the attack audit.
+
+
+
+\begin{table*}[t]\centering
+\caption{Selected E5 candidate and fresh-normal changes against the base reference. Positive error change is worse. Each selected RBF head has 132 coefficients, in addition to its stored centers and base model.}\label{tab:selection}
+\input{generated/selection.tex}
+\end{table*}
+
+On 81 fresh normal episodes, RBF correction changes RMSE by +0.0050\%, $-1.2205$\% and $-0.1002$\% for Q1--Q3. Corresponding tail changes are $-0.1314$\%, $-1.4022$\% and +0.1506\%. The all-plant improvement requirement fails. Better performance on selected development episodes does not imply improvement on every new condition, and normal return-evidence availability is not post-attack clearance.
+
+E3 tests learned prediction separately (Table~\ref{tab:imu}). AR(4) achieves MSE 0.006074. All CASPER-style seeds stop at epoch 27 and select epoch 22, with MSE 0.017451--0.017703, 46.11--58.12\% below their shorter pilot errors. Compact CNN errors are 0.042700--0.044730 and still improve at epoch 100.
+
+\begin{table*}[t]\centering
+\caption{E3 normal-development prediction on the common filtered IMU prefix. Epochs are completed/selected. Every seed and deterministic control is shown; no attack metric is computed.}\label{tab:imu}
+\input{generated/imu.tex}
+\end{table*}
+
+
+Median filtering changes the prediction task and induces dependence. These normal-development errors support retaining ordinary predictors, but cannot establish attack-detection superiority or independent generalization.
+
+\subsection{Recent author-code prediction results}
+All nine recent-model runs complete on the same 2,048 normal-development targets (Table~\ref{tab:forecasts}). ModernTCN gives MSE 0.012207--0.013543; iTransformer gives MSE 0.020031--0.023680; TimeMixer gives MSE 0.011629--0.015218. All nine runs stop at their declared CPU admission limit, before the patience criterion. These values describe transferred configurations under a finite budget; they do not estimate each architecture's converged performance. Normal-development checkpoint selection also makes them unsuitable as independent test estimates. The models have 173,861, 817,153 and 58,033 parameters respectively. AR(4) remains a useful low-cost reference on these filtered targets; different histories and training budgets limit a broader architectural ranking.
+
+\begin{table}[t]\centering
+\caption{Recent author-code forecasts: all seeds, completed/selected epochs, standardized development MSE and per-seed fitting/scoring CPU. Stops: C, CPU admission; P, patience; E, epoch ceiling. No attack score is measured.}\label{tab:forecasts}
+\setlength{\tabcolsep}{4pt}\input{generated/forecast}
+\end{table}
+
+\subsection{Five-fold temporal validation}
+All 15 plant--fold fits complete, giving 4,500 scored observations per method with no failures. Table~\ref{tab:fivefold} reports every fold, pooling equal-sized plant populations after each fold's training-only standardization. The correction improves pooled error in folds four and five and in 5/15 plant--fold pairs. Its benefit is small and inconsistent. The first fold uses only 200 training observations per episode; trajectory segment and fitted scale also change across folds, so the reduction in later-fold error cannot be attributed to training size alone. This diagnostic leaves the original fit selection and attack-audit outcome unchanged.
+
+\begin{table}[t]\centering
+\caption{Five-fold chronological normal validation. Lower standardized RMSE is better. Every fold uses 900 targets; the folds reuse overlapping training prefixes.}\label{tab:fivefold}
+\setlength{\tabcolsep}{4pt}\input{generated/fivefold}
+\end{table}
+
+\subsection{Detection and false-alarm trade-offs}
+Table~\ref{tab:audit} reports the complete frozen audit. RBF dual reduces benign alarm points from 7,156 to 7,012, a 2.0123\% reduction below the required 10\%. Q1 deteriorates from 2,397 to 2,522 points, and pooled pre-return gaps increase from two to three. The primary criterion therefore fails. Base and RBF dual overlap all 108 attacks; fresh hits increase from 101 to 105. This secondary gain cannot reverse the declared failure.
+
+\begin{table*}[t]\centering\setlength{\tabcolsep}{4pt}
+\caption{All 17 registered E5 methods on 189 synthetic episodes. Benign uses 89,100 points. Hit/fresh means overlap/fresh-onset events out of 108; early is the registered continuity-based count. Inactive means inactive by return + 5 s/detected events with return, including alarms already inactive at return. AP evaluates continuous entry scores, not retained alarm state.}\label{tab:audit}
+\input{generated/audit.tex}
+\end{table*}
+
+Following point has F1 0.9202 and AP 0.9501, exceeding RBF dual's 0.6407 and 0.7276. Yet it has an early falling edge on every attack, with 6,692 pre-return gap points. Following dual reduces these to 90 events and 2,970 points; base dual has one registered early-clear event and two gap points. CUSUM retains support but has no timely clearance. No single plotted axis establishes overall superiority.
+
+
+
+\subsection{Physical return and event interpretation}
+Figure~\ref{fig:trace} illustrates the distinction: schedule labels end with command corruption, while displaced motion can continue. Retaining alarm then supports recovery monitoring while reducing schedule precision.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=0.77\textwidth]{figures/trace.pdf}
+\caption{Post-study illustration from task N14, plant Q2, seed 17, persistent offset. Shading marks command corruption. The following residual falls while physical deviation remains above tolerance. This trace was selected to explain the aggregate contrast; it is not independent confirmatory evidence.}\label{fig:trace}
+\end{figure*}
+
+The single RBF early-clear event occurs two samples after onset, with true standardized deviation 0.01649 below tolerance 0.1. A fresh alarm starts three samples later. It is a continuity break, not an outside-tolerance clearance. A separately labelled post-study falling-edge diagnostic finds no outside-tolerance early falls for protected-reference variants, versus 108 events for following point and 82 for following dual. This clarification preserves the registered metric and failed primary decision. Persistence misses 41 events and the rolling mean misses 60; their conditional clearance fractions cannot be presented as recovery success on every event.
+
+\subsection{Ablation and uncertainty studies}
+Removing the short window changes zero alarm entries in all 189 episodes. Its contribution is unsupported under these conditions. Removing dwell reduces RBF benign points from 7,012 to 1,195, with 108 overlap hits and 108 timely clears. Its registered early-clear count remains one, on a different episode. The favorable no-dwell result is an exposed secondary finding; promoting it as a new confirmed detector would require a separately frozen study.
+
+
+
+E1 reduces benign points from 621 to 309 using an empirical allowance, but clears only 36/108 detected events with return; its same-entry no-allowance control has 140 benign points and 108 clears. E2 reduces the harder plants' allowances by 51.27\% and 38.56\%, yet fails overall feasibility. Appendix~\ref{app:earlier} summarizes earlier findings under their distinct calibration.
+
+E4 certifies enough normal endpoints on 20/36 constructed traces, failing its all-traces criterion. Averaging competes with temporal correlation and within-window motion. Appendix~\ref{app:uncertainty} summarizes the conditional assumptions and outcome; these are direct synthetic residuals, not attack trials.
+
+\subsection{Matched no-dwell control and saved timing analysis}
+A separately versioned replay adds the missing base no-dwell control on the already exposed E5 observations. It changes neither fitted models nor original thresholds, scores, windows or eligible support. All 3,213 original outcomes and alarm arrays replay exactly; the extension contains 3,402 outcomes. These are explanatory results, not fresh confirmation.
+
+\begin{table*}[t]\centering\setlength{\tabcolsep}{4pt}
+\caption{Matched exposed-data replay: all six selected contrasts share 89,100 benign points (0.495 h) and 108 events. Durations and delays are seconds. All overlap 108 events; ``clear'' is conditional first inactivity at/after return, not continuous retention. Gaps use the original continuity definition.}\label{tab:matchedreview}
+\input{generated/matched_review}
+\end{table*}
+
+Base no-dwell has 1,198 benign points against RBF's 1,195, only three points (0.25\%) apart. Both achieve 108 fresh detections and no observed alarm inactivity while physical deviation exceeds tolerance. Base point also has no such inactivity. Removing dwell lowers occupancy by 83.26\% for base and 82.96\% for RBF, but increases starts from 598 to 761 and 590 to 743 respectively. Median benign alarm duration falls from 0.20 to 0.02 s. This is a fragmentation trade-off, not evidence that RBF supplies the improvement.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=0.92\textwidth]{figures/matched_review.pdf}
+\caption{Exposed-data diagnosis. Most dual-rule benign occupancy occurs while clearance evidence already passes, because dwell retains the alarm. Removing dwell reduces occupancy but increases alarm starts. Point counts are decomposed disjointly; starts/h normalize only 0.495 pooled benign hours and do not estimate a validated deployment rate.}\label{fig:matchedreview}
+\end{figure*}
+
+For base dual, 5,958 of 7,156 benign alarm points are retained despite passing clearance evidence, compared with 853 current score exceedances and 345 points lacking clearance evidence. The corresponding RBF counts are 5,817, 835 and 360. Noise and persistence interact: noiseless reference error alone exceeds the threshold at 150 base points, whereas noisy scores exceed it at 853. The overlapping noise/reference subsets cannot be added as causal fractions. Authorized-offset boundaries contain 270/467 base exceedances within 2,700/29,700 points; unchanged operation has only 19/188 at the same clock windows. Transients matter, but do not explain most retained occupancy.
+
+Appendix~\ref{app:earlier} reports timing and strata. RBF no-dwell worsens Q1 and tasks N14/O14; pooled improvement is not uniform. No-dwell median clearance is 0.65 s for both references, versus 0.92/0.94 s with dwell. Following point has zero median clearance because 105/108 alarms are already inactive at physical return, yet loses 6,984 outside-tolerance points after detection. Persistence and rolling mean have 41 and 60 misses; their conditional delays exclude those misses. CUSUM has 108 observed returns and 108 censored clearances. These distributions explain why a nominal 108/108 inactive-by-return fraction cannot establish successful recovery monitoring.
+
+\input{sections/context_results}
+
+\subsection{Computational cost and verification}
+E5 normal development takes 16.115 seconds wall and 15.189 seconds worker CPU, with 53.23 MiB sampled peak memory. The final audit takes 27.515 seconds wall and 26.656 seconds CPU, with 90.17 MiB sampled memory and 83.44 MiB outputs. The IMU study takes 764.794 seconds wall, 753.252 seconds CPU and 553.05 MiB sampled memory. These are whole-pipeline measurements with shared work, not isolated inference latency or real-time guarantees.
+
+The recent forecast campaign consumes 1208.167 seconds wall and 1199.209 seconds summed worker CPU, with 521.44 MiB maximum sampled memory and 14.48 MiB monitored outputs. All nine checkpoints reproduce their saved predictions exactly. The separate five-fold diagnostic uses 0.485 seconds wall and 0.297 seconds CPU. These are pipeline costs, not isolated inference latency.
+
+The fresh contextual campaign takes 103.197 s wall, 102.722 s CPU, 78.42 MiB sampled memory and 205.36 MiB outputs, within its frozen limits. Twelve synthetic tests, 4,107 read-back checks and a separate AI-agent arithmetic review with 29,381 checks pass. These are technical checks, not independent human replication. Normal-only resource gates initially rejected runtime/storage estimates; a cache-aware estimate and lossless compact export admitted the unchanged scientific study before final generation.
+
+The matched replay takes 1.633 s supervised wall and 1.296 s CPU, with 74.0 MiB sampled memory. Twelve synthetic tests, 71,523 worker parity checks and 112,847 fresh-process checks pass; a monitor-denied, zero-output first attempt is preserved. No training or new simulation is involved.
+
+The reproducibility records retain every attempt, original outcome and model/score replay check. Appendix~\ref{app:provenance} identifies the evidence packages.

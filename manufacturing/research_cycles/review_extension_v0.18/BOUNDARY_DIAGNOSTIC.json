@@ -1,0 +1,101 @@
+{
+  "scope": "post-replay exploratory descriptive diagnosis; boundary windows [347,397),[653,703); same clock windows in normal control; no method tuning",
+  "rows": [
+    {
+      "condition": "normal",
+      "method": "base_point",
+      "alarm_points": 188,
+      "points_first_second_after_two_scheduled_boundaries": 19,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "normal",
+      "method": "rbf_point",
+      "alarm_points": 174,
+      "points_first_second_after_two_scheduled_boundaries": 16,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "normal",
+      "method": "base_dual",
+      "alarm_points": 1926,
+      "points_first_second_after_two_scheduled_boundaries": 206,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "normal",
+      "method": "rbf_dual",
+      "alarm_points": 1818,
+      "points_first_second_after_two_scheduled_boundaries": 163,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_offset",
+      "method": "base_point",
+      "alarm_points": 467,
+      "points_first_second_after_two_scheduled_boundaries": 270,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_offset",
+      "method": "rbf_point",
+      "alarm_points": 466,
+      "points_first_second_after_two_scheduled_boundaries": 286,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_offset",
+      "method": "base_dual",
+      "alarm_points": 3237,
+      "points_first_second_after_two_scheduled_boundaries": 1254,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_offset",
+      "method": "rbf_dual",
+      "alarm_points": 3203,
+      "points_first_second_after_two_scheduled_boundaries": 1332,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_slow",
+      "method": "base_point",
+      "alarm_points": 198,
+      "points_first_second_after_two_scheduled_boundaries": 36,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_slow",
+      "method": "rbf_point",
+      "alarm_points": 195,
+      "points_first_second_after_two_scheduled_boundaries": 35,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_slow",
+      "method": "base_dual",
+      "alarm_points": 1993,
+      "points_first_second_after_two_scheduled_boundaries": 350,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    },
+    {
+      "condition": "authorized_slow",
+      "method": "rbf_dual",
+      "alarm_points": 1991,
+      "points_first_second_after_two_scheduled_boundaries": 334,
+      "eligible_window_points": 2700,
+      "total_eligible_points": 29700
+    }
+  ]
+}

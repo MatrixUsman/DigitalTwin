@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-24T08:28:58.088416+00:00",
+  "command": ".venv-plots-v03/bin/python manuscript_arx_rbf_v1.8/integrate_diagnostics.py",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "training": false,
+  "new_observations": false,
+  "sha256": {
+    "research_cycles/novelty_v0.22/decomposition/STRATA.json": "7bed6ad49781c183b75c70dda944d815c1353624f18044f269b7ce6c6bdc2042",
+    "manuscript_arx_rbf_v1.8/figures/score_decomposition.pdf": "767c91bf6bab320e0a910284c78fd710233615cda187e81179a0cd2e021c5c60",
+    "manuscript_arx_rbf_v1.8/DIAGNOSTIC_FIGURE_VALUES.json": "bcc41bcde8a1fb83f36b894539fdea54c7e9d3fe273e5b238de7792a51f36be3",
+    "manuscript_arx_rbf_v1.8/integrate_diagnostics.py": "303c5a2fc4a87654b85f225c7d47c8c007bd46393dfd5e1c94d953481d1a39f1"
+  }
+}

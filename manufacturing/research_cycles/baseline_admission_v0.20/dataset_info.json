@@ -1,0 +1,106 @@
+{
+  "_id": "6a606d99190deabc6f0b3d22",
+  "id": "hmunn/rapt-g1-ood",
+  "author": "hmunn",
+  "sha": "d40fa1f893cc4519d67abff142428ea0f0c4a1eb",
+  "lastModified": "2026-07-23T12:59:59.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:time-series-forecasting",
+    "license:bsd-3-clause",
+    "arxiv:2602.01515",
+    "region:us",
+    "anomaly-detection",
+    "out-of-distribution",
+    "robotics",
+    "humanoid",
+    "sim-to-real",
+    "unitree-g1",
+    "isaac-lab"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tRAPT G1 OOD Benchmark\n\t\n\nSimulation datasets for out-of-distribution (OOD) detection on a Unitree G1\nhumanoid, released with \"RAPT: Model-Predictive Out-of-Distribution\nDetection and Failure Diagnosis for Sim-to-Real Humanoid Deployment\"\n(arXiv:2602.01515,\ncode,\nproject page).\nEach task directory contains proprioceptive trajectories collected from an\nexpert RL policy in NVIDIA Isaac Lab (50 Hz):\n\ntrain.npz \u2014 nominal-only episodes for training self-supervised\ndetectors (~1.2M steps\u2026 See the full description on the dataset page: https://huggingface.co/datasets/hmunn/rapt-g1-ood.",
+  "downloads": 443,
+  "likes": 0,
+  "cardData": {
+    "license": "bsd-3-clause",
+    "task_categories": [
+      "time-series-forecasting"
+    ],
+    "tags": [
+      "anomaly-detection",
+      "out-of-distribution",
+      "robotics",
+      "humanoid",
+      "sim-to-real",
+      "unitree-g1",
+      "isaac-lab"
+    ],
+    "pretty_name": "RAPT G1 OOD Benchmark"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "g1_mimic_dance102/calibration.npz"
+    },
+    {
+      "rfilename": "g1_mimic_dance102/metadata.json"
+    },
+    {
+      "rfilename": "g1_mimic_dance102/test.npz"
+    },
+    {
+      "rfilename": "g1_mimic_dance102/train.npz"
+    },
+    {
+      "rfilename": "g1_mimic_dance102/train_small.npz"
+    },
+    {
+      "rfilename": "g1_mimic_gangnam/calibration.npz"
+    },
+    {
+      "rfilename": "g1_mimic_gangnam/metadata.json"
+    },
+    {
+      "rfilename": "g1_mimic_gangnam/test.npz"
+    },
+    {
+      "rfilename": "g1_mimic_gangnam/train.npz"
+    },
+    {
+      "rfilename": "g1_mimic_gangnam/train_small.npz"
+    },
+    {
+      "rfilename": "g1_velocity/calibration.npz"
+    },
+    {
+      "rfilename": "g1_velocity/metadata.json"
+    },
+    {
+      "rfilename": "g1_velocity/test.npz"
+    },
+    {
+      "rfilename": "g1_velocity/train.npz"
+    },
+    {
+      "rfilename": "g1_velocity/train_small.npz"
+    },
+    {
+      "rfilename": "g1_velocity_real/calibration.npz"
+    },
+    {
+      "rfilename": "g1_velocity_real/metadata.json"
+    },
+    {
+      "rfilename": "g1_velocity_real/test.npz"
+    }
+  ],
+  "createdAt": "2026-07-22T07:13:29.000Z",
+  "usedStorage": 3071474971
+}

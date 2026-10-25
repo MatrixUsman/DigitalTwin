@@ -1,0 +1,27 @@
+{
+  "task": "Unitree-G1-29dof-Velocity",
+  "policy": "model_23400.pt",
+  "num_envs": 128,
+  "obs_dim": 96,
+  "action_dim": 29,
+  "dt": 0.02,
+  "train_steps_per_env": 9600,
+  "test_episode_len": 1000,
+  "cal_episodes": 0,
+  "ood_start_step": 50,
+  "categories": [
+    "init_state",
+    "env_disturbance"
+  ],
+  "test_counts": {
+    "ood": 432,
+    "nominal": 401
+  },
+  "dtype": "float16",
+  "seed": 0,
+  "train_small_steps_per_env": 2400,
+  "train_files": {
+    "train.npz": "paper-scale nominal training (~1.2M steps)",
+    "train_small.npz": "limited-nominal-data variant (~300k steps)"
+  }
+}

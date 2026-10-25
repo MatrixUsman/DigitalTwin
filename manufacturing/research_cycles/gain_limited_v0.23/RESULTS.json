@@ -1,0 +1,1472 @@
+{
+  "status": "completed",
+  "passed": false,
+  "candidate": "tanh_k0.25_r0.25",
+  "simple_comparator": "direct_reference",
+  "same_budget_fir": "fir_k0.25",
+  "execution": {
+    "complete_methods": true,
+    "cpu_within_cap": true,
+    "frozen_inputs_unchanged": true,
+    "outputs_within_cap": true,
+    "sampled_rss_within_cap": true,
+    "supervisor_completed": true,
+    "synthetic_tests_passed": true,
+    "wall_within_cap": true
+  },
+  "scientific_clauses": {
+    "all_conditions_within_5pct": true,
+    "all_episodes_within_5pct": true,
+    "complete_roster": true,
+    "linear_solvers_converged": true,
+    "radius_5pct": false,
+    "rmse_2pct": true,
+    "same_budget_fir_radius_lower": true,
+    "same_budget_fir_rmse_not_higher": false
+  },
+  "rows": [
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.1812600851182804,
+        "authorized_slow": 0.06254754323649767,
+        "normal": 0.06131503607407115
+      },
+      "extra": {},
+      "family": "direct",
+      "id": "direct_reference",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 2.5122369497114705,
+        "cap_radius": 3.4098188029777843,
+        "certificate": {
+          "C": 0.0,
+          "K": 0.0
+        },
+        "episode_rmse": [
+          0.061587612131722515,
+          0.1817278733561021,
+          0.06277174142284334,
+          0.06122917801607717,
+          0.1813060990049423,
+          0.062305686423532,
+          0.061127364884166056,
+          0.18074494150691287,
+          0.0625643301954143
+        ],
+        "gain_radius": 3.4098188029777843,
+        "points": 9900,
+        "primary_radius": 3.4098188029777843,
+        "rank": 9800,
+        "rmse": 0.1162281481552159,
+        "tau_dev": 0.8975818532663136
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.18165742795978232,
+        "authorized_slow": 0.06438296299355244,
+        "normal": 0.06370614180069702
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.6861435409955448,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "context",
+      "id": "context_r0.25",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 2.522202274485855,
+        "cap_radius": 3.417811964858284,
+        "certificate": {
+          "C": 0.0,
+          "K": 0.0,
+          "beta": 0.0,
+          "gamma": 0.35703753121197224,
+          "kappa_budget": null,
+          "kind": "context",
+          "rho": 0.07303025430883281,
+          "rho_budget": 0.25
+        },
+        "episode_rmse": [
+          0.06397140166013619,
+          0.18212721553762315,
+          0.06459998130500973,
+          0.0636204388777371,
+          0.1816965078961874,
+          0.06416545587277409,
+          0.06352571948457715,
+          0.1811472323214831,
+          0.06438271864032229
+        ],
+        "gain_radius": 3.417811964858284,
+        "points": 9900,
+        "primary_radius": 3.417811964858284,
+        "rank": 9800,
+        "rmse": 0.11719365676793712,
+        "tau_dev": 0.8956096903724289
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.181631680181856,
+        "authorized_slow": 0.06430247689102299,
+        "normal": 0.06359680296114124
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.2880407920019934,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "context",
+      "id": "context_r0.75",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 2.5219668920183467,
+        "cap_radius": 3.4181169599629544,
+        "certificate": {
+          "C": 0.0,
+          "K": 0.0,
+          "beta": 0.0,
+          "gamma": 0.34946246910840273,
+          "kappa_budget": null,
+          "kind": "context",
+          "rho": 0.07017964497208595,
+          "rho_budget": 0.75
+        },
+        "episode_rmse": [
+          0.06386217741809487,
+          0.18210141354648268,
+          0.06451973069585866,
+          0.06351096884720223,
+          0.18167082117931538,
+          0.06408413365544939,
+          0.06341639513677952,
+          0.18112147761504752,
+          0.0643028286121692
+        ],
+        "gain_radius": 3.4181169599629544,
+        "points": 9900,
+        "primary_radius": 3.4181169599629544,
+        "rank": 9800,
+        "rmse": 0.11714581956815302,
+        "tau_dev": 0.8961500679446077
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.1628438178196832,
+        "authorized_slow": 0.05338143835607217,
+        "normal": 0.05186642341513716
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.30113708299177233,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "constrained",
+      "id": "tanh_k0.25_r0.25",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.3750370710188435,
+        "cap_radius": 3.6953317273743056,
+        "certificate": {
+          "C": 0.2499997690320015,
+          "K": 0.24999945176183916,
+          "beta": 0.749999288469553,
+          "gamma": 0.2499997690320015,
+          "kappa_budget": 0.25,
+          "kind": "constrained",
+          "rho": 0.24999975971877575,
+          "rho_budget": 0.25
+        },
+        "episode_rmse": [
+          0.052057168321578105,
+          0.1632740162372951,
+          0.05353044074670221,
+          0.05181098398738524,
+          0.16286499497186346,
+          0.053171006016015085,
+          0.0517305596164652,
+          0.16239124373200947,
+          0.05344221099092075
+        ],
+        "gain_radius": 4.260439804766159,
+        "points": 9900,
+        "primary_radius": 3.6953317273743056,
+        "rank": 9800,
+        "rmse": 0.1033728088698564,
+        "tau_dev": 0.8202951182914591
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.16865162870834813,
+        "authorized_slow": 0.05519999954850217,
+        "normal": 0.053555446687915384
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.3052028749953024,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "constrained",
+      "id": "tanh_k0.25_r0.75",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.447024550943999,
+        "cap_radius": 3.7866080414838694,
+        "certificate": {
+          "C": 0.24999976716935635,
+          "K": 0.24999879114708684,
+          "beta": 0.2499997615814209,
+          "gamma": 0.24999976716935635,
+          "kappa_budget": 0.25,
+          "kind": "constrained",
+          "rho": 0.7499992623925209,
+          "rho_budget": 0.75
+        },
+        "episode_rmse": [
+          0.05376333297008329,
+          0.16908934827390978,
+          0.0553693675793749,
+          0.05349529832551689,
+          0.16867978090514169,
+          0.05497861484602462,
+          0.05340706596358151,
+          0.16818453975331207,
+          0.05525128861788173
+        ],
+        "gain_radius": 4.382137613047116,
+        "points": 9900,
+        "primary_radius": 3.7866080414838694,
+        "rank": 9800,
+        "rmse": 0.10701806340687742,
+        "tau_dev": 0.8395839562011576
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.14732532536397377,
+        "authorized_slow": 0.04564787991634708,
+        "normal": 0.04301221389252902
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.31273387499095406,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "constrained",
+      "id": "tanh_k0.5_r0.25",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 2.2580819389538176,
+        "cap_radius": 4.036798128341322,
+        "certificate": {
+          "C": 0.4999995604157448,
+          "K": 0.49999893208419055,
+          "beta": 0.7499992847442627,
+          "gamma": 0.4999995604157448,
+          "kappa_budget": 0.5,
+          "kind": "constrained",
+          "rho": 0.2499997727572918,
+          "rho_budget": 0.25
+        },
+        "episode_rmse": [
+          0.043129521133440304,
+          0.14771844285159486,
+          0.04572774042009027,
+          0.04298071597001177,
+          0.14732190120609398,
+          0.04547683621772059,
+          0.042926146965635084,
+          0.14693458934956125,
+          0.04573858268760835
+        ],
+        "gain_radius": 6.07358504286469,
+        "points": 9900,
+        "primary_radius": 4.036798128341322,
+        "rank": 9800,
+        "rmse": 0.09244553527779595,
+        "tau_dev": 0.7787170685560144
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.15686478145813273,
+        "authorized_slow": 0.048566763391347134,
+        "normal": 0.046011845310674655
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.30634608400578145,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "constrained",
+      "id": "tanh_k0.5_r0.75",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 2.386331465750365,
+        "cap_radius": 4.189499424216818,
+        "certificate": {
+          "C": 0.4999995306134224,
+          "K": 0.4999975934698857,
+          "beta": 0.2499997541308403,
+          "gamma": 0.4999995306134224,
+          "kappa_budget": 0.5,
+          "kind": "constrained",
+          "rho": 0.7499992772936821,
+          "rho_budget": 0.75
+        },
+        "episode_rmse": [
+          0.04615825263538748,
+          0.15727319547974428,
+          0.04868227221601864,
+          0.045976037643159225,
+          0.15687339273892162,
+          0.04837809261759572,
+          0.04590086494787336,
+          0.15644666701433257,
+          0.04863936723994341
+        ],
+        "gain_radius": 6.378970023613026,
+        "points": 9900,
+        "primary_radius": 4.189499424216818,
+        "rank": 9800,
+        "rmse": 0.09845875630115772,
+        "tau_dev": 0.803168897239608
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.13406476664520625,
+        "authorized_slow": 0.04061301745263166,
+        "normal": 0.03740091027859741
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.3160570840118453,
+        "parameter_count": 200,
+        "underfit_flag": true
+      },
+      "family": "constrained",
+      "id": "tanh_k0.75_r0.25",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 2.1515542826370604,
+        "cap_radius": 4.37329134182953,
+        "certificate": {
+          "C": 0.7499991878867149,
+          "K": 0.7499982211752437,
+          "beta": 0.7499992772936821,
+          "gamma": 0.7499991878867149,
+          "kappa_budget": 0.75,
+          "kind": "constrained",
+          "rho": 0.24999975599348545,
+          "rho_budget": 0.25
+        },
+        "episode_rmse": [
+          0.03745595247140823,
+          0.13442475687759997,
+          0.04063126157170453,
+          0.037388053624707734,
+          0.13403482863325,
+          0.04049414077510005,
+          0.03735865816137762,
+          0.13373381927752703,
+          0.04071334800530899
+        ],
+        "gain_radius": 11.493090087451707,
+        "points": 9900,
+        "primary_radius": 4.37329134182953,
+        "rank": 9800,
+        "rmse": 0.08370903362622432,
+        "tau_dev": 0.7217386834190398
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.14611079041844363,
+        "authorized_slow": 0.04372979884631638,
+        "normal": 0.04027761812491385
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.30755566600419115,
+        "parameter_count": 200,
+        "underfit_flag": false
+      },
+      "family": "constrained",
+      "id": "tanh_k0.75_r0.75",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 2.337072548180251,
+        "cap_radius": 4.606707642169771,
+        "certificate": {
+          "C": 0.74999925121665,
+          "K": 0.7499963566774319,
+          "beta": 0.2499997653067112,
+          "gamma": 0.74999925121665,
+          "kappa_budget": 0.75,
+          "kind": "constrained",
+          "rho": 0.7499992698431015,
+          "rho_budget": 0.75
+        },
+        "episode_rmse": [
+          0.04036693654550535,
+          0.1464919272660287,
+          0.043788164492263366,
+          0.040257433624881676,
+          0.146096436740823,
+          0.043602669094241556,
+          0.040208320498605225,
+          0.14574304665275234,
+          0.04379828557916892
+        ],
+        "gain_radius": 12.426655461688727,
+        "points": 9900,
+        "primary_radius": 4.606707642169771,
+        "rank": 9800,
+        "rmse": 0.09107312978344755,
+        "tau_dev": 0.7696365915562198
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.05501745014132878,
+        "authorized_slow": 0.030836572068735357,
+        "normal": 0.030608545556341675
+      },
+      "extra": {
+        "epochs": 40,
+        "fit_seconds": 0.3343707499880111,
+        "parameter_count": 200,
+        "underfit_flag": true
+      },
+      "family": "unconstrained",
+      "id": "unconstrained_tanh",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 1.0766137203888304,
+        "cap_radius": 6.432787855165099,
+        "certificate": {
+          "C": 2.5870638489723206,
+          "K": 6.379820097766917,
+          "beta": 0.9365243166685104,
+          "gamma": 2.5870638489723206,
+          "kappa_budget": null,
+          "kind": "unconstrained",
+          "rho": 0.6202325196936727,
+          "rho_budget": 0.25
+        },
+        "episode_rmse": [
+          0.030767806645618515,
+          0.05528881776408036,
+          0.030903397233431596,
+          0.03052636517128998,
+          0.05481059058989303,
+          0.030725945334037705,
+          0.030530841568335746,
+          0.05495184482433902,
+          0.030880072111531546
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": 6.432787855165099,
+        "rank": 9800,
+        "rmse": 0.0404750831091531,
+        "tau_dev": 0.18204643683162747
+      },
+      "simple_comparator": false
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.13456567876226924,
+        "authorized_slow": 0.04842257628726644,
+        "normal": 0.0475727950721947
+      },
+      "extra": {
+        "K": 0.25000000000000006,
+        "converged": true,
+        "gradient_mapping": 9.474917095516816e-08,
+        "iterations": 1410,
+        "kappa_budget": 0.25,
+        "lag": 5
+      },
+      "family": "fir",
+      "id": "fir_k0.25",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.12885386411638,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.25000000000000006
+        },
+        "episode_rmse": [
+          0.04774526601420139,
+          0.1349052183220358,
+          0.048539387005087226,
+          0.04751120378187501,
+          0.134554893860613,
+          0.04828103216203747,
+          0.04746143256764789,
+          0.13423609168138698,
+          0.04844695579112363
+        ],
+        "gain_radius": 3.731238652286199,
+        "points": 9900,
+        "primary_radius": 3.731238652286199,
+        "rank": 9800,
+        "rmse": 0.08701693058638534,
+        "tau_dev": 0.669575125098269
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.09247464159246925,
+        "authorized_slow": 0.033964025043103335,
+        "normal": 0.033026360016276526
+      },
+      "extra": {
+        "K": 0.5,
+        "converged": true,
+        "gradient_mapping": 8.981878537652645e-08,
+        "iterations": 890,
+        "kappa_budget": 0.5,
+        "lag": 5
+      },
+      "family": "fir",
+      "id": "fir_k0.5",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 1.7347996036361661,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.5
+        },
+        "episode_rmse": [
+          0.033134829938263534,
+          0.09267402654911681,
+          0.03403808486575431,
+          0.03298146197881112,
+          0.0924801155524746,
+          0.033865402749535305,
+          0.032962517781212,
+          0.0922693396721873,
+          0.03398835486852999
+        ],
+        "gain_radius": 4.410875992437374,
+        "points": 9900,
+        "primary_radius": 4.410875992437374,
+        "rank": 9800,
+        "rmse": 0.05998848442467634,
+        "tau_dev": 0.4706383925825208
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.056216603170509194,
+        "authorized_slow": 0.023043888870458086,
+        "normal": 0.022022378845065305
+      },
+      "extra": {
+        "K": 0.7500000000000002,
+        "converged": true,
+        "gradient_mapping": 9.945628575388112e-08,
+        "iterations": 540,
+        "kappa_budget": 0.75,
+        "lag": 5
+      },
+      "family": "fir",
+      "id": "fir_k0.75",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 1.368272225507228,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.7500000000000002
+        },
+        "episode_rmse": [
+          0.022087251958880158,
+          0.056276227474650185,
+          0.023083323704943096,
+          0.021978032865641633,
+          0.05622709361050703,
+          0.022974072702659273,
+          0.022001701803461938,
+          0.05614641200849988,
+          0.023074110882281135
+        ],
+        "gain_radius": 6.461560900118457,
+        "points": 9900,
+        "primary_radius": 6.461560900118457,
+        "rank": 9800,
+        "rmse": 0.037310911970897136,
+        "tau_dev": 0.2471179995223849
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.13453273388471215,
+        "authorized_slow": 0.048440315281858645,
+        "normal": 0.04759428320660733
+      },
+      "extra": {
+        "K": 0.25000000000000006,
+        "converged": true,
+        "gradient_mapping": 9.231254220287e-08,
+        "iterations": 1380,
+        "kappa_budget": 0.25,
+        "lag": 5
+      },
+      "family": "additive_fir",
+      "id": "context_r0.25_fir_k0.25",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.129072811767893,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.25000000000000006
+        },
+        "episode_rmse": [
+          0.04776635343492254,
+          0.13487345465249298,
+          0.04855696879499279,
+          0.04753281512186221,
+          0.1345200345842767,
+          0.048299027231790324,
+          0.04748320069217284,
+          0.13420387842767906,
+          0.04846459722026458
+        ],
+        "gain_radius": 3.731780750608433,
+        "points": 9900,
+        "primary_radius": 3.731780750608433,
+        "rank": 9800,
+        "rmse": 0.08700715760796425,
+        "tau_dev": 0.6697627511884314
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.0924299640693953,
+        "authorized_slow": 0.0339843863327031,
+        "normal": 0.03303409437665422
+      },
+      "extra": {
+        "K": 0.5,
+        "converged": true,
+        "gradient_mapping": 8.869639399051936e-08,
+        "iterations": 890,
+        "kappa_budget": 0.5,
+        "lag": 5
+      },
+      "family": "additive_fir",
+      "id": "context_r0.25_fir_k0.5",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 1.7349763284455046,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.5
+        },
+        "episode_rmse": [
+          0.03314231162548829,
+          0.09263228009003584,
+          0.03405856622298947,
+          0.032989125744675885,
+          0.09243142857377246,
+          0.03388560730154437,
+          0.032970576831139624,
+          0.09222573648793417,
+          0.034008752224552664
+        ],
+        "gain_radius": 4.416480477353628,
+        "points": 9900,
+        "primary_radius": 4.416480477353628,
+        "rank": 9800,
+        "rmse": 0.059970793345777415,
+        "tau_dev": 0.47326391023130926
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.056108826390699244,
+        "authorized_slow": 0.023048272134582853,
+        "normal": 0.021984062949016937
+      },
+      "extra": {
+        "K": 0.75,
+        "converged": true,
+        "gradient_mapping": 9.480464310842449e-08,
+        "iterations": 750,
+        "kappa_budget": 0.75,
+        "lag": 5
+      },
+      "family": "additive_fir",
+      "id": "context_r0.25_fir_k0.75",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 1.368103888375374,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.75
+        },
+        "episode_rmse": [
+          0.022048284657812077,
+          0.0561744549357088,
+          0.02308804136340845,
+          0.021939788125615048,
+          0.05611135089529148,
+          0.022977903708446643,
+          0.021963968491377585,
+          0.056040593414117046,
+          0.023078709503268596
+        ],
+        "gain_radius": 6.461540478977268,
+        "points": 9900,
+        "primary_radius": 6.461540478977268,
+        "rank": 9800,
+        "rmse": 0.037250155574967095,
+        "tau_dev": 0.24728123136894298
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.13453250128602606,
+        "authorized_slow": 0.048439931756322815,
+        "normal": 0.047594374539720104
+      },
+      "extra": {
+        "K": 0.25000000000000006,
+        "converged": true,
+        "gradient_mapping": 9.23611834624369e-08,
+        "iterations": 1380,
+        "kappa_budget": 0.25,
+        "lag": 5
+      },
+      "family": "additive_fir",
+      "id": "context_r0.75_fir_k0.25",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.1290748345103143,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.25000000000000006
+        },
+        "episode_rmse": [
+          0.04776643993077148,
+          0.13487318730218,
+          0.04855656916360627,
+          0.04753289956425365,
+          0.13451985019631582,
+          0.04829865220736549,
+          0.047483303790238185,
+          0.1342036324282455,
+          0.04846422135641409
+        ],
+        "gain_radius": 3.731790845788936,
+        "points": 9900,
+        "primary_radius": 3.731790845788936,
+        "rank": 9800,
+        "rmse": 0.08700698320376163,
+        "tau_dev": 0.6697682998313876
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.09242961136714477,
+        "authorized_slow": 0.03398453479780148,
+        "normal": 0.03303466359271078
+      },
+      "extra": {
+        "K": 0.5000000000000001,
+        "converged": true,
+        "gradient_mapping": 8.805947554525129e-08,
+        "iterations": 890,
+        "kappa_budget": 0.5,
+        "lag": 5
+      },
+      "family": "additive_fir",
+      "id": "context_r0.75_fir_k0.5",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 1.7349773076302257,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.5000000000000001
+        },
+        "episode_rmse": [
+          0.03314288496364633,
+          0.09263187922315581,
+          0.03405868172970704,
+          0.03298968813352578,
+          0.09243115642562948,
+          0.033885786411789326,
+          0.0329711487393134,
+          0.09222535142709805,
+          0.03400890316311383
+        ],
+        "gain_radius": 4.416945057789969,
+        "points": 9900,
+        "primary_radius": 4.416945057789969,
+        "rank": 9800,
+        "rmse": 0.05997074470547553,
+        "tau_dev": 0.47349522126475874
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.056107454263441346,
+        "authorized_slow": 0.023047758119102764,
+        "normal": 0.02198359651049043
+      },
+      "extra": {
+        "K": 0.75,
+        "converged": true,
+        "gradient_mapping": 9.472975766174904e-08,
+        "iterations": 750,
+        "kappa_budget": 0.75,
+        "lag": 5
+      },
+      "family": "additive_fir",
+      "id": "context_r0.75_fir_k0.75",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 1.3681084202408056,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.75
+        },
+        "episode_rmse": [
+          0.022047814030555637,
+          0.05617297839845708,
+          0.023087442415566192,
+          0.021939320411248957,
+          0.056110158345247206,
+          0.02297745858401741,
+          0.021963507528961073,
+          0.05603914613991051,
+          0.02307821186049045
+        ],
+        "gain_radius": 6.461559785037657,
+        "points": 9900,
+        "primary_radius": 6.461559785037657,
+        "rank": 9800,
+        "rmse": 0.03724926886878398,
+        "tau_dev": 0.24728152601860875
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.03877303179293409,
+        "authorized_slow": 0.01886081333650237,
+        "normal": 0.017835404296297624
+      },
+      "extra": {
+        "K": 1.69379891707519,
+        "converged": true,
+        "gradient_mapping": 0.0,
+        "iterations": 0,
+        "kappa_budget": null,
+        "lag": 5
+      },
+      "family": "fir",
+      "id": "unconstrained_fir",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 1.0499994264683783,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 1.69379891707519
+        },
+        "episode_rmse": [
+          0.017875961314952823,
+          0.03874248624373239,
+          0.018876130181519367,
+          0.017778928225010954,
+          0.038761585643411284,
+          0.01880259816378946,
+          0.017851180842549157,
+          0.03881498707085103,
+          0.01890356714497431
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": null,
+        "rank": 9800,
+        "rmse": 0.02693931402580409,
+        "tau_dev": 0.07809236851644208
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.14029376050129308,
+        "authorized_slow": 0.020108837079625155,
+        "normal": 0.01783481100464097
+      },
+      "extra": {
+        "cap": 0.25,
+        "source_model": "unconstrained_fir"
+      },
+      "family": "saturated_fir",
+      "id": "saturated_fir_cap0.25",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 2.2631364367391402,
+        "cap_radius": 3.416710767229535,
+        "certificate": {
+          "C": 0.25,
+          "K": 1.69379891707519
+        },
+        "episode_rmse": [
+          0.017874185419489836,
+          0.14072230120002588,
+          0.02013980310065152,
+          0.017778928225010954,
+          0.14027840751894027,
+          0.01989854507266661,
+          0.017851180842549157,
+          0.13987930524456382,
+          0.020286256952497802
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": 3.416710767229535,
+        "rank": 9800,
+        "rmse": 0.08247178315007778,
+        "tau_dev": 0.6535743304903949
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.11669771195732404,
+        "authorized_slow": 0.01886081333650237,
+        "normal": 0.017835404296297624
+      },
+      "extra": {
+        "cap": 0.5,
+        "source_model": "unconstrained_fir"
+      },
+      "family": "saturated_fir",
+      "id": "saturated_fir_cap0.5",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 2.0131364367391402,
+        "cap_radius": 3.498161269303007,
+        "certificate": {
+          "C": 0.5,
+          "K": 1.69379891707519
+        },
+        "episode_rmse": [
+          0.017875961314952823,
+          0.11708418569980898,
+          0.018876130181519367,
+          0.017778928225010954,
+          0.11668520602873747,
+          0.01880259816378946,
+          0.017851180842549157,
+          0.11632250032245457,
+          0.01890356714497431
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": 3.498161269303007,
+        "rank": 9800,
+        "rmse": 0.06902218943258115,
+        "tau_dev": 0.48502483256386664
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.09716754841315157,
+        "authorized_slow": 0.01886081333650237,
+        "normal": 0.017835404296297624
+      },
+      "extra": {
+        "cap": 0.75,
+        "source_model": "unconstrained_fir"
+      },
+      "family": "saturated_fir",
+      "id": "saturated_fir_cap0.75",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 1.7631364367391402,
+        "cap_radius": 3.6374582138675287,
+        "certificate": {
+          "C": 0.75,
+          "K": 1.69379891707519
+        },
+        "episode_rmse": [
+          0.017875961314952823,
+          0.09753334553710083,
+          0.018876130181519367,
+          0.017778928225010954,
+          0.09714838121690719,
+          0.01880259816378946,
+          0.017851180842549157,
+          0.09681960508668393,
+          0.01890356714497431
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": 3.6374582138675287,
+        "rank": 9800,
+        "rmse": 0.058067100239719595,
+        "tau_dev": 0.37432177712838854
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.1378819519330594,
+        "authorized_slow": 0.0477323362056148,
+        "normal": 0.04659490266713237
+      },
+      "extra": {
+        "rho": 0.25
+      },
+      "family": "leaky",
+      "id": "leaky_k0.25_r0.25",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.1620406165533415,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.25
+        },
+        "episode_rmse": [
+          0.04679413639565614,
+          0.13821807243327,
+          0.04789722469080911,
+          0.046530625851650693,
+          0.13792804574597237,
+          0.04755151042820342,
+          0.04645927808863416,
+          0.1374987878351653,
+          0.047747643730891506
+        ],
+        "gain_radius": 3.8462518636013443,
+        "points": 9900,
+        "primary_radius": 3.8462518636013443,
+        "rank": 9800,
+        "rmse": 0.08843244793452211,
+        "tau_dev": 0.7226482811476667
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.14397322409183355,
+        "authorized_slow": 0.04844790714014286,
+        "normal": 0.04674582765577993
+      },
+      "extra": {
+        "rho": 0.75
+      },
+      "family": "leaky",
+      "id": "leaky_k0.25_r0.75",
+      "kappa_budget": 0.25,
+      "metrics": {
+        "Edev": 2.3138615132685545,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.25
+        },
+        "episode_rmse": [
+          0.046941915734508836,
+          0.14434214947992854,
+          0.0486017690692426,
+          0.04668033127824326,
+          0.1440020389933667,
+          0.04826978320990923,
+          0.046614594587954666,
+          0.1435744559991743,
+          0.048471591587115184
+        ],
+        "gain_radius": 3.997862108463097,
+        "points": 9900,
+        "primary_radius": 3.997862108463097,
+        "rank": 9800,
+        "rmse": 0.09176175921897078,
+        "tau_dev": 0.6845350680787683
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.09601039914733973,
+        "authorized_slow": 0.03354371544669834,
+        "normal": 0.032340731168693765
+      },
+      "extra": {
+        "rho": 0.25
+      },
+      "family": "leaky",
+      "id": "leaky_k0.5_r0.25",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 1.8130189129024838,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.5
+        },
+        "episode_rmse": [
+          0.03246365857827991,
+          0.09620474523505523,
+          0.03364745811706848,
+          0.03229856867173961,
+          0.0960651229066557,
+          0.03342384069960412,
+          0.032259603392586135,
+          0.09576079254309532,
+          0.033559469201029035
+        ],
+        "gain_radius": 4.542230645805134,
+        "points": 9900,
+        "primary_radius": 4.542230645805134,
+        "rank": 9800,
+        "rmse": 0.061614664063371266,
+        "tau_dev": 0.45809641000008294
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.11030744057553081,
+        "authorized_slow": 0.03515385627736161,
+        "normal": 0.03259835187025874
+      },
+      "extra": {
+        "rho": 0.75
+      },
+      "family": "leaky",
+      "id": "leaky_k0.5_r0.75",
+      "kappa_budget": 0.5,
+      "metrics": {
+        "Edev": 2.1158444748320573,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.5
+        },
+        "episode_rmse": [
+          0.03271411813946915,
+          0.11058617537340065,
+          0.03523156553867305,
+          0.032553245746427956,
+          0.11031788342896938,
+          0.03503915143740709,
+          0.03252737769481471,
+          0.11001752928969359,
+          0.035190559668025
+        ],
+        "gain_radius": 5.082657625519181,
+        "points": 9900,
+        "primary_radius": 5.082657625519181,
+        "rank": 9800,
+        "rmse": 0.06944104838434507,
+        "tau_dev": 0.42548433792753293
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.05894837303750824,
+        "authorized_slow": 0.021274631463111565,
+        "normal": 0.019597128939290824
+      },
+      "extra": {
+        "rho": 0.25
+      },
+      "family": "leaky",
+      "id": "leaky_k0.75_r0.25",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 1.4639972092516265,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.75
+        },
+        "episode_rmse": [
+          0.019637406903740242,
+          0.058977727408328774,
+          0.021314629605751475,
+          0.01957823865455702,
+          0.05903378391813778,
+          0.0212136632865336,
+          0.019575679024537416,
+          0.05883342653086906,
+          0.021295466334618
+        ],
+        "gain_radius": 6.72915619487676,
+        "points": 9900,
+        "primary_radius": 6.72915619487676,
+        "rank": 9800,
+        "rmse": 0.03791028044529889,
+        "tau_dev": 0.21829183946756348
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.08469678287790557,
+        "authorized_slow": 0.024041149715644153,
+        "normal": 0.019798335108402728
+      },
+      "extra": {
+        "rho": 0.75
+      },
+      "family": "leaky",
+      "id": "leaky_k0.75_r0.75",
+      "kappa_budget": 0.75,
+      "metrics": {
+        "Edev": 1.9182355521459862,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 0.75
+        },
+        "episode_rmse": [
+          0.019825342028316754,
+          0.08490558377529098,
+          0.024035084401636465,
+          0.019773560166718773,
+          0.08468911409615558,
+          0.023985600840363285,
+          0.01979606907916939,
+          0.08449515303842356,
+          0.024102620377938706
+        ],
+        "gain_radius": 8.890483249891151,
+        "points": 9900,
+        "primary_radius": 8.890483249891151,
+        "rank": 9800,
+        "rmse": 0.05210085086503453,
+        "tau_dev": 0.30438526032680135
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.11994396933169788,
+        "authorized_slow": 0.028902745706848643,
+        "normal": 0.020140956644618516
+      },
+      "extra": {
+        "gain": 0.09512492197250394,
+        "ratio": 0.01
+      },
+      "family": "kalman",
+      "id": "kf_ratio0.01",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 2.0981385706408133,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 1.0
+        },
+        "episode_rmse": [
+          0.020077635838562428,
+          0.12028288672930702,
+          0.02884892677381299,
+          0.020136088676951585,
+          0.11994200880471954,
+          0.028778544036120544,
+          0.02020893059044007,
+          0.1196060576270413,
+          0.029079906384727575
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": null,
+        "rank": 9800,
+        "rmse": 0.07217474771459992,
+        "tau_dev": 0.6851071247281036
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.0726682092083461,
+        "authorized_slow": 0.01883738108519797,
+        "normal": 0.012974891746558696
+      },
+      "extra": {
+        "gain": 0.27015621187164246,
+        "ratio": 0.1
+      },
+      "family": "kalman",
+      "id": "kf_ratio0.1",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 1.6952357146834742,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 1.0
+        },
+        "episode_rmse": [
+          0.012935879499750084,
+          0.07283607515630419,
+          0.018777619806486345,
+          0.012966090540179222,
+          0.07265703083823351,
+          0.018815738573209836,
+          0.013022556015489866,
+          0.07251115717074899,
+          0.01891850297445858
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": null,
+        "rank": 9800,
+        "rmse": 0.04398432816178906,
+        "tau_dev": 0.3708021459436513
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.0463065773891148,
+        "authorized_slow": 0.016067967797471563,
+        "normal": 0.01306416363543384
+      },
+      "extra": {
+        "gain": 0.6180339887498949,
+        "ratio": 1.0
+      },
+      "family": "kalman",
+      "id": "kf_ratio1.0",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 1.253387413843654,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 1.0
+        },
+        "episode_rmse": [
+          0.013042958667112008,
+          0.046267666482535594,
+          0.01604694816563138,
+          0.013060468024594,
+          0.046404656429935305,
+          0.016055089379614744,
+          0.013089022830858735,
+          0.046247251035739956,
+          0.01610181129574779
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": null,
+        "rank": 9800,
+        "rmse": 0.029286806302087937,
+        "tau_dev": 0.18215346989048653
+      },
+      "simple_comparator": true
+    },
+    {
+      "condition_rmse": {
+        "authorized_offset": 0.039000585449390564,
+        "authorized_slow": 0.016646804995617763,
+        "normal": 0.01453418975563536
+      },
+      "extra": {
+        "gain": 0.916079783099616,
+        "ratio": 10.0
+      },
+      "family": "kalman",
+      "id": "kf_ratio10.0",
+      "kappa_budget": null,
+      "metrics": {
+        "Edev": 1.0251404499457073,
+        "cap_radius": null,
+        "certificate": {
+          "C": null,
+          "K": 1.0
+        },
+        "episode_rmse": [
+          0.01451619790257684,
+          0.03880556859807272,
+          0.016671382858600547,
+          0.014540412161894176,
+          0.03918665716266357,
+          0.016596366433096026,
+          0.01454594198303813,
+          0.03900859831347167,
+          0.01667255122909319
+        ],
+        "gain_radius": null,
+        "points": 9900,
+        "primary_radius": null,
+        "rank": 9800,
+        "rmse": 0.025880523267572956,
+        "tau_dev": 0.12515100154434755
+      },
+      "simple_comparator": true
+    }
+  ],
+  "costs": {
+    "wall_seconds": 5.6959693749959115,
+    "cpu_seconds": 4.809537000000001,
+    "sampled_peak_rss_bytes": 292421632,
+    "worker_peak_rss_bytes": 292405248,
+    "supervisor_observed_output_bytes": 23689059
+  },
+  "independent_verification": {
+    "status": "passed",
+    "main_checks": 1643,
+    "supplemental_checks": 41,
+    "main_receipt": "REVIEWER_VERIFICATION.json",
+    "supplemental_receipt": "REVIEWER_DOMINANCE_V2.json",
+    "report": "INDEPENDENT_RESULT_REVIEW.md",
+    "independent_implementation": true,
+    "human_peer_review": false,
+    "scientific_gate_passed": false
+  },
+  "fresh_attack_admitted": false,
+  "novelty_established": false
+}

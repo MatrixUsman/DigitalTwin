@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": 4107,
+  "episodes": 216,
+  "outcomes": 2376,
+  "read_only": true,
+  "physics_rerun": false,
+  "frozen_bindings": 133,
+  "all_originals_preserved": true,
+  "bindings": {
+    "local/context_recovery_v0.19/final_001/results.json": "c96bb96a36b760fb77825b28b24d97ab55bc491c15162f8de41abe6f4506371b",
+    "local/context_recovery_v0.19/final_001/outcomes.json": "19df9960e668f5a0564e250655ae4486da7e129011f6b65c2c5e3275ac63754b",
+    "local/context_recovery_v0.19/final_001/supervisor.json": "7f413962701ddce87127d9153ce89a7d7f526cc4ea76c020632c677f9f418ff1",
+    "research_cycles/context_recovery_v0.19/FINAL_FREEZE.json": "55f632cbb25d5d76d52cb446c348ab5ae806d13b3cef3ed8f8682c7dca81453e"
+  }
+}

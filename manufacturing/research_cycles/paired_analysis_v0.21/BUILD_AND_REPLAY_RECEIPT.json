@@ -1,0 +1,50 @@
+{
+  "archive": "manufacturing-paired-analysis-v0.21.zip",
+  "archive_bytes": 254598,
+  "archive_members": 22,
+  "archive_sha256": "33ae9c3a7bda58996e2fb394b9d4bd6043c471e4ba3ff645abb8863b17d9f16a",
+  "bound_files": 21,
+  "commands": [
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-I",
+        "test_analysis.py"
+      ],
+      "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/research_cycles/paired_analysis_v0.21/clean_validation_001/paired_analysis_v0.21",
+      "label": "synthetic_tests",
+      "log_sha256": "48366b5cf00958fa76027451a4ffadb9404215b47de97a1817f07c11a84ca362",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.15/bin/python3.15",
+        "-I",
+        "analyze.py",
+        "--output",
+        "clean_replay"
+      ],
+      "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/research_cycles/paired_analysis_v0.21/clean_validation_001/paired_analysis_v0.21",
+      "label": "saved_result_replay",
+      "log_sha256": "cff043c72d59d55bc549e24eb33ad2f3b90fe3a75138629ba45c53fe0ccd2470",
+      "returncode": 0
+    }
+  ],
+  "exact_replay_files": [
+    "paired.json",
+    "paired_effects.csv",
+    "episode_pairs.csv",
+    "REPLAY.json"
+  ],
+  "network": false,
+  "new_simulation": false,
+  "original_archive_mutation": false,
+  "publication": false,
+  "raw_data": false,
+  "replay_checks": 6189,
+  "status": "passed",
+  "synthetic_tests": 8,
+  "training": false,
+  "utc": "2026-10-18T22:05:03.232861+00:00",
+  "wall_seconds": 0.18917879200307652
+}

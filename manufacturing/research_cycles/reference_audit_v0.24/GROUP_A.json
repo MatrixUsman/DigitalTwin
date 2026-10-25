@@ -1,0 +1,454 @@
+{
+  "group": "A",
+  "reviewer": "mechanism_audit",
+  "completed_utc": "2026-10-24T08:45:04.873792+00:00",
+  "scope": "Fresh online existence and bibliographic verification of v1.8 references 1–9. No manuscript mutation, full claim-support assessment, or retraction-database audit.",
+  "inputs_sha256": {
+    "manufacturing/manuscript_arx_rbf_v1.8/references.tex": "f239342fb3dc579bcb40aea3f4b3e9f5dc8c06842ac8cce2d943c35a4c6d4da2",
+    "manufacturing/manuscript_arx_rbf_v1.8/references.bib": "22adf0dc9b3cd4c6bdefea0cb7ffa8b28d24089bbec1a07714493bf3373055e4",
+    "manufacturing/manuscript_arx_rbf_v1.8/main.tex": "aeccddfa802ffa7be13b14bdbc774f54a42c1df919e0dabc043e4cf063716d4b",
+    "manufacturing/manuscript_arx_rbf_v1.8/PACKAGE_MANIFEST.json": "402910bd147b08abfa520f9b89b5d3489a40699cf1bf23b60b7340e9ec287648"
+  },
+  "verification_method": "Fresh web searches and primary publisher/author-institution page or PDF metadata inspection; direct-access failures retained. No external model or API verification scripts.",
+  "counts": {
+    "references": 9,
+    "existence_verified": 9,
+    "fabricated_identified": 0,
+    "required_substantive_corrections": 0,
+    "date_qualifications": 1,
+    "observed_corrected_vor_notices": 1
+  },
+  "references": [
+    {
+      "number": 1,
+      "key": "securitysurvey",
+      "current_citation_tex": "Abdul Rehman Qureshi, Adrián Asensio, Muhammad Imran, Jordi Garcia, Xavi Masip-Bruin. {A survey on security enhancing Digital Twins: Models, applications and tools}. \\emph{Computer Communications, 238:108158}, 2025. Article 108158. \\url{https://doi.org/10.1016/j.comcom.2025.108158}.",
+      "current_bibtex": "@article{securitysurvey,\n author={Qureshi, Abdul Rehman and Asensio, Adrián and Imran, Muhammad and Garcia, Jordi and Masip-Bruin, Xavi},\n title={{A survey on security enhancing Digital Twins: Models, applications and tools}},\n journal={Computer Communications},\n year={2025},\n doi={10.1016/j.comcom.2025.108158},\n volume={238},\n pages={108158},\n note={Article 108158}}\n",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Abdul Rehman Qureshi",
+          "Adrián Asensio",
+          "Muhammad Imran",
+          "Jordi Garcia",
+          "Xavi Masip-Bruin"
+        ],
+        "title": "A survey on security enhancing Digital Twins: Models, applications and tools",
+        "venue": "Computer Communications",
+        "year": 2025,
+        "volume": "238",
+        "issue": null,
+        "pages": null,
+        "article_number": "108158",
+        "doi": "10.1016/j.comcom.2025.108158"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S014036642500115X",
+          "source_type": "publisher",
+          "access": "search_index_metadata; direct_open_403",
+          "observed_on": "2026-10-24",
+          "observation": "Fresh publisher-index result lists exact authors/title, volume 238, article 108158 and 1 June 2025."
+        },
+        {
+          "url": "https://upcommons.upc.edu/bitstream/handle/2117/428449/1-s2.0-S014036642500115X-main.pdf?sequence=1",
+          "source_type": "author_institution_published_pdf",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "First page independently confirms all five authors, title, journal, 238 (2025) 108158 and DOI; available online 11 April 2025."
+        }
+      ],
+      "assessment": "No bibliographic correction required. June issue date and April online date both fall in the correctly cited 2025.",
+      "access_limits": "DOI open was unavailable; ScienceDirect direct open returned 403, and UPC entity/API routes failed, but the institutional published-PDF route opened.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 2,
+      "key": "lifecycle",
+      "current_citation_tex": "Taru Itäpelto, Mohammed Elhajj, Marten van Sinderen. {Digital twin application in lifecycle security of critical infrastructures: A systematic literature review}. \\emph{International Journal of Critical Infrastructure Protection, 50:100783}, 2025. Article 100783. \\url{https://doi.org/10.1016/j.ijcip.2025.100783}.",
+      "current_bibtex": "@article{lifecycle,\n author={Itäpelto, Taru and Elhajj, Mohammed and van Sinderen, Marten},\n title={{Digital twin application in lifecycle security of critical infrastructures: A systematic literature review}},\n journal={International Journal of Critical Infrastructure Protection},\n year={2025},\n doi={10.1016/j.ijcip.2025.100783},\n volume={50},\n pages={100783},\n note={Article 100783}}\n",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Taru Itäpelto",
+          "Mohammed Elhajj",
+          "Marten van Sinderen"
+        ],
+        "title": "Digital twin application in lifecycle security of critical infrastructures: A systematic literature review",
+        "venue": "International Journal of Critical Infrastructure Protection",
+        "year": 2025,
+        "volume": "50",
+        "issue": null,
+        "pages": null,
+        "article_number": "100783",
+        "doi": "10.1016/j.ijcip.2025.100783"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1874548225000447",
+          "source_type": "publisher",
+          "access": "search_index_metadata; direct_open_403",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher-index metadata agrees on authors/title, volume 50, article 100783, September 2025 and DOI."
+        },
+        {
+          "url": "https://research.utwente.nl/en/publications/digital-twin-application-in-lifecycle-security-of-critical-infras/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "University of Twente record explicitly identifies the three authors, full title, journal, volume 50, article 100783, September 2025 and DOI."
+        }
+      ],
+      "assessment": "No bibliographic correction required.",
+      "access_limits": "DOI was unavailable and ScienceDirect direct open returned 403; the complete institutional record opened.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 3,
+      "key": "casper",
+      "current_citation_tex": "Hakan Kayan, Ryan Heartfield, Omer Rana, Pete Burnap, Charith Perera. {CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms}. \\emph{ACM Transactions on Internet of Things, 5(3):1--36}, 2024. Article 18. \\url{https://doi.org/10.1145/3670414}.",
+      "current_bibtex": "@article{casper,\n author={Kayan, Hakan and Heartfield, Ryan and Rana, Omer and Burnap, Pete and Perera, Charith},\n title={{CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms}},\n journal={ACM Transactions on Internet of Things}, year={2024}, volume={5}, number={3}, pages={1--36},\n note={Article 18}, doi={10.1145/3670414}}",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Hakan Kayan",
+          "Ryan Heartfield",
+          "Omer Rana",
+          "Pete Burnap",
+          "Charith Perera"
+        ],
+        "title": "CASPER: Context-Aware IoT Anomaly Detection System for Industrial Robotic Arms",
+        "venue": "ACM Transactions on Internet of Things",
+        "year": 2024,
+        "volume": "5",
+        "issue": "3",
+        "pages": "1–36",
+        "article_number": "18",
+        "doi": "10.1145/3670414"
+      },
+      "sources": [
+        {
+          "url": "https://orca.cardiff.ac.uk/id/eprint/165098/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Cardiff confirms work, year, DOI and 36 pages, but its short citation renders article number 18 where a volume would normally appear and expands Burnap to Peter."
+        },
+        {
+          "url": "https://ngcharithperera.gitlab.io/publications/pdfs/Kayan2024a.pdf",
+          "source_type": "author_hosted_corrected_version_of_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "The 36-page PDF first two pages explicitly give all five cited author names, volume 5, issue 3, Article 18, August 2024 and DOI. The footer identifies corrected Version of Record V.1.1, published 5 February 2025."
+        }
+      ],
+      "assessment": "No substantive correction required. The printed 5(3), Article 18, 1–36 is compatible with the VOR; optional ACM-style normalization is 5(3), Article 18, 36 pages (or 18:1–18:36). Keep 2024 as the original publication year; record corrected VOR separately.",
+      "access_limits": "ACM DOI direct open returned 403. The corrected publisher-formatted PDF was inspected on a coauthor-hosted site, with independent Cardiff existence corroboration.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice.",
+      "observed_version_notice": {
+        "type": "corrected_version_of_record",
+        "version": "1.1",
+        "date": "2025-02-05",
+        "original_publication": "August 2024",
+        "interpretation": "A correction notice, not a retraction notice. The correction contents were outside this metadata-only audit."
+      }
+    },
+    {
+      "number": 4,
+      "key": "edge",
+      "current_citation_tex": "Hakan Kayan, Ryan Heartfield, Omer Rana, Pete Burnap, Charith Perera. {Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing}. \\emph{IEEE Internet of Things Journal, 12(15):29696--29712}, 2025. \\url{https://doi.org/10.1109/JIOT.2025.3569780}.",
+      "current_bibtex": "@article{edge,\n author={Kayan, Hakan and Heartfield, Ryan and Rana, Omer and Burnap, Pete and Perera, Charith},\n title={{Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing}},\n journal={IEEE Internet of Things Journal}, year={2025}, volume={12}, number={15}, pages={29696--29712},\n doi={10.1109/JIOT.2025.3569780}}",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Hakan Kayan",
+          "Ryan Heartfield",
+          "Omer Rana",
+          "Pete Burnap",
+          "Charith Perera"
+        ],
+        "title": "Real-Time Anomaly Detection for Industrial Robotic Arms Using Edge Computing",
+        "venue": "IEEE Internet of Things Journal",
+        "year": 2025,
+        "volume": "12",
+        "issue": "15",
+        "pages": "29696–29712",
+        "article_number": null,
+        "doi": "10.1109/JIOT.2025.3569780"
+      },
+      "sources": [
+        {
+          "url": "https://orca.cardiff.ac.uk/id/eprint/178905/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Cardiff identifies all five authors, exact title, 2025, journal 12(15), pages 29696–29712 and matching DOI; record marks published and accepted 6 May 2025."
+        }
+      ],
+      "assessment": "No bibliographic correction required. DOI letter case is immaterial to identity.",
+      "access_limits": "DOI route unavailable to the web tool. Cardiff states full text is not available there; the bibliographic record was accessible.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 5,
+      "key": "hybrid",
+      "current_citation_tex": "Samuel Ayankoso, Eric Kaigom, Hassna Louadah, Hamidreza Faham, Fengshou Gu, Andrew Ball. {A Hybrid Digital Twin Scheme for the Condition Monitoring of Industrial Collaborative Robots}. \\emph{Procedia Computer Science, 232:1099--1108}, 2024. \\url{https://doi.org/10.1016/j.procs.2024.01.108}.",
+      "current_bibtex": "@article{hybrid,\n author={Ayankoso, Samuel and Kaigom, Eric and Louadah, Hassna and Faham, Hamidreza and Gu, Fengshou and Ball, Andrew},\n title={{A Hybrid Digital Twin Scheme for the Condition Monitoring of Industrial Collaborative Robots}},\n journal={Procedia Computer Science}, year={2024}, volume={232}, pages={1099--1108},\n doi={10.1016/j.procs.2024.01.108}}",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Samuel Ayankoso",
+          "Eric Kaigom",
+          "Hassna Louadah",
+          "Hamidreza Faham",
+          "Fengshou Gu",
+          "Andrew Ball"
+        ],
+        "title": "A Hybrid Digital Twin Scheme for the Condition Monitoring of Industrial Collaborative Robots",
+        "venue": "Procedia Computer Science",
+        "year": 2024,
+        "volume": "232",
+        "issue": null,
+        "pages": "1099–1108",
+        "article_number": null,
+        "doi": "10.1016/j.procs.2024.01.108"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S187705092400108X",
+          "source_type": "publisher",
+          "access": "search_index_metadata; direct_open_403",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher-index record lists all six authors, title, journal, volume 232, pages 1099–1108, 2024 and DOI."
+        },
+        {
+          "url": "https://pure.hud.ac.uk/en/publications/a-hybrid-digital-twin-scheme-for-the-condition-monitoring-of-indu/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Huddersfield confirms all citation fields and publication 20 March 2024; identifies a conference article from ISM 2023, published in the 2024 Procedia volume."
+        }
+      ],
+      "assessment": "No bibliographic correction required. The 2023 conference date does not replace the 2024 publication year.",
+      "access_limits": "ScienceDirect direct open returned 403; institutional full metadata opened.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 6,
+      "key": "arp",
+      "current_citation_tex": "Daniel Arp, Erwin Quiring, Feargus Pendlebury, et al. {Pitfalls in Machine Learning for Computer Security}. \\emph{Communications of the ACM, 67(11):104--112}, 2024. \\url{https://doi.org/10.1145/3643456}.",
+      "current_bibtex": "@article{arp,\n author={Arp, Daniel and Quiring, Erwin and Pendlebury, Feargus and Warnecke, Alexander and Pierazzi, Fabio and Wressnegger, Christian and Cavallaro, Lorenzo and Rieck, Konrad},\n title={{Pitfalls in Machine Learning for Computer Security}},\n journal={Communications of the ACM},\n year={2024},\n doi={10.1145/3643456},\n volume={67},\n number={11},\n pages={104--112}}\n",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Daniel Arp",
+          "Erwin Quiring",
+          "Feargus Pendlebury",
+          "Alexander Warnecke",
+          "Fabio Pierazzi",
+          "Christian Wressnegger",
+          "Lorenzo Cavallaro",
+          "Konrad Rieck"
+        ],
+        "title": "Pitfalls in Machine Learning for Computer Security",
+        "venue": "Communications of the ACM",
+        "year": 2024,
+        "volume": "67",
+        "issue": "11",
+        "pages": "104–112",
+        "article_number": null,
+        "doi": "10.1145/3643456"
+      },
+      "sources": [
+        {
+          "url": "https://publikationen.bibliothek.kit.edu/1000176742",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "KIT lists all eight authors, original DOI, journal 67(11), pages 104–112 and 2024."
+        },
+        {
+          "url": "https://www.mlsec.tu-berlin.de/docs/2024-cacm.pdf",
+          "source_type": "author_institution_published_pdf",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Published PDF first page gives all eight names, exact title, DOI, page 104 and November 2024 volume 67 issue 11; the 9-page document corroborates the page range. It separately identifies the earlier USENIX 2022 original article."
+        }
+      ],
+      "assessment": "No bibliographic correction required. The printed first three authors plus et al. matches the complete eight-author BibTeX record. This is the 2024 CACM article, not the differently titled 2022 original.",
+      "access_limits": "Direct ACM DOI open returned 403; KIT and TU Berlin sources opened. Publisher search output included an issue DOI elsewhere; it was not substituted for the article DOI.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 7,
+      "key": "calibration",
+      "current_citation_tex": "Tinghui Chen, Weiyi Yang, Shuai Li, Xin Luo. {Data-Driven Calibration of Industrial Robots: A Comprehensive Survey}. \\emph{IEEE/CAA Journal of Automatica Sinica, 12(8):1544--1567}, 2025. \\url{https://doi.org/10.1109/jas.2025.125237}.",
+      "current_bibtex": "@article{calibration,\n author={Chen, Tinghui and Yang, Weiyi and Li, Shuai and Luo, Xin},\n title={{Data-Driven Calibration of Industrial Robots: A Comprehensive Survey}},\n journal={IEEE/CAA Journal of Automatica Sinica},\n year={2025},\n doi={10.1109/jas.2025.125237},\n volume={12},\n number={8},\n pages={1544--1567}}\n",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Tinghui Chen",
+          "Weiyi Yang",
+          "Shuai Li",
+          "Xin Luo"
+        ],
+        "title": "Data-Driven Calibration of Industrial Robots: A Comprehensive Survey",
+        "venue": "IEEE/CAA Journal of Automatica Sinica",
+        "year": 2025,
+        "volume": "12",
+        "issue": "8",
+        "pages": "1544–1567",
+        "article_number": null,
+        "doi": "10.1109/JAS.2025.125237"
+      },
+      "sources": [
+        {
+          "url": "https://www.ieee-jas.com/article/doi/10.1109/JAS.2025.125237?pageType=en",
+          "source_type": "journal_publisher",
+          "access": "search_index_metadata; direct_open_timeout",
+          "observed_on": "2026-10-24",
+          "observation": "Journal-index record supplies all four names and exact citation: volume 12, issue 8, pages 1544–1567, August 2025 and DOI."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11131623",
+          "source_type": "publisher",
+          "access": "search_index_metadata",
+          "observed_on": "2026-10-24",
+          "observation": "IEEE-index metadata agrees on title, volume 12 issue 8, pages 1544–1567, DOI and publication 20 August 2025."
+        },
+        {
+          "url": "https://oulu.cris.fi/en/publications/93a5ddcd-ee1d-4ea6-a12f-afe6b33ac30c",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "University of Oulu confirms all four authors, exact title, journal, bibliographic year 2025, volume 12, issue 8, pages 1544–1567 and DOI."
+        }
+      ],
+      "assessment": "No bibliographic correction required. Lowercase jas in the manuscript DOI identifies the same DOI.",
+      "access_limits": "Journal direct opens timed out; SciEngine returned 403. Complete Oulu record opened. IEEE metadata was available through the fresh indexed publisher record.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 8,
+      "key": "identification",
+      "current_citation_tex": "Koen Classens, Rodrigo A. Gonz{\\'a}lez, Tom Oomen. {Recursive identification of structured systems: An instrumental-variable approach applied to mechanical systems}. \\emph{European Journal of Control, 84:101238}, 2025. \\url{https://doi.org/10.1016/j.ejcon.2025.101238}.",
+      "current_bibtex": "@article{identification,\n author={Classens, Koen and Gonz{\\'a}lez, Rodrigo A. and Oomen, Tom},\n title={{Recursive identification of structured systems: An instrumental-variable approach applied to mechanical systems}},\n journal={European Journal of Control}, year={2025}, volume={84}, pages={101238},\n doi={10.1016/j.ejcon.2025.101238}}",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_no_substantive_correction",
+      "verified_fields": {
+        "authors": [
+          "Koen Classens",
+          "Rodrigo A. González",
+          "Tom Oomen"
+        ],
+        "title": "Recursive identification of structured systems: An instrumental-variable approach applied to mechanical systems",
+        "venue": "European Journal of Control",
+        "year": 2025,
+        "volume": "84",
+        "issue": null,
+        "pages": null,
+        "article_number": "101238",
+        "doi": "10.1016/j.ejcon.2025.101238"
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0947358025000676",
+          "source_type": "publisher",
+          "access": "search_index_metadata",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher-index record gives title, volume 84, July 2025, article 101238 and DOI."
+        },
+        {
+          "url": "https://research.tudelft.nl/en/publications/recursive-identification-of-structured-systems-an-instrumental-va/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "TU Delft confirms all three authors, exact title, journal volume 84, article 101238, 2025 and DOI; marks a final published version available."
+        }
+      ],
+      "assessment": "No bibliographic correction required. 101238 is an article number rather than a conventional page range.",
+      "access_limits": "A separate TU Delft repository URL returned cache miss; its research-portal record opened fully.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    },
+    {
+      "number": 9,
+      "key": "voraus",
+      "current_citation_tex": "Jan Thieß Brockmann, Marco Rudolph, Bodo Rosenhahn, Bastian Wandt. {The voraus-AD Dataset for Anomaly Detection in Robot Applications}. \\emph{IEEE Transactions on Robotics, 40:438--451}, 2024. \\url{https://doi.org/10.1109/tro.2023.3332224}.",
+      "current_bibtex": "@article{voraus,\n author={Brockmann, Jan Thieß and Rudolph, Marco and Rosenhahn, Bodo and Wandt, Bastian},\n title={{The voraus-AD Dataset for Anomaly Detection in Robot Applications}},\n journal={IEEE Transactions on Robotics},\n year={2024},\n doi={10.1109/tro.2023.3332224},\n volume={40},\n pages={438--451}}\n",
+      "existence_status": "verified_real",
+      "metadata_status": "verified_with_date_qualification",
+      "verified_fields": {
+        "authors": [
+          "Jan Thieß Brockmann",
+          "Marco Rudolph",
+          "Bodo Rosenhahn",
+          "Bastian Wandt"
+        ],
+        "title": "The voraus-AD Dataset for Anomaly Detection in Robot Applications",
+        "venue": "IEEE Transactions on Robotics",
+        "year": 2024,
+        "volume": "40",
+        "issue": null,
+        "pages": "438–451",
+        "article_number": null,
+        "doi": "10.1109/TRO.2023.3332224"
+      },
+      "sources": [
+        {
+          "url": "https://research.uni-hannover.de/en/publications/the-voraus-ad-dataset-for-anomaly-detection-in-robot-applications/",
+          "source_type": "author_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Hannover confirms identity, four authors, journal volume 40, pages 438–451 and DOI; records early online 13 November 2023 and publication 15 November 2023."
+        },
+        {
+          "url": "https://www.tnt.uni-hannover.de/en/papers/show_bibtex.php?id=1693",
+          "source_type": "author_institution_bibtex",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Author-group BibTeX gives the same work, volume/pages/DOI with year 2023; its first-name encoding is inconsistent with the arXiv spelling."
+        },
+        {
+          "url": "https://staff.gitlab-pages.liu.se/publications/en/liu/isy/cvl/baswa38/",
+          "source_type": "coauthor_institution_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Coauthor Bastian Wandt’s Linköping institutional publication list explicitly cites IEEE Transactions on Robotics 40:438–451 (2024) and the identical DOI."
+        },
+        {
+          "url": "https://arxiv.org/abs/2311.04765",
+          "source_type": "author_deposited_manuscript_record",
+          "access": "opened",
+          "observed_on": "2026-10-24",
+          "observation": "Author-submitted record confirms exact title and the spelling Jan Thieß Brockmann, all four authors, submission 8 November 2023 and acceptance to Transactions on Robotics. It is not used as proof of a 2024 journal issue date."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/document/10315239",
+          "source_type": "publisher",
+          "access": "blocked_javascript_robot_check",
+          "observed_on": "2026-10-24",
+          "observation": "Publisher article route returned a JavaScript robot-verification page; the abstract route returned HTTP 418, so no direct publisher date fields were inspected."
+        }
+      ],
+      "assessment": "No forced year correction: current 2024 volume-40 citation is supported by the coauthor’s Linköping institutional record. Explicitly distinguish it from 2023 early-online/author-record dates; direct IEEE date confirmation was unavailable in this run. Preserve the verified Thieß spelling.",
+      "access_limits": "IEEE DOI route unavailable, document route required JavaScript robot verification and abstract route returned 418. Institutional records disagree in year treatment; existence and other fields are established, and the qualification remains visible.",
+      "required_correction": null,
+      "notice_scope": "No broad retraction or Crossmark audit; no claim of unretracted status from absence of a notice."
+    }
+  ]
+}

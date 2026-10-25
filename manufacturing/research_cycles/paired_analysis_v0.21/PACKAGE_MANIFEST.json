@@ -1,0 +1,92 @@
+{
+  "files": {
+    "ATTEMPT_HISTORY.json": {
+      "bytes": 919,
+      "sha256": "64e30353fc12c6e549a991ba36c2fc7316349a6d84ee396a29703b47cacf6c5a"
+    },
+    "INPUT_MANIFEST.json": {
+      "bytes": 1920,
+      "sha256": "2a646bacd66ac3d04bcd3b6c0820cb9f07329908c6a7de38b91195ea9b72c0dc"
+    },
+    "PRIOR_ARCHIVE_AUDIT.json": {
+      "bytes": 676,
+      "sha256": "d4886ed6ba9839ada11032961ea007a04e82ab7246f24139431758a97f93addc"
+    },
+    "PROVENANCE.json": {
+      "bytes": 9446,
+      "sha256": "f64eb532e4cad42eb9f56a442749a8557810c115ba5cbd98c058ac42338e0f7f"
+    },
+    "README.md": {
+      "bytes": 3385,
+      "sha256": "88ced62b45891b0c2476af7802b1d9c5b73dbc4e48dea132c17a08f888994387"
+    },
+    "REPORT.md": {
+      "bytes": 11771,
+      "sha256": "e5b818db36955d690fbf1986fd746c48488ebc913c6b93cfaea6a09dd9004fa3"
+    },
+    "analyze.py": {
+      "bytes": 12789,
+      "sha256": "559f89dacd47d8c20fc5438282f0231ac0b889771ac3b297f296626b2ba6e824"
+    },
+    "inputs/CLEAN_EXTRACTION_RECEIPT.json": {
+      "bytes": 3516,
+      "sha256": "4c640ddb1d3104478cc2a503edb74f2086e08c3f017dd587ae1e632122a77aa5"
+    },
+    "inputs/catalog.json": {
+      "bytes": 44427,
+      "sha256": "cf7d3dd672222c9bfb14a89adce2902404d5c81925468ce6ca722fcb7ce627ca"
+    },
+    "inputs/config.json": {
+      "bytes": 955,
+      "sha256": "4280fc46946d32e4fb283cb24000320fc722155c26eb925e509a1c1a40b1a03d"
+    },
+    "inputs/evaluation.py": {
+      "bytes": 5413,
+      "sha256": "b5f5058b6f373fdc7daf725c36fd5d8ca8f488d043035ded28d0b350ace5cc85"
+    },
+    "inputs/mechanism19.py": {
+      "bytes": 7709,
+      "sha256": "336555c9eadc3b32526ff8302a19532a264ca09a8d1ebe9b05026996d52732f9"
+    },
+    "inputs/outcomes.json": {
+      "bytes": 2756846,
+      "sha256": "19df9960e668f5a0564e250655ae4486da7e129011f6b65c2c5e3275ac63754b"
+    },
+    "inputs/results.json": {
+      "bytes": 210785,
+      "sha256": "c96bb96a36b760fb77825b28b24d97ab55bc491c15162f8de41abe6f4506371b"
+    },
+    "make_report.py": {
+      "bytes": 10612,
+      "sha256": "8622887bfddc7766f9c13d3bb5f2eb8e77b82e3b1e4662a2afe89f130e6facdd"
+    },
+    "package.py": {
+      "bytes": 4278,
+      "sha256": "435c4a131e8e99dd97dbad3b25098ae7b5ad9bda449393767493b9b14ed134a7"
+    },
+    "results_002/REPLAY.json": {
+      "bytes": 1378,
+      "sha256": "9c628fbc0f6e6d79b509c820e43bc64d41312d0830d5c31e367ab59ee03b8249"
+    },
+    "results_002/episode_pairs.csv": {
+      "bytes": 116905,
+      "sha256": "27b97602bf5c7baecd4085a9160e0c5ecebf7331a54d329e181b162c7b16d557"
+    },
+    "results_002/paired.json": {
+      "bytes": 2432769,
+      "sha256": "54f6b67efcdb86285a88854ed92cac3fb8fcaef15dd8dd178cedffe971d504de"
+    },
+    "results_002/paired_effects.csv": {
+      "bytes": 251358,
+      "sha256": "2b03453176cae5207341ffd48b830f6b6939f964962303f20680a21e3eac58c6"
+    },
+    "test_analysis.py": {
+      "bytes": 4060,
+      "sha256": "90f77f8acb54c09b5f8af1369b7cd233ef589b0778b735fb2ff34ee7f4809cf3"
+    }
+  },
+  "network_required": false,
+  "original_v17_modified": false,
+  "raw_real_data": false,
+  "scope": "saved synthetic outcome descriptive analysis addendum"
+}

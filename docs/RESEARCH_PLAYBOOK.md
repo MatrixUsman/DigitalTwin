@@ -59,6 +59,21 @@ Executed example: manufacturing [scope decision](../manufacturing/docs/CONTRIBUT
 
 ## Procedure register
 
+### Test observation information before another alarm-state extension
+
+**Executed/validated as a bounded workflow in manufacturing, 19 October 2026:** [normal-only representation study](../manufacturing/research_cycles/observer_feasibility_v0.21/RESULTS.md), [paired analysis](../manufacturing/research_cycles/paired_analysis_v0.21/REPORT.md). The candidate failed; this is not validation of a new detector or a result for either sibling project.
+
+1. Identify whether errors violate implemented decisions or follow intentionally ambiguous evidence. Separate initial entry, clearing, later recrossing and conditional delay; preserve the original failed criterion.
+2. Complete saved episode-paired contrasts before another experiment. Include wins/ties/losses, discordant event outcomes and complete missing-delay denominators. Repeated seeds/windows are not independent physical units; do not manufacture population confidence intervals from them.
+3. State what additional information a proposed representation can provide. Check close estimation/control prior art; position and encoder-derived velocity can share one noise source. Record channel timing, units and covariance assumptions.
+4. Fit only on admitted normal training data, select a finite configuration on a separate normal development population, seal choices, then open normal calibration. Describe separate task episodes accurately; do not call them chronological slices of one acquisition.
+5. Before generation, freeze normal transfer conditions and a directionally justified advancement gate against ordinary averaging, uncoupled estimation and a reasonably tuned Kalman/control baseline. Keep the nominal reference and alarm readout fixed. Use evaluator-only state truth only after estimates are sealed.
+6. Report state error, uncertainty coverage and alarm behavior together. Zero alarms can reflect permanent uncertainty or an inactive detector. A combined sensing shift cannot isolate correlation when it also changes noise magnitude, quantization and timestamp meaning.
+7. If the normal gate fails against ordinary controls, retain the failure and withhold a fresh attack campaign for that candidate. A later design needs its own scientific distinction and new protocol; do not silently change the criterion or continue until a favorable result appears.
+8. Deliver a small dependency-free saved-result replay when possible. Preserve the existing manuscript/archive and qualify what clean extraction actually verifies. Record source/paper differences and complete normal learning curves for author-code comparators; completing an epoch schedule does not certify convergence or full-paper reproduction.
+
+Expected artifacts: prior-art decision, fixed normal protocol, source/input freeze, selection-before-calibration record, complete estimates/results, independent arithmetic, paired-table replay and an explicit admission/rejection. Reuse only after checking the new sector's sensors, data permission and scientific question.
+
 Statuses describe our evidence about the procedure, not the progress of all three projects. **Proposed** means not yet executed here; **audited** means inspected but not demonstrated by an experiment; **executed/validated** requires linked records of actual work and checks.
 
 | Step | Repeatable instructions and prerequisites | Required record and completion check | Current evidence |
@@ -488,3 +503,71 @@ Prerequisites: a permitted, identified dataset or sealed derived input; a declar
 8. Version the manuscript, retain earlier packages, verify all prior data/table identities, render and inspect the final pages, and seal the source archive and handoff. Keep compilation failures and page-cap corrections visible. Update project status and the work log without copying experimental completion to another sector.
 
 Expected artifacts: temporal-fold contract and tests; exact upstream/code/license map; isolated dependency lock; pilot cost receipt; frozen run and approval; complete logs/checkpoints/scores; arithmetic/replay verification; generated tables and claim mapping; revised PDF/source with visual QA; immutable manifests and updated handoff. Raw data, restricted observations and upstream checkouts remain excluded from manuscript archives and Git.
+
+
+## Matched diagnostic controls and a finite improvement investigation
+
+Status: **executed and technically verified in manufacturing v0.18–v0.19, 19 October 2026**. The proposed improvement failed its prospective composite criterion. This procedure validates research execution and reporting, not scientific originality or general efficacy. Recheck domain, permissions, observability and evaluation units before reuse.
+
+Prerequisites: immutable prior results, saved aligned predictions/truth where lawfully usable, a specific reviewer concern, a finite resource budget, an explicit original-contribution objective and a source-backed comparison with close methods.
+
+1. Resolve reporting ambiguities against the actual implementation before coding repairs. Separate score eligibility from window readiness and fixed hyperparameters from training-fitted values. Do not describe a clarification as a fixed bug or repaired leakage.
+2. Add the missing matched ablation using saved predictions when possible. Hold reference, calibration, support and decision rules constant except for the named component. Check original arrays and outcomes exactly; examine alarm occupancy and fragmentation together.
+3. Diagnose the dominant failure from traces. Separate measurement noise, reference mismatch, command transients, entry calibration and retained alarm state. A large gain from removing dwell or changing a threshold is not automatically a methodological contribution.
+4. Audit close prior art, including accepted-author versions where final publisher material is inaccessible. Bind the consulted version and explain unresolved publication/code correspondence. Keep later clarifications in a new note when the earlier audit is already frozen.
+5. Declare a finite candidate bank, normal-only fitting/calibration/selection, tie rules, explanatory ordinary controls and an overall benefit-plus-cost criterion. Label reused development material exposed. Freeze fitted artifacts, comparators, meaningful new task/plant conditions, seeds, resource limits and reporting before final generation.
+6. Preserve failed resource admissions. If redundant calculation or export causes a failure, a separately frozen storage/cache adapter may be tested on permitted pilot material. Require exact equality of retained scientific values. Never drop failed methods, alter criteria or disable limits to obtain admission.
+7. Seal all scores before joining evaluator truth. Retain every method/episode and the failed composite result even when one ablation improves. Analyze initial delay, post-entry inactivity and later physical recrossings separately; first sustained return is not permanent recovery. Label post-final diagnosis exploratory.
+8. Verify results independently from saved arrays where feasible, without invoking the primary metric implementation. Preserve method/source hashes and all prior manuscript bindings. AI-assisted technical checks do not become human peer review.
+9. Deliver a versioned manuscript with source-generated figures and explicit access statements. Build an allowlisted local archive, excluding raw restricted data, environments, vendor checkouts and secrets. Validate clean extraction, hashes and a lightweight table replay; state which complete computations and real-data paths were not rerun.
+10. Report whether the bounded investigation establishes the requested original improvement. If it fails, keep the contribution objective open and describe the remaining decision rather than silently adopting another paper type or continuing an unbounded search.
+
+Expected artifacts: matched replay, finite protocol, all frozen conditions and attempts, fitted allowances/models, predictions and episode outcomes, independent checks, prior-art qualifications, issue register, manuscript/PDF QA, archive/clean-extraction receipts and an accurate project handoff. Simulation conditions are not independent robots; a completed local package is not a public release.
+
+## Challenge a proposed mechanism before calling it novel
+
+Status: **executed as a research/design audit in manufacturing v0.22, 24 October 2026**. This validates the documented investigation procedure, not an original method or successful detector. Its mathematics, data assumptions and comparison roles must be reconsidered for another sector.
+
+Prerequisites: preserved baseline results/code, a specific measured behavior, permitted information paths, and an explicit contribution objective.
+
+1. Write the intended claims before searching: new mathematics, distinct mechanism, empirical value, physical correspondence and generalization are separate questions. Use parallel source/mechanism challenges when available; disclose shared context and AI review rather than implying human independence.
+2. Search the closest control/estimation foundations as well as recent learning methods. Inspect exact equations and source versions. A preprint's future-work statement cannot establish an open gap in a later final article whose equations are unavailable.
+3. Test whether the proposed representation is only a coordinate transformation. Construct simple exact counterexamples before training. Distinguish a new inductive bias from new information or a guaranteed detection property.
+4. Follow every inference path: means, variances, hidden state, commands, initialization, resets, normalization and thresholds. Separate fixed network parameters from evolving inference state. For probabilistic scores, retain numerator and denominator to avoid attributing a score decline to an unmeasured cause.
+5. Match the guarantee's norm and time scope to the claim. An upper response bound is not a lower sensitivity bound; accumulated energy is not pointwise sustained support; a paired residual contrast is not an absolute alarm; a finite empirical maximum is not a deployment guarantee.
+6. Derive the strongest ordinary control from the same algebra. Include simple linear and saturation controls when they share the candidate's bound. A neural method must earn additional value under equal information, training, calibration and gain budgets.
+7. Make the next stage finite, with a stated rejection rule before fresh outcomes. Do not call negative findings a new successful contribution, modify old criteria or treat source/design completion as experimental confirmation.
+
+Expected artifacts: claim-intent note, primary-source/version matrix, exact mechanism/equivalence arguments, adversarial review/dispositions, finite candidate/comparator proposal, any explicitly synthetic counterexample receipts and an honest project handoff. Missing final source access remains an unresolved claim dependency, not proof of novelty or permission to copy code.
+
+
+## Test a constrained learned correction against its strongest ordinary controls
+
+Status: **executed/validated as a software, comparison and failure-reporting procedure in manufacturing v0.23, 24 October 2026**. The candidate failed; this is not validation of detector efficacy, novelty or cross-sector transfer.
+
+Prerequisites: an explicit protected-information contract, preserved prior results, permitted normal-only development data, inspected close prior art, a finite candidate roster and user authorization for a bounded pilot. Recheck sector-specific physics, observation permissions and independent evidence units before reuse.
+
+1. Derive both gain and amplitude bounds for the complete causal correction, including history, reset, initialization, command-only components and normalization. Keep empirical radius proxies distinct from population guarantees, physical safety certificates and independently calibrated alarm thresholds.
+2. Include direct reference, gain-matched linear filters, additive trusted-context capacity, clipping/saturation and ordinary estimators. Give each method its strongest supported certificate under the same algebra; a nonlinear architecture must earn its complexity beyond command capacity or saturation.
+3. Freeze normal data roles, eligible rows, training-only transforms, all candidates/controls, optimizer/epochs, selection/tie rules, comparison gates and stop conditions before fitting. Fit timing on an explicitly synthetic shape-matched fixture and record conservative resource admission. A smaller observed runtime does not justify extra post-result training.
+4. Save all final models, normalized inputs, ordered development predictions, convergence checks and training histories. Validate causal score-before-update and exact matrix constraints in synthetic tests before the freeze; disclose windowed-training versus continuous-deployment state differences.
+5. Verify saved models in a separate numerical implementation without importing the core helpers. Reconstruct norms, selection, all metrics, convergence and resource gates independently. Distinguish exact same-runtime reload from numerical agreement under a different implementation; assertions are not independent acquisitions.
+6. Preserve a failed primary criterion even if another metric improves. A subsequent descriptive dominance analysis must cover the frozen roster and retain the original decision, not select a new criterion. Do not spend a fresh attack holdout or extend training after a normal-only rejection.
+7. Integrate the complete result into a versioned manuscript with bound numerical tables, source-version qualifications and all prior failures. Separate editorial completion from original-contribution readiness. Inspect every page, verify source-archive extraction/offline compilation and preserve old scientific/package hashes.
+
+Expected artifacts: explicit method/information contract, close-source admission, frozen protocol/config/input identities, synthetic tests/timing, run admission, all model/history/prediction artifacts, independent verification, failed-or-passed gate report, manuscript claim ledger, visual/build/source-archive receipts and a candid handoff. A clean manuscript archive is not a portable experimental replication or authorization to publish third-party data.
+
+
+## Verify the references in a sealed manuscript
+
+Status: **executed as an existence/metadata audit in manufacturing v0.24, 24 October 2026**. This verifies source identity and records bibliographic caveats; it is not a full claim-support, retraction, scientific-replication or journal-readiness certificate.
+
+Prerequisites: identify the exact delivered manuscript and its reference-source hashes; preserve its seal. Use the academic research citation-check workflow and existing project conventions.
+
+1. Extract the complete numbered list and resolve every compiled citation key. Check the editable bibliography against the printed reference list; separately capture additional prose DOIs. Do not limit the audit to a sample or only recently added references.
+2. Verify exact title, author identity/order, year, venue, volume, pages/article number and identifier against fresh publisher, official proceedings, versioned preprint or author-institution records. Partition independent lookups when useful and reconcile every numbered entry once.
+3. Separate existence, individual field verification and publication status. Record direct access versus indexed primary metadata and inaccessible routes. A blocked DOI page does not make a reference fake; a search hit does not prove the full paper was read.
+4. Reconcile early-online versus volume years, corrected versions, preprint revisions, workshop versus main-conference acceptance and preprint-to-final author/title changes. A deliberate exact-preprint citation is not false merely because a final article now exists. Avoid silently substituting a different version's claims.
+5. Report required corrections separately from optional metadata enrichment and style issues. Verify preservation of the delivered manuscript, save per-reference primary links and access limits, and refresh project records. Do not mutate a sealed PDF or infer human-read approval from machine lookup.
+
+Expected artifacts: complete input manifest, per-reference source/field verdicts, citation cross-reference checks, correction/version notes, preserved-file verification and a concise user answer. Missing search results are not proof of nonexistence; successful existence checks do not establish novelty or that every cited sentence is supported.

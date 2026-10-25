@@ -1,0 +1,13 @@
+test_analysis_does_not_mutate_inputs (__main__.PairedTests.test_analysis_does_not_mutate_inputs) ... ok
+test_clearance_censoring_separate_from_no_return (__main__.PairedTests.test_clearance_censoring_separate_from_no_return) ... ok
+test_direction_and_signed_deltas (__main__.PairedTests.test_direction_and_signed_deltas) ... ok
+test_exact_identity_pairing_not_row_position (__main__.PairedTests.test_exact_identity_pairing_not_row_position) ... ok
+test_joint_discordance_has_full_event_denominator (__main__.PairedTests.test_joint_discordance_has_full_event_denominator) ... ok
+test_missing_delay_not_zero_or_dropped_denominator (__main__.PairedTests.test_missing_delay_not_zero_or_dropped_denominator) ... ok
+test_percentile_interpolation_and_finite_guard (__main__.PairedTests.test_percentile_interpolation_and_finite_guard) ... ok
+test_rejects_missing_duplicate_and_metadata_difference (__main__.PairedTests.test_rejects_missing_duplicate_and_metadata_difference) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

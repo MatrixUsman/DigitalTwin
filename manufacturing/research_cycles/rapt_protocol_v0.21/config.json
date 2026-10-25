@@ -1,0 +1,74 @@
+{
+  "study": "manufacturing-rapt-normal-training-v0.21",
+  "immediate_run": {
+    "plant": "Q1",
+    "seed": 17,
+    "variant": "raw"
+  },
+  "future_matrix": {
+    "plants": [
+      "Q1",
+      "Q2",
+      "Q3"
+    ],
+    "seeds": [
+      17,
+      42,
+      2026
+    ],
+    "families": [
+      "raw",
+      "coupled_endpoint",
+      "uncoupled_endpoint",
+      "ca_kf"
+    ],
+    "executed": false,
+    "admitted": false
+  },
+  "rapt": {
+    "obs_dim": 4,
+    "action_dim": 4,
+    "seq_len": 50,
+    "dt": 0.02,
+    "dim_names": [
+      "q1",
+      "q2",
+      "v1",
+      "v2"
+    ],
+    "embed_dim": 256,
+    "num_blocks": 4,
+    "compression_ratio": 0.25,
+    "dropout": 0.0,
+    "use_residual": true,
+    "use_probabilistic": true,
+    "use_temporal": true,
+    "reconstruction_type": "bottleneck",
+    "train_dynamics": true,
+    "lr": 0.001,
+    "batch_size": 32,
+    "num_epochs": 100,
+    "weight_decay": 0.01,
+    "noise_scale": 0.01,
+    "grad_clip": 1.0,
+    "val_fraction": 0.1,
+    "test_fraction": 0.1,
+    "seed": 17,
+    "k_dim": 2.0,
+    "k_global": 3.0,
+    "range_buffer": 1.0,
+    "use_range_gate": true,
+    "saliency_window": 200,
+    "ig_steps": 50,
+    "top_k": 10
+  },
+  "limits": {
+    "wall_seconds": 120,
+    "cpu_seconds": 90,
+    "rss_bytes": 1073741824,
+    "output_bytes": 26214400
+  },
+  "warmup": 100,
+  "calibration_access": "only after SELECTION_SEALED.json",
+  "upstream_revision": "d745668ffdb0e26877b1de4c9b2126af7bda5b03"
+}

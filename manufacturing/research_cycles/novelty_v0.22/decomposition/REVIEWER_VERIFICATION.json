@@ -1,0 +1,743 @@
+{
+  "utc": "2026-10-24T07:51:08.634585+00:00",
+  "status": "passed",
+  "checks": 7364,
+  "episodes": 36,
+  "rows": 129600,
+  "eligible_rows": 126000,
+  "byte_exact_original_loss_values": 518400,
+  "maximum_log_identity_error": 1.2619572764549503e-07,
+  "maximum_score_relative_error": 1.2619571937509294e-07,
+  "eligible_zero_score_values": 0,
+  "persistent_offset_descriptive_table": [
+    {
+      "task": "L19",
+      "channel": 0,
+      "episodes": 3,
+      "median_delta_mean_log_score": 2.0813531591995793,
+      "negative_count_mean_log_score": 0,
+      "median_delta_mean_log_squared_error": 2.007296455827971,
+      "negative_count_mean_log_squared_error": 0,
+      "median_delta_mean_log_variance": -0.0735087557272478,
+      "negative_count_mean_log_variance": 3
+    },
+    {
+      "task": "L19",
+      "channel": 1,
+      "episodes": 3,
+      "median_delta_mean_log_score": -1.0528931399099422,
+      "negative_count_mean_log_score": 3,
+      "median_delta_mean_log_squared_error": -1.109628990331232,
+      "negative_count_mean_log_squared_error": 3,
+      "median_delta_mean_log_variance": -0.056735853354136445,
+      "negative_count_mean_log_variance": 3
+    },
+    {
+      "task": "L19",
+      "channel": 2,
+      "episodes": 3,
+      "median_delta_mean_log_score": -3.346787829773482,
+      "negative_count_mean_log_score": 3,
+      "median_delta_mean_log_squared_error": -3.204007708067305,
+      "negative_count_mean_log_squared_error": 3,
+      "median_delta_mean_log_variance": 0.14278012875354662,
+      "negative_count_mean_log_variance": 0
+    },
+    {
+      "task": "L19",
+      "channel": 3,
+      "episodes": 3,
+      "median_delta_mean_log_score": 1.1537294030227812,
+      "negative_count_mean_log_score": 0,
+      "median_delta_mean_log_squared_error": 1.0363594535682508,
+      "negative_count_mean_log_squared_error": 0,
+      "median_delta_mean_log_variance": -0.11736994981765747,
+      "negative_count_mean_log_variance": 3
+    },
+    {
+      "task": "S19",
+      "channel": 0,
+      "episodes": 3,
+      "median_delta_mean_log_score": -3.202812651852743,
+      "negative_count_mean_log_score": 3,
+      "median_delta_mean_log_squared_error": -3.492840476073811,
+      "negative_count_mean_log_squared_error": 3,
+      "median_delta_mean_log_variance": -0.2896056969960532,
+      "negative_count_mean_log_variance": 3
+    },
+    {
+      "task": "S19",
+      "channel": 1,
+      "episodes": 3,
+      "median_delta_mean_log_score": 0.02415633066040379,
+      "negative_count_mean_log_score": 1,
+      "median_delta_mean_log_squared_error": 0.0331117296709631,
+      "negative_count_mean_log_squared_error": 0,
+      "median_delta_mean_log_variance": 0.009486711942232162,
+      "negative_count_mean_log_variance": 0
+    },
+    {
+      "task": "S19",
+      "channel": 2,
+      "episodes": 3,
+      "median_delta_mean_log_score": 0.13081368766093382,
+      "negative_count_mean_log_score": 0,
+      "median_delta_mean_log_squared_error": -0.04929726943912005,
+      "negative_count_mean_log_squared_error": 2,
+      "median_delta_mean_log_variance": -0.1795026481661024,
+      "negative_count_mean_log_variance": 3
+    },
+    {
+      "task": "S19",
+      "channel": 3,
+      "episodes": 3,
+      "median_delta_mean_log_score": -2.8532983191651162,
+      "negative_count_mean_log_score": 3,
+      "median_delta_mean_log_squared_error": -2.208444138445487,
+      "negative_count_mean_log_squared_error": 3,
+      "median_delta_mean_log_variance": 0.6446256831160977,
+      "negative_count_mean_log_variance": 0
+    }
+  ],
+  "interpreter": "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-analysis-v022/bin/python",
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "1.26.4",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "command": "PYTHONDONTWRITEBYTECODE=1 .venv-analysis-v022/bin/python research_cycles/novelty_v0.22/decomposition/reviewer_verify.py",
+  "source_imports": [
+    "Python standard library",
+    "numpy"
+  ],
+  "decomposition_core_imported": false,
+  "learned_model_inference": false,
+  "truth_arrays_opened": false,
+  "new_observations": false,
+  "scope": "saved array/parity/summary audit; no independent neural prediction reconstruction or physical-truth audit",
+  "frozen_input_bindings": 295,
+  "sealed_array_bindings": 36,
+  "bindings": {
+    "research_cycles/novelty_v0.22/decomposition/reviewer_verify.py": "75806a5392047a6638a1e1c2ffcb8f73a4d93696f93915f2c00626c971faad13",
+    "research_cycles/novelty_v0.22/decomposition/INPUT_MANIFEST.json": "b958effbd04096989f8d030e042353edbb8b28f7e2312c8074cda573c6ca22a3",
+    "research_cycles/novelty_v0.22/decomposition/FREEZE.json": "e52a8cbadce6c80b7e505fdc6b8681c011dd1ef6bea77f1491f2a35cd65c4fff",
+    "local/novelty_v0.22/decomposition_001/episode_summary.json": "883a2fc7337d883b671bd68c4c078c0f91cdaef9a2d3ba58c01acc3bbe43f138",
+    "local/novelty_v0.22/decomposition_001/DECOMPOSITION_SEALED.json": "e5e726696d25bbe0d3c856068ed934109ac8a69341bd5eb3b0cf53a52f0067c1",
+    "research_cycles/context_recovery_v0.19/config.json": "4280fc46946d32e4fb283cb24000320fc722155c26eb925e509a1c1a40b1a03d",
+    "local/novelty_v0.22/decomposition_001/result.json": "8c72fe1844f17004421118ca75da83febdf92e5a0ae22fd0782464c044ae568e",
+    "local/novelty_v0.22/decomposition_001/supervisor.json": "4bc1a7837daca05af26d2e9acd16274cabb2a3d9cc3e3189cd317f144e9513e3"
+  },
+  "array_access": [
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_17_normal.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_17_normal.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_17_authorized_changes.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_17_authorized_changes.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_17_brief_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_17_brief_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_17_persistent_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_17_persistent_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_17_hold.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_17_hold.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_17_slow.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_17_slow.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_42_normal.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_42_normal.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_42_authorized_changes.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_42_authorized_changes.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_42_brief_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_42_brief_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_42_persistent_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_42_persistent_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_42_hold.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_42_hold.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_42_slow.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_42_slow.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_2026_normal.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_2026_normal.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_2026_authorized_changes.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_2026_authorized_changes.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_2026_brief_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_2026_brief_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_2026_persistent_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_2026_persistent_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_2026_hold.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_2026_hold.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_L19_Q1_2026_slow.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_L19_Q1_2026_slow.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_17_normal.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_17_normal.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_17_authorized_changes.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_17_authorized_changes.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_17_brief_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_17_brief_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_17_persistent_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_17_persistent_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_17_hold.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_17_hold.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_17_slow.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_17_slow.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_42_normal.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_42_normal.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_42_authorized_changes.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_42_authorized_changes.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_42_brief_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_42_brief_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_42_persistent_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_42_persistent_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_42_hold.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_42_hold.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_42_slow.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_42_slow.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_2026_normal.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_2026_normal.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_2026_authorized_changes.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_2026_authorized_changes.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_2026_brief_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_2026_brief_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_2026_persistent_offset.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_2026_persistent_offset.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_2026_hold.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_2026_hold.npz",
+      "members": [
+        "loss"
+      ]
+    },
+    {
+      "path": "local/novelty_v0.22/decomposition_001/decomposition_S19_Q1_2026_slow.npz",
+      "members": [
+        "defined",
+        "eligible",
+        "logvar",
+        "loss",
+        "mean",
+        "squared_error"
+      ]
+    },
+    {
+      "path": "local/rapt_protocol_v0.21/exploratory_Q1_001/score_S19_Q1_2026_slow.npz",
+      "members": [
+        "loss"
+      ]
+    }
+  ]
+}

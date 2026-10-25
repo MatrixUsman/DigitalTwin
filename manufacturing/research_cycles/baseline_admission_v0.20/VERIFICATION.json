@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-18T21:56:15.052284+00:00",
+  "checks": 70,
+  "pilot_synthetic_checks": 5,
+  "bindings": {
+    "research_cycles/baseline_admission_v0.20/ADMISSION.md": "ccd23501f5163b6777215a3a7bc41f46ef8deb6730eeeb852187e68da7f89568",
+    "research_cycles/baseline_admission_v0.20/DATASET_CARD.md": "840e16f1ec6ddbca4ac29871db0ca1cfeb08dc1a01fc82d321b81ec9170ad6d8",
+    "research_cycles/baseline_admission_v0.20/DOCUMENT_RECEIPT.json": "f0af83c8a97173bcb26ea62d7e42f44183caf870623abb209b315a2f6bcb34f0",
+    "research_cycles/baseline_admission_v0.20/METHOD_MAP.md": "440801d529b7bdd2ed662e73da161b53645427720fd4ca8ec600210bdb5ac65f",
+    "research_cycles/baseline_admission_v0.20/PILOT_PLAN.md": "ad0389f54aa9dc71cdbf50acfb4a0e6ca0bc14edae6fc6171cd6069227490b06",
+    "research_cycles/baseline_admission_v0.20/PUBLIC_RELEASE_CONTRACT.md": "632d7c910fb57b0d546d3cd272e049cb165ec5b131f542c843587eb7b50220d8",
+    "research_cycles/baseline_admission_v0.20/RAPT_v2.html": "ccee433905d44c5b5c6f32a61cee6fbd6698a9d1aa7a94c5e017f92c097ccc02",
+    "research_cycles/baseline_admission_v0.20/SOURCE_RECEIPT.json": "a1fe2bbf2127d261649c484901f0a3c4670e6f98f26407929f8d23be8c58c6f8",
+    "research_cycles/baseline_admission_v0.20/checkpoint_config.json": "07bb23ab98e3aab1285ea399cba0c6eeb7057ea917869a5f5e1a82e5485d18a4",
+    "research_cycles/baseline_admission_v0.20/dataset_info.json": "894d7bb831fca4187c58222b7e693a1c304bf5b44935b5c281bfdf6253b17265",
+    "research_cycles/baseline_admission_v0.20/dataset_tree.json": "8774d114f63c4554c5a53d0ad8323e1dbca96e03d5e0ae049847aaf46f7ae327",
+    "research_cycles/baseline_admission_v0.20/g1_velocity_metadata.json": "d7ff7698068cd32adc2df14ba397fb549c5c060c57728b4fc1bb4f72e1850eb3",
+    "research_cycles/baseline_admission_v0.20/g1_velocity_real_metadata.json": "2cd6faa64b596128bc94320f1f3a0825644cbee0b55232fc92481739454abe18",
+    "research_cycles/baseline_admission_v0.20/github_tree.json": "1b721e1e4e8530534a9d1d6693abdcf4f19d101ef464e2abedc9c96d813475c2",
+    "research_cycles/baseline_admission_v0.20/pilot_worker.py": "b5cd445f69f6063d58ba94688ad38e6493ffda9d0167f500961456dbd80911b5",
+    "research_cycles/baseline_admission_v0.20/run_pilot.py": "dd067e7ae9a67cd1fe790d8c60a6aeff542ee472f987c9b0a940485f1fdd2fee",
+    "local/baseline_admission_v0.20/pilot_001/provenance.json": "b31530e8815fcca7316bb0d313735f3571a76fd1be1065c072448103b7854a73",
+    "local/baseline_admission_v0.20/pilot_001/result.json": "617b4154c947a215947118242336476afde6d3c277997975b868ba5be7bed32f",
+    "local/baseline_admission_v0.20/pilot_001/supervisor.json": "2d37cd15a6287cb0ec3ca02fb3598b411590d9597d2dd698cd67961989211e8c",
+    "local/baseline_admission_v0.20/pilot_001/worker.log": "eba80905437ec31bf7221aac4e023f57b246be00e271b18fb219c09f354bdaae"
+  },
+  "test_observations_accessed": false,
+  "source_checkpoints_accessed": false,
+  "further_training_performed": false
+}

@@ -1,0 +1,22 @@
+{
+  "bindings_unchanged": 400,
+  "caveats": [],
+  "checks": 112847,
+  "original_RBF_nodwell_alarm_streams_exact": 189,
+  "original_alarm_streams_exact": 189,
+  "original_outcome_records": 3213,
+  "output_sha256": {
+    "OUTPUT_SEAL.json": "ca6679d4e0fc607a67e9ff1efaeba8c2ae46aeaadab992d17ab85492ab178327",
+    "diagnostics.json": "9af6d9c5f2dbb443cef44493a10cd1f0133f9a2bb047a6ef69ab8bd5b86e14dd",
+    "launch.json": "8659518c9a63beaaf9d4550ec38c2b6b367cea1bcbcd6b6997c40cfd09a02f07",
+    "matched_alarms.npz": "36cbec25680e65543c2bd09af921b3b1c5c2c4d4d4a1301dd2f0eb11c24d785f",
+    "outcomes.json": "1277d1c79905e5ba06da1bf375bf457231f1fe2d8016dec330484b630fb99abe",
+    "provenance.json": "9c9ad9719d3bae269e09e4e8297893e8b23b0136074c37b74d07e67505e21f04",
+    "summary.json": "5e70207d134c26257e88c20c873b98ca8112d789794945e82b2a5f130ca85cca",
+    "supervisor.json": "72c9f78f44d224a7d8d1cb2a23315d006589e9ea9eb81c835bd00450b3fa3472",
+    "worker.log": "e1944518608aa00164cf2fcea46937a1c778ff92462e4577b209c6d2372fecd7"
+  },
+  "source_sha256": "d63f3dcc2b038908a963b2cfc66ef24232369a25fc2657e63b2009d02675ba9a",
+  "status": "passed",
+  "synthetic_tests": 12
+}

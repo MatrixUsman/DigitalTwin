@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-18T21:36:54.192058+00:00",
+  "archive": "manufacturing-reviewer-v1.7.zip",
+  "sha256": "949f30983aa7264bc572e8d52f294b143852a5ff2b62354752677e44a882b200",
+  "bytes": 323167849,
+  "files": 1447,
+  "input_bytes": 338645930,
+  "public_release": false,
+  "clean_unpack_test": "pending"
+}

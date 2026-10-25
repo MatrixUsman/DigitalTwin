@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-24T08:28:58.617833+00:00",
+  "classification": "layout-only replot from unchanged saved v0.18 summary; no fitting, new data or changed values",
+  "command": ".venv-plots-v03/bin/python manuscript_arx_rbf_v1.8/repair_matched_layout.py",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "methods": [
+    "base_dual",
+    "base_dual_nodwell",
+    "rbf_dual",
+    "rbf_dual_nodwell"
+  ],
+  "parts": {
+    "score_exceedances": [
+      853,
+      853,
+      835,
+      835
+    ],
+    "retained_with_clearance_evidence": [
+      5958,
+      0,
+      5817,
+      0
+    ],
+    "retained_without_clearance_evidence": [
+      345,
+      345,
+      360,
+      360
+    ]
+  },
+  "totals": [
+    7156,
+    1198,
+    7012,
+    1195
+  ],
+  "starts_per_hour": [
+    1208.080808080808,
+    1537.3737373737374,
+    1191.919191919192,
+    1501.010101010101
+  ],
+  "layout_change": "legend above panels; shorter axis label with identical hourly denominator; same figure canvas dimensions",
+  "sha256": {
+    "research_cycles/review_extension_v0.18/REPORTING.json": "adef15952765fd3d5766c4e56e596ad07d7d4493b18b835526f0e3706878b149",
+    "manuscript_arx_rbf_v1.8/figures/matched_review.pdf": "0a658cc380d85430c1c3e9f6d45a2f914c5b17d293191f7b90cf994241e9fe91",
+    "manuscript_arx_rbf_v1.8/repair_matched_layout.py": "caa7140d5ae06a2de137c902ed4cd7d950aad294cb941079994e8e83848377ff",
+    "manuscript_arx_rbf_v1.7/figures/matched_review.pdf": "9ab3f05efd6a4015b20058be59912fbfc289eb82d7e2e18aa05ffdd92d5526ee"
+  }
+}

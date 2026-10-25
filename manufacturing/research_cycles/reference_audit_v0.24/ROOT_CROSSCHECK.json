@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-24T08:42:32.718047+00:00",
+  "reviewer": "Root, fresh online cross-checks independent of group reports; shared project context",
+  "scope": "Existence/metadata only; no full claim-support or no-retraction certification",
+  "observations": [
+    {
+      "key": "rescue",
+      "number": 18,
+      "url": "https://arxiv.org/abs/2610.13516v1",
+      "observed": "Official arXiv title and all four authors match. v1 submitted9Oct2026. Source is an arXiv preprint, not evidence of journal peer review.",
+      "status": "verified real, cited version matches"
+    },
+    {
+      "key": "factory",
+      "number": 10,
+      "url": "https://arxiv.org/abs/2605.09081v5",
+      "observed": "Official arXiv title and14authors match. v5dated8Oct2026; firstposted9May2026. Comments report acceptance at AI4Physics andFMSD ICML2026 workshops; not main-conference acceptance.",
+      "status": "verified real, cited version matches"
+    },
+    {
+      "key": "kaisar",
+      "number": 17,
+      "url": "https://pure.kfupm.edu.sa/en/publications/a-digital-twin-based-cybersecurity-architecture-for-fdi-anomaly-d/",
+      "observed": "Author-institution record matches title,5authorinitials, journal,volume7,pages12709\u201312728,2026 andDOI10.1109/OJCOMS.2026.3739185. Directdoi.orgopen inaccessible in tool.",
+      "status": "verified real via primary author-institution record"
+    },
+    {
+      "key": "ren_final_prose_doi",
+      "number": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0005109826002803",
+      "corroborating_url": "https://www.epfl.ch/labs/decode/dependable-control-and-decision-group/publications/",
+      "observed": "Publisher search record and authorlab record identify Provably robust data-driven sensor fault diagnosis using incrementally stable recurrent equilibrium networks, Automatica191(2026),113096, DOI10.1016/j.automatica.2026.113096; authororderGhanipoor,FerrariTrecate,van deWouw,Murguia differs from inspected2025preprint. This is an extra prose DOI, not a29th numbered entry. No final-equation claim verified.",
+      "status": "verified real, distinct final version"
+    }
+  ],
+  "access_limits": [
+    "Direct DOI open for Kaisar failed; opened author-institution record instead.",
+    "Direct ScienceDirect final-REN open returned403; publisher-indexed search metadata and author laboratory metadata support existence, not equation access."
+  ],
+  "limited_retraction_search": {
+    "queries": [
+      "site.retractionwatch.com \"CASPER\" \"Kayan\"",
+      "site.retractionwatch.com \"A Hybrid Digital Twin Scheme\"",
+      "site.retractionwatch.com \"Time-uniform, nonparametric, nonasymptotic confidence sequences\"",
+      "site.retractionwatch.com \"VUS\" \"Boniol\""
+    ],
+    "finding": "Search returned no matching Retraction Watch notice; unrelated and source-existence records were returned. This is not a complete database check or evidence that no retraction exists. Retraction status is outside the requested existence verdict."
+  }
+}

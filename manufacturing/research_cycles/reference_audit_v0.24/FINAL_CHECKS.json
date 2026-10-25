@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-24T11:38:04.745828+00:00",
+  "all_numbered_entries_covered_once": true,
+  "all28_existence_verdicts_verified_real": true,
+  "local_links_checked": 6,
+  "prior_v18_bindings_unchanged": 108,
+  "scope": "Coverage/link/preservation checks only; source evidence is retained in group reports",
+  "passed": true
+}

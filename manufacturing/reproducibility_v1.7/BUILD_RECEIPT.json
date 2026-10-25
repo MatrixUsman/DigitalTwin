@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-18T21:37:39.927102+00:00",
+  "archive": "manufacturing-reviewer-v1.7.zip",
+  "sha256": "9f538cc8bf7b1ca877bb1c87a1614a608c9fde756c0d13cc397b26076ea86c33",
+  "bytes": 323169116,
+  "files": 1449,
+  "input_bytes": 338647226,
+  "public_release": false,
+  "clean_unpack_test": "passed",
+  "clean_unpack_receipt": "CLEAN_EXTRACTION_RECEIPT.json",
+  "clean_unpack_receipt_sha256": "4c640ddb1d3104478cc2a503edb74f2086e08c3f017dd587ae1e632122a77aa5"
+}

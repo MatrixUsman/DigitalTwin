@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-24T07:51:51.011662+00:00",
+  "classification": "byte preservation, not scientific validation",
+  "correction": "Attempt 001 incorrectly resolved v0.18 paths from manufacturing; preserved receipt/source. No scientific artifact was altered.",
+  "sources": [
+    {
+      "manifest": "manuscript_arx_rbf_v1.6/PACKAGE_MANIFEST.json",
+      "sha256": "761228d9df7f8d371019557bdf5bc71027cd74862dbfbc077815493ea4607820",
+      "binding_root": ".",
+      "bindings_checked": 61
+    },
+    {
+      "manifest": "manuscript_arx_rbf_v1.7/PACKAGE_MANIFEST.json",
+      "sha256": "f2cbab6a2a32856b2d9c679dc74ed56a79aba22da5907cc177dd74c0ecfbe0cc",
+      "binding_root": ".",
+      "bindings_checked": 64
+    },
+    {
+      "manifest": "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "sha256": "37744f5cfa53a6eb582a8248d45b193b80bb4b833bfad8ab601c3b875bbc0e45",
+      "binding_root": "research_cycles/review_extension_v0.18",
+      "bindings_checked": 20
+    },
+    {
+      "manifest": "research_cycles/context_recovery_v0.19/FINAL_FREEZE.json",
+      "sha256": "55f632cbb25d5d76d52cb446c348ab5ae806d13b3cef3ed8f8682c7dca81453e",
+      "binding_root": ".",
+      "bindings_checked": 133
+    },
+    {
+      "manifest": "research_cycles/context_recovery_v0.19/PACKAGE_MANIFEST.json",
+      "sha256": "341c2272d90bb2d97a513e86d28763c2e5779f328af9c7fbbcfc1bd883f8e111",
+      "binding_root": ".",
+      "bindings_checked": 494
+    },
+    {
+      "manifest": "research_cycles/rapt_protocol_v0.21/exploratory/FREEZE.json",
+      "sha256": "35619d5219b2296e141f1262038bff521ba08b8f659d2f4b064fe7098f25ff43",
+      "binding_root": ".",
+      "bindings_checked": 243
+    },
+    {
+      "manifest": "research_cycles/novelty_v0.22/decomposition/PACKAGE_MANIFEST.json",
+      "sha256": "b7c619dfec1b4403e9f7a451feb570733b79ad1f42c669ac832cb8b858bec2a0",
+      "binding_root": ".",
+      "bindings_checked": 63
+    }
+  ],
+  "failures": [],
+  "all_match": true
+}

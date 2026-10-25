@@ -1,0 +1,43 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "manufacturing/local/manuscript_arx_rbf_v1.8/abstract.md",
+  "input_sha256": "a83f3fff92717012104fa074f4e172aa90ccb59665b6368a648f902093243def",
+  "status": "checked",
+  "allowlist": {
+    "default": 29,
+    "user": []
+  },
+  "coverage": {
+    "body": "not_requested",
+    "abstract_en": "checked",
+    "abstract_zh": "not_requested"
+  },
+  "scope_lines": {
+    "abstract_en": [
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [],
+  "findings": [
+    {
+      "scope": "abstract_en",
+      "line": 3,
+      "rule": "undefined",
+      "acronym": "RBF",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "abstract_en",
+      "line": 3,
+      "rule": "undefined",
+      "acronym": "RMSE",
+      "expansion": null,
+      "occurrences": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "Exposed-data v0.18 diagnosis and prospectively frozen v0.19 within-simulator evaluation",
+  "sha256": {
+    "manuscript_arx_rbf_v1.7/generated/matched_review.tex": "76f3da30730acdbc789b952826c627c1ffb1d793fb8982df2c7835d4d81517cb",
+    "manuscript_arx_rbf_v1.7/generated/timing_review.tex": "d5c8250fe20a8fb7df0483c0af8ecc1aa69f66b31695cb9af175b80067e9449c",
+    "manuscript_arx_rbf_v1.7/generated/strata_review.tex": "b6494171a032cf2dd6e2c0a1f6b036c31dd84b25b4c4b5e2773b3f56125929eb",
+    "manuscript_arx_rbf_v1.7/figures/matched_review.pdf": "9ab3f05efd6a4015b20058be59912fbfc289eb82d7e2e18aa05ffdd92d5526ee",
+    "research_cycles/review_extension_v0.18/REPORTING.json": "adef15952765fd3d5766c4e56e596ad07d7d4493b18b835526f0e3706878b149",
+    "research_cycles/review_extension_v0.18/VERIFICATION.json": "c60fdef12e4e0c1c7b53fe2750bfa2253e614030d303955808135c2e253f9a5d",
+    "research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json": "37744f5cfa53a6eb582a8248d45b193b80bb4b833bfad8ab601c3b875bbc0e45",
+    "manuscript_arx_rbf_v1.7/integrate_review.py": "0a86acf3c79ec5d715443c8974ce2926cbf460fd07466e2f9400efd510917662",
+    "local/context_recovery_v0.19/final_001/results.json": "c96bb96a36b760fb77825b28b24d97ab55bc491c15162f8de41abe6f4506371b",
+    "local/context_recovery_v0.19/development_001/selected.json": "ae2e2f57bf6f57b10952b8792680da8bfec54d59704b75a75638f9649ec9cdb9",
+    "research_cycles/context_recovery_v0.19/FINAL_FREEZE.json": "55f632cbb25d5d76d52cb446c348ab5ae806d13b3cef3ed8f8682c7dca81453e",
+    "manuscript_arx_rbf_v1.7/generated/context_final.tex": "993c7a1f3b777a1a88af2bacbedb290f24b12004d1d8b47eca713b4a687713d6",
+    "manuscript_arx_rbf_v1.7/figures/context_final.pdf": "f89607403c4d065af277dfe4c2b74bccef35a608032e76acf1c5680f01f04cb3",
+    "manuscript_arx_rbf_v1.7/integrate_context.py": "ff7db460cbcd3caabafe70b54b0592c9edd8e2822f6e17cd531fbbacb44ceea6",
+    "research_cycles/context_recovery_v0.19/REPORTING.json": "1ffdda8b42e736520638abaf59f1c93414f91aed30e5f322eae65cd0992bb51a",
+    "research_cycles/context_recovery_v0.19/VERIFICATION.json": "d5d0c8e8061f0c2b3721c1b40631b73ec886739c41e2f69973b72c2d331eed6e",
+    "research_cycles/context_recovery_v0.19/INDEPENDENT_REVIEW.md": "59c16f67e942d9894bbdc79a6fa4019f4549c3be1cfd5163dcd282ed775907b5",
+    "research_cycles/context_recovery_v0.19/RESOURCE_DECISION.md": "6477f17b8c639aad2dc642cad0d804be6efb602ac4f6db41b60fb796c5d16ab8",
+    "docs/literature/RECOVERY_IMPROVEMENT_PRIOR_ART_2026-10-19.md": "524cd25206cfd2049a7e1c2d1ec896ace5799f2eec9e806043c4a8f9cd49c287"
+  }
+}

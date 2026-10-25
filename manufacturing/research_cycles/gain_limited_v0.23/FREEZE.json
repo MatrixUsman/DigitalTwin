@@ -1,0 +1,138 @@
+{
+  "bindings": {
+    ".venv-analysis-v022/bin/python": "85de2a76867fcb24057ac85839cfa404f963dbd9e292552bb543b5102882abeb",
+    ".venv-analysis-v022/lib/python3.12/site-packages/forecast_v016_bridge.pth": "8d8664331dc67fa27e21e11aab2707de7def7f6a543b30408f2200c531f53112",
+    ".venv-analysis-v022/pyvenv.cfg": "92c733bc76495c5b445d801751e83140e3f688a3798a66303dd1799932f2b3ae",
+    "local/gain_limited_v0.23/synthetic_runtime_001/runtime.json": "96c2b28aa699d61e43ac52595bd4e22a7aa9f99fb8c8630ec0be62fd4ff721de",
+    "local/gain_limited_v0.23/synthetic_runtime_001/supervisor.json": "62fd0b45dcf7ed3f0ff17f94fbe82412abc0c6482bd375f2430ec14c94a82bee",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_authorized_offset.npz": "27a1d827c248fae3bc376c09e2fa37535940e15d3b57d6c0e01d0633f8574c32",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_authorized_slow.npz": "4f088b2a84985ceb85f6193c8495cb76fcfede1b599c01c765b2636c5cff1b88",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_17_normal.npz": "9225a66a8272f7c0f325c4ec436666023a35b56c70d69e46ca28323c80ea1162",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_authorized_offset.npz": "b4a35d8f30bc0ecf58cd6501c22253a7506c1f61d3fc4c69292d64063d05d78a",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_authorized_slow.npz": "7fcc2393927e62968800bb245b39ddc84cc3d08e5ba3f707cd8ed357ff278abf",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_2026_normal.npz": "af92d9923d2292d9277eaf05cc9ed5641f0254f533562586e9b8b485b276c357",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_authorized_offset.npz": "db7f0a8998dc599772bd3d0283a9ab3b495305df70cdd04db0cd931e850b0344",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_authorized_slow.npz": "33ac29ac9ea3548fc4a7dd062d9cb55140d562527a6ba81fb45be59600f2c31e",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_K13_Q1_42_normal.npz": "25a32e88bfcc11621c66c014e41a80f0415d2dce7859de9e67281dc38bb09515",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_authorized_offset.npz": "e3e4f63dba0e153553a8f326e513d28e1a209b5e2d1f274a775b42f44a558281",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_authorized_slow.npz": "03e1691ebbf54b200fc8a1f27e18d909594ee544aea9270e9f1d5a09c52e8b7c",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_17_normal.npz": "0796a576a7897dd123062b08631bc6d8d85ab43fc438eff87ed7d28946fed8fd",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_authorized_offset.npz": "91e1d973f95ed4289b6a708dcc2610bbc1499754ed89ef73da3464912cbd7872",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_authorized_slow.npz": "f8ae6c1f59c8aa5657a5db8face5bcdcc17b1ff82680e1ac4c7018891d513965",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_2026_normal.npz": "ccb8a40967bd4d4171ac045710131cc8b7efd7a25ae2a12f018dfab972efef9a",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_authorized_offset.npz": "b8052a1faf4dfbc3bd55dee8522c2ab12fb6d9658b361e98fa7b9d9de428893a",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_authorized_slow.npz": "f1540c41045ece66976cc3bde14db4a69dc95bfc15ac5c006a55bacef4a2a5c0",
+    "local/residual_twin_v0.13/runs/pilot_001/normal_M13_Q1_42_normal.npz": "37def7375ea336336485974cd82bdd0470988d5e8c65de1835ec602eec12455f",
+    "research_cycles/gain_limited_v0.23/INPUT_MANIFEST.json": "dbf5f44a01261f3e928757f798506df5375ef2d22b0a08bc597a50b03b292ae9",
+    "research_cycles/gain_limited_v0.23/PROTOCOL.md": "7b12247611d25c01a1afb349a277e9211ad4e66f2c9fe1fd84b6f59eaaddf269",
+    "research_cycles/gain_limited_v0.23/REVIEW_RELEASE.json": "d8525825126d53f4fe076d418294c5637cc4f6ea10aa02577fb2846badfc39d8",
+    "research_cycles/gain_limited_v0.23/RUNTIME_ADMISSION.json": "7c965901887ac5d4a85802bf4af4dce98658c127aca895f80a3680c7db00087f",
+    "research_cycles/gain_limited_v0.23/TEST_RECEIPT.json": "3e18636a8bd390a838fba785c4bcd60e21c295a1f0b4fd877528ed5dbc2311a4",
+    "research_cycles/gain_limited_v0.23/admit_data.py": "ce809e2acb366dde38c05f4282e6ab2d0313509f041ecc00dd52b071ab5b9591",
+    "research_cycles/gain_limited_v0.23/config.json": "9acfcf0c9479d09ff0120f80d3f049682db3c2abb7e2dbbea4249b99954d21ba",
+    "research_cycles/gain_limited_v0.23/data23.py": "590c328ec18996665ec4d00bb6ba9d15646ceb6dd630fa0dc99d1e0d3a97b43f",
+    "research_cycles/gain_limited_v0.23/freeze.py": "cc88a43458426bd7b2ec52cdf59b40830d88dd664240296c5ef3f044ad8d38dc",
+    "research_cycles/gain_limited_v0.23/models23.py": "ce2e9e49b48244bcfd6c46295f3ca523b932d307123a5e75224063f681e014ce",
+    "research_cycles/gain_limited_v0.23/pilot23.py": "4591a53d221575fb7a24b3c32fbe25ee534a289685f7e098a7d35948a1de6dd4",
+    "research_cycles/gain_limited_v0.23/run.py": "2334b49e522773d904fad86e3016e875214a331e38002646ffa38edfbf0895b0",
+    "research_cycles/gain_limited_v0.23/runtime.py": "64dfebfd1c36e59b467cd3e1a60f69efe410b42ee1e505d0fdf0a251b9b28005",
+    "research_cycles/gain_limited_v0.23/runtime_worker.py": "959b4f81ecad5369ae8bf1db2b4682b7e44ecdc816365f7029cce8697e8d3fec",
+    "research_cycles/gain_limited_v0.23/test_models23.py": "76b03beea4ebb01cb007b0499dc9a66a817e6de015dd7929ee9a8ec83fd6acd4",
+    "research_cycles/gain_limited_v0.23/worker.py": "7e723dfcba605d6b3ac6d3b290ae07f0c8cc6c051850d85e612db4911ecd24a3",
+    "research_cycles/novelty_v0.22/decomposition/RUNTIME_BRIDGE.json": "91c88e01a8eac63dfcbeee6bacbaaeff45116741cba7316327342e62c7ca067e",
+    "src/mfg_twin/supervisor.py": "a0d1cde4cacdd3039d23d77f8824d4d5579cc3a1749f3b9bb0920c86ab477dd3"
+  },
+  "configuration": {
+    "admission": {
+      "fresh_attack_admission": false,
+      "linear_solver_must_converge": true,
+      "max_condition_rmse_relative_increase": 0.05,
+      "max_episode_rmse_relative_increase": 0.05,
+      "operational_tolerance": null,
+      "radius_relative_reduction": 0.05,
+      "rmse_relative_reduction": 0.02,
+      "same_budget_fir_radius_strictly_lower": true,
+      "same_budget_fir_rmse_not_higher": true,
+      "underfit_last_quarter_epoch_improvement": 0.01
+    },
+    "conditions": [
+      "normal",
+      "authorized_offset",
+      "authorized_slow"
+    ],
+    "context": "normalized protected command at t-1 and its first difference; 8 features",
+    "development_task": "M13",
+    "episode_seeds": [
+      17,
+      42,
+      2026
+    ],
+    "fir": {
+      "lags": 5,
+      "max_iterations": 5000,
+      "projected_gradient_tolerance": 1e-07,
+      "ridge": 0.001
+    },
+    "fit_task": "K13",
+    "kalman": {
+      "model": "independent residual random walk",
+      "process_measurement_ratios": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "limits": {
+      "cpu_seconds": 90,
+      "output_bytes": 52428800,
+      "rss_bytes": 1073741824,
+      "wall_seconds": 120
+    },
+    "model_seed": 17,
+    "normalization": {
+      "fit": "K13 eligible rows only",
+      "std_floor": 1e-06
+    },
+    "plant": "Q1",
+    "primary_radius": "minimum of valid gain and amplitude-cap sufficient radii using empirical Edev and development score threshold",
+    "quantile": 0.99,
+    "radius_cap": "Edev + tau_dev + 2*C for certified correction amplitude cap C",
+    "radius_gain": "(Edev + tau_dev)/(1 - K) for certified K < 1",
+    "reference": {
+      "kind": "command_only_fir",
+      "lags": 16,
+      "ridge": 0.001
+    },
+    "score_scale": 1.0,
+    "study": "manufacturing-gain-limited-normal-feasibility-v0.23",
+    "synthetic_runtime_limits": {
+      "cpu_seconds": 30,
+      "output_bytes": 5242880,
+      "rss_bytes": 1073741824,
+      "wall_seconds": 45
+    },
+    "tanh": {
+      "burnin": 48,
+      "dtype": "float32",
+      "epochs": 40,
+      "kappa": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "learning_rate": 0.01,
+      "projection_slack": 1e-06,
+      "rho": [
+        0.25,
+        0.75
+      ],
+      "scored_stride": 48,
+      "weight_decay": 0.0001,
+      "width": 8,
+      "window": 96
+    },
+    "warmup": 100
+  },
+  "utc": "2026-10-24T08:13:41.318515+00:00"
+}

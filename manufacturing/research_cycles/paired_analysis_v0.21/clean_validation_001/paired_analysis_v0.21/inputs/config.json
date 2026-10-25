@@ -1,0 +1,16 @@
+{
+  "study_id":"manufacturing-context-recovery-v0.19",
+  "memory_candidates":[10,40],
+  "seeds":[17,42,2026],
+  "tasks":[
+    {"id":"L19","kind":"lissajous","amplitude":[0.29,0.34],"frequency":0.57,"phase":0.77,"onset":503,"duration":530,"brief":12,"offset":0.13,"slow":0.64},
+    {"id":"S19","kind":"smoothstep","amplitude":[0.26,0.32],"frequency":0.14,"phase":0.38,"onset":611,"duration":470,"brief":10,"offset":0.09,"slow":0.78}
+  ],
+  "conditions":["normal","authorized_changes","brief_offset","persistent_offset","hold","slow"],
+  "plant_shift":{"mass_multiplier":[1.04,0.96],"damping_multiplier":[1.10,0.90],"lag_addition":0.01},
+  "limits":{
+    "development":{"wall_seconds":120,"cpu_seconds":90,"rss_bytes":1073741824,"output_bytes":52428800},
+    "pilot":{"wall_seconds":60,"cpu_seconds":45,"rss_bytes":1073741824,"output_bytes":20971520},
+    "final":{"wall_seconds":600,"cpu_seconds":300,"rss_bytes":1073741824,"output_bytes":262144000}
+  }
+}

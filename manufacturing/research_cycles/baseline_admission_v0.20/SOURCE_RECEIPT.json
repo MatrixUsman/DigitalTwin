@@ -1,0 +1,427 @@
+{
+  "created_utc": "2026-10-18T21:50:20.249892+00:00",
+  "revision": "d745668ffdb0e26877b1de4c9b2126af7bda5b03",
+  "repository": "https://github.com/csiro-robotics/RAPT",
+  "files": [
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/LICENSE",
+      "upstream_path": "LICENSE",
+      "sha256": "13b9c77ce069f00cbcbcc3e2b2d16d802d39f3ff12624f2e53948bfda6e6054c",
+      "bytes": 1527,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/LICENSE"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/README.md",
+      "upstream_path": "README.md",
+      "sha256": "a4cd1b12beb5d4e5ea0ec705e88a03889e02de15fca15fc4274265d7c0d97a14",
+      "bytes": 10851,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/README.md"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/pixi.toml",
+      "upstream_path": "pixi.toml",
+      "sha256": "6572ed886e61f2fbab0e610ca94c53de732bcfe0bed3392656828e8f5c15d7d6",
+      "bytes": 960,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/pixi.toml"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/pyproject.toml",
+      "upstream_path": "pyproject.toml",
+      "sha256": "7681c4c10a3b8f35ab9e1f1046dda6315c13eb11419cf4e4738266c12ce7f296",
+      "bytes": 654,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/pyproject.toml"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/__init__.py",
+      "upstream_path": "rapt/__init__.py",
+      "sha256": "d70fc8f8a221fcb644da2c58439af9be77d119d4fa51276f749568ef60b7f8e7",
+      "bytes": 1821,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/__init__.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/checkpoint.py",
+      "upstream_path": "rapt/checkpoint.py",
+      "sha256": "946236c5965c911bc26e5b0e6941c900bc150913660dfe543d7461daf69f7c96",
+      "bytes": 7849,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/checkpoint.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/config.py",
+      "upstream_path": "rapt/config.py",
+      "sha256": "eed766ad0fe45434ebf1552315df7720e42c20cdad9bf2280021a05c85b35e02",
+      "bytes": 2856,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/config.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/data.py",
+      "upstream_path": "rapt/data.py",
+      "sha256": "ee453ddf2b6a1053e108d937f67faf77e36bcff49e0643b1b959ed84f9f8cd88",
+      "bytes": 11384,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/data.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/detector.py",
+      "upstream_path": "rapt/detector.py",
+      "sha256": "e368908cab68513f671ce28f2553a5315b063e5027868c5207f999e248617dd9",
+      "bytes": 10379,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/detector.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/diagnosis/__init__.py",
+      "upstream_path": "rapt/diagnosis/__init__.py",
+      "sha256": "6130a2b1673ba0bea248caee6788e9e8dc5954c02396590be9e7693db353d5e4",
+      "bytes": 556,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/diagnosis/__init__.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/diagnosis/llm.py",
+      "upstream_path": "rapt/diagnosis/llm.py",
+      "sha256": "e8c9dd370471fbfe581e4a453fa741eb92c6eea3f5536d773b59a044c24600d9",
+      "bytes": 4863,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/diagnosis/llm.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/diagnosis/prompt.py",
+      "upstream_path": "rapt/diagnosis/prompt.py",
+      "sha256": "680af948616aee8de61ad06ee9fca2e9831b8a0f8538ac2295b917092b909abf",
+      "bytes": 3813,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/diagnosis/prompt.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/diagnosis/render.py",
+      "upstream_path": "rapt/diagnosis/render.py",
+      "sha256": "1f7e641cd140a55c78b1d770b305c6191646275d9210351d44b3ccf98f21b977",
+      "bytes": 3394,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/diagnosis/render.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/diagnosis/taxonomy.py",
+      "upstream_path": "rapt/diagnosis/taxonomy.py",
+      "sha256": "d958b5ce8a420aef29c124eb5bc003c404538fd70d37562caebec2b82e24c45a",
+      "bytes": 1367,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/diagnosis/taxonomy.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/metrics.py",
+      "upstream_path": "rapt/metrics.py",
+      "sha256": "da6bbf7c1cef6784865b2bd1c64ab4de0cd834e060825828405a3de85215cc25",
+      "bytes": 3477,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/metrics.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/model.py",
+      "upstream_path": "rapt/model.py",
+      "sha256": "6bd5cf5debec8ca62408f0f56c9cf68ea58985df0abe2279fcbca2d49b192d0d",
+      "bytes": 4985,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/model.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/onnx_export.py",
+      "upstream_path": "rapt/onnx_export.py",
+      "sha256": "e350c7d5d54db1bd4be7c89ff59b3b2c93c38edb5efff6e25c15e7f1b3cb5d34",
+      "bytes": 2521,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/onnx_export.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/saliency.py",
+      "upstream_path": "rapt/saliency.py",
+      "sha256": "8f323ed5856976baf24e7d0207f8560e7489aefba0566cd617702b2797607b78",
+      "bytes": 4718,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/saliency.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/rapt/train.py",
+      "upstream_path": "rapt/train.py",
+      "sha256": "dfd7de208283bd39fc482460b5909e2b7649f2433ac122f81548f4179b336d2b",
+      "bytes": 4322,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/rapt/train.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/README.md",
+      "upstream_path": "reproduce/README.md",
+      "sha256": "8251f8f2b7495af75ae9f6f320569c435da1a638603dc51639efbdfb736ecfce",
+      "bytes": 3666,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/README.md"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/__init__.py",
+      "upstream_path": "reproduce/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/__init__.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/baselines/__init__.py",
+      "upstream_path": "reproduce/baselines/__init__.py",
+      "sha256": "c331d6035a958dd3f55fa59ac7a6bf514429d0e8cd271ccadafc32703c7b4af0",
+      "bytes": 210,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/baselines/__init__.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/baselines/deep_svdd.py",
+      "upstream_path": "reproduce/baselines/deep_svdd.py",
+      "sha256": "817e129aa96f041f1f8cc20eef5fe1de7c5a0a30a8dad5a53c47876daff5f072",
+      "bytes": 3028,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/baselines/deep_svdd.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/baselines/isolation_forest.py",
+      "upstream_path": "reproduce/baselines/isolation_forest.py",
+      "sha256": "c2e1937daf2c3032c3be8d46fb441f59d19aa90d7ac8879323721db4d1a7f8b8",
+      "bytes": 756,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/baselines/isolation_forest.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/baselines/lstm_vae.py",
+      "upstream_path": "reproduce/baselines/lstm_vae.py",
+      "sha256": "8224e9300f5948cba22cb1fd68c9c8a152662c540d773d1476cd3d1e00bf3820",
+      "bytes": 4753,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/baselines/lstm_vae.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/analysis/analyze_feature_importance.py",
+      "upstream_path": "reproduce/isaaclab/analysis/analyze_feature_importance.py",
+      "sha256": "4c622afdb2c75dbaf1a93fa464de3dbcff66a6a013a5788669f22f574be4c177",
+      "bytes": 5113,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/analysis/analyze_feature_importance.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/analysis/collate_ablation_results.py",
+      "upstream_path": "reproduce/isaaclab/analysis/collate_ablation_results.py",
+      "sha256": "09de8966e84384423527148720a6886275ffe314ae58b1802d8b1662d9640a21",
+      "bytes": 5898,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/analysis/collate_ablation_results.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/analysis/rank_taguchi_results.py",
+      "upstream_path": "reproduce/isaaclab/analysis/rank_taguchi_results.py",
+      "sha256": "f9b58a70f3b1c6ab3d7e8ae0cb74ae31c96ae236a9f634cbcc9e2f3bc498d694",
+      "bytes": 4457,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/analysis/rank_taguchi_results.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/cli_args.py",
+      "upstream_path": "reproduce/isaaclab/cli_args.py",
+      "sha256": "b8a8ffe8701cced8774cd760a3ccebe4a7325c911f2672079e862cc0c8a6a7d8",
+      "bytes": 3869,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/cli_args.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/collect_and_train_lstmvae.py",
+      "upstream_path": "reproduce/isaaclab/collect_and_train_lstmvae.py",
+      "sha256": "f4f80c66ac27288f30edcfb846a27d66b87298e7d7a5a475c4c0542b2438164c",
+      "bytes": 28208,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/collect_and_train_lstmvae.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/collect_and_train_patchad.py",
+      "upstream_path": "reproduce/isaaclab/collect_and_train_patchad.py",
+      "sha256": "3e7da71cd9f3c8f1a068b188d51657077d6efb68d6310fb1287f5c4ed3e496af",
+      "bytes": 14703,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/collect_and_train_patchad.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/collect_and_train_rapt.py",
+      "upstream_path": "reproduce/isaaclab/collect_and_train_rapt.py",
+      "sha256": "bc0fc192c3c6d7fb9d3c0a3ca84e33e07e94f7e27e3f2506b5dbf2419d2ec9b6",
+      "bytes": 32297,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/collect_and_train_rapt.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/collect_rapt_datasets.py",
+      "upstream_path": "reproduce/isaaclab/collect_rapt_datasets.py",
+      "sha256": "38d38ac43c2103be678d4a3d659f05d26da4c71699bc187978b74e77a5d536f3",
+      "bytes": 20754,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/collect_rapt_datasets.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/export_to_onnx.py",
+      "upstream_path": "reproduce/isaaclab/export_to_onnx.py",
+      "sha256": "6e341136fe337bc23c0d7fdd439ca7e24b49b6e15465938fa34cd8c7942ed054",
+      "bytes": 9627,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/export_to_onnx.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/forest_and_range_experiment.py",
+      "upstream_path": "reproduce/isaaclab/forest_and_range_experiment.py",
+      "sha256": "0c2048c71589a0d5cc581f4d69f9d7b6a7bf12e75f2a1f37cfc060aa3832a069",
+      "bytes": 92592,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/forest_and_range_experiment.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/ood_injection_lib.py",
+      "upstream_path": "reproduce/isaaclab/ood_injection_lib.py",
+      "sha256": "b9e7b970d07385c1508e0b2ea32cc020a7321c746c50a7912f8c8b2599669c6c",
+      "bytes": 48079,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/ood_injection_lib.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/play_with_rapt.py",
+      "upstream_path": "reproduce/isaaclab/play_with_rapt.py",
+      "sha256": "dec39f39cfd87e04798d18d88c0d5dd7d247c338e1b70bb86b3b9d46e10e3888",
+      "bytes": 124631,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/play_with_rapt.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/svdd_and_range_experiment.py",
+      "upstream_path": "reproduce/isaaclab/svdd_and_range_experiment.py",
+      "sha256": "d8ba31f2a9984edfab1b7eefa036c6f26d307e96afaf597afe5cbd863ebaf568",
+      "bytes": 105027,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/svdd_and_range_experiment.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/sweeps/run_taguchi_ablation.sh",
+      "upstream_path": "reproduce/isaaclab/sweeps/run_taguchi_ablation.sh",
+      "sha256": "42307af70be3ea24954f0090467b1c36162f619323d8ddf0e519a7ae9d221bd2",
+      "bytes": 6946,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/sweeps/run_taguchi_ablation.sh"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/isaaclab/sweeps/train_fdm_exp.sh",
+      "upstream_path": "reproduce/isaaclab/sweeps/train_fdm_exp.sh",
+      "sha256": "f7f977f11f168af59be4d42a992e383a7d95c54fabc401c136fdac6c6d56f9a4",
+      "bytes": 4586,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/isaaclab/sweeps/train_fdm_exp.sh"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/ood_injection.py",
+      "upstream_path": "reproduce/ood_injection.py",
+      "sha256": "faefa550b25ee446856f23aaac2c9ce9773f43fa9bc282f040fe7f99f63045af",
+      "bytes": 4799,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/ood_injection.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/realworld/test_real_world_iso.py",
+      "upstream_path": "reproduce/realworld/test_real_world_iso.py",
+      "sha256": "46e4203b8b1fa770827e7b69692fecb0d0f09f7dcfabd56f8563b271ca833fbf",
+      "bytes": 15710,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/realworld/test_real_world_iso.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/realworld/test_real_world_lstm.py",
+      "upstream_path": "reproduce/realworld/test_real_world_lstm.py",
+      "sha256": "1ead20a657de17646ec89c67067aef1b4f47dc0a5609f5cb38485b0942d798d1",
+      "bytes": 15951,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/realworld/test_real_world_lstm.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/realworld/test_real_world_patchad.py",
+      "upstream_path": "reproduce/realworld/test_real_world_patchad.py",
+      "sha256": "ecad6d13f489a36158726ab8537ff416d203ee7612b6cd8918408844cdb5fb84",
+      "bytes": 19066,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/realworld/test_real_world_patchad.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/realworld/test_real_world_rapt.py",
+      "upstream_path": "reproduce/realworld/test_real_world_rapt.py",
+      "sha256": "b234bf7ea00f3ab2988cb57d69b9598eedc177e81ae1566b5efe0f93df643aaa",
+      "bytes": 65734,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/realworld/test_real_world_rapt.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/realworld/test_real_world_svdd.py",
+      "upstream_path": "reproduce/realworld/test_real_world_svdd.py",
+      "sha256": "9a2d31bc580720ca3e9201f884da2787b5297aecfcf31768dd0b0cd14e966f23",
+      "bytes": 17721,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/realworld/test_real_world_svdd.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/reproduce/run_baselines.py",
+      "upstream_path": "reproduce/run_baselines.py",
+      "sha256": "9f4ca2c67215efda9d17c8d29fe95fac50f571494e2b6a153da951b605e87160",
+      "bytes": 3588,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/reproduce/run_baselines.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/attribute.py",
+      "upstream_path": "scripts/attribute.py",
+      "sha256": "014170d3b3b58937499bb386d7b3ab411a10ef606ed8e6009d225db5a98f6658",
+      "bytes": 3682,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/attribute.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/benchmark.py",
+      "upstream_path": "scripts/benchmark.py",
+      "sha256": "2dfa83ea610ee2a7454868e33fd15e42fbcb3107229eca53088b8573865fdd7a",
+      "bytes": 5323,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/benchmark.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/calibrate.py",
+      "upstream_path": "scripts/calibrate.py",
+      "sha256": "5fca8fac9739f32a2c3e491a32f850e657bb74a4b759230276859205f8e6e9b1",
+      "bytes": 3616,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/calibrate.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/convert_legacy_checkpoint.py",
+      "upstream_path": "scripts/convert_legacy_checkpoint.py",
+      "sha256": "7452d79da6694173ffafc33d408216e8d33a0dbf415fa232679f3b6c0de0e3b1",
+      "bytes": 8261,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/convert_legacy_checkpoint.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/detect.py",
+      "upstream_path": "scripts/detect.py",
+      "sha256": "0cca05a1c92bd3b355f841e39f4c0a6cf66ade3aa6b57cb6f248d0111d56c6bd",
+      "bytes": 3337,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/detect.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/diagnose.py",
+      "upstream_path": "scripts/diagnose.py",
+      "sha256": "72351406f0144417616fd9d7188ff3516577a437cbcb0abb61dfe55deca024f6",
+      "bytes": 5000,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/diagnose.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/evaluate.py",
+      "upstream_path": "scripts/evaluate.py",
+      "sha256": "51b80292009e107fce452b815370d990534f941b1868e3580c6e5bdca13d268d",
+      "bytes": 4936,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/evaluate.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/evaluate_paper.py",
+      "upstream_path": "scripts/evaluate_paper.py",
+      "sha256": "a0503bd2e1a5daee5464e0232f962e179a2bf14c17a58bdfda260521bde00aa7",
+      "bytes": 9145,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/evaluate_paper.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/export_onnx.py",
+      "upstream_path": "scripts/export_onnx.py",
+      "sha256": "9427956617f20cce10e02bdfc204977fa2c7138f62c6807853629cc53638eeb0",
+      "bytes": 1293,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/export_onnx.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/import_deploy_logs.py",
+      "upstream_path": "scripts/import_deploy_logs.py",
+      "sha256": "c7a0a982028f4b99119fc7d36ffefb0617fef8a1dcd0788642e60db95ef97794",
+      "bytes": 3514,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/import_deploy_logs.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/make_synthetic_data.py",
+      "upstream_path": "scripts/make_synthetic_data.py",
+      "sha256": "d523be63f012f294a100ecf420ec380d51b9e2cb02e161ff8989c8d97e04f33d",
+      "bytes": 4519,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/make_synthetic_data.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/train.py",
+      "upstream_path": "scripts/train.py",
+      "sha256": "9c27c6a9510b9b3ebd1f1e946fedba8b8785e964cc5d0aaa151eafcf8c4561f0",
+      "bytes": 4970,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/train.py"
+    },
+    {
+      "path": "manufacturing/baselines/vendor/rapt_v020/scripts/upload_datasets_hf.py",
+      "upstream_path": "scripts/upload_datasets_hf.py",
+      "sha256": "74ab4a7e71a4ca6ee52fecbc5a7de0bce0764ab334db85727d40447c8cdf819b",
+      "bytes": 1898,
+      "url": "https://raw.githubusercontent.com/csiro-robotics/RAPT/d745668ffdb0e26877b1de4c9b2126af7bda5b03/scripts/upload_datasets_hf.py"
+    }
+  ]
+}

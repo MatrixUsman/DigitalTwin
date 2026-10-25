@@ -1,0 +1,2226 @@
+{
+  "utc": "2026-10-18T21:36:07.451219+00:00",
+  "scope": "Same-assistant manuscript integrity checks, not independent scientific replication",
+  "passed": true,
+  "checks": 554,
+  "pages": 15,
+  "pdf_sha256": "cb9bd34476d333c8d8cc8aa9cd87950b7d07be470c460abf376051bfa67c7549",
+  "details": [
+    {
+      "check": "sealed v1.6 manifest identity",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved local/manuscript_arx_rbf_v1.6/completed_handoff/AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved local/manuscript_arx_rbf_v1.6/completed_handoff/PROJECT_BRIEF.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved local/manuscript_arx_rbf_v1.6/completed_handoff/STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved local/manuscript_arx_rbf_v1.6/completed_handoff/docs/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved local/manuscript_arx_rbf_v1.6/completed_handoff/shared/RESEARCH_PLAYBOOK.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved local/manuscript_arx_rbf_v1.6/completed_handoff/shared/WORK_LOG.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/ASSET_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/AUDIT.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/BASE_IDENTITY.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/CLAIM_LEDGER.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/FIGURE_VALUES.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/FORECAST_ASSET_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/LAYOUT_HISTORY.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/MAIN_BUILD_RECEIPT.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/README.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/RECENCY_AND_CORRESPONDENCE.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/REFERENCE_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/REFERENCE_INDEX.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/REVISION_RESPONSE.md",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/SOURCE_ARCHIVE.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/VISUAL_QA.json",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/audit.py",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/integrate_forecasts.py",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/main.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/package.py",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/references.bib",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/references.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved manuscript_arx_rbf_v1.6/sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved output/ARX-RBF-Muhammad-Usman-v1.6-latex.zip",
+      "passed": true
+    },
+    {
+      "check": "v1.6 preserved output/pdf/ARX-RBF-Muhammad-Usman-v1.6.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "unchanged historical asset generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "original 17-method numbers unchanged",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_001/launch.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_001/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold1_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold1_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold2_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold2_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold3_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold3_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold4_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold4_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold4_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold4_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold5_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold5_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold5_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q1_fold5_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold1_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold1_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold2_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold2_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold3_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold3_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold4_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold4_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold4_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold4_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold5_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold5_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold5_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q2_fold5_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold1_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold1_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold1_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold1_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold2_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold2_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold2_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold2_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold3_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold3_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold3_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold3_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold4_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold4_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold4_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold4_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold5_base.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold5_outcome.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold5_rbf.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/Q3_fold5_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/access.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/launch.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/summary.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved local/fivefold_v0.16/runs/validation_002/worker.log",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/REPAIR_FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/TESTS.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/core.py",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/resume.py",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/run.py",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/test_core.py",
+      "passed": true
+    },
+    {
+      "check": "fivefold_v0.16 preserved research_cycles/fivefold_v0.16/verify.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/exp/exp_ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-Long-term-forecasting/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/exp/exp_classification.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-classification/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/exp/exp_anomaly_detection.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/metrics_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-detection/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/exp/exp_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/layers/RevIN_mask.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/metrics_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-imputation/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/exp/exp_short_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/layers/RevIN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/models/ModernTCN.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/models/ModernTCN_Layer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/str2bool.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/ModernTCN/ModernTCN-short-term/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/data_provider/m4.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/data_provider/uea.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/exp_anomaly_detection.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/exp_classification.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/exp_imputation.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/exp_long_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/exp/exp_short_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/AutoCorrelation.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/Autoformer_EncDec.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/Conv_Blocks.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/DWT_Decomposition.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/Embed.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/FourierCorrelation.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/SelfAttention_Family.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/StandardNorm.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/Transformer_EncDec.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/layers/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/models/TimeMixer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/models/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/data_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/losses.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/m4_summary.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/TimeMixer/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/LICENSE",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/data_provider/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/data_provider/data_factory.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/data_provider/data_loader.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/experiments/exp_basic.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/experiments/exp_long_term_forecasting.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/experiments/exp_long_term_forecasting_partial.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/layers/Embed.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/layers/SelfAttention_Family.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/layers/Transformer_EncDec.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/layers/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/Flashformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/Flowformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/Informer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/Reformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/Transformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/iFlashformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/iFlowformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/iInformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/iReformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/model/iTransformer.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/utils/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/utils/masking.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/utils/metrics.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/utils/timefeatures.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved baselines/vendor/iTransformer/utils/tools.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/casper_convergence_v0.11/runs/pilot_001/prepared.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/CAMPAIGN.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/access.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/launch.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/summary.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/ModernTCN/worker.log",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/access.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/TimeMixer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/access.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed2026_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed42_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed42_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed42_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/seed42_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/full_001/iTransformer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/CAMPAIGN.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/access.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/launch.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/summary.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/ModernTCN/worker.log",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/access.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/TimeMixer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/OUTPUT_SEAL.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/access.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/launch.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/provenance.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_epochs.jsonl",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_record.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_scores.npz",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/seed17_weights.pt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/summary.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/supervisor.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved local/forecast_baselines_v0.17/pilot_001/iTransformer/worker.log",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/casper_convergence_v0.11/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/HARDWARE.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/PILOT_REPORT.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/RUN_AUTHORIZATION.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/TESTS.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/VERIFICATION_ModernTCN.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/VERIFICATION_TimeMixer.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/VERIFICATION_iTransformer.json",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/adapter.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/report.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/requirements-macos-arm64.txt",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/run.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/test_adapter.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/verify.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved research_cycles/forecast_baselines_v0.17/worker.py",
+      "passed": true
+    },
+    {
+      "check": "forecast_baselines_v0.17 preserved src/mfg_twin/supervisor.py",
+      "passed": true
+    },
+    {
+      "check": "matched table occupancy base_point",
+      "passed": true
+    },
+    {
+      "check": "matched table occupancy base_dual",
+      "passed": true
+    },
+    {
+      "check": "matched table occupancy rbf_point",
+      "passed": true
+    },
+    {
+      "check": "matched table occupancy rbf_dual",
+      "passed": true
+    },
+    {
+      "check": "matched table occupancy rbf_dual_nodwell",
+      "passed": true
+    },
+    {
+      "check": "matched table occupancy base_dual_nodwell",
+      "passed": true
+    },
+    {
+      "check": "complete fresh population",
+      "passed": true
+    },
+    {
+      "check": "prospective criterion still fails",
+      "passed": true
+    },
+    {
+      "check": "fresh table values base_dual",
+      "passed": true
+    },
+    {
+      "check": "fresh table values base_dual_nodwell",
+      "passed": true
+    },
+    {
+      "check": "fresh table values rbf_dual",
+      "passed": true
+    },
+    {
+      "check": "fresh table values rbf_dual_nodwell",
+      "passed": true
+    },
+    {
+      "check": "fresh table values following_point",
+      "passed": true
+    },
+    {
+      "check": "fresh table values tolerance_point",
+      "passed": true
+    },
+    {
+      "check": "fresh table values entry_3of5",
+      "passed": true
+    },
+    {
+      "check": "fresh table values global_set",
+      "passed": true
+    },
+    {
+      "check": "fresh table values context_point",
+      "passed": true
+    },
+    {
+      "check": "fresh table values context_hysteresis",
+      "passed": true
+    },
+    {
+      "check": "fresh table values context_set",
+      "passed": true
+    },
+    {
+      "check": "eleven methods retained",
+      "passed": true
+    },
+    {
+      "check": "compiled source audit.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source build_pdf.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/commissioning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/imu_learning_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/model.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/recovery.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/trace.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/tuning.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source figures/window_feasibility.pdf",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/attack.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/audit.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/extended.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/imu.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/noise.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/normal.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/selection.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/strata.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source generated/window.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source integrate_context.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source integrate_review.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source main.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source package.py",
+      "passed": true
+    },
+    {
+      "check": "compiled source references.bib",
+      "passed": true
+    },
+    {
+      "check": "compiled source references.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/comparators.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/context_experiment.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/context_method.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/context_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/discussion.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/earlier_results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/experiments.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/methods.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/provenance.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/results.tex",
+      "passed": true
+    },
+    {
+      "check": "compiled source sections/uncertainty.tex",
+      "passed": true
+    },
+    {
+      "check": "PDF bound",
+      "passed": true
+    },
+    {
+      "check": "at most15pages",
+      "passed": true
+    },
+    {
+      "check": "title preserved",
+      "passed": true
+    },
+    {
+      "check": "requested sole author",
+      "passed": true
+    },
+    {
+      "check": "22 real citations no unresolved keys",
+      "passed": true
+    },
+    {
+      "check": "recent version count19of22",
+      "passed": true
+    },
+    {
+      "check": "required disclosure index 100",
+      "passed": true
+    },
+    {
+      "check": "required disclosure index 104",
+      "passed": true
+    },
+    {
+      "check": "required disclosure at 140",
+      "passed": true
+    },
+    {
+      "check": "required disclosure at 149",
+      "passed": true
+    },
+    {
+      "check": "required disclosure Center locations and numerical bandwidth",
+      "passed": true
+    },
+    {
+      "check": "required disclosure inactive by return + 5 s",
+      "passed": true
+    },
+    {
+      "check": "required disclosure publicly accessible accepted author manuscript",
+      "passed": true
+    },
+    {
+      "check": "required disclosure The primary criterion therefore fails",
+      "passed": true
+    },
+    {
+      "check": "required disclosure 2.0123",
+      "passed": true
+    },
+    {
+      "check": "required disclosure OpenAI Codex assisted",
+      "passed": true
+    },
+    {
+      "check": "no stale Kaisar inaccessible claim",
+      "passed": true
+    },
+    {
+      "check": "human approval not invented",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue Overfull",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue undefined",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue Missing character",
+      "passed": true
+    },
+    {
+      "check": "no compiler issue ! LaTeX Error",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty fivefold.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty audit.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty imu.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty selection.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty normal_all.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty extended.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty forecast.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty noise.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty normal.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty attack.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty metrics.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty strata.tex",
+      "passed": true
+    },
+    {
+      "check": "generated table not empty window.tex",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/generated/matched_review.tex",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/generated/timing_review.tex",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/generated/strata_review.tex",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/figures/matched_review.pdf",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/review_extension_v0.18/REPORTING.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/review_extension_v0.18/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/review_extension_v0.18/PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/integrate_review.py",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding local/context_recovery_v0.19/final_001/results.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding local/context_recovery_v0.19/development_001/selected.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/context_recovery_v0.19/FINAL_FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/generated/context_final.tex",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/figures/context_final.pdf",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding manuscript_arx_rbf_v1.7/integrate_context.py",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/context_recovery_v0.19/REPORTING.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/context_recovery_v0.19/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/context_recovery_v0.19/INDEPENDENT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding research_cycles/context_recovery_v0.19/RESOURCE_DECISION.md",
+      "passed": true
+    },
+    {
+      "check": "new evidence binding docs/literature/RECOVERY_IMPROVEMENT_PRIOR_ART_2026-10-19.md",
+      "passed": true
+    }
+  ]
+}

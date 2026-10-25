@@ -1,0 +1,2162 @@
+[
+  {
+    "condition": "normal",
+    "id": "L19_Q1_17_normal",
+    "noise_seed": 1900017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q1_17_authorized_changes",
+    "noise_seed": 1900017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q1_17_brief_offset",
+    "noise_seed": 1900017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q1_17_persistent_offset",
+    "noise_seed": 1900017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q1_17_hold",
+    "noise_seed": 1900017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q1_17_slow",
+    "noise_seed": 1900017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q1_42_normal",
+    "noise_seed": 1900042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q1_42_authorized_changes",
+    "noise_seed": 1900042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q1_42_brief_offset",
+    "noise_seed": 1900042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q1_42_persistent_offset",
+    "noise_seed": 1900042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q1_42_hold",
+    "noise_seed": 1900042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q1_42_slow",
+    "noise_seed": 1900042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q1_2026_normal",
+    "noise_seed": 1902026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q1_2026_authorized_changes",
+    "noise_seed": 1902026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q1_2026_brief_offset",
+    "noise_seed": 1902026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q1_2026_persistent_offset",
+    "noise_seed": 1902026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q1_2026_hold",
+    "noise_seed": 1902026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q1_2026_slow",
+    "noise_seed": 1902026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U1_17_normal",
+    "noise_seed": 1905017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U1_17_authorized_changes",
+    "noise_seed": 1905017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U1_17_brief_offset",
+    "noise_seed": 1905017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U1_17_persistent_offset",
+    "noise_seed": 1905017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U1_17_hold",
+    "noise_seed": 1905017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U1_17_slow",
+    "noise_seed": 1905017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U1_42_normal",
+    "noise_seed": 1905042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U1_42_authorized_changes",
+    "noise_seed": 1905042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U1_42_brief_offset",
+    "noise_seed": 1905042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U1_42_persistent_offset",
+    "noise_seed": 1905042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U1_42_hold",
+    "noise_seed": 1905042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U1_42_slow",
+    "noise_seed": 1905042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U1_2026_normal",
+    "noise_seed": 1907026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U1_2026_authorized_changes",
+    "noise_seed": 1907026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U1_2026_brief_offset",
+    "noise_seed": 1907026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U1_2026_persistent_offset",
+    "noise_seed": 1907026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U1_2026_hold",
+    "noise_seed": 1907026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U1_2026_slow",
+    "noise_seed": 1907026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q2_17_normal",
+    "noise_seed": 1910017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q2_17_authorized_changes",
+    "noise_seed": 1910017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q2_17_brief_offset",
+    "noise_seed": 1910017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q2_17_persistent_offset",
+    "noise_seed": 1910017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q2_17_hold",
+    "noise_seed": 1910017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q2_17_slow",
+    "noise_seed": 1910017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q2_42_normal",
+    "noise_seed": 1910042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q2_42_authorized_changes",
+    "noise_seed": 1910042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q2_42_brief_offset",
+    "noise_seed": 1910042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q2_42_persistent_offset",
+    "noise_seed": 1910042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q2_42_hold",
+    "noise_seed": 1910042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q2_42_slow",
+    "noise_seed": 1910042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q2_2026_normal",
+    "noise_seed": 1912026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q2_2026_authorized_changes",
+    "noise_seed": 1912026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q2_2026_brief_offset",
+    "noise_seed": 1912026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q2_2026_persistent_offset",
+    "noise_seed": 1912026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q2_2026_hold",
+    "noise_seed": 1912026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q2_2026_slow",
+    "noise_seed": 1912026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U2_17_normal",
+    "noise_seed": 1915017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U2_17_authorized_changes",
+    "noise_seed": 1915017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U2_17_brief_offset",
+    "noise_seed": 1915017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U2_17_persistent_offset",
+    "noise_seed": 1915017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U2_17_hold",
+    "noise_seed": 1915017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U2_17_slow",
+    "noise_seed": 1915017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U2_42_normal",
+    "noise_seed": 1915042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U2_42_authorized_changes",
+    "noise_seed": 1915042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U2_42_brief_offset",
+    "noise_seed": 1915042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U2_42_persistent_offset",
+    "noise_seed": 1915042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U2_42_hold",
+    "noise_seed": 1915042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U2_42_slow",
+    "noise_seed": 1915042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U2_2026_normal",
+    "noise_seed": 1917026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U2_2026_authorized_changes",
+    "noise_seed": 1917026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U2_2026_brief_offset",
+    "noise_seed": 1917026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U2_2026_persistent_offset",
+    "noise_seed": 1917026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U2_2026_hold",
+    "noise_seed": 1917026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U2_2026_slow",
+    "noise_seed": 1917026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q3_17_normal",
+    "noise_seed": 1920017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q3_17_authorized_changes",
+    "noise_seed": 1920017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q3_17_brief_offset",
+    "noise_seed": 1920017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q3_17_persistent_offset",
+    "noise_seed": 1920017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q3_17_hold",
+    "noise_seed": 1920017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q3_17_slow",
+    "noise_seed": 1920017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q3_42_normal",
+    "noise_seed": 1920042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q3_42_authorized_changes",
+    "noise_seed": 1920042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q3_42_brief_offset",
+    "noise_seed": 1920042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q3_42_persistent_offset",
+    "noise_seed": 1920042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q3_42_hold",
+    "noise_seed": 1920042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q3_42_slow",
+    "noise_seed": 1920042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_Q3_2026_normal",
+    "noise_seed": 1922026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_Q3_2026_authorized_changes",
+    "noise_seed": 1922026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_Q3_2026_brief_offset",
+    "noise_seed": 1922026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_Q3_2026_persistent_offset",
+    "noise_seed": 1922026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_Q3_2026_hold",
+    "noise_seed": 1922026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_Q3_2026_slow",
+    "noise_seed": 1922026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U3_17_normal",
+    "noise_seed": 1925017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U3_17_authorized_changes",
+    "noise_seed": 1925017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U3_17_brief_offset",
+    "noise_seed": 1925017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U3_17_persistent_offset",
+    "noise_seed": 1925017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U3_17_hold",
+    "noise_seed": 1925017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U3_17_slow",
+    "noise_seed": 1925017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U3_42_normal",
+    "noise_seed": 1925042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U3_42_authorized_changes",
+    "noise_seed": 1925042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U3_42_brief_offset",
+    "noise_seed": 1925042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U3_42_persistent_offset",
+    "noise_seed": 1925042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U3_42_hold",
+    "noise_seed": 1925042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U3_42_slow",
+    "noise_seed": 1925042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "L19_U3_2026_normal",
+    "noise_seed": 1927026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "L19_U3_2026_authorized_changes",
+    "noise_seed": 1927026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "L19_U3_2026_brief_offset",
+    "noise_seed": 1927026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "L19_U3_2026_persistent_offset",
+    "noise_seed": 1927026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "hold",
+    "id": "L19_U3_2026_hold",
+    "noise_seed": 1927026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "slow",
+    "id": "L19_U3_2026_slow",
+    "noise_seed": 1927026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "L19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q1_17_normal",
+    "noise_seed": 2000017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q1_17_authorized_changes",
+    "noise_seed": 2000017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q1_17_brief_offset",
+    "noise_seed": 2000017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q1_17_persistent_offset",
+    "noise_seed": 2000017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q1_17_hold",
+    "noise_seed": 2000017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q1_17_slow",
+    "noise_seed": 2000017,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q1_42_normal",
+    "noise_seed": 2000042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q1_42_authorized_changes",
+    "noise_seed": 2000042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q1_42_brief_offset",
+    "noise_seed": 2000042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q1_42_persistent_offset",
+    "noise_seed": 2000042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q1_42_hold",
+    "noise_seed": 2000042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q1_42_slow",
+    "noise_seed": 2000042,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q1_2026_normal",
+    "noise_seed": 2002026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q1_2026_authorized_changes",
+    "noise_seed": 2002026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q1_2026_brief_offset",
+    "noise_seed": 2002026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q1_2026_persistent_offset",
+    "noise_seed": 2002026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q1_2026_hold",
+    "noise_seed": 2002026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q1_2026_slow",
+    "noise_seed": 2002026,
+    "parent": "Q1",
+    "plant": "Q1",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U1_17_normal",
+    "noise_seed": 2005017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U1_17_authorized_changes",
+    "noise_seed": 2005017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U1_17_brief_offset",
+    "noise_seed": 2005017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U1_17_persistent_offset",
+    "noise_seed": 2005017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U1_17_hold",
+    "noise_seed": 2005017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U1_17_slow",
+    "noise_seed": 2005017,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U1_42_normal",
+    "noise_seed": 2005042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U1_42_authorized_changes",
+    "noise_seed": 2005042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U1_42_brief_offset",
+    "noise_seed": 2005042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U1_42_persistent_offset",
+    "noise_seed": 2005042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U1_42_hold",
+    "noise_seed": 2005042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U1_42_slow",
+    "noise_seed": 2005042,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U1_2026_normal",
+    "noise_seed": 2007026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U1_2026_authorized_changes",
+    "noise_seed": 2007026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U1_2026_brief_offset",
+    "noise_seed": 2007026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U1_2026_persistent_offset",
+    "noise_seed": 2007026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U1_2026_hold",
+    "noise_seed": 2007026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U1_2026_slow",
+    "noise_seed": 2007026,
+    "parent": "Q1",
+    "plant": "U1",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q2_17_normal",
+    "noise_seed": 2010017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q2_17_authorized_changes",
+    "noise_seed": 2010017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q2_17_brief_offset",
+    "noise_seed": 2010017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q2_17_persistent_offset",
+    "noise_seed": 2010017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q2_17_hold",
+    "noise_seed": 2010017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q2_17_slow",
+    "noise_seed": 2010017,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q2_42_normal",
+    "noise_seed": 2010042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q2_42_authorized_changes",
+    "noise_seed": 2010042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q2_42_brief_offset",
+    "noise_seed": 2010042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q2_42_persistent_offset",
+    "noise_seed": 2010042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q2_42_hold",
+    "noise_seed": 2010042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q2_42_slow",
+    "noise_seed": 2010042,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q2_2026_normal",
+    "noise_seed": 2012026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q2_2026_authorized_changes",
+    "noise_seed": 2012026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q2_2026_brief_offset",
+    "noise_seed": 2012026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q2_2026_persistent_offset",
+    "noise_seed": 2012026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q2_2026_hold",
+    "noise_seed": 2012026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q2_2026_slow",
+    "noise_seed": 2012026,
+    "parent": "Q2",
+    "plant": "Q2",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U2_17_normal",
+    "noise_seed": 2015017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U2_17_authorized_changes",
+    "noise_seed": 2015017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U2_17_brief_offset",
+    "noise_seed": 2015017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U2_17_persistent_offset",
+    "noise_seed": 2015017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U2_17_hold",
+    "noise_seed": 2015017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U2_17_slow",
+    "noise_seed": 2015017,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U2_42_normal",
+    "noise_seed": 2015042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U2_42_authorized_changes",
+    "noise_seed": 2015042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U2_42_brief_offset",
+    "noise_seed": 2015042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U2_42_persistent_offset",
+    "noise_seed": 2015042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U2_42_hold",
+    "noise_seed": 2015042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U2_42_slow",
+    "noise_seed": 2015042,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U2_2026_normal",
+    "noise_seed": 2017026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U2_2026_authorized_changes",
+    "noise_seed": 2017026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U2_2026_brief_offset",
+    "noise_seed": 2017026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U2_2026_persistent_offset",
+    "noise_seed": 2017026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U2_2026_hold",
+    "noise_seed": 2017026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U2_2026_slow",
+    "noise_seed": 2017026,
+    "parent": "Q2",
+    "plant": "U2",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q3_17_normal",
+    "noise_seed": 2020017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q3_17_authorized_changes",
+    "noise_seed": 2020017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q3_17_brief_offset",
+    "noise_seed": 2020017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q3_17_persistent_offset",
+    "noise_seed": 2020017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q3_17_hold",
+    "noise_seed": 2020017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q3_17_slow",
+    "noise_seed": 2020017,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q3_42_normal",
+    "noise_seed": 2020042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q3_42_authorized_changes",
+    "noise_seed": 2020042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q3_42_brief_offset",
+    "noise_seed": 2020042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q3_42_persistent_offset",
+    "noise_seed": 2020042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q3_42_hold",
+    "noise_seed": 2020042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q3_42_slow",
+    "noise_seed": 2020042,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_Q3_2026_normal",
+    "noise_seed": 2022026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_Q3_2026_authorized_changes",
+    "noise_seed": 2022026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_Q3_2026_brief_offset",
+    "noise_seed": 2022026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_Q3_2026_persistent_offset",
+    "noise_seed": 2022026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_Q3_2026_hold",
+    "noise_seed": 2022026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_Q3_2026_slow",
+    "noise_seed": 2022026,
+    "parent": "Q3",
+    "plant": "Q3",
+    "plant_group": "matched",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U3_17_normal",
+    "noise_seed": 2025017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U3_17_authorized_changes",
+    "noise_seed": 2025017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U3_17_brief_offset",
+    "noise_seed": 2025017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U3_17_persistent_offset",
+    "noise_seed": 2025017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U3_17_hold",
+    "noise_seed": 2025017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U3_17_slow",
+    "noise_seed": 2025017,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 17,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U3_42_normal",
+    "noise_seed": 2025042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U3_42_authorized_changes",
+    "noise_seed": 2025042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U3_42_brief_offset",
+    "noise_seed": 2025042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U3_42_persistent_offset",
+    "noise_seed": 2025042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U3_42_hold",
+    "noise_seed": 2025042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U3_42_slow",
+    "noise_seed": 2025042,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 42,
+    "task": "S19"
+  },
+  {
+    "condition": "normal",
+    "id": "S19_U3_2026_normal",
+    "noise_seed": 2027026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "authorized_changes",
+    "id": "S19_U3_2026_authorized_changes",
+    "noise_seed": 2027026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "brief_offset",
+    "id": "S19_U3_2026_brief_offset",
+    "noise_seed": 2027026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "persistent_offset",
+    "id": "S19_U3_2026_persistent_offset",
+    "noise_seed": 2027026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "hold",
+    "id": "S19_U3_2026_hold",
+    "noise_seed": 2027026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  },
+  {
+    "condition": "slow",
+    "id": "S19_U3_2026_slow",
+    "noise_seed": 2027026,
+    "parent": "Q3",
+    "plant": "U3",
+    "plant_group": "shifted",
+    "seed": 2026,
+    "task": "S19"
+  }
+]

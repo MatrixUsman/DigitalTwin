@@ -1,0 +1,22 @@
+\section{Uncertainty and feasibility}\label{app:uncertainty}
+\subsection{Conditional geometric bounds}
+Let $\|v\|_s=\max_j|v_j|/s_j$, $d_t=\|x_t-x_t^0\|_s$ and $c_t=\|y_t-r_t\|_s$. If $\|x_t^0-r_t\|_s\le b_t$ and $\|n_t\|_s\le\eta_t$, the triangle and reverse triangle inequalities give
+\begin{equation}
+ \max(0,c_t-b_t-\eta_t)\le d_t\le c_t+b_t+\eta_t.\label{eq:bound}
+\end{equation}
+Scalar errors aligned in the same direction attain these extremes. For coordinate error boxes with half-widths $b_{t,j},\eta_{t,j}$, return within $\delta$ holds for every admissible pair exactly when
+\begin{equation}
+ \max_j\frac{|y_{t,j}-r_{t,j}|+b_{t,j}+\eta_{t,j}}{s_j}\le\delta.\label{eq:box}
+\end{equation}
+Each coordinate can attain the summed magnitude, proving necessity as well as sufficiency. If any $b_{t,j}+\eta_{t,j}>\delta s_j$, the condition is infeasible. E1 instead tests $c_t+b\le\delta$ with a maximum observed normal discrepancy $b$. That maximum combines model error and noise; Gaussian noise is unbounded. The tested rule is therefore an empirical heuristic, not a verified certificate. Dwell cannot repair $b>\delta$.
+
+\subsection{Earlier window-evidence feasibility diagnostic}
+The earlier E4 experiment assumes stationary zero-mean Gaussian AR(1) noise with known marginal deviations $\sigma_j$, correlations $\rho_j$, deterministic bias bounds $B_j$ and per-step deviation increments $L_j$. A window of length $m$ has mean variance
+\begin{equation}
+ V_{m,j}=\frac{\sigma_j^2}{m^2}\left[m+2\sum_{k=1}^{m-1}(m-k)\rho_j^k\right].
+\end{equation}
+Adding $B_j+L_j(m-1)/2$ and a Gaussian tail allowance to the absolute mean residual bounds the current deviation under these assumptions. Time allocation $\alpha_t=6\alpha/(\pi^2t^2)$ and a union bound over registered windows/channels give per-trace simultaneous coverage. This is standard error spending, not new confidence-sequence theory. Overlap does not invalidate the union bound, but unknown covariance and nonstationarity invalidate the specified noise argument.
+
+E4 tests 36 direct residual traces with windows $\{1,41,201\}$, four noise/correlation settings, three small within-tolerance motion patterns and three paired seeds. All 216 outcomes are retained. Its envelope certifies at least 95\% of normal endpoints on only 20/36 traces, failing the all-traces criterion. Longer windows can lose feasibility because the within-window variation allowance dominates noise averaging. At marginal noise 0.06/correlation 0.95, no correctly specified control certifies even settled motion; a deliberately independent-noise approximation appears more permissive without the stated guarantee.
+
+These residuals are synthetic and every true deviation is already within tolerance. The diagnostic cannot estimate unsafe-clearance risk or physical robot performance. The main contextual extension uses empirical instantaneous allowances rather than importing this supplied-parameter guarantee. Complete generator settings, proofs, all outcome rows and the originally rendered tables remain in the local reproduction records.

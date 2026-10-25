@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-24T08:25:03.772136+00:00",
+  "classification": "layout repair only: 8pt upper page-box expansion; PDF drawing stream unchanged",
+  "command": ".venv-pdf/bin/python manuscript_arx_rbf_v1.8/repair_trace_bounds.py",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "original_media_box": [
+    0.0,
+    0.0,
+    489.6,
+    259.2
+  ],
+  "new_media_box": [
+    0.0,
+    0.0,
+    489.6,
+    267.2
+  ],
+  "content_stream_sha256": "efd346f8de759d9dbdd4183f945187b482cfa73a5f50f6f76e0cee55bd689ef7",
+  "content_stream_exactly_preserved": true,
+  "new_signal_read_or_computed": false,
+  "sha256": {
+    "manuscript_arx_rbf_v1.7/figures/trace.pdf": "22c8c22090c9292bda91d54d22124dd3f4530dbe961f966015b0d7d9c965d70d",
+    "manuscript_arx_rbf_v1.8/figures/trace.pdf": "ff2353698b04b61c4ca10ed48c83b69b82bd6dc053dc9a6e6f32e6fb732441e7",
+    "manuscript_arx_rbf_v1.8/repair_trace_bounds.py": "ff75dc783e0c2962aee2a30d8581378967b4ed1737960d616c7363fb2311b4df"
+  }
+}

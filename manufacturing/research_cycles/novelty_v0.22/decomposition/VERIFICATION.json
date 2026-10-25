@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-24T07:49:08.328021+00:00",
+  "checks": 5480,
+  "episodes": 36,
+  "maximum_log_identity_roundoff": 1.2619572764549503e-07,
+  "inference": false,
+  "helper_import": false,
+  "freeze_sha256": "e52a8cbadce6c80b7e505fdc6b8681c011dd1ef6bea77f1491f2a35cd65c4fff",
+  "result_sha256": "8c72fe1844f17004421118ca75da83febdf92e5a0ae22fd0782464c044ae568e",
+  "interpretation": "Saved-array identities/arithmetic, not independent experiments or human review"
+}

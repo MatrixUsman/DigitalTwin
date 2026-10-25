@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-24T08:11:36.830465+00:00",
+  "synthetic_runtime": "local/gain_limited_v0.23/synthetic_runtime_001/runtime.json",
+  "synthetic_runtime_sha256": "96c2b28aa699d61e43ac52595bd4e22a7aa9f99fb8c8630ec0be62fd4ff721de",
+  "status": "completed",
+  "observed_wall_seconds": 2.027001249996829,
+  "observed_cpu_seconds": 0.989289,
+  "sampled_peak_rss_bytes": 290930688,
+  "initial_draft_epochs": 12,
+  "selected_prospective_epochs": 40,
+  "normal_arrays_opened": false,
+  "normal_fits_executed": false,
+  "complete_pilot_estimate": {
+    "raw_cpu": 52.886953000000005,
+    "with_50pct_margin": 79.33042950000001
+  },
+  "rejected_60epoch_estimate": {
+    "raw_cpu": 75.276073,
+    "with_50pct_margin": 112.9141095
+  },
+  "caps": {
+    "wall_seconds": 120,
+    "cpu_seconds": 90,
+    "rss_bytes": 1073741824,
+    "output_bytes": 52428800
+  },
+  "reason": "Largest tabulated fixed schedule within90CPU with50percent margin; hard monitor decisive",
+  "limitations": [
+    "Synthetic independent arrays are not actual normal dynamics",
+    "Correlated scientific linear fits may take more iterations; fixed8CPU allowance and50percent margin retained",
+    "Estimate does not guarantee cap or convergence"
+  ]
+}

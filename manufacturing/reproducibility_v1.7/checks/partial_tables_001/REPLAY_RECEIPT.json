@@ -1,0 +1,13 @@
+{
+  "scope": "Saved-outcome descriptive replay, not an experiment",
+  "checks": 7560,
+  "studies": [
+    18
+  ],
+  "inputs": {
+    "research_cycles/review_extension_v0.18/runs/replay_002/outcomes.json": "1277d1c79905e5ba06da1bf375bf457231f1fe2d8016dec330484b630fb99abe",
+    "research_cycles/review_extension_v0.18/runs/replay_002/summary.json": "5e70207d134c26257e88c20c873b98ca8112d789794945e82b2a5f130ca85cca"
+  },
+  "status": "passed",
+  "complete_requested_studies": false
+}

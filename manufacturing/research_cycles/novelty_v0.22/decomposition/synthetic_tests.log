@@ -1,0 +1,11 @@
+test_all_condition_intervals (test_core.SyntheticTests.test_all_condition_intervals) ... ok
+test_causal_prefix (test_core.SyntheticTests.test_causal_prefix) ... ok
+test_exact_upstream_score_parity (test_core.SyntheticTests.test_exact_upstream_score_parity) ... ok
+test_log_decomposition (test_core.SyntheticTests.test_log_decomposition) ... ok
+test_transition_alignment_and_padding (test_core.SyntheticTests.test_transition_alignment_and_padding) ... ok
+test_zero_error_reporting (test_core.SyntheticTests.test_zero_error_reporting) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

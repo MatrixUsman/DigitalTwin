@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-24T07:48:26.208271+00:00",
+  "command": [
+    "/Users/matrixusman/CUI/DigitalTwin/manufacturing/.venv-analysis-v022/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "research_cycles/novelty_v0.22/decomposition",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "status": "passed",
+  "returncode": 0,
+  "seconds": 1.2526513339980738,
+  "tests": 6,
+  "synthetic": true,
+  "bindings": {
+    "research_cycles/novelty_v0.22/decomposition/worker.py": "87a28d90293eda0c2be1e24abfa5875bc3444375cc68ea6e58c2db6b0513f7ef",
+    "research_cycles/novelty_v0.22/decomposition/run.py": "6b33588ef9a96aae91ea8584e33f506b7f9e00b832c655a248e8ce34e94c8167",
+    "research_cycles/novelty_v0.22/decomposition/test_core.py": "13f6a1ba1b0d14a27a0ec200ade6a6f700d627359001017919f2c7bf20a43c97",
+    "research_cycles/novelty_v0.22/decomposition/core.py": "f931fd0da3667a626b7875a6f95879d8ebfbbc68540c29aa341817189504ade6",
+    "research_cycles/novelty_v0.22/decomposition/freeze.py": "bd27196fdc2b6d497c37eb7926c2d48d76925aafbae10529423f60ec6e8fbcef",
+    "research_cycles/novelty_v0.22/decomposition/verify.py": "73cd51942eeb3b37afd2ec6b6421a9c1c92b454998bb73c6720a8611eb7e0c85"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "task": "Unitree-G1-29dof-Velocity (real robot)",
+  "policy": "paper G1 velocity expert (deployed)",
+  "obs_dim": 96,
+  "action_dim": 29,
+  "dt": 0.02,
+  "splits": {
+    "calibration.npz": "cali_real_new_1 (the eval script's CAL_BASE)",
+    "test.npz": "11 nominal + 39 anomalous runs across 8 categories"
+  },
+  "excluded_unusable": [
+    "initpos4 (empty)",
+    "deformability_1 (empty)",
+    "nominal_2m_1 (removed: contained a genuine OOD event)"
+  ],
+  "missing_vs_paper": "pushes (6), payload (5), collision/obstruction (5), deformable terrain (5) \u2014 recorded in old_logs/old_logs_newer directories that are no longer on this machine; paper N=78 vs 45 here",
+  "notes": "actions.csv values are raw policy outputs (do not rescale); onset steps unknown for real runs (onset=-1); several anomalous logs are only 1-22 steps long because the fault destabilized the robot immediately \u2014 the truncated log is itself the anomaly signature"
+}

@@ -1,0 +1,101 @@
+{
+  "classification": "synthetic algebraic software fixtures, not benchmark evidence",
+  "project": "manufacturing",
+  "operator": "Codex mechanism_audit subagent",
+  "seed": null,
+  "randomness": "none",
+  "dataset": null,
+  "split_hashes": null,
+  "preprocessing": "none",
+  "dependencies": "Python standard library only",
+  "interpreter": "/opt/homebrew/opt/python@3.15/bin/python3.15",
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "processor": "arm",
+  "command": "python3 research_cycles/novelty_v0.22/mechanism_algebra.py",
+  "cwd": "/Users/matrixusman/CUI/DigitalTwin/manufacturing",
+  "git_revision": "3139d7bd863b47372e0ff2329c312e2a7625ebc1",
+  "git_dirty": true,
+  "upstream_revision": "none executed; released RAPT formula inspected separately",
+  "script_sha256": "33ee06c5b1417c75de5ce311a03d591c5b348eeed49ea0f55865d151a45a79e2",
+  "started_utc": "2026-10-24T07:35:51.778846+00:00",
+  "completed_utc": "2026-10-24T07:35:51.824567+00:00",
+  "wall_seconds": 0.045743582988507114,
+  "cpu_seconds": 0.009813999999999996,
+  "checks": 8,
+  "configuration": {
+    "delta": 0.5,
+    "gains": [
+      0.0,
+      0.5,
+      0.9,
+      0.99,
+      1.0
+    ],
+    "fixed_prediction_error": 3.0,
+    "log_variances": [
+      0.0,
+      2.0,
+      6.0
+    ]
+  },
+  "coordinate_counterexample": {
+    "raw_error": 0.013899999999999968,
+    "transformed_error": 0.013899999999999968,
+    "raw_score": 0.00027335673950881924,
+    "transformed_score": 0.00027335673950881924
+  },
+  "conditional_gain_examples": [
+    {
+      "gain": 0.0,
+      "conditional_error": 0.5,
+      "protected_reference_error": 0.5
+    },
+    {
+      "gain": 0.5,
+      "conditional_error": 0.25,
+      "protected_reference_error": 0.5
+    },
+    {
+      "gain": 0.9,
+      "conditional_error": 0.04999999999999999,
+      "protected_reference_error": 0.5
+    },
+    {
+      "gain": 0.99,
+      "conditional_error": 0.0050000000000000044,
+      "protected_reference_error": 0.5
+    },
+    {
+      "gain": 1.0,
+      "conditional_error": 0.0,
+      "protected_reference_error": 0.5
+    }
+  ],
+  "variance_examples": [
+    {
+      "log_variance": 0.0,
+      "squared_error": 9.0,
+      "released_score": 9.0,
+      "nll_without_constant": 4.5
+    },
+    {
+      "log_variance": 2.0,
+      "squared_error": 9.0,
+      "released_score": 1.2180175491295144,
+      "nll_without_constant": 1.6090087745647572
+    },
+    {
+      "log_variance": 6.0,
+      "squared_error": 9.0,
+      "released_score": 0.022308769589997227,
+      "nll_without_constant": 3.0111543847949984
+    }
+  ],
+  "range_counterexample": {
+    "in_global_range": true,
+    "intent_distance": 0.5
+  },
+  "interpretation": "Existence/identity checks only. No claim about the fitted RAPT Jacobian or causes of its observed errors."
+}
