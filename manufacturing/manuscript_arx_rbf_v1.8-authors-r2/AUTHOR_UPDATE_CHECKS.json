@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-28",
+  "change": "Bilal affiliation and email supplied by user",
+  "scientific_body_unchanged": true,
+  "unchanged_transitive_inputs": 33,
+  "original_sealed_bindings_verified": 108,
+  "archive_members": 36,
+  "archive_rebuild_text_matches": true,
+  "visual_review": "Title page and all 20 pages via contact sheets; no overlap or clipping observed",
+  "pdf_sha256": "4de679c919f23e479cbdc2abc2c901c2cc0dc9848040586229a13b389a39e2c6",
+  "zip_sha256": "af8dbc6abae31d0f56716dde916052d33e79c386a0037706e049beeedff2a9b5",
+  "build_command": "python3 manufacturing/manuscript_arx_rbf_v1.8-authors-r2/build_pdf.py",
+  "working_directory": "/Users/matrixusman/CUI/DigitalTwin"
+}

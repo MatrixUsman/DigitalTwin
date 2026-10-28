@@ -1,0 +1,30 @@
+\section{Evaluation Metrics}\label{sec:metrics}
+\subsection{Prediction and point-level detection}
+For $N$ eligible targets and $d$ training-standardized channels, normal prediction error is
+\begin{equation}
+ \operatorname{MSE}=\frac{1}{Nd}\sum_{t,j}\left(\frac{y_{t,j}-r_{t,j}}{s_j}\right)^2,
+ \qquad \operatorname{RMSE}=\sqrt{\operatorname{MSE}}.
+\end{equation}
+Development also uses the 99th percentile of $a_t=\|e_t\|_\infty$. A low normal error is not an attack-detection result. The same training scales are retained for each model's assigned evaluation.
+
+Point counts compare the alarm bit with the command-corruption schedule on all eligible observations, without point adjustment:
+\begin{align}
+ P&=\frac{TP}{TP+FP},\quad R=\frac{TP}{TP+FN},\\
+ F_1&=\frac{2TP}{2TP+FP+FN}.
+\end{align}
+Precision is zero when there are no positive predictions. Average precision (AP) uses continuous entry scores: $\mathrm{AP}=\sum_k(R_k-R_{k-1})P_k$, grouping equal scores at common thresholds. It is undefined with no positive labels. Gate variants can therefore share AP while producing different alarm trajectories. The final audit has 207,900 eligible points and 25,002 schedule-positive points per method, with complete score coverage.
+
+\subsection{Benign alarms, event coverage and delay}
+Benign occupancy is $N_{\rm alarm}/N_{\rm benign}$ on wholly benign episodes. Starts per hour divide alarm rising edges by $N_{\rm benign}\Delta t/3600$, where $\Delta t=0.02$ seconds. The final benign population is 89,100 points, or 0.495 eligible hours. Short repeated alarms and one sustained alarm may have similar occupancy but very different start rates.
+
+An overlap hit is any alarm during an attack interval. A fresh hit requires a rising edge within that interval. Both denominators are all 108 events; a preexisting alarm can overlap without a fresh onset. Delays measure samples from schedule onset to the first qualifying overlap or rising edge, multiplied by $\Delta t$. Misses remain explicit, with undefined delays rather than silently removed or assigned zero. There is one scheduled intervention per attack episode; these are paired simulation conditions, not independent industrial incidents.
+
+\subsection{Physical return and clearance}
+Physical return is the first start of ten consecutive post-corruption states with $d_t\le0.1$. This retrospective evaluator label uses the uncorrupted same-plant trajectory and never enters inference. In native coordinates, its per-channel limits for $(q_1,q_2,\dot q_1,\dot q_2)$ are Q1 $(0.019922,0.022899,0.016145,0.015549)$, Q2 $(0.020068,0.022931,0.016379,0.015705)$ and Q3 $(0.020039,0.022972,0.016393,0.015788)$, with positions in rad and velocities in rad/s. These are declared diagnostic tolerances, not certified safety margins. The reported ``inactive by return + 5 s'' fraction counts an inactive alarm at or within 250 samples after that return, conditional on an overlap hit and an observed return. An alarm already inactive at return contributes zero delay. Consequently, 108/108 does not mean that all alarms persisted until recovery. Delay summaries retain the numbers of misses, absent returns and alarms still active at episode end; zero-delay cases are identified separately.
+
+The registered early-clear metric records a falling edge after first overlap but before stable physical return. Gap points count inactive observations between that hit and return, or the episode end when no return exists. A continuity break near onset can count even while instantaneous deviation is small. An explicitly post-study diagnostic separately checks true deviation at early falling edges; it does not replace the registered outcome.
+
+\subsection{Predeclared improvement and cost}
+RBF dual must preserve or improve hits, fresh hits and timely clears on each plant, while not increasing early-clear events, benign alarm points or pre-return gaps. It must also reduce pooled benign points or gaps by at least 10\% relative to base dual. These are descriptive registered requirements, not statistical noninferiority tests. Secondary metrics cannot rescue a failed primary criterion.
+
+Wall time, worker CPU, sampled resident memory and output size measure whole recorded runs. Shared computation prevents interpreting total time divided by the number of methods as per-method latency. Stochastic seeds describe computational/noise variation within the same experimental systems; no confidence interval is presented as if they were independent robot acquisitions.

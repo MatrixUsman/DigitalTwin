@@ -1,0 +1,11 @@
+# Author review and submission status
+
+The original revision 1.8 was prepared under the user's explicit instruction to pursue the v0.22 candidate and deliver a journal manuscript. That instruction authorizes the work, but human author approval of the resulting text is not inferred. The 28 October 2026 author update adds the four authors in the user-specified order and their supplied contact details. The selected title, no-funding/no-conflict declarations and accurate AI-assistance disclosure are retained; all authors must confirm applicable declarations. Organizational project ownership is not evidence of individual academic contributions.
+
+The named human authors must review the actual results, confirm contributions and byline eligibility, and approve the completed version before submission. No journal has been selected, no final author approval is claimed, and no upload, contact or submission has occurred. Journal-specific format, data/code policy and disclosure checks remain dependent on the chosen venue. Code/data are retained locally; an editable manuscript archive is not a public scientific release.
+
+Scientific readiness is governed by the completed v0.23 outcome and source comparison, not this document's formatting. The proposed lower-bound argument has close prior art. The final Automatica 2026 equations remain unverified, and absence of access is not a novelty finding. Any failed feasibility or comparison criterion must remain visible in the article and final handoff. The intended original-method contribution must not be silently replaced by a negative-results publication decision.
+
+The v0.23 pilot completed all 33 methods and failed its predeclared advancement criterion. No candidate attack campaign followed. The source audit also rejects a theorem-led novelty claim. The intended original contribution remains unmet; this revised manuscript documents the actual work but is not certified ready for submission as an original-method paper. Human review and venue-specific actions remain pending.
+
+Muhammad Bilal Zahoor is listed as Independent researcher, Lahore, Pakistan, with email Bilbzzah@gmail.com, as supplied by the user on 28 October 2026. Individual contribution roles and approval of the completed manuscript remain to be recorded separately.

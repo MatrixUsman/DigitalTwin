@@ -1,0 +1,62 @@
+[
+  {
+    "source": "CASPER original v3",
+    "evidence": "Existing controlled-speed intervention recording; older observer final evaluation already exposed",
+    "decision": "Exploratory only for outcome-informed redesign; not fresh ARX\u2013RBF confirmation",
+    "locator": "docs/FINAL_CAMPAIGN_REPORT_V0.1.md"
+  },
+  {
+    "source": "CASPER provider-v2 nominal/disturbance files",
+    "evidence": "Provider metadata identifies vibration, collision, impact, added weight and magnetic disturbance; no protected-command channel established",
+    "decision": "Real anomaly/prediction candidate; not a new cyberattack acquisition",
+    "locator": "https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2"
+  },
+  {
+    "source": "voraus-AD original",
+    "evidence": "1,174 original test executions remain closed to signal inspection in project records; fault labels",
+    "decision": "Separate real-fault track feasible after contract; cannot supply cyber/recovery ground truth",
+    "locator": "https://github.com/vorausrobotik/voraus-ad-dataset"
+  },
+  {
+    "source": "FactoryNet",
+    "evidence": "Mixture of original and imported sources; older project audit incomplete admission",
+    "decision": "Conditional original-subset lead; imported sources cannot count twice",
+    "locator": "https://huggingface.co/datasets/Forgis/FactoryNet"
+  },
+  {
+    "source": "NAVBOT25",
+    "evidence": "Real TurtleBot3 network traffic and flow features; primary article inspected",
+    "decision": "Network IDS task differs from joint-motion/recovery validation",
+    "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13080677/"
+  },
+  {
+    "source": "ROSIDS23",
+    "evidence": "ROS network traffic collection and derived flow features",
+    "decision": "Network IDS evidence, not validated current motion-model input/target",
+    "locator": "https://www.sciencedirect.com/science/article/pii/S2352340923008089"
+  },
+  {
+    "source": "HCRL RTPS attacks",
+    "evidence": "UGV command-injection/ARP packet and label recordings",
+    "decision": "Network/command-security lead; independent intended motion and physical-return truth unestablished",
+    "locator": "https://ocslab.hksecurity.net/Datasets/rtps-attack-dataset"
+  },
+  {
+    "source": "AttackMate Robotdog",
+    "evidence": "Attack and clean audit logs; host-log modality",
+    "decision": "Not an admitted kinematic detector benchmark",
+    "locator": "https://zenodo.org/records/18482763"
+  },
+  {
+    "source": "RAD, DSN 2022",
+    "evidence": "Command/power recording; 25 supervised runs with 3 collision anomalies in paper section IV",
+    "decision": "Different acquisition, but cyber origin and physical-return truth not established; dataset age separate from baseline publication window",
+    "locator": "https://arpangujarati.github.io/pdfs/dsn2022_paper_a.pdf"
+  },
+  {
+    "source": "ROS 2 rosbags, Zenodo 17649537",
+    "evidence": "Received Experiment_1 archive: 75.583721502 s normal and 40.160214439 s flooding run; cmd_vel/odom present, both IMU counts zero",
+    "decision": "Small conditional case-study lead; not enough independent attack repetitions; trusted command and physical return not established",
+    "locator": "https://zenodo.org/records/17649537"
+  }
+]

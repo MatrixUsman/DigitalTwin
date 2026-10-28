@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "project": "manufacturing",
+  "scope": "User-requested author order, affiliations, email addresses and PDF author metadata only",
+  "authors": [
+    "Muhammad Usman",
+    "Haiqa Mushtaq",
+    "Muhammad Inaam ul Haq",
+    "Muhammad Bilal Zahoor"
+  ],
+  "pending": "Bilal institutional affiliation/email; individual contribution records and manuscript approval",
+  "preserved_v1_8_bindings": 108,
+  "unchanged_transitive_inputs": 33,
+  "body_from_date_command_identical": true,
+  "archive_members": 36,
+  "archive_clean_compile_text_identical": true,
+  "page_count": 20,
+  "visual_review": "Title page inspected at 1500px; all 20 pages inspected in contact sheets; no clipping or overlap observed.",
+  "compile_warnings": "No overfull boxes, undefined references, missing characters or compile errors found.",
+  "pdf_sha256": "57e83c1790d3d7cc1e25f10632dd0c96e3cf03d2b7f6763788729117e0dfaa2c",
+  "archive_sha256": "e8407ee74d9f28428fedde66c636ec286ad855ce2b5a31de66fc05a3c703af13",
+  "build_receipt": "MAIN_BUILD_RECEIPT.json"
+}

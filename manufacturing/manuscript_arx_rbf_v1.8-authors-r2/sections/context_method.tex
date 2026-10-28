@@ -1,0 +1,17 @@
+\subsection{Bounded extension: contextual residual evidence}\label{sec:contextmethod}
+The matched replay diagnoses excessive retention of noisy entries, with a smaller concentration of errors around legitimate command steps. We therefore investigate a command-conditioned empirical allowance using the saved base ARX; RBF is not required by this extension. The context state depends only on approved command increments:
+\begin{align}
+ d^u_t&=\|(u_t-u_{t-1})/s\|_\infty,\\
+ h_t&=\max\{d^u_t,\exp(-1/m)h_{t-1}\},\quad h_0=0.
+\end{align}
+Training 90th/99th context quantiles define three bins. Each bin's width $w_t$ is the ascending 99th-percentile base residual score on separate normal calibration observations, with a global-quantile fallback below 30 observations. Context state evolves causally, but bin boundaries, widths and reference parameters are frozen. The top bin extends beyond the training maximum: this is empirical extrapolation, with context-support frequency reported, not a guaranteed uncertainty set.
+
+Using the instantaneous residual score $a_t$, define
+\begin{equation}
+ L_t=\max(0,a_t-w_t),\qquad U_t=a_t+w_t.
+\end{equation}
+The candidate enters when $L_t>0.1$, clears when $U_t\le0.1$, and otherwise retains its previous state. No dwell or residual averaging is added. The unresolved region is reported even when the alarm is inactive. If $w_t$ truly bounded the combined nominal-reference and measurement error in the same standardized infinity norm, triangle inequalities would give $L_t\le d_t\le U_t$. An empirical normal quantile does not establish that bound under attack or plant shift. We test the decision rule as a heuristic, without a coverage or safety theorem.
+
+The finite candidate set uses memories $m=10,40$ samples (0.2/0.8 s). K13 normal episodes fit bin boundaries; L13 normal episodes calibrate widths; M13 normal episodes select by benign alarm points, starts, mean allowance and then memory. These are exposed development data separated by task, not fresh validation. Two memories on each plant give six plant-specific fits across two candidate memory choices; no ARX or RBF weights are refitted. The selected candidate is frozen before new evaluation.
+
+The essential matched control uses identical context and entry decisions but clears at $a_t\le0.1$, isolating the extra width in clearance. Other controls use a constant global width, contextual entry without retention, the physical-tolerance point rule $a_t>0.1$, and a three-of-five original-threshold entry rule, alongside the historical base/RBF and following rules. Input-dependent thresholds, residual intervals and hysteresis already exist~\cite{inputthreshold,motionconformal,interval}; an observed gain would require a specific advantage over these ordinary controls before an originality argument.

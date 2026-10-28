@@ -1,0 +1,23 @@
+\section{Earlier comparisons and full final metrics}\label{app:earlier}
+
+\subsection{E1: original recovery comparison}
+E1 has 216 episodes, 13 methods and 135 interventions, including 27 with missing command context. Its calibration constrains stateful alarm occupancy on 20,900 normal points, unlike E5's point-score quantile. The 19-episode maximum band does not establish conformal coverage under task shift.
+The tested uncertainty-return rule reduces benign points from 621 for nominal fixed return to 309, but is inactive by return + 5 s for only 36/108 detected events with return. Its matched no-allowance control gives 140 benign points and 108/108; removing dwell gives 20 points but still 36/108. Thus the apparently favorable occupancy does not establish improved recovery. The episode-band control gives zero benign points yet 75 early-clear events. These earlier 13-method outcomes use a different calibration and include unknown-context events, so they are not pooled with E5. The local reproducibility records preserve every original row and alarm array.
+
+\subsection{E2: normal commissioning}
+The finite grid contains ARX orders 4, 8, 16 and 32 and finite impulse response lengths 16, 32 and 64, each with ridge $10^{-7}$, $10^{-5}$ or $10^{-3}$, on three plants: 63 fits. Fitting and selection precede 81 new normal episodes. The selected orders are 8, 16 and 32 with ridge $10^{-7}$. Forced-latch probes measure normal clearance feasibility, not post-attack recovery. The hard-plant reductions in empirical allowance do not establish a probabilistic or deterministic error bound.
+For Q1--Q3 the selected free-running ARX has standardized RMSE 0.00934, 0.00972 and 0.01439, versus 0.00948, 0.01020 and 0.01586 for ARX(4). Corresponding empirical allowances are 0.0553, 0.0716 and 0.1175; the last exceeds tolerance 0.1 and cannot support the tested certificate. Selected FIR allowances are 0.2322, 0.3971 and 0.4596 and all forced-latch probes fail. Treating the command directly as state is worse still (allowances 2.1344--2.2058). Full method/plant results remain in the executable records; these failures motivate the later correction study without constituting attack evidence.
+
+\subsection{E5 timing and matched-control strata}
+The original 17-method outcome matrix remains in Table~\ref{tab:audit}; the separately versioned replay adds base no-dwell. Table~\ref{tab:timingreview} reports all 18 timing summaries. Detection samples number 108 minus misses; clearance samples condition on observed return and detection. No physical return is absent in this E5 population. The CUSUM clearance distribution is empty because all 108 clearances are censored at five seconds. Physical-outside inactivity after detection is distinct from the original pre-return continuity gaps and is descriptive here.
+
+\begin{table*}[t]\centering\setlength{\tabcolsep}{4pt}
+\caption{Exposed E5 timing, all methods. Values are seconds; med./p95 are conditional delay summaries. Already off counts alarms inactive at physical return. Outside inactive counts samples above tolerance after detection; each sample is 0.02 s. Missing detections remain in the misses column.}\label{tab:timingreview}
+\input{generated/timing_review}
+\end{table*}
+\begin{table*}[t]\centering\setlength{\tabcolsep}{4pt}
+\caption{Matched base/RBF no-dwell strata (B/R). Each plant or task has 29,700 benign observations and 36 events; each attack family has 27 events and no wholly benign episode. All strata have complete overlap/fresh coverage, no absent return and no observed outside-tolerance inactivity for these two methods. Detection/clearance p95 values are seconds.}\label{tab:stratareview}
+\input{generated/strata_review}
+\end{table*}
+
+The original base/RBF dual plant differences remain Q1 2,397/2,522 benign points, Q2 2,646/2,532 and Q3 2,113/1,958. Only Q2 contains the original continuity gaps (two/three) and preexisting alarms reducing fresh hits (29/33 of 36). Every original precision/recall and episode outcome remains in the saved evidence package; the study does not treat rows or seeds as independent robot replications.

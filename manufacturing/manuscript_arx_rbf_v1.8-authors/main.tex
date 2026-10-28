@@ -1,0 +1,128 @@
+\documentclass[11pt,twocolumn]{article}
+\usepackage[a4paper,margin=0.50in,columnsep=0.25in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\hypersetup{pdftitle={ARX--RBF Motion Modeling for Cyberattack Detection and Recovery Monitoring in Industrial Robots},pdfauthor={Muhammad Usman; Haiqa Mushtaq; Muhammad Inaam ul Haq; Muhammad Bilal Zahoor}}
+\DeclareMathSizes{10}{10}{8}{6}
+% Use cached class resources with a 10/10.5pt body and compact journal headings.
+\makeatletter
+\renewcommand{\normalsize}{\@setfontsize\normalsize{10}{10.5}\abovedisplayskip 8pt plus 2pt minus 3pt\belowdisplayskip 8pt plus 2pt minus 3pt\abovedisplayshortskip 0pt plus 3pt\belowdisplayshortskip 5pt plus 3pt minus 3pt}
+\renewcommand\section{\@startsection{section}{1}{\z@}{-2.5ex plus -1ex minus -.2ex}{1.2ex plus .2ex}{\normalfont\large\bfseries\raggedright}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}{-2ex plus -.5ex minus -.2ex}{.8ex plus .2ex}{\normalfont\normalsize\bfseries\raggedright}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}{-1.8ex plus -.5ex minus -.2ex}{.6ex plus .2ex}{\normalfont\normalsize\itshape\raggedright}}
+\makeatother
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\setlength{\textfloatsep}{11pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\floatsep}{10pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\dbltopfraction}{0.9}
+\setcounter{dbltopnumber}{4}\setcounter{totalnumber}{6}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}
+\renewcommand{\dblfloatpagefraction}{0.8}
+\newtheorem{proposition}{Proposition}
+\newenvironment{proof}{\par\noindent\textit{Proof.}\ }{\hfill\textit{Q.E.D.}\par}
+\title{ARX--RBF Motion Modeling for Cyberattack Detection and Recovery Monitoring in Industrial Robots}
+\author{%
+\normalsize Muhammad Usman\textsuperscript{1}\quad Haiqa Mushtaq\textsuperscript{1}\\[3pt]
+\normalsize Muhammad Inaam ul Haq\textsuperscript{1}\quad Muhammad Bilal Zahoor\textsuperscript{2}\\[6pt]
+\small \textsuperscript{1}Department of Computer Science\\
+\small COMSATS University Islamabad, Sahiwal Campus\\
+\small Sahiwal, Pakistan\\[3pt]
+\small \textsuperscript{2}Lahore, Pakistan\\[5pt]
+\small Muhammad Usman: \href{mailto:me@usman.ee}{\nolinkurl{me@usman.ee}}\\
+\small Haiqa Mushtaq: \href{mailto:haiqamushtaq20@gmail.com}{\nolinkurl{haiqamushtaq20@gmail.com}}\\
+\small Muhammad Inaam ul Haq: \href{mailto:minaamulhaq@cuisahiwal.edu.pk}{\nolinkurl{minaamulhaq@cuisahiwal.edu.pk}}}
+\date{}
+\begin{document}
+\makeatletter
+\twocolumn[\begin{@twocolumnfalse}
+\vspace{-12pt}\maketitle\vspace{-12pt}
+\begin{abstract}
+A robot can remain displaced after an unauthorized command ends. A predictor that follows measurements may lose evidence of that displacement; an inaccurate protected reference may instead prolong an alarm after return. We examine command-driven motion references, nonlinear correction and recovery decisions under model mismatch. An initial frozen audit evaluates 17 controls on 189 synthetic episodes: RBF correction reduces benign alarm points by 2.01\%, below its declared 10\% target. A matched replay attributes most of the occupancy effect to alarm persistence. A second frozen campaign evaluates 11 methods on 216 new simulation episodes. A contextual envelope reduces benign alarms but fails its composite criterion because fresh-detection delay and inactivity during physical deviation increase. A transferred recurrent detector then detects only 9 of 24 interventions on an exposed simulation grid. Exact score decomposition shows task- and channel-dependent prediction-error and variance changes, rather than universal error absorption. We investigate a causal observation correction with hard gain and amplitude bounds, explicitly accounting for established residual-separation theory and ordinary linear controls. In a prospectively frozen 33-method normal-only feasibility test, the selected adapter reduces RMSE by 11.06\% but worsens an empirical sufficient-radius proxy by 8.37\% against the direct reference; a matched linear filter is also more accurate. The candidate therefore fails its advancement criterion. Retained outcomes, common-information controls and verified saved artifacts distinguish improved prediction from useful detection evidence. The investigation does not establish an original superior detector or real-robot recovery performance.
+\end{abstract}
+\noindent\textbf{Keywords:} digital twins; industrial robots; anomaly detection; recovery monitoring; system identification; model mismatch.
+\vspace{12pt}
+\end{@twocolumnfalse}]
+\makeatother
+\section{Introduction}
+
+An industrial robot does not necessarily return to its intended trajectory when an unauthorized command stops. Its position and velocity reflect the earlier disturbance, the controller's response and the plant dynamics. An alarm that clears as soon as prediction error falls can therefore disappear while the robot is still displaced. The opposite error is also possible: the robot returns, but an inaccurate reference keeps the alarm active. These two failures concern the meaning of the reference as much as the accuracy of the detector.
+
+Digital twins provide a useful setting for studying this problem because they connect observations with a representation of the physical process. Recent surveys cover their roles in security monitoring and infrastructure lifecycle security~\cite{securitysurvey,lifecycle}. Those roles require more than a low forecasting error. A reference must represent the behavior relevant to the decision. For an attack alarm, that may be the motion the robot would have followed under approved commands, rather than the next motion most consistent with recent measurements.
+
+Robotic anomaly detectors such as CASPER and its edge-computing successor learn regularities in external motion sensing~\cite{casper,edge}. Hybrid robot twins also combine mechanical, control and learned components~\cite{hybrid}. These approaches motivate prediction-based monitoring, but they do not make all prediction residuals interchangeable. An observation-following predictor may become accurate during a sustained unauthorized trajectory. A command-driven reference can retain the discrepancy, provided its clean initialization and approved-command history remain trustworthy. Its accuracy under legitimate changes then becomes central to false alarms and clearance.
+
+We ask: \emph{when does a command-driven motion reference retain useful evidence of sustained deviation and support alarm clearance under model mismatch?} The study assumes a protected copy of approved commands and noisy but honest joint measurements. It tests an explicit candidate: a stable autoregressive reference with a frozen radial-basis correction, followed by short- and long-window return checks. The correction is fitted on clean commissioning data; it cannot learn from an attack during monitoring. This choice makes the information boundary inspectable, but does not establish either algorithmic novelty or physical safety.
+
+The original investigation proceeds through five linked validation studies. An initial recovery experiment motivates a clean-data identification study; a separate inertial-sensing study checks predictor training under common inputs; a residual experiment isolates uncertainty in windowed return evidence; and a frozen candidate audit measures detection, false alarms, recovery and component effects together. Later designs use earlier outcomes as development evidence. They do not retroactively become independent confirmations of the earlier hypothesis. This distinction follows the broader need to separate model selection from security evaluation~\cite{arp}. Subsequent chronological cross-validation and author-code forecasting runs extend normal-prediction assessment. A matched-control replay then diagnoses the alarm mechanism, and a separate frozen campaign tests a bounded contextual-envelope replacement on new simulation conditions. A transferred recurrent detector and a no-fit score decomposition further distinguish observation prediction from sustained-deviation evidence. This motivates a final, explicitly normal-only feasibility test of gain-limited observation correction against matched ordinary controls.
+
+The comparisons jointly assess normal prediction, sustained attack evidence and clearance cost. Matched component removals distinguish reference accuracy from alarm persistence; a single $F_1$ value cannot resolve these effects.
+
+The supported findings are as follows. First, we specify and test a command-driven reference and alarm-state model with an explicit separation between observed residuals and evaluator-only physical return. Second, matched controls and ablations show that protected reference evolution, nonlinear correction and alarm persistence have different effects: the simpler reference retains the main benefit, while the proposed correction fails its improvement criterion. Third, a separately frozen contextual-envelope investigation demonstrates that reducing benign alarms can preserve an advantage over matched hysteresis while still violating delay and physical-support constraints against a simple reference. Commissioning and uncertainty diagnostics help interpret these outcomes. Finally, a complete constrained observation-correction candidate is tested against command-only, constrained linear, saturation and Kalman controls under one normal-data contract. Its prediction gain does not survive the declared sensitivity/error criterion. These are empirical and methodological findings; the lower-bound algebra has established antecedents, and the present evidence does not validate a new state-of-the-art detector.
+
+
+
+
+\section{Literature Review}\label{sec:literature}
+
+\subsection{Robot monitoring and reference identification}
+CASPER couples external inertial sensing with context-aware industrial-arm anomaly detection~\cite{casper}. The subsequent edge study develops real-time processing for related robotic monitoring~\cite{edge}. Their sensing modality differs from the joint positions, velocities and protected commands used here. We therefore examine independently implemented CNN predictors on a common nominal inertial recording in a separate track. An error measured in that track cannot be interpreted as attack-detection superiority over either complete published system.
+
+Ayankoso et al. combine robot mechanics, drives, control and learned uncertainty accommodation in a hybrid condition-monitoring twin~\cite{hybrid}. Data-driven robot calibration is itself a broad research area~\cite{calibration}; adding a learned correction to a nominal reference is not sufficient evidence of novelty. Classens et al. address structured mechanical-system identification using instrumental variables and block-coordinate descent~\cite{identification}. Our finite autoregressive search uses ordinary least-squares regularization and tests an application-specific recovery requirement, rather than extending that identification theory.
+
+The voraus-AD study provides real robot executions and MVT-Flow, a normalizing-flow anomaly detector~\cite{voraus}. It is a relevant public comparator for an independent real-robot track because both data and author code can be inspected. Its published full-execution likelihood is an offline episode score. Comparing it directly with an online alarm-clearance delay would change the task. FactoryNet extends public industrial data coverage and exposes setpoints, effort, feedback and context in a common schema~\cite{factory}. Its latest manuscript is a preprint, and its releases combine new acquisitions with repackaged sources. Independence must be assessed by acquisition, not by dataset name.
+
+\subsection{Forecasting, uncertainty and runtime decisions}
+ModernTCN examines convolutional time-series modeling~\cite{moderntcn}, iTransformer attends across variates for forecasting~\cite{itransformer}, and TimeMixer uses decomposable multiscale mixing~\cite{timemixer}. We execute their author model code on the common normal IMU prediction task. Their published forecasting benchmarks differ from robotic attack detection, so this transfer evaluates prediction under our declared inputs and budget. A more accurate predictor of corrupted motion can still be less useful for retaining attack evidence.
+
+Interval-observer fault detection already treats model uncertainty and observer design explicitly~\cite{interval}. FAIL-Detect calibrates uncertainty-aware runtime failure monitors from successful robot rollouts~\cite{fail}. We include a constant episode-band control inspired by that calibration principle in the earlier experiment, without claiming to reproduce its policy-specific signal construction or full method. Howard et al. develop time-uniform confidence sequences~\cite{howard}; our Gaussian window diagnostic uses simpler tail bounds and error spending under stated assumptions.
+
+Kaisar et al. combine a kinematic twin, supervisory handover and consistency-gated recovery~\cite{kaisar}. We inspected their publicly accessible accepted author manuscript, not a verified final publisher PDF. Their Eq.\ 31 averages exponential squared-distance agreement between EKF and kinematic position estimates. Table 4 requires cleared alarm severity, observer agreement and minimum rescue duration for RESCUE-to-HANDOVER. Its direct RESCUE-to-NOMINAL guard lists cleared severity, observer agreement and a small path-error proxy for consecutive steps; a minimum rescue duration is not separately listed for that transition. Algorithm 1 synchronizes the kinematic estimate to the EKF in NOMINAL and resets it to the last trusted state on RESCUE entry. Its measurement decoupling is therefore mode-specific. Our reference stays decoupled after initialization, but this difference in a downstream-command attack task does not establish a new recovery principle or superiority over their pose-sensor attack/controller architecture. RESCUE uses counterfactual interventions to evaluate the usefulness of runtime alarms~\cite{rescue}. Our counterfactual serves a narrower purpose: measuring when a simulated plant returns to the trajectory it would have followed without command corruption.
+
+Input-dependent residual thresholds already compensate for model uncertainty~\cite{inputthreshold}. Schubert et al. predict maneuver-dependent motion-control error and compare conformalized bounds with available lateral margin~\cite{motionconformal}. These precedents constrain any claim based on command context, nominal-error intervals or comparison with a physical tolerance. Our empirical envelopes cannot inherit their assumptions or coverage guarantees.
+
+Evaluation also matters. TSB-AD examines the reliability of time-series anomaly-detection comparisons~\cite{tsbad}, while VUS studies accuracy measures for temporal anomalies~\cite{vus}. We retain unadjusted point metrics and separately report event detection and recovery. We do not adopt point adjustment or optimize a threshold on test attacks.
+
+\subsection{Limitations and unresolved comparison requirements}
+The literature supports the individual ingredients of prediction, correction, uncertainty calibration and persistent alarm state. It does not justify treating their combination here as automatically new. The principal comparison gaps are specific: different sensing modalities for CASPER, a full-execution objective for MVT-Flow, unresolved implementation correspondence for some published systems, and missing physical-return labels in public fault data. These are limits on what our experiment can establish, not evidence that the cited systems are generally defective. A claim of superiority requires a compatible implementation and matched information access.
+
+
+\input{sections/methods}
+
+\input{sections/experiments}
+
+\input{sections/metrics}
+
+\input{sections/comparators}
+
+\input{sections/results}
+
+\input{sections/conditional_prediction}
+
+\input{sections/gain_method}
+
+\input{sections/gain_results}
+
+\input{sections/discussion}
+
+\section{Conclusion}\label{sec:conclusion}
+This investigation separates prediction accuracy, alarm entry and recovery evidence under a protected-command threat model. The original RBF correction fails its declared improvement criterion. The missing matched no-dwell control shows that most of its apparent occupancy advantage comes from persistence: base and RBF give 1,198 and 1,195 benign points under the same policy, with increased alarm fragmentation.
+
+A bounded replacement uses frozen command-conditioned empirical residual intervals. On 216 newly frozen synthetic episodes, it sharply reduces benign burden and improves recovery support relative to matched contextual hysteresis. It nevertheless fails the prospective composite criterion against base dual because detection is slower, outside-tolerance inactivity increases and fewer events satisfy the joint requirement. The constant-width control also prevents attributing the result solely to conditioning. The observed component benefit does not establish an overall improvement under the declared constraints. Reference conditioning, interval decisions and hysteresis are established ingredients; a distinctive worthwhile contribution and compatible complete published-system comparison remain unresolved. The subsequent recurrent-detector decomposition shows mixed channel behavior and does not identify a universal absorption mechanism. A finite gain-limited correction study then improves normal prediction error but fails its sensitivity/error advancement criterion against ordinary controls. Its familiar contraction and saturation bounds do not supply theorem novelty. Future confirmation requires a substantively justified mechanism, genuinely fresh conditions after any outcome-informed redesign, and real-robot evidence before claims of industrial recovery performance.
+
+\section*{Declarations}
+\paragraph{Funding and competing interests.} No funding or competing interests were declared.
+\paragraph{Data and code availability.} Versioned code, configurations, results and a reproducibility inventory are retained locally. No public repository release is claimed. Third-party data remain subject to provider terms; Appendix~\ref{app:provenance} records source identifiers and hashes. The article contains its supporting scientific sections; executable code, fitted artifacts and episode outputs require the separately prepared local reviewer package. A source/PDF archive alone is insufficient to rerun experiments.
+\paragraph{AI assistance.} OpenAI Codex assisted with literature searches, code, experiment execution, analysis, writing and editing. The software checks and AI-assisted manuscript audits reported here are not independent scientific replication or human peer review.
+\appendix
+\input{sections/uncertainty}
+\input{sections/earlier_results}
+\input{sections/provenance}
+\begingroup\raggedright\fontsize{9.6}{10}\selectfont
+\input{references}
+\endgroup
+\end{document}

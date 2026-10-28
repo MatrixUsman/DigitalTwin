@@ -1,0 +1,42 @@
+# Autonomous publication-readiness investigation v0.25
+
+28 October 2026. Status: **initial evidence-eligibility audit complete; original contribution and journal readiness not achieved**. Manufacturing only. User authorized proceeding without supplying more material. This authorizes useful research, public-source admission and bounded local work; no publication, external contact, spending or unbounded training is inferred. No new model was fitted in this milestone.
+
+## Correction to the preceding conversation
+
+The previous basic summary focused on the latest ARX–RBF manuscript and omitted an earlier real-controller evaluation. `docs/FINAL_CAMPAIGN_REPORT_V0.1.md` records an eleven-method CASPER controller campaign on one real acquisition and eight scheduled velocity-change intervals. O-RC had precision 0.4785, point recall 0.008805, F1 0.017292 and 185.98 normal alarm episodes/hour; the ordinary AR-4 had F1 0.018846 and T-32 0.074737 with other costs. These are not ARX–RBF results, general cyberattack accuracy or independent physical-recovery truth. Therefore “no real-data attack-related evaluation anywhere in this project” is too broad; “no validated current ARX–RBF real-robot attack/recovery result” remains accurate. Preserve this correction and the original historical report. All eight controller intervals have been exposed. A new representation of the same acquisition does not restore an independent holdout.
+
+## Sources screened
+
+Existing local records and new primary-source metadata were screened for the actual claim, not generic anomaly-detection labels. This is a bounded screen, not a systematic review or proof that no suitable dataset exists. Search phrases included robot cyberattack dataset ROS, robotic arm command-injection recordings, robot joint-trajectory attacks, and robotic-arm RAD.
+
+| Source | Evidence reviewed | Decision |
+|---|---|---|
+| [CASPER original v3](docs/FINAL_CAMPAIGN_REPORT_V0.1.md) | Existing controlled-speed intervention recording; older observer final evaluation already exposed | Exploratory only for outcome-informed redesign; not fresh ARX–RBF confirmation |
+| [CASPER provider-v2 nominal/disturbance files](https://www.kaggle.com/datasets/hkayan/industrial-robotic-arm-imu-data-casper-1-and-2) | Provider metadata identifies vibration, collision, impact, added weight and magnetic disturbance; no protected-command channel established | Real anomaly/prediction candidate; not a new cyberattack acquisition |
+| [voraus-AD original](https://github.com/vorausrobotik/voraus-ad-dataset) | 1,174 original test executions remain closed to signal inspection in project records; fault labels | Separate real-fault track feasible after contract; cannot supply cyber/recovery ground truth |
+| [FactoryNet](https://huggingface.co/datasets/Forgis/FactoryNet) | Mixture of original and imported sources; older project audit incomplete admission | Conditional original-subset lead; imported sources cannot count twice |
+| [NAVBOT25](https://pmc.ncbi.nlm.nih.gov/articles/PMC13080677/) | Real TurtleBot3 network traffic and flow features; primary article inspected | Network IDS task differs from joint-motion/recovery validation |
+| [ROSIDS23](https://www.sciencedirect.com/science/article/pii/S2352340923008089) | ROS network traffic collection and derived flow features | Network IDS evidence, not validated current motion-model input/target |
+| [HCRL RTPS attacks](https://ocslab.hksecurity.net/Datasets/rtps-attack-dataset) | UGV command-injection/ARP packet and label recordings | Network/command-security lead; independent intended motion and physical-return truth unestablished |
+| [AttackMate Robotdog](https://zenodo.org/records/18482763) | Attack and clean audit logs; host-log modality | Not an admitted kinematic detector benchmark |
+| [RAD, DSN 2022](https://arpangujarati.github.io/pdfs/dsn2022_paper_a.pdf) | Command/power recording; 25 supervised runs with 3 collision anomalies in paper section IV | Different acquisition, but cyber origin and physical-return truth not established; dataset age separate from baseline publication window |
+| [ROS 2 rosbags, Zenodo 17649537](https://zenodo.org/records/17649537) | Received Experiment_1 archive: 75.583721502 s normal and 40.160214439 s flooding run; cmd_vel/odom present, both IMU counts zero | Small conditional case-study lead; not enough independent attack repetitions; trusted command and physical return not established |
+
+For prior CASPER/FactoryNet/voraus records, evidence is the dated project audit; unchanged live availability is not assumed. New source claims above come from primary dataset/article pages checked in this turn. Network and log datasets were not downloaded or silently substituted for the industrial-arm study. Their existence does not validate physical monitoring. RAD is a 2022 data source, not an eligible recent-method baseline by default.
+
+## Actual new acquisition and metadata check
+
+Zenodo record 17649537 API identifies CC-BY-4.0 and Experiment_1.zip with 1,644,570 bytes, provider MD5 e8adc1796821264f39580f6aa97c6388. Downloaded only that small file, verified exact size/provider checksum, and recorded SHA256 a11126189729e6ab15e1416643bf4522d0024f51c24c319743a4d0832fd36da4. Raw file is unchanged/read-only under ignored `datasets/raw/ros2_zenodo_17649537/`. The 3.1 GB camera archive was not downloaded. Raw network data or robot commands were not replayed.
+
+Inspected ZIP member names and metadata.yaml only; no SQLite message payloads read. E1-1 has 7,120 messages, including 1,501 cmd_vel and 908 odometry messages; E1-2 has 10,355, including 6,630 cmd_vel and 1,130 odometry. Each lists ten topics, and both /imu counts are zero. Topic totals independently sum to reported totals. Duration is recorded bag duration, not certified attack duration or aligned ground truth. The topic list does not establish a separately protected approved-command stream. One normal run and one attack run cannot be split into many independent acquisitions. Metadata/source inspection does not establish physical hardware provenance, all attack boundaries, synchronization, or return truth; those remain source-admission questions.
+
+`audit_metadata.py` is a standard-library, read-only metadata checker and original-manuscript preservation check. Executed from manufacturing with `python3 research_cycles/journal_evidence_v0.25/audit_metadata.py`; all topic count checks and all 108 original v1.8 sealed bindings passed. Receipts, raw metadata and Python/platform/script identities: `local/journal_evidence_v0.25/`. Initial sandbox urllib metadata request failed DNS; the authorized external-network retry succeeded. The first payload download succeeded and was checksum-verified. No training retry or test-score search occurred.
+
+## Readiness decision and next bounded work
+
+No screened source is currently admitted as sufficient fresh real industrial-arm cyberattack-and-recovery evidence for the unchanged ARX–RBF claim. This is an admission result, not a claim of universal unavailability. The ROS 2 source is a possible limited mechanism demonstration after hardware/topic/annotation verification, but represents a mobile robot and cannot silently become validation of the industrial-arm manuscript. voraus-AD is the clearest untouched numerical fault-evaluation source, but would answer a different claim. Original-method research remains the objective; neither a network IDS paper nor an honest negative case study automatically replaces it.
+
+The next bounded research milestone is to resolve remaining primary-source physical-recording/command/annotation correspondence for promising leads and establish whether any supports a defensible original mechanism and reserved evaluation. If a compatible source is admitted, prepare its exact feature/split contract and ordinary-control compatibility pilot, with resource estimates based on a small measured run. Do not open reserved test signals merely to look for high scores. Earlier failed ARX–RBF and neural candidates remain failed; new independent evidence does not by itself prove their improvement. Further source investigation and routine preparation can proceed under the user's current authorization without requesting the same permission again.
+
+A completed technical manuscript cannot substitute for actual author contribution declarations, author review, or target-journal selection. No human approval is recorded. No revised successful-results manuscript or journal-ready certificate is issued. No experiment is running.

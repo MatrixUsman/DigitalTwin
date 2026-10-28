@@ -1,0 +1,55 @@
+\section{A constrained observation-correction candidate}\label{sec:gain}
+We investigate whether observation correction can reduce nominal mismatch while preserving an explicit response to sustained displacement. The hypothesis concerns the useful trade-off achieved by a complete causal monitor. Protected prediction already appears in robotic security~\cite{robotactive}. Bi-Lipschitz residual separation~\cite{iresnet}, Lipschitz-autoencoder anomaly separation~\cite{lipschitzauto}, and support-conditional pointwise reconstruction-error bounds~\cite{diffint} also predate this construction. The construction below is not presented as a new theorem.
+
+\subsection{Information and correction contract}
+Let $b_t=B(u_{\leq t})$ be a normally fitted, frozen motion reference based on protected authorized commands. Fixed training scales transform all four observation channels. Define $z_t=y_t-b_t$, and let $c_t$ contain only causal protected command context. A small observation-correction model has the form
+\begin{align}
+ h_t&=\tanh(W_hh_{t-1}+W_zz_{t-1}+W_cc_t+d),\label{eq:gainstate}\\
+ a_t&=W_oh_t,\qquad \mu_t=b_t+a_t.
+\end{align}
+The induced infinity norm is the maximum absolute row sum. Hard parameter constraints enforce
+\begin{equation}
+ \begin{aligned}
+ \|W_h\|_\infty&\leq\rho<1,&\quad \|W_z\|_\infty&\leq\beta,\\
+ \|W_o\|_\infty&\leq\gamma,&\quad \frac{\gamma\beta}{1-\rho}&\leq\kappa<1.
+ \end{aligned}
+ \label{eq:gainconstraints}
+\end{equation}
+The score is $R_t=\max_j |y_{t,j}-\mu_{t,j}|/s_{t,j}$, with $0<s_{t,j}\leq s_{\max}$ fixed from normal data or determined only by protected command context. Observation-conditioned scale changes would require their own analysis. The initial state, resets, timing, reference and normalization are part of the information contract; an unexamined measurement-derived phase or reset can invalidate it.
+
+\subsection{Conditional sensitivity and its limitations}
+Compare two observation streams with identical protected commands, weights, initialization and reference. Write their observation difference as $\delta_t$ and their correction difference as $\Delta a_t$. The Lipschitz property of $\tanh$ and the row-sum bounds give
+\begin{equation}
+ \|\Delta a_t\|_\infty\leq\gamma\beta
+ \sum_{s<t}\rho^{t-1-s}\|\delta_s\|_\infty.
+ \label{eq:fadingbound}
+\end{equation}
+For a displacement plateau of magnitude $D$, with no larger earlier displacement, this is at most $\kappa D$. If $r_t^0$ is the nominal residual, the reverse triangle inequality yields
+\begin{equation}
+ \|r_t^a\|_\infty\geq (1-\kappa)D-\|r_t^0\|_\infty.
+ \label{eq:plateaubound}
+\end{equation}
+Thus a genuine nominal bound $\|r_t^0\|_\infty\leq E$ gives the sufficient strict-alarm condition
+\begin{equation}
+ D>\frac{E+\tau s_{\max}}{1-\kappa}\quad\Longrightarrow\quad R_t>\tau.
+ \label{eq:gainradius}
+\end{equation}
+This argument is a direct contractive-residual calculation, related to the lower distance bound for invertible residual maps~\cite{iresnet}. It is conditional on the stated pairing and bounds. A finite development maximum is not a bound on all future nominal errors. An observed displacement is not an attack-command amplitude, and a normalized radius is not a physical safety tolerance. After a larger transient, Eq.~\eqref{eq:fadingbound}, rather than the plateau simplification, must account for its remaining history. The analysis concerns real-arithmetic maps represented by the fitted weights; numerical norm checks and finite floating-point tests do not establish a verified machine-arithmetic operational guarantee. Neither this bound nor an alarm falling edge certifies permanent recovery.
+
+Amplitude saturation supplies another ordinary bound. If $\|a_t\|_\infty\leq C$ for both streams, then $\|\Delta a_t\|_\infty\leq2C$. The strongest of these two elementary sufficient radii is
+\begin{equation}
+ D_{\rm suff}=\min\!\left\{
+ \frac{E+\tau s_{\max}}{1-\kappa},\,
+ E+\tau s_{\max}+2C\right\},
+ \label{eq:capradius}
+\end{equation}
+using the gain term only when $\kappa<1$. For Eq.~\eqref{eq:gainstate}, $C\leq\gamma$. A clipped linear correction can also exploit the amplitude bound; excluding it would overstate the neural construction's distinction.
+
+\subsection{Why ordinary controls are decisive}
+A command-only reference has $\kappa=0$ and the strongest displacement sensitivity, although its nominal error can be large. A leaky residual filter,
+\begin{equation}
+ a_t=\rho a_{t-1}+(1-\rho)\kappa z_{t-1},
+\end{equation}
+has the same gain budget. A multivariate finite-impulse-response correction satisfies it when the sum of its lag-matrix norms is at most $\kappa$. The nonlinear model must therefore improve nominal fit sufficiently to offset the sensitivity it spends, under the same information, reference, scale and normal-data selection. Command-context capacity and saturation also require matched controls.
+
+The inspected 2025 recurrent fault-diagnosis preprint~\cite{renpreprint} gives an upper response-gain bound, treats the corresponding target-fault sensitivity condition as necessary, and leaves a sufficient sensitivity construction to future work. Its later journal version (doi:~\url{https://doi.org/10.1016/j.automatica.2026.113096}) has not been inspected at equation level here; the preprint's stated future work is not evidence of an open gap in that final article. More broadly, contraction and reconstruction-based anomaly separation already exist~\cite{iresnet,lipschitzauto,diffint}. Any originality claim must concern a demonstrably distinct and useful complete method beyond those results, rather than the bound, a new name or a change of application alone.
